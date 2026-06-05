@@ -1,0 +1,461 @@
+{
+  "scope_id": "full-private-replay",
+  "files": [
+    {
+      "source": "03-role-pool/private/roles/ROLE-CALM-SELECTIVE-OPERATOR/role-card.json",
+      "view_file": "001-role-card.json",
+      "sha256": "e6aa8cf0490fb3c41032f6273f9134b020596e0cf0ab32fcd13df18db6fe28da",
+      "size": 2026
+    },
+    {
+      "source": "03-role-pool/private/roles/ROLE-EMOTIONAL-CAREFUL-READER/role-card.json",
+      "view_file": "002-role-card.json",
+      "sha256": "22595d0f3d5e7ed0a2500bc296719eeb88817db84d04da4452ca8f57261c9eaa",
+      "size": 1614
+    },
+    {
+      "source": "03-role-pool/private/roles/ROLE-HONEST-EXTREME-FACT-CRITIC/role-card.json",
+      "view_file": "003-role-card.json",
+      "sha256": "6052325dbac9e8dcc85ef7fd8d3a69282244b3aab8e1cdf22c2ee44933428c3b",
+      "size": 1913
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/private/actors/ASSIGN-P1-A/assignment.json",
+      "view_file": "004-assignment.json",
+      "sha256": "cd3221c60603c3f71640721dd1d308729eaed665276799e3ac74cf773be87935",
+      "size": 373
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/private/actors/ASSIGN-P1-B/assignment.json",
+      "view_file": "005-assignment.json",
+      "sha256": "64704f1b5c9cd92b00275a1649d58a786232cdd0b68f30e99edce3990834cebf",
+      "size": 361
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/private/actors/ASSIGN-P1-A/turns/round-001-opening/think.private.json",
+      "view_file": "006-think.private.json",
+      "sha256": "bc9c666d8c1734db7a8d4fffadb7d764fb4c77b27470c224dab7fab0da6acaea",
+      "size": 1290
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/private/actors/ASSIGN-P1-A/turns/round-001-opening/say.public.json",
+      "view_file": "007-say.public.json",
+      "sha256": "b93aa43df49187fe1fa6c4900a066dcb1050c25cae218cda0fe9bcbe17edf6ba",
+      "size": 355
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/private/actors/ASSIGN-P1-A/turns/round-001-opening/filing-metadata.private.json",
+      "view_file": "008-filing-metadata.private.json",
+      "sha256": "67fc2e97c15a0b6cd8ae01461811ced62e9c613af27a9cc83263091f27a38ee6",
+      "size": 472
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/private/actors/ASSIGN-P1-A/turns/round-001-opening/behavior-fidelity.private.json",
+      "view_file": "009-behavior-fidelity.private.json",
+      "sha256": "58930c619efcbfebad925ab1eadf4c3cf68c08260200bf98ef40e24742bcfcec",
+      "size": 238
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/private/actors/ASSIGN-P1-A/turns/round-002-direct_rebuttal/think.private.json",
+      "view_file": "010-think.private.json",
+      "sha256": "2749f35548dce022bccb859d70f5b008ee7aa253e5398e42a63973a3e2476098",
+      "size": 1292
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/private/actors/ASSIGN-P1-A/turns/round-002-direct_rebuttal/say.public.json",
+      "view_file": "011-say.public.json",
+      "sha256": "74f92352fd3bea299dbad2a293c73157a5a2428d299767e7ab025a33c978477f",
+      "size": 382
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/private/actors/ASSIGN-P1-A/turns/round-002-direct_rebuttal/filing-metadata.private.json",
+      "view_file": "012-filing-metadata.private.json",
+      "sha256": "0e989db2c9c3ff779db67753b2afdcbdd91fd277afa30bdee7c9704ec85b4c6b",
+      "size": 472
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/private/actors/ASSIGN-P1-A/turns/round-002-direct_rebuttal/behavior-fidelity.private.json",
+      "view_file": "013-behavior-fidelity.private.json",
+      "sha256": "fa2f55a66b101d266dd3898ba0d0e129b6ea3473872c8b08c6a8d55f70ad4dbb",
+      "size": 238
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/private/actors/ASSIGN-P1-A/turns/round-003-peer_cross_challenge/think.private.json",
+      "view_file": "014-think.private.json",
+      "sha256": "33e7c3540cc8409cbced25961ce3f7d4e39ae636ab09830ba28fe5de3320c0bf",
+      "size": 1303
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/private/actors/ASSIGN-P1-A/turns/round-003-peer_cross_challenge/say.public.json",
+      "view_file": "015-say.public.json",
+      "sha256": "6c43db188219091eb2c54788a1c8b8a7738d16b20a4cc7a8ccc48a8d45f11051",
+      "size": 393
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/private/actors/ASSIGN-P1-A/turns/round-003-peer_cross_challenge/filing-metadata.private.json",
+      "view_file": "016-filing-metadata.private.json",
+      "sha256": "ca13d9acf1103bd99e7c19c6dbc622e3061a8f60f9c80b4b7b7b3c10fa258c45",
+      "size": 472
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/private/actors/ASSIGN-P1-A/turns/round-003-peer_cross_challenge/behavior-fidelity.private.json",
+      "view_file": "017-behavior-fidelity.private.json",
+      "sha256": "1f580d9904df43e0515372d8afcbf69a984773fcf744e017709eaed653650f4c",
+      "size": 238
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/private/actors/ASSIGN-P1-A/turns/round-004-responsive_rebuttal/think.private.json",
+      "view_file": "018-think.private.json",
+      "sha256": "61afa34a13ebe652440db9538827408fd43ef9833091ed773d815c5cc997fe52",
+      "size": 1305
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/private/actors/ASSIGN-P1-A/turns/round-004-responsive_rebuttal/say.public.json",
+      "view_file": "019-say.public.json",
+      "sha256": "2df0b4096bad8f924cbd443aaeaeb7a8404b6909b1e466ea559817eff223ebc5",
+      "size": 395
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/private/actors/ASSIGN-P1-A/turns/round-004-responsive_rebuttal/filing-metadata.private.json",
+      "view_file": "020-filing-metadata.private.json",
+      "sha256": "503c97c844d2310f385c91ea72f20b94d4a348c53932652eb45d9de0390d3f38",
+      "size": 472
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/private/actors/ASSIGN-P1-A/turns/round-004-responsive_rebuttal/behavior-fidelity.private.json",
+      "view_file": "021-behavior-fidelity.private.json",
+      "sha256": "3efa68dafeb3c8f18d7f9db2bfd7115f8b6bada362d6f3c043c5792cdfd21c32",
+      "size": 238
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/private/actors/ASSIGN-P1-B/turns/round-001-opening/think.private.json",
+      "view_file": "022-think.private.json",
+      "sha256": "b96d8e6d35436fc743c4d91cfcf834d073914735162627d15f459ea2f3f07025",
+      "size": 1383
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/private/actors/ASSIGN-P1-B/turns/round-001-opening/say.public.json",
+      "view_file": "023-say.public.json",
+      "sha256": "2947572df9c3fe4666ab3ec66816137159cf349035cfce1672811960967002bc",
+      "size": 349
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/private/actors/ASSIGN-P1-B/turns/round-001-opening/filing-metadata.private.json",
+      "view_file": "024-filing-metadata.private.json",
+      "sha256": "e150c64101fc744b0bc4bc4c0565876fa778669df02ea8ce62fb1254a99510b8",
+      "size": 533
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/private/actors/ASSIGN-P1-B/turns/round-001-opening/behavior-fidelity.private.json",
+      "view_file": "025-behavior-fidelity.private.json",
+      "sha256": "f396ad8caef4ed500fc31e50b34612505c331ef2b3df70bc9455be7e9941b871",
+      "size": 241
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/private/actors/ASSIGN-P1-B/turns/round-002-direct_rebuttal/think.private.json",
+      "view_file": "026-think.private.json",
+      "sha256": "0af5c70834663bf274adfec0243855bcb9195f88b9563f35d335da41db4d7fda",
+      "size": 1406
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/private/actors/ASSIGN-P1-B/turns/round-002-direct_rebuttal/say.public.json",
+      "view_file": "027-say.public.json",
+      "sha256": "d9b85390a21018501b5bc52e3f5a442d0269358d6aa61595f80c8d180a19f8a7",
+      "size": 397
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/private/actors/ASSIGN-P1-B/turns/round-002-direct_rebuttal/filing-metadata.private.json",
+      "view_file": "028-filing-metadata.private.json",
+      "sha256": "ca677dd0e00eb036ee820b8000e301c8e0b9c8b9871ad98c86a6650daee142bc",
+      "size": 533
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/private/actors/ASSIGN-P1-B/turns/round-002-direct_rebuttal/behavior-fidelity.private.json",
+      "view_file": "029-behavior-fidelity.private.json",
+      "sha256": "9b07f24d4450dc35dd1f0734d854186ad85c0cc9ad79ebdba815f86a859ac623",
+      "size": 241
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/private/actors/ASSIGN-P1-B/turns/round-003-peer_cross_challenge/think.private.json",
+      "view_file": "030-think.private.json",
+      "sha256": "30c7d628934e4c333d0c86241a80bd3df9267a710e14972a3b0b46d2bdea92f9",
+      "size": 1402
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/private/actors/ASSIGN-P1-B/turns/round-003-peer_cross_challenge/say.public.json",
+      "view_file": "031-say.public.json",
+      "sha256": "b63a27010b889a722c6a7e29ed6ccf69e44ec0c6c64885a36f796e7459469495",
+      "size": 393
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/private/actors/ASSIGN-P1-B/turns/round-003-peer_cross_challenge/filing-metadata.private.json",
+      "view_file": "032-filing-metadata.private.json",
+      "sha256": "66c448fcb069924fec8ae4428be031899f7eaa30a30b036b46a4d706f76989d9",
+      "size": 533
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/private/actors/ASSIGN-P1-B/turns/round-003-peer_cross_challenge/behavior-fidelity.private.json",
+      "view_file": "033-behavior-fidelity.private.json",
+      "sha256": "8bca2ad626c0713b0f255cd7c1704c05090543c5d66b35b6bbf94895587f03aa",
+      "size": 241
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/private/actors/ASSIGN-P1-B/turns/round-004-responsive_rebuttal/think.private.json",
+      "view_file": "034-think.private.json",
+      "sha256": "512fae9ded58f6e50cc064d74e96d757554644710308ca67dc9d5e83e650dff0",
+      "size": 1398
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/private/actors/ASSIGN-P1-B/turns/round-004-responsive_rebuttal/say.public.json",
+      "view_file": "035-say.public.json",
+      "sha256": "4850e1a295eb24ef45440121e38d568ff86f14f79f98ae0ec6caca966a75d578",
+      "size": 389
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/private/actors/ASSIGN-P1-B/turns/round-004-responsive_rebuttal/filing-metadata.private.json",
+      "view_file": "036-filing-metadata.private.json",
+      "sha256": "51767303ce9478e641ce6f0c8255db0a8cabc2b6fd8bf5ce05937a909af98fff",
+      "size": 533
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/private/actors/ASSIGN-P1-B/turns/round-004-responsive_rebuttal/behavior-fidelity.private.json",
+      "view_file": "037-behavior-fidelity.private.json",
+      "sha256": "1cda711b92b575ee9398225982993f3f2ae7bb813b9e5f8bbc7120e8c4b02bbb",
+      "size": 241
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/transcript.public.jsonl",
+      "view_file": "038-transcript.public.jsonl",
+      "sha256": "65f6c046f5e5da9e3ae643e4fbee6713680bd0fd262bdf97c19f2338824a8ac7",
+      "size": 2765
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/verdict/verdict.json",
+      "view_file": "039-verdict.json",
+      "sha256": "2d2025abfe2ada2a35932f83dfb182e6ce0e9f32c3581f135f5a65691271b131",
+      "size": 525
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/private/actors/ASSIGN-P2-A/assignment.json",
+      "view_file": "040-assignment.json",
+      "sha256": "d70e5471699df9738b5336826fb47e0c59873b259b806fb4928a13f4479948f1",
+      "size": 343
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/private/actors/ASSIGN-P2-B/assignment.json",
+      "view_file": "041-assignment.json",
+      "sha256": "f183329731b53ecb3738f5f7004be3a700f1251ffab19583d61a3966f8286093",
+      "size": 338
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/private/actors/ASSIGN-P2-A/turns/round-001-opening/think.private.json",
+      "view_file": "042-think.private.json",
+      "sha256": "4a3f891c849e4b56977cc93c1b9103d253e0166c906ab9e8c8e8682fd34aa0a6",
+      "size": 1284
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/private/actors/ASSIGN-P2-A/turns/round-001-opening/say.public.json",
+      "view_file": "043-say.public.json",
+      "sha256": "52503e1babec123e79769fd7fe97db7fd9acdef8244cb83b0429c16c3ff97043",
+      "size": 349
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/private/actors/ASSIGN-P2-A/turns/round-001-opening/filing-metadata.private.json",
+      "view_file": "044-filing-metadata.private.json",
+      "sha256": "dd1abe123cc2df7772daf959112f351917e11551be1ff4674d4f84d50436e6c5",
+      "size": 472
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/private/actors/ASSIGN-P2-A/turns/round-001-opening/behavior-fidelity.private.json",
+      "view_file": "045-behavior-fidelity.private.json",
+      "sha256": "cef65ed6e13b22605611723df563f92b457e5916290f5676559e8f8786825b78",
+      "size": 238
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/private/actors/ASSIGN-P2-A/turns/round-002-direct_rebuttal/think.private.json",
+      "view_file": "046-think.private.json",
+      "sha256": "9167e767e7638cf6e94cb69fb3c11c854d6ad8887a86fbc0233b52b23ac8c14c",
+      "size": 1298
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/private/actors/ASSIGN-P2-A/turns/round-002-direct_rebuttal/say.public.json",
+      "view_file": "047-say.public.json",
+      "sha256": "44d58e4628f5cc620d5623138e154c1b49a9f39f58c32cb757de5f257acc7a2d",
+      "size": 388
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/private/actors/ASSIGN-P2-A/turns/round-002-direct_rebuttal/filing-metadata.private.json",
+      "view_file": "048-filing-metadata.private.json",
+      "sha256": "96aadad29afff1aff152865465c0e794d42eb67286dac1471ca9c8de74803e06",
+      "size": 472
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/private/actors/ASSIGN-P2-A/turns/round-002-direct_rebuttal/behavior-fidelity.private.json",
+      "view_file": "049-behavior-fidelity.private.json",
+      "sha256": "4f0b3cea3e2fb0f37890791f9972d2c55f06a215043d010cbadce4f8e4f42b2f",
+      "size": 238
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/private/actors/ASSIGN-P2-A/turns/round-003-peer_cross_challenge/think.private.json",
+      "view_file": "050-think.private.json",
+      "sha256": "c9f239e272324c1b8ab88766dc5493869da21bc1fa855469b707e27ae3898262",
+      "size": 1297
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/private/actors/ASSIGN-P2-A/turns/round-003-peer_cross_challenge/say.public.json",
+      "view_file": "051-say.public.json",
+      "sha256": "c0c26a284960303deb78f07587018b95ad2faa4be264c36da8f12460df3be520",
+      "size": 387
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/private/actors/ASSIGN-P2-A/turns/round-003-peer_cross_challenge/filing-metadata.private.json",
+      "view_file": "052-filing-metadata.private.json",
+      "sha256": "226202ae2dc9e7cbdd853a6e39e099695404a0166f968a15dd73254f05630f62",
+      "size": 472
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/private/actors/ASSIGN-P2-A/turns/round-003-peer_cross_challenge/behavior-fidelity.private.json",
+      "view_file": "053-behavior-fidelity.private.json",
+      "sha256": "1eafd71ce8f5c9e830dd5a4696d8bc99ccc357be6c1203b495d4eb466bc0b34c",
+      "size": 238
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/private/actors/ASSIGN-P2-A/turns/round-004-responsive_rebuttal/think.private.json",
+      "view_file": "054-think.private.json",
+      "sha256": "718d5152f0384bb185f20b5d5b83a8066250da9952383a41f4a99a0f26ed5121",
+      "size": 1302
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/private/actors/ASSIGN-P2-A/turns/round-004-responsive_rebuttal/say.public.json",
+      "view_file": "055-say.public.json",
+      "sha256": "393b48255f1f62866f30543c7a2d220a39d58bceb080c0c8ca2f0e2677299ccb",
+      "size": 392
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/private/actors/ASSIGN-P2-A/turns/round-004-responsive_rebuttal/filing-metadata.private.json",
+      "view_file": "056-filing-metadata.private.json",
+      "sha256": "bc70a9fba4abb6f3ba0aeb90a9ea6a2bd0050bc2c7f19255390c31331739fbb6",
+      "size": 472
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/private/actors/ASSIGN-P2-A/turns/round-004-responsive_rebuttal/behavior-fidelity.private.json",
+      "view_file": "057-behavior-fidelity.private.json",
+      "sha256": "5f18ecd18e43a04406243691110956361748aadb3921e15a8f17293f62bab479",
+      "size": 238
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/private/actors/ASSIGN-P2-B/turns/round-001-opening/think.private.json",
+      "view_file": "058-think.private.json",
+      "sha256": "96d9bbaf839bf75e431cf4b251633372992cdf0b56825fd09d6d2d39af5fff58",
+      "size": 1284
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/private/actors/ASSIGN-P2-B/turns/round-001-opening/say.public.json",
+      "view_file": "059-say.public.json",
+      "sha256": "1f5d703db997860dc5b78b1fdc0af8d365ea2936daaa4511b6e6c5a4b918e896",
+      "size": 343
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/private/actors/ASSIGN-P2-B/turns/round-001-opening/filing-metadata.private.json",
+      "view_file": "060-filing-metadata.private.json",
+      "sha256": "0eb1ac025214cd1327374b0a8a02ef71e4e4924458b1ee2e87996b69f9df3aa9",
+      "size": 472
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/private/actors/ASSIGN-P2-B/turns/round-001-opening/behavior-fidelity.private.json",
+      "view_file": "061-behavior-fidelity.private.json",
+      "sha256": "006b0ef71130075701709317c6d80b74f074bd570522515a7c64ad6128306a5a",
+      "size": 238
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/private/actors/ASSIGN-P2-B/turns/round-002-direct_rebuttal/think.private.json",
+      "view_file": "062-think.private.json",
+      "sha256": "e85f895a0af89fc52db9289d138417f47f223d0f01e6b356e3e6241eaf3cb9f4",
+      "size": 1289
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/private/actors/ASSIGN-P2-B/turns/round-002-direct_rebuttal/say.public.json",
+      "view_file": "063-say.public.json",
+      "sha256": "0e8743377377a3c50202647964a81be6794f4da0dd3704d62c15cdcb84817baa",
+      "size": 373
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/private/actors/ASSIGN-P2-B/turns/round-002-direct_rebuttal/filing-metadata.private.json",
+      "view_file": "064-filing-metadata.private.json",
+      "sha256": "366ce9a7e7ea02e2f4e4df3bc802154cdb3d9b4acf5b8049d64055ee7c80b1c4",
+      "size": 472
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/private/actors/ASSIGN-P2-B/turns/round-002-direct_rebuttal/behavior-fidelity.private.json",
+      "view_file": "065-behavior-fidelity.private.json",
+      "sha256": "b3f54e72dca2a1494ec0375ac16a7718142add974a4897e54151d4514ba32047",
+      "size": 238
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/private/actors/ASSIGN-P2-B/turns/round-003-peer_cross_challenge/think.private.json",
+      "view_file": "066-think.private.json",
+      "sha256": "b41c54379fec7af258304b0165efe1de052550a74d1dcba4b2c4e04528616f7a",
+      "size": 1303
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/private/actors/ASSIGN-P2-B/turns/round-003-peer_cross_challenge/say.public.json",
+      "view_file": "067-say.public.json",
+      "sha256": "8fec872d6c39484574e01196bb05e7b35d03e43923d253fd318532a28c731ebd",
+      "size": 387
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/private/actors/ASSIGN-P2-B/turns/round-003-peer_cross_challenge/filing-metadata.private.json",
+      "view_file": "068-filing-metadata.private.json",
+      "sha256": "7829eb13dffa77810d1210c152ceaa8eceddb36c28dbd4adbfc36ae18d07d48b",
+      "size": 472
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/private/actors/ASSIGN-P2-B/turns/round-003-peer_cross_challenge/behavior-fidelity.private.json",
+      "view_file": "069-behavior-fidelity.private.json",
+      "sha256": "66f42ca558a4694792390d1fa7b77aad854d9f371d357e7baae33adbd2ee049d",
+      "size": 238
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/private/actors/ASSIGN-P2-B/turns/round-004-responsive_rebuttal/think.private.json",
+      "view_file": "070-think.private.json",
+      "sha256": "53b1174e740f9f089005f5d23a7bccf19546f4f9c71da41ff08b905a87406ddf",
+      "size": 1302
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/private/actors/ASSIGN-P2-B/turns/round-004-responsive_rebuttal/say.public.json",
+      "view_file": "071-say.public.json",
+      "sha256": "9c09f6f42e8c31b677a22cc3fb79d4af83a77a9f1e10a1fcffc4d4db72fbb5cf",
+      "size": 386
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/private/actors/ASSIGN-P2-B/turns/round-004-responsive_rebuttal/filing-metadata.private.json",
+      "view_file": "072-filing-metadata.private.json",
+      "sha256": "1b7046d226f3be5819fdfdaa5fcd72894e6c594d9e6237ff44c2d568475026ab",
+      "size": 472
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/private/actors/ASSIGN-P2-B/turns/round-004-responsive_rebuttal/behavior-fidelity.private.json",
+      "view_file": "073-behavior-fidelity.private.json",
+      "sha256": "0fb34e67ac0b8c179ff0a17a1ab3ac4aad71c9d25ab5c57cd3796f4a2b5feedb",
+      "size": 238
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/transcript.public.jsonl",
+      "view_file": "074-transcript.public.jsonl",
+      "sha256": "0d9485366e8359daf23a09f90edecc4d01854c781d3d1dc0732d02848c48bad4",
+      "size": 2717
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/verdict/verdict.json",
+      "view_file": "075-verdict.json",
+      "sha256": "f76abdb391b51149997d2dc25930ba658c79e6d71a2572d127ab6d623e7dff01",
+      "size": 525
+    },
+    {
+      "source": "02-research/claim-gate-packet.v001.json",
+      "view_file": "076-claim-gate-packet.v001.json",
+      "sha256": "6cf62caf3506b41769290a901b28bf63310886e46c160a41152baf6628bec3ba",
+      "size": 456
+    }
+  ]
+}

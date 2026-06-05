@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "source_ref": "01-parse/source-content.md",
+  "atomic_claims": [
+    {"claim_id": "CL-001", "text": "最高法2025年最新数据：每5个插足婚姻的人里有1个男性", "type": "statistical"},
+    {"claim_id": "CL-002", "text": "过去5年男性第三者案例暴涨150%", "type": "statistical"},
+    {"claim_id": "CL-003", "text": "标题出轨者与正文第三者统计对象一致", "type": "categorical"}
+  ],
+  "institutional_attributions": ["最高法"],
+  "emotional_hooks": ["婚姻", "插足", "暴涨"],
+  "affected_groups": ["已婚人群", "男性"],
+  "unknowns": ["原始数据来源", "统计口径"]
+}

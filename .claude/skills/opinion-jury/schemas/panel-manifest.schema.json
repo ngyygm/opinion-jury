@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "panel-manifest.schema.json",
+  "type": "object",
+  "required": [
+    "panel_id",
+    "issue_id",
+    "title",
+    "created_at",
+    "status",
+    "assignments_status"
+  ],
+  "properties": {
+    "panel_id": {
+      "type": "string"
+    },
+    "issue_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "assignments_status": {
+      "enum": [
+        "DRAFT",
+        "COMMITTED"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,16 @@
+{
+  "turn_id": "PANEL-001-T-1-4",
+  "panel_id": "PANEL-001",
+  "anonymous_alias": "SEAT-A",
+  "round": 4,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "在来源未出现前，我仍要求删除权威归因。",
+  "target_turn_refs": [
+    "PANEL-001-T-2-3"
+  ],
+  "public_question_refs": [],
+  "public_evidence_refs": [],
+  "public_action_signals": [
+    "公开要求补充出处"
+  ]
+}

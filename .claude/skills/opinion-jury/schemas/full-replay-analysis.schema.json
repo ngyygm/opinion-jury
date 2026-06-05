@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "full-replay-analysis.schema.json",
+  "type": "object",
+  "required": [
+    "case_id",
+    "stakeholder_reactions",
+    "private_public_gap_findings",
+    "epistemic_behavior_findings",
+    "cross_issue_continuity",
+    "deception_and_distortion_signals",
+    "limitations"
+  ],
+  "properties": {
+    "case_id": {
+      "type": "string"
+    },
+    "stakeholder_reactions": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "private_public_gap_findings": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "epistemic_behavior_findings": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "cross_issue_continuity": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "deception_and_distortion_signals": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}

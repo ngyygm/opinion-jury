@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "blind-verdict.schema.json",
+  "type": "object",
+  "required": [
+    "panel_id",
+    "verdict",
+    "supported_findings",
+    "unsupported_findings",
+    "risk_signals",
+    "public_turn_refs",
+    "claim_gate_refs"
+  ],
+  "properties": {
+    "panel_id": {
+      "type": "string"
+    },
+    "verdict": {
+      "type": "string"
+    },
+    "supported_findings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "unsupported_findings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "risk_signals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "public_turn_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "claim_gate_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}

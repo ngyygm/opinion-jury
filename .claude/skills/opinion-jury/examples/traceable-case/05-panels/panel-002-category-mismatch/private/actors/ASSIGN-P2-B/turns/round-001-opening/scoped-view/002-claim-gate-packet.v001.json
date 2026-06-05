@@ -1,0 +1,19 @@
+{
+  "claims": [
+    {
+      "claim_id": "CL-001",
+      "text": "最高法2025年最新数据：每5个插足婚姻的人里有1个男性",
+      "status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "CL-002",
+      "text": "过去5年男性第三者案例暴涨150%",
+      "status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "CL-003",
+      "text": "标题出轨者与正文第三者统计对象一致",
+      "status": "CATEGORY_MISMATCH"
+    }
+  ]
+}

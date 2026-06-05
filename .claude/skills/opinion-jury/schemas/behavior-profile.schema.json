@@ -1,0 +1,175 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "behavior-profile.schema.json",
+  "type": "object",
+  "required": [
+    "extremity",
+    "risk_tolerance",
+    "private_belief_reliability",
+    "truthfulness_mode",
+    "deception_awareness",
+    "reasoning_mode",
+    "belief_update_mode",
+    "self_interest_strength",
+    "norm_adherence",
+    "civility_mode",
+    "evidence_respect",
+    "disclosure_strategy",
+    "emotional_regulation",
+    "amplification_capacity",
+    "public_private_gap",
+    "correlation_notes"
+  ],
+  "properties": {
+    "extremity": {
+      "enum": [
+        "NEUTRAL",
+        "MODERATE",
+        "ASSERTIVE",
+        "EXTREME_STRESS_TEST"
+      ]
+    },
+    "private_belief_reliability": {
+      "enum": [
+        "HIGH",
+        "MIXED",
+        "LOW",
+        "RUMOR_ANCHORED"
+      ]
+    },
+    "truthfulness_mode": {
+      "enum": [
+        "HONEST",
+        "SELECTIVE_FRAMING",
+        "EXAGGERATION_PRONE",
+        "RUMOR_RELAY",
+        "FABRICATION_STRESS_TEST",
+        "MIXED"
+      ]
+    },
+    "deception_awareness": {
+      "enum": [
+        "NONE",
+        "UNCERTAIN",
+        "KNOWING_STRATEGIC",
+        "MIXED"
+      ]
+    },
+    "reasoning_mode": {
+      "enum": [
+        "ANALYTICAL",
+        "HEURISTIC",
+        "EMOTIONAL",
+        "TRIBAL",
+        "OPPORTUNISTIC",
+        "INCONSISTENT",
+        "MIXED"
+      ]
+    },
+    "belief_update_mode": {
+      "enum": [
+        "EVIDENCE_RESPONSIVE",
+        "SELECTIVE",
+        "RESISTANT",
+        "IDENTITY_PROTECTIVE",
+        "OPPORTUNISTIC",
+        "INCONSISTENT"
+      ]
+    },
+    "self_interest_strength": {
+      "enum": [
+        "LOW",
+        "MEDIUM",
+        "HIGH",
+        "DOMINANT"
+      ]
+    },
+    "norm_adherence": {
+      "enum": [
+        "HIGH",
+        "CONDITIONAL",
+        "LOW"
+      ]
+    },
+    "civility_mode": {
+      "enum": [
+        "CIVIL",
+        "BLUNT",
+        "MOCKING_STRESS_TEST",
+        "CONFRONTATIONAL_STRESS_TEST"
+      ]
+    },
+    "evidence_respect": {
+      "enum": [
+        "STRONG",
+        "CONDITIONAL",
+        "LOW",
+        "NONE_STRESS_TEST"
+      ]
+    },
+    "disclosure_strategy": {
+      "enum": [
+        "FULL",
+        "SELECTIVE",
+        "STRATEGIC_SILENCE",
+        "MISDIRECTION_STRESS_TEST"
+      ]
+    },
+    "emotional_regulation": {
+      "enum": [
+        "STABLE",
+        "REACTIVE",
+        "VOLATILE_STRESS_TEST"
+      ]
+    },
+    "amplification_capacity": {
+      "enum": [
+        "LOW",
+        "MEDIUM",
+        "HIGH",
+        "INSTITUTIONAL"
+      ]
+    },
+    "public_private_gap": {
+      "enum": [
+        "LOW",
+        "MEDIUM",
+        "HIGH"
+      ]
+    },
+    "risk_tolerance": {
+      "enum": [
+        "RISK_AVERSE",
+        "MODERATE",
+        "RISK_SEEKING",
+        "EXTREME_SEEKING"
+      ],
+      "description": "Appetite for taking public risks. A risk-averse self-interested actor may privately oppose but publicly stay silent; a risk-seeking self-interested actor may publicly confront regardless of consequences."
+    },
+    "correlation_notes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "linked_dimensions",
+          "topic_specific_rationale"
+        ],
+        "properties": {
+          "linked_dimensions": {
+            "type": "array",
+            "minItems": 2,
+            "items": {
+              "type": "string"
+            }
+          },
+          "topic_specific_rationale": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

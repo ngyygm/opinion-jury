@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "assignment.schema.json",
+  "type": "object",
+  "required": [
+    "assignment_id",
+    "panel_id",
+    "role_card_id",
+    "anonymous_alias",
+    "issue_trigger",
+    "court_specific_goal",
+    "observable_evidence_refs",
+    "created_at"
+  ],
+  "properties": {
+    "assignment_id": {
+      "type": "string"
+    },
+    "panel_id": {
+      "type": "string"
+    },
+    "role_card_id": {
+      "type": "string"
+    },
+    "anonymous_alias": {
+      "type": "string"
+    },
+    "issue_trigger": {
+      "type": "string"
+    },
+    "court_specific_goal": {
+      "type": "string"
+    },
+    "observable_evidence_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "created_at": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

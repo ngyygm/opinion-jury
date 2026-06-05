@@ -1,0 +1,10 @@
+{
+  "scope_id": "panel-001-authority-statistics-blind-judge",
+  "allowlist": [
+    "01-parse/source-content.md",
+    "02-research/claim-gate-packet.v001.json",
+    "05-panels/panel-001-authority-statistics/transcript.public.jsonl",
+    "05-panels/panel-001-authority-statistics/public-question.md",
+    "05-panels/panel-001-authority-statistics/public-disclosures.jsonl"
+  ]
+}

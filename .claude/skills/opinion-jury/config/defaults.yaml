@@ -1,0 +1,45 @@
+workspace:
+  filesystem_source_of_truth: true
+  case_root_must_not_be_exposed_to_debaters: true
+  save_structured_private_intention_memos: true
+  save_raw_chain_of_thought: false
+
+role_pool:
+  build_before_panels: true
+  commit_before_panels: true
+  allow_cross_panel_reuse: true
+  count_budget_by_role_appearances: true
+  diversity_floor_required: true
+
+behavior_model:
+  factorized_dimensions_required: true
+  forbid_default_attribute_coupling: true
+  correlation_requires_topic_specific_rationale: true
+  permit_honest_extreme_roles: true
+  permit_deceptive_neutral_roles: true
+  permit_sincerely_mistaken_roles: true
+  permit_emotional_logical_roles: true
+  permit_calm_opportunistic_roles: true
+  guard_name: BEHAVIOR_FIDELITY_GUARD
+  guard_checks_fidelity_not_truthfulness: true
+
+private_public_split:
+  private_filename: think.private.json
+  public_filename: say.public.json
+  public_markdown_filename: say.public.md
+  private_filing_metadata_filename: filing-metadata.private.json
+  transcript_contains_public_say_only: true
+  blind_adjudicator_receives_private_think: false
+  blind_adjudicator_receives_private_filing_metadata: false
+  final_replay_receives_private_think: true
+  final_replay_receives_private_filing_metadata: true
+
+safety:
+  simulated_falsehoods_internal_only: true
+  simulated_falsehoods_must_not_enter_claim_gate: true
+  prohibit_harassment_doxxing_threats_brigading: true
+  prohibit_operational_manipulation_instructions: true
+
+intensity:
+  default: auto
+  levels: [direct, low, medium, high, xhigh, max, ultra, auto]

@@ -1,0 +1,165 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "role-card.schema.json",
+  "type": "object",
+  "required": [
+    "role_card_id",
+    "display_name_private",
+    "demographic_profile",
+    "stakeholder_relation",
+    "value_focus",
+    "experience_hypotheses",
+    "information_environment",
+    "behavior_pattern",
+    "influence_resources",
+    "baseline_relationship",
+    "issue_relevance",
+    "behavior_profile",
+    "interests",
+    "feared_losses",
+    "stereotype_guardrails",
+    "simulation_limits"
+  ],
+  "properties": {
+    "role_card_id": {
+      "type": "string",
+      "pattern": "^ROLE-[A-Z0-9-]+$"
+    },
+    "display_name_private": {
+      "type": "string",
+      "minLength": 1,
+      "description": "A vivid, person-like description — NOT an analytical label. Example: '45岁二胎妈妈，孩子上小学，抖音重度用户，看到什么都信' NOT '情绪化受影响读者'."
+    },
+    "demographic_profile": {
+      "type": "object",
+      "required": [
+        "age_range",
+        "education_level",
+        "occupation",
+        "location_type",
+        "speech_style",
+        "topic_relevance"
+      ],
+      "properties": {
+        "age_range": {
+          "type": "string",
+          "description": "Age bracket. Examples: '12-15', '16-19', '20-25', '26-35', '36-45', '46-55', '56-65', '65+'. Use specific ranges, not vague labels."
+        },
+        "education_level": {
+          "type": "string",
+          "description": "Highest education or equivalent. Examples: '小学', '初中', '高中/中专', '大专', '本科', '硕士', '博士'. Determines cognitive sophistication of thinking and speech."
+        },
+        "occupation": {
+          "type": "string",
+          "description": "Current or most recent occupation. Be specific: '全职妈妈', '外卖骑手', '初三学生', '退休工人', '自媒体博主', '高校教师', '村委干部'. NOT just '专业人士'."
+        },
+        "location_type": {
+          "enum": ["RURAL", "TOWNSHIP", "SMALL_CITY", "MID_CITY", "LARGE_CITY", "TIER1_CITY", "INTERNET_ONLY"],
+          "description": "Geographic context affecting information access and cultural frame."
+        },
+        "speech_style": {
+          "type": "string",
+          "description": "How this person actually talks in real life. Examples: '口语化、大量语气词、经常跑题', '简短粗暴、爱用网络梗、不喜欢长篇大论', '条理清晰、习惯引用数据和专业术语', '方言口音重、比喻多、讲道理靠讲故事', '话少但一针见血、不喜欢废话'. This MUST be reflected in both think.private.json inner_monologue and say.public.json speech_text."
+        },
+        "cultural_background": {
+          "type": "string",
+          "description": "Cultural or subcultural identity that shapes worldview. Examples: '传统家庭观念重', '二次元文化圈', '田园女权社群', '军迷圈', '佛系青年', '鸡娃家长群'. Optional but recommended."
+        },
+        "topic_relevance": {
+          "enum": ["DIRECTLY_AFFECTED", "TANGENTIALLY_RELATED", "GENERIC_INTEREST", "INDIFFERENT", "OFF_TOPIC"],
+          "description": "How relevant this topic is to the character. INDIFFERENT characters may participate but show low engagement. OFF_TOPIC characters may derail the discussion or talk about unrelated things — this is realistic behavior."
+        }
+      },
+      "additionalProperties": false
+    },
+    "stakeholder_relation": {
+      "type": "string",
+      "minLength": 1
+    },
+    "value_focus": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "experience_hypotheses": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "information_environment": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "behavior_pattern": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "influence_resources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "baseline_relationship": {
+      "type": "string"
+    },
+    "issue_relevance": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "behavior_profile": {
+      "$ref": "behavior-profile.schema.json"
+    },
+    "interests": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "feared_losses": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "stereotype_guardrails": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "simulation_limits": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "brand_stance": {
+      "enum": [
+        "LOYAL_ENTHUSIAST",
+        "SATISFIED_REGULAR",
+        "INDIFFERENT",
+        "SKEPTICAL_CRITIC",
+        "FORMERLY_LOYAL_ALIENATED",
+        "HOSTILE_OPPOSITION"
+      ],
+      "description": "Pre-existing attitude toward the content source or brand. Independent of behavioral dimensions — a hostile-opposition actor may still be honest, and a loyal-enthusiast may selectively frame facts."
+    }
+  },
+  "additionalProperties": false
+}

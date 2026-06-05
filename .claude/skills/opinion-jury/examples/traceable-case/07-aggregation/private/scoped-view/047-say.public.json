@@ -1,0 +1,16 @@
+{
+  "turn_id": "PANEL-002-T-1-2",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-C",
+  "round": 2,
+  "phase": "DIRECT_REBUTTAL",
+  "speech_text": "对方强调焦虑，但首先要纠正对象偷换。",
+  "target_turn_refs": [
+    "PANEL-002-T-2-1"
+  ],
+  "public_question_refs": [],
+  "public_evidence_refs": [],
+  "public_action_signals": [
+    "公开要求补充出处"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "role_card_id": "ROLE-HONEST-EXTREME-FACT-CRITIC",
+  "display_name_private": "诚实但极端的来源追问者",
+  "stakeholder_relation": "对权威背书滥用高度敏感的内容读者",
+  "value_focus": [
+    "来源可追溯",
+    "知情权"
+  ],
+  "experience_hypotheses": [
+    "曾经转发过后来被证伪的权威数据截图"
+  ],
+  "information_environment": [
+    "官方公告",
+    "微博讨论",
+    "微信群"
+  ],
+  "behavior_pattern": [
+    "强硬质疑",
+    "反复要求原始链接",
+    "措辞尖锐但不捏造"
+  ],
+  "influence_resources": [
+    "截图转发",
+    "垂直社区"
+  ],
+  "baseline_relationship": "对标题党长期不信任",
+  "issue_relevance": [
+    "权威数据来源",
+    "概念偷换"
+  ],
+  "behavior_profile": {
+    "extremity": "EXTREME_STRESS_TEST",
+    "truthfulness_mode": "HONEST",
+    "reasoning_mode": "ANALYTICAL",
+    "self_interest_strength": "HIGH",
+    "civility_mode": "CONFRONTATIONAL_STRESS_TEST",
+    "evidence_respect": "STRONG",
+    "disclosure_strategy": "FULL",
+    "emotional_regulation": "REACTIVE",
+    "amplification_capacity": "MEDIUM",
+    "public_private_gap": "LOW",
+    "correlation_notes": [
+      {
+        "linked_dimensions": [
+          "extremity",
+          "civility_mode"
+        ],
+        "topic_specific_rationale": "该角色对权威数据滥用高度敏感，因此表达强硬；这不意味着其会捏造事实。"
+      }
+    ],
+    "private_belief_reliability": "HIGH",
+    "deception_awareness": "NONE",
+    "belief_update_mode": "EVIDENCE_RESPONSIVE",
+    "norm_adherence": "HIGH"
+  },
+  "interests": [
+    "避免虚假权威背书继续传播"
+  ],
+  "feared_losses": [
+    "读者被错误数据误导"
+  ],
+  "stereotype_guardrails": [
+    "极端不等于不诚实",
+    "强硬不等于不讲逻辑"
+  ],
+  "simulation_limits": [
+    "不得组织围攻",
+    "不得虚构来源"
+  ]
+}

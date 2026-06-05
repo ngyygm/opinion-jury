@@ -1,0 +1,16 @@
+{
+  "turn_id": "PANEL-002-T-2-3",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-D",
+  "round": 3,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "为什么要用悄悄毁掉婚姻这种表达？",
+  "target_turn_refs": [
+    "PANEL-002-T-1-2"
+  ],
+  "public_question_refs": [],
+  "public_evidence_refs": [],
+  "public_action_signals": [
+    "公开要求补充出处"
+  ]
+}

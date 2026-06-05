@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "behavior-fidelity-verdict.schema.json",
+  "type": "object",
+  "required": [
+    "assignment_id",
+    "turn_id",
+    "classification",
+    "admit_to_public_record",
+    "fidelity_notes",
+    "safety_notes"
+  ],
+  "properties": {
+    "assignment_id": {
+      "type": "string"
+    },
+    "turn_id": {
+      "type": "string"
+    },
+    "classification": {
+      "enum": [
+        "ROLE_FIDEL_HONEST",
+        "ROLE_FIDEL_SINCERE_BUT_MISTAKEN",
+        "ROLE_FIDEL_SELECTIVE",
+        "ROLE_FIDEL_STRATEGIC_DECEPTION",
+        "ROLE_FIDEL_EMOTIONAL_INCONSISTENCY",
+        "ROLE_FIDEL_WITH_EVIDENCE_UPDATE",
+        "OUT_OF_CHARACTER",
+        "UNSAFE_REJECT"
+      ]
+    },
+    "admit_to_public_record": {
+      "type": "boolean"
+    },
+    "fidelity_notes": {
+      "type": "string"
+    },
+    "safety_notes": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

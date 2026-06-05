@@ -1,0 +1,16 @@
+{
+  "turn_id": "PANEL-002-T-2-2",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-D",
+  "round": 2,
+  "phase": "DIRECT_REBUTTAL",
+  "speech_text": "对象偷换会进一步放大焦虑。",
+  "target_turn_refs": [
+    "PANEL-002-T-1-1"
+  ],
+  "public_question_refs": [],
+  "public_evidence_refs": [],
+  "public_action_signals": [
+    "公开要求补充出处"
+  ]
+}

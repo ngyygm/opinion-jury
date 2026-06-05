@@ -1,0 +1,14 @@
+{
+  "assignment_id": "ASSIGN-P1-A",
+  "turn_id": "PANEL-001-T-1-2",
+  "speech_origin": "SINCERE_SUPPORTED",
+  "speaker_private_belief_alignment": "ALIGNED",
+  "support_status": "SUPPORTED",
+  "contains_known_falsehood": false,
+  "contains_unverified_assertion": false,
+  "contains_selective_omission": false,
+  "claim_gate_ingestion_prohibited": true,
+  "peer_visible": false,
+  "blind_adjudicator_visible": false,
+  "private_notes": "极端表达不等于不诚实。"
+}

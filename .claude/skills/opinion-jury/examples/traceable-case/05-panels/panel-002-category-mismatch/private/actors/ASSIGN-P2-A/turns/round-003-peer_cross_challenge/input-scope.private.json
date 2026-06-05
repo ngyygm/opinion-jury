@@ -1,0 +1,11 @@
+{
+  "scope_id": "PANEL-002-T-1-3",
+  "allowlist": [
+    "01-parse/source-content.md",
+    "02-research/claim-gate-packet.v001.json",
+    "05-panels/panel-002-category-mismatch/public-question.md",
+    "03-role-pool/private/roles/ROLE-HONEST-EXTREME-FACT-CRITIC/role-card.json",
+    "05-panels/panel-002-category-mismatch/private/actors/ASSIGN-P2-A/assignment.json",
+    "05-panels/panel-002-category-mismatch/session/public-snapshots/transcript.before-round-003.jsonl"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "scope_id": "PANEL-002-T-2-4",
+  "files": [
+    {
+      "source": "01-parse/source-content.md",
+      "view_file": "001-source-content.md",
+      "sha256": "0e204ce6841d4eb9284a15a32b4c3c593dac6970ed98602899aa3eb93d34b8a2",
+      "size": 182
+    },
+    {
+      "source": "02-research/claim-gate-packet.v001.json",
+      "view_file": "002-claim-gate-packet.v001.json",
+      "sha256": "6cf62caf3506b41769290a901b28bf63310886e46c160a41152baf6628bec3ba",
+      "size": 456
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/public-question.md",
+      "view_file": "003-public-question.md",
+      "sha256": "60cae14567a8eead7ea5a7b74ccffd9503f7ec65e40c9f38e59adb6174e8e5b6",
+      "size": 82
+    },
+    {
+      "source": "03-role-pool/private/roles/ROLE-EMOTIONAL-CAREFUL-READER/role-card.json",
+      "view_file": "004-role-card.json",
+      "sha256": "22595d0f3d5e7ed0a2500bc296719eeb88817db84d04da4452ca8f57261c9eaa",
+      "size": 1614
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/private/actors/ASSIGN-P2-B/assignment.json",
+      "view_file": "005-assignment.json",
+      "sha256": "f183329731b53ecb3738f5f7004be3a700f1251ffab19583d61a3966f8286093",
+      "size": 338
+    },
+    {
+      "source": "05-panels/panel-002-category-mismatch/session/public-snapshots/transcript.before-round-004.jsonl",
+      "view_file": "006-transcript.before-round-004.jsonl",
+      "sha256": "96a5a2819967ef0c9d70736decaf0fb5fc87388a407e7ee5e4c9865a3f3dbb60",
+      "size": 2015
+    }
+  ]
+}

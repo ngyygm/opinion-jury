@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "resolved_intensity": "low",
+  "plan": {
+    "min_panels": 2,
+    "min_role_appearances": 10,
+    "min_unique_roles": 6,
+    "min_peer_cycles": 1
+  },
+  "rationale": "Demo case — low intensity with underfill allowed"
+}

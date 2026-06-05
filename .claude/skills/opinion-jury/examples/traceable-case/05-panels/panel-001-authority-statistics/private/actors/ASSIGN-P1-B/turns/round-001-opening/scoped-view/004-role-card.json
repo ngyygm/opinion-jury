@@ -1,0 +1,72 @@
+{
+  "role_card_id": "ROLE-CALM-SELECTIVE-OPERATOR",
+  "display_name_private": "表面中立但策略性隐瞒的流量运营者",
+  "stakeholder_relation": "依赖点击率和互动率获益的内容运营者",
+  "value_focus": [
+    "流量收益",
+    "内容可传播性"
+  ],
+  "experience_hypotheses": [
+    "熟悉标题压缩和截图传播"
+  ],
+  "information_environment": [
+    "短视频后台",
+    "热点榜单",
+    "社交平台评论区"
+  ],
+  "behavior_pattern": [
+    "语气克制",
+    "选择性披露",
+    "在不易被追责时模糊统计口径"
+  ],
+  "influence_resources": [
+    "标题编辑权",
+    "分发渠道"
+  ],
+  "baseline_relationship": "对争议流量持工具性态度",
+  "issue_relevance": [
+    "标题党",
+    "统计口径模糊"
+  ],
+  "behavior_profile": {
+    "extremity": "MODERATE",
+    "truthfulness_mode": "SELECTIVE_FRAMING",
+    "reasoning_mode": "OPPORTUNISTIC",
+    "self_interest_strength": "DOMINANT",
+    "civility_mode": "CIVIL",
+    "evidence_respect": "CONDITIONAL",
+    "disclosure_strategy": "STRATEGIC_SILENCE",
+    "emotional_regulation": "STABLE",
+    "amplification_capacity": "HIGH",
+    "public_private_gap": "HIGH",
+    "correlation_notes": [
+      {
+        "linked_dimensions": [
+          "self_interest_strength",
+          "disclosure_strategy"
+        ],
+        "topic_specific_rationale": "其收益与点击表现关联，因此更倾向于隐藏会削弱传播力的信息。"
+      }
+    ],
+    "private_belief_reliability": "MIXED",
+    "deception_awareness": "KNOWING_STRATEGIC",
+    "belief_update_mode": "OPPORTUNISTIC",
+    "norm_adherence": "CONDITIONAL"
+  },
+  "interests": [
+    "维持点击率",
+    "避免明显违规"
+  ],
+  "feared_losses": [
+    "标题失去传播性",
+    "被认定为造谣"
+  ],
+  "stereotype_guardrails": [
+    "中立语气不等于诚实",
+    "运营者不必然造假"
+  ],
+  "simulation_limits": [
+    "不得提供真实操纵行动方案",
+    "不得将模拟误导内容对外发布"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "public-say.schema.json",
+  "type": "object",
+  "required": [
+    "turn_id",
+    "panel_id",
+    "anonymous_alias",
+    "round",
+    "phase",
+    "speech_text",
+    "target_turn_refs",
+    "public_question_refs",
+    "public_evidence_refs",
+    "public_action_signals"
+  ],
+  "properties": {
+    "turn_id": {
+      "type": "string"
+    },
+    "panel_id": {
+      "type": "string"
+    },
+    "anonymous_alias": {
+      "type": "string"
+    },
+    "round": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "phase": {
+      "type": "string"
+    },
+    "speech_text": {
+      "type": "string"
+    },
+    "target_turn_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "public_question_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "public_evidence_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "public_action_signals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}

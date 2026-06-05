@@ -1,0 +1,14 @@
+{
+  "assignment_id": "ASSIGN-P2-B",
+  "turn_id": "PANEL-002-T-2-2",
+  "speech_origin": "SINCERE_SUPPORTED",
+  "speaker_private_belief_alignment": "ALIGNED",
+  "support_status": "SUPPORTED",
+  "contains_known_falsehood": false,
+  "contains_unverified_assertion": false,
+  "contains_selective_omission": false,
+  "claim_gate_ingestion_prohibited": true,
+  "peer_visible": false,
+  "blind_adjudicator_visible": false,
+  "private_notes": "情绪化不等于不讲证据。"
+}

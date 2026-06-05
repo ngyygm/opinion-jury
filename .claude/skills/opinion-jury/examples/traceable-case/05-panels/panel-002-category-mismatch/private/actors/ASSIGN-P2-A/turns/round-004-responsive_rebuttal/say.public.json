@@ -1,0 +1,16 @@
+{
+  "turn_id": "PANEL-002-T-1-4",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-C",
+  "round": 4,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "无论传播效果如何，统计对象必须统一。",
+  "target_turn_refs": [
+    "PANEL-002-T-2-3"
+  ],
+  "public_question_refs": [],
+  "public_evidence_refs": [],
+  "public_action_signals": [
+    "公开要求补充出处"
+  ]
+}

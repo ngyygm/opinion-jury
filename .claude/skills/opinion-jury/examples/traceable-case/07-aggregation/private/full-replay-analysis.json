@@ -1,0 +1,63 @@
+{
+  "case_id": "20260603-161224-headline-marriage-clickbait-review",
+  "stakeholder_reactions": [
+    {
+      "stakeholder_type": "来源敏感读者",
+      "private_incentive": "避免再次转发错误权威数据",
+      "possible_public_say": "请给最高法原始链接",
+      "evidence_refs": [
+        "PANEL-001-T-1-1"
+      ]
+    },
+    {
+      "stakeholder_type": "流量运营者",
+      "private_incentive": "保留标题传播力",
+      "possible_public_say": "正文补充链接即可",
+      "evidence_refs": [
+        "PANEL-001-T-2-3"
+      ]
+    }
+  ],
+  "cross_issue_continuity": [
+    {
+      "role_card_id": "ROLE-HONEST-EXTREME-FACT-CRITIC",
+      "appears_in": [
+        "PANEL-001",
+        "PANEL-002"
+      ],
+      "pattern": "跨议题持续要求定义和来源一致"
+    }
+  ],
+  "deception_and_distortion_signals": [
+    {
+      "role_card_id": "ROLE-CALM-SELECTIVE-OPERATOR",
+      "signal": "以中立语气选择性淡化标题误导风险"
+    }
+  ],
+  "limitations": [
+    "模拟角色不是现实人群样本",
+    "反应是情景假设，不是概率预测"
+  ],
+  "private_public_gap_findings": [
+    {
+      "role_card_id": "ROLE-CALM-SELECTIVE-OPERATOR",
+      "finding": "私下优先保留流量收益，公开语气克制并淡化统计口径风险。",
+      "evidence_refs": [
+        "PANEL-001-T-2-3"
+      ]
+    },
+    {
+      "role_card_id": "ROLE-HONEST-EXTREME-FACT-CRITIC",
+      "finding": "表达强硬但私下与公开目标一致，说明极端表达不必然等于不诚实。",
+      "evidence_refs": [
+        "PANEL-001-T-1-1"
+      ]
+    }
+  ],
+  "epistemic_behavior_findings": [
+    {
+      "finding": "模拟中区分真诚但可能错误的表达、选择性表达和已知误导。",
+      "handling": "仅CLAIM_GATE可决定事实状态；角色发言不得自动升级为事实。"
+    }
+  ]
+}

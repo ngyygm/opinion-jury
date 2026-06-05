@@ -1,0 +1,191 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "private-intention-memo.schema.json",
+  "type": "object",
+  "required": [
+    "assignment_id",
+    "round",
+    "phase",
+    "private_goal",
+    "perceived_stakes",
+    "private_belief_state",
+    "epistemic_state",
+    "confidence",
+    "uncertainties",
+    "intended_emphasis",
+    "intended_omissions",
+    "private_message_strategy",
+    "planned_public_claims",
+    "rhetorical_tactics",
+    "truth_handling_this_turn",
+    "private_action_intent",
+    "likely_next_action",
+    "emotional_state",
+    "continuity_notes",
+    "raw_chain_of_thought_saved"
+  ],
+  "properties": {
+    "assignment_id": {
+      "type": "string"
+    },
+    "round": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "phase": {
+      "type": "string"
+    },
+    "private_goal": {
+      "type": "string"
+    },
+    "perceived_stakes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "private_belief_state": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "epistemic_state": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "proposition",
+          "private_status",
+          "basis_refs"
+        ],
+        "properties": {
+          "proposition": {
+            "type": "string"
+          },
+          "private_status": {
+            "enum": [
+              "BELIEVED_TRUE",
+              "BELIEVED_FALSE",
+              "UNCERTAIN",
+              "UNVERIFIED_BUT_USEFUL",
+              "KNOWN_UNSUPPORTED",
+              "KNOWN_FALSE"
+            ]
+          },
+          "basis_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "confidence": {
+      "enum": [
+        "LOW",
+        "MEDIUM",
+        "HIGH"
+      ]
+    },
+    "uncertainties": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "intended_emphasis": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "intended_omissions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "private_message_strategy": {
+      "type": "string"
+    },
+    "planned_public_claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "claim_text",
+          "private_status",
+          "planned_treatment"
+        ],
+        "properties": {
+          "claim_text": {
+            "type": "string"
+          },
+          "private_status": {
+            "enum": [
+              "SUPPORTED",
+              "UNVERIFIED",
+              "KNOWN_UNSUPPORTED",
+              "KNOWN_FALSE",
+              "OPINION"
+            ]
+          },
+          "planned_treatment": {
+            "enum": [
+              "STATE_AS_SUPPORTED",
+              "STATE_WITH_CAVEAT",
+              "OMIT_CAVEAT",
+              "EXAGGERATE",
+              "RELAY_AS_HEARSAY",
+              "FABRICATE_STRESS_TEST",
+              "WITHHOLD"
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "rhetorical_tactics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "truth_handling_this_turn": {
+      "enum": [
+        "HONEST",
+        "SINCERE_BUT_MISTAKEN",
+        "SELECTIVE_FRAMING",
+        "EXAGGERATION",
+        "RUMOR_RELAY",
+        "FABRICATION_STRESS_TEST",
+        "MIXED"
+      ]
+    },
+    "private_action_intent": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "likely_next_action": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "emotional_state": {
+      "type": "string"
+    },
+    "continuity_notes": {
+      "type": "string"
+    },
+    "raw_chain_of_thought_saved": {
+      "const": false
+    }
+  },
+  "additionalProperties": false
+}

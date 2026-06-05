@@ -1,0 +1,14 @@
+{
+  "assignment_id": "ASSIGN-P1-B",
+  "turn_id": "PANEL-001-T-2-1",
+  "speech_origin": "SELECTIVE_FRAMING",
+  "speaker_private_belief_alignment": "PARTIALLY_ALIGNED",
+  "support_status": "MIXED",
+  "contains_known_falsehood": false,
+  "contains_unverified_assertion": true,
+  "contains_selective_omission": true,
+  "claim_gate_ingestion_prohibited": true,
+  "peer_visible": false,
+  "blind_adjudicator_visible": false,
+  "private_notes": "表面中立但存在策略性省略；内部标记不得向辩手或盲审裁判披露。"
+}

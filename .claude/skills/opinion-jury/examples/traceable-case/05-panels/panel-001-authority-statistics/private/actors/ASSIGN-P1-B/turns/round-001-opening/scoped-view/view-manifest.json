@@ -1,0 +1,41 @@
+{
+  "scope_id": "PANEL-001-T-2-1",
+  "files": [
+    {
+      "source": "01-parse/source-content.md",
+      "view_file": "001-source-content.md",
+      "sha256": "0e204ce6841d4eb9284a15a32b4c3c593dac6970ed98602899aa3eb93d34b8a2",
+      "size": 182
+    },
+    {
+      "source": "02-research/claim-gate-packet.v001.json",
+      "view_file": "002-claim-gate-packet.v001.json",
+      "sha256": "6cf62caf3506b41769290a901b28bf63310886e46c160a41152baf6628bec3ba",
+      "size": 456
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/public-question.md",
+      "view_file": "003-public-question.md",
+      "sha256": "4eda252b2737b9fc38a18a253e5dccd0349afb19778ffb6f17a98e5fc8ab4238",
+      "size": 55
+    },
+    {
+      "source": "03-role-pool/private/roles/ROLE-CALM-SELECTIVE-OPERATOR/role-card.json",
+      "view_file": "004-role-card.json",
+      "sha256": "e6aa8cf0490fb3c41032f6273f9134b020596e0cf0ab32fcd13df18db6fe28da",
+      "size": 2026
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/private/actors/ASSIGN-P1-B/assignment.json",
+      "view_file": "005-assignment.json",
+      "sha256": "64704f1b5c9cd92b00275a1649d58a786232cdd0b68f30e99edce3990834cebf",
+      "size": 361
+    },
+    {
+      "source": "05-panels/panel-001-authority-statistics/session/public-snapshots/transcript.before-round-001.jsonl",
+      "view_file": "006-transcript.before-round-001.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    }
+  ]
+}

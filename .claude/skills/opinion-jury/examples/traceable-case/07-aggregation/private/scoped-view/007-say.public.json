@@ -1,0 +1,14 @@
+{
+  "turn_id": "PANEL-001-T-1-1",
+  "panel_id": "PANEL-001",
+  "anonymous_alias": "SEAT-A",
+  "round": 1,
+  "phase": "OPENING",
+  "speech_text": "没有原始链接就不能写最高法最新数据。",
+  "target_turn_refs": [],
+  "public_question_refs": [],
+  "public_evidence_refs": [],
+  "public_action_signals": [
+    "公开要求补充出处"
+  ]
+}
