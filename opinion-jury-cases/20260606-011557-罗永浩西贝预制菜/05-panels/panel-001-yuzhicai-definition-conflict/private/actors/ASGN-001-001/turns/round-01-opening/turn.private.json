@@ -1,0 +1,84 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "看到这个议题我就来气。我们家从2018年开始每周去西贝，两个孩子都爱吃莜面和黄米凉糕，大宝每次都吵着要儿童餐。这么多年的消费体验，从来没有任何问题。现在网上突然说西贝是预制菜，我就不明白了——我每次带孩子去，明明看到厨房里厨师在忙活，怎么就成预制菜了？那个法定定义说中央厨房不算预制菜，我觉得这个很合理啊，中央厨房不就是集中备料嘛，跟自己在家提前洗好菜切好菜不是一个道理吗？我家孩子就认西贝的口味，要是西贝真关了，我都不知道带孩子去哪吃。那些说法规定义跟消费者认知冲突的，我想问一句：到底谁代表消费者认知？我就是消费者，我的认知就是西贝很好吃、很干净、孩子爱吃。罗永浩说什么就是什么吗？我身边妈妈群里大部分都觉得这事儿闹得过分了。法规定义有什么不对？国家六部委专门研究出来的定义，不比网红一句话靠谱？",
+    "assignment_id": "ASGN-001-001",
+    "round": 1,
+    "phase": "OPENING",
+    "private_goal": "以忠实消费者的身份为西贝正名，质疑法规定义被否定这件事的合理性",
+    "perceived_stakes": [
+      "常去的餐厅可能关门",
+      "孩子的饮食习惯被打乱",
+      "消费信任被否定"
+    ],
+    "private_belief_state": [
+      "西贝不是预制菜，因为我的消费体验告诉我不是",
+      "法定定义是合理的",
+      "罗永浩过于偏激"
+    ],
+    "epistemic_state": [
+      "基于多年消费体验做判断",
+      "不清楚中央厨房具体运作方式"
+    ],
+    "confidence": "MEDIUM",
+    "uncertainties": [
+      "不确定中央厨房和预制菜的技术区别",
+      "不确定西贝具体有多少菜品是预加工的"
+    ],
+    "intended_emphasis": [
+      "自己多年消费体验的真实性",
+      "孩子对西贝食品的喜爱",
+      "法定定义的专业性和权威性"
+    ],
+    "intended_omissions": [
+      "对中央厨房具体操作不了解",
+      "无法从技术层面反驳"
+    ],
+    "private_message_strategy": "用温暖的消费故事打动人，不硬争技术问题，强调自己作为母亲的亲身感受",
+    "planned_public_claims": [
+      "西贝菜品是现做的，我亲眼所见",
+      "法定定义是权威的",
+      "消费者认知不是铁板一块"
+    ],
+    "rhetorical_tactics": [
+      "诉诸个人体验",
+      "以母亲的身份增加说服力",
+      "温和但坚定"
+    ],
+    "truth_handling_this_turn": "HONEST",
+    "private_action_intent": [
+      "分享消费体验",
+      "质疑定义之争的必要性"
+    ],
+    "likely_next_action": [
+      "继续关注讨论",
+      "可能再次强调消费体验"
+    ],
+    "emotional_state": "有些不平和担忧",
+    "continuity_notes": "第一轮，建立消费者立场基调",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "ASGN-001-001",
+    "turn_id": "ASGN-001-001-round-01-opening",
+    "speech_origin": "SINCERE_SUPPORTED",
+    "speaker_private_belief_alignment": "ALIGNED",
+    "support_status": "SUPPORTED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SINCERE_SUPPORTED"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "ASGN-001-001",
+    "turn_id": "ASGN-001-001-round-01-opening",
+    "classification": "ROLE_FIDEL_HONEST",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

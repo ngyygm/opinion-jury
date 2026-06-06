@@ -1,0 +1,20 @@
+{
+  "turn_id": "ASN-P3S5-round-06-responsive-rebuttal",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-5",
+  "round": 6,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "最终总结。\n\n这场讨论展示了一个完整的理性公共讨论应该有的样子：从情绪化的立场出发，通过学术对话、逻辑分析和经验分享，逐步收敛到一个各方可以接受的共识框架。关键的方法论收获：\n\n1. 区分现象确认和因果归因——前者容易达成共识，后者需要更严格的证据。\n2. 区分方向价值和执行质量——有价值的研究方向不等于具体的每篇文章都合格。\n3. 用具体的研究设计(如SEAT-1建议的258字统计研究)替代抽象的立场争论。\n4. 在学术严谨和人文关怀之间可以找到平衡点。\n\n感谢所有认真参与讨论的人。SEAT-4最后的那句话——「看，你妈妈的名字有两千年的历史」——可能是这场讨论最有力量的一句话。知识给人力量，理性给人方向，经验给人温度。三者缺一不可。",
+  "target_turn_refs": [
+    "ASN-P3S1-round-06-responsive-rebuttal",
+    "ASN-P3S2-round-06-responsive-rebuttal",
+    "ASN-P3S4-round-06-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "panel-003-public-question"
+  ],
+  "public_evidence_refs": [
+    "claim-gate-C14-overgeneralization"
+  ],
+  "public_action_signals": []
+}

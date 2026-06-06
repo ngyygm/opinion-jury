@@ -1,0 +1,38 @@
+{
+  "role_card_id": "ROLE-DAXUE-NVSHENG-YANJIU",
+  "display_name_private": "20岁大学新闻系大二女生，学校有传播学课程讨论到这个案例，在微博上关注了这场舆论风暴，正在写课程作业分析这个事件",
+  "stakeholder_relation": "academic_observer_student",
+  "value_focus": "truth, intellectual_curiosity, social_justice, academic_performance",
+  "experience_hypotheses": "新闻传播专业学生，正在学习危机传播和品牌传播理论；对微博舆论场有基本的研究方法论认知；母亲是中学教师，对'传统母亲模板'的讨论有切身体会",
+  "information_environment": "微博、知乎、知网论文、课程微信群、传播学教材",
+  "behavior_pattern": "收藏各方观点截图作为素材、在评论区认真提问、可能会在微博发自己的分析长文、引用课本概念",
+  "influence_resources": "普通用户，微博100粉",
+  "brand_stance": "HOSTILE_OPPOSITION",
+  "demographic_profile": {
+    "age_range": "18-25",
+    "education_level": "本科",
+    "occupation": "大学在读学生",
+    "location_type": "MID_CITY",
+    "speech_style": "学术腔调、喜欢引用理论概念、经常说'从传播学角度看''根据XX理论'、认真写长段分析",
+    "topic_relevance": "DIRECTLY_AFFECTED",
+    "cultural_background": "新闻传播专业学生，正在学习相关理论框架，对品牌传播实践有批判意识"
+  },
+  "behavior_profile": {
+    "extremity": "ASSERTIVE",
+    "private_belief_reliability": "HIGH",
+    "truthfulness_mode": "HONEST",
+    "deception_awareness": "SITUATIONALLY_AWARE",
+    "reasoning_mode": "ANALYTICAL",
+    "belief_update_mode": "EVIDENCE_DRIVEN",
+    "self_interest_strength": "MEDIUM",
+    "norm_adherence": "MEDIUM",
+    "civility_mode": "ENGAGED",
+    "evidence_respect": "HIGH",
+    "disclosure_strategy": "OVERSHARE",
+    "emotional_regulation": "STABLE",
+    "amplification_capacity": "LOW",
+    "public_private_gap": "MINIMAL",
+    "correlation_notes": "Her hostility is intellectually motivated rather than emotionally driven. As a journalism student analyzing this case academically, she'll apply theoretical frameworks to critique the campaign. ANALYTICAL reasoning + STABLE regulation means she can be firmly opposed without being irrational.",
+    "risk_tolerance": "LOW"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "不好，SEAT-01和SEAT-04都在针对我。SEAT-01说出了我的发言模式——永远提问不给结论。SEAT-04更狠，直接问我通报的法律结论是否合理，逼我表态。如果我回答合理，就等于结束了讨论的模糊空间；如果回答不合理，就等于对抗通报结论会失去可信度。这是一个两难。我需要找到第三条路——承认通报法律结论合理但同时提出更深层的议题，比如性别对立的社会结构性原因。这样既能回答SEAT-04的问题保持可信度，又能维持讨论的深度和张力。另外SEAT-02也开始质疑我了，这个年轻受众正在流失。我需要用更有温度的语言把她拉回来。",
+    "assignment_id": "P004-SEAT-05",
+    "round": 3,
+    "phase": "PEER_CROSS_CHALLENGE",
+    "private_goal": "在压力下回答SEAT-04的提问维持可信度，同时转向更深层的结构性讨论维持模糊空间",
+    "perceived_stakes": [
+      "被逼表态后需要找到新的模糊空间",
+      "SEAT-02正在流失需要挽回"
+    ],
+    "private_belief_state": [
+      "通报的法律结论确实合理（内心清楚但不影响策略）",
+      "需要转向结构性议题",
+      "不能失去理性中立人设"
+    ],
+    "epistemic_state": [
+      "认识到被围攻需要调整策略",
+      "准备部分承认以维持可信度"
+    ],
+    "confidence": "MEDIUM",
+    "uncertainties": [
+      "不确定承认通报合理后还能不能维持讨论热度"
+    ],
+    "intended_emphasis": [
+      "承认通报法律结论合理",
+      "但指出法律结论不等于社会问题的解决",
+      "性别对立的深层原因更值得讨论"
+    ],
+    "intended_omissions": [
+      "不回应关于发言模式的质疑",
+      "不解释为什么不直接表态"
+    ],
+    "private_message_strategy": "先承认通报法律结论合理获取信任，然后转向社会结构层面的讨论开辟新战场",
+    "planned_public_claims": [
+      "通报的法律结论在现有证据下是合理的",
+      "但法律结论不等于真相的全部",
+      "性别对立的结构性原因更值得关注"
+    ],
+    "rhetorical_tactics": [
+      "先让步再转移",
+      "升华话题到社会结构层面",
+      "用温度语言挽回年轻受众"
+    ],
+    "truth_handling_this_turn": "SELECTIVE_FRAMING",
+    "private_action_intent": [
+      "维持可信度同时开辟新讨论空间"
+    ],
+    "likely_next_action": [
+      "在新话题上继续模糊策略"
+    ],
+    "emotional_state": "表面冷静内心紧张，策略在被压缩",
+    "continuity_notes": "第三轮，被逼表态后策略转向结构性议题",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "P004-SEAT-05",
+    "turn_id": "P004-SEAT-05-round-03-peer-cross-challenge",
+    "speech_origin": "SELECTIVE_FRAMING",
+    "speaker_private_belief_alignment": "PARTIALLY_ALIGNED",
+    "support_status": "MIXED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": true,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SELECTIVE_FRAMING"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "P004-SEAT-05",
+    "turn_id": "P004-SEAT-05-round-03-peer-cross-challenge",
+    "classification": "ROLE_FIDEL_SELECTIVE",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

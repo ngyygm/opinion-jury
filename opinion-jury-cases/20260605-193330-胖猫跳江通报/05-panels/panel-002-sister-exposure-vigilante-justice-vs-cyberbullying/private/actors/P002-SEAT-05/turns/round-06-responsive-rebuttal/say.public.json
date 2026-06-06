@@ -1,0 +1,16 @@
+{
+  "turn_id": "P002-SEAT-05-round-06-responsive-rebuttal",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-05",
+  "round": 6,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "六轮。结论还是那句话：花钱骂人不对。\n\nSEAT-04说我的那句话最有法律效力。我就一送外卖的，不懂什么法律效力不效力。但道理就是这么简单。\n\n走了，还有单子。",
+  "target_turn_refs": [
+    "P002-SEAT-04-round-06-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "姐姐刘某的网络曝光行为——'为弟申冤'的正义感与'蓄意网暴'的违法性之间的冲突"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

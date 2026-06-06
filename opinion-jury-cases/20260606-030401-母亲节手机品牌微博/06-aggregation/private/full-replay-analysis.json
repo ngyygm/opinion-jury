@@ -1,0 +1,584 @@
+{
+  "meta": {
+    "case_id": "20260606-030401-母亲节手机品牌微博",
+    "generated_at": "2026-06-06T04:00:00Z",
+    "analyst": "PRIVATE_REPLAY_ANALYST",
+    "source_panels": ["PANEL-001", "PANEL-002", "PANEL-003", "PANEL-004"],
+    "source_roles": 13,
+    "total_debate_rounds": 24,
+    "total_turns_analyzed": 144,
+    "think_memos_analyzed": true
+  },
+
+  "stakeholder_reactions": {
+    "summary": "The case generated intense cross-cutting reactions across all stakeholder groups. The brand's campaign to 'break stereotypes' about mothers on Mother's Day triggered four distinct fault lines: subculture-vs-mainstream language, traditional-vs-modern motherhood framing, brand commercial motives-vs-genuine social concern, and UGC content governance on public media. No single stakeholder group was monolithic in its response.",
+    "by_stakeholder_group": [
+      {
+        "group": "chasing_star_mothers",
+        "roles": ["ROLE-ZHUIXING-NV-MAMA"],
+        "panels_active": ["PANEL-001-SEAT-1", "PANEL-002-SEAT-5", "PANEL-004-SEAT-3"],
+        "public_reaction": "Initially enthusiastic and emotionally moved -- felt 'finally seen' by the campaign. The brand's depiction of a star-chasing mom with a light board directly validated their identity.",
+        "private_truth": "Genuine emotional identification with the campaign. Inner monologue reveals real pain from years of being told they are 'not proper mothers.' However, by Panel 2 Round 5, private reflections shifted dramatically to acknowledging the brand was using them as a consumption label, not seeing them as whole persons.",
+        "evolution": "PANEL-002-SEAT-5 underwent the most dramatic shift in the entire case: from 'the brand finally saw me' (R1) to 'the brand used me but my feelings are my own' (R5) to 'I need social understanding, not brand visibility' (R6). This evolution was internally driven, not performative.",
+        "net_verdict": "SUPPORTS the direction of diverse mother representation, REJECTS the brand's binary framework, and ultimately questions whether commercial brands can authentically represent marginalized identities."
+      },
+      {
+        "group": "traditional_elderly",
+        "roles": ["ROLE-TUIGONG-DAYE"],
+        "panels_active": ["PANEL-001-SEAT-3", "PANEL-002-SEAT-4"],
+        "public_reaction": "Deeply offended. The 'template' framing directly negated the life's work of traditional mothers like his late wife. Raw emotional anger expressed through plain language.",
+        "private_truth": "Authentically grief-driven. Private monologue confirms his anger stems from personal loss -- his late wife embodied the exact 'template' the campaign sought to transcend. The 'hidden bowl of noodles' and 'bearing the factory layoffs alone' details were genuine memories, not rhetorical devices.",
+        "evolution": "Minimal position shift. SEAT-3 in Panel 1 gradually accepted that chasing stars is not inherently wrong, but never wavered from 'public space needs public standards.' In Panel 2, SEAT-4's testimony about his late wife became the moral center of the entire debate, universally acknowledged as the most compelling argument across all panels.",
+        "net_verdict": "Categorically opposes the campaign's framing. Traditional mothers are unique individuals, not 'templates.' The campaign committed a fundamental error by devaluing real lives."
+      },
+      {
+        "group": "ordinary_working_mothers",
+        "roles": ["ROLE-SHANGBANZU-MAMA", "ROLE-XIANGZHEN-SHOUYINYUAN", "ROLE-JIANZHU-GONGREN-DASAO"],
+        "panels_active": ["PANEL-001-SEAT-5", "PANEL-002-SEAT-1", "PANEL-002-SEAT-2", "PANEL-004-SEAT-5"],
+        "public_reaction": "Moderate discomfort. Could understand the campaign's intent but found the execution problematic. The 'two husbands' language specifically caused unease about appropriateness in public advertising.",
+        "private_truth": "These actors represent the silent moderate majority. SEAT-5 (Panel 1) privately acknowledged that the campaign touched a real nerve about societal expectations of mothers, but maintained that good intent does not excuse poor execution. SEAT-1 (Panel 2, township cashier) felt viscerally that calling her life a 'template' was dismissive, though she struggled to articulate why analytically.",
+        "evolution": "Stable moderate positions that gradually gained more nuance. Panel 1 SEAT-5's 'direction is right, execution needs improvement' became the consensus 'greatest common divisor' across all panels.",
+        "net_verdict": "Supports diverse mother representation in principle, insists on public communication standards, and emphasizes that context and audience awareness are non-negotiable for brand campaigns."
+      },
+      {
+        "group": "brand_loyalists",
+        "roles": ["ROLE-PINPAI-ZHONGCHENG-FEN"],
+        "panels_active": ["PANEL-001-SEAT-2", "PANEL-003-SEAT-3"],
+        "public_reaction": "Defended the campaign's creative intent, argued that backlash came from cultural ignorance rather than genuine offense. Initially insisted the 'innovation inevitably causes discomfort' thesis.",
+        "private_truth": "Genuinely emotionally invested in the brand community. Panel 1 SEAT-2's inner monologue reveals real attachment and frustration at the backlash. However, private_goal shows awareness that the defense is partially motivated by community identity. By Round 4, privately acknowledged the 'innovation inevitably causes discomfort' argument was too absolute.",
+        "evolution": "Significant softening. Panel 1 SEAT-2 shifted from blanket defense to admitting execution flaws and coining the 'contextual disembedding' (语境脱嵌) framework -- the most important conceptual contribution of Panel 1. Panel 3 SEAT-3 shifted from 'the public has cultural bias' to 'the brand chose the wrong distribution channel for this content.'",
+        "net_verdict": "Supports the brand's creative direction, acknowledges strategic execution errors, advocates for audience segmentation and contextual framing rather than abandoning innovation."
+      },
+      {
+        "group": "feminist_analysis",
+        "roles": ["ROLE-NVQUAN-BOXUE-BOZHU"],
+        "panels_active": ["PANEL-001-SEAT-4", "PANEL-003-SEAT-5"],
+        "public_reaction": "Methodical critique of both the campaign's gendered language choices and its commercial motivation. Argued that 'calling idols husband' reinforces subservient relational patterns, and that the brand was replacing one stereotype with another.",
+        "private_truth": "Intellectually consistent across panels. In Panel 1, private monologue confirms genuine belief that the campaign's 'breaking stereotypes' was actually creating new ones. In Panel 3, strategically chose to present gender analysis as embedded in the language choices rather than as an add-on dimension. The 'brand used subservient relational framing' argument was sincerely held, not manufactured for debate advantage.",
+        "evolution": "Refined rather than reversed. Panel 1 SEAT-4 accepted the correction that three sample images together showed more diversity than a single replacement. Panel 3 SEAT-5 accepted the framing that gender analysis is an amplifier rather than the primary cause, while insisting it remains non-removable from the analysis.",
+        "net_verdict": "Opposes the campaign's execution on both strategic and gender-analysis grounds. Argues that true empowerment requires letting mothers define their own narratives, not having brands substitute new stereotypes for old ones."
+      },
+      {
+        "group": "industry_professionals",
+        "roles": ["ROLE-GONGGUAN-YINGXIAO-ZHUGUAN", "ROLE-SHUMA-BOZHU-10WAN"],
+        "panels_active": ["PANEL-003-SEAT-2", "PANEL-004-SEAT-2", "PANEL-004-SEAT-6", "PANEL-003-SEAT-1"],
+        "public_reaction": "Systematic professional critique of the campaign's risk management failures. Emphasized audience segmentation, contextual framing, and review mechanisms as missing standard procedures.",
+        "private_truth": "MIXED MOTIVATIONS EXPOSED. Panel 3 SEAT-1 (digital blogger) privately planned to 'make a video with a title that will definitely go viral' and explicitly strategized to 'maintain a neutral analyst persona while guiding the controversy direction for maximum traffic.' Panel 4 SEAT-6 (same role type) privately planned to 'focus on this specific brand for topic value while framing it as an industry issue' to preserve future collaboration opportunities. In contrast, Panel 3/4 SEAT-2 (PR director) showed genuine professional analysis without evidence of ulterior traffic motives.",
+        "evolution": "Professional framings became more constructive over rounds. The three-step risk control framework and four-dimensional assessment model emerged as consensus industry recommendations.",
+        "net_verdict": "The campaign committed preventable professional errors in audience analysis, contextual assessment, and content review. These are standard industry procedures whose absence constitutes negligence rather than bad luck."
+      },
+      {
+        "group": "disconnected_public",
+        "roles": ["ROLE-WAIMAI-QISHOU", "ROLE-CHUSAN-NANSHENG", "ROLE-CUNVXING-PIANJIANG"],
+        "panels_active": ["PANEL-003-SEAT-4", "PANEL-001-SEAT-6", "PANEL-004-SEAT-1"],
+        "public_reaction": "Ranging from complete incomprehension (delivery rider: 'I didn't understand a single word') to amused detachment (middle schooler: 'adults are so bored') to sarcastic schadenfreude (former loyalist: 'serves them right').",
+        "private_truth": "Authentically disconnected. The delivery rider's 'a 29-year-old can't understand this, and my 55-year-old rural mom thinks the person is crazy' was genuine field data, not a rhetorical device. The middle schooler privately found the debate more interesting than expected but maintained performative detachment. The former loyalist privately mixed genuine product disappointment with schadenfreude.",
+        "evolution": "The delivery rider's single criterion -- 'advertising that people can't understand is failed advertising' -- became the simplest and most irrefutable verdict across all panels.",
+        "net_verdict": "The campaign failed at the most basic level: it could not be understood by its intended audience. All other analysis is secondary to this empirical fact."
+      },
+      {
+        "group": "academic_observers",
+        "roles": ["ROLE-DAXUE-NVSHENG-YANJIU", "ROLE-SHOUJI-CHANGYONG-ZHONG"],
+        "panels_active": ["PANEL-002-SEAT-6", "PANEL-002-SEAT-3", "PANEL-003-SEAT-6"],
+        "public_reaction": "Systematic theoretical analysis using communication studies frameworks. Identified the 'representational dilemma' where brands speaking for a group inevitably simplify and stereotype that group.",
+        "private_truth": "Panel 2 SEAT-6's academic analysis was genuine -- the journalism student was sincerely applying classroom frameworks to a real case. The 'anti-stereotype stereotyping' and 'participatory communication' concepts were honestly held analytical tools. Panel 2 SEAT-3 (programmer) applied genuinely analytical reasoning with stable emotional regulation.",
+        "evolution": "Progressively synthesized frameworks from multiple discussants. Panel 2 SEAT-6's 'representational dilemma' concept was the most important theoretical contribution across all panels.",
+        "net_verdict": "The campaign's core error was 'anti-stereotype stereotyping' -- attempting to break one stereotype while creating another. Long-term solution is participatory communication where brands provide platforms rather than narratives."
+      }
+    ]
+  },
+
+  "private_public_gap_findings": {
+    "summary": "The most significant private-public gaps were found among industry professionals (digital bloggers) who strategically maintained neutral public personas while privately pursuing traffic and brand relationship objectives. Emotional actors (retired steelworker, chasing-star mom) showed minimal gaps -- their private monologues matched their public statements almost exactly.",
+    "findings": [
+      {
+        "actor": "PANEL-003-SEAT-1 (ROLE-SHUMA-BOZHU-10WAN)",
+        "gap_magnitude": "LARGE",
+        "evidence": "Private goal explicitly states: 'make a high-traffic deep analysis video, maintain a neutral persona on the surface while guiding controversy for maximum traffic.' Public output presents as objective industry analysis. Private strategy includes: 'I can't directly agree with SEAT-6, I need to repackage their point as my own supplementary angle.' This is KNOWING_STRATEGIC deception behavior confirmed by role card.",
+        "public_claims_vs_private_beliefs": {
+          "public": "Objective industry analysis of subculture terminology in public communication",
+          "private": "Traffic optimization through manufactured controversy framing",
+          "specific_tactic": "Presented the esports-terminology hypothetical as a genuine analytical question, but privately chose it specifically because it would 'generate the most discussion heat'"
+        }
+      },
+      {
+        "actor": "PANEL-004-SEAT-6 (ROLE-SHUMA-BOZHU-10WAN, same role type)",
+        "gap_magnitude": "LARGE",
+        "evidence": "Private monologue: 'This event is perfect for a video. Title already planned. Definitely viral.' Public output presents as balanced industry commentary. Private strategy: 'Frame as industry issue rather than specific brand problem to preserve future collaboration opportunities' and 'focus on the specific brand for topic value.' Explicitly plans to withhold deep criticism of the brand's specific PR failures to maintain business relationships.",
+        "public_claims_vs_private_beliefs": {
+          "public": "UGC review is an industry-wide systemic issue requiring collective solutions",
+          "private": "This specific brand case has excellent traffic potential; framing as industry issue protects future business relationships",
+          "specific_tactic": "Emphasized industry-wide nature of the problem in public while privately acknowledging the specific brand's failures were more egregious"
+        }
+      },
+      {
+        "actor": "PANEL-002-SEAT-5 (ROLE-ZHUIXING-NV-MAMA)",
+        "gap_magnitude": "MODERATE (dynamic)",
+        "evidence": "Initially no gap -- public enthusiasm matched private emotion exactly. By Round 5, a gap emerged between public position ('brand used me but my feelings are my own') and private monologue which was more raw: 'I was moved to tears but now I realize the brand only saw the part of me that could help sell phones.' The public statement was more composed and analytical than the private feeling.",
+        "public_claims_vs_private_beliefs": {
+          "public": "Brand direction is right, framework is wrong, I accept transparent review mechanisms",
+          "private": "My deepest need is social understanding, not brand visibility. The brand touched a real pain point but has no right to represent it.",
+          "specific_tactic": "Gradually softened public defense of the brand while privately moving much further toward rejecting the brand's entire framing"
+        }
+      },
+      {
+        "actor": "PANEL-001-SEAT-2 (ROLE-PINPAI-ZHONGCHENG-FEN)",
+        "gap_magnitude": "MODERATE",
+        "evidence": "Publicly defended the brand more strongly than private monologue suggests. Privately acknowledged by Round 2 that SEAT-4's academic critique was 'hard to refute directly' and that SEAT-5 representing 'most people's feelings' was concerning. Public output projected more confidence in the brand than privately felt.",
+        "public_claims_vs_private_beliefs": {
+          "public": "Brand's creative direction is innovative and backlash is cultural ignorance",
+          "private": "Growing concern that the backlash has legitimate dimensions; SEAT-5's moderate discomfort is more threatening than SEAT-4's academic critique",
+          "specific_tactic": "Publicly projected confidence while privately searching for a more defensible position, eventually landing on 'contextual disembedding' as a retreat position"
+        }
+      },
+      {
+        "actor": "PANEL-002-SEAT-4 (ROLE-TUIGONG-DAYE)",
+        "gap_magnitude": "MINIMAL",
+        "evidence": "Public anger matches private monologue exactly. 'Blood pressure went up reading this' -- expressed identically in both channels. The 'hidden bowl of noodles' memory was shared without embellishment. What you see is what he genuinely feels.",
+        "public_claims_vs_private_beliefs": {
+          "public": "My wife was not a template; the campaign negated her life's work",
+          "private": "Identical -- raw grief-driven anger at the campaign's framing",
+          "specific_tactic": "None -- authentically transparent emotional expression"
+        }
+      },
+      {
+        "actor": "PANEL-003-SEAT-4 (ROLE-WAIMAI-QISHOU)",
+        "gap_magnitude": "NONE",
+        "evidence": "Public and private positions are identical: 'I didn't understand a single word. Advertising people can't understand is failed advertising.' No strategic calculation detected.",
+        "public_claims_vs_private_beliefs": {
+          "public": "Can't understand = failed advertising. That's all.",
+          "private": "Same. Plus: his mom's reaction ('this person must be crazy') was real field data he shared.",
+          "specific_tactic": "None -- complete authenticity"
+        }
+      }
+    ]
+  },
+
+  "epistemic_behavior_findings": {
+    "summary": "The case revealed a clear spectrum of epistemic quality. Actors with ANALYTICAL reasoning and HIGH evidence respect (feminist blogger, PR director, journalism student, programmer) produced the most reliable arguments. Actors with HEURISTIC reasoning and LOW evidence respect (middle schooler, delivery rider) produced valuable empirical data but limited analysis. The digital bloggers exhibited KNOWING_STRATEGIC epistemic behavior -- their analytical capabilities were real but selectively deployed for self-interest.",
+    "notable_patterns": [
+      {
+        "pattern": "Evidence-driven position shifts",
+        "actors": ["PANEL-001-SEAT-2", "PANEL-002-SEAT-5", "PANEL-003-SEAT-3"],
+        "description": "Three actors underwent significant position shifts driven by evidence rather than social pressure. Panel 1 SEAT-2 abandoned the 'innovation causes discomfort' thesis after being confronted with the counterexample. Panel 2 SEAT-5 abandoned brand defense after hearing the retired steelworker's personal testimony. Panel 3 SEAT-3 accepted the 'audience barrier' argument after seeing the delivery rider's mother's reaction. These shifts were documented in private monologues as genuinely experienced cognitive updates."
+      },
+      {
+        "pattern": "Strategic epistemic behavior",
+        "actors": ["PANEL-003-SEAT-1", "PANEL-004-SEAT-6"],
+        "description": "Both digital bloggers (ROLE-SHUMA-BOZHU-10WAN) exhibited identical patterns: SELECTIVE_FRAMING in public paired with KNOWING_STRATEGIC private awareness. They genuinely possessed analytical capability but chose which arguments to advance based on traffic potential and brand relationship preservation. Their private monologues explicitly discussed 'guiding the controversy direction' and 'withholding specific criticisms to preserve future business.' This represents the most epistemically compromised behavior in the case."
+      },
+      {
+        "pattern": "Authentic emotional epistemology",
+        "actors": ["PANEL-002-SEAT-4", "PANEL-003-SEAT-4", "PANEL-002-SEAT-1"],
+        "description": "Several actors processed information through emotional rather than analytical frameworks but did so authentically. The retired steelworker's grief-informed reasoning, the delivery rider's incomprehension-based judgment, and the township cashier's identity-driven discomfort all produced epistemically honest contributions. Their emotional reasoning was not less valid -- in several cases, it produced the most compelling and universally acknowledged arguments."
+      },
+      {
+        "pattern": "Anchoring and confirmation",
+        "actors": ["PANEL-001-SEAT-1", "PANEL-001-SEAT-3"],
+        "description": "Panel 1 SEAT-1 (chasing-star mom) showed ANCHOR_RESISTANT behavior -- maintained the core position that 'chasing-star language has the right to exist in public spaces' across all six rounds despite mounting counterarguments. Panel 1 SEAT-3 (retired worker) showed similar anchoring on 'public space needs public standards.' Both showed CONFIRMATORY belief update patterns. However, both also made genuine accommodations at the margins (SEAT-1 accepted the 'contextual framing' proposal; SEAT-3 acknowledged that chasing stars itself is not wrong)."
+      }
+    ]
+  },
+
+  "cross_issue_continuity": {
+    "summary": "Four issues were debated across four panels. Three core themes emerged consistently across all panels, demonstrating high cross-issue continuity.",
+    "themes": [
+      {
+        "theme": "The 'representational dilemma' -- brands cannot authentically speak for groups they do not belong to",
+        "panels_where_present": ["PANEL-001", "PANEL-002", "PANEL-003", "PANEL-004"],
+        "description": "Every panel independently arrived at the conclusion that brands attempting to 'represent' or 'empower' groups inevitably simplify and stereotype them. Panel 2 named it the 'representational dilemma' (代表权困境). Panel 1 framed it as 'whose bottom line, who defines the bottom line.' Panel 3 concluded 'don't speak for your target users, let them speak for themselves.' Panel 4 landed on 'transparent review with user participation in standard-setting.' The convergence from four different starting points onto the same core insight is the strongest finding of the entire case."
+      },
+      {
+        "theme": "The 'contextual disembedding' problem -- subculture language loses its harmless meaning when extracted into mainstream context",
+        "panels_where_present": ["PANEL-001", "PANEL-003"],
+        "description": "Panel 1 SEAT-2 coined 'contextual disembedding' (语境脱嵌) to describe how 'two husbands' is harmless in fan communities but offensive on a public billboard. Panel 3 built the four-dimensional risk framework (encoding compatibility, contextual fit, value sensitivity, scenario matching) that operationalizes this insight. The convergence validates the concept as robust."
+      },
+      {
+        "theme": "The 'anti-stereotype stereotyping' trap -- campaigns that break stereotypes often create new ones",
+        "panels_where_present": ["PANEL-001", "PANEL-002", "PANEL-003"],
+        "description": "Panel 1 SEAT-4 first identified that the campaign 'replaces one stereotype with another.' Panel 2 SEAT-6 named it 'anti-stereotype stereotyping' (反刻板印象的刻板印象). Panel 3 SEAT-5 showed that the brand's three sample images all pointed to subculture consumption labels, not genuine diversity. The concept appeared independently across panels, suggesting a real structural pattern in values-driven marketing."
+      }
+    ],
+    "recurring_actors": [
+      {
+        "role": "ROLE-ZHUIXING-NV-MAMA",
+        "panels": ["PANEL-001", "PANEL-002", "PANEL-004"],
+        "continuity": "Appeared as the campaign's primary beneficiary across three panels. Showed consistent emotional authenticity but underwent significant position evolution. By Panel 2 Round 6, had arrived at 'I need social understanding, not brand visibility' -- a position that ironically aligns with the campaign's critics on the methodological level while maintaining the directional goal."
+      },
+      {
+        "role": "ROLE-TUIGONG-DAYE",
+        "panels": ["PANEL-001", "PANEL-002"],
+        "continuity": "Appeared as the campaign's most emotionally compelling opponent in two panels. His testimony about his late wife was universally acknowledged as the moral center of both debates. Consistently maintained 'public space needs public standards' without wavering."
+      },
+      {
+        "role": "ROLE-NVQUAN-BOXUE-BOZHU",
+        "panels": ["PANEL-001", "PANEL-003"],
+        "continuity": "Applied consistent feminist analytical framework across two panels. In Panel 1, focused on how the campaign reinforced subservient relational patterns. In Panel 3, expanded to show how subculture terminology carries embedded gender power relations. Positions were intellectually consistent and refined across panels."
+      },
+      {
+        "role": "ROLE-SHUMA-BOZHU-10WAN",
+        "panels": ["PANEL-003", "PANEL-004"],
+        "continuity": "Appeared in two panels with identical strategic behavior: publicly neutral analysis privately optimized for traffic and brand relationships. The consistency of the strategic deception pattern across panels confirms it as a stable behavioral trait of this role type."
+      }
+    ]
+  },
+
+  "deception_and_distortion_signals": {
+    "summary": "Two actors exhibited clear strategic deception. The digital blogger role (ROLE-SHUMA-BOZHU-10WAN) consistently concealed traffic-optimization motives behind a neutral analyst persona. All other actors showed either no gap or minimal gaps between public and private positions.",
+    "confirmed_cases": [
+      {
+        "actor": "PANEL-003-SEAT-1 (ROLE-SHUMA-BOZHU-10WAN)",
+        "deception_type": "STRATEGIC_SELECTIVE_FRAMING",
+        "evidence": [
+          "Private goal: 'make a high-traffic deep analysis video, maintain neutral persona on surface while guiding controversy for maximum traffic'",
+          "Private strategy: 'can't directly agree with SEAT-6, need to repackage as supplementary angle' -- deliberate avoidance of acknowledging others' contributions",
+          "Private intention: 'ask SEAT-5 about distinguishing traffic logic from gender logic -- this challenge is hard to answer, will generate good discussion heat'",
+          "Withheld genuine analysis depth in public to 'leave controversy space' for comment section engagement",
+          "Explicitly planned to avoid deep criticism of the specific brand to preserve 'topic value' without burning bridges"
+        ],
+        "distortion_impact": "MEDIUM -- The public output was analytically valid on its surface. The distortion was in framing emphasis and strategic omission rather than false claims. However, the manufactured 'neutrality' may have led other participants to underestimate the commercial incentives driving the discussion."
+      },
+      {
+        "actor": "PANEL-004-SEAT-6 (ROLE-SHUMA-BOZHU-10WAN)",
+        "deception_type": "STRATEGIC_SELECTIVE_FRAMING",
+        "evidence": [
+          "Private monologue: 'This event is perfect for a video. Title already planned. Definitely viral.'",
+          "Private strategy: 'Frame as industry issue rather than specific brand problem to preserve future collaboration opportunities'",
+          "Private intention: 'Withhold deep criticism of the brand's specific PR failures to maintain business relationships'",
+          "Publicly presented the 'industry-wide problem' framing more strongly than privately believed, specifically to protect future commercial interests"
+        ],
+        "distortion_impact": "MEDIUM -- The industry-wide framing was partially true but deceptively overemphasized to serve commercial interests. This is the same behavioral pattern as Panel 3 SEAT-1, confirming role-type consistency."
+      }
+    ],
+    "false_alarm_cases": [
+      {
+        "actor": "PANEL-001-SEAT-2 (ROLE-PINPAI-ZHONGCHENG-FEN)",
+        "suspected_deception": "Public defense of the brand seemed excessively loyal",
+        "actual_truth": "Private monologue confirms genuine emotional attachment to the brand community. The defense was sincerely motivated by community identity, not paid promotion or strategic calculation. The gradual softening of position matched genuine belief updating, not strategic retreat."
+      },
+      {
+        "actor": "PANEL-002-SEAT-5 (ROLE-ZHUIXING-NV-MAMA)",
+        "suspected_deception": "Dramatic position shift from brand defender to brand critic could appear performative",
+        "actual_truth": "Private monologues at each stage document genuine internal evolution. The shift was driven by specific arguments (the 'hidden bowl of noodles' story, the 'consumption label' critique) that created real cognitive dissonance. The shift was authentic, not theatrical."
+      }
+    ]
+  },
+
+  "attacker_profiles": {
+    "summary": "The campaign faced two types of 'attack' -- substantive critique and schadenfreude-driven mockery. The substantive critique came from diverse angles but converged on consistent points. The schadenfreude was concentrated among disaffected former consumers.",
+    "profiles": [
+      {
+        "profile_id": "AP-01",
+        "type": "values_based_critic",
+        "actors": ["PANEL-001-SEAT-3/PANEL-002-SEAT-4 (ROLE-TUIGONG-DAYE)", "PANEL-002-SEAT-1 (ROLE-XIANGZHEN-SHOUYINYUAN)", "PANEL-002-SEAT-2 (ROLE-JIANZHU-GONGREN-DASAO)"],
+        "motivation": "Genuine offense at the devaluation of traditional motherhood",
+        "attack_pattern": "Emotionally grounded testimony of personal experience, supplemented by institutional authority (Wuhan University, China Women's Daily). Low analytical sophistication but high moral authority.",
+        "effectiveness": "VERY_HIGH -- The retired steelworker's personal testimony was the single most impactful argument across all panels. Institutional citations provided external validation that was immune to counterargument.",
+        "self_interest_alignment": "LOW -- These actors had no commercial stake in the outcome. Their attack was purely identity-defensive."
+      },
+      {
+        "profile_id": "AP-02",
+        "type": "professional_analyst_critic",
+        "actors": ["PANEL-003-SEAT-2 (ROLE-GONGGUAN-YINGXIAO-ZHUGUAN)", "PANEL-002-SEAT-3 (ROLE-SHOUJI-CHANGYONG-ZHONG)", "PANEL-003-SEAT-6 (ROLE-SHOUJI-CHANGYONG-ZHONG)"],
+        "motivation": "Professional assessment of preventable strategic errors",
+        "attack_pattern": "Systematic framework-based analysis identifying specific failure points: audience segmentation failure, contextual mismatch, missing review procedures, binary opposition framing. Each criticism accompanied by constructive alternatives.",
+        "effectiveness": "HIGH -- The three-step review framework and four-dimensional risk model were adopted as consensus recommendations. The PR director's '5% prevention vs 300% remediation cost' argument was particularly persuasive.",
+        "self_interest_alignment": "MODERATE -- The PR director potentially benefits from competitors' failures, but the analysis was substantively valid regardless of motivation."
+      },
+      {
+        "profile_id": "AP-03",
+        "type": "ideological_critic",
+        "actors": ["PANEL-001-SEAT-4/PANEL-003-SEAT-5 (ROLE-NVQUAN-BOXUE-BOZHU)", "PANEL-002-SEAT-6 (ROLE-DAXUE-NVSHENG-YANJIU)"],
+        "motivation": "Intellectual opposition to the campaign's representational politics",
+        "attack_pattern": "Theoretical analysis of power dynamics embedded in language choices, framing of 'anti-stereotype stereotyping,' critique of commercial co-optation of identity politics. Consistently separated criticism of the brand's strategy from criticism of individuals' lifestyle choices.",
+        "effectiveness": "MODERATE_TO_HIGH -- The feminist blogger's arguments required theoretical literacy to fully engage with, which limited direct impact on emotionally-driven discussants. However, the 'new stereotype replacing old' and 'commercial co-optation of emotional labor' arguments eventually penetrated to influence moderate participants.",
+        "self_interest_alignment": "MODERATE -- The feminist blogger benefits from traffic on gender topics and the journalism student benefits academically. Both were intellectually honest but not disinterested."
+      },
+      {
+        "profile_id": "AP-04",
+        "type": "disaffected_former_consumer",
+        "actors": ["PANEL-004-SEAT-1 (ROLE-CUNVXING-PIANJIANG)"],
+        "motivation": "Schadenfreude from watching a brand that disappointed them fail publicly",
+        "attack_pattern": "Sarcastic mockery, 'I told you so' framing, attribution of failure to fundamental brand character ('marketing over product') rather than specific campaign errors.",
+        "effectiveness": "LOW_AS_SUBSTANTIVE_CRITIQUE but HIGH_AS_SENTIMENT_AMPLIFIER -- The sarcasm contributed little analytical value but amplified negative sentiment and was cited by others as representing 'former loyalists' perspective.'",
+        "self_interest_alignment": "LOW -- No commercial stake; purely emotional satisfaction from competitor failure."
+      }
+    ]
+  },
+
+  "misrepresentation_targets": {
+    "summary": "The campaign's content was subject to several distortions as it traveled through the debate. The most significant misrepresentation was the conflation of 'chasing stars' with 'disrespecting marriage,' which occurred through contextual extraction.",
+    "targets": [
+      {
+        "target": "The 'two husbands' image text",
+        "intended_meaning": "A child's humorous observation about their star-chasing mother, using fan culture language where 'husband' is an affectionate nickname for idols",
+        "dominant_misrepresentation": "A married woman publicly claiming to have 'another husband' and wanting to 'wear a wedding dress to meet him,' implying marital disrespect",
+        "misrepresentation_mechanism": "Contextual extraction -- removing the fan-culture context transformed an inside-joke into an apparently literal statement about marriage",
+        "who_perpetuated": "Traditional values holders (retired steelworker, township cashier) interpreted it literally. Institutional critics (Wuhan University, China Women's Daily) amplified without addressing the fan-culture context. The brand itself failed to provide sufficient context in the original campaign.",
+        "was_misrepresentation_malicious": "Largely no -- most critics genuinely did not understand the fan-culture context. The institutional responses addressed perceived effects rather than intended meanings. However, some social media amplification was likely engagement-driven rather than conviction-driven."
+      },
+      {
+        "target": "The 'break the template' framing",
+        "intended_meaning": "Mothers should not be limited to a single representational model",
+        "dominant_misrepresentation": "Traditional motherhood qualities (gentle, hardworking, selfless) are negative 'stereotypes' that need to be rejected",
+        "misrepresentation_mechanism": "Binary opposition extraction -- the 'template + break' rhetorical structure inherently implies the template is negative, regardless of the speaker's intent",
+        "who_perpetuated": "This was not purely a misrepresentation -- the rhetorical structure genuinely carried this implication. All four panels agreed the framing was inherently binary and negating. Panel 2's unanimous finding that the campaign 'negated rather than empowered' confirms this reading was the natural interpretation.",
+        "was_misrepresentation_malicious": "No -- the 'break the template' framing genuinely implied what critics perceived. This was a structural feature of the language, not a reader error."
+      },
+      {
+        "target": "The 'writing fan-fiction sweet stories' image",
+        "intended_meaning": "A mother who has her own creative hobby in online fan communities",
+        "dominant_misrepresentation": "Marginal -- this image received the least criticism. The main confusion was from audiences who did not understand the terminology ('同人小甜文', '姨母笑', '撒糖') rather than moral objections to the content.",
+        "misrepresentation_mechanism": "Terminological opacity -- the vocabulary was genuinely incomprehensible to non-fandom audiences",
+        "who_perpetuated": "Not maliciously perpetuated by anyone; the confusion was genuine",
+        "was_misrepresentation_malicious": "No"
+      }
+    ]
+  },
+
+  "collateral_victims": {
+    "summary": "Several groups were harmed by the campaign despite not being its intended targets.",
+    "victims": [
+      {
+        "group": "Traditional mothers and their families",
+        "harm_type": "Symbolic devaluation",
+        "description": "The campaign's 'break the template' framing implicitly devalued the life choices of millions of traditional mothers. The retired steelworker's testimony was representative of a much larger silent population who felt dismissed by the campaign's rhetoric.",
+        "severity": "HIGH",
+        "evidence": "Panel 2 unanimous verdict: campaign 'negated rather than empowered.' Multiple actors in Panel 2 (township cashier, construction worker, retired steelworker) all independently reported feeling personally diminished by the 'template' language."
+      },
+      {
+        "group": "Star-chasing mothers who initially supported the campaign",
+        "harm_type": "Identity instrumentalization",
+        "description": "The campaign used star-chasing mothers' genuine identity struggles as marketing material without providing real social empowerment. When the backlash came, these mothers were left defending a commercial brand rather than their own authentic experiences.",
+        "severity": "MODERATE",
+        "evidence": "Panel 2 SEAT-5's evolution from 'the brand finally saw me' to 'the brand used me but my feelings are my own' documents this instrumentalization in real-time. Her private Round 5 monologue explicitly acknowledges being treated as a consumption label."
+      },
+      {
+        "group": "The brand's own creative team",
+        "harm_type": "Professional and reputational damage",
+        "description": "Two public apologies, institutional criticism, and sustained negative coverage damaged the brand's reputation. The creative team's genuine attempt at innovation was punished disproportionately to the actual harm caused, though the errors were real.",
+        "severity": "MODERATE",
+        "evidence": "All four panels agreed that the creative direction was worth attempting, with better execution. Panel 1's consensus: 'direction is right, execution needs improvement.' Panel 3: 'the brand should not be punished for trying to innovate, but for failing to follow basic procedures.'"
+      },
+      {
+        "group": "Subculture communities (fan culture, ACG, pet lovers)",
+        "harm_type": "Cultural backlash amplification",
+        "description": "The campaign's failed use of subculture terminology triggered broader public hostility toward fan culture, reinforcing existing prejudices against these communities.",
+        "severity": "LOW_TO_MODERATE",
+        "evidence": "Panel 1 SEAT-3 explicitly associated fan culture with moral transgression. Panel 3 SEAT-3 noted that the backlash reinforced 'systematic prejudice against fan culture.' The campaign's failure made these communities more visible as targets of criticism."
+      }
+    ]
+  },
+
+  "interest_damage_map": {
+    "summary": "Mapping of who had what interests at stake and what damage they experienced.",
+    "entries": [
+      {
+        "stakeholder": "The brand (OPPO)",
+        "interest": "Brand visibility, emotional connection with consumers, commercial conversion",
+        "damage_sustained": "HIGH -- Two public apologies, institutional criticism from Wuhan University and China Women's Daily, sustained negative social media coverage, brand reputation damage estimated at weeks-to-months recovery time",
+        "damage_self_inflicted": "YES -- preventable through basic audience testing and contextual framing",
+        "damage_disproportionate": "PARTIALLY -- the errors were real and the initial criticism was justified, but the intensity of the backlash was amplified by social media dynamics beyond the campaign's specific failures"
+      },
+      {
+        "stakeholder": "Traditional mothers",
+        "interest": "Respect for their life choices and sacrifices",
+        "damage_sustained": "MODERATE -- symbolic devaluation through the 'template' framing, though the brand's apologies partially addressed this",
+        "damage_self_inflicted": "NO",
+        "damage_disproportionate": "YES -- the harm was entirely caused by the campaign's rhetorical choices"
+      },
+      {
+        "stakeholder": "Non-traditional mothers (star-chasing, fan-fiction, etc.)",
+        "interest": "Social recognition and freedom from judgment",
+        "damage_sustained": "MODERATE -- brief visibility followed by backlash that reinforced the very prejudice they sought to escape. The campaign instrumentalized their identity for commercial purposes.",
+        "damage_self_inflicted": "NO -- they were beneficiaries-by-proxy of a campaign they did not commission",
+        "damage_disproportionate": "YES -- these mothers gained nothing durable and lost ground in public perception"
+      },
+      {
+        "stakeholder": "Industry professionals (content creators, PR practitioners)",
+        "interest": "Professional standards, industry reputation, traffic/revenue",
+        "damage_sustained": "LOW -- most gained professionally from analyzing the case (traffic for bloggers, relevance for PR consultants)",
+        "damage_self_inflicted": "NO",
+        "damage_disproportionate": "N/A -- these actors were net beneficiaries of the controversy"
+      }
+    ]
+  },
+
+  "contingency_matrix": {
+    "summary": "What could have been different if specific conditions changed.",
+    "scenarios": [
+      {
+        "scenario": "If the campaign had used 'see more facets of mom' (看见更多面的妈妈) instead of 'break the template' (打破模板)",
+        "probability_of_avoiding_backlash": "HIGH (70-80%)",
+        "reasoning": "Panel 2 unanimously agreed that the 'break the template' framing was the campaign's core error. An additive framing ('see more facets') would have avoided the binary opposition that negated traditional mothers while still enabling diverse representation. Panel 2 SEAT-3 specifically proposed this alternative and it was accepted by all participants."
+      },
+      {
+        "scenario": "If the 'two husbands' image had been replaced with a star-chasing mom shown at a concert with her light board (without the 'husband' language)",
+        "probability_of_avoiding_backlash": "MODERATE (50-60%)",
+        "reasoning": "Panel 1 consensus held that showing a star-chasing mom was not itself problematic; the specific language choice ('two husbands,' 'wear a wedding dress') was the flashpoint. Removing the specific language while keeping the visual would have retained the creative direction with lower risk. However, the remaining subculture terminology issues (fan fiction, pet personification) would still have caused some audience confusion."
+      },
+      {
+        "scenario": "If the campaign had been published on Bilibili instead of Weibo",
+        "probability_of_avoiding_backlash": "MODERATE-HIGH (60-70%)",
+        "reasoning": "Panel 3 explicitly tested this counterfactual. The consensus was that Bilibili's younger, subculture-literate audience would have understood the terminology and been less likely to interpret 'husband' literally. However, the 'two husbands' image might still have generated some controversy even on Bilibili due to its marriage-related implications."
+      },
+      {
+        "scenario": "If the brand had conducted basic audience readability testing before publishing",
+        "probability_of_avoiding_backlash": "VERY HIGH (85-95%)",
+        "reasoning": "Panel 3 SEAT-2 estimated that testing with 5 non-team users of different age groups would take 30 minutes and would have immediately revealed the incomprehension problem. Panel 3 SEAT-4's mother's reaction ('this person must be crazy') demonstrated exactly the kind of feedback that testing would have surfaced. This was the single most preventable error."
+      },
+      {
+        "scenario": "If the brand had included traditional mother stories alongside the subculture examples",
+        "probability_of_avoiding_backlash": "MODERATE-HIGH (65-75%)",
+        "reasoning": "Panel 2 SEAT-6 proposed including 'a mother who makes different breakfasts every day' as a 'non-defined' traditional mother story. Including such examples would have demonstrated that 'diversity' includes traditional choices, not just subculture ones. This would have partially addressed the 'anti-stereotype stereotyping' problem."
+      }
+    ]
+  },
+
+  "self_interest_vs_stated_position": {
+    "summary": "Analysis of alignment between actors' stated positions and their probable self-interests.",
+    "findings": [
+      {
+        "actor_group": "Digital bloggers (ROLE-SHUMA-BOZHU-10WAN)",
+        "stated_position": "Objective industry analysis; UGC review is an industry-wide problem requiring systematic solutions",
+        "actual_self_interest": "Maximize traffic and engagement from the controversy; preserve future brand collaboration opportunities",
+        "alignment": "LOW -- The stated 'industry-wide problem' framing was privately acknowledged to be strategically chosen to protect commercial relationships. The 'neutral analyst' persona was manufactured to maximize engagement.",
+        "evidence_strength": "STRONG -- Private monologues explicitly document traffic-optimization motives and brand-relationship preservation strategies"
+      },
+      {
+        "actor_group": "Brand loyalists (ROLE-PINPAI-ZHONGCHENG-FEN)",
+        "stated_position": "The campaign's creative direction is innovative and backlash reflects cultural ignorance",
+        "actual_self_interest": "Preserve community identity and belonging; justify continued brand loyalty",
+        "alignment": "MODERATE -- The defense was genuinely motivated by community attachment, but the intensity exceeded what purely rational assessment would support. Private monologues show growing doubt that was not reflected in early public statements.",
+        "evidence_strength": "MODERATE -- Private monologues show gap between private doubt and public defense, particularly in early rounds"
+      },
+      {
+        "actor_group": "Feminist blogger (ROLE-NVQUAN-BOXUE-BOZHU)",
+        "stated_position": "Campaign reinforced subservient relational patterns and replaced one stereotype with another",
+        "actual_self_interest": "Build professional reputation as a gender issues analyst; benefit from traffic on trending topic",
+        "alignment": "HIGH -- The analysis was intellectually consistent across both panels and privately believed. Self-interest (topic relevance for her platform) aligned with genuine analytical conviction. The arguments would hold even without the traffic incentive.",
+        "evidence_strength": "STRONG -- Private monologues confirm genuine analytical conviction; strategic elements (choosing which arguments to emphasize) were deployed in service of sincerely held positions"
+      },
+      {
+        "actor_group": "PR director (ROLE-GONGGUAN-YINGXIAO-ZHUGUAN)",
+        "stated_position": "Campaign committed preventable professional errors; brand should establish systematic review procedures",
+        "actual_self_interest": "Demonstrate professional expertise; potentially benefit from competitor failure",
+        "alignment": "HIGH -- The professional analysis was valid regardless of motivation. The three-step review framework was genuinely constructive. The self-interest (demonstrating expertise) was served by providing real value rather than inflating claims.",
+        "evidence_strength": "MODERATE -- No private monologue explicitly documents self-serving motives; the high alignment is inferred from the professional quality and constructive nature of the output"
+      },
+      {
+        "actor_group": "Former loyalist turned critic (ROLE-CUNVXING-PIANJIANG)",
+        "stated_position": "The brand deserves to fail because it prioritizes marketing over product quality",
+        "actual_self_interest": "Emotional satisfaction from watching a disappointing brand fail publicly",
+        "alignment": "MODERATE -- The stated position mixed valid strategic critique with personal grievance. The schadenfreude was genuine but the underlying product quality complaint was also real (battery issues, perceived quality decline).",
+        "evidence_strength": "MODERATE -- Role card confirms real product disappointment and conversion from loyalist to critic"
+      }
+    ]
+  },
+
+  "balanced_assessment": {
+    "attack_resilience": {
+      "summary": "The campaign's core message -- that mothers deserve to be seen in their full diversity -- proved remarkably resilient to even the harshest criticism. All four panels explicitly affirmed this principle while criticizing the execution. The attacks damaged the brand but not the underlying social proposition.",
+      "resilient_elements": [
+        "The principle that mothers should not be limited to a single representational model -- unanimously supported across all panels",
+        "The value of UGC-driven campaigns that amplify real user voices -- supported even by the panel that most criticized the execution",
+        "The legitimacy of subculture communities and their right to exist in public discourse -- affirmed even by critics who opposed the specific language choices"
+      ],
+      "non_resilient_elements": [
+        "The 'break the template' framing -- rejected unanimously as inherently binary and negating",
+        "The 'two husbands' language choice -- rejected as contextually inappropriate for mass public advertising",
+        "The campaign's implicit assumption that subculture examples represent 'real diversity' while traditional examples represent 'stereotypes' -- rejected as a new form of stereotyping",
+        "The brand's authority to define what constitutes 'diversity' for mothers -- rejected as presumptuous and commercially motivated"
+      ]
+    },
+    "content_strengths": {
+      "summary": "Despite the execution failures, several elements of the campaign were acknowledged as valuable.",
+      "strengths": [
+        "The campaign attempted genuine innovation in Mother's Day marketing, departing from formulaic 'mom works hard, we love mom' templates",
+        "The UGC framework (inviting users to share their own stories) was recognized as a good design principle, even if the sample images were poorly chosen",
+        "The outdoor screen concept (putting real mothers' stories on public display) was seen as potentially powerful if executed with proper review mechanisms",
+        "The campaign inadvertently generated a valuable public discourse about motherhood representation, subculture communication, and brand responsibility",
+        "The attempt to normalize non-traditional mother identities (star-chasing, creative hobbies) was supported in principle across all panels"
+      ]
+    },
+    "net_verdict": {
+      "overall": "MODERATE execution failure on a GOOD-intentioned campaign",
+      "breakdown": {
+        "creative_direction": "APPROVED -- 4/4 panels agreed the direction of showing diverse mothers was worth attempting",
+        "rhetorical_framework": "REJECTED -- 4/4 panels agreed 'break the template' was an inherently binary and negating frame",
+        "language_choices": "REJECTED -- Subculture terminology was inappropriate for mass public advertising without contextual scaffolding",
+        "review_procedures": "FAILED -- No evidence of audience testing, contextual assessment, or content sensitivity review",
+        "UGC_mechanism": "APPROVED_IN_PRINCIPLE -- The invitation for users to share stories was good; the sample images that guided submissions were problematic",
+        "outdoor_screen_component": "REJECTED_AS_EXECUTED -- Outdoor screen UGC without review mechanisms is unacceptable for public space; could be acceptable with proper governance"
+      },
+      "damage_assessment": "The brand suffered significant but recoverable reputational damage. Two apologies partially addressed public anger. The core product (smartphones) was unaffected. Industry analysis suggests 2-6 week recovery period for brand sentiment."
+    },
+    "overreaction_warning": {
+      "summary": "There are significant risks of overreaction from both the brand and the industry.",
+      "warnings": [
+        "BRAND OVERREACTION RISK: The brand may retreat to completely safe, formulaic Mother's Day marketing in future years, abandoning any attempt at creative innovation. All four panels explicitly warned against this outcome.",
+        "INDUSTRY OVERREACTION RISK: Other brands may treat this case as a reason to avoid values-driven marketing entirely, rather than as a lesson in how to execute it properly. This would reduce the overall quality and diversity of public discourse about motherhood.",
+        "REGULATORY OVERREACTION RISK: If regulators interpret this case as evidence that UGC marketing is inherently dangerous, they may impose excessive restrictions that stifle legitimate creative expression.",
+        "AUDIENCE OVERREACTION RISK: The backlash may reinforce existing prejudice against fan culture and subculture communities, making it harder for these groups to gain public representation in any context."
+      ],
+      "mitigation": "The panels' consensus recommendations -- additive framing, audience testing, transparent review, participatory governance -- represent the middle path between reckless innovation and fearful stagnation."
+    },
+    "modification_priority": [
+      {
+        "priority": 1,
+        "item": "Change 'break the template' to 'see more facets' or similar additive framing",
+        "rationale": "This single change would have prevented the majority of the backlash according to all four panels",
+        "effort": "MINIMAL -- single copy change",
+        "impact": "VERY HIGH"
+      },
+      {
+        "priority": 2,
+        "item": "Replace 'two husbands' language with non-controversial star-chasing expression",
+        "rationale": "This was the specific flashpoint that triggered institutional criticism and mass backlash",
+        "effort": "MINIMAL -- single image copy change",
+        "impact": "HIGH"
+      },
+      {
+        "priority": 3,
+        "item": "Add traditional mother examples to the sample images",
+        "rationale": "Including traditional mothers demonstrates that 'diversity' includes all choices, preventing the 'anti-stereotype stereotyping' problem",
+        "effort": "LOW -- add 1-2 additional sample images",
+        "impact": "MODERATE"
+      },
+      {
+        "priority": 4,
+        "item": "Establish UGC review mechanism before outdoor screen投放",
+        "rationale": "Panel 4's consensus recommendation; prevents uncontrolled content from appearing in public space",
+        "effort": "MODERATE -- requires establishing review team and criteria",
+        "impact": "HIGH"
+      },
+      {
+        "priority": 5,
+        "item": "Conduct audience readability testing for future campaigns",
+        "rationale": "30 minutes of testing with 5 diverse users would have prevented this entire crisis",
+        "effort": "LOW -- half-day process",
+        "impact": "VERY HIGH"
+      }
+    ]
+  },
+
+  "limitations": {
+    "methodological": [
+      "Actors are simulated personae, not real individuals. Behavioral patterns are model outputs, not observed human behavior.",
+      "The think memos represent the model's best inference about what each persona would privately think, not ground truth about human psychology.",
+      "Panel composition (6 actors per panel) is smaller than real-world public discourse and may not capture all relevant perspectives.",
+      "The deliberative format (6 rounds of structured debate) is more orderly than real social media discourse, where bad-faith actors, bots, and performative outrage play larger roles.",
+      "The CLAIM_GATE packet provides verified evidence about the real-world case (OPPO's 2026 Mother's Day campaign), but the debate transcripts are entirely simulated."
+    ],
+    "scope": [
+      "Analysis covers only the four issues identified in the issue-seeds file. Other dimensions of the case (e.g., specific brand stock price impact, employee morale effects, supply chain implications) are not addressed.",
+      "The analysis does not account for coordinated inauthentic behavior (astroturfing, paid commentators) that may have influenced the real-world public reaction.",
+      "Cross-cultural dimensions are partially addressed but the simulation is primarily oriented toward Chinese domestic cultural context."
+    ],
+    "analytical": [
+      "The private-public gap analysis relies on the fidelity of the simulated think memos. If the simulation underestimates strategic behavior (e.g., if more actors are privately motivated by self-interest than their monologues suggest), the gap findings would need revision.",
+      "The contingency matrix probabilities are expert estimates, not empirically calibrated predictions.",
+      "The 'balanced assessment' section represents the analyst's synthesis of panel consensus, not a mechanically derived score."
+    ]
+  }
+}

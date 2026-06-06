@@ -1,0 +1,72 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "又来了又来了，大人又在吵这种没意思的东西。说真的，B站上这种'震惊体'视频多到看都不想看，什么'99%的人不知道的汉字真相'，我每次刷到都直接跳过。这些内容做的人以为很厉害，其实不就是为了骗点击嘛，跟那些'三分钟看完一部电影'有什么区别？我反正不关心，这些字什么意思跟我有什么关系，语文课上学那些都够烦了。我现在就想赶紧把作业写完好打游戏，晚上原神还有活动呢。要是有人问我，我就说无聊呗，还能说啥。这种话题在我们班上，女生可能还有点兴趣，男生谁看这个啊。",
+    "assignment_id": "ASN-P4S4",
+    "round": 1,
+    "phase": "OPENING",
+    "private_goal": "没什么目标，应付一下就行",
+    "perceived_stakes": [],
+    "private_belief_state": [
+      "这种内容就是标题党",
+      "跟我完全没关系",
+      "大人才会为这种事吵架"
+    ],
+    "epistemic_state": [
+      "完全不知道内容对不对",
+      "也不在乎",
+      "就知道B站上到处是这种东西"
+    ],
+    "confidence": "LOW",
+    "uncertainties": [
+      "不知道该说什么",
+      "不确定大人为什么这么在意"
+    ],
+    "intended_emphasis": [
+      "这种内容到处都是",
+      "很无聊"
+    ],
+    "intended_omissions": [],
+    "private_message_strategy": "简短吐槽",
+    "planned_public_claims": [
+      "这种标题党到处都是",
+      "根本不稀奇"
+    ],
+    "rhetorical_tactics": [
+      "用网络梗吐槽"
+    ],
+    "truth_handling_this_turn": "HONEST",
+    "private_action_intent": [
+      "随便说两句"
+    ],
+    "likely_next_action": [
+      "大概率不再说话"
+    ],
+    "emotional_state": "无聊，想走",
+    "continuity_notes": "第一轮，表达无聊",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "ASN-P4S4",
+    "turn_id": "ASN-P4S4-round-01-opening",
+    "speech_origin": "SINCERE_SUPPORTED",
+    "speaker_private_belief_alignment": "ALIGNED",
+    "support_status": "SUPPORTED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SINCERE_SUPPORTED"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "ASN-P4S4",
+    "turn_id": "ASN-P4S4-round-01-opening",
+    "classification": "ROLE_FIDEL_HONEST",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "turn_id": "ASGN-004-005-round-06-responsive-rebuttal",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-5",
+  "round": 6,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "六轮讨论结束了，我觉得挺好的。大家观点不同但最后还是找到了很多共同点。SEAT-1说的框架虽然我不是很懂，但核心意思我听明白了：大家都尽好自己的那份责任。SEAT-6说的在视频上加标注这个主意特别好，简单管用。就像我们超市里卖的食品，包装上都印着配料表和保质期，一眼就看得清清楚楚。如果视频上也加这种标注，大家刷到的时候就知道是怎么回事了，不会那么容易被误导。SEAT-2你说的也对，光靠自觉确实不够，得有点规矩才行。就像超市里有收银制度、有盘点制度，不是因为我们不信任员工，是为了让大家都方便。总之这个讨论让我觉得，很多问题大家好好坐下来谈，是能找到解决办法的。希望网上的讨论也能像我们这样，少一点吵架多一点说理，那就好了。",
+  "target_turn_refs": [
+    "ASGN-004-001-round-06-responsive-rebuttal",
+    "ASGN-004-002-round-06-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "panel-004-public-question"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

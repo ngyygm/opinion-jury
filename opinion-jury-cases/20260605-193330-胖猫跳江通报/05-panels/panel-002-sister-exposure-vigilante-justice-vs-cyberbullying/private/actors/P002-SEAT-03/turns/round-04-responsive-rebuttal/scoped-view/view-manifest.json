@@ -1,0 +1,41 @@
+{
+  "scope_id": "PANEL-P002-SEAT-03-R004",
+  "files": [
+    {
+      "source": "01-parse/source-content.md",
+      "view_file": "001-source-content.md",
+      "sha256": "9e776748a5564bfb2735d68d00f2ea0f4009c2fc46fd869333ae133270363ab1",
+      "size": 4290
+    },
+    {
+      "source": "02-research/claim-gate-packet.v001.json",
+      "view_file": "002-claim-gate-packet.v001.json",
+      "sha256": "726a4ee9a19919648d29b24ab6a7a99ebd5a5db398906dbd72565b85e3cdb076",
+      "size": 36779
+    },
+    {
+      "source": "05-panels/panel-002-sister-exposure-vigilante-justice-vs-cyberbullying/public-question.md",
+      "view_file": "003-public-question.md",
+      "sha256": "cad1d2aa32c7f1175ca286a046e99d3f9ee17e5226a66a41163e61cda450770b",
+      "size": 131
+    },
+    {
+      "source": "03-role-pool/private/roles/ROLE-RURAL-GRANDMOTHER-TRADITIONAL/role-card.json",
+      "view_file": "004-role-card.json",
+      "sha256": "1028cb9cd1426efb5c21c8081070152fb0ee84994a378673681ced2b5aa1255c",
+      "size": 3068
+    },
+    {
+      "source": "05-panels/panel-002-sister-exposure-vigilante-justice-vs-cyberbullying/private/actors/P002-SEAT-03/assignment.json",
+      "view_file": "005-assignment.json",
+      "sha256": "ef2ffcffce154a7ee9331b508db2351294fa8cab785e46b59b4377e492a8f12e",
+      "size": 510
+    },
+    {
+      "source": "05-panels/panel-002-sister-exposure-vigilante-justice-vs-cyberbullying/session/public-snapshots/transcript.before-round-004.jsonl",
+      "view_file": "006-transcript.before-round-{round_num}.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    }
+  ]
+}

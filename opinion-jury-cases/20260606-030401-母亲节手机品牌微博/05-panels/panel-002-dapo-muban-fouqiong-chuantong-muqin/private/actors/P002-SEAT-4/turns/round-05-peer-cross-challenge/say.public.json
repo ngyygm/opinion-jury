@@ -1,0 +1,17 @@
+{
+  "turn_id": "P002-SEAT-4-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-4",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "SEAT-2说得直白但我同意——品牌就是来卖手机的。我在钢铁厂干了四十年，企业也搞过什么企业文化活动、员工关怀，说实话大部分是做表面功夫。但有几次是真让我们工人参与了——比如安全方案让我们自己提意见，那次是真的有用，因为方案是我们自己说的不是领导替我们定的。所以我觉得问题不是品牌能不能做好，是它愿不愿意真心让妈妈们参与。SEAT-5我想直接问你——你说你被品牌感动了，觉得被看见了。但SEAT-2说得对，品牌看的是你'追星妈妈'这个消费标签，不是你这个人。品牌选你这种追星妈妈来拍广告，是因为你们能帮它吸引年轻用户买手机，不是因为真的关心你追星追了多少年。你愿意被这种方式'看见'吗？被当成消费标签和被当成一个人，这不一样。",
+  "target_turn_refs": [
+    "P002-SEAT-2-round-04-responsive-rebuttal",
+    "P002-SEAT-5-round-04-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "panel-002-public-question"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

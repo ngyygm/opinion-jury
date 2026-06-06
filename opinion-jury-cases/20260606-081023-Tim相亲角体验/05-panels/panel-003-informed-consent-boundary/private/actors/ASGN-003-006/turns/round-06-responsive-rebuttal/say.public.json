@@ -1,0 +1,17 @@
+{
+  "turn_id": "ASGN-003-006-round-06-responsive-rebuttal",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-6",
+  "round": 6,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "最后一轮我不打比方了，认真说几句。六轮下来，我觉得这些大人确实讨论出了一些东西。三层方案——拍之前说一声、装了别人要说、粉丝多也要说——我觉得这对。退休大姐最后说的那句话让我想了很多，她说'我们的同意太廉价了，不是不在乎，是不懂'。我以前从来没想过这个问题。同学偷拍我做鬼脸发班群那次我就很生气，那还只是一个班。如果被全校人看到呢？如果被全网人看到呢？我根本不敢想。所以我觉得这个讨论确实有道理——同意不是嘴上说个'好'就够了，你得真的知道你在同意什么。你不知道对方是谁、不知道会被多少人看到、不知道会变成什么样，你那个'好'能算数吗？我觉得不能。行了，六轮说完了。我承认这个讨论比我想的有意思，比作业有启发。好了我去写物理作业了，真的。",
+  "target_turn_refs": [
+    "ASGN-003-001-round-06-responsive-rebuttal",
+    "ASGN-003-003-round-06-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "panel-003-public-question"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

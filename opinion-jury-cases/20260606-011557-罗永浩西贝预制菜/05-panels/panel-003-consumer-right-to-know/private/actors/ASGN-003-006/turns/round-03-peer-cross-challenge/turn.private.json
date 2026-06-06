@@ -1,0 +1,71 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "SEAT-3说的赔偿金没拿完的事让我想到了我们工地上也有工钱拖欠的事。打工人被欠钱的滋味我太知道了。SEAT-5说的日本餐厅标注什么的，我听不太懂，但他说'不操心不代表问题不存在'这句话我倒是记住了。我们工地上的工友经常说'算了吧，多一事不如少一事'，结果就是老板越来越过分。不过这个话题确实跟我没啥关系，我就是看看。SEAT-4说的'生活还得继续'倒是跟我最像——我们干活的人哪有时间想那么多。",
+    "assignment_id": "ASGN-003-006",
+    "round": 3,
+    "phase": "PEER_CROSS_CHALLENGE",
+    "private_goal": "简短表达对打工人欠薪问题的共鸣，继续维持旁观者立场",
+    "perceived_stakes": [
+      "完全无关但对欠薪有共鸣"
+    ],
+    "private_belief_state": [
+      "欠薪的事感同身受",
+      "这个话题还是跟我没关系",
+      "打工人的苦都是相通的"
+    ],
+    "epistemic_state": [
+      "对欠薪有直接体验",
+      "对餐饮行业不了解"
+    ],
+    "confidence": "LOW",
+    "uncertainties": [],
+    "intended_emphasis": [
+      "对欠薪的共鸣",
+      "继续旁观"
+    ],
+    "intended_omissions": [],
+    "private_message_strategy": "简短表达共鸣，不多说",
+    "planned_public_claims": [
+      "欠薪的苦打工人都知道",
+      "你们继续讨论"
+    ],
+    "rhetorical_tactics": [
+      "简短朴实",
+      "不装懂"
+    ],
+    "truth_handling_this_turn": "HONEST",
+    "private_action_intent": [
+      "表达共鸣"
+    ],
+    "likely_next_action": [
+      "继续旁观"
+    ],
+    "emotional_state": "听到欠薪的事有点触动，但总体仍然漠然",
+    "continuity_notes": "第三轮，简短表达对欠薪的共鸣",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "ASGN-003-006",
+    "turn_id": "ASGN-003-006-round-03-peer-cross-challenge",
+    "speech_origin": "SINCERE_SUPPORTED",
+    "speaker_private_belief_alignment": "ALIGNED",
+    "support_status": "SUPPORTED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SINCERE_SUPPORTED"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "ASGN-003-006",
+    "turn_id": "ASGN-003-006-round-03-peer-cross-challenge",
+    "classification": "ROLE_FIDEL_HONEST",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "turn_id": "ASGN-003-003-round-06-responsive-rebuttal",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-3",
+  "round": 6,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "最后一轮了，我来做个总结，也回答我们一直在讨论的这个核心问题——「告知在拍摄」等于「告知你将被娱乐化」吗？答案是不等于。这六轮讨论产出了一个共识性的框架，我把它再说一遍。第一层：基本拍摄告知——在公共场合拍摄时告知'正在拍摄'，所有拍摄者都应该做到。第二层：身份告知——如果你隐瞒了真实身份进行拍摄，你有义务告知被拍摄者你的真实身份。第三层：传播范围告知——如果你是一个有较大影响力的账号，被拍摄者有权知道你是什么量级的创作者。Tim的情况是：他做到了第一层，但他的身份隐瞒触发了第二层义务，他的粉丝量级触发了第三层义务。只做到第一层是不够的。退休大姐说得最朴素也最有力量——我们这些人的'同意'太廉价了，不是不在乎，是不懂。让不懂的人也能做出真正知情的判断，这就是知情同意的全部意义。这个方案不完美，但它是一个起步。希望以后被镜头对着的人，不管是在相亲角还是在菜市场，都能真的知道自己面对的是什么。",
+  "target_turn_refs": [
+    "ASGN-003-001-round-06-responsive-rebuttal",
+    "ASGN-003-002-round-06-responsive-rebuttal",
+    "ASGN-003-005-round-05-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "panel-003-public-question"
+  ],
+  "public_evidence_refs": [
+    "C004",
+    "C006",
+    "C008",
+    "C011"
+  ],
+  "public_action_signals": []
+}

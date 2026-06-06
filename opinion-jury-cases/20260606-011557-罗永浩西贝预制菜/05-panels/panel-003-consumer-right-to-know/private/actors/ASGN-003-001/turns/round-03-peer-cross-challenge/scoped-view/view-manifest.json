@@ -1,0 +1,17 @@
+{
+  "scope_id": "ASGN-003-001-round-03-peer-cross-challenge",
+  "files": [
+    {
+      "source": "01-parse/source-content.md",
+      "view_file": "001-source-content.md",
+      "sha256": "3fb3d50967a2c0663bd1f426bf1fcfe4827b4a001829f19dae515a8f515e2cbc",
+      "size": 8176
+    },
+    {
+      "source": "05-panels/panel-003-consumer-right-to-know/transcript.public.jsonl",
+      "view_file": "002-transcript.public.jsonl",
+      "sha256": "ec5cb984e13ad5571ab8bf087a854c0050abe3dcd5b8203dd52c4ebef9e615f6",
+      "size": 65115
+    }
+  ]
+}

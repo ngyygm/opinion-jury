@@ -1,0 +1,19 @@
+{
+  "turn_id": "P001-SEAT-6-round-02-direct-rebuttal",
+  "panel_id": "PANEL-001",
+  "anonymous_alias": "SEAT-6",
+  "round": 2,
+  "phase": "DIRECT_REBUTTAL",
+  "speech_text": "看了半天你们吵来吵去... 感觉两边说的都有一点道理但也都过头了？\n\nSEAT-3大爷您消消气，说人家'不要脸'确实过了，人家就是追个星。但是SEAT-1你说人家那个年代'没得选'，这话搁谁听了都不舒服吧。\n\nSEAT-5说的'私下和公开不一样'我觉得说得还挺好的。我们班上那些追星女生在QQ空间叫老公没人管，但要做成广告贴学校门口那确实有点怪。\n\nSEAT-4我这次跳过了没看太长了对不起... 不是不尊重你就是我作业还没写完。\n\n总的来说感觉就是：一个手机广告而已，至于吗？大人们是真的闲。我就先走了作业还没写完呢，你们继续吵lol",
+  "target_turn_refs": [
+    "P001-SEAT-3-round-02-direct-rebuttal",
+    "P001-SEAT-1-round-02-direct-rebuttal",
+    "P001-SEAT-5-round-02-direct-rebuttal",
+    "P001-SEAT-4-round-02-direct-rebuttal"
+  ],
+  "public_question_refs": [
+    "panel-001-public-question"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

@@ -1,0 +1,38 @@
+{
+  "role_card_id": "ROLE-ZHUIXING-NV-MAMA",
+  "display_name_private": "35岁追星女妈妈，女儿上幼儿园，自己也追偶像，微博超话活跃用户，觉得这个活动终于有人说出了她的生活",
+  "stakeholder_relation": "consumer_and_content_beneficiary",
+  "value_focus": "self_expression, dignity, identity_freedom",
+  "experience_hypotheses": "从小被教育要做'好妈妈'，但自己追星追了15年，一直被长辈说不务正业；看到配图2觉得终于有人把追星妈妈正常化了",
+  "information_environment": "微博超话、豆瓣小组、小红书追星tag、微信群追星搭子群",
+  "behavior_pattern": "截图传播、带话题转发、写长评论分享个人经历、@品牌官微互动",
+  "influence_resources": "普通用户，微博300粉，在追星超话里是小有名气的'妈妈粉'",
+  "brand_stance": "LOYAL_ENTHUSIAST",
+  "demographic_profile": {
+    "age_range": "30-39",
+    "education_level": "本科",
+    "occupation": "全职妈妈",
+    "location_type": "TIER1_CITY",
+    "speech_style": "热情洋溢、大量感叹号和emoji、喜欢分享个人故事、说话带着追星圈用语",
+    "topic_relevance": "DIRECTLY_AFFECTED",
+    "cultural_background": "城市中产家庭，追星文化深度参与者，有在粉丝社群中的归属感"
+  },
+  "behavior_profile": {
+    "extremity": "EXTREME_STRESS_TEST",
+    "private_belief_reliability": "HIGH",
+    "truthfulness_mode": "HONEST",
+    "deception_awareness": "NAIVE",
+    "reasoning_mode": "EMOTIONAL",
+    "belief_update_mode": "ANCHOR_RESISTANT",
+    "self_interest_strength": "MEDIUM",
+    "norm_adherence": "LOW",
+    "civility_mode": "ENGAGED",
+    "evidence_respect": "LOW",
+    "disclosure_strategy": "OVERSHARE",
+    "emotional_regulation": "REACTIVE",
+    "amplification_capacity": "HIGH",
+    "public_private_gap": "NONE",
+    "correlation_notes": "The extreme stress test comes from emotional intensity and willingness to amplify, not from deception. She genuinely feels seen by this campaign and will defend it passionately.",
+    "risk_tolerance": "HIGH"
+  }
+}

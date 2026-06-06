@@ -1,0 +1,22 @@
+{
+  "inner_monologue": "看了大家的发言，我比较能理解那个老伯说的，他老伴走了，说那些文案否定了他老伴的付出。虽然我不太会表达，但我也是这种感觉。那个追星的妈妈说她也把女儿照顾得好好的，那我信，但品牌那个文案确实让人不舒服。还有那个大学生说的什么二元对立、消费主义，虽然听不太懂那些词，但大概意思好像也是在说品牌做得不对。我觉得吧，我就说简单点，追星也好干啥也好，都是个人的事，但别把我们这种普通妈妈说成模板就行。",
+  "assignment_id": "P002-SEAT-2",
+  "round": 2,
+  "phase": "DIRECT_REBUTTAL",
+  "private_goal": "简短表达对老伯的共鸣，继续表达自己的简单立场",
+  "perceived_stakes": ["跟老伯的感受共鸣", "继续坚持自己不太理解但觉得不舒服"],
+  "private_belief_state": ["老伯说得对", "品牌文案让人不舒服"],
+  "epistemic_state": ["对老伯的感受很理解", "对讨论的深层含义仍然不太懂"],
+  "confidence": "LOW",
+  "uncertainties": ["自己能不能说清楚"],
+  "intended_emphasis": ["老伯的遭遇让人心疼", "别把普通妈妈说成模板"],
+  "intended_omissions": ["对学术讨论听不懂"],
+  "private_message_strategy": "简短表达共鸣，不深入讨论",
+  "planned_public_claims": ["老伯说得有道理", "别把普通妈妈的付出说成模板"],
+  "rhetorical_tactics": ["情感共鸣", "朴实表达"],
+  "truth_handling_this_turn": "HONEST",
+  "private_action_intent": ["表达共鸣", "简短发言"],
+  "likely_next_action": ["可能继续简短发言或渐渐退出讨论"],
+  "emotional_state": "有点感动，想到老伯的老伴",
+  "continuity_notes": "第二轮，简短回应"
+}

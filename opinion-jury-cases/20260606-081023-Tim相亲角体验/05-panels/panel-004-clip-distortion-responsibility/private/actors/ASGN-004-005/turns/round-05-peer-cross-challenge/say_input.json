@@ -1,0 +1,12 @@
+{
+  "turn_id": "ASGN-004-005-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-5",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "大家说了这么多，其实我觉得道理越来越清楚了。SEAT-1说的四维框架我虽然不是每个字都听得懂，但核心意思我理解了：切片的人是主要坏家伙，拍视频的人要做一些预防，平台也要管。这我同意。SEAT-6说的在视频上加标注，我觉得是个好办法。就好比超市里卖的食品，包装上都印着生产日期和配料表，你买的时候一目了然。视频上也加个类似的标注，告诉大家这是什么类型的节目，多好。SEAT-2你说的也有道理，总有人要钻空子。但我觉得吧，不能因为有人会钻空子就不做预防了。就像超市里装了监控也还会有人偷东西，但你不能说装监控没用就不装了。做该做的事，剩下的交给管理和处罚。最后一轮了，我的想法就是：大家都各尽各的责。乱剪视频的人要被管，拍视频的人做预防，平台提供保护。大家都做好自己该做的事，问题就不会那么大了。",
+  "target_turn_refs": ["ASGN-004-001-round-05-peer-cross-challenge", "ASGN-004-002-round-05-peer-cross-challenge"],
+  "public_question_refs": ["panel-004-public-question"],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

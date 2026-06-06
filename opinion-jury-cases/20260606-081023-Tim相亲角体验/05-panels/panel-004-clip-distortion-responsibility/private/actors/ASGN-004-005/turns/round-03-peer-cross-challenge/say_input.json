@@ -1,0 +1,12 @@
+{
+  "turn_id": "ASGN-004-005-round-03-peer-cross-challenge",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-5",
+  "round": 3,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "我觉得SEAT-1的态度最公道。他愿意接受SEAT-6提出的具体建议，但也坚持创作者不应该为恶意行为负责。这个立场我觉得是对的。做了该做的预防，如果还是被歪曲了，那不是创作者的错。SEAT-2你说的那个影响多少担多少，我觉得太极端了。你说Tim有1400万粉丝所以责任是1400万级别的，那我问你，1400万粉丝的创作者发的每一个视频、说的每一句话都要被放在显微镜下审视，那谁还敢当大V呢？人家也是在工作赚钱，跟我们在超市上班一样。我收银的时候也会出错，但只要不是故意的、也道了歉改了，就行了。SEAT-4说的对，道理其实很简单，乱剪别人视频的人就是不对，这是第一位的问题。SEAT-6提的那些建议，什么加背景说明、标注节目效果，其实都是好建议，创作者做了这些就够了。关键是那些恶意切片的账号，才是真正需要治理的。我儿子跟我说，现在很多切片号就是专门靠断章取义赚钱的，这些号才是问题的根源。",
+  "target_turn_refs": ["ASGN-004-001-round-03-peer-cross-challenge", "ASGN-004-002-round-03-peer-cross-challenge", "ASGN-004-006-round-02-direct-rebuttal"],
+  "public_question_refs": ["panel-004-public-question"],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

@@ -1,0 +1,24 @@
+{
+  "turn_id": "ASN-P3S5-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-5",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "我来做最终的共识记录和方法论总结。\n\n## 共识最终版本\n\n经过六位参与者五轮讨论，以下共识基本形成：\n\n1. 现象确认：部分女字旁汉字(嫖、妓、娼、妖等)确实经历了从褒义/中性到贬义的词义演变。(各方完全同意)\n\n2. 相关性确认：这种词义演变与社会性别结构存在相关性。(各方同意，但因果解释仍有分歧)\n\n3. 因果机制：社会制度影响语言使用是确定的；语言使用是否反过来强化社会观念，是一个有理论支撑但需要更多实证研究的假说。(SEAT-1/SEAT-5倾向弱化表述，SEAT-2倾向双向框架)\n\n4. 研究必要性：对女部字做完整的词义演变统计研究，并进行跨文化对比，是有学术价值的。(各方同意)\n\n5. 原文评估：触发讨论的文章存在事实错误(《说文》误引)、选择性举例、夸大表述等问题，作为科普作品质量不合格。(SEAT-1和SEAT-2均同意)\n\n6. 实践建议：在中小学语文教育中引入字源知识，帮助受影响者建立文化自信，是最务实的行动方案。(各方同意)\n\n## 方法论启示\n\n1. 从「普遍现象」论证到「特定模式」需要统计证据，不能仅靠个案。\n2. 相关性不等于因果性——方向性一致也不等于识别对了因果路径。\n3. 科普写作需要在方向正确和事实准确之间同时达标，缺一不可。\n4. 学术讨论可以在严谨和人文关怀之间找到平衡。\n\n## 对SEAT-3的最终评价\n\nSEAT-3在这场讨论中的立场经历了从激进女权到反女权的180度转变，编造了多个未经证实(且部分已被反证)的个人故事，其行为模式严重损害了其作为信息源的可靠性。SEAT-4和SEAT-6都已指出这一矛盾。\n\n最后，感谢SEAT-1的学术严谨、SEAT-2的学术风度、SEAT-4的人文关怀、SEAT-6的朴素智慧。这场讨论证明，即使在高度争议的话题上，理性的公共讨论也是可能的。",
+  "target_turn_refs": [
+    "ASN-P3S1-round-05-peer-cross-challenge",
+    "ASN-P3S2-round-05-peer-cross-challenge",
+    "ASN-P3S3-round-05-peer-cross-challenge",
+    "ASN-P3S4-round-05-peer-cross-challenge",
+    "ASN-P3S6-round-04-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "panel-003-public-question"
+  ],
+  "public_evidence_refs": [
+    "claim-gate-C09-Shuowen-misquote",
+    "claim-gate-C14-overgeneralization",
+    "claim-gate-C17-partial-pejoration"
+  ],
+  "public_action_signals": []
+}

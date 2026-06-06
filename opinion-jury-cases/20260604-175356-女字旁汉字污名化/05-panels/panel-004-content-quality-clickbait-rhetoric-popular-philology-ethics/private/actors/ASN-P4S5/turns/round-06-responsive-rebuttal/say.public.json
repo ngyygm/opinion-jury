@@ -1,0 +1,15 @@
+{
+  "turn_id": "ASN-P4S5-round-06-responsive-rebuttal",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-5",
+  "round": 6,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "SEAT-1认错了态度还行，但我活了六十八年知道一个道理：认错容易改错难。不过这个讨论让我觉得道理还是讲得通的。不识字不代表不懂道理，懂道理不代表就做得到，但至少方向是对的。SEAT-6说的超市那个比说得真好，东西上架前就该有人查，不能等出了事再说。我回去会跟孙子说：网上看的东西不一定是真的，要多想想，跟听村里人说话一样——有的能信有的不能信，信不信得看是谁说的、有没有道理。谢谢大家听我一个老婆子说这么多。",
+  "target_turn_refs": [
+    "ASN-P4S1-round-06-responsive-rebuttal",
+    "ASN-P4S6-round-05-peer-cross-challenge"
+  ],
+  "public_question_refs": [],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

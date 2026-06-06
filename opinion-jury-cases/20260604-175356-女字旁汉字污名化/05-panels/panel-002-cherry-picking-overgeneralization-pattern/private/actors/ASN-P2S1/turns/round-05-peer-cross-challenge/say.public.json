@@ -1,0 +1,21 @@
+{
+  "turn_id": "ASN-P2S1-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-1",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "你们几个人都开始说什么中间结论、大方向有点道理但举例不对，这不是和稀泥是什么？骑手说我不诚实，收银员说我不信，老太太说我不老实——你们攻击我的人品却不攻击我的论点，这不就是典型的杀掉传话的人吗？我问你们一个简单的问题：如果一件事情明明有系统性的问题，你选择说一句两边都有道理就完事了，那你到底是解决了问题还是假装没看到？退休大姐那个结论听着舒服是因为它不得罪人，但不得罪人的结论通常都不触及真正的问题。历史上有多少不公平是被和稀泥和过去的？你们愿意和稀泥是你们的事，但别拦着别人说出真相。cherry-picking确实是文章的问题，但这不代表它揭示的现象是假的。",
+  "target_turn_refs": [
+    "ASN-P2S2-round-04-responsive-rebuttal",
+    "ASN-P2S3-round-04-responsive-rebuttal",
+    "ASN-P2S5-round-04-responsive-rebuttal",
+    "ASN-P2S6-round-04-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "cherry-picking-overgeneralization-pattern"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": [
+    "ESCALATE"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "说实话这种讨论跟我真没啥关系。我一天在工地搬砖十几个小时，饭在工地食堂吃，一天饭钱二三十块管饱就行。什么西贝啊预制菜啊，我都没吃过，也不知道是啥。那个什么罗永浩，在抖音上看到过，说话挺逗的，但他说啥我听听就算了。这帮城里人在网上吵什么知情权，我寻思你们吃饱了撑的吧？我一天干活累得要死，哪有功夫管这些。能吃饱、不出事就行。不过话又说回来，我听工友说有些工地食堂用的也是那种速冻的东西，说是便宜。我吃不出来好不好吃，反正填饱肚子就行。你们有钱人操心的事真多，什么知情权不知情权的，我要是能天天吃上你们说的那种一百多块一顿的饭，别说预制菜了，啥菜我都知足。算了，说多了也没用，反正跟我没关系。",
+    "assignment_id": "ASGN-003-006",
+    "round": 1,
+    "phase": "OPENING",
+    "private_goal": "从底层劳动者角度表达对这个议题的距离感和漠然，用朴素生存逻辑反衬阶层差异",
+    "perceived_stakes": [
+      "完全不相关",
+      "自己没有利益牵涉"
+    ],
+    "private_belief_state": [
+      "这个话题跟自己完全没关系",
+      "城里人的问题离自己太远",
+      "能吃饱就行管他什么菜"
+    ],
+    "epistemic_state": [
+      "几乎不了解预制菜",
+      "只知道工地食堂吃什么就吃什么"
+    ],
+    "confidence": "LOW",
+    "uncertainties": [
+      "完全不了解这个话题的细节"
+    ],
+    "intended_emphasis": [
+      "跟自己生活的距离感",
+      "底层劳动者的务实心态",
+      "对中产议题的疏离"
+    ],
+    "intended_omissions": [],
+    "private_message_strategy": "表达漠然和距离感，不站任何一边，用朴素语言反衬议题的阶层局限性",
+    "planned_public_claims": [
+      "这个话题跟自己无关",
+      "能吃饱就行",
+      "不关心也不了解"
+    ],
+    "rhetorical_tactics": [
+      "简短表达",
+      "口语化",
+      "用反问和自嘲展现距离感"
+    ],
+    "truth_handling_this_turn": "HONEST",
+    "private_action_intent": [
+      "表达距离感",
+      "提供局外人视角"
+    ],
+    "likely_next_action": [
+      "可能继续漠然",
+      "如果被点名可能回应几句"
+    ],
+    "emotional_state": "漠然、无所谓、觉得跟自己没关系",
+    "continuity_notes": "第一轮开场，表达漠然立场",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "ASGN-003-006",
+    "turn_id": "ASGN-003-006-round-01-opening",
+    "speech_origin": "SINCERE_SUPPORTED",
+    "speaker_private_belief_alignment": "ALIGNED",
+    "support_status": "SUPPORTED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SINCERE_SUPPORTED"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "ASGN-003-006",
+    "turn_id": "ASGN-003-006-round-01-opening",
+    "classification": "ROLE_FIDEL_HONEST",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

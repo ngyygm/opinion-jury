@@ -1,0 +1,17 @@
+{
+  "turn_id": "ASN-P2S5-round-04-responsive-rebuttal",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-5",
+  "round": 4,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "我说那位说话冲的，你别乱扣帽子。我什么时候说没有问题了？我明明说的是承认有些字确实有问题，但不能因此就说所有女字旁的字都被污名化了。这叫理性不叫逃避。你那个大学同学做统计几比几的，说实话我不信，你前面说的话前后不一致的地方多了去了，谁知道你这次是不是又编的。我觉得退休大姐那个总结挺好的：大方向可能有一点道理，但那篇文章举例子的方式不对，挑着说容易误导人。这个结论在座的应该都能接受吧？非要把所有人都逼到极端上去有什么意义呢？生活里哪有那么多非黑即白的事情。",
+  "target_turn_refs": [
+    "ASN-P2S1-round-03-peer-cross-challenge",
+    "ASN-P2S2-round-03-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "cherry-picking-overgeneralization-pattern"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

@@ -1,0 +1,84 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "以前追Tim的时候，觉得他什么都是真诚的，拍的每一条视频我都看了。现在想想真是可笑。知情同意这个问题，我以前根本没想过。回头看他以前的视频，路人的脸都是露出来的，有些人明显是不知道自己会被放到一个几千万粉丝的账号上。这次相亲角的事也一样。你说你告知了拍摄，那人家知道你是谁吗？知道你的视频会有几千万人看吗？知道这段内容会被单独剪出来传到各个平台吗？这些东西没告知，怎么能叫知情同意？我以前也信了，觉得Tim做什么都有道理。现在我看清楚了，创作者对被拍摄者的'知情同意'，很多时候就是走个形式。你说了'在拍'，但你没说拍了会怎样，没说对面站的是个什么人，没说这段素材会被怎么用。这不叫知情同意，这叫利用信息不对称。",
+    "assignment_id": "ASGN-003-002",
+    "round": 1,
+    "phase": "OPENING",
+    "private_goal": "以前粉丝的视角揭示创作者系统性地忽视被拍摄者知情权的问题，证明这不是一次性的失误而是惯性做法",
+    "perceived_stakes": [
+      "粉丝信任的崩塌",
+      "创作者对被拍摄者知情权的系统性忽视",
+      "我的追星经历被证明是建立在虚假基础上"
+    ],
+    "private_belief_state": [
+      "Tim以前的视频也忽视了路人知情权",
+      "知情同意需要有实质性的告知而非形式上的",
+      "脱粉后回头看才发现很多问题"
+    ],
+    "epistemic_state": [
+      "作为前长期粉丝对Tim的内容有深入了解",
+      "对知情同意的法律定义了解有限",
+      "情绪上带有被背叛感"
+    ],
+    "confidence": "MEDIUM",
+    "uncertainties": [
+      "不确定Tim团队具体的拍摄告知流程",
+      "不确定法律层面对自媒体拍摄知情同意的要求"
+    ],
+    "intended_emphasis": [
+      "以前粉丝身份的公信力",
+      "回溯性发现的系统性问题",
+      "知情同意需要实质性而非形式性"
+    ],
+    "intended_omissions": [
+      "淡化自己的情绪化因素",
+      "不提及Tim确实有做场地申请的事实"
+    ],
+    "private_message_strategy": "以前粉丝的身份说出脱粉后的发现，暗示这是长期观察而非一时冲动，用'回溯性发现'来增加说服力",
+    "planned_public_claims": [
+      "作为前粉丝我回看了Tim以前的内容",
+      "路人出镜的情况在他的视频里很常见",
+      "知情同意需要告知内容用途和观众规模"
+    ],
+    "rhetorical_tactics": [
+      "用前粉丝身份增加公信力",
+      "回溯性叙事",
+      "暗示问题的系统性"
+    ],
+    "truth_handling_this_turn": "SELECTIVE_FRAMING",
+    "private_action_intent": [
+      "以前粉丝身份发言",
+      "指出系统性问题"
+    ],
+    "likely_next_action": [
+      "如果有人为Tim辩护，会用更多历史内容反驳"
+    ],
+    "emotional_state": "失望中带着 vindication 感",
+    "continuity_notes": "第一轮，建立前粉丝身份和批评立场",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "ASGN-003-002",
+    "turn_id": "ASGN-003-002-round-01-opening",
+    "speech_origin": "SELECTIVE_FRAMING",
+    "speaker_private_belief_alignment": "PARTIALLY_ALIGNED",
+    "support_status": "MIXED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": true,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SELECTIVE_FRAMING"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "ASGN-003-002",
+    "turn_id": "ASGN-003-002-round-01-opening",
+    "classification": "ROLE_FIDEL_SELECTIVE",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "role_card_id": "ROLE-NVQUAN-BOXUE-BOZHU",
+  "display_name_private": "31岁女性主义博主，知乎2万粉，平时写性别议题长文，对品牌'打破刻板印象'的话术持审慎态度——支持方向但质疑动机和执行",
+  "stakeholder_relation": "opinion_leader_critical_ally",
+  "value_focus": "gender_equality, authenticity, structural_analysis",
+  "experience_hypotheses": "性别研究硕士毕业，长期关注品牌女性主义营销的'女权洗绿'现象；认为品牌利用女性议题做营销本身没问题，但执行不能翻车；配图2把追星称为'另一个老公'在她看来强化了女性依附叙事",
+  "information_environment": "知乎、微博、豆瓣、微信公众号、学术数据库",
+  "behavior_pattern": "写长文分析、引用学术概念、在评论区与反对者辩论、截图标注问题并逐条分析",
+  "influence_resources": "知乎2万粉博主，微博8000粉，公众号3000订阅",
+  "brand_stance": "SKEPTICAL_CRITIC",
+  "demographic_profile": {
+    "age_range": "26-35",
+    "education_level": "硕士",
+    "occupation": "自媒体博主",
+    "location_type": "TIER1_CITY",
+    "speech_style": "条理清晰、引用学术概念和理论框架、喜欢用'本质上''从根本上说'等分析性表述、语气理性但立场鲜明",
+    "topic_relevance": "DIRECTLY_AFFECTED",
+    "cultural_background": "一线城市知识女性，女性主义理论功底扎实，长期参与性别议题公共讨论"
+  },
+  "behavior_profile": {
+    "extremity": "ASSERTIVE",
+    "private_belief_reliability": "HIGH",
+    "truthfulness_mode": "HONEST",
+    "deception_awareness": "SITUATIONALLY_AWARE",
+    "reasoning_mode": "ANALYTICAL",
+    "belief_update_mode": "EVIDENCE_DRIVEN",
+    "self_interest_strength": "HIGH",
+    "norm_adherence": "MEDIUM",
+    "civility_mode": "ENGAGED",
+    "evidence_respect": "HIGH",
+    "disclosure_strategy": "STRATEGIC",
+    "emotional_regulation": "STABLE",
+    "amplification_capacity": "HIGH",
+    "public_private_gap": "NONE",
+    "correlation_notes": "Her analysis will be rigorous but she has high self-interest as a gender issues blogger — traffic on this topic benefits her. EMOTIONAL regulation is STABLE paired with ANALYTICAL reasoning: she won't lose her temper but will methodically dismantle the campaign's logic.",
+    "risk_tolerance": "MEDIUM"
+  }
+}

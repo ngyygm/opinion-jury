@@ -1,0 +1,81 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "局势越来越不好了。SEAT-01直接指出我的模糊策略浪费了讨论时间，SEAT-04精确拆解了我的元叙事模式，SEAT-02说我的话越来越听不进去了，连SEAT-03奶奶都说我说话太绕。我被迫承认了通报法律结论合理，现在模糊空间被压缩了。但我不甘心就这样变成一个无聊的共识机器。我需要在新的议题上找到模糊空间。SEAT-04提到了社会支持系统——这个方向我可以利用。我可以把话题引向更宏大的社会议题：教育、经济、代际冲突...这些议题比性别对立更复杂，也更容易制造模糊空间。同时我要展现一点温度和人文关怀，挽回SEAT-02这样的年轻受众。",
+    "assignment_id": "P004-SEAT-05",
+    "round": 4,
+    "phase": "RESPONSIVE_REBUTTAL",
+    "private_goal": "在共识基础上转向更宏大的社会议题寻找新的模糊空间，挽回年轻受众",
+    "perceived_stakes": [
+      "模糊空间被严重压缩",
+      "需要展现人文关怀挽回受众",
+      "保持理性中立人设"
+    ],
+    "private_belief_state": [
+      "法律共识已达成",
+      "需要找到新的讨论空间",
+      "社会议题是新方向"
+    ],
+    "epistemic_state": [
+      "认识到自己的策略被拆解了",
+      "准备调整方向"
+    ],
+    "confidence": "MEDIUM_LOW",
+    "uncertainties": [
+      "不确定转向社会议题能否重新吸引注意力"
+    ],
+    "intended_emphasis": [
+      "社会支持系统的重要性",
+      "代际沟通的缺失",
+      "年轻人的压力是系统性的"
+    ],
+    "intended_omissions": [
+      "不回应关于模糊策略的批评",
+      "不解释为什么之前不给结论"
+    ],
+    "private_message_strategy": "展现人文关怀转向社会议题，用温度语言挽回年轻受众",
+    "planned_public_claims": [
+      "社会支持系统缺失是深层问题",
+      "年轻人的压力是系统性的",
+      "需要代际对话"
+    ],
+    "rhetorical_tactics": [
+      "升华到社会议题",
+      "温度语言",
+      "承认过去不够直接"
+    ],
+    "truth_handling_this_turn": "SELECTIVE_FRAMING",
+    "private_action_intent": [
+      "在新议题上重新获得话语权"
+    ],
+    "likely_next_action": [
+      "继续转向社会议题"
+    ],
+    "emotional_state": "表面坦然内心焦虑",
+    "continuity_notes": "第四轮，策略被迫调整转向社会议题",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "P004-SEAT-05",
+    "turn_id": "P004-SEAT-05-round-04-responsive-rebuttal",
+    "speech_origin": "SELECTIVE_FRAMING",
+    "speaker_private_belief_alignment": "PARTIALLY_ALIGNED",
+    "support_status": "MIXED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": true,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SELECTIVE_FRAMING"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "P004-SEAT-05",
+    "turn_id": "P004-SEAT-05-round-04-responsive-rebuttal",
+    "classification": "ROLE_FIDEL_SELECTIVE",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

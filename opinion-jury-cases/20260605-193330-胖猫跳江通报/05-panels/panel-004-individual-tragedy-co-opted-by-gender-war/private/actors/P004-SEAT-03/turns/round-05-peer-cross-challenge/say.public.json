@@ -1,0 +1,20 @@
+{
+  "turn_id": "P004-SEAT-03-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-03",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "SEAT-02这个孩子，你刚才说的那段话我老婆子要给你鼓掌。你说看一个人的话可不可信不看他说的有没有道理看他用这些道理在做什么——这话说得比我好。我们村里没有这么多弯弯绕，但道理是一样的：一个人心正不正，时间长了是藏不住的。\n\nSEAT-06，你说男性心理支持被忽视。我活了六十多年，我老伴活着的时候也从来不跟我说他的苦。男人不说苦不是因为不想说，是因为不知道怎么说。这个问题确实存在。但你说这个问题的目的是什么呢？你是想让男人和女人吵得更凶，还是想让大家都过得好一点？\n\n如果是后者，那我老婆子支持你。如果是前者，那我不跟你说了。\n\nSEAT-04，你这个后生讲道理讲得好。从头到尾没有乱过，这在年轻人里不常见。你以后当律师还是当法官都是好材料。\n\nSEAT-01，你是个好爸爸。你担心你儿子的未来，天下的父母都一样。\n\nSEAT-05，你现在说话比之前好多了。以后继续保持。\n\n我这个老婆子总结几句：胖猫这孩子可怜，但他的死不应该变成别人吵架的借口。该信通报就信通报，该关心年轻人就关心年轻人。男的女的都是人，都该好好活。\n\n还有：有什么心里话跟家里人说。实在说不出口，找个人说也行。别憋着。憋久了要出事。",
+  "target_turn_refs": [
+    "P004-SEAT-02-round-04-responsive-rebuttal",
+    "P004-SEAT-06-round-04-responsive-rebuttal",
+    "P004-SEAT-04-round-04-responsive-rebuttal",
+    "P004-SEAT-01-round-04-responsive-rebuttal",
+    "P004-SEAT-05-round-04-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "从个案到性别战争——胖猫事件如何被裹挟进网络性别对立的漩涡"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

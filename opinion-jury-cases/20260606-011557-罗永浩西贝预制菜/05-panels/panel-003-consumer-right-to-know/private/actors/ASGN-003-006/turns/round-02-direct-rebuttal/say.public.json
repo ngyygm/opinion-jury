@@ -1,0 +1,16 @@
+{
+  "turn_id": "ASGN-003-006-round-02-direct-rebuttal",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-6",
+  "round": 2,
+  "phase": "DIRECT_REBUTTAL",
+  "speech_text": "SEAT-5提到我了，说厨师也是打工人，跟我一样没得选。这话我听着倒是有点道理。\n\n你们说的那些预制菜、锅气香精什么的，我一个也不懂，也从来没吃过那些一百多块一顿的饭。但SEAT-5说的那个徒弟学了三年手艺结果去送外卖的事，让我想起了我工地上也有不少年轻人，干了两个月就走了，说太累了、赚不到钱。都是出来打工的，都不容易。\n\n不过说实话，你们讨论的知情权、选择权，对我来说还是太远了。不是我不想选，是没得选。工地食堂做什么我就吃什么，一天饭钱二三十块，哪有什么选择。你们城里人花一百多块吃一顿饭还能讨论知情权，我们连吃饱都紧巴巴的，哪有功夫管这些。\n\nSEAT-5说得对，打工人确实没得选。但这个话题，我还是看看就好，你们继续聊吧。",
+  "target_turn_refs": [
+    "ASGN-003-005-round-02-direct-rebuttal"
+  ],
+  "public_question_refs": [
+    "消费者知情权与餐饮行业透明度底线"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

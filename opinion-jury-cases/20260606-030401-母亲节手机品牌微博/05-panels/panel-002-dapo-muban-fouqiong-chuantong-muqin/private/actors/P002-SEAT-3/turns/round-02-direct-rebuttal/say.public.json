@@ -1,0 +1,17 @@
+{
+  "turn_id": "P002-SEAT-3-round-02-direct-rebuttal",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-3",
+  "round": 2,
+  "phase": "DIRECT_REBUTTAL",
+  "speech_text": "看了大家的发言，我觉得讨论正在聚焦到一个关键点上。SEAT-5你自己说'两者不矛盾'，妈妈可以既温柔勤劳又追星——这句话恰恰说明品牌文案制造了不必要的对立。如果两者本来就不矛盾，那品牌为什么要用'模板'和'打破'这种否定性的修辞？我现在的判断更清晰了：品牌的意图可能是好的，想表达多元化，但执行出了问题。意图和执行是两回事。意图是'让更多种妈妈被看见'，执行却是'把传统母亲形象框定为需要打破的模板'。这个执行上的错误造成了现在大家看到的结果——传统母亲感觉被否定，品牌被迫道歉两次。而SEAT-6提到的武汉大学'极不认同'和中国妇女报'把冒犯当创意'的批评，都是对这个执行错误的反应。所以核心问题一直很清楚：品牌本可以做到赋权多元母亲而不否定传统母亲，但它选择了最糟糕的修辞方式。这不是价值观问题，是文案能力问题。",
+  "target_turn_refs": [
+    "P002-SEAT-5-round-01-opening",
+    "P002-SEAT-6-round-01-opening"
+  ],
+  "public_question_refs": [
+    "panel-002-public-question"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

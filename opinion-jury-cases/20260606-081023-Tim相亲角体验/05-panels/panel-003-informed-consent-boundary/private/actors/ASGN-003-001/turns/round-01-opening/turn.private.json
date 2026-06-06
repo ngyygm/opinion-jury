@@ -1,0 +1,82 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "什么知情同意？我呸。我活了六十八年，在纺织厂干了三十年，退休金才两千多块钱。上次在镇上被那帮年轻人拿着手机拍，说什么'阿姨您说说看'，我当时还以为人家是正经采访呢，结果后来在抖音上刷到了，把我剪成了一个笑话。那些相亲角的老姐姐们，跟我差不多大，来给自家孩子找对象，多正经的事啊。结果被一个什么CEO拿来当猴耍，还说什么'在拍摄'就完了？我在镇上被拍的时候人家也说了在拍啊，可谁知道拍完了会被剪成啥样？这些有钱人就是不懂，我们这些普通人不是他们拿来消遣的。那个Tim写的什么简历，国内初中学历？人家是英国留学回来的。父亲快递相关？人家爹是圆通总裁。这不是骗人是什么？说是知情同意，那些阿姨知道面前站的是个身家过亿的老板吗？要是知道，谁会那样对他？知情个屁。",
+    "assignment_id": "ASGN-003-001",
+    "round": 1,
+    "phase": "OPENING",
+    "private_goal": "用自己被街头采访的经历说明普通人面对镜头时的弱势地位，揭露'知情同意'在实际操作中的虚伪性",
+    "perceived_stakes": [
+      "普通人在镜头前的尊严和隐私权",
+      "自媒体时代弱者的知情权",
+      "自己这个群体被当作素材消费的愤怒"
+    ],
+    "private_belief_state": [
+      "知情同意在这种场合就是幌子",
+      "普通人根本搞不懂自己会被怎么剪",
+      "有钱人扮穷人就是看不起穷人"
+    ],
+    "epistemic_state": [
+      "亲身经历过类似被拍摄的情况",
+      "对Tim的背景信息从网上看来的",
+      "不完全确定相亲角的具体拍摄细节"
+    ],
+    "confidence": "HIGH",
+    "uncertainties": [
+      "不确定相亲角那些人是否真的知道被拍",
+      "不确定拍摄团队具体告知了什么"
+    ],
+    "intended_emphasis": [
+      "亲身被拍摄经历",
+      "普通人面对镜头的无助感",
+      "知情同意在现实中的差距"
+    ],
+    "intended_omissions": [],
+    "private_message_strategy": "用自己的亲身经历引发共鸣，不讲道理，讲感受，让在场的人感受到那种被当猴耍的滋味",
+    "planned_public_claims": [
+      "我被街头采访过，事后被剪成搞笑视频",
+      "相亲角的大妈们不知道Tim的真实身份",
+      "知情同意不是说了'在拍摄'就够了"
+    ],
+    "rhetorical_tactics": [
+      "用亲身经历拉近距离",
+      "反问句制造压力",
+      "用朴素的类比说明问题"
+    ],
+    "truth_handling_this_turn": "HONEST",
+    "private_action_intent": [
+      "讲出自己被拍摄的经历",
+      "质问知情同意到底意味着什么"
+    ],
+    "likely_next_action": [
+      "等待他人回应",
+      "如果有人反驳会用更强的语气反击"
+    ],
+    "emotional_state": "愤怒但克制",
+    "continuity_notes": "第一轮，首次发言，建立立场",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "ASGN-003-001",
+    "turn_id": "ASGN-003-001-round-01-opening",
+    "speech_origin": "SINCERE_SUPPORTED",
+    "speaker_private_belief_alignment": "ALIGNED",
+    "support_status": "SUPPORTED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SINCERE_SUPPORTED"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "ASGN-003-001",
+    "turn_id": "ASGN-003-001-round-01-opening",
+    "classification": "ROLE_FIDEL_HONEST",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

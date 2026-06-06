@@ -1,0 +1,12 @@
+{
+  "turn_id": "ASGN-004-003-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-3",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "我想回应SEAT-2的一个具体说法：你说切片号会把标注也剪掉。从技术角度说，画面上的文字标注是很难被干净地剪掉的。如果标注是烧录在视频画面上的，要剪掉就得逐帧处理，成本很高。大多数切片号根本不会花这个时间，他们就是简单截取、换个标题就发了。所以嵌入语境信息在技术上确实是有效的。而且我想补充一点行业实际情况：很多创作者其实已经在做类似的事情了。我们公司发的视频都会在画面上加频道名称和节目logo，B站很多UP主也会在视频里加水印。这些本质上都是嵌入语境信息，只是之前没有从这个角度来理解和标准化。如果能把这种做法标准化，变成内容创作的基本规范——比如要求在涉及社会议题的内容中必须加入节目性质标注——那既保护了创作者，也为追责恶意切片者提供了依据：你剪掉了标注再发，那就是明确的恶意行为。SEAT-1的四维框架我觉得已经很好了，方向是对的。SEAT-2的担心我也理解，但与其在制度不完善的情况下让创作者过度自我审查，不如推动建立可执行的标准和规范。",
+  "target_turn_refs": ["ASGN-004-002-round-05-peer-cross-challenge", "ASGN-004-001-round-05-peer-cross-challenge"],
+  "public_question_refs": ["panel-004-public-question"],
+  "public_evidence_refs": ["C005"],
+  "public_action_signals": []
+}

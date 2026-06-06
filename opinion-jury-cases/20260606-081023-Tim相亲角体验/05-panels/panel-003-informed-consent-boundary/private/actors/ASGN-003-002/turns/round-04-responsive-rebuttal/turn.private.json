@@ -1,0 +1,80 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "到现在为止，我已经把Tim团队策划隐瞒身份的事说清楚了，编导准备简历这个细节很好用。现在前媒体编辑引入了'信息不对称'的概念，幼儿园老师提出了分层告知方案——这对我有利。但做运营的那位虽然在退让，她退让的方式很聪明，把问题从'Tim有没有错'转移到'要不要建立行业标准'，这是在替Tim脱身。我必须在第四轮抓住一个要点：Tim不是踩到了灰区，他是有意识地选择了一种剥夺被拍摄者知情权的创作方式。编导准备简历、选择性真实、隐瞒身份——这些都是策划决策，不是无心之失。灰区论是在替他洗白。还有，那个小孩说的全图视野的比喻虽然粗糙但很好用，我可以顺着说——知情同意的核心不是有没有按流程走，而是有没有给对方足够的信息来做判断。",
+    "assignment_id": "ASGN-003-002",
+    "round": 4,
+    "phase": "RESPONSIVE_REBUTTAL",
+    "private_goal": "反驳'灰区论'，将Tim的行为定性为有意识的知情权侵犯而非无心失误",
+    "perceived_stakes": [
+      "Tim是否应该为知情同意缺陷承担直接责任",
+      "前粉丝群体的失望是否有合理依据"
+    ],
+    "private_belief_state": [
+      "Tim团队的隐瞒是策划行为不是无心之失",
+      "信息不对称是结构性问题需要制度回应",
+      "分层告知方案是合理的最低标准"
+    ],
+    "epistemic_state": [
+      "完整看过所有轮次讨论",
+      "掌握Tim历史视频中对路人处理的信息",
+      "了解行业制作流程"
+    ],
+    "confidence": "HIGH",
+    "uncertainties": [
+      "分层标准在实操中如何落地"
+    ],
+    "intended_emphasis": [
+      "编导设计简历证明这是策划行为",
+      "灰区论是替Tim脱身的话术"
+    ],
+    "intended_omissions": [
+      "不提自己作为前粉丝可能存在过度归因"
+    ],
+    "private_message_strategy": "保持批评力度但用事实说话，拆解支持方的退让策略",
+    "planned_public_claims": [
+      "Tim团队的行为是有策划的，不是灰区",
+      "分层告知方案是最低标准而非最高要求",
+      "传播量级是已知变量不是不可预估的"
+    ],
+    "rhetorical_tactics": [
+      "事实罗列",
+      "拆解对方话术",
+      "用对方让步来推进论点"
+    ],
+    "truth_handling_this_turn": "SELECTIVE_FRAMING",
+    "private_action_intent": [
+      "强化Tim团队有意策划的叙事",
+      "反驳灰区论"
+    ],
+    "likely_next_action": [
+      "继续深挖Tim团队策划细节"
+    ],
+    "emotional_state": "冷静但有明确的攻击方向",
+    "continuity_notes": "Round 3提出了编导策划简历和切片可预见性，这轮重点反驳灰区论，回应SEAT-4的行业标准转向",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "ASGN-003-002",
+    "turn_id": "ASGN-003-002-round-04-responsive-rebuttal",
+    "speech_origin": "SELECTIVE_FRAMING",
+    "speaker_private_belief_alignment": "PARTIALLY_ALIGNED",
+    "support_status": "MIXED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": true,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SELECTIVE_FRAMING"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "ASGN-003-002",
+    "turn_id": "ASGN-003-002-round-04-responsive-rebuttal",
+    "classification": "ROLE_FIDEL_SELECTIVE",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

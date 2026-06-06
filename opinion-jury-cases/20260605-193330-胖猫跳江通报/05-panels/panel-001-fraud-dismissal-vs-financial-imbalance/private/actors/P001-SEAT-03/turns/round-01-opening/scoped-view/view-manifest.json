@@ -1,0 +1,41 @@
+{
+  "scope_id": "PANEL-P001-SEAT-03-R001",
+  "files": [
+    {
+      "source": "01-parse/source-content.md",
+      "view_file": "001-source-content.md",
+      "sha256": "9e776748a5564bfb2735d68d00f2ea0f4009c2fc46fd869333ae133270363ab1",
+      "size": 4290
+    },
+    {
+      "source": "02-research/claim-gate-packet.v001.json",
+      "view_file": "002-claim-gate-packet.v001.json",
+      "sha256": "726a4ee9a19919648d29b24ab6a7a99ebd5a5db398906dbd72565b85e3cdb076",
+      "size": 36779
+    },
+    {
+      "source": "05-panels/panel-001-fraud-dismissal-vs-financial-imbalance/public-question.md",
+      "view_file": "003-public-question.md",
+      "sha256": "2a828a9d5146b757dbc962d30fc82e895dce961c3f433581c91c263c7dbf63f4",
+      "size": 123
+    },
+    {
+      "source": "03-role-pool/private/roles/ROLE-FULLTIME-MOM-EMPATHETIC/role-card.json",
+      "view_file": "004-role-card.json",
+      "sha256": "fc6d7e4ffe3e1b691cc48223bbf1219c6093b9030dc5c31e253b30efc3c43168",
+      "size": 2926
+    },
+    {
+      "source": "05-panels/panel-001-fraud-dismissal-vs-financial-imbalance/private/actors/P001-SEAT-03/assignment.json",
+      "view_file": "005-assignment.json",
+      "sha256": "ffcd7be500fde7d07b087d4eb89bac1f079968d11deb1ef76a6f600e570f9d2e",
+      "size": 510
+    },
+    {
+      "source": "05-panels/panel-001-fraud-dismissal-vs-financial-imbalance/session/public-snapshots/transcript.before-round-001.jsonl",
+      "view_file": "006-transcript.before-round-{round_num}.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "role_card_id": "ROLE-former-fan-alienated",
+  "version": 1,
+  "display_name_private": "30岁前影视飓风忠实粉丝，买过他推荐的设备，觉得自己被'背叛'了，现在逢人就劝退",
+  "stakeholder_relation": "former_loyal_audience — 感情上受到伤害的前粉丝",
+  "value_focus": "authenticity, trust, creator_responsibility, betrayal_sensitivity",
+  "experience_hypotheses": [
+    "从大学时期就开始追影视飓风，买了他推荐的好几台相机和设备",
+    "一直觉得Tim是'技术宅创业'的励志代表",
+    "看到'圆通少爷'真实背景后感觉自己被'人设'骗了多年",
+    "Tim的回应视频让他更失望——觉得Tim避重就轻",
+    "在其他粉丝群公开宣布脱粉，被其他粉丝攻击后更坚定了立场"
+  ],
+  "information_environment": "B站为主，微博次之，微信粉丝群",
+  "behavior_pattern": "深挖Tim历史信息，写脱粉长文，在评论区与现粉丝激烈辩论，有组织地传播负面信息",
+  "influence_resources": "普通用户，但在影视飓风粉丝社群中有一定知名度（因为是公开脱粉）",
+  "brand_stance": "FORMERLY_LOYAL_ALIENATED",
+  "self_interest_strength": "MEDIUM",
+  "demographic_profile": {
+    "age_range": "26-35",
+    "education_level": "本科",
+    "occupation": "普通上班族",
+    "location_type": "LARGE_CITY",
+    "speech_style": "带着受伤感的控诉语气，喜欢说'我以前也信了''你们看看他的真实背景'，会用截图和对比来佐证",
+    "topic_relevance": "GENERIC_INTEREST",
+    "cultural_background": "数码爱好者社群成员，前深度粉丝，现在转变为批评者"
+  },
+  "behavior_profile": {
+    "extremity": "ASSERTIVE",
+    "private_belief_reliability": "MEDIUM",
+    "truthfulness_mode": "SELECTIVE_FRAMING",
+    "deception_awareness": "SOPHISTICATED",
+    "reasoning_mode": "EMOTIONAL",
+    "belief_update_mode": "STUBBORN",
+    "self_interest_strength": "MEDIUM",
+    "norm_adherence": "SITUATIONAL",
+    "civility_mode": "ASSERTIVE",
+    "evidence_respect": "CONFIRMATION_DRIVEN",
+    "disclosure_strategy": "STRATEGIC_DISCLOSURE",
+    "emotional_regulation": "REACTIVE",
+    "amplification_capacity": "MEDIUM",
+    "public_private_gap": "MODERATE",
+    "correlation_notes": "FORMERLY_LOYAL_ALIENATED：他的批评混合了真实的失望和事后追溯的选择性记忆。他现在看Tim的过去都是'伪装'，这是典型的脱粉后认知重构。",
+    "risk_tolerance": "MEDIUM"
+  }
+}

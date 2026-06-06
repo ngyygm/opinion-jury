@@ -1,0 +1,75 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "讨论到第四轮了，我感觉共识正在形成。SEAT-5向我道歉了，承认了品牌框架选择的问题。SEAT-6给出了具体的实践建议——把'打破刻板印象'换成'看见更多面的妈妈'，用'丰富'而不是'打破'。SEAT-3说的'丰富比打破更好'我也很认同。SEAT-4继续追问他老伴的个体性问题，问得很深刻。我觉得现在的共识大概是：品牌想表达多元化没有错，但它选择了'打破模板'这个框架本身就是问题，因为它预设了传统母亲形象是需要被否定的。正确的做法应该是'看见更多'而不是'打破什么'。我还想从自己的角度再补充一点：这个事情让我意识到，我们这些普通妈妈平时太安静了，被代表了也不知道怎么说。品牌在讨论'妈妈是什么样的'，但从来没有真正问过我们这些普通妈妈自己觉得是什么样的。下次如果再有品牌想搞这种活动，能不能先听听我们的声音？",
+    "assignment_id": "P002-SEAT-1",
+    "round": 4,
+    "phase": "RESPONSIVE_REBUTTAL",
+    "private_goal": "总结共识，补充自己的反思，提出建设性建议",
+    "perceived_stakes": [
+      "确保共识真正尊重传统母亲",
+      "被代表的问题"
+    ],
+    "private_belief_state": [
+      "共识正在形成：打破框架是错的看见更多是对的",
+      "普通妈妈需要被倾听而不是被代表"
+    ],
+    "epistemic_state": [
+      "对共识有信心",
+      "对新的思考方向有期待"
+    ],
+    "confidence": "HIGH",
+    "uncertainties": [],
+    "intended_emphasis": [
+      "共识总结",
+      "普通妈妈被代表的问题",
+      "建设性建议"
+    ],
+    "intended_omissions": [],
+    "private_message_strategy": "总结共识，补充反思，提出建议",
+    "planned_public_claims": [
+      "共识：打破框架是错的看见更多是对的",
+      "普通妈妈需要被倾听而不是被代表",
+      "品牌应该先听再说话"
+    ],
+    "rhetorical_tactics": [
+      "共识总结",
+      "个人反思",
+      "建设性建议"
+    ],
+    "truth_handling_this_turn": "HONEST",
+    "private_action_intent": [
+      "总结共识",
+      "提出建议"
+    ],
+    "likely_next_action": [
+      "在最后两轮继续巩固共识"
+    ],
+    "emotional_state": "平静、有了一些释然",
+    "continuity_notes": "第四轮，总结共识补充反思",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "P002-SEAT-1",
+    "turn_id": "P002-SEAT-1-round-04-responsive-rebuttal",
+    "speech_origin": "SINCERE_SUPPORTED",
+    "speaker_private_belief_alignment": "ALIGNED",
+    "support_status": "SUPPORTED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SINCERE_SUPPORTED"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "P002-SEAT-1",
+    "turn_id": "P002-SEAT-1-round-04-responsive-rebuttal",
+    "classification": "ROLE_FIDEL_HONEST",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

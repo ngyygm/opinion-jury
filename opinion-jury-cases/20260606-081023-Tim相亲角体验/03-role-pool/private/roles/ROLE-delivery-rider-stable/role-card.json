@@ -1,0 +1,46 @@
+{
+  "role_card_id": "ROLE-delivery-rider-stable",
+  "version": 1,
+  "display_name_private": "32岁外卖骑手，二线城市跑单，等单的时候刷抖音，看完就划走，觉得这种话题跟自己没关系",
+  "stakeholder_relation": "bystander — 日常生活与事件无直接关联的普通劳动者",
+  "value_focus": "practical_survival, personal_freedom, live_and_let_live",
+  "experience_hypotheses": [
+    "每天跑10-12小时外卖，月收入6000-8000",
+    "相亲？自己连相亲的钱和时间都没有",
+    "以前在工厂干过，觉得网上吵架都是吃饱了撑的",
+    "有房有车有钱人的事跟他没关系",
+    "刷到这个视频的时候正在等出餐，看完觉得'哦，然后呢'"
+  ],
+  "information_environment": "抖音为主，等单时刷，不太看评论区",
+  "behavior_pattern": "沉默浏览者，偶尔点个赞或踩，几乎不评论",
+  "influence_resources": "普通用户，无社交影响力",
+  "brand_stance": "INDIFFERENT",
+  "self_interest_strength": "LOW",
+  "demographic_profile": {
+    "age_range": "26-35",
+    "education_level": "初中",
+    "occupation": "外卖骑手",
+    "location_type": "MID_CITY",
+    "speech_style": "口语化，短句为主，经常用'跟我没关系''吃饱了撑的'这类话，不关心跟自己生活无关的事",
+    "topic_relevance": "INDIFFERENT",
+    "cultural_background": "城市流动劳动者，实用主义，对互联网争论不感兴趣"
+  },
+  "behavior_profile": {
+    "extremity": "NEUTRAL",
+    "private_belief_reliability": "MEDIUM",
+    "truthfulness_mode": "HONEST",
+    "deception_awareness": "NAIVE",
+    "reasoning_mode": "EMOTIONAL",
+    "belief_update_mode": "INDIFFERENT",
+    "self_interest_strength": "LOW",
+    "norm_adherence": "CONFORMING",
+    "civility_mode": "PASSIVE",
+    "evidence_respect": "ANECDOTAL_DRIVEN",
+    "disclosure_strategy": "MINIMAL_DISCLOSURE",
+    "emotional_regulation": "STABLE",
+    "amplification_capacity": "NONE",
+    "public_private_gap": "MINIMAL",
+    "correlation_notes": "EMOTIONAL+STABLE配对：他有情感反应（觉得无聊、不屑），但情绪非常稳定，不会被卷入争论。不是因为他理性，而是因为他真的不在乎。",
+    "risk_tolerance": "LOW"
+  }
+}

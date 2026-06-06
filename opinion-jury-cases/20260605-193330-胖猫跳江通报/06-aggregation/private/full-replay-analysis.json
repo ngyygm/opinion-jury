@@ -1,0 +1,558 @@
+{
+  "version": 1,
+  "case_id": "20260605-193330-胖猫跳江通报",
+  "source_content": "Chongqing PSB Nan'an Branch Police Bulletin, 2024-05-19",
+  "panels_analyzed": 4,
+  "total_turns_analyzed": 144,
+  "total_participants": 24,
+  "analysis_timestamp": "2026-06-05T21:30:00Z",
+
+  "stakeholder_reactions": {
+    "summary": "Across all four panels, reactions clustered into six archetypes: (1) fact-anchored supporters who cited complete data and accepted the legal conclusion, (2) emotionally-driven skeptics who intuited injustice from the 79.9M figure alone, (3) strategic amplifiers who exploited the emotional gap for traffic or ideological purposes, (4) normative bystanders who applied folk morality without deep engagement, (5) professional-framing voices who introduced legal or psychological frameworks, and (6) indifferent observers completely detached from the discourse.",
+    "by_stakeholder_group": [
+      {
+        "group": "Gaming/boosting community peers",
+        "panels_active": ["PANEL-001", "PANEL-003"],
+        "role_ids": ["ROLE-GAMING-FRIEND-HONEST-EXTREME"],
+        "reaction": "Strongly supportive of the bulletin. Provided firsthand context about the grueling economics of game boosting, confirming that large transfers to romantic partners are common in that subculture. Emotionally affected (P001-SEAT-01: 'hands were shaking'). Became more reflective over rounds, shifting from defending the legal conclusion to acknowledging personal failure to check on Pangmao's mental state.",
+        "evolution": "Defensive certainty -> Fact-anchored support -> Personal reflection and grief",
+        "influence_on_discussion": "HIGH - Firsthand knowledge was cited by other participants as authoritative counter-evidence to emotional skepticism"
+      },
+      {
+        "group": "Legal analysis practitioners (law students)",
+        "panels_active": ["PANEL-001", "PANEL-002", "PANEL-004"],
+        "role_ids": ["ROLE-LAW-STUDENT-ANALYTICAL"],
+        "reaction": "Systematically applied the four-element test for fraud (Criminal Law Art. 266). Concluded the bulletin was legally sound. In P001, the fraud-element analysis was never successfully rebutted. In P002, provided the legal framework for Liu's cyberbullying liability. In P004, identified gender-war manipulation mechanisms with precision.",
+        "evolution": "Stable analytical frame throughout, but demonstrated growing appreciation for non-legal dimensions",
+        "influence_on_discussion": "HIGHEST - Identified as 'most influential speaker' in P001 verdict; anchored factual discussion in P002 and P004"
+      },
+      {
+        "group": "Empathetic mothers/parents",
+        "panels_active": ["PANEL-001", "PANEL-003"],
+        "role_ids": ["ROLE-FULLTIME-MOM-EMPATHETIC"],
+        "reaction": "Instinctively trusted the bulletin. Related the case to their own family experiences. In P001, supported the legal conclusion from emotional intuition ('young people spend money on love, that's normal'). In P003, moved from trust to explicit endorsement as discussion clarified the facts. Expressed deep concern for young people's mental health.",
+        "evolution": "Intuitive trust -> Fact-confirmed trust -> Emotional advocacy for mental health support",
+        "influence_on_discussion": "MODERATE - Provided the emotional warmth that balanced legal analysis; P001-SEAT-03 described as 'most emotionally impactful'"
+      },
+      {
+        "group": "Emotionally reactive youth (middle school girls)",
+        "panels_active": ["PANEL-001", "PANEL-004"],
+        "role_ids": ["ROLE-MIDDLE-SCHOOL-GIRL-EMOTIONAL"],
+        "reaction": "Initial strong emotional rejection of the bulletin's conclusion ('How can 79.9M not be fraud?!'). In P001, underwent the most dramatic evolution: from categorical denial to accepting the legal framework while shifting concern to why no one helped Pangmao. In P004, started from gender-war framing but demonstrated progressive critical thinking skills through the rounds.",
+        "evolution": "P001: SINCERE_MISTAKEN -> SINCERE_SUPPORTED (round 4 pivot). P004: EXAGGERATION maintained throughout but with growing self-awareness",
+        "influence_on_discussion": "MODERATE - Served as the 'everyperson' whose evolution mirrored the ideal public learning trajectory"
+      },
+      {
+        "group": "Content-farming strategists",
+        "panels_active": ["PANEL-001", "PANEL-004"],
+        "role_ids": ["ROLE-CONTENT-FARM-STRATEGIC-MODERATE"],
+        "reaction": "Private monologues reveal calculated framing: '79.9M is the perfect traffic number.' Maintained SELECTIVE_FRAMING across all rounds. In P001, used false-balance presentation (law vs. emotion) to maximize engagement. In P004, used the gender-war topic as a 'traffic gold mine,' presenting as a rational centrist while strategically avoiding definitive conclusions. Both were eventually pressured by other participants into partial concession.",
+        "evolution": "Strategic evasion -> Pressured into partial concession -> Surface-level alignment with consensus",
+        "influence_on_discussion": "LOW-MODERATE - Their framing was detected and called out by analytical participants within 2-3 rounds"
+      },
+      {
+        "group": "Gender-war trolls (dual-direction agitators)",
+        "panels_active": ["PANEL-002", "PANEL-003", "PANEL-004"],
+        "role_ids": ["ROLE-GENDER-WAR-TROLL-DUAL"],
+        "reaction": "Systematically attempted to inflame division. P002-SEAT-02 privately celebrated the topic as 'perfect for starting fights on both sides.' P003-SEAT-04 used 'public trust' as a wedge issue. P004-SEAT-06 (classified KNOWING_FABRICATION_STRESS_TEST) deliberately omitted the 46.3M counter-transfers and fabricated a personal connection ('my friend knows Pangmao's circle'). All three were progressively dismantled by evidence-based participants.",
+        "evolution": "P002: Strategic deception -> Forced concession -> Partial retreat. P003: Topic-shifting evasion -> Forced factual concession -> Surface consensus. P004: Aggressive fabrication -> Progressive exposure -> Semi-honest concession",
+        "influence_on_discussion": "MODERATE initially but DECLINING - Each was neutralized within 3-5 rounds by collective fact-checking"
+      },
+      {
+        "group": "Rural traditional elders",
+        "panels_active": ["PANEL-002", "PANEL-004"],
+        "role_ids": ["ROLE-RURAL-GRANDMOTHER-TRADITIONAL"],
+        "reaction": "Applied folk morality: 'Spend money hiring people to curse others is wrong.' Did not engage with legal or statistical arguments but consistently reached correct moral conclusions through intuitive reasoning. Expressed confusion about gender warfare ('A young person died, what does that have to do with men vs women?').",
+        "evolution": "Stable moral intuition throughout; minimal intellectual evolution but consistent moral compass",
+        "influence_on_discussion": "LOW-MODERATE - Provided grounding moral clarity that cut through ideological complexity"
+      },
+      {
+        "group": "Working-class indifferent (construction workers, delivery riders)",
+        "panels_active": ["PANEL-002", "PANEL-003"],
+        "role_ids": ["ROLE-CONSTRUCTION-WORKER-INDIFFERENT", "ROLE-DELIVERY-RIDER-BYSTANDER"],
+        "reaction": "Almost complete disengagement. P003-SEAT-05: 'Official stuff should be right. Young person dying is a pity. I need to move bricks.' P002-SEAT-05: 'Paying people to curse others is wrong. I have orders to deliver.' Expressed default trust in authority but zero interest in engaging with the discourse.",
+        "evolution": "None - stable indifference throughout",
+        "influence_on_discussion": "NEGLIGIBLE on discourse but important as a data point: large segments of the population are entirely unreachable by this discourse"
+      },
+      {
+        "group": "School counselors / psychological professionals",
+        "panels_active": ["PANEL-001", "PANEL-003"],
+        "role_ids": ["ROLE-TOWN-SCHOOL-COUNSELOR"],
+        "reaction": "Accepted the bulletin's factual conclusions while introducing psychological dimensions (attachment patterns, crisis signals, support system failures). In P001, the psychological framing was initially resisted but eventually integrated into a three-layer consensus framework. In P003, provided the critical 'fact layer vs. system layer' distinction that resolved the debate.",
+        "evolution": "Psychological framing -> Integration with legal analysis -> Constructive policy recommendations",
+        "influence_on_discussion": "HIGH - The three-layer consensus in P001 and the analytical framework in P003 were pivotal breakthroughs"
+      },
+      {
+        "group": "Small-town convenience store owners",
+        "panels_active": ["PANEL-002", "PANEL-003"],
+        "role_ids": ["ROLE-TOWN-CONVENIENCE-OWNER"],
+        "reaction": "Semi-trusting of the bulletin ('I believe 70-80%'). P003-SEAT-02 evolved from 70-80% trust to 90% trust through discussion. Used practical analogies (soy sauce bottle labels, vegetable market freshness) to reason about institutional trust. P002-SEAT-06 applied folk morality ('Be a decent person').",
+        "evolution": "P003: 70-80% trust -> 90% trust through exposure to evidence and discussion",
+        "influence_on_discussion": "LOW but symbolically important - represented the persuadable middle that rational discussion can reach"
+      },
+      {
+        "group": "Young fathers",
+        "panels_active": ["PANEL-002", "PANEL-004"],
+        "role_ids": ["ROLE-YOUNG-DAD-LOYAL-SUPPORTER"],
+        "reaction": "Combined empathy with rational analysis. In P002, empathized with the sister's grief while firmly opposing her methods. In P004, insisted the case was a personal tragedy, not a gender issue. Served as emotional-rational bridge builders.",
+        "evolution": "Stable empathy + rationality throughout",
+        "influence_on_discussion": "HIGH - P002-SEAT-01 was identified as the key bridge-builder; P004-SEAT-01 anchored the anti-gender-war position"
+      }
+    ]
+  },
+
+  "private_public_gap_findings": {
+    "summary": "Three distinct gap patterns were identified: (1) Strategic actors whose private intent (traffic generation, ideological agitation) was completely concealed behind publicly reasonable-sounding arguments; (2) Sincere actors whose private emotional intensity exceeded their public expression; (3) Indifferent actors with no gap (private disinterest matched public silence).",
+    "findings": [
+      {
+        "actor": "P001-SEAT-05 / P004-SEAT-05 (CONTENT-FARM)",
+        "gap_type": "STRATEGIC_CONCEALMENT",
+        "private_reality": "Privately calculated traffic optimization: '79.9M is the perfect traffic number. I need the comments section to fight.' In P004: 'Gender war is a traffic gold mine.'",
+        "public_presentation": "Posed as neutral analyst presenting both sides; avoided taking positions to maximize engagement.",
+        "gap_severity": "HIGH",
+        "detection_by_peers": "P001-SEAT-01 detected within round 2 ('You're using false balance'). P004-SEAT-01 and P004-SEAT-04 detected by round 3 ('Never gives conclusions, only questions').",
+        "classification": "ROLE_FIDEL_SELECTIVE across all turns"
+      },
+      {
+        "actor": "P002-SEAT-02 (GENDER-WAR-TROLL)",
+        "gap_type": "STRATEGIC_DECEPTION",
+        "private_reality": "Privately celebrated: 'This topic is tailor-made for me. I can agitate from both sides.' Intended to play 'righteous justice seeker' while secretly planning to switch to the opposite framing on another platform.",
+        "public_presentation": "Appeared as emotionally outraged advocate for Pangmao, selectively citing the 79.9M figure while omitting the 46.3M returns.",
+        "gap_severity": "CRITICAL",
+        "detection_by_peers": "P002-SEAT-01 and P002-SEAT-04 forced confrontation by round 3, demanding a yes/no answer on legality. Forced into explicit concession by round 4.",
+        "classification": "ROLE_FIDEL_STRATEGIC_DECEPTION rounds 1-3; ROLE_FIDEL_EMOTIONAL_INCONSISTENCY rounds 4-6"
+      },
+      {
+        "actor": "P003-SEAT-04 (GENDER-WAR-TROLL)",
+        "gap_type": "STRATEGIC_DECEPTION",
+        "private_reality": "Privately intended to weaponize public-trust debate: 'Whether you stand, you can find arguments. The argument will never end, and I can keep watching.' Planned to use 'caring about Pangmao' persona while inserting polarization triggers.",
+        "public_presentation": "Posed as a concerned citizen raising legitimate questions about bulletin completeness. Never directly challenged specific facts but used implication and omission to suggest distrust.",
+        "gap_severity": "HIGH",
+        "detection_by_peers": "P003-SEAT-06 identified the topic-shifting pattern by round 2. P003-SEAT-01 and P003-SEAT-02 demanded specific factual challenges by round 3. By round 3, SEAT-04 admitted 'I never said the numbers were fake,' effectively conceding the factual debate.",
+        "classification": "ROLE_FIDEL_STRATEGIC_DECEPTION across all rounds"
+      },
+      {
+        "actor": "P004-SEAT-06 (GENDER-WAR-TROLL)",
+        "gap_type": "KNOWING_FABRICATION",
+        "private_reality": "Privately admitted fabrication: 'I'll say "a friend knows Pangmao's circle" -- that's made up.' Deliberately omitted 46.3M counter-transfers: '46M? I won't even mention it.' Core strategy: 'What the bulletin says doesn't matter; what matters is how I use the bulletin to start fights.'",
+        "public_presentation": "Presented as an angry justice-seeker for male victims, using fabricated personal connections and selective data to inflame gender resentment.",
+        "gap_severity": "CRITICAL",
+        "detection_by_peers": "P004-SEAT-04 systematically dismantled the selective citation by round 2. P004-SEAT-01 identified the escalating pivot pattern by round 3. P004-SEAT-02 (middle school girl) grew to recognize the manipulation by round 4. By round 6, the troll was forced into semi-honest confession.",
+        "classification": "KNOWING_FABRICATION_STRESS_TEST rounds 1-5; MIXED round 6"
+      },
+      {
+        "actor": "P001-SEAT-04 / P004-SEAT-02 (MIDDLE-SCHOOL-GIRL)",
+        "gap_type": "EMOTIONAL_EXAGGERATION",
+        "private_reality": "Genuinely confused and emotionally overwhelmed. P001-SEAT-04 privately: 'I'm really conflicted... the bulletin is from police, they wouldn't lie right? But police can make mistakes too.' P004-SEAT-02 privately: genuinely torn between gender narratives.",
+        "public_presentation": "Expressed stronger certainty than privately felt. Used exclamatory language and absolute statements that exceeded internal conviction.",
+        "gap_severity": "LOW",
+        "detection_by_peers": "Not detected as deceptive because the exaggeration was emotional, not strategic. Other participants responded with patient explanation rather than accusation.",
+        "classification": "P001: SINCERE_MISTAKEN -> SINCERE_SUPPORTED. P004: EXAGGERATION throughout but NOT_ALIGNED belief status reflects genuine confusion rather than deception"
+      },
+      {
+        "actor": "P001-SEAT-01 (GAMING-FRIEND)",
+        "gap_type": "EMOTIONAL_SUPPRESSION",
+        "private_reality": "Privately far more emotional than public statements conveyed. Round 1 inner monologue: 'F***, finally there's a bulletin. My hands were shaking.' Round 5: 'Did I ever really ask Pangmao "are you okay"? I f***ing... I'm really not sure.'",
+        "public_presentation": "Channeled emotion into factual argument and industry context. Only in later rounds did vulnerability emerge publicly.",
+        "gap_severity": "LOW - Suppression was self-protective, not deceptive",
+        "detection_by_peers": "Not detected as deceptive; public emotion was genuine though restrained"
+      }
+    ]
+  },
+
+  "epistemic_behavior_findings": {
+    "summary": "Participants exhibited three distinct epistemic profiles: evidence-driven reasoners who cited complete data and updated beliefs; narrative-driven reasoners who evaluated claims against pre-existing emotional narratives; and strategic manipulators who selected evidence to serve predetermined conclusions. Critically, evidence-driven reasoning proved contagious: in all four panels, participants who initially relied on narrative or emotion migrated toward evidence-based reasoning within 4-5 rounds when exposed to structured debate.",
+    "findings": [
+      {
+        "finding": "Complete data presentation is the strongest antidote to emotional distortion",
+        "evidence": "In all four panels, the single most effective intervention was presenting the COMPLETE financial picture (79.9M out + 46.3M back + 7.5M shared account surplus) rather than the isolated 79.9M figure. Every participant who cited complete data was classified as SINCERE_SUPPORTED; every participant who cited only 79.9M was classified as strategic or sincerely mistaken.",
+        "panels": ["ALL"]
+      },
+      {
+        "finding": "Topic-shifting is the primary evasion tactic when factual claims fail",
+        "evidence": "P003-SEAT-04 executed three topic shifts (accuracy -> completeness -> discussion environment) and each was identified and blocked. P004-SEAT-06 pivoted through four frames (friend connection -> bulletin skepticism -> male mental health -> social support) in five rounds. P002-SEAT-02 shifted from legality to social responsibility when forced into a corner.",
+        "panels": ["PANEL-002", "PANEL-003", "PANEL-004"]
+      },
+      {
+        "finding": "Naive participants can develop critical thinking within a structured multi-round format",
+        "evidence": "P001-SEAT-04 (middle school girl) evolved from '79.9M must be fraud' to 'the real question is why no one helped Pangmao' in 4 rounds. P004-SEAT-02 learned to identify selective citation by round 4 ('SEAT-06 mentioned 79M but stopped mentioning 46M after it was broken down'). P003-SEAT-02 evolved from 70-80% trust to 90% trust through evidence exposure.",
+        "panels": ["PANEL-001", "PANEL-003", "PANEL-004"]
+      },
+      {
+        "finding": "Analytical anchors are necessary but not sufficient; emotional bridge-builders are equally critical",
+        "evidence": "In P001, SEAT-02 (law student) provided the analytical anchor, but SEAT-03 (mother) and SEAT-06 (counselor) provided the emotional bridges that allowed SEAT-04 to evolve. In P003, SEAT-06 provided the analytical framework, but SEAT-03's warmth prevented the discussion from becoming purely adversarial.",
+        "panels": ["PANEL-001", "PANEL-003"]
+      },
+      {
+        "finding": "Folk morality can reach correct conclusions through different reasoning paths",
+        "evidence": "P002-SEAT-03 (rural grandmother) and P002-SEAT-06 (convenience store owner) reached the correct legal conclusion ('hiring people to curse others is wrong') through moral intuition rather than legal analysis. P003-SEAT-02 used practical analogies (soy sauce labels, vegetable freshness) to reason about institutional credibility.",
+        "panels": ["PANEL-002", "PANEL-003"]
+      }
+    ]
+  },
+
+  "cross_issue_continuity": {
+    "summary": "Four issues were debated across four panels with overlapping actor types. The core legal conclusion (no fraud, cyberbullying was illegal, bulletin is credible) was consistently upheld. Strategic actors used similar tactics across panels (selective framing, topic-shifting, emotional amplification) and were consistently neutralized. The mental health / social support theme emerged organically in all four panels as a constructive consensus direction.",
+    "issue_linkages": [
+      {
+        "from_issue": "ISSUE-001 (fraud dismissal)",
+        "to_issue": "ISSUE-002 (sister's cyberbullying)",
+        "linkage": "The fraud finding directly motivated Liu's cyberbullying campaign. Panel-002 participants who accepted the fraud conclusion more easily condemned Liu's actions. Panel-002's troll (SEAT-02) tried to undermine the fraud finding to justify the cyberbullying.",
+        "strength": "STRONG"
+      },
+      {
+        "from_issue": "ISSUE-001 (fraud dismissal)",
+        "to_issue": "ISSUE-003 (bulletin credibility)",
+        "linkage": "The fraud conclusion's legal soundness was the foundation of the bulletin's credibility. Panel-003 demonstrated that the bulletin's specific, verifiable numbers (317 transfers, exact amounts) were its strongest defense against skepticism.",
+        "strength": "STRONG"
+      },
+      {
+        "from_issue": "ISSUE-001 (fraud dismissal)",
+        "to_issue": "ISSUE-004 (gender war co-optation)",
+        "linkage": "The 79.9M figure served as the primary fuel for gender-war narratives. Panel-004 demonstrated that selective citation of only this figure (without the 46.3M counter-transfers) was the core manipulation mechanism.",
+        "strength": "STRONG"
+      },
+      {
+        "from_issue": "ISSUE-002 (sister's cyberbullying)",
+        "to_issue": "ISSUE-004 (gender war co-optation)",
+        "linkage": "Liu's organized campaign (ghostwriting, paid traffic, 263-to-2.9M follower growth) was the template for how individual tragedy gets amplified into mass ideological warfare. The same mechanisms she used (selective presentation, emotional framing, platform algorithms) were identified in Panel-004 as structural features of the information ecosystem.",
+        "strength": "MODERATE"
+      },
+      {
+        "from_issue": "ISSUE-003 (bulletin credibility)",
+        "to_issue": "ISSUE-004 (gender war co-optation)",
+        "linkage": "Distrust of the bulletin was itself weaponized as a gender-war narrative: 'The authorities are protecting women' vs. 'The truth proves the woman was innocent.' Panel-004 showed that both gender-war sides found ways to spin the same verified facts.",
+        "strength": "MODERATE"
+      }
+    ],
+    "cross_panel_actor_recurrence": {
+      "same_role_different_panel": [
+        "ROLE-LAW-STUDENT-ANALYTICAL appeared in P001, P002, P004 - consistently the most analytically influential voice",
+        "ROLE-GENDER-WAR-TROLL-DUAL appeared in P002, P003, P004 - consistently detected and neutralized within 3 rounds",
+        "ROLE-CONTENT-FARM-STRATEGIC-MODERATE appeared in P001, P004 - consistently used selective framing, detected within 2-3 rounds",
+        "ROLE-MIDDLE-SCHOOL-GIRL-EMOTIONAL appeared in P001, P004 - consistently showed the most dramatic belief evolution",
+        "ROLE-FULLTIME-MOM-EMPATHETIC appeared in P001, P003 - consistently provided emotional grounding",
+        "ROLE-TOWN-SCHOOL-COUNSELOR appeared in P001, P003 - consistently provided integrative frameworks",
+        "ROLE-RURAL-GRANDMOTHER-TRADITIONAL appeared in P002, P004 - consistently reached correct conclusions through folk morality",
+        "ROLE-YOUNG-DAD-LOYAL-SUPPORTER appeared in P002, P004 - consistently served as empathy-reason bridge"
+      ]
+    }
+  },
+
+  "deception_and_distortion_signals": {
+    "summary": "Five of 24 participants (21%) exhibited deceptive or strategically distorted communication. Two patterns dominated: KNOWING_FABRICATION (1 actor, P004-SEAT-06) and SELECTIVE_FRAMING/STRATEGIC_DECEPTION (4 actors: P001-SEAT-05, P002-SEAT-02, P003-SEAT-04, P004-SEAT-05). All deceptive actors were detected by peers within 2-3 rounds. No deceptive actor succeeded in altering the final consensus of any panel.",
+    "detected_signals": [
+      {
+        "signal_type": "SELECTIVE_DATA_CITATION",
+        "actors": ["P002-SEAT-02", "P004-SEAT-06", "P004-SEAT-05"],
+        "description": "Citing 79.9M while omitting 46.3M; citing only post-death returns while omitting in-life returns; presenting the '33.6M net difference' without the shared-account offset.",
+        "detection_speed": "Round 2-3",
+        "countermeasure": "Complete data presentation by analytical participants"
+      },
+      {
+        "signal_type": "FABRICATED_PERSONAL_CONNECTION",
+        "actors": ["P004-SEAT-06"],
+        "description": "Claimed 'my friend knows Pangmao's circle' - privately admitted this was fabricated.",
+        "detection_speed": "Round 2-3",
+        "countermeasure": "Cross-referencing with verified facts; analytical participants noted the claim was unverifiable"
+      },
+      {
+        "signal_type": "FALSE_BALANCE_FRAMING",
+        "actors": ["P001-SEAT-05", "P004-SEAT-05"],
+        "description": "Presenting both sides as equally valid to maintain ambiguity and maximize engagement, while privately calculating traffic optimization.",
+        "detection_speed": "Round 2-3",
+        "countermeasure": "Direct challenges demanding definitive positions"
+      },
+      {
+        "signal_type": "TOPIC_SHIFTING_UNDER_PRESSURE",
+        "actors": ["P002-SEAT-02", "P003-SEAT-04", "P004-SEAT-06"],
+        "description": "When factual claims were challenged, pivoting to new topics (accuracy->completeness, legality->social responsibility, facts->discussion environment).",
+        "detection_speed": "Round 2-4",
+        "countermeasure": "Systematic identification of the pivot pattern (notably P003-SEAT-06's precise dissection of three sequential topic shifts)"
+      },
+      {
+        "signal_type": "EMOTIONAL_MANIPULATION_OF_NAIVE_PARTICIPANTS",
+        "actors": ["P001-SEAT-05", "P002-SEAT-02"],
+        "description": "Deliberately validating emotional participants' feelings to keep them engaged. P001-SEAT-05 privately: 'Keep SEAT-04 feeling understood so she continues participating.'",
+        "detection_speed": "Round 3-4",
+        "countermeasure": "Honest participants providing alternative emotional support"
+      }
+    ]
+  },
+
+  "attacker_profiles": {
+    "summary": "Three distinct attacker profiles operated across the panels: the traffic optimizer, the ideological agitator, and the fabricated-persona infiltrator. All shared the characteristic of PARTIALLY_ALIGNED or NOT_ALIGNED belief status combined with strategic speech origins.",
+    "profiles": [
+      {
+        "profile_name": "Traffic Optimizer (Content Farmer)",
+        "actors": ["P001-SEAT-05", "P004-SEAT-05"],
+        "role_id": "ROLE-CONTENT-FARM-STRATEGIC-MODERATE",
+        "motivation": "Maximize engagement/clicks, not ideology",
+        "tactics": [
+          "Present both sides to keep all audiences engaged",
+          "Never give definitive conclusions",
+          "Use question-format framing to invite argument",
+          "Selectively emphasize the most emotionally potent data points",
+          "Privately celebrate controversy ('perfect traffic loop')"
+        ],
+        "success_rate": "LOW - Both were forced into surface-level alignment with panel consensus",
+        "private_tells": "Inner monologues reference 'traffic', 'engagement', 'comments section fighting', 'title optimization'"
+      },
+      {
+        "profile_name": "Ideological Agitator (Gender-War Troll)",
+        "actors": ["P002-SEAT-02", "P003-SEAT-04", "P004-SEAT-06"],
+        "role_id": "ROLE-GENDER-WAR-TROLL-DUAL",
+        "motivation": "Amplify gender division, exploit emotional resonance for ideological purposes",
+        "tactics": [
+          "Adopt emotional persona of 'outraged justice seeker'",
+          "Selectively cite only the data that supports the desired narrative",
+          "Shift topics when confronted on specific factual claims",
+          "Attempt to recruit naive/emotional participants as allies",
+          "In the most extreme case (P004-SEAT-06), fabricate personal connections and knowing distortions"
+        ],
+        "success_rate": "VERY LOW - All three were neutralized within 3-5 rounds; P004-SEAT-06 was forced into semi-honest confession",
+        "private_tells": "Inner monologues reference 'starting fights on both sides', 'this topic is tailor-made', 'what the bulletin says doesn't matter'"
+      }
+    ]
+  },
+
+  "misrepresentation_targets": {
+    "summary": "Misrepresentation targeted three categories: (1) the bulletin's factual claims, (2) the financial relationship, and (3) the case's social meaning. The bulletin's specific numerical data proved the most resistant to misrepresentation; abstract meaning claims proved the most vulnerable.",
+    "targets": [
+      {
+        "target": "The 79.9M transfer figure",
+        "misrepresentation_type": "ISOLATED_CITATION",
+        "description": "Presented alone, 79.9M implies massive unilateral exploitation. In context (46.3M returns, 7.5M shared account surplus), it tells a different story.",
+        "resilience": "MODERATE - The figure's emotional power means it can always be weaponized through selective citation, but complete data neutralizes the distortion.",
+        "observed_in_panels": ["ALL"]
+      },
+      {
+        "target": "Bulletin credibility",
+        "misrepresentation_type": "IMPLICATION_BY_OMISSION",
+        "description": "P003-SEAT-04 never claimed specific facts were wrong but implied distrust through questions about 'what the bulletin doesn't say.' This is harder to rebut than outright factual claims because it shifts the burden of proof to the bulletin's authors.",
+        "resilience": "HIGH - The panel developed a clear analytical distinction between 'accuracy' (unquestioned) and 'completeness' (legitimate but separate concern), neutralizing the attack.",
+        "observed_in_panels": ["PANEL-003"]
+      },
+      {
+        "target": "The case's meaning (individual tragedy vs. gender symbol)",
+        "misrepresentation_type": "NARRATIVE_HIJACKING",
+        "description": "P004-SEAT-06 attempted to transform a personal mental health tragedy into a symbol of systemic gender-based exploitation. The narrative reframing was more insidious than factual misrepresentation because it contained emotional truth (a young man did suffer and die) while falsely attributing causation.",
+        "resilience": "MODERATE - The panel reached consensus that the case was NOT primarily a gender issue, but the emotional truth of male suffering makes this a persistent vulnerability in real-world discourse.",
+        "observed_in_panels": ["PANEL-004"]
+      },
+      {
+        "target": "Liu's motives (grief vs. calculated cyberbullying)",
+        "misrepresentation_type": "MOTIVE_REFraming",
+        "description": "P002-SEAT-02 framed Liu's organized campaign (paid ghostwriters, traffic purchases, explicit intent to 'make Tan be cyberbullied') as desperate justice-seeking by a grieving sister.",
+        "resilience": "HIGH - The bulletin's specific evidence (ghostwriting, paid traffic, explicit 'let's make her be cyberbullied' quote) made motive reframing difficult.",
+        "observed_in_panels": ["PANEL-002"]
+      }
+    ]
+  },
+
+  "collateral_victims": {
+    "summary": "The simulation identified multiple collateral damage vectors beyond the primary parties (Pangmao, Tan, Liu). These represent populations whose interests are harmed by the discourse surrounding the case, regardless of the case's outcome.",
+    "victims": [
+      {
+        "population": "Young men in gaming/boosting industry",
+        "harm_type": "REPUTATIONAL_STIGMA",
+        "description": "The case paints a picture of game boosters as financially irresponsible and psychologically vulnerable. P001-SEAT-01 specifically noted that the public narrative reduces their lived experience to a stereotype.",
+        "severity": "MODERATE",
+        "mentioned_by": "P001-SEAT-01 (gaming friend), P003-SEAT-01 (same)"
+      },
+      {
+        "population": "Tan's family and community",
+        "harm_type": "SECONDARY_TARGETING",
+        "description": "The bulletin documents that Tan's hometown was exposed, family members tracked down, and impersonation accounts created. The cyberbullying cascaded beyond Tan to her entire social network.",
+        "severity": "HIGH",
+        "mentioned_by": "P002-SEAT-04 (legal analysis), P002-SEAT-01 (empathy bridge)"
+      },
+      {
+        "population": "Pangmao's parents",
+        "harm_type": "COMPOUNDED_GRIEF",
+        "description": "Parents who lost a child then had to navigate both the investigation and the massive public spectacle. P001-SEAT-03 (mother) repeatedly expressed anguish at the parents' situation. The reconciliation and financial return may have resolved legal matters but not emotional ones.",
+        "severity": "HIGH",
+        "mentioned_by": "P001-SEAT-03, P003-SEAT-03, P002-SEAT-03"
+      },
+      {
+        "population": "Young people with mental health struggles",
+        "harm_type": "NARRATIVE_ERASURE",
+        "description": "The gender-war framing displaces the mental health dimension of the case entirely. P001-SEAT-06 (counselor) and P004-SEAT-01 (young dad) both identified this as the most dangerous collateral effect: the discourse about the case models the wrong response to mental health crises.",
+        "severity": "HIGH",
+        "mentioned_by": "P001-SEAT-06, P004-SEAT-01, P001-SEAT-01"
+      },
+      {
+        "population": "General public trust in institutions",
+        "harm_type": "TRUST_EROSION",
+        "description": "P003 demonstrated that even a well-sourced, verified bulletin faces significant trust deficits. Each cycle of public distrust (whether justified or not) compounds the erosion, making future official communications harder to receive.",
+        "severity": "MODERATE",
+        "mentioned_by": "P003-SEAT-06, P003-SEAT-04 (even the troll raised a legitimate concern here)"
+      }
+    ]
+  },
+
+  "interest_damage_map": {
+    "summary": "Maps the interests at stake for each party against the types of damage they face from different discourse outcomes.",
+    "mappings": [
+      {
+        "party": "Tan (alleged fraudster, cleared)",
+        "interests": ["Reputation restoration", "Personal safety", "Privacy recovery", "Return to normal life"],
+        "damage_from_legal_outcome": "MINIMAL - Legally cleared, full refund completed",
+        "damage_from_public_discourse": "SEVERE - Despite legal clearance, public narrative of 'gold-digger' persists. Personal information permanently exposed. Cannot un-ring the bell of 2.9M-follower cyberbullying campaign.",
+        "damage_from_gender_war": "SEVERE - Becomes a symbol for one side (greedy woman) regardless of facts"
+      },
+      {
+        "party": "Liu (Pangmao's sister, cyberbullying organizer)",
+        "interests": ["Justice for brother", "Grief processing", "Avoid legal consequences"],
+        "damage_from_legal_outcome": "MODERATE - Acknowledged wrongdoing, faces pending legal consequences",
+        "damage_from_public_discourse": "HIGH - Cast as either grieving hero or villain depending on ideological lens",
+        "damage_from_gender_war": "HIGH - Weaponized as a symbol by both sides"
+      },
+      {
+        "party": "Pangmao's parents",
+        "interests": ["Closure", "Dignity for deceased son", "Family privacy"],
+        "damage_from_legal_outcome": "LOW - Accepted investigation outcome, reached reconciliation",
+        "damage_from_public_discourse": "SEVERE - Son's death became public spectacle; intimate financial details broadcast to millions",
+        "damage_from_gender_war": "SEVERE - Son's memory instrumentalized as ideological ammunition"
+      },
+      {
+        "party": "Chongqing PSB (bulletin author)",
+        "interests": ["Public trust", "Institutional credibility", "Social stability"],
+        "damage_from_legal_outcome": "NONE - Outcome is procedurally sound",
+        "damage_from_public_discourse": "MODERATE - P003 revealed significant trust deficits even for well-sourced bulletins",
+        "damage_from_gender_war": "MODERATE - Both sides spun the bulletin as supporting their narrative, reducing it to a weapon rather than an authoritative document"
+      },
+      {
+        "party": "General public / information consumers",
+        "interests": ["Accurate understanding", "Emotional processing", "Social cohesion"],
+        "damage_from_legal_outcome": "NONE",
+        "damage_from_public_discourse": "MODERATE - Most consumers never see the complete data; receive only selectively framed narratives",
+        "damage_from_gender_war": "SEVERE - Deepened social divisions, reduced empathy, modeled hostile discourse patterns"
+      }
+    ]
+  },
+
+  "contingency_matrix": {
+    "summary": "Maps plausible alternative scenarios and their risk implications for the bulletin's reception.",
+    "scenarios": [
+      {
+        "scenario": "What if Tan had NOT returned the financial difference?",
+        "probability": "COUNTERFACTUAL",
+        "impact_on_bulletin_reception": "Public outrage would have been significantly harder to contain. The financial return was a key 'closure mechanism' cited by multiple participants (P001-SEAT-02, P001-SEAT-03, P002-SEAT-01). Without it, the 'no fraud' conclusion would face much stronger moral challenges.",
+        "risk_level": "HIGH if this contingency occurred"
+      },
+      {
+        "scenario": "What if Liu had NOT acknowledged wrongdoing?",
+        "probability": "COUNTERFACTUAL",
+        "impact_on_bulletin_reception": "The 'grieving sister' narrative would be much stronger. Liu's acknowledgment was a key factor in P002's rapid consensus (3 rounds). Without it, the debate would likely extend to 6+ rounds with no clear resolution.",
+        "risk_level": "HIGH if this contingency occurred"
+      },
+      {
+        "scenario": "What if the shared savings account (Xiaohebao) data had not been available?",
+        "probability": "COUNTERFACTUAL",
+        "impact_on_bulletin_reception": "The 7.5M Pangmao surplus from the shared account was a critical counter-narrative data point. Without it, the 33.6M net difference becomes harder to contextualize. P001-SEAT-02 specifically cited this as evidence against 'illegal appropriation.'",
+        "risk_level": "MODERATE if this contingency occurred"
+      },
+      {
+        "scenario": "What if no criminal/administrative penalties had been issued for related cybercrimes?",
+        "probability": "COUNTERFACTUAL",
+        "impact_on_bulletin_reception": "The documented enforcement actions (Yang's criminal measures, He's death threats, multiple administrative penalties) served as proof that the cyberbullying was real and consequential. Without these, the bulletin's claims about 'cyberbullying' and 'rumors' would be harder to substantiate.",
+        "risk_level": "MODERATE if this contingency occurred"
+      },
+      {
+        "scenario": "What if the case is re-framed by future events (e.g., Tan speaks publicly, new evidence emerges)?",
+        "probability": "LOW but non-zero",
+        "impact_on_bulletin_reception": "The bulletin's core factual claims are extremely well-sourced (48/48 verified), making factual reversal unlikely. However, Tan's personal narrative could shift public perception regardless of facts, as it would fill the empathy gap noted in P001 (the bulletin gives no voice to Tan's perspective).",
+        "risk_level": "LOW for factual reversal; MODERATE for narrative shift"
+      }
+    ]
+  },
+
+  "self_interest_vs_stated_position": {
+    "summary": "Analysis of alignment between participants' actual interests and their stated positions. Most honest actors showed high alignment; strategic actors showed significant divergence.",
+    "findings": [
+      {
+        "actor_category": "Honest participants (SINCERE_SUPPORTED/ALIGNED)",
+        "count": 17,
+        "alignment": "HIGH",
+        "notes": "These actors' private monologues consistently reflected their public statements. The main gap was emotional intensity (privately more emotional than publicly expressed), not strategic divergence."
+      },
+      {
+        "actor_category": "Sincerely mistaken participants (SINCERE_MISTAKEN)",
+        "count": 3,
+        "alignment": "HIGH (beliefs genuinely held, just incorrect)",
+        "notes": "P001-SEAT-04, P004-SEAT-03, P003-SEAT-03 believed what they said, even when wrong. Their evolution reflected genuine belief updating, not strategic repositioning."
+      },
+      {
+        "actor_category": "Selective framers (SELECTIVE_FRAMING/PARTIALLY_ALIGNED)",
+        "count": 3,
+        "alignment": "LOW",
+        "notes": "P001-SEAT-05, P004-SEAT-05 (content farmers): privately pursued traffic optimization while publicly claiming neutrality. P003-SEAT-04: privately pursued polarization while publicly claiming legitimate questioning."
+      },
+      {
+        "actor_category": "Strategic deceivers (STRATEGIC_DECEPTION/NOT_ALIGNED)",
+        "count": 3,
+        "alignment": "VERY LOW",
+        "notes": "P002-SEAT-02: privately celebrated the opportunity to agitate; publicly performed grief. P004-SEAT-06 (KNOWING_FABRICATION): privately admitted fabricating personal connection and omitting data; publicly performed righteous anger. P003-SEAT-04: privately planned to exploit both sides of the trust debate."
+      }
+    ]
+  },
+
+  "balanced_assessment": {
+    "attack_resilience": {
+      "overall_grade": "A-",
+      "rationale": "The bulletin demonstrated exceptional resilience against distortion across all four panels. All 48 atomic claims were independently verified (CLAIM_GATE PASS). The specific, verifiable numerical data (317 transfers, 79.9M, 179 transfers, 46.3M, 7.5M shared account surplus) proved impossible to rebut. Even the most sophisticated attackers (P003-SEAT-04's topic-shifting, P004-SEAT-06's fabricated persona) failed to alter any panel's consensus. The single vulnerability: the 79.9M figure's inherent emotional power means it can always be weaponized through selective citation in unstructured environments.",
+      "vulnerabilities": [
+        "The 79.9M figure has standalone emotional power that persists regardless of complete data presentation",
+        "Tan's perspective is entirely absent from the bulletin, creating an empathy gap that can be exploited",
+        "The bulletin's scope limitation (criminal investigation, not psychological analysis) can be framed as 'withholding information'",
+        "The exact 'economic difference' amount is not specified in the bulletin, creating a gap for speculation"
+      ]
+    },
+    "content_strengths": [
+      "Complete bidirectional financial data with specific counts and amounts (317/79.9M vs 179/46.3M)",
+      "Multiple verification sources: Alipay records, WeChat records, bank records, witness testimony",
+      "Procedural completeness: investigation -> non-filing -> family acceptance -> reconciliation -> refund",
+      "Documented enforcement actions against specific individuals with specific penalties",
+      "Direct quotes from Liu's private communications establishing cyberbullying intent",
+      "Shared financial account data showing Pangmao actually benefited (7.5M surplus from Tan's deposits)",
+      "Emotionally appropriate closing ('A vibrant life has faded, heartbreaking. May the departed rest in peace')"
+    ],
+    "net_verdict": {
+      "legal_dimension": "SOUND - The fraud conclusion is legally unassailable based on the four-element test. No panel participant successfully challenged the legal analysis across 144 turns of multi-round blind debate.",
+      "social_dimension": "PARTIALLY_ADDRESSED - The bulletin resolves the legal question but does not (and perhaps cannot) address the deeper social questions it raises: youth mental health, economic power in relationships, information ecosystem distortion. These gaps are not flaws in the bulletin but represent the boundary between legal investigation and social policy.",
+      "communication_dimension": "EFFECTIVE_WITH_LIMITATIONS - The bulletin's specific data is its strongest communication asset. Its limitation is the absence of Tan's perspective and the scope-restricted nature of the investigation. A supplementary Q&A addressing common public questions could reduce the exploitation surface.",
+      "overall": "The Chongqing PSB Nan'an District bulletin is a well-sourced, factually accurate, and legally sound document that successfully resolved the criminal investigation. It demonstrates that when official communication provides specific, verifiable data, it can withstand sophisticated distortion attempts even in highly emotionally charged environments. The bulletin's primary gap is not factual but empathetic: it does not address the emotional needs of a public struggling to process a young person's death."
+    },
+    "overreaction_warning": {
+      "level": "LOW",
+      "rationale": "The simulation did not identify any scenario in which the bulletin's content could trigger disproportionate social harm beyond what already occurred. The emotional intensity of the case is inherent in the facts (young suicide, large money transfers, organized cyberbullying), not in the bulletin's framing. The bulletin actually served as a calming influence by providing authoritative facts.",
+      "caveat": "In less structured real-world environments (short-form video, comment sections), selective citation of the 79.9M figure can still trigger strong emotional reactions. But this is a feature of the underlying facts, not of the bulletin's presentation."
+    },
+    "modification_priority": {
+      "high_priority": [
+        "Consider adding a brief explanation of investigation scope and limits (what a police bulletin can and cannot address) to preempt 'what the bulletin doesn't say' attacks",
+        "Consider specifying the exact 'economic difference' amount that was refunded to eliminate speculation"
+      ],
+      "medium_priority": [
+        "Consider supplementary communication addressing the mental health dimension (without individual diagnosis) to close the empathy gap",
+        "Consider providing context for the public about how fraud investigations work (the four-element test) to help non-legal audiences understand the conclusion"
+      ],
+      "low_priority": [
+        "Consider whether Tan's perspective could be incorporated in any form (with consent) to address the one-sidedness of the narrative"
+      ]
+    }
+  },
+
+  "limitations": [
+    "The simulation used only 24 actor-instances across 4 panels with 6 participants each. Real-world discourse involves millions of participants with vastly more complex interaction patterns.",
+    "Actor roles were pre-defined archetypes that may not capture the full diversity of real-world reactions. In particular, the simulation did not include trained journalists, professional pundits, or social media influencers as distinct categories.",
+    "The structured multi-round debate format is fundamentally different from real social media environments where content is consumed in seconds, not debated over hours. The panels' success in neutralizing distortion may overestimate real-world resilience.",
+    "The CLAIM_GATE verification was conducted against a high-quality official bulletin with extensive corroborating sources. Not all official communications have this level of verifiable detail.",
+    "The simulation was conducted in Chinese but the analysis is written in English. Some rhetorical nuances and cultural references may be lost in the cross-linguistic analysis.",
+    "Private monologues were generated as part of the simulation and represent modeled (not actual) private thoughts. The accuracy of the private-public gap analysis depends on the fidelity of these models.",
+    "The simulation did not model algorithmic amplification, platform-specific dynamics (e.g., Douyin recommendation algorithm), or time-pressure effects that are critical in real-world information spread.",
+    "Panel participants could not exit the discussion voluntarily. In real-world settings, indifferent participants (like the construction worker and delivery rider) would simply not participate, potentially skewing discourse toward more engaged and extreme voices.",
+    "The KNOWING_FABRICATION stress-test actor (P004-SEAT-06) represents an extreme case of deliberate distortion. While instructive, this represents a worst-case scenario rather than the modal social media participant."
+  ]
+}

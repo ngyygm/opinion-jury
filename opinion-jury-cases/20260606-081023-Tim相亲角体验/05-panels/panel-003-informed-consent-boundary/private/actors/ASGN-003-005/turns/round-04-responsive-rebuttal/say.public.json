@@ -1,0 +1,22 @@
+{
+  "turn_id": "ASGN-003-005-round-04-responsive-rebuttal",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-5",
+  "round": 4,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "很高兴看到讨论在朝建设性方向发展。幼儿园老师的三层方案提出了一个很好的框架，我想在此基础上回应几个关键点。关于第三层传播范围告知——做运营的朋友说创作者不知道内容会不会火，所以传播范围不可预估。这个论点有一个漏洞：传播范围告知不等于预估具体播放量，它是指告知你的粉丝量级和账号属性。Tim不需要告诉被拍摄者'这条视频会被两千万人看'，他只需要说'我是一个有几千万粉丝的自媒体账号'。就像省级卫视去拍摄，编导不需要预测收视率，但他一定会在开拍前告诉被采访者'我们是某某卫视'。这个告知在实操中很简单，就是一句话的事。而且第三层不是独立存在的，它和第二层是联动的——当一个几千万粉丝的博主隐瞒身份去拍摄，信息不对称就被双重放大了。你不告诉别人你是谁，别人也不知道你的传播力有多大。三层方案是一个完整的体系，不能因为第三层执行起来'麻烦'就把它降格成建议。权利不能因为执行成本高就被打折。",
+  "target_turn_refs": [
+    "ASGN-003-003-round-04-responsive-rebuttal",
+    "ASGN-003-004-round-04-responsive-rebuttal",
+    "ASGN-003-002-round-03-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "panel-003-public-question"
+  ],
+  "public_evidence_refs": [
+    "C008",
+    "C011",
+    "C013"
+  ],
+  "public_action_signals": []
+}

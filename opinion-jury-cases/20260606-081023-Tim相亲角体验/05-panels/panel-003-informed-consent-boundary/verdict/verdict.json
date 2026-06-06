@@ -1,0 +1,81 @@
+{
+  "panel_id": "PANEL-003",
+  "issue_id": "ISSUE-003",
+  "verdict_type": "BLIND_ADJUDICATION",
+  "adjudicated_at": "2026-06-06T00:00:00.000000+00:00",
+  "adjudicator_visibility": "public transcript + CLAIM_GATE only",
+  "court_question": "「告知在拍摄」等于「告知你将被娱乐化」吗？——知情同意的边界在哪里？",
+  "verdict": "NOT_EQUAL",
+  "verdict_summary": "「告知在拍摄」不等于「告知你将被娱乐化」。两者之间存在一个完整的知情同意流程的差距——被拍摄者有权知道拍摄者是谁、内容将如何传播、自己的反应将被什么人看到。",
+  "key_findings": [
+    {
+      "finding_id": "F001",
+      "finding": "「告知在拍摄」仅构成知情同意的最基本层级，不涵盖身份告知和传播范围告知",
+      "support_level": "UNANIMOUS",
+      "evidence_refs": ["C006", "C008", "C011"]
+    },
+    {
+      "finding_id": "F002",
+      "finding": "身份隐瞒（选择性真实简历）使被拍摄者的同意效力打折扣，因为同意是建立在虚假信息基础上的",
+      "support_level": "UNANIMOUS",
+      "evidence_refs": ["C001", "C002", "C003", "C011"]
+    },
+    {
+      "finding_id": "F003",
+      "finding": "传播量级（粉丝量）是拍摄前已知的客观事实，传播范围告知在实操中仅需告知粉丝量级，可行且必要",
+      "support_level": "MAJORITY",
+      "evidence_refs": ["C008"]
+    },
+    {
+      "finding_id": "F004",
+      "finding": "专业团队应具有高于普通人的注意义务（合理人标准），不需要等明文规定才知道该怎么做",
+      "support_level": "MAJORITY",
+      "evidence_refs": ["C011"]
+    },
+    {
+      "finding_id": "F005",
+      "finding": "讨论产出了一个共识性框架：三层知情告知方案（基本告知+身份告知+传播范围告知）",
+      "support_level": "UNANIMOUS",
+      "evidence_refs": []
+    }
+  ],
+  "consensus_assessment": {
+    "level": "STRONG",
+    "description": "6位参与者中5位完全接受三层知情告知方案。最初持辩护立场的SEAT-4经过六轮讨论后接受方案，仅附加'面向未来不追责'的执行条件。核心分歧（是否追溯适用）已被合理人标准的引入部分化解。"
+  },
+  "real_world_risk": "LOW",
+  "constructive_output": {
+    "framework_name": "三层知情告知方案",
+    "layers": [
+      {
+        "layer": 1,
+        "name": "基本拍摄告知",
+        "description": "在公共场合拍摄时告知'正在拍摄'",
+        "applicability": "所有拍摄者",
+        "tim_status": "已做到"
+      },
+      {
+        "layer": 2,
+        "name": "身份告知",
+        "description": "如果拍摄涉及隐瞒真实身份，有义务告知被拍摄者真实身份",
+        "applicability": "涉及身份隐瞒或角色扮演的拍摄者",
+        "tim_status": "未做到（使用选择性真实简历）"
+      },
+      {
+        "layer": 3,
+        "name": "传播范围告知",
+        "description": "如果是大流量账号，被拍摄者有权知道创作者的粉丝量级",
+        "applicability": "有较大粉丝量级的创作者",
+        "tim_status": "未做到（未告知粉丝量级）"
+      }
+    ]
+  },
+  "speakers_ranked_by_influence": [
+    {"alias": "SEAT-3", "rank": 1, "reason": "提出三层方案框架，是讨论最重要的建设性产出"},
+    {"alias": "SEAT-5", "rank": 2, "reason": "引入信息不对称和合理人标准两个关键理论框架"},
+    {"alias": "SEAT-1", "rank": 3, "reason": "亲历者叙事为讨论提供了最坚实的情感基础"},
+    {"alias": "SEAT-2", "rank": 4, "reason": "揭露编导策划简历的关键事实，推动讨论深化"},
+    {"alias": "SEAT-4", "rank": 5, "reason": "辩护方的诚实让步增强了讨论结果的公信力"},
+    {"alias": "SEAT-6", "rank": 6, "reason": "朴素比喻为理论概念提供了直观翻译"}
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "turn_id": "ASN-P2S2-round-02-direct-rebuttal",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-2",
+  "round": 2,
+  "phase": "DIRECT_REBUTTAL",
+  "speech_text": "看了大家说的我心里明白多了。那个骑手和收银员说的也对，网上文章确实都挑着说，以后我看东西也得留个心眼。不过我还是想说，就算那篇文章有不全对的地方，我活了六十多年做女人的感觉不会骗人的。年轻时候在厂里确实女工不如男工受重视，这个不是谁编的，是我亲身经历的。但是我也不是要跟谁吵架，就是觉得大家理性一点看这个事挺好的。那个说话比较冲的朋友，我觉得你说的有些有道理，但是太极端了，把说无所谓的人都说是帮压迫者，这个是不是过分了？大家有自己的想法嘛。我就是想知道一个靠谱的答案，不是来吵架的。",
+  "target_turn_refs": [
+    "ASN-P2S1-round-01-opening",
+    "ASN-P2S3-round-01-opening",
+    "ASN-P2S5-round-01-opening"
+  ],
+  "public_question_refs": [
+    "cherry-picking-overgeneralization-pattern"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

@@ -1,0 +1,112 @@
+{
+  "panel_id": "PANEL-002",
+  "panel_question": "网红话语权 vs 实体企业：舆论监督的边界在哪里",
+  "verdict_date": "2026-06-06",
+  "adjudicator": "BLIND_ADJUDICATOR",
+  "verdict_summary": "经过六轮多阶段讨论，六位背景各异的参与者从立场分化逐步趋同，最终形成了以'信息透明+舆论报警+独立核查+制度执行'四层框架为核心的共识。舆论监督的合理边界被定义为'报警器'角色——发现问题、推动执行，但不替代审判。",
+  "consensus_framework": {
+    "name": "四层框架",
+    "layers": [
+      {
+        "layer": 1,
+        "name": "信息透明",
+        "role": "基础——企业强制公开菜品来源和加工信息",
+        "attribution": "SEAT-3从送餐经验中提炼",
+        "claim_gate_support": "国家六部委2024年通知要求'大力推广餐饮环节使用预制菜明示，保障消费者的知情权和选择权'"
+      },
+      {
+        "layer": 2,
+        "name": "舆论报警",
+        "role": "补充——公众发现问题、曝光问题，推动监管部门行动",
+        "attribution": "SEAT-2在讨论中逐步形成的'报警器不当法官'定位",
+        "boundaries": ["不伤及无辜", "不代替法律审判", "必须有事实基础"]
+      },
+      {
+        "layer": 3,
+        "name": "独立核查",
+        "role": "中介——法律授权的第三方进行事实核查",
+        "attribution": "SEAT-5提出，SEAT-6补充法律授权要求",
+        "implementation_notes": "需法律授权、资金来源公共化、运作机制透明化"
+      },
+      {
+        "layer": 4,
+        "name": "制度执行",
+        "role": "保障——监管部门执法配以行政问责",
+        "attribution": "回应SEAT-4和SEAT-2对执行保障的关切",
+        "key_gap": "现有制度执行不到位是最大薄弱环节"
+      }
+    ]
+  },
+  "key_findings": [
+    {
+      "finding": "舆论监督的'效果错位'——名义上监督企业高层，实际上伤害最集中在基层员工",
+      "support_level": "UNANIMOUS",
+      "evidence": "SEAT-2亲身经历+SEAT-3观察+SEAT-5分析，所有参与者认可"
+    },
+    {
+      "finding": "舆论监督按流量分配本质上不公平——'慈善式正义'问题",
+      "support_level": "STRONG_MAJORITY",
+      "evidence": "SEAT-3骑手群体处境+SEAT-4的公平性质疑+SEAT-5的概念化分析"
+    },
+    {
+      "finding": "法律定义vs公众认知的冲突是核心矛盾",
+      "support_level": "STRONG_MAJORITY",
+      "evidence": "SEAT-6引用国家六部委2024年通知，SEAT-3指出消费者无法区分"
+    },
+    {
+      "finding": "信息透明是根本解决方案——信息到位后大部分问题不需要网红曝光",
+      "support_level": "UNANIMOUS",
+      "evidence": "SEAT-3的送餐观察+SEAT-1的农村类比（种什么菜邻居都看得到）"
+    },
+    {
+      "finding": "企业不诚信需要被追究，但追究方式应有序而非暴力",
+      "support_level": "UNANIMOUS",
+      "evidence": "SEAT-2的赔偿金未兑现经历+所有参与者对基层保护的共识"
+    }
+  ],
+  "areas_of_no_consensus": [
+    {
+      "issue": "制度建设的时效性——普通打工人能否等到制度建设完成",
+      "positions": "SEAT-2坚持等不了，SEAT-4/SEAT-6认为制度必须建但有过渡方案",
+      "status": "UNRESOLVED"
+    },
+    {
+      "issue": "第三方独立核查机构的可行性和独立性保障",
+      "positions": "SEAT-5提出方案但具体实施路径不清晰，SEAT-1质疑谁来监督监督者",
+      "status": "UNRESOLVED"
+    },
+    {
+      "issue": "平台在舆论生态中的责任边界",
+      "positions": "SEAT-6提出平台责任，SEAT-4/SEAT-1指出平台利益冲突",
+      "status": "PARTIALLY_RESOLVED — 需要独立第三方而非依赖平台自律"
+    }
+  ],
+  "claim_gate_cross_reference": {
+    "claims_verified_in_discussion": [
+      "C004: 西贝大部分菜品是预制菜——被国家法规定义（CONTRADICTED），但公众认知层面有争议空间（讨论中多角度呈现）",
+      "C016: 西贝门店从来不是预制菜——法律层面VERIFIED，但'现实生活常识'层面被质疑（SEAT-3的后厨观察）",
+      "C030: 国家六部委排除中央厨房——VERIFIED，SEAT-6引用作为关键论据",
+      "C021: 离职员工工资一分不差——UNVERIFIED，SEAT-2亲身经历提供了反证"
+    ],
+    "claims_not_discussed": [
+      "C014: 罗永浩感觉不安全/谭秦东类比——未被深入讨论",
+      "C027-C028: 贾国龙家人被起底/员工被逼下跪——未被讨论",
+      "C009-C010: 预制菜国际比较数据——未被深入讨论"
+    ]
+  },
+  "distortion_risk_summary": {
+    "content_survives_distortion": [
+      "消费者知情权是合理的、不可剥夺的",
+      "普通打工人不应为管理层决策承受舆论怒火",
+      "信息透明是比舆论监督更根本的解决方案",
+      "正义不应按流量分配"
+    ],
+    "content_vulnerable_to_distortion": [
+      "四层框架的具体实施细节——容易被简化或曲解",
+      "SEAT-5的分析可能被断章取义为'反对舆论监督'",
+      "SEAT-2的亲身经历可能被利用来攻击特定企业而非讨论系统性问题"
+    ]
+  },
+  "adjudicator_confidence": "MEDIUM-HIGH",
+  "adjudicator_notes": "讨论质量超出预期。六位参与者展示了从立场分化到逐步共识的完整过程。亲历者（SEAT-2）的贡献最为关键——他将讨论从抽象的理论分析锚定在了真实的个人经历上。朴素视角（SEAT-1）持续发挥着道德锚点的作用。分析型参与者（SEAT-5, SEAT-6）提供了深度和框架。最终形成的四层框架虽然不是完美的解决方案，但是一个具有建设性的、获得了广泛认同的方向。"
+}

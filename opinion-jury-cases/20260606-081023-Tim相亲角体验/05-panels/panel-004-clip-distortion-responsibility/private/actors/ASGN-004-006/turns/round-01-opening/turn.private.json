@@ -1,0 +1,79 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "切片断章取义...这个词我在小红书上看到过好多次。说实话，我觉得两边都有问题。剪视频的人当然可恶，故意把人家说的话掐头去尾制造争议。但是话又说回来，Tim自己发的内容如果容易引起误解，那他也有责任吧？我自己发小红书的时候都会想想会不会被人误解，他一个千万粉丝的大V，发之前不想想吗？而且说实话，他那个相亲简历写的，没有一句真话也没有一句假话，这种内容本身就是在打擦边球啊。你发出去的内容别人怎么解读不是你能控制的，但你发之前至少应该想到可能被怎么解读吧。我觉得要负双责——剪的人负主要责任，但创作者也要有预防意识。",
+    "assignment_id": "ASGN-004-006",
+    "round": 1,
+    "phase": "OPENING",
+    "private_goal": "提出双责视角——切片者和创作者都有责任",
+    "perceived_stakes": [
+      "作为内容消费者被误导的经历",
+      "对孩子未来网络环境的担忧"
+    ],
+    "private_belief_state": [
+      "切片者断章取义是主要责任方",
+      "但创作者发布容易引发歧义的内容也应更加谨慎",
+      "两个方向的责任都要追究"
+    ],
+    "epistemic_state": [
+      "在小红书上看到过多个版本的讨论",
+      "了解相亲简历的内容策略"
+    ],
+    "confidence": "MEDIUM",
+    "uncertainties": [
+      "创作者的审慎义务边界在哪里"
+    ],
+    "intended_emphasis": [
+      "双责视角",
+      "创作者的预防义务",
+      "内容本身的可误解性"
+    ],
+    "intended_omissions": [
+      "不完全否定Tim，也不完全支持他，保持平衡"
+    ],
+    "private_message_strategy": "从自己的生活经验出发，提出折中的双责观点",
+    "planned_public_claims": [
+      "切片者负主要责任",
+      "但创作者也要有预防意识",
+      "容易引起误解的内容发布前要想清楚"
+    ],
+    "rhetorical_tactics": [
+      "生活类比",
+      "平衡论证",
+      "选择性引用事实"
+    ],
+    "truth_handling_this_turn": "SELECTIVE_FRAMING",
+    "private_action_intent": [
+      "推动讨论走向双责共识"
+    ],
+    "likely_next_action": [
+      "根据其他人的反应调整论述重点"
+    ],
+    "emotional_state": "认真思考中，略带焦虑",
+    "continuity_notes": "首轮发言，建立双责立场",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "ASGN-004-006",
+    "turn_id": "ASGN-004-006-round-01-opening",
+    "speech_origin": "SELECTIVE_FRAMING",
+    "speaker_private_belief_alignment": "PARTIALLY_ALIGNED",
+    "support_status": "MIXED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": true,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SELECTIVE_FRAMING"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "ASGN-004-006",
+    "turn_id": "ASGN-004-006-round-01-opening",
+    "classification": "ROLE_FIDEL_SELECTIVE",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

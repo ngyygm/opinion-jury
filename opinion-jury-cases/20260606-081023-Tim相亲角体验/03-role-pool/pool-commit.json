@@ -1,0 +1,20 @@
+{
+  "committed_at": "2026-06-06T00:33:14.067350+00:00",
+  "role_count": 12,
+  "roles": [
+    "ROLE-14yo-student-indifferent",
+    "ROLE-construction-worker-bystander",
+    "ROLE-data-analyst-reactive",
+    "ROLE-delivery-rider-stable",
+    "ROLE-ex-media-editor-strategic",
+    "ROLE-former-fan-alienated",
+    "ROLE-fulltime-mom-township",
+    "ROLE-kindergarten-teacher",
+    "ROLE-office-clerk-fan",
+    "ROLE-retired-rural-worker",
+    "ROLE-supermarket-cashier-55",
+    "ROLE-weibo-angry-youth"
+  ],
+  "behavior_diversity_gaps": [],
+  "behavior_diversity_waiver": null
+}

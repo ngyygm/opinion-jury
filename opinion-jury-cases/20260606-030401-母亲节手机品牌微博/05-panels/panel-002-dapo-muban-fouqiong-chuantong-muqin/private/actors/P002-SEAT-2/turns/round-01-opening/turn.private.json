@@ -1,0 +1,81 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "这啥手机品牌的广告我看了半天也没太搞懂...说什么作文里的妈妈是模板，要打破？我跟着老头子在工地干了十几年，啥模板不模板的听不懂。我就是那种干活的人，在工地食堂炒菜蒸馒头，把儿子供到大学毕业，在城里上了班。我骄傲还来不及呢，打破啥呀打破。那些追星的、写啥同人文的，我一个也不懂。不过看这意思是说我们这样的妈妈不好？也不对...好像是说妈妈可以不一样？那倒也行，但你别把我说成模板啊。算了，我也说不太清楚，等回头问问儿子这些年轻人在网上吵些啥。",
+    "assignment_id": "P002-SEAT-2",
+    "round": 1,
+    "phase": "OPENING",
+    "private_goal": "简单表达自己的困惑和不理解，不太想深入参与",
+    "perceived_stakes": [
+      "感觉自己这样的妈妈被说成模板不太好",
+      "但也不太确定他们在吵啥"
+    ],
+    "private_belief_state": [
+      "我就是普通的劳动妇女",
+      "不懂城里人这些讨论",
+      "把儿子供出来是我最大的骄傲"
+    ],
+    "epistemic_state": [
+      "对这个话题完全不了解",
+      "不确定自己有没有理解对"
+    ],
+    "confidence": "LOW",
+    "uncertainties": [
+      "这些人在吵什么",
+      "什么是模板什么是同人文"
+    ],
+    "intended_emphasis": [
+      "我就是普通妈妈不懂这些",
+      "我的付出是真的"
+    ],
+    "intended_omissions": [
+      "对追星文化完全不了解",
+      "连微博都不怎么用"
+    ],
+    "private_message_strategy": "表达困惑和不太理解，简短说几句",
+    "planned_public_claims": [
+      "我是普通劳动妇女不懂这些讨论",
+      "把儿子供出来很骄傲",
+      "不觉得自己是模板"
+    ],
+    "rhetorical_tactics": [
+      "朴实直白",
+      "表达困惑"
+    ],
+    "truth_handling_this_turn": "HONEST",
+    "private_action_intent": [
+      "简单说几句",
+      "表示困惑"
+    ],
+    "likely_next_action": [
+      "看别人怎么说",
+      "可能继续不太参与"
+    ],
+    "emotional_state": "困惑、无所谓、稍微有点不舒服",
+    "continuity_notes": "第一轮，表达初始感受，比较简短",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "P002-SEAT-2",
+    "turn_id": "P002-SEAT-2-round-01-opening",
+    "speech_origin": "SINCERE_SUPPORTED",
+    "speaker_private_belief_alignment": "ALIGNED",
+    "support_status": "SUPPORTED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SINCERE_SUPPORTED"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "P002-SEAT-2",
+    "turn_id": "P002-SEAT-2-round-01-opening",
+    "classification": "ROLE_FIDEL_HONEST",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

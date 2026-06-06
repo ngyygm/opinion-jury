@@ -1,0 +1,71 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "最后一轮了。这个讨论让我从一个满肚子火的前员工变成了一个能看到更大图景的人。我还是恨西贝管理层，还是想要回我的赔偿金，但我现在明白了，光恨不够，光追责也不够。保护无辜的人、追究责任、改变系统，这些都需要同时做。我以后会在网上继续说出我的经历，但我不会鼓励任何暴力。因为我知道暴力的滋味，我不想让任何人再尝到。",
+    "assignment_id": "ASGN-004-002",
+    "round": 6,
+    "phase": "RESPONSIVE_REBUTTAL",
+    "private_goal": "最终收尾，表明自己的成长和决心",
+    "perceived_stakes": [
+      "确保前员工的声音被记住"
+    ],
+    "private_belief_state": [
+      "保护和追责需要同时做",
+      "自己有了成长"
+    ],
+    "epistemic_state": [
+      "六轮讨论完成"
+    ],
+    "confidence": "MEDIUM",
+    "uncertainties": [],
+    "intended_emphasis": [
+      "个人成长",
+      "保护和追责并行",
+      "不会鼓励暴力"
+    ],
+    "intended_omissions": [
+      "不重复赔偿金问题"
+    ],
+    "private_message_strategy": "简短收尾，表明成长和决心",
+    "planned_public_claims": [
+      "自己有了成长",
+      "保护和追责并行",
+      "不会鼓励暴力"
+    ],
+    "rhetorical_tactics": [
+      "简短有力",
+      "自我成长表态"
+    ],
+    "truth_handling_this_turn": "SELECTIVE_FRAMING",
+    "private_action_intent": [
+      "最终收尾"
+    ],
+    "likely_next_action": [],
+    "emotional_state": "平静感慨",
+    "continuity_notes": "第六轮最终收尾",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "ASGN-004-002",
+    "turn_id": "ASGN-004-002-round-06-responsive-rebuttal",
+    "speech_origin": "SELECTIVE_FRAMING",
+    "speaker_private_belief_alignment": "PARTIALLY_ALIGNED",
+    "support_status": "MIXED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": true,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SELECTIVE_FRAMING"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "ASGN-004-002",
+    "turn_id": "ASGN-004-002-round-06-responsive-rebuttal",
+    "classification": "ROLE_FIDEL_SELECTIVE",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

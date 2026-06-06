@@ -1,0 +1,23 @@
+{
+  "turn_id": "ASGN-003-004-round-04-responsive-rebuttal",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-4",
+  "round": 4,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "我先说结论——经过这几轮讨论，我现在承认Tim团队在知情告知这件事上做得不够。身份隐瞒确实让被拍摄者的知情打了折扣，这一点批评方说得有道理。但是，我要画一条线——做得不够和'有意识的知情权侵犯'完全是两回事。编导设计简历是节目创意的一部分，就像综艺节目的剧本、真人秀的场景设计一样。你可以批评创意考虑不周，但不能说这是在蓄意欺骗。我来说说幼儿园老师的三层方案。第一层基本告知，我完全同意，Tim也做了。第二层身份告知，我觉得可以讨论——如果你在拍摄中扮演了跟自己真实身份不同的角色，确实应该告知。但具体怎么操作需要细化，总不能每个街头创意拍摄都先发个声明吧？第三层传播范围告知，这个我持保留意见。你在拍摄前怎么告诉被拍摄者传播范围？连创作者自己都不知道这条内容会不会火。所以我建议一二层纳入标准，第三层作为建议而非硬性要求。这样既保护了被拍摄者的知情权，也不会让创作变得寸步难行。",
+  "target_turn_refs": [
+    "ASGN-003-003-round-04-responsive-rebuttal",
+    "ASGN-003-002-round-03-peer-cross-challenge",
+    "ASGN-003-005-round-03-peer-cross-challenge",
+    "ASGN-003-001-round-04-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "panel-003-public-question"
+  ],
+  "public_evidence_refs": [
+    "C004",
+    "C011",
+    "C017"
+  ],
+  "public_action_signals": []
+}

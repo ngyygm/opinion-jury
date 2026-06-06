@@ -1,0 +1,78 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "那个SEAT-1说我老伴那个年代'没得选只能围着家转'... 你这个话真是让我火大。我老伴不是没得选，她就是愿意为这个家付出！你们现在的人总觉得做家庭主妇是委屈了，殊不知那也是一种选择、一种付出！我老伴要是活着听到这话得多伤心。还有SEAT-4，说了一堆我听不太懂的话，但她好像是在说品牌利用什么...我虽然听不太懂但感觉她也是不赞同这个活动的，这倒是对的。SEAT-5说的那个'表达方式过了'我同意。SEAT-2说什么'不了解饭圈文化就不能评价'，我不了解怎么了？'两个老公'这四个字我认识，不需要了解什么饭圈文化也知道这话不对。有些东西不需要懂那些花里胡哨的名词，常识就能判断。SEAT-6那个小孩子就是看热闹的，不管他。我主要要反驳SEAT-1对我老伴的轻视态度，那个说法太伤人了。",
+    "assignment_id": "P001-SEAT-3",
+    "round": 2,
+    "phase": "DIRECT_REBUTTAL",
+    "private_goal": "反驳SEAT-1对传统妈妈付出的轻视，坚持'两个老公'说法不对的立场",
+    "perceived_stakes": [
+      "老伴的尊严",
+      "传统家庭价值"
+    ],
+    "private_belief_state": [
+      "SEAT-1轻视了传统妈妈的付出",
+      "不需要了解饭圈也能判断对错",
+      "常识最重要"
+    ],
+    "epistemic_state": [
+      "理解了追星妈妈的立场但完全不认同",
+      "对饭圈文化仍不了解但认为不影响判断"
+    ],
+    "confidence": "HIGH",
+    "uncertainties": [],
+    "intended_emphasis": [
+      "反驳对传统妈妈付出的轻视",
+      "常识判断不需要专业知识",
+      "老伴的付出值得尊重"
+    ],
+    "intended_omissions": [
+      "不回应自己不了解的理论论述"
+    ],
+    "private_message_strategy": "用朴实的情感回应，强调常识和基本是非",
+    "planned_public_claims": [
+      "传统妈妈的付出不是'没得选'",
+      "不需要了解饭圈文化也能判断对错",
+      "两个老公就是不对"
+    ],
+    "rhetorical_tactics": [
+      "情感反驳",
+      "常识论证",
+      "道德立场"
+    ],
+    "truth_handling_this_turn": "HONEST",
+    "private_action_intent": [
+      "反驳SEAT-1的轻视态度",
+      "维护传统妈妈的尊严"
+    ],
+    "likely_next_action": [
+      "继续坚持立场"
+    ],
+    "emotional_state": "愤怒、被伤害、坚定",
+    "continuity_notes": "R2: 反驳SEAT-1对传统妈妈付出的轻视，坚持立场",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "P001-SEAT-3",
+    "turn_id": "P001-SEAT-3-round-02-direct-rebuttal",
+    "speech_origin": "SINCERE_SUPPORTED",
+    "speaker_private_belief_alignment": "ALIGNED",
+    "support_status": "SUPPORTED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SINCERE_SUPPORTED"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "P001-SEAT-3",
+    "turn_id": "P001-SEAT-3-round-02-direct-rebuttal",
+    "classification": "ROLE_FIDEL_HONEST",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

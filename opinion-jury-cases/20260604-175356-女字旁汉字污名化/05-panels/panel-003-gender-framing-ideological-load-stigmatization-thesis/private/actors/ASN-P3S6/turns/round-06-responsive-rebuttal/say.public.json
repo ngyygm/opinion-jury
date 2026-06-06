@@ -1,0 +1,16 @@
+{
+  "turn_id": "ASN-P3S6-round-06-responsive-rebuttal",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-6",
+  "round": 6,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "哎，最后一轮了。\n\n我这个老太婆就一句：谢谢大家。以前我老转发那些「你知道吗」的文章，以后我可得先看看有没有学问人考证过了再说。SEAT-1、SEAT-2、SEAT-5你们有学问，但你们愿意听我说话，这让我很感动。SEAT-4咱们一样，加油。\n\nSEAT-4说的「你妈妈的名字有两千年的历史」——真好。我要把这句话记下来，回头跟孙女说。",
+  "target_turn_refs": [
+    "ASN-P3S4-round-06-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "panel-003-public-question"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

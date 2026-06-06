@@ -1,0 +1,21 @@
+{
+  "turn_id": "ASGN-003-004-round-03-peer-cross-challenge",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-4",
+  "round": 3,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "我说实话，前粉丝说简历是编导设计的，这个确实让事情没那么简单。如果身份隐瞒是团队策划的结果，那确实不能说是无心之失。但我想请大家想一个问题：编导设计简历，在节目制作里是什么性质？它是节目创意的一部分。Q&A视频本来就是一个整活向的节目，粉丝抽到什么评论就做什么。编导按照创意方向准备了简历，这是正常的制作流程，不是为了欺骗而欺骗。Tim的初衷是节目效果，不是去相亲角戏耍大妈。但是我也承认，这个讨论让我意识到一个问题——我们这个行业确实缺乏一个明确的知情同意标准。你用公共场合+告知拍摄这个老标准，对头部创作者来说可能确实不够。幼儿园老师提的分层标准我觉得可以讨论。不过我想加一点：如果我们要建标准，应该是面向行业的，而不是事后拿这个标准来单独追责某一个人。Tim这次踩到了灰区，那我们就应该利用这个机会把标准立起来，而不是把他一个人钉在十字架上。",
+  "target_turn_refs": [
+    "ASGN-003-002-round-03-peer-cross-challenge",
+    "ASGN-003-003-round-03-peer-cross-challenge",
+    "ASGN-003-001-round-03-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "panel-003-public-question"
+  ],
+  "public_evidence_refs": [
+    "C004",
+    "C011"
+  ],
+  "public_action_signals": []
+}

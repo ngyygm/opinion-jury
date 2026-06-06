@@ -1,0 +1,66 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "最后一轮了，我要给自己一个体面的收尾。我承认了自己的局限性，大家对我的追问也让我意识到了自己的矛盾。但我不后悔来参加这个讨论，因为它让我重新思考了自己的工作。我以后确实需要在内容选择上更加谨慎。简短收尾吧。",
+    "assignment_id": "ASGN-004-005",
+    "round": 6,
+    "phase": "RESPONSIVE_REBUTTAL",
+    "private_goal": "最终收尾，承认收获",
+    "perceived_stakes": [],
+    "private_belief_state": [
+      "讨论有价值",
+      "自己需要反思"
+    ],
+    "epistemic_state": [
+      "讨论结束"
+    ],
+    "confidence": "MEDIUM",
+    "uncertainties": [],
+    "intended_emphasis": [
+      "承认收获",
+      "承诺改进"
+    ],
+    "intended_omissions": [
+      "不暴露MCN身份"
+    ],
+    "private_message_strategy": "简短收尾，承认讨论对自己的影响",
+    "planned_public_claims": [
+      "讨论让自己重新思考了工作",
+      "承诺改进"
+    ],
+    "rhetorical_tactics": [
+      "诚恳收尾"
+    ],
+    "truth_handling_this_turn": "SELECTIVE_FRAMING",
+    "private_action_intent": [
+      "收尾"
+    ],
+    "likely_next_action": [],
+    "emotional_state": "反思中",
+    "continuity_notes": "第六轮最终收尾",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "ASGN-004-005",
+    "turn_id": "ASGN-004-005-round-06-responsive-rebuttal",
+    "speech_origin": "SELECTIVE_FRAMING",
+    "speaker_private_belief_alignment": "PARTIALLY_ALIGNED",
+    "support_status": "MIXED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": true,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SELECTIVE_FRAMING"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "ASGN-004-005",
+    "turn_id": "ASGN-004-005-round-06-responsive-rebuttal",
+    "classification": "ROLE_FIDEL_STRATEGIC_DECEPTION",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

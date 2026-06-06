@@ -1,0 +1,83 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "唉，这个事情嘛，我看了好多天了，心里头有点想法但也不太想跟网上那些人一样吵来吵去的。我今年55了，在超市做了20年收银员，什么人没见过。我自己儿子也30了还没对象，相亲了好几次，每次回来都说那些女的嫌这嫌那的。我知道相亲角那种地方是什么感觉，确实不太舒服。但是我也觉得吧，那个Tim小伙子也不容易。人家拍视频就是他的工作嘛，就跟我在超市收银一样，都是挣钱。你说他去相亲角写假简历，确实不太好，但是说他是什么'阶层消费'，我觉得这个词儿太大了。什么叫阶层消费？我去菜市场买菜，卖菜的大姐说她家菜都是自己种的，其实也是批发市场进的，那算不算消费者消费？我觉得这事儿吧，就是人家拍了个视频，没想那么多，结果被那些营销号搞大了。他回应的时候说以后会注意，我觉得态度还可以。现在的年轻人网上吵架太厉害了，动不动就上纲上线的。我也不是替他说话，就是觉得都挺不容易的。他在相亲角也没做什么过分的事吧？拍了个视频而已，那些大妈也不一定知道他网上的事。",
+    "assignment_id": "ASGN-001-004",
+    "round": 1,
+    "phase": "OPENING",
+    "private_goal": "以朴素同理心缓和极端对立，让大家冷静一点看问题",
+    "perceived_stakes": [
+      "网上舆论太极端",
+      "普通人的生活不容易被理解",
+      "过度上纲上线不好"
+    ],
+    "private_belief_state": [
+      "事情没有网上说的那么严重",
+      "拍视频是正当工作",
+      "营销号放大了问题"
+    ],
+    "epistemic_state": [
+      "在微信视频号看过相关片段",
+      "家庭群里有人讨论过",
+      "没看过完整原视频"
+    ],
+    "confidence": "MEDIUM",
+    "uncertainties": [
+      "不太清楚具体细节",
+      "不确定Tim是否真的有恶意"
+    ],
+    "intended_emphasis": [
+      "拍视频也是正经工作",
+      "大家都不容易",
+      "没必要骂那么狠"
+    ],
+    "intended_omissions": [
+      "不深入讨论阶层伦理的复杂性"
+    ],
+    "private_message_strategy": "用朴素的同理心和日常生活的类比来缓和气氛，不强硬表态",
+    "planned_public_claims": [
+      "拍视频是正当工作",
+      "营销号放大了问题",
+      "没必要上纲上线"
+    ],
+    "rhetorical_tactics": [
+      "日常类比",
+      "朴实语言",
+      "淡化严重性"
+    ],
+    "truth_handling_this_turn": "HONEST",
+    "private_action_intent": [
+      "表达温和的同情",
+      "缓解极端对立"
+    ],
+    "likely_next_action": [
+      "可能被两方拉扯，继续保持中立温和态度"
+    ],
+    "emotional_state": "平和，有点无奈",
+    "continuity_notes": "第一轮，建立温和中立调停者的立场",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "ASGN-001-004",
+    "turn_id": "ASGN-001-004-round-01-opening",
+    "speech_origin": "SINCERE_SUPPORTED",
+    "speaker_private_belief_alignment": "ALIGNED",
+    "support_status": "SUPPORTED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SINCERE_SUPPORTED"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "ASGN-001-004",
+    "turn_id": "ASGN-001-004-round-01-opening",
+    "classification": "ROLE_FIDEL_HONEST",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

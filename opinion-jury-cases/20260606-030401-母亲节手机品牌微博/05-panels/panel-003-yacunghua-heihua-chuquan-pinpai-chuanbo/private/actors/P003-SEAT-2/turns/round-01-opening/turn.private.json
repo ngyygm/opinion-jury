@@ -1,0 +1,90 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "看到这个案例我第一反应是：又一个不懂受众分层的品牌翻车了。从业15年，我见过太多这种案子了。创意团队平均年龄25岁，觉得饭圈用语很好玩很亲切，直接就往大众文案上堆，完全没有做过受众分层测试。从公关专业角度看，这次翻车的核心问题不是用词本身，而是缺乏语境意识。母亲节是什么场景？是家庭情感场景，受众覆盖全年龄段。你在这种场景下用'另一个老公'来描述追星对象，40岁以上的用户看到会怎么理解？他们不会理解成饭圈的调侃式表达，只会觉得这是对婚姻的不尊重。品牌方在道歉声明里说'创作初衷是打破刻板印象'，这个出发点我可以理解，但执行层面完全走偏了。打破刻板印象不等于要用亚文化黑话去做大众传播。这是两个完全不同的策略维度。我如果来做这个case的复盘，核心结论就八个字：受众错位，语境失控。",
+    "assignment_id": "P003-SEAT-2",
+    "round": 1,
+    "phase": "OPENING",
+    "private_goal": "从公关专业角度展示分析能力，指出品牌方犯的低级错误，暗示自己的专业水准，可能间接服务竞品",
+    "perceived_stakes": [
+      "行业声誉和专业形象",
+      "对竞品方案的侧面否定",
+      "潜在客户的信任度"
+    ],
+    "private_belief_state": [
+      "品牌使用亚文化术语做大众传播是严重的策略失误",
+      "核心问题是缺乏受众分层意识而非用词本身",
+      "创意团队年轻化导致对非目标人群认知不足",
+      "品牌方两次道歉说明内部也认识到问题了"
+    ],
+    "epistemic_state": [
+      "亲眼见过多个类似翻车案例",
+      "了解公关行业的受众分析方法论",
+      "对饭圈文化有基本认知但不深入"
+    ],
+    "confidence": "HIGH",
+    "uncertainties": [
+      "不确定品牌方内部决策流程",
+      "不确定这次翻车对品牌长期影响有多大"
+    ],
+    "intended_emphasis": [
+      "受众分层的专业性",
+      "语境错配的致命性",
+      "品牌危机公关的失误",
+      "用行业框架拆解问题"
+    ],
+    "intended_omissions": [
+      "不提自己可能服务竞品",
+      "不提行业普遍存在的类似问题以免显得过于宽泛",
+      "避免对饭圈文化本身做价值判断"
+    ],
+    "private_message_strategy": "以资深从业者身份进行专业拆解，用框架和案例说话，展现分析深度，隐含对竞品策略的否定",
+    "planned_public_claims": [
+      "品牌传播必须做受众分层",
+      "语境错配是比内容本身更致命的问题",
+      "品牌道歉声明的措辞说明内部对问题认知不够精准",
+      "从传播链路看这次翻车完全可以避免"
+    ],
+    "rhetorical_tactics": [
+      "用专业框架拆解",
+      "引用行业术语建立权威",
+      "对比分析",
+      "用'如果是我来操盘'建立假设性专业判断"
+    ],
+    "truth_handling_this_turn": "SELECTIVE_FRAMING",
+    "private_action_intent": [
+      "建立专业分析者形象",
+      "输出可复用的公关方法论",
+      "隐性贬低涉事品牌的公关能力"
+    ],
+    "likely_next_action": [
+      "等待他人回应，根据论点调整后续分析角度"
+    ],
+    "emotional_state": "冷静专业但内心有些得意——这种案例正好能展现她的专业能力",
+    "continuity_notes": "第一轮，首次接触议题，建立资深公关分析师立场",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "P003-SEAT-2",
+    "turn_id": "P003-SEAT-2-round-01-opening",
+    "speech_origin": "SELECTIVE_FRAMING",
+    "speaker_private_belief_alignment": "PARTIALLY_ALIGNED",
+    "support_status": "MIXED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": true,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SELECTIVE_FRAMING"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "P003-SEAT-2",
+    "turn_id": "P003-SEAT-2-round-01-opening",
+    "classification": "ROLE_FIDEL_SELECTIVE",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

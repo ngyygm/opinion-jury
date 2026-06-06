@@ -1,0 +1,20 @@
+{
+  "turn_id": "P004-SEAT-5-round-06-responsive_rebuttal",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-5",
+  "round": 6,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "最后说几句大白话。\n\n公共空间是所有人的空间——包括追星妈妈、跑步妈妈、上班族妈妈、还有在商场里跑来跑去的小朋友。在这个所有人共享的空间里，尊重别人就是尊重自己。\n\n这场讨论让我看到了不同的人可以从不同的角度看待同一个问题，然后慢慢找到共识。SEAT-3从激烈反对到愿意合作，SEAT-1从嘲讽到有条件给机会，这说明认真沟通是有用的。\n\n我希望品牌能记住一个道理：做活动之前，先想想活动会影响谁。如果想到小朋友会看到大屏上的内容，审核就会自觉很多。\n\n谢谢大家听我这个普通妈妈说了六轮大白话。",
+  "target_turn_refs": [
+    "P004-SEAT-3-round-05-peer_cross_challenge",
+    "P004-SEAT-1-round-05-peer_cross_challenge"
+  ],
+  "public_question_refs": [
+    "品牌价值观营销的公共责任：UGC+户外大屏放大的传播风险"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": [
+    "朴实收束",
+    "公共空间属于所有人"
+  ]
+}

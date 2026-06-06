@@ -1,0 +1,18 @@
+{
+  "turn_id": "ASGN-003-001-round-03-peer-cross-challenge",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-1",
+  "round": 3,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "我想直接问那位做短视频运营的朋友一个问题：你说Tim没有恶意剪辑、没有丑化大妈，所以就没问题。那我问你，我去菜市场买了一斤苹果，回家发现是烂的，卖家说我没往里面下毒啊，你气不气？不做恶意处理那是底线，不是你拿来当护身符的。而且你说用真身份去会被说炫耀——你这是在偷换话题。问题不是Tim应该用什么身份去相亲角，问题是相亲角的阿姨知不知道对面这个人到底是谁。她面对的是一个'初中毕业的离异摄影师'，她的反应是基于这个信息做出的。如果她知道对面是年营收过亿的CEO的儿子，她还会说'学历太低了'吗？她不知道，所以她的'同意'就不是真正的知情同意。连那个小孩都明白的道理——签东西之前得先看明白——你们这些做运营的怎么就不懂？",
+  "target_turn_refs": [
+    "ASGN-003-004-round-02-direct-rebuttal"
+  ],
+  "public_question_refs": [
+    "panel-003-public-question"
+  ],
+  "public_evidence_refs": [
+    "C011"
+  ],
+  "public_action_signals": []
+}

@@ -1,0 +1,80 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "SEAT-1的追问确实很尖锐——'瑕疵到底是什么'？这让我有点难以回答。如果我说'两个老公'是瑕疵，那我等于在否定追星语言。如果我说不是瑕疵，那我之前承认的'执行有瑕疵'就是空话。我需要更精确地定义我的立场：问题可能不在于'两个老公'这个表达本身，而在于它出现在一个品牌广告的语境中，被脱离了追星文化的背景。SEAT-4说的三张配图都偏向网络化这个观点我觉得可以回应——三个配图只是一个广告的选择，不可能涵盖所有妈妈形象。而且这个活动还有UGC部分，邀请用户投稿，理论上各种妈妈都可以被呈现。SEAT-6居然还在说'这个讨论有价值'... 小孩子挺有意思的。我要更精确地定义'瑕疵'到底是什么，不能让SEAT-1把我的立场逼到死角。",
+    "assignment_id": "P001-SEAT-2",
+    "round": 5,
+    "phase": "PEER_CROSS_CHALLENGE",
+    "private_goal": "更精确地定义'瑕疵'，回应SEAT-1的追问和SEAT-4的批评",
+    "perceived_stakes": [
+      "保持立场的一致性",
+      "不被SEAT-1逼到死角"
+    ],
+    "private_belief_state": [
+      "瑕疵不是表达本身而是语境脱嵌",
+      "需要更精确地定义问题",
+      "品牌方向仍然值得支持"
+    ],
+    "epistemic_state": [
+      "SEAT-1的追问暴露了我之前论点的模糊",
+      "需要更精确"
+    ],
+    "confidence": "MEDIUM",
+    "uncertainties": [
+      "不确定'语境脱嵌'这个论点能否站住脚"
+    ],
+    "intended_emphasis": [
+      "瑕疵是语境脱嵌不是表达本身",
+      "品牌道歉了有诚意",
+      "UGC部分可以展现更多元"
+    ],
+    "intended_omissions": [
+      "不再笼统说'执行有瑕疵'"
+    ],
+    "private_message_strategy": "精确化论点：问题不在表达本身，而在脱离语境的商业化使用",
+    "planned_public_claims": [
+      "瑕疵是语境脱嵌",
+      "'两个老公'在追星语境下没问题",
+      "品牌商业化使用需要额外考虑"
+    ],
+    "rhetorical_tactics": [
+      "精确化论点",
+      "区分语境",
+      "回应追问"
+    ],
+    "truth_handling_this_turn": "SELECTIVE_FRAMING",
+    "private_action_intent": [
+      "精确化立场",
+      "回应SEAT-1的追问"
+    ],
+    "likely_next_action": [
+      "做最后总结"
+    ],
+    "emotional_state": "有些紧张但努力保持理性",
+    "continuity_notes": "R5: 精确定义'瑕疵'为语境脱嵌，回应SEAT-1的追问",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "P001-SEAT-2",
+    "turn_id": "P001-SEAT-2-round-05-peer-cross-challenge",
+    "speech_origin": "SELECTIVE_FRAMING",
+    "speaker_private_belief_alignment": "PARTIALLY_ALIGNED",
+    "support_status": "MIXED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": true,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SELECTIVE_FRAMING"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "P001-SEAT-2",
+    "turn_id": "P001-SEAT-2-round-05-peer-cross-challenge",
+    "classification": "ROLE_FIDEL_SELECTIVE",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

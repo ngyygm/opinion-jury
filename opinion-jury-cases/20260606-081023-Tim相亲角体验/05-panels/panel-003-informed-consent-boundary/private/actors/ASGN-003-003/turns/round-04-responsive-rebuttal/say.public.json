@@ -1,0 +1,23 @@
+{
+  "turn_id": "ASGN-003-003-round-04-responsive-rebuttal",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-3",
+  "round": 4,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "听了信息不对称的分析之后，我觉得可以把我提出的分层方案再具体化一下。既然大家都在讨论标准，那我试着说得更清楚一些。第一层是基本告知——你在公共场合拍摄，挂个牌子说'正在拍摄'，这是所有拍摄都该做的，不管你是谁、拍什么。第二层是身份告知——如果你的拍摄涉及隐瞒真实身份，你有义务告诉被拍摄者你是谁。这不影响你的创意，但被拍摄者有权知道对面站着的是什么人。第三层是传播范围告知——如果你是一个大流量账号，被拍摄者有权知道自己可能被几百万人看到。现在回头看Tim的情况——他触发了第二层和第三层的告知义务，但他只做了第一层。退休大姐说得对，他可以说不是坏人，但这件事做得不公平。我也要回应前粉丝——我认为Tim的行为不需要上纲上线到'有意识的侵犯'，但'踩到灰区'的说法确实太轻了。这不是灰区，这是一个应该告知却没有告知的明确缺失。区别在于：灰区是不知道该怎么做，而Tim的情况是他有专业团队、有制片流程，应该能想到却没有做到。",
+  "target_turn_refs": [
+    "ASGN-003-005-round-03-peer-cross-challenge",
+    "ASGN-003-002-round-03-peer-cross-challenge",
+    "ASGN-003-004-round-03-peer-cross-challenge",
+    "ASGN-003-001-round-04-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "panel-003-public-question"
+  ],
+  "public_evidence_refs": [
+    "C004",
+    "C006",
+    "C011"
+  ],
+  "public_action_signals": []
+}

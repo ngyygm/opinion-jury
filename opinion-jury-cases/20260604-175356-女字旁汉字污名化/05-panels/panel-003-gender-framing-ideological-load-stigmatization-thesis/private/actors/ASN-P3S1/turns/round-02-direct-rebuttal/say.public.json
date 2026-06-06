@@ -1,0 +1,24 @@
+{
+  "turn_id": "ASN-P3S1-round-02-direct-rebuttal",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-1",
+  "round": 2,
+  "phase": "DIRECT_REBUTTAL",
+  "speech_text": "看了一圈发言，有几个点需要回应。\n\n先说SEAT-2，我觉得你比文章作者有学术素养多了——至少你承认《说文》的误引，也提到了258个女部字需要统计。但你说的「如果贬义化比例高于其他部首，就值得研究」，这个「如果」恰恰是关键。实际情况是，女部258字中，大量字从古至今保持中性或褒义：好、妙、姝、婉、娴、婷、娇、娟、嫣、嫱、嫽……这些字哪个被污名化了？真正经历显著贬义化的，一只手数得过来。这比例是不是「高于其他部首」，我持严重怀疑态度。\n\n再说SEAT-5，你的逻辑拆解我很认同。Cherry-picking确实是这篇文章最大的方法论问题。补充一个数据点：心部字中，忿、怒、怨、恙、愁、忌、怂、恙——大量从古至今就是负面含义。人部字中，侫(佞)、伪、债、佣——也有类似情况。如果只挑某个部首的负面字例来证明「系统性的XX」，方法论上都是站不住的。\n\n关于SEAT-3的说法，我有个疑问：你说名字里有「姘」字，你爷爷取意是「姘美」——但我在各种字书里找不到「姘」有「美好」的释义。「姘」最早见于文献是「姘合」之意(非婚姻关系同居)，从来就没有「精致美好」的意思。你确定你爷爷是这么解释的？还是说你记错了？我不是质疑你的经历，只是觉得如果用来论证的例子本身就不可靠，那结论就更不可靠了。\n\nSEAT-4和SEAT-6的个人感受我理解，也尊重。但「媛」字的贬义化是一个2020年的网络事件(上海名媛群)，跟「千百年来的系统性污名化」完全不是一回事。用十年内的网络梗来论证千年维度的语言现象，时间尺度就不对。\n\n最后回应SEAT-2关于「研究方向值不值得认真研究」的问题——当然值得。但研究的起点应该是完整的统计数据和严谨的方法论，而不是6个精心挑选的例子加一句「背后隐藏着社会文化心理」的暗示。",
+  "target_turn_refs": [
+    "ASN-P3S2-round-01-opening",
+    "ASN-P3S3-round-01-opening",
+    "ASN-P3S4-round-01-opening",
+    "ASN-P3S5-round-01-opening",
+    "ASN-P3S6-round-01-opening"
+  ],
+  "public_question_refs": [
+    "panel-003-public-question"
+  ],
+  "public_evidence_refs": [
+    "claim-gate-C09-Shuowen-misquote",
+    "claim-gate-C14-overgeneralization",
+    "claim-gate-C20-yuan-stigmatized"
+  ],
+  "public_action_signals": []
+}

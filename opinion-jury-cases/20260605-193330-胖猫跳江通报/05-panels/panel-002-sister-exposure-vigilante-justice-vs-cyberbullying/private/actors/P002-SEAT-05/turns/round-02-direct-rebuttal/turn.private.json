@@ -1,0 +1,70 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "看了大家说的... 那个SEAT-02一直在吵，SEAT-01和SEAT-04在跟他辩论，我就看个热闹。说实话他们说的那些什么民法典什么条的我也看不懂，但是大概意思就是花钱雇人骂人犯法，这个我同意。SEAT-02说那么多干嘛，关键不就是花钱骂人不对嘛。我们骑手群里有人被差评了想找人刷差评报复也被平台封号了。做事不能太冲动。我还有单子要接，简单说两句吧。",
+    "assignment_id": "P002-SEAT-05",
+    "round": 2,
+    "phase": "DIRECT_REBUTTAL",
+    "private_goal": "简单说两句，表达一下朴素看法",
+    "perceived_stakes": [
+      "跟自己没关系"
+    ],
+    "private_belief_state": [
+      "SEAT-02太吵了",
+      "花钱骂人确实不对"
+    ],
+    "epistemic_state": [
+      "看了一眼大家的发言",
+      "没仔细看"
+    ],
+    "confidence": "LOW",
+    "uncertainties": [
+      "具体怎么回事还是不太清楚"
+    ],
+    "intended_emphasis": [
+      "别吵了",
+      "花钱骂人不对"
+    ],
+    "intended_omissions": [
+      "不参与具体辩论"
+    ],
+    "private_message_strategy": "简短表态，保持旁观者姿态",
+    "planned_public_claims": [
+      "别吵了",
+      "花钱骂人就是不对"
+    ],
+    "rhetorical_tactics": [
+      "简短直接",
+      "类比骑手经验"
+    ],
+    "truth_handling_this_turn": "HONEST",
+    "private_action_intent": [],
+    "likely_next_action": [],
+    "emotional_state": "无感",
+    "continuity_notes": "",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "P002-SEAT-05",
+    "turn_id": "P002-SEAT-05-round-02-direct-rebuttal",
+    "speech_origin": "SINCERE_SUPPORTED",
+    "speaker_private_belief_alignment": "ALIGNED",
+    "support_status": "SUPPORTED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SINCERE_SUPPORTED"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "P002-SEAT-05",
+    "turn_id": "P002-SEAT-05-round-02-direct-rebuttal",
+    "classification": "ROLE_FIDEL_HONEST",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

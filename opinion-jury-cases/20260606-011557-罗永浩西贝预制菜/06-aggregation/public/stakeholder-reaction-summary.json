@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "case_id": "20260606-011557-罗永浩西贝预制菜",
+    "generated_at": "2026-06-06",
+    "source": "Aggregated from 4 deliberation panels, 24 anonymous participants, 144 debate turns"
+  },
+  "case_summary": "Public dispute between Luo Yonghao and Xibei founder Jia Guolong over pre-made food (预制菜) in restaurants. Luo Yonghao criticized chain restaurants for using pre-made food while presenting it as freshly cooked. Xibei closed 102 stores. Both sides exchanged accusations of misinformation and harm.",
+  "core_consensus_across_all_panels": [
+    "Consumers have a legitimate right to know how their food is prepared",
+    "Current transparency in chain restaurants is insufficient -- open kitchens show only the final step, not central kitchen pre-processing",
+    "Mandatory labeling of pre-processed food in restaurants is the most practical solution",
+    "Frontline workers (servers, chefs) are the primary collateral damage of elite conflicts",
+    "Doxxing children and abusing service workers is categorically unacceptable regardless of the dispute's merits",
+    "Institutional solutions (labeling laws, enforcement mechanisms) are needed -- individual goodwill is insufficient"
+  ],
+  "key_proposals_with_broad_support": [
+    {
+      "proposal": "Three-tier menu labeling",
+      "description": "Label each dish as 'fresh-made' / 'partially pre-processed' / 'mainly pre-processed' with simple icons",
+      "support_basis": "National policy already calls for 'vigorous promotion of disclosure'; has international precedent; simple and actionable",
+      "suggested_implementation": "Pilot in major cities, collect feedback, optimize, then nationwide rollout"
+    },
+    {
+      "proposal": "Four-layer governance for public opinion supervision",
+      "description": "Information transparency (foundation) -> Public opinion as alarm (supplement) -> Independent fact-checking (intermediary) -> Institutional enforcement (guarantee)",
+      "support_basis": "Prevents both unchecked influencer power and institutional silence on genuine problems",
+      "suggested_implementation": "Phased implementation starting with mandatory food information disclosure"
+    },
+    {
+      "proposal": "Platform algorithmic regulation",
+      "description": "Reduce amplification of extreme content, especially content involving doxxing or real-world violence",
+      "support_basis": "Extreme content receives disproportionate algorithmic promotion, creating positive feedback loops of escalation",
+      "suggested_implementation": "Human review pre-checks for sensitive content, reduced recommendation weight for extreme material"
+    }
+  ],
+  "areas_of_disagreement": [
+    {
+      "topic": "Whether Luo Yonghao's criticism was justified in method",
+      "range": "From 'necessary alarm that exposed real problems' to 'irresponsible amplification that harmed innocent workers'",
+      "nuance": "Most participants acknowledged both: the problems exposed were real, but the methods caused disproportionate collateral damage"
+    },
+    {
+      "topic": "Whether pre-made food is inherently problematic",
+      "range": "From 'deceptive when undisclosed' to 'convenient and quality-acceptable'",
+      "nuance": "No participant argued pre-made food should be banned; disagreement was about transparency and fair pricing"
+    }
+  ],
+  "moral_red_lines_no_participant_crossed": [
+    "Doxxing minors is never acceptable",
+    "Physical abuse of service workers is never acceptable",
+    "Consumers deserve to know what they are paying for",
+    "Frontline workers should not bear punishment for management decisions"
+  ],
+  "participant_demographics_represented": {
+    "age_range": "14-68",
+    "education_range": "Primary school to undergraduate",
+    "occupation_range": "Construction worker, delivery rider, chef, supermarket cashier, full-time mother, restaurant server, office worker, MCN operator, food blogger, college student, retired factory worker, rural farmer, middle school student",
+    "geographic_range": "Rural village to tier-1 city",
+    "stakeholder_positions": "Brand loyalist, hostile former employee, professional critic, industry insider, indifferent bystander, analytical skeptic"
+  },
+  "what_changed_minds": [
+    "Citation of specific policy text: When the six-ministry notice's disclosure requirement was quoted verbatim, even brand defenders conceded selective compliance was the real problem",
+    "Firsthand testimony: Former employee accounts of workplace abuse shifted abstract policy debates into concrete human impact",
+    "Interest distribution analysis: When a chef pointed out that cost savings from central kitchens were kept by companies while prices stayed the same, consumer anger was reframed from 'feeling deceived' to 'being overcharged'",
+    "Cross-demographic moral consensus: When a rural grandmother, a 14-year-old girl, and an MCN operator all agreed that harming children is unacceptable, it demonstrated that moral red lines transcend all other divisions"
+  ]
+}

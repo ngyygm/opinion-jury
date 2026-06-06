@@ -1,0 +1,20 @@
+{
+  "turn_id": "P004-SEAT-03-round-06-responsive-rebuttal",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-03",
+  "round": 6,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "最后一轮了，我老婆子说几句掏心窝子的话。\n\n这个讨论六轮下来，我很多话听不太懂，什么法律条文啊信息生态啊性别框架啊。但我看到了一件事：这些年轻人，从吵架到慢慢讲道理，从各说各的到最后有了共识。这在我们村里叫磨刀不误砍柴工——吵归吵，最后大家还是讲道理的。\n\nSEAT-02，你这个孩子以后有出息。你学会了看事实、想问题，比很多大人强。回去好好读书，别辜负了你妈妈。你妈妈一个人带你不容易，你要争气。\n\nSEAT-06，你这个后生...我老婆子不恨你。你最后承认了方式有问题，这就是进步。但是你以后说话要注意，别总是带刺。好人说好话做好事，比在网上吵架有用多了。\n\nSEAT-04，你以后当律师也好当法官也好，记住一点：法律是讲道理的，但法律背后是人。你这两样都有，难得。\n\nSEAT-01，你是个好爸爸。你儿子有你这样的爸爸，福气。\n\nSEAT-05，你说话还是比我想要的多绕几个弯，但你最后说的媒体责任我听懂了，有道理。\n\n最后，我还是想说说胖猫这孩子。他才21岁，跟我孙子差不多大。他走了，他爸妈心里那个痛，我这辈子能体会。我老伴走的时候，我哭了整整一个月。\n\n人活着就有希望。这句话我说了六轮了，再说最后一遍：有什么事，跟家里人说。说不出口，找个朋友说。实在不行，打个热线电话也行。别一个人扛。\n\n活着比什么都重要。活着，才有以后。",
+  "target_turn_refs": [
+    "P004-SEAT-02-round-05-peer-cross-challenge",
+    "P004-SEAT-06-round-05-peer-cross-challenge",
+    "P004-SEAT-04-round-05-peer-cross-challenge",
+    "P004-SEAT-01-round-05-peer-cross-challenge",
+    "P004-SEAT-05-round-05-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "从个案到性别战争——胖猫事件如何被裹挟进网络性别对立的漩涡"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

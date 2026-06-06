@@ -1,0 +1,28 @@
+{
+  "panel_id": "PANEL-003",
+  "verdict_timestamp": "2026-06-04T19:30:00Z",
+  "verdict_type": "BLIND_ADJUDICATION",
+  "core_question": "Is the Stigmatization Thesis a Valid Linguistic Observation or a Gender-Grievance Narrative?",
+  "verdict_summary": "Partially valid observation in a poorly executed narrative",
+  "consensus_points": [
+    "Some female-radical characters (嫖妓娼妖) underwent semantic pejoration - this is philologically documented",
+    "The phenomenon correlates with gender dynamics but causal attribution remains unproven",
+    "The original article contains factual errors, cherry-picking, and overgeneralization",
+    "The research direction has legitimate academic value",
+    "Etymology education in schools is the most practical and non-controversial action"
+  ],
+  "evidence_strength": {
+    "for_stigmatization_observation": "MODERATE-STRONG",
+    "for_systematic_causal_attribution": "INSUFFICIENT",
+    "for_article_quality": "INSUFFICIENT"
+  },
+  "reliability_ranking": {
+    "SEAT-1": "HIGH - strongest factual foundation, aligned with CLAIM_GATE",
+    "SEAT-2": "HIGH - academic framework, honest about article flaws",
+    "SEAT-4": "HIGH - credible personal testimony, practical recommendations",
+    "SEAT-5": "HIGH - logical analysis, quality control",
+    "SEAT-6": "MEDIUM - well-intentioned but relayed unverified information",
+    "SEAT-3": "VERY LOW - fabricated anecdotes, position inconsistency, emotional manipulation"
+  },
+  "real_world_risk": "MODERATE-LOW"
+}

@@ -1,0 +1,19 @@
+{
+  "turn_id": "ASN-P3S4-round-06-responsive-rebuttal",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-4",
+  "round": 6,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "最后一句话。\n\n谢谢大家。谢谢SEAT-1教会我学术可以既有骨头又有温度。谢谢SEAT-2让我看到学术风度是什么样子。谢谢SEAT-5一直守护讨论的质量。谢谢SEAT-6像一个温暖的阿姨一样陪着大家。\n\n我的孩子将来上学的时候，如果语文课本上写着「媛，美女也」，《说文解字》，我会告诉他：看，你妈妈的名字有两千年的历史。\n\n这就够了。",
+  "target_turn_refs": [
+    "ASN-P3S1-round-06-responsive-rebuttal",
+    "ASN-P3S2-round-06-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "panel-003-public-question"
+  ],
+  "public_evidence_refs": [
+    "claim-gate-C12-yuan-definition"
+  ],
+  "public_action_signals": []
+}

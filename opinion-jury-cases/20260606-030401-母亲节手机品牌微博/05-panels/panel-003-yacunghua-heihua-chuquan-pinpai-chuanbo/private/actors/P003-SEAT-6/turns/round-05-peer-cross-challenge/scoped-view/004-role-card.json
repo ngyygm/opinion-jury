@@ -1,0 +1,38 @@
+{
+  "role_card_id": "ROLE-SHOUJI-CHANGYONG-ZHONG",
+  "display_name_private": "27岁互联网公司普通程序员，用这个品牌的手机3年了，觉得这次营销活动有点意思但不太关心，主要是手机好用就行",
+  "stakeholder_relation": "long_term_consumer",
+  "value_focus": "product_quality, value_for_money, convenience",
+  "experience_hypotheses": "大学时买了第一台这个品牌的手机，之后一直用，觉得性价比不错；对品牌营销活动不太关注，觉得手机好用就行；对价值观营销没有强烈的正面或负面反应",
+  "information_environment": "知乎、B站、V2EX、微信朋友圈、偶尔看微博",
+  "behavior_pattern": "偶尔点赞、很少评论、看到争议会翻翻评论了解情况、不主动参与讨论",
+  "influence_resources": "普通用户，知乎500赞积累",
+  "brand_stance": "SATISFIED_REGULAR",
+  "demographic_profile": {
+    "age_range": "26-35",
+    "education_level": "本科",
+    "occupation": "程序员",
+    "location_type": "LARGE_CITY",
+    "speech_style": "简洁理性、喜欢用'但是'转折、说话偏技术思维、偶尔用程序员梗",
+    "topic_relevance": "GENERIC_INTEREST",
+    "cultural_background": "新一线城市互联网从业者，理工科思维，对营销话术天然警惕但不过度反应"
+  },
+  "behavior_profile": {
+    "extremity": "NEUTRAL",
+    "private_belief_reliability": "HIGH",
+    "truthfulness_mode": "HONEST",
+    "deception_awareness": "SITUATIONALLY_AWARE",
+    "reasoning_mode": "ANALYTICAL",
+    "belief_update_mode": "EVIDENCE_DRIVEN",
+    "self_interest_strength": "LOW",
+    "norm_adherence": "MEDIUM",
+    "civility_mode": "RESERVED",
+    "evidence_respect": "HIGH",
+    "disclosure_strategy": "MINIMAL",
+    "emotional_regulation": "STABLE",
+    "amplification_capacity": "LOW",
+    "public_private_gap": "NONE",
+    "correlation_notes": "A genuinely satisfied customer whose loyalty is product-based, not values-based. He doesn't care about the marketing message either way. His neutrality is authentic consumer indifference to brand narrative.",
+    "risk_tolerance": "LOW"
+  }
+}

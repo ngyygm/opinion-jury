@@ -1,0 +1,18 @@
+{
+  "turn_id": "P002-SEAT-6-round-02-direct-rebuttal",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-6",
+  "round": 2,
+  "phase": "DIRECT_REBUTTAL",
+  "speech_text": "我想从更深一层来分析这个问题。看了各方的反应，我觉得这个案例揭示的不只是文案问题，而是'母亲'在中国文化中的深层符号意义。母亲在中国社会不只是一个个体角色，而是一个被赋予了神圣意义的文化符号——代表着牺牲、奉献和无私的爱。当品牌用'打破模板'来描述传统母亲形象时，触动的不是某个人的感受，而是整个社会的集体情感记忆。SEAT-1和SEAT-4的反应就是这种集体情感记忆的直接体现。更有意思的是SEAT-5的处境——品牌本想赋权像她这样的追星妈妈，但它的对立框架让SEAT-5陷入了必须为'不是在否定传统母亲'而辩护的困境。这就是二元对立营销的必然结果：它制造了赢家和输家，但最终所有参与者的处境都变差了。从传播效果看，武汉大学公开'极不认同'、中国妇女报批评'把冒犯当创意'——这些权威信源的负面定性，在传播学意义上几乎是不可逆的舆论伤害。品牌道歉了两次都无法平息争议，这本身就说明议题设置的失误有多严重。",
+  "target_turn_refs": [
+    "P002-SEAT-1-round-01-opening",
+    "P002-SEAT-4-round-01-opening",
+    "P002-SEAT-5-round-01-opening"
+  ],
+  "public_question_refs": [
+    "panel-002-public-question"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

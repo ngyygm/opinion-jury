@@ -1,0 +1,17 @@
+{
+  "turn_id": "ASN-P2S6-round-06-responsive-rebuttal",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-6",
+  "round": 6,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "最后一轮了，我说几句。这次讨论我觉得挺好的，虽然一开始那个说话冲的后生仔让我不太高兴，但是说到底他也让我注意到了一些以前没注意到的事情。原来那些骂人的字还真是女字旁的多，这个以前没仔细想过。退休女工说的两个问题分开看说得太好了，比我说的清楚多了。我虽然不识几个字，但是一个道理我记了一辈子：看啥都不能只看一面，好的一面要看，不好的一面也要看，这样才公道。那篇文章只看了不好的一面，那个说话冲的又只看了不好的一面，我们这些老家伙虽然不识几个字，但是看问题比他们全面。好了，该回去给孙子做饭了，今天给他做个红烧排骨。",
+  "target_turn_refs": [
+    "ASN-P2S1-round-05-peer-cross-challenge",
+    "ASN-P2S2-round-05-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "cherry-picking-overgeneralization-pattern"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

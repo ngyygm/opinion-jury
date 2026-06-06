@@ -1,0 +1,20 @@
+{
+  "turn_id": "ASN-P2S1-round-03-peer-cross-challenge",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-1",
+  "round": 3,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "我问几个问题啊，大家想想：那个老太太说好字比坏字多，这个我承认。但是你有没有想过，为什么偏偏那几个跟女人有关的贬义词——妒、妨、婪、奸、嫖、妓——用的都是女字旁？男字旁的贬义词你能举出几个？这不就是系统性问题吗？数量多不多不是关键，方向性才是关键。还有那个骑手，你说你不关心文章但你关心老婆，那我再问你：如果是你女儿被人用这些字骂，你还觉得无所谓吗？你还会说这是城里人闲的吗？退休大姐说得对，她在纺织厂的亲身经历就是活生生的例子，你们一个个说中立说理性，但是面对真实的性别不公你们选择视而不见，这不就是最大的cherry-picking吗？只看对自己方便的证据，不看不舒服的真相。",
+  "target_turn_refs": [
+    "ASN-P2S3-round-02-direct-rebuttal",
+    "ASN-P2S6-round-02-direct-rebuttal",
+    "ASN-P2S2-round-02-direct-rebuttal"
+  ],
+  "public_question_refs": [
+    "cherry-picking-overgeneralization-pattern"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": [
+    "CHALLENGE_FRAMING"
+  ]
+}

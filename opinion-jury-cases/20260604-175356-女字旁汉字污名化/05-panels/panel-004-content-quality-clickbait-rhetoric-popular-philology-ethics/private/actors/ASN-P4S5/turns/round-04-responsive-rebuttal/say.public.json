@@ -1,0 +1,15 @@
+{
+  "turn_id": "ASN-P4S5-round-04-responsive-rebuttal",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-5",
+  "round": 4,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "SEAT-1说行业通病，我就问一句：别人犯错就是你犯错的理由吗？我们村里有个人偷了鸡，被抓了说'别人也偷了'，村长说'别人偷了你就可以偷？'一个道理。SEAT-3说的底线我倒觉得好——不能无中生有。这不就是做人的基本道理吗？说话要凭良心，你不确定的事可以说'据说'、'有人说'，但不能把不确定的事说成板上钉钉的事实。连我这个不识字的老太婆都明白的道理，做内容的大人反而不懂？还是说懂了装不懂？",
+  "target_turn_refs": [
+    "ASN-P4S1-round-04-responsive-rebuttal",
+    "ASN-P4S3-round-04-responsive-rebuttal"
+  ],
+  "public_question_refs": [],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

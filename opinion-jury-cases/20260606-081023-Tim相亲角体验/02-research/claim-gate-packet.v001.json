@@ -1,0 +1,471 @@
+{
+  "version": 1,
+  "stage": "CLAIM_GATE",
+  "input_ref": "01-parse/content-parse.v001.json",
+  "claim_verifications": [
+    {
+      "claim_id": "C001",
+      "text": "Tim在相亲角简历上填写「国内初中学历」，实际为英国肯特大学电影系本科",
+      "classification": "VERIFIED",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "source": "百度百科-潘天鸿",
+          "url": "https://bkso.baidu.com/item/%E6%BD%98%E5%A4%A9%E9%B8%BF/59401766",
+          "detail": "百度百科明确记载：潘天鸿(Tim)，1996年出生于浙江省杭州市，毕业于英国肯特大学电影系。同时多家媒体报道相亲角简历上写的是「国内初中学历」。"
+        },
+        {
+          "source": "多家微博用户及媒体报道",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_32369e8189371652",
+          "detail": "腾讯新闻报道确认：「Tim拿着一份简历，上面写着自己是国内初中学历」，同时确认其实际学历为英国肯特大学电影系。"
+        },
+        {
+          "source": "网易-CEO来信",
+          "url": "https://www.163.com/dy/article/JFS7OA9G0511D0QS.html",
+          "detail": "详细传记文章确认Tim毕业于英国肯特大学电影系。"
+        }
+      ],
+      "notes": "两个子事实均已独立确认：(1)简历填写国内初中学历——由多个目击者截图和媒体报道确认；(2)实际学历为英国肯特大学电影系——由百度百科、网易、头条等多源确认。"
+    },
+    {
+      "claim_id": "C002",
+      "text": "Tim职业写「摄影师、视频制作相关」，未提及公司CEO身份",
+      "classification": "VERIFIED",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "source": "腾讯新闻-圆通总裁之子在相亲角假装普通人",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_32369e8189371652",
+          "detail": "报道确认简历职业写「摄影师、视频制作相关」，未提及CEO身份。Tim实际为杭州星奥传媒有限公司法定代表人、经理。"
+        },
+        {
+          "source": "百度百科-潘天鸿",
+          "url": "https://bkso.baidu.com/item/%E6%BD%98%E5%A4%A9%E9%B8%BF/59401766",
+          "detail": "确认Tim为杭州星奥传媒有限公司法定代表人、经理，即公司CEO。"
+        }
+      ],
+      "notes": "简历职业描述本身是事实性陈述（确实写了这些字），且确认了其CEO身份未在简历中体现。"
+    },
+    {
+      "claim_id": "C003",
+      "text": "Tim父亲职业写「快递相关」，实际为圆通速递总裁潘水苗",
+      "classification": "VERIFIED",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "source": "微博多个用户截图及媒体报道",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_32369e8189371652",
+          "detail": "简历上写「父亲职业快递相关」，实际潘水苗为圆通速递总裁（职业经理人，2019年加入）。"
+        },
+        {
+          "source": "快看漫画问答-影视飓风tim是圆通总裁的儿子吗",
+          "url": "https://www.kuaikanmanhua.com/qa1/45594",
+          "detail": "确认潘水苗是圆通速递总裁，2019年加入，为职业经理人而非创始人。Tim在2022年视频中让父亲出镜亲自澄清此事。"
+        },
+        {
+          "source": "新浪科技",
+          "url": "https://finance.sina.com.cn/tech/roll/2024-11-10/doc-incvqfeh9795197.shtml",
+          "detail": "新浪科技报道确认Tim父亲潘水苗为圆通速递总裁。"
+        }
+      ],
+      "notes": "三重独立来源确认。注意：潘水苗是总裁（职业经理人），不是圆通创始人，这一点Tim本人在2022年视频中已澄清。"
+    },
+    {
+      "claim_id": "C004",
+      "text": "相亲片段仅占整个Q&A视频约5%篇幅，最终剪辑约50秒",
+      "classification": "VERIFIED",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "source": "腾讯新闻-Tim回应相亲角视频争议",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_4786917d6a219452",
+          "detail": "Tim本人回应中明确说：「相亲片段只占了粉丝问答节目5%左右的篇幅。团队总共拍了大概20分钟，最终整个片段大概是50秒。」"
+        },
+        {
+          "source": "企鹅号-影视飓风Tim正式回应争议",
+          "url": "https://new.qq.com/rain/a/20251115A01VHD00",
+          "detail": "报道确认Tim原话：相亲部分占整个节目5%左右，最终剪辑约50秒。"
+        }
+      ],
+      "notes": "此数据来自Tim本人的公开回应视频。由于无法独立回溯原始视频确认精确秒数，但多个新闻报道一致引用该数据，可信度较高。"
+    },
+    {
+      "claim_id": "C005",
+      "text": "营销号将片段单独截取并脱离语境传播，歪曲了原始内容意图",
+      "classification": "VERIFIED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        {
+          "source": "腾讯新闻-影视飓风Tim正式回应争议",
+          "url": "https://new.qq.com/rain/a/20251115A01VHD00",
+          "detail": "Tim描述了切片行为：「有些切片号把这段单独拿出了节目，发到了各个平台。有些切片后，他们会意识到平台判定内容会撞车，所以就开始更改内容的顺序，比如说阿姨被放到了前面，比如别的节目的素材被拿到了一起剪到了一个视频里面。」"
+        },
+        {
+          "source": "扬子晚报报道",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_1786919797862052",
+          "detail": "扬子晚报确认：节目发出后，切片号将片段单独截取并在各平台传播。"
+        }
+      ],
+      "notes": "「营销号截取并脱离语境传播」这一事实层面已确认。但「歪曲了原始内容意图」涉及主观判断——切片确实改变了内容呈现方式，但原始内容的「意图」本身也存在争议。此处分类为VERIFIED是因为截取和脱离语境传播的行为是事实。"
+    },
+    {
+      "claim_id": "C006",
+      "text": "拍摄时已做场地申请，并明确告知区域内正在拍摄",
+      "classification": "UNVERIFIED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        {
+          "source": "腾讯新闻-影视飓风Tim深夜回应",
+          "url": "https://new.qq.com/rain/a/20251115A03CVG00",
+          "detail": "Tim在回应视频中称：「节目制作时，制片做了场地申请，在拍摄的时候明确告知这片区域在拍摄。」"
+        },
+        {
+          "source": "微博用户拎枪女神的观察",
+          "url": "https://weibo.com/p/1005055687361169/home?from=page_100505&mod=TAB",
+          "detail": "有微博用户提到：拍摄取得了保安的同意，做了场地申请。但该用户也指出回复他的妇女身上有工牌，是场地工作人员而非普通市民。"
+        }
+      ],
+      "notes": "此说法仅来自Tim本人单方面回应，无第三方独立证据确认。「告知在拍摄」不等于「告知拍摄目的和身份隐瞒」，知情同意的范围存在争议。分类为UNVERIFIED。"
+    },
+    {
+      "claim_id": "C007",
+      "text": "Tim公司年营收超亿元",
+      "classification": "VERIFIED",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "source": "今日头条-影视飓风今年营收过亿利润过千万",
+          "url": "https://www.toutiao.com/article/7429243225812320783/",
+          "detail": "Tim在新华社《扬声》栏目采访中公开表示：「利润可能才将将千万这个级别，营收可能现在能够到亿这个级别。」时间线：2024年10月。"
+        },
+        {
+          "source": "微博-猎无止境转发新华网财经",
+          "url": "https://weibo.com/1626407347/ODmmk6CwT?from=page_1005051626407347_profile&wvr=6&mod=weibotime",
+          "detail": "微博转发确认：影视飓风今年营收过亿利润过千万。"
+        },
+        {
+          "source": "数英-影视飓风从顶流UP主到年入过亿的内容公司",
+          "url": "https://www.digitaling.com/articles/1347429.html",
+          "detail": "数英报道确认：创始人Tim透露，影视飓风一年营收过亿，盈利过千万。"
+        },
+        {
+          "source": "抖音视频-影视飓风创始人透露营收最大业务",
+          "url": "https://www.douyin.com/video/7559151913585937706",
+          "detail": "2025年抖音视频提到：公司整体营收已上亿。"
+        }
+      ],
+      "notes": "Tim本人在新华社《扬声》栏目公开披露，后续多家媒体引用。2024年营收过亿，2025年电商进一步增长。数据高度可信。"
+    },
+    {
+      "claim_id": "C008",
+      "text": "影视飓风全网粉丝超千万，B站1400万粉丝",
+      "classification": "CONTRADICTED",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "source": "哔哩哔哩-影视飓风个人空间",
+          "url": "https://space.bilibili.com/946974/",
+          "detail": "截至2026年5月28日，B站粉丝数显示为1630.4万。因此「1400万」是过时数据。"
+        },
+        {
+          "source": "百度百科-影视飓风",
+          "url": "https://baike.baidu.com/item/%E5%BD%B1%E8%A7%86%E9%A3%93%E9%A3%8E/55735453",
+          "detail": "截至2025年1月11日，B站粉丝达1059.2万。到2025年底超过1400万（2025年百大UP主报道中提到粉丝数超1400万）。"
+        },
+        {
+          "source": "腾讯新闻-B站公布2025百大UP主",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_877696d9b5b62952",
+          "detail": "2025年百大报道中提到影视飓风粉丝数超1400万。"
+        },
+        {
+          "source": "头条-影视飓风凭啥在B站赚了一个亿",
+          "url": "https://www.toutiao.com/article/7500133629729751567/",
+          "detail": "2025年5月报道中提到粉丝关注量突破1100万+。"
+        }
+      ],
+      "notes": "「B站1400万粉丝」是一个曾经过准确但现已过时的数字。截至2026年5月28日，B站实际粉丝数为1630.4万。1400万大约是2025年11月相亲角视频发布时的数据（该Q&A视频即为「1400万粉丝Q&A」）。「全网粉丝超千万」是正确的。分类为CONTRADICTED是因为当前数据与声称数据不一致，但并非完全错误——它是一个历史快照。"
+    },
+    {
+      "claim_id": "C009",
+      "text": "潘水苗在圆通速递年薪180.4万元",
+      "classification": "VERIFIED",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "source": "网易-圆通速递总经理潘水苗年度薪酬180.4万",
+          "url": "https://www.163.com/dy/article/HE34QLED0511BBQE.html",
+          "detail": "据东方财富网数据显示，潘水苗在圆通的薪酬为180.4万元（约2021-2022年数据）。"
+        },
+        {
+          "source": "新浪财经-圆通速递2021年净利21.03亿",
+          "url": "https://finance.sina.com.cn/stock/relnews/cn/2022-04-27/doc-imcwiwst4283598.shtml",
+          "detail": "圆通速递2021年年报：总裁潘水苗从公司获得的税前报酬总额180.37万元。"
+        },
+        {
+          "source": "微博-快科技",
+          "url": "https://weibo.com/1659643027/MgfJYib4i?from=page_1006061659643027_profile&wvr=6&mod=weibotime",
+          "detail": "快科技微博引用企查查数据：潘水苗在圆通速递的年薪是180.4万元。"
+        }
+      ],
+      "notes": "180.4万对应的是2021年的年报数据（180.37万元四舍五入）。此后年薪有变化：2022年约125.4万（新浪财经2023年报道），2023年125.41万，2024年185.61万，2025年471.64万。因此「年薪180.4万」是一个特定年份的数据（约2021年），在传播时未标注年份可能造成误导，但数据本身来源可靠。"
+    },
+    {
+      "claim_id": "C010",
+      "text": "Tim的行为构成「富人扮穷人戏耍穷人」，是对普通人的阶层消费",
+      "classification": "OPINION_PRESENTED_AS_FACT",
+      "confidence": "HIGH",
+      "evidence": [],
+      "notes": "这是一个主观道德判断，不属于可独立验证的事实性陈述。是否存在「戏耍」意图、是否构成「阶层消费」取决于观察者的立场和解读框架。支持此观点的人会强调信息不对称和权力不对等；反对者会指出Tim确实有离异和被拒绝的真实经历。分类为OPINION_PRESENTED_AS_FACT。"
+    },
+    {
+      "claim_id": "C011",
+      "text": "简历信息「没有一句真话也没有一句假话」——有事实依据但经过刻意筛选和弱化",
+      "classification": "OPINION_PRESENTED_AS_FACT",
+      "confidence": "HIGH",
+      "evidence": [],
+      "notes": "这是一个对信息策略的评价性总结。虽然简历中的每一条信息（初中学历指国内学历、快递相关指父亲行业、摄影师指职业方向）可以单独论证为「有事实依据」，但将其评价为「刻意筛选和弱化」属于主观判断。分类为OPINION_PRESENTED_AS_FACT。"
+    },
+    {
+      "claim_id": "C012",
+      "text": "Tim的回应中将争议归因于营销号切片，回避了自身行为的问题",
+      "classification": "OPINION_PRESENTED_AS_FACT",
+      "confidence": "MEDIUM",
+      "evidence": [
+        {
+          "source": "腾讯新闻-影视飓风Tim深夜回应",
+          "url": "https://new.qq.com/rain/a/20251115A03CVG00",
+          "detail": "Tim回应中确实重点强调了营销号切片的歪曲行为，但也表示「以后的确视频应该增加更多的注释去明白拍摄的环境，也规避这种有争议的议题」。因此「回避」的评价并不完全准确。"
+        }
+      ],
+      "notes": "Tim的回应中确实将主要责任归于营销号切片，但并非完全没有承认问题（表示以后会规避此类议题、增加注释）。是否构成「回避」是解读问题。分类为OPINION_PRESENTED_AS_FACT。"
+    },
+    {
+      "claim_id": "C013",
+      "text": "知情同意存在缺陷——告知拍摄不等于告知真实意图和身份隐瞒",
+      "classification": "OPINION_PRESENTED_AS_FACT",
+      "confidence": "MEDIUM",
+      "evidence": [],
+      "notes": "这是一个伦理学分析框架下的评价。Tim声称「明确告知这片区域在拍摄」，但拍摄对象的知情同意范围确实无法通过公开信息验证。此判断本身是合理的社会学分析，但属于规范性判断而非可验证的事实。分类为OPINION_PRESENTED_AS_FACT。"
+    },
+    {
+      "claim_id": "C014",
+      "text": "垂直领域数码博主涉足泛娱乐社会议题内容翻车概率高",
+      "classification": "OPINION_PRESENTED_AS_FACT",
+      "confidence": "HIGH",
+      "evidence": [],
+      "notes": "这是一个行业规律性的总结，属于经验性观点。虽然可以找到类似案例（如何同学等数码博主涉足非专业领域时引发争议），但缺乏系统性的统计研究支持此论断。分类为OPINION_PRESENTED_AS_FACT。"
+    },
+    {
+      "claim_id": "C015",
+      "text": "无论Tim如何选择（用真实/隐藏条件/不回应）都会被批评，是「死局」",
+      "classification": "OPINION_PRESENTED_AS_FACT",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "source": "微博用户评论",
+          "url": "https://weibo.com/p/1005055246141877/home?from=page_100505_profile&wvr=6&mod=data",
+          "detail": "微博用户提出了类似的三难困境分析：用真实条件被批炫耀，隐藏条件被批装穷，不回应被批不尊重粉丝。"
+        }
+      ],
+      "notes": "这是一种反事实推理，属于逻辑推演而非可验证的事实。「死局」的判断虽有一定合理性（可从舆论反应中找到支持证据），但本质上是对假设情况的预测性评价。分类为OPINION_PRESENTED_AS_FACT。"
+    },
+    {
+      "claim_id": "C016",
+      "text": "Tim已婚离异信息是真实的，并未隐瞒",
+      "classification": "VERIFIED",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "source": "网易-影视飓风Tim宣布离婚",
+          "url": "https://www.163.com/dy/article/JG7AR8530519U3I5.html",
+          "detail": "2024年11月5日，Tim通过社交媒体宣布与妻子小鱼离婚。多家媒体报道确认离婚事实。"
+        },
+        {
+          "source": "腾讯新闻-圆通总裁之子在相亲角假装普通人",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_32369e8189371652",
+          "detail": "报道确认简历上写的是「离异单身」，这是真实信息。Tim确实已于2024年11月宣布离婚。"
+        }
+      ],
+      "notes": "Tim确实离异，简历上写「离异」是真实信息。相亲角视频发布于2025年11月，在离婚之后。双源确认。"
+    },
+    {
+      "claim_id": "C017",
+      "text": "Tim在相亲角无任何不尊重或不当行为",
+      "classification": "UNVERIFIED",
+      "confidence": "LOW",
+      "evidence": [
+        {
+          "source": "腾讯新闻-影视飓风Tim回应相亲角视频争议",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_4786917d6a219452",
+          "detail": "Tim自述：「当时没有任何不尊重或者不好的态度。」"
+        },
+        {
+          "source": "企鹅号-影视飓风Tim正式回应争议",
+          "url": "https://new.qq.com/rain/a/20251115A01VHD00",
+          "detail": "Tim表示在视频里基本上没有说过话，当时没有任何不尊重或者不好的态度。"
+        }
+      ],
+      "notes": "此说法来自Tim本人单方面回应。虽然从现有的50秒剪辑来看确实未发现明显不尊重行为，但：(1)完整20分钟素材无法获取审查；(2)「不尊重」的判断标准因人而异；(3)无法独立验证。分类为UNVERIFIED。"
+    },
+    {
+      "claim_id": "C018",
+      "text": "「我的实力已经全部都在这里了」这句话带有优越感和嘲讽意味",
+      "classification": "OPINION_PRESENTED_AS_FACT",
+      "confidence": "HIGH",
+      "evidence": [],
+      "notes": "对特定语句的情感色彩和意图的解读属于纯主观判断。同一句话可以被解读为自嘲（用弱化后的简历自我调侃），也可以被解读为反讽或优越感展示。无法通过外部证据验证。分类为OPINION_PRESENTED_AS_FACT。"
+    },
+    {
+      "claim_id": "C019",
+      "text": "影视飓风是B站连续六年百大UP主",
+      "classification": "VERIFIED",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "source": "百度百科-影视飓风",
+          "url": "https://baike.baidu.com/item/%E5%BD%B1%E8%A7%86%E9%A3%93%E9%A3%8E/55735453",
+          "detail": "百度百科明确记载：影视飓风于2019、2020、2021、2022、2023、2024六年入选哔哩哔哩年度百大UP主。"
+        },
+        {
+          "source": "数英-影视飓风从顶流UP主到年入过亿",
+          "url": "https://www.digitaling.com/articles/1347429.html",
+          "detail": "数英报道确认：影视飓风连续六年获得B站百大UP主。"
+        },
+        {
+          "source": "腾讯新闻-B站公布2025百大UP主",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_877696d9b5b62952",
+          "detail": "2025年百大UP主名单中影视飓风也上榜，意味着实际已连续七年（2019-2025），但「连续六年」的说法在2024年是准确的。"
+        }
+      ],
+      "notes": "2019-2024连续六年入选百大UP主，三重独立来源确认。2025年也继续上榜（实际已七年），因此「连续六年」是保守陈述。"
+    },
+    {
+      "claim_id": "C020",
+      "text": "Tim为共青团第十九次全国代表大会代表、杭州市余杭区政协委员",
+      "classification": "VERIFIED",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "source": "百度百科-潘天鸿",
+          "url": "https://bkso.baidu.com/item/%E6%BD%98%E5%A4%A9%E9%B8%BF/59401766",
+          "detail": "百度百科明确记载：潘天鸿为中国共产主义青年团第十九次全国代表大会代表，第十二届杭州市余杭区政协委员。标注有引用来源[19]和[23][47]。"
+        },
+        {
+          "source": "共青团第十九次全国代表大会官方代表名单",
+          "url": "https://news.iqilu.com/yangmei/20230616/5450668.shtml",
+          "detail": "2023年6月16日公布的团十九大代表名单（1535名代表），潘天鸿在名单中。"
+        }
+      ],
+      "notes": "双重来源确认。百度百科引用了团十九大代表名单和余杭区政协相关公告。团十九大于2023年6月19-22日在北京召开。"
+    }
+  ],
+  "summary_statistics": {
+    "total_claims": 20,
+    "VERIFIED": 10,
+    "UNVERIFIED": 2,
+    "CONTRADICTED": 1,
+    "CATEGORY_MISMATCH": 0,
+    "OPINION_PRESENTED_AS_FACT": 7,
+    "NOT_APPLICABLE": 0
+  },
+  "evidence_sources": [
+    {
+      "name": "百度百科-潘天鸿",
+      "url": "https://bkso.baidu.com/item/%E6%BD%98%E5%A4%A9%E9%B8%BF/59401766",
+      "type": "encyclopedia",
+      "reliability": "HIGH",
+      "notes": "本人词条，有引用来源标注，包含教育背景、政治身份、公司信息"
+    },
+    {
+      "name": "百度百科-影视飓风",
+      "url": "https://baike.baidu.com/item/%E5%BD%B1%E8%A7%86%E9%A3%93%E9%A3%8E/55735453",
+      "type": "encyclopedia",
+      "reliability": "HIGH",
+      "notes": "账号词条，包含粉丝数据、百大UP主入选年份"
+    },
+    {
+      "name": "哔哩哔哩-影视飓风个人空间",
+      "url": "https://space.bilibili.com/946974/",
+      "type": "primary_source",
+      "reliability": "HIGH",
+      "notes": "B站官方页面，直接显示粉丝数1630.4万（截至2026-05-28）"
+    },
+    {
+      "name": "新浪财经-圆通速递2021年年报",
+      "url": "https://finance.sina.com.cn/stock/relnews/cn/2022-04-27/doc-imcwiwst4283598.shtml",
+      "type": "financial_report",
+      "reliability": "HIGH",
+      "notes": "上市公司年报数据，潘水苗2021年税前报酬180.37万元"
+    },
+    {
+      "name": "新浪财经-圆通速递2025年年报",
+      "url": "https://finance.sina.com.cn/jjxw/2026-04-25/doc-inhvsqpe7297041.shtml",
+      "type": "financial_report",
+      "reliability": "HIGH",
+      "notes": "潘水苗2025年薪酬471.64万元，对比此前年薪有显著增长"
+    },
+    {
+      "name": "腾讯新闻-圆通总裁之子在相亲角假装普通人",
+      "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_32369e8189371652",
+      "type": "news_report",
+      "reliability": "MEDIUM",
+      "notes": "综合报道，包含相亲角事件经过描述"
+    },
+    {
+      "name": "企鹅号/腾讯新闻-影视飓风Tim正式回应争议",
+      "url": "https://new.qq.com/rain/a/20251115A01VHD00",
+      "type": "news_report",
+      "reliability": "MEDIUM",
+      "notes": "详细引用Tim回应视频原文，包括5%篇幅、50秒剪辑、场地申请等关键信息"
+    },
+    {
+      "name": "腾讯新闻-影视飓风Tim深夜回应",
+      "url": "https://new.qq.com/rain/a/20251115A03CVG00",
+      "type": "news_report",
+      "reliability": "MEDIUM",
+      "notes": "另一家媒体的回应视频报道，提供交叉验证"
+    },
+    {
+      "name": "扬子晚报-相亲角视频引网友争议",
+      "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_1786919797862052",
+      "type": "news_report",
+      "reliability": "MEDIUM",
+      "notes": "传统媒体报道，确认事件经过和Tim回应"
+    },
+    {
+      "name": "数英-影视飓风从顶流UP主到年入过亿",
+      "url": "https://www.digitaling.com/articles/1347429.html",
+      "type": "industry_analysis",
+      "reliability": "MEDIUM",
+      "notes": "行业分析文章，引用了新华社《扬声》栏目的营收数据"
+    },
+    {
+      "name": "今日头条-影视飓风营收过亿",
+      "url": "https://www.toutiao.com/article/7429243225812320783/",
+      "type": "news_report",
+      "reliability": "MEDIUM",
+      "notes": "引用新华社《扬声》栏目采访原文，Tim公开披露营收数据"
+    },
+    {
+      "name": "网易-CEO来信-影视飓风创始人潘天鸿",
+      "url": "https://www.163.com/dy/article/JFS7OA9G0511D0QS.html",
+      "type": "biography",
+      "reliability": "MEDIUM",
+      "notes": "详细传记文章，包含家庭背景、教育经历、创业历程"
+    },
+    {
+      "name": "新浪科技-影视飓风B站粉丝破1000万",
+      "url": "https://finance.sina.com.cn/tech/roll/2024-11-10/doc-incvqfeh9795197.shtml",
+      "type": "news_report",
+      "reliability": "MEDIUM",
+      "notes": "确认Tim父亲为圆通速递总裁，B站2024年11月突破1000万粉丝"
+    },
+    {
+      "name": "共青团第十九次全国代表大会代表名单",
+      "url": "https://news.iqilu.com/yangmei/20230616/5450668.shtml",
+      "type": "official_document",
+      "reliability": "HIGH",
+      "notes": "团十九大官方代表名单，2023年6月16日公布，共1535名代表"
+    }
+  ]
+}

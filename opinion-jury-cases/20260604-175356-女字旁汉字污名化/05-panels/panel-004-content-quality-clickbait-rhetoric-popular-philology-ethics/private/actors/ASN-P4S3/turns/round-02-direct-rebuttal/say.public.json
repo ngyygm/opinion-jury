@@ -1,0 +1,15 @@
+{
+  "turn_id": "ASN-P4S3-round-02-direct-rebuttal",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-3",
+  "round": 2,
+  "phase": "DIRECT_REBUTTAL",
+  "speech_text": "看了大家的说法，我觉得SEAT-5那个老太太虽然不识字，但说的'吆喝得越响越假'这话确实有道理。就像我们骑手群里有时候转的那些'震惊！某某品牌出事了'的消息，十个有八个最后证明是假的。但你说这些内容完全没有用吧，也不对，至少让我知道了'嫖姚校尉'这回事。我觉得问题在于：像我们这种普通老百姓，真的分不清哪个是真的哪个是编的。你说让我去查字典？我一天跑十二个小时单，回来就想躺着，谁有那功夫？",
+  "target_turn_refs": [
+    "ASN-P4S5-round-01-opening",
+    "ASN-P4S1-round-01-opening"
+  ],
+  "public_question_refs": [],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

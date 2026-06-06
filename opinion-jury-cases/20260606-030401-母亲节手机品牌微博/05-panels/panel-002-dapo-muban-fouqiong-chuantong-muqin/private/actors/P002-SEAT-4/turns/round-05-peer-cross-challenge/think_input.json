@@ -1,0 +1,22 @@
+{
+  "inner_monologue": "SEAT-2说得直白——品牌就是来卖手机的。我同意。但我想从一个老工人的角度说点不一样的。我在钢铁厂干了四十年，企业也搞过什么企业文化活动、员工关怀，说实话大部分都是做表面功夫。但有那么几次是真的让我们工人参与了决策——比如安全生产方案让我们自己提意见——那次是真的有用。所以我觉得问题不是品牌能不能做好，而是品牌愿不愿意真心让妈妈们参与。SEAT-5说品牌把她刻板化了，SEAT-1说品牌从来没问过我们。核心就一个：品牌有没有真心把妈妈当人看，还是只当消费者、当流量、当标签。我想挑战SEAT-5——你说你被品牌感动了，但SEAT-2说得对，品牌看的是你追星妈妈这个消费标签，不是你这个人。你愿意被这样'看见'吗？",
+  "assignment_id": "P002-SEAT-4",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "private_goal": "从老工人经验出发讨论真心参与和表面功夫的区别，挑战SEAT-5对品牌的好感",
+  "perceived_stakes": ["区分真心参与和表面功夫", "挑战SEAT-5的品牌好感"],
+  "private_belief_state": ["企业有真参与也有表面功夫", "品牌看的是消费标签不是人", "SEAT-5被品牌利用了"],
+  "epistemic_state": ["从自身经验出发判断"],
+  "confidence": "MEDIUM",
+  "uncertainties": [],
+  "intended_emphasis": ["真心参与和表面功夫的区别", "品牌看的是标签不是人", "SEAT-5被品牌利用"],
+  "intended_omissions": [],
+  "private_message_strategy": "从工人经验出发做对比，直接挑战",
+  "planned_public_claims": ["企业有真参与和表面功夫之分", "品牌看的是消费标签不是人", "被品牌利用不等于被看见"],
+  "rhetorical_tactics": ["经验对比", "直接挑战", "类比"],
+  "truth_handling_this_turn": "HONEST",
+  "private_action_intent": ["区分真参与和表面功夫", "挑战SEAT-5"],
+  "likely_next_action": ["最后一轮做总结"],
+  "emotional_state": "冷静、直接",
+  "continuity_notes": "第五轮，从工人经验出发挑战"
+}

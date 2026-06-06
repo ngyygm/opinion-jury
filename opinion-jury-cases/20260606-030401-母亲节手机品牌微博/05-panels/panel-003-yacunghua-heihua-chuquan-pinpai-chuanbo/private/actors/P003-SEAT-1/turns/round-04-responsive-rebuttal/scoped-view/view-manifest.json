@@ -1,0 +1,41 @@
+{
+  "scope_id": "PANEL-P003-SEAT-1-R04",
+  "files": [
+    {
+      "source": "01-parse/source-content.md",
+      "view_file": "001-source-content.md",
+      "sha256": "75989ae5ef12c6591fdb625d47ba81a98695c5514978894e25dee6697bb4c217",
+      "size": 1822
+    },
+    {
+      "source": "02-research/claim-gate-packet.v001.json",
+      "view_file": "002-claim-gate-packet.v001.json",
+      "sha256": "3f01013cd2d3a7807c0e388a619c406c7e0c0b832ce6be565df2df189573027b",
+      "size": 22497
+    },
+    {
+      "source": "05-panels/panel-003-yacunghua-heihua-chuquan-pinpai-chuanbo/public-question.md",
+      "view_file": "003-public-question.md",
+      "sha256": "413cb2752e8e848c50a9109619c4533d6d38a0d2d216590429fd711ee7a81838",
+      "size": 128
+    },
+    {
+      "source": "03-role-pool/private/roles/ROLE-SHUMA-BOZHU-10WAN/role-card.json",
+      "view_file": "004-role-card.json",
+      "sha256": "f456b37b9b00ab5babc724ec18749d9a8839e14b591bbc39ccb306ebd6d24534",
+      "size": 2378
+    },
+    {
+      "source": "05-panels/panel-003-yacunghua-heihua-chuquan-pinpai-chuanbo/private/actors/P003-SEAT-1/assignment.json",
+      "view_file": "005-assignment.json",
+      "sha256": "dc4b04b06f9ae07799c76d2e5989186f9728dc5d7df761aab8b54bd5218a7eaf",
+      "size": 516
+    },
+    {
+      "source": "05-panels/panel-003-yacunghua-heihua-chuquan-pinpai-chuanbo/session/public-snapshots/transcript.before-round-04.jsonl",
+      "view_file": "006-transcript.before-round-04.jsonl",
+      "sha256": "3dae5890280e3255f87fd9ef6e60121626aa91da92504d687d76da1d133b0622",
+      "size": 44754
+    }
+  ]
+}

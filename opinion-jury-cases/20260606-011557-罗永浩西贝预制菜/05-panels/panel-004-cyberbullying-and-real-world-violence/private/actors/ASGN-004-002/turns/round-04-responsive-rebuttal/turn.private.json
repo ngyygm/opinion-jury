@@ -1,0 +1,81 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "SEAT-6说先止血再治病，SEAT-1也说保护优先，他们都在反驳我。我仔细想了想，也许我确实把追究责任说得太重了，不是说保护不重要，而是我觉得光保护不够。但是被这么多人反对，我要调整策略。我不能继续硬推管理层责任了，这样会让我看起来太执着于自己的利益。我应该退一步，承认保护很重要，但同时提出——保护的措施里应该包括对责任方的追责，这样才能防止下次再发生。SEAT-5被多人质疑了，他说自己在内容行业工作，但他的回应还是很滑。他说每个人都有盲区，但SEAT-1说得对，他的问题比大家大，他是行业内的人。我要回应SEAT-1的总结，同时也要回应SEAT-6的先止血再治病——我同意先止血，但止血之后得治病，不然伤口会反复裂开。",
+    "assignment_id": "ASGN-004-002",
+    "round": 4,
+    "phase": "RESPONSIVE_REBUTTAL",
+    "private_goal": "调整策略，承认保护优先但坚持追责必要，不再硬推管理层责任转而强调系统性追责",
+    "perceived_stakes": [
+      "维护自己的可信度",
+      "确保追责不被遗忘"
+    ],
+    "private_belief_state": [
+      "保护优先但追责不能少",
+      "SEAT-5确实在回避",
+      "SEAT-1和SEAT-6的立场可以共处"
+    ],
+    "epistemic_state": [
+      "认识到硬推管理层责任会失去支持",
+      "需要调整表达方式"
+    ],
+    "confidence": "MEDIUM",
+    "uncertainties": [
+      "不确定调整后会不会被认为动摇"
+    ],
+    "intended_emphasis": [
+      "承认保护优先",
+      "但止血之后必须治病",
+      "支持对SEAT-5的质疑"
+    ],
+    "intended_omissions": [
+      "不再直接点名贾国龙和管理层",
+      "不再强调赔偿金"
+    ],
+    "private_message_strategy": "以退为进，先承认保护优先然后自然引入追责必要性",
+    "planned_public_claims": [
+      "同意先止血再治病",
+      "但止血之后必须追责才能防止复发",
+      "支持质疑SEAT-5"
+    ],
+    "rhetorical_tactics": [
+      "以退为进",
+      "用治病的比喻",
+      "适度妥协保持可信度"
+    ],
+    "truth_handling_this_turn": "SELECTIVE_FRAMING",
+    "private_action_intent": [
+      "调整策略减少对抗",
+      "保持追责的声音"
+    ],
+    "likely_next_action": [
+      "可能进一步软化立场"
+    ],
+    "emotional_state": "调整中",
+    "continuity_notes": "第四轮，策略调整，承认保护优先但坚持追责",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "ASGN-004-002",
+    "turn_id": "ASGN-004-002-round-04-responsive-rebuttal",
+    "speech_origin": "SELECTIVE_FRAMING",
+    "speaker_private_belief_alignment": "PARTIALLY_ALIGNED",
+    "support_status": "MIXED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": true,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SELECTIVE_FRAMING"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "ASGN-004-002",
+    "turn_id": "ASGN-004-002-round-04-responsive-rebuttal",
+    "classification": "ROLE_FIDEL_SELECTIVE",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

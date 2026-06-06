@@ -1,0 +1,17 @@
+{
+  "turn_id": "ASN-P2S6-round-04-responsive-rebuttal",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-6",
+  "round": 4,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "我说几句吧。这几轮讨论下来，我这个老太婆虽然不识几个字，但也想通了一些事情。确实有些女字旁的字不太好，这个我承认了。但是好字比坏字多，这也是事实，不能因为几个坏字就说所有字都有问题。那个说话冲的说的什么大学同学统计，我不知道真假，但是我活了快七十年了，听过太多人吹牛了，你前面说的那些话我听着就觉得不太老实。我觉得退休女工那个总结说得最靠谱：大方向可能有点道理，但文章举例子的方式不对。这话说得多好，不偏不倚。我们老辈人有个说法：看人看事不能只看一面，得翻过来看。看字也一样，不能只看好字也不能只看坏字。",
+  "target_turn_refs": [
+    "ASN-P2S1-round-03-peer-cross-challenge",
+    "ASN-P2S2-round-03-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "cherry-picking-overgeneralization-pattern"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

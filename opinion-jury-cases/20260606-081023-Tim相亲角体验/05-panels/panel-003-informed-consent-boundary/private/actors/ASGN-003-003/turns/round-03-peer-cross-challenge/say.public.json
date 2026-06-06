@@ -1,0 +1,20 @@
+{
+  "turn_id": "ASGN-003-003-round-03-peer-cross-challenge",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-3",
+  "round": 3,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "前粉丝提到的那个信息让我重新想了想——简历是编导精心设计的，身份隐瞒是团队策划的结果。这让我的看法有了一些改变。如果Tim是随性去相亲角拍着玩的，那知情同意的问题可能没那么严重。但既然是有策划的创作行为，那知情同意的标准就应该更高一些。不过我也不完全同意批评方的观点。要求每个公共场合拍摄都告知创作者的全部身份和传播量级，在实操中确实不现实。拍VLOG在地铁上录了一段，还要跟每个入镜的人说自己有多少粉丝？那谁都别拍了。所以我提出一个想法，大家看看合理不合理：知情同意应该分层。第一层是基本告知——拍摄行为本身，这在任何公共场合拍摄都应该做到。第二层是额外告知——如果你的拍摄涉及身份隐瞒或者特殊目的，那你有义务告知被拍摄者真实身份和拍摄意图。也就是说，在公共场合正常拍摄只需要第一层，但一旦你隐瞒了身份，就必须进入第二层。Tim的情况，正是因为有身份隐瞒，所以他的告知是不够的。不知道大家觉得这个分层标准有没有道理？",
+  "target_turn_refs": [
+    "ASGN-003-002-round-03-peer-cross-challenge",
+    "ASGN-003-004-round-02-direct-rebuttal"
+  ],
+  "public_question_refs": [
+    "panel-003-public-question"
+  ],
+  "public_evidence_refs": [
+    "C011",
+    "C013"
+  ],
+  "public_action_signals": []
+}

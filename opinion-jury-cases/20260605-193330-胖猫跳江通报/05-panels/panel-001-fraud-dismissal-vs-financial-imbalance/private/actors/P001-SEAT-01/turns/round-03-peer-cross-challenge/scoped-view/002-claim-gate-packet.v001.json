@@ -1,0 +1,952 @@
+{
+  "version": 1,
+  "stage": "CLAIM_GATE",
+  "input_ref": "01-parse/content-parse.v001.json",
+  "produced_at": "2026-06-05T19:50:00Z",
+  "methodology": "Independent web search against authoritative sources (official police bulletin via People's Daily, Xinhua, CCTV News, Pengpai/The Paper, Chinanews) to verify each atomic claim. All evidence references are primary or secondary reporting of the official police bulletin from Chongqing Public Security Bureau Nan'an District Branch, published 2024-05-19.",
+  "claims_verified": [
+    {
+      "claim_id": "C001",
+      "text": "2024年4月11日凌晨，刘甲（男，21岁，网名‘胖猫’）在重庆长江大桥跳江身亡",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "人民网重庆 (people.com.cn)",
+          "url": "http://cq.people.com.cn/n2/2024/0519/c365401-40849309.html",
+          "date": "2024-05-19",
+          "detail": "Police bulletin explicitly states the identity, age, location, and date of the incident"
+        },
+        {
+          "source": "新华社 (Xinhua) via 光明网",
+          "url": "http://legal.gmw.cn/2024-05/20/content_37332669.htm",
+          "date": "2024-05-20",
+          "detail": "Xinhua republished same facts confirming identity, age, location, and date"
+        }
+      ],
+      "notes": "Universally reported across all major state media. No contradiction found."
+    },
+    {
+      "claim_id": "C002",
+      "text": "事件引发网民持续关注",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "澎湃新闻 (The Paper)",
+          "url": "https://www.thepaper.cn/newsDetail_forward_27435869",
+          "date": "2024-05-19",
+          "detail": "Reports extensive public attention, trending topics, and massive social media engagement"
+        },
+        {
+          "source": "CCTV News via 多平台封禁报道",
+          "url": "https://news.hangzhou.com.cn/shxw/content/2024-05/24/content_8734276_4.htm",
+          "date": "2024-05-24",
+          "detail": "CCTV report confirms sustained public attention and 400+ instances of rumors/online violence"
+        }
+      ],
+      "notes": "Well-documented social phenomenon. Multiple trending topics on Weibo, Douyin."
+    },
+    {
+      "claim_id": "C003",
+      "text": "5月3日，谭某报警反映刘某侵犯其隐私",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Official police bulletin",
+          "url": "https://www.163.com/news/article/J2J22GR40001899O.html",
+          "date": "2024-05-19",
+          "detail": "Direct quote confirming Tan reported Liu for privacy violation on May 3"
+        }
+      ],
+      "notes": "Direct quote from official police bulletin."
+    },
+    {
+      "claim_id": "C004",
+      "text": "5月5日，刘某报警反映谭某诈骗其弟‘胖猫’钱财",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Official police bulletin",
+          "url": "https://www.163.com/news/article/J2J22GR40001899O.html",
+          "date": "2024-05-19",
+          "detail": "Direct quote confirming Liu reported Tan for alleged fraud on May 5"
+        }
+      ],
+      "notes": "Direct quote from official police bulletin."
+    },
+    {
+      "claim_id": "C005",
+      "text": "‘胖猫’和谭某于2021年11月通过网络游戏认识",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Official police bulletin - extended version",
+          "url": "https://www.163.com/dy/article/J2KCQDT6053408E7.html",
+          "date": "2024-05-20",
+          "detail": "Confirms both met through online gaming in November 2021"
+        }
+      ],
+      "notes": "Consistent across all sources."
+    },
+    {
+      "claim_id": "C006",
+      "text": "两人于2021年12月24日确定恋爱关系",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Official police bulletin - extended version",
+          "url": "https://www.163.com/dy/article/J2KCQDT6053408E7.html",
+          "date": "2024-05-20",
+          "detail": "Exact date December 24, 2021 confirmed"
+        }
+      ],
+      "notes": "Exact date confirmed by police investigation."
+    },
+    {
+      "claim_id": "C007",
+      "text": "2023年10月，‘胖猫’从湖南到重庆，在谭某住家附近租房居住",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Official police bulletin - extended version",
+          "url": "https://www.163.com/dy/article/J2KCQDT6053408E7.html",
+          "date": "2024-05-20",
+          "detail": "Confirms Pangmao moved from Hunan to Chongqing in October 2023, renting near Tan"
+        }
+      ],
+      "notes": "Source says Hunan Chenzhou; parsed claim says Hunan. Substantially accurate."
+    },
+    {
+      "claim_id": "C008",
+      "text": "谭某于2024年2月春节前夕带‘胖猫’回老家，作为男友介绍给父母及亲友",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Official police bulletin",
+          "url": "https://www.163.com/dy/article/J2KCQDT6053408E7.html",
+          "date": "2024-05-20",
+          "detail": "Confirms Tan brought Pangmao to hometown Feb 7, 2024 as boyfriend to meet parents"
+        }
+      ],
+      "notes": "Exact date (Feb 7) provided in extended bulletin."
+    },
+    {
+      "claim_id": "C009",
+      "text": "两人交往期间经历多次分手、复合",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Official police bulletin",
+          "url": "https://www.163.com/dy/article/J2KCQDT6053408E7.html",
+          "date": "2024-05-20",
+          "detail": "Direct quote confirming multiple breakups and reconciliations"
+        }
+      ],
+      "notes": "Direct quote from police bulletin."
+    },
+    {
+      "claim_id": "C010",
+      "text": "2024年4月3日、4日，两人持续争吵提及分手",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Official police bulletin",
+          "url": "https://www.163.com/dy/article/J2KCQDT6053408E7.html",
+          "date": "2024-05-20",
+          "detail": "Direct quote confirming continued arguments April 3-4 mentioning breakup"
+        }
+      ],
+      "notes": "Direct quote from police bulletin."
+    },
+    {
+      "claim_id": "C011",
+      "text": "4月10日，‘胖猫’通过支付宝给谭某转账66666.66元，备注‘自愿赠予’",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Official police bulletin",
+          "url": "https://www.163.com/dy/article/J2KCQDT6053408E7.html",
+          "date": "2024-05-20",
+          "detail": "Confirms exact amount 66666.66 yuan via Alipay annotated voluntary gift"
+        }
+      ],
+      "notes": "Exact amount and annotation confirmed by police investigation of Alipay records."
+    },
+    {
+      "claim_id": "C012",
+      "text": "4月11日凌晨，‘胖猫’向谭某发微信‘我们已经结束了’后跳江",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Official police bulletin",
+          "url": "https://www.163.com/dy/article/J2KCQDT6053408E7.html",
+          "date": "2024-05-20",
+          "detail": "Confirms exact WeChat message sent before jumping"
+        }
+      ],
+      "notes": "Exact WeChat message text confirmed by police investigation of chat records."
+    },
+    {
+      "claim_id": "C013",
+      "text": "经查，排除刑事案件（针对‘胖猫’跳江）",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Official police bulletin",
+          "url": "https://www.163.com/dy/article/J2KCQDT6053408E7.html",
+          "date": "2024-05-20",
+          "detail": "Police ruled out criminal case through scene investigation, autopsy, physical evidence, family identification"
+        }
+      ],
+      "notes": "Police used scene investigation, autopsy, physical evidence, and family identification."
+    },
+    {
+      "claim_id": "C014",
+      "text": "‘胖猫’向谭某转账317次，共计79.9万余元",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Official police bulletin",
+          "url": "https://www.163.com/dy/article/J2KCQDT6053408E7.html",
+          "date": "2024-05-20",
+          "detail": "Confirms 317 transfers totaling over 799,000 yuan"
+        },
+        {
+          "source": "人民日报微评",
+          "url": "https://www.163.com/dy/article/J2KCL0ID0514A42S.html",
+          "date": "2024-05-20",
+          "detail": "People's Daily summary confirms same figures"
+        }
+      ],
+      "notes": "Exact count and amount confirmed by police forensic accounting."
+    },
+    {
+      "claim_id": "C015",
+      "text": "谭某向‘胖猫’及其亲属转账179次，共计46.3万余元",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Official police bulletin",
+          "url": "https://www.163.com/dy/article/J2KCQDT6053408E7.html",
+          "date": "2024-05-20",
+          "detail": "Confirms 179 transfers totaling over 463,000 yuan"
+        }
+      ],
+      "notes": "Exact count and amount confirmed by police investigation."
+    },
+    {
+      "claim_id": "C016",
+      "text": "谭某向‘胖猫’转账29.7万余元，向刘某转贰3万元，向‘胖猫’父亲转账13.6万余元",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Official police bulletin",
+          "url": "https://www.163.com/dy/article/J2KCQDT6053408E7.html",
+          "date": "2024-05-20",
+          "detail": "Confirms breakdown: 29.7+ to Pangmao, 30k to Liu, 136k+ to father. Subtotals sum to 46.3"
+        }
+      ],
+      "notes": "Breakdown confirmed. Subtotals sum correctly to 46.3."
+    },
+    {
+      "claim_id": "C017",
+      "text": "上述46.3万余元中含‘胖猫’去世后应要求返还的开店投资7万元及自愿赠予的6.6万余元",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Official police bulletin",
+          "url": "https://www.163.com/dy/article/J2KCQDT6053408E7.html",
+          "date": "2024-05-20",
+          "detail": "Confirms 70k flower shop investment return and 66k+ voluntary gift return after death"
+        }
+      ],
+      "notes": "The 70k was flower shop investment return, 66k+ was the voluntary gift made on April 10."
+    },
+    {
+      "claim_id": "C018",
+      "text": "两人在支付宝开通‘小荷包’等情侣攒钱账户",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Official police bulletin",
+          "url": "https://www.163.com/dy/article/J2KCQDT6053408E7.html",
+          "date": "2024-05-20",
+          "detail": "Confirms shared Alipay Xiaohebao savings account for couples"
+        }
+      ],
+      "notes": "Alipay confirmed as platform. Xiaohebao is a real Alipay shared savings product."
+    },
+    {
+      "claim_id": "C019",
+      "text": "在共同账户中，‘胖猫’实际多支取了7.5万元（含谭某存款7.1万元）",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Official police bulletin",
+          "url": "https://www.163.com/dy/article/J2KCQDT6053408E7.html",
+          "date": "2024-05-20",
+          "detail": "Confirms Pangmao withdrew 75k more than deposited including 71k of Tan's deposits"
+        },
+        {
+          "source": "Weibo analysis",
+          "url": "https://weibo.com/5679508036/Of2z6g7rf",
+          "date": "2024-05-19",
+          "detail": "Breakdown: Tan 236k in/165k out; Pangmao 173k in/248k out, diff=75k"
+        }
+      ],
+      "notes": "Police forensic accounting confirmed exact figures."
+    },
+    {
+      "claim_id": "C020",
+      "text": "谭某和‘胖猫’存在真实恋爱关系",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Official police bulletin",
+          "url": "https://www.thepaper.cn/newsDetail_forward_27435869",
+          "date": "2024-05-19",
+          "detail": "Confirms genuine romantic relationship with real identities, mutual family meetings, 2+ years"
+        }
+      ],
+      "notes": "Police conclusion based on interviews with both parties' families and friends."
+    },
+    {
+      "claim_id": "C021",
+      "text": "经济上互有往来，共同攒钱谋划未来",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Official police bulletin",
+          "url": "https://www.thepaper.cn/newsDetail_forward_27435869",
+          "date": "2024-05-19",
+          "detail": "Confirms mutual economic exchanges and shared savings for future"
+        }
+      ],
+      "notes": "Supported by bidirectional transfers, shared savings account, and joint flower shop."
+    },
+    {
+      "claim_id": "C022",
+      "text": "谭某未实施虚构事实或隐瞒真相、以恋爱为名骗取‘胖猫’财物的行为",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Official police bulletin",
+          "url": "https://www.thepaper.cn/newsDetail_forward_27435869",
+          "date": "2024-05-19",
+          "detail": "Police legal conclusion that Tan did not fabricate facts or conceal truth to defraud"
+        }
+      ],
+      "notes": "Matches legal standard for fraud (Criminal Law Article 266)."
+    },
+    {
+      "claim_id": "C023",
+      "text": "谭某不构成诈骗犯罪",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Official police bulletin",
+          "url": "https://www.thepaper.cn/newsDetail_forward_27435869",
+          "date": "2024-05-19",
+          "detail": "Explicit legal conclusion of no fraud crime"
+        },
+        {
+          "source": "Chinanews",
+          "url": "http://www.chinanews.com/sh/2024/05-19/10219682.shtml",
+          "date": "2024-05-19",
+          "detail": "Headline confirms same conclusion"
+        }
+      ],
+      "notes": "No contrary judicial finding exists."
+    },
+    {
+      "claim_id": "C024",
+      "text": "5月11日，警方依法作出不予立案决定",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Official police bulletin",
+          "url": "https://www.163.com/dy/article/J2KCQDT6053408E7.html",
+          "date": "2024-05-20",
+          "detail": "Confirms non-filing decision made on May 11"
+        }
+      ],
+      "notes": "6 days before bulletin publication."
+    },
+    {
+      "claim_id": "C025",
+      "text": "刘某对不予立案决定表示认可",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Official police bulletin",
+          "url": "https://www.thepaper.cn/newsDetail_forward_27435869",
+          "date": "2024-05-19",
+          "detail": "Confirms Liu accepted non-filing decision"
+        },
+        {
+          "source": "Sina News",
+          "url": "https://news.sina.com.cn/s/2024-05-20/doc-inavwwfn4908564.shtml",
+          "date": "2024-05-20",
+          "detail": "Independent confirmation"
+        }
+      ],
+      "notes": "Liu accepted before the public bulletin was issued."
+    },
+    {
+      "claim_id": "C026",
+      "text": "经调解，刘某父母与谭某已达成和解",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Official police bulletin",
+          "url": "https://www.thepaper.cn/newsDetail_forward_27435869",
+          "date": "2024-05-19",
+          "detail": "Confirms mediation and reconciliation between Pangmao's parents and Tan"
+        }
+      ],
+      "notes": "Reconciliation was between Pangmao's parents and Tan."
+    },
+    {
+      "claim_id": "C027",
+      "text": "谭某全额退还了与‘胖猫’恋爱期间经济往来的差额",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Official police bulletin",
+          "url": "https://www.thepaper.cn/newsDetail_forward_27435869",
+          "date": "2024-05-19",
+          "detail": "Confirms Tan fully refunded the economic difference"
+        },
+        {
+          "source": "Fuzhou News",
+          "url": "https://news.fznews.com.cn/gngj/20240519/1MJDRQ0p4P.shtml",
+          "date": "2024-05-19",
+          "detail": "Independent confirmation"
+        }
+      ],
+      "notes": "Exact difference amount not specified in bulletin."
+    },
+    {
+      "claim_id": "C028",
+      "text": "‘胖猫’跳江后，刘某认为弟弟钱都花在了谭某身上",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Official police bulletin - extended version",
+          "url": "https://news.sina.com.cn/s/2024-05-20/doc-inavwwfn4908564.shtml",
+          "date": "2024-05-20",
+          "detail": "Police-reported characterization of Liu's subjective belief"
+        }
+      ],
+      "notes": "Police characterization, attributed to Liu's statements during investigation."
+    },
+    {
+      "claim_id": "C029",
+      "text": "刘某为让谭某‘不好过，付出代价’，与其妹妹商议‘就是要让谭某被网暴’",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Official police bulletin",
+          "url": "https://www.163.com/dy/article/J2KCQDT6053408E7.html",
+          "date": "2024-05-20",
+          "detail": "Direct quotes from Liu's private communications"
+        },
+        {
+          "source": "CCTV investigative report",
+          "url": "https://news.china.com/social/1007/20240524/46587864_4.html",
+          "date": "2024-05-24",
+          "detail": "CCTV confirms same quotes"
+        }
+      ],
+      "notes": "Verified by police digital forensics and CCTV follow-up."
+    },
+    {
+      "claim_id": "C030",
+      "text": "刘某通过抖音账号多次发布‘胖猫’与谭某的私聊记录、转账截图等个人隐私信息",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Official police bulletin",
+          "url": "https://www.163.com/dy/article/J2KCQDT6053408E7.html",
+          "date": "2024-05-20",
+          "detail": "Confirms posting private chats and transfer screenshots on Douyin"
+        },
+        {
+          "source": "CCTV report",
+          "url": "https://news.china.com/social/1007/20240524/46587864_4.html",
+          "date": "2024-05-24",
+          "detail": "Police found Liu selectively posted private content"
+        }
+      ],
+      "notes": "Confirmed by police digital forensics."
+    },
+    {
+      "claim_id": "C031",
+      "text": "刘某联系多人代写文案",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Official police bulletin",
+          "url": "https://www.163.com/dy/article/J2KCQDT6053408E7.html",
+          "date": "2024-05-20",
+          "detail": "Confirms contacting ghostwriters"
+        },
+        {
+          "source": "The Paper",
+          "url": "https://www.thepaper.cn/newsDetail_forward_27515947",
+          "date": "2024-05-26",
+          "detail": "Confirms ghostwriting to mislead public opinion"
+        }
+      ],
+      "notes": "Confirmed by police investigation."
+    },
+    {
+      "claim_id": "C032",
+      "text": "刘某购买流量扩散传播提升热度",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Official police bulletin",
+          "url": "https://www.163.com/dy/article/J2KCQDT6053408E7.html",
+          "date": "2024-05-20",
+          "detail": "Confirms purchasing paid traffic"
+        },
+        {
+          "source": "The Paper",
+          "url": "https://www.thepaper.cn/newsDetail_forward_27515947",
+          "date": "2024-05-26",
+          "detail": "Confirms traffic purchase details"
+        }
+      ],
+      "notes": "Some sources mention ~150k yuan spent on traffic."
+    },
+    {
+      "claim_id": "C033",
+      "text": "刘某抖音账号粉丝从4月22日的263个涨至最高290余万个",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Official police bulletin",
+          "url": "https://www.163.com/dy/article/J2KCQDT6053408E7.html",
+          "date": "2024-05-20",
+          "detail": "Confirms exact figures: 263 to over 2.9 million followers"
+        },
+        {
+          "source": "The Paper",
+          "url": "https://www.thepaper.cn/newsDetail_forward_27515947",
+          "date": "2024-05-26",
+          "detail": "Adds 14.556 million likes"
+        }
+      ],
+      "notes": "Exact figures confirmed by police forensic analysis."
+    },
+    {
+      "claim_id": "C034",
+      "text": "刘某的行为导致谭某被网民攻击辱骂",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Official police bulletin",
+          "url": "https://www.163.com/dy/article/J2KCQDT6053408E7.html",
+          "date": "2024-05-20",
+          "detail": "Confirms causation from Liu's actions to Tan being attacked"
+        },
+        {
+          "source": "CCTV report",
+          "url": "https://www.163.com/dy/article/J2VRR1L00534AAOK.html",
+          "date": "2024-05-24",
+          "detail": "Tan labeled with derogatory names, mass attacks"
+        }
+      ],
+      "notes": "Causation established by police investigation."
+    },
+    {
+      "claim_id": "C035",
+      "text": "谭某收到大量附辱骂留言的转账",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "CCTV report",
+          "url": "https://www.163.com/dy/article/J2VRR1L00534AAOK.html",
+          "date": "2024-05-24",
+          "detail": "Confirms organized small transfer campaign with abusive messages"
+        },
+        {
+          "source": "Sina Finance",
+          "url": "https://finance.sina.com.cn/jjxw/2024-05-23/doc-inawfiat1509540.shtml",
+          "date": "2024-05-23",
+          "detail": "Yang organized this campaign"
+        }
+      ],
+      "notes": "Yang was criminally charged for organizing this."
+    },
+    {
+      "claim_id": "C036",
+      "text": "网络出现多起威胁谭某人身安全的言论",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "CCTV report",
+          "url": "https://www.163.com/dy/article/J2VRR1L00534AAOK.html",
+          "date": "2024-05-24",
+          "detail": "Confirms multiple threats including bounties"
+        },
+        {
+          "source": "Sina Finance",
+          "url": "https://finance.sina.com.cn/jjxw/2024-05-23/doc-inawfiat1509540.shtml",
+          "date": "2024-05-23",
+          "detail": "He threatened to kill Tan's family"
+        }
+      ],
+      "notes": "Specific individuals punished for threats."
+    },
+    {
+      "claim_id": "C037",
+      "text": "严重影响谭某正常生活",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Official police bulletin",
+          "url": "https://www.163.com/dy/article/J2KCQDT6053408E7.html",
+          "date": "2024-05-20",
+          "detail": "Police factual finding of serious impact on Tan's normal life"
+        }
+      ],
+      "notes": "Originally tagged 'opinion' but is police factual finding supported by: info leaked, shop closed, forced relocation, death threats."
+    },
+    {
+      "claim_id": "C038",
+      "text": "造成网络空间秩序混乱",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Official police bulletin",
+          "url": "https://www.163.com/dy/article/J2KCQDT6053408E7.html",
+          "date": "2024-05-20",
+          "detail": "Police factual finding"
+        },
+        {
+          "source": "The Paper",
+          "url": "https://www.thepaper.cn/newsDetail_forward_27515947",
+          "date": "2024-05-26",
+          "detail": "400+ documented cases processed by police"
+        }
+      ],
+      "notes": "Originally tagged 'opinion' but supported by 400+ processed cases."
+    },
+    {
+      "claim_id": "C039",
+      "text": "刘某认识到自己行为的违法性并认错",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Official police bulletin",
+          "url": "https://www.163.com/dy/article/J2KCQDT6053408E7.html",
+          "date": "2024-05-20",
+          "detail": "Confirms Liu acknowledged illegality and admitted fault"
+        },
+        {
+          "source": "Sina News",
+          "url": "https://news.sina.com.cn/s/2024-05-20/doc-inavwwfn4908564.shtml",
+          "date": "2024-05-20",
+          "detail": "Independent confirmation"
+        }
+      ],
+      "notes": "Police-reported fact about Liu's conduct during investigation."
+    },
+    {
+      "claim_id": "C040",
+      "text": "网民杨某因煽动网民向谭某转账附言辱骂，被采取刑事强制措施",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Xinhua/CCTV joint report",
+          "url": "https://finance.sina.com.cn/jjxw/2024-05-23/doc-inawfiat1509540.shtml",
+          "date": "2024-05-23",
+          "detail": "Confirms Yang organized abusive transfer campaign, placed under criminal compulsory measures"
+        }
+      ],
+      "notes": "Most severe enforcement category in this case."
+    },
+    {
+      "claim_id": "C041",
+      "text": "网民贺某因扬言‘要杀谭某全家’虚构事实扰乱公共秩序，被行政处罚",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Xinhua/CCTV joint report",
+          "url": "https://finance.sina.com.cn/jjxw/2024-05-23/doc-inawfiat1509540.shtml",
+          "date": "2024-05-23",
+          "detail": "Confirms He claimed bounty to kill Tan's family, administrative penalty"
+        }
+      ],
+      "notes": "Specific quote and penalty confirmed."
+    },
+    {
+      "claim_id": "C042",
+      "text": "网民潘某、薛某因发布谭某身份证、手机号等侵犯公民个人信息，被行政处罚",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Xinhua/CCTV joint report",
+          "url": "https://finance.sina.com.cn/jjxw/2024-05-23/doc-inawfiat1509540.shtml",
+          "date": "2024-05-23",
+          "detail": "Confirms Pan and Xue published Tan's ID, phone, address"
+        },
+        {
+          "source": "Jiangsu Police",
+          "url": "https://news.sina.cn/2024-07-25/detail-incfiqvi5332082.d.html",
+          "date": "2024-07-25",
+          "detail": "Separate provincial confirmation two months later"
+        }
+      ],
+      "notes": "Cross-verified by separate provincial announcement."
+    },
+    {
+      "claim_id": "C043",
+      "text": "网民熊某、邱某因打探并曝光谭某老家位置，被行政拘留",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Xinhua/CCTV joint report",
+          "url": "https://finance.sina.com.cn/jjxw/2024-05-23/doc-inawfiat1509540.shtml",
+          "date": "2024-05-23",
+          "detail": "Confirms Xiong and Qiu conspired to expose hometown"
+        },
+        {
+          "source": "CCTV report via China.com",
+          "url": "https://news.china.com/social/1007/20240524/46587864_4.html",
+          "date": "2024-05-24",
+          "detail": "Named officer confirmed 5-day administrative detention"
+        }
+      ],
+      "notes": "Specific 5-day detention confirmed by named officer."
+    },
+    {
+      "claim_id": "C044",
+      "text": "网民许某因冒充谭某开设微博账号发布不实帖文，被行政处罚",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Luzhou Cyber Police via The Paper",
+          "url": "https://www.thepaper.cn/newsDetail_forward_27302572",
+          "date": "2024-05-09",
+          "detail": "Confirms Xu impersonated Tan on Weibo, administrative penalty, account deleted"
+        },
+        {
+          "source": "Hunantoday.cn",
+          "url": "https://www.hunantoday.cn/news/xhn/202405/19898317.html",
+          "date": "2024-05-09",
+          "detail": "Independent confirmation"
+        }
+      ],
+      "notes": "Independently reported 10 days before main bulletin."
+    },
+    {
+      "claim_id": "C045",
+      "text": "网传‘跳江身亡者不是胖猫’系网络谣言",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Xinhua/CCTV joint report",
+          "url": "https://finance.sina.com.cn/jjxw/2024-05-23/doc-inawfiat1509540.shtml",
+          "date": "2024-05-23",
+          "detail": "Explicitly classified as fabricated rumor"
+        },
+        {
+          "source": "Police bulletin extended",
+          "url": "https://www.163.com/dy/article/J2KCQDT6053408E7.html",
+          "date": "2024-05-20",
+          "detail": "Body recovered April 23, identified through multiple forensic methods"
+        }
+      ],
+      "notes": "Identity verified through scene investigation, autopsy, evidence, family ID."
+    },
+    {
+      "claim_id": "C046",
+      "text": "网传‘谭某被人殴打’系网络谣言",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Xinhua/CCTV joint report",
+          "url": "https://finance.sina.com.cn/jjxw/2024-05-23/doc-inawfiat1509540.shtml",
+          "date": "2024-05-23",
+          "detail": "Explicitly classified as fabricated rumor by police"
+        }
+      ],
+      "notes": "Explicitly classified as fabricated rumor."
+    },
+    {
+      "claim_id": "C047",
+      "text": "网传‘一自称谭某的女子第一次露脸道歉’系网络谣言",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "Xinhua/CCTV joint report",
+          "url": "https://finance.sina.com.cn/jjxw/2024-05-23/doc-inawfiat1509540.shtml",
+          "date": "2024-05-23",
+          "detail": "Explicitly classified as fabricated rumor"
+        },
+        {
+          "source": "CCTV report",
+          "url": "https://news.hangzhou.com.cn/shxw/content/2024-05/24/content_8734276_4.htm",
+          "date": "2024-05-24",
+          "detail": "Actual fake video produced by Guangzhou streamer using impersonator"
+        }
+      ],
+      "notes": "Police confirmed fabrication. Guangzhou case documented separately."
+    },
+    {
+      "claim_id": "C048",
+      "text": "重庆市公安局南岸区分局于2024年5月19日发布此通报",
+      "classification": "VERIFIED",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source": "People's Daily Chongqing",
+          "url": "http://cq.people.com.cn/n2/2024/0519/c365401-40849309.html",
+          "date": "2024-05-19",
+          "detail": "Timestamp and signature confirm May 19, 2024, by Nan'an Branch"
+        },
+        {
+          "source": "The Paper",
+          "url": "https://www.thepaper.cn/newsDetail_forward_27435869",
+          "date": "2024-05-19",
+          "detail": "Confirms issuer and date"
+        },
+        {
+          "source": "Chinanews",
+          "url": "http://www.chinanews.com/sh/2024/05-19/10219682.shtml",
+          "date": "2024-05-19",
+          "detail": "Attributes to official Weibo of Nan'an Branch"
+        }
+      ],
+      "notes": "Published on @pingannanan Weibo account. Confirmed by 3+ state media outlets."
+    }
+  ],
+  "summary": {
+    "total_claims": 48,
+    "verified": 48,
+    "unverified": 0,
+    "contradicted": 0,
+    "category_mismatch": 0,
+    "opinion_presented_as_fact": 0,
+    "not_applicable": 0,
+    "notes": "All 48 claims verified. C037 and C038 were originally tagged as 'opinion' in parse but are police factual findings supported by quantified evidence (400+ documented cases, shop closure, relocation, death threats)."
+  },
+  "gate_result": "PASS",
+  "gate_rationale": "All 48 atomic claims independently verified against authoritative sources. Primary source: official police bulletin from Chongqing PSB Nan'an Branch, 2024-05-19, confirmed by People's Daily, Xinhua, CCTV, Chinanews, The Paper. All specific figures match. No contradictions found.",
+  "actor_speech_flag": {
+    "flagged": false,
+    "details": "No unverified actor speech entered CLAIM_GATE. C028 and C029 attribute statements to Liu but are police-investigation-reported characterizations from private communications, verified as accurate reflections of the bulletin.",
+    "claims_attributing_to_actors": [
+      {
+        "claim_id": "C028",
+        "actor": "Liu (Pangmao's sister)",
+        "verification_status": "VERIFIED as police-reported characterization",
+        "independent_evidence": "Police investigation of Liu's statements during questioning"
+      },
+      {
+        "claim_id": "C029",
+        "actor": "Liu (Pangmao's sister)",
+        "verification_status": "VERIFIED as police-reported direct quotes",
+        "independent_evidence": "Police digital forensics of chat records, confirmed in CCTV report"
+      }
+    ]
+  },
+  "evidence_sources_summary": [
+    {
+      "name": "Official Police Bulletin",
+      "date": "2024-05-19",
+      "urls": [
+        "http://cq.people.com.cn/n2/2024/0519/c365401-40849309.html",
+        "http://www.chinanews.com/sh/2024/05-19/10219682.shtml",
+        "https://www.thepaper.cn/newsDetail_forward_27435869"
+      ]
+    },
+    {
+      "name": "Xinhua/CCTV Joint Report on Enforcement",
+      "date": "2024-05-23",
+      "urls": [
+        "https://finance.sina.com.cn/jjxw/2024-05-23/doc-inawfiat1509540.shtml"
+      ]
+    },
+    {
+      "name": "CCTV Investigative Report",
+      "date": "2024-05-24",
+      "urls": [
+        "https://news.china.com/social/1007/20240524/46587864_4.html",
+        "https://news.hangzhou.com.cn/shxw/content/2024-05/24/content_8734276_4.htm",
+        "https://www.163.com/dy/article/J2VRR1L00534AAOK.html"
+      ]
+    },
+    {
+      "name": "The Paper Detailed Report",
+      "date": "2024-05-26",
+      "urls": [
+        "https://www.thepaper.cn/newsDetail_forward_27515947"
+      ]
+    },
+    {
+      "name": "Luzhou Cyber Police (Xu Case)",
+      "date": "2024-05-09",
+      "urls": [
+        "https://www.thepaper.cn/newsDetail_forward_27302572",
+        "https://www.hunantoday.cn/news/xhn/202405/19898317.html"
+      ]
+    },
+    {
+      "name": "Jiangsu Police (Pan/Xue Case)",
+      "date": "2024-07-25",
+      "urls": [
+        "https://news.sina.cn/2024-07-25/detail-incfiqvi5332082.d.html"
+      ]
+    }
+  ]
+}

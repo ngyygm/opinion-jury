@@ -1,0 +1,12 @@
+{
+  "turn_id": "ASGN-004-004-round-06-responsive-rebuttal",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-4",
+  "round": 6,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "最后一轮了，我就简单说两句。六轮讨论下来，我还是那个想法：谁干坏事谁负责。把别人视频乱剪的那个人，他是根源，这个不会变。不过你们说的那个在视频上加标注的主意，我觉得确实不错。就像我们工地上的安全警示牌一样，写着施工中请绕行，看到了就知道怎么回事了。如果拍视频的人都能加上这种标注，我们刷视频的时候也能少上当。但归根到底，管好那些乱剪乱传的人才是最重要的。道理就是这么简单，不用想太复杂。好了，我说完了，明天还得早起上工呢。",
+  "target_turn_refs": ["ASGN-004-001-round-06-responsive-rebuttal", "ASGN-004-002-round-06-responsive-rebuttal"],
+  "public_question_refs": ["panel-004-public-question"],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

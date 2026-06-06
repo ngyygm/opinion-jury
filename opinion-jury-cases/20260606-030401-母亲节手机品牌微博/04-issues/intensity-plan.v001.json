@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "resolved_intensity": "medium",
+  "method": "user-specified",
+  "requested_intensity": "medium",
+  "auto_analysis": {
+    "note": "User explicitly requested 'medium' intensity; auto-analysis performed for documentation only.",
+    "content_volume_words": 280,
+    "claim_count": 15,
+    "institutional_attribution_count": 2,
+    "statistical_claims_present": false,
+    "statistical_claim_count": 0,
+    "affected_groups_count": 6,
+    "polarization_axes": [
+      "传统母亲形象 vs 多元母亲形象",
+      "追星文化的社会评价（'老公'称呼是否得体）",
+      "同人文化在主流社会的接受度",
+      "品牌价值观营销的边界",
+      "宠物文化与传统亲子观念"
+    ],
+    "domain_sensitivity": "moderate",
+    "high_risk_domains": [
+      "性别角色与家庭价值观",
+      "粉丝/饭圈文化社会评价",
+      "品牌公关风险"
+    ],
+    "emotional_hooks_count": 11
+  },
+  "rationale": "User explicitly requested 'medium' intensity. Independent analysis supports 'medium': (1) content is moderate-length marketing copy (~280 words) with 3 image-text combinations, (2) 15 atomic claims spanning opinion, factual, and definitional types but no statistical claims, (3) only 2 institutional attributions (brand itself and shopping mall), (4) 6 affected groups with 5 polarization axes around gender roles, fan culture, and brand values, (5) moderate domain sensitivity -- not high-risk like food safety or law enforcement but touches on sensitive cultural values around motherhood and family, (6) 11 emotional hooks. The content would rate 'low' on volume alone but the cultural sensitivity around redefining motherhood, the inclusion of fan culture and同人 culture elements, and the brand-as-institution dimension elevate it to 'medium'.",
+  "plan_numbers": {
+    "role_pool_size": 15,
+    "panel_count": 3,
+    "issues_per_panel": 3,
+    "research_depth": "moderate",
+    "rounds": 2
+  }
+}

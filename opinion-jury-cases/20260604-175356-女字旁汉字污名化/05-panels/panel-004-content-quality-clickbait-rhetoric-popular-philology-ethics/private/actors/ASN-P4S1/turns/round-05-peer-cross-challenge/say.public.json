@@ -1,0 +1,15 @@
+{
+  "turn_id": "ASN-P4S1-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-1",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "我想追加一个想法：SEAT-3说的不能无中生有这个底线我完全接受，SEAT-5说得对，做事要凭良心。但我想提一个区分——事实性的内容必须准确，这个没问题。但如果是观点表达、解读角度，比如'这些字的演变是否反映了性别歧视'这类讨论，是不是应该允许不同的看法？这篇文章的问题在于把不确定的事实说成了确定的事实，这个确实不对。但如果是写一篇'有人认为这些字反映了性别偏见，你怎么看？'这样的文章，哪怕角度有倾向性，是不是也应该允许？我只想说，底线是底线，但别让底线变成天花板，把讨论空间也压缩了。",
+  "target_turn_refs": [
+    "ASN-P4S3-round-04-responsive-rebuttal",
+    "ASN-P4S5-round-04-responsive-rebuttal"
+  ],
+  "public_question_refs": [],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

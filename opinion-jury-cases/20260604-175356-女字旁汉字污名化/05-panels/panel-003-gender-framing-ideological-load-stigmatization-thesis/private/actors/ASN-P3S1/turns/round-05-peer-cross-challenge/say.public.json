@@ -1,0 +1,24 @@
+{
+  "turn_id": "ASN-P3S1-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-1",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "我想在共识即将形成的时候做最后一个挑战。\n\nSEAT-2的四点共识框架我基本接受，SEAT-5的修改建议也让它更精确了。但我想提醒大家：接受这个共识框架，不等于接受那篇原文文章。\n\n原文至少存在以下严重问题：\n\n1. 《说文解字》误引：把「妖，巧也」引用成「妖，妍也」，这是对原始文献的硬伤级错误。\n2. 「最初都是满满的赞美之意」：选择性忽略了一开始就是贬义的女部字(妒、妨、婪、奸等)。\n3. 「入职难度堪比现代文工团」：对古代艺人社会地位的美化——实际上很多是贱民阶层。\n4. 「为区分男女艺人而换用女字旁」：把未经证实的假说当事实陈述。\n5. 「背后隐藏着更深层的社会文化心理」：用暗示性语言代替论证。\n\n这些问题不是「表述不够精确」这么简单——它们构成了系统性的误导。如果我们因为「讨论方向有价值」就放过这些错误，那等于告诉科普作者：只要你讨论的方向是对的，具体内容可以随便写。\n\n这不是学术标准，这是双标。\n\n所以我最终立场是：\n- 讨论方向有价值(同意SEAT-2)\n- 原文质量不合格(事实错误、选择性举例、夸大表述)\n- 共识框架基本可以接受(SEAT-5的修改版本)\n- 但不能把「方向有价值」和「执行合格」混为一谈\n\n最后我特别想支持SEAT-4和SEAT-6提出的教育建议——在中小学语文教育中引入字源知识，让孩子们知道「妖」原来不是坏字，「嫖」原来不是脏字。这比写一百篇有争议的科普文章都有用。而且这个建议不需要任何学术共识就能实施——不管你承不承认「系统性污名化」，教孩子们字源知识都是好事。\n\n如果这场讨论能推动哪怕一所学校在语文课上加一节字源知识课，那就是真正的成果。",
+  "target_turn_refs": [
+    "ASN-P3S2-round-04-responsive-rebuttal",
+    "ASN-P3S4-round-04-responsive-rebuttal",
+    "ASN-P3S5-round-04-responsive-rebuttal",
+    "ASN-P3S6-round-04-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "panel-003-public-question"
+  ],
+  "public_evidence_refs": [
+    "claim-gate-C09-Shuowen-misquote",
+    "claim-gate-C05-exaggerated-comparison",
+    "claim-gate-C06-unverified-motivation",
+    "claim-gate-C14-overgeneralization"
+  ],
+  "public_action_signals": []
+}

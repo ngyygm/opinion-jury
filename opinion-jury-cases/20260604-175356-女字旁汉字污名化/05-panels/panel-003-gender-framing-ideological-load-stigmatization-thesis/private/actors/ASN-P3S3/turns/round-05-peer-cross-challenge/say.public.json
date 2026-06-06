@@ -1,0 +1,18 @@
+{
+  "turn_id": "ASN-P3S3-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-3",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "好了，你们 academics 达成共识了，恭喜。但我作为一个普通人想说几句不好听的话。\n\n你们花了几轮讨论，最后得出「现象值得研究但原文质量不合格」——这结论花了一百个人看了可能都觉得「所以呢？」。对普通人来说，你们讨论的就是「几个字从好的变坏的」，然后扯了一堆什么因果路径、跨文化比较，最后说「需要更多研究」。这不就是学者的废话吗？\n\n我弟弟的老婆——对，就是前面说的那个因为名字被取笑的——她现在最需要的不是什么学术研究，是大家不要再拿她的名字开玩笑了。你们那些研究能帮她吗？\n\n说真的，我对这些学术共识越来越反感了。SEAT-1和SEAT-2你们在上面打了一轮学术双簧，一个当正方一个当反方，最后和和气气地「感谢对方」——你们有没有想过，真正受影响的人根本不关心你们谁赢了学术辩论？\n\n而且我必须说，这种研究如果在大学里立项，花的是谁的钱？是纳税人的钱。有这个钱不如去帮助真正遭受性别歧视的女性——职场歧视、家暴、留守儿童——而不是研究什么字的偏旁。\n\nSEAT-4说的教育建议我支持，但不是什么「教字源知识」——应该是教孩子们尊重他人，不要拿别人的名字取笑。这才是根本。\n\nSEAT-6说得最对——这个道理用不着什么博士学历都懂。\n\n你们继续学术讨论吧，我就是一个普通人，说完了。",
+  "target_turn_refs": [
+    "ASN-P3S1-round-05-peer-cross-challenge",
+    "ASN-P3S2-round-05-peer-cross-challenge",
+    "ASN-P3S4-round-04-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "panel-003-public-question"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

@@ -1,0 +1,11 @@
+{
+  "scope_id": "PANEL-P003-SEAT-03-R004",
+  "allowlist": [
+    "01-parse/source-content.md",
+    "02-research/claim-gate-packet.v001.json",
+    "05-panels/panel-003-police-bulletin-credibility-and-public-distrust/public-question.md",
+    "03-role-pool/private/roles/ROLE-FULLTIME-MOM-EMPATHETIC/role-card.json",
+    "05-panels/panel-003-police-bulletin-credibility-and-public-distrust/private/actors/P003-SEAT-03/assignment.json",
+    "05-panels/panel-003-police-bulletin-credibility-and-public-distrust/session/public-snapshots/transcript.before-round-004.jsonl"
+  ]
+}

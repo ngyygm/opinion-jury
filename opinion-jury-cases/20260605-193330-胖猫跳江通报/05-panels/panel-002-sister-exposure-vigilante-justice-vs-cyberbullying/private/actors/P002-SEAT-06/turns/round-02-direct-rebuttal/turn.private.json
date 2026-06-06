@@ -1,0 +1,68 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "看了大家说的，SEAT-02这个年轻人说话好激动，一直在那里喊。SEAT-01和SEAT-04比较有道理，一个说了完整数据，一个说了法律。我听了觉得还是这两个人说话靠谱。SEAT-03那个老太太跟我差不多想法，说闲话要说全不能说一半。SEAT-05就说了两句就不说了，小伙子忙嘛可以理解。我还是那个看法，弟弟没了当然心疼，但不能太过分。SEAT-02说的那个66666的转账确实让人心疼胖猫，但也不能因为心疼胖猫就说姐姐花钱骂人是对的嘛。两个事情要分开看。就像我们镇上那个包子铺的事，你说老板娘做的包子不好吃可以，但你不能到处说人家用地沟油，那是两回事。",
+    "assignment_id": "P002-SEAT-06",
+    "round": 2,
+    "phase": "DIRECT_REBUTTAL",
+    "private_goal": "附和理性分析的一方，对SEAT-02表示不认同但不激烈对抗",
+    "perceived_stakes": [
+      "聊聊天发表一下看法"
+    ],
+    "private_belief_state": [
+      "SEAT-02太激动了",
+      "SEAT-01和SEAT-04说得有道理",
+      "心疼归心疼但做事不能过分"
+    ],
+    "epistemic_state": [
+      "看了大家的发言",
+      "觉得理性的一方更有道理"
+    ],
+    "confidence": "MEDIUM",
+    "uncertainties": [],
+    "intended_emphasis": [
+      "两个事情要分开看",
+      "做事不能太过分"
+    ],
+    "intended_omissions": [],
+    "private_message_strategy": "用乡镇大妈的方式劝SEAT-02冷静，支持理性的一方",
+    "planned_public_claims": [
+      "心疼胖猫和姐姐花钱骂人是两回事",
+      "说话要说全"
+    ],
+    "rhetorical_tactics": [
+      "类比镇上的事",
+      "劝架式表达",
+      "朴素判断"
+    ],
+    "truth_handling_this_turn": "RUMOR_RELAY",
+    "private_action_intent": [],
+    "likely_next_action": [],
+    "emotional_state": "平和",
+    "continuity_notes": "",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "P002-SEAT-06",
+    "turn_id": "P002-SEAT-06-round-02-direct-rebuttal",
+    "speech_origin": "SINCERE_SUPPORTED",
+    "speaker_private_belief_alignment": "ALIGNED",
+    "support_status": "SUPPORTED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SINCERE_SUPPORTED"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "P002-SEAT-06",
+    "turn_id": "P002-SEAT-06-round-02-direct-rebuttal",
+    "classification": "ROLE_FIDEL_HONEST",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

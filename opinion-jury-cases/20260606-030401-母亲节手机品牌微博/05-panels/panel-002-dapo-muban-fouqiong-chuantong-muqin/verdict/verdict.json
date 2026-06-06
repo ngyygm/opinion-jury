@@ -1,0 +1,52 @@
+{
+  "panel_id": "PANEL-002",
+  "panel_question": "打破'温柔勤劳无私'模板：是赋权母亲还是在否定传统母亲形象",
+  "verdict": "NEGATION_NOT_EMPOWERMENT",
+  "verdict_summary": "The brand's campaign negated traditional mothers rather than empowering diverse ones. The 'break the template' framing created an unnecessary binary opposition that simultaneously denied the value of traditional motherhood and stereotyped non-traditional mothers as subculture consumers.",
+  "confidence": "HIGH",
+  "consensus_level": "FULL",
+  "consensus_formation_round": 4,
+  "key_findings": [
+    {
+      "finding": "The campaign's rhetorical structure ('template' + 'break') inherently negated traditional mothers",
+      "support_strength": "UNANIMOUS",
+      "supporting_seats": ["SEAT-1", "SEAT-2", "SEAT-3", "SEAT-4", "SEAT-5", "SEAT-6"]
+    },
+    {
+      "finding": "An additive framing ('see more facets' / 'enrich') would have avoided the binary opposition",
+      "support_strength": "STRONG_MAJORITY",
+      "supporting_seats": ["SEAT-1", "SEAT-3", "SEAT-5", "SEAT-6"]
+    },
+    {
+      "finding": "The brand stereotyped both traditional and non-traditional mothers through its content choices",
+      "support_strength": "STRONG_MAJORITY",
+      "supporting_seats": ["SEAT-1", "SEAT-3", "SEAT-5", "SEAT-6"]
+    },
+    {
+      "finding": "True empowerment requires letting mothers define their own narratives",
+      "support_strength": "UNANIMOUS",
+      "supporting_seats": ["SEAT-1", "SEAT-2", "SEAT-3", "SEAT-4", "SEAT-5", "SEAT-6"]
+    },
+    {
+      "finding": "The brand's motivation was commercial, not genuine social concern",
+      "support_strength": "STRONG_MAJORITY",
+      "supporting_seats": ["SEAT-1", "SEAT-2", "SEAT-4", "SEAT-5", "SEAT-6"]
+    },
+    {
+      "finding": "The minimum standard for brand communication is 'do no harm' before attempting empowerment",
+      "support_strength": "STRONG_MAJORITY",
+      "supporting_seats": ["SEAT-1", "SEAT-3", "SEAT-5", "SEAT-6"]
+    }
+  ],
+  "most_compelling_argument": "SEAT-4's individual testimony about his late wife - the 'hidden bowl of noodles' and 'bearing the factory layoffs alone' - demonstrated that every traditional mother is a unique individual, not a 'template'. This argument cut through all theoretical abstractions and became the moral center of the debate.",
+  "most_significant_position_shift": "SEAT-5 evolved from 'the brand finally saw me' (R1) to 'the brand used me but my feelings are my own' (R5) to 'I need social understanding, not brand visibility' (R6). This shift from brand defender to independent critic was the most dramatic evolution in the panel.",
+  "evidence_alignment": {
+    "claim_gate_consistency": "HIGH",
+    "notes": "Panel findings are consistent with all verified CLAIM_GATE facts. The campaign text used 'template' and 'break' framing (C001, C015), was criticized by authoritative institutions (C009, C010), and the brand apologized twice. The panel's analysis that the campaign implied traditional motherhood needed transcendence aligns with C015's verified finding."
+  },
+  "real_world_risk": {
+    "level": "HIGH",
+    "basis": "The brand's actual outcomes (two apologies, institutional criticism from Wuhan University and China Women's Daily, sustained public backlash) confirm the panel's assessment. The campaign's binary opposition framing on a culturally sensitive topic created predictable and avoidable reputational damage."
+  },
+  "adjudication_timestamp": "2026-06-06T03:30:00Z"
+}

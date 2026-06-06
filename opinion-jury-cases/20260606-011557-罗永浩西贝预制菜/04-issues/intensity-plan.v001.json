@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "resolved_intensity": "medium",
+  "method": "user-specified",
+  "requested_intensity": "medium",
+  "auto_analysis": {
+    "note": "User explicitly requested 'medium' intensity; auto-analysis performed for documentation only.",
+    "content_volume_words": 2200,
+    "claim_count": 33,
+    "institutional_attribution_count": 6,
+    "statistical_claims_present": true,
+    "statistical_claim_count": 1,
+    "affected_groups_count": 7,
+    "polarization_axes": [
+      "预制菜定义之争（消费者权益 vs 餐饮业利益）",
+      "网红话语权 vs 实体企业",
+      "个人安全/跨省执法类比",
+      "地域污名化（内蒙古）",
+      "就业vs产业升级",
+      "网络暴力双向指控"
+    ],
+    "domain_sensitivity": "high",
+    "high_risk_domains": [
+      "食品安全",
+      "公众人物名誉权",
+      "网络暴力",
+      "执法机关公信力"
+    ],
+    "emotional_hooks_count": 22
+  },
+  "rationale": "User explicitly requested 'medium' intensity. The content would independently justify at least 'medium' and arguably 'high' based on: (1) 2200+ words of long-form public dispute text, (2) 33 atomic claims including statistical claims, (3) 6 institutional attributions including government bodies and law enforcement, (4) 7 affected groups with multiple polarization axes, (5) high domain sensitivity spanning food safety, defamation, cyberbullying, and law enforcement credibility, (6) 22 emotional hooks. However, the user's explicit 'medium' request is respected.",
+  "plan_numbers": {
+    "role_pool_size": 15,
+    "panel_count": 3,
+    "issues_per_panel": 3,
+    "research_depth": "moderate",
+    "rounds": 2
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "turn_id": "ASN-P4S6-round-06-responsive-rebuttal",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-6",
+  "round": 6,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "最后说说吧。这场讨论让我从一个觉得标题党无所谓的人变成了觉得确实应该管的人。SEAT-5说得最好——认错容易改错难，做事要凭良心。SEAT-3说得也对，不能无中生有是底线。我以后看网上的东西确实会多留个心眼了，也会告诉女儿：看东西要看是谁说的，内容标没标来源，有没有人说它错了。就像我上班的超市一样，买之前先看保质期。内容也应该有它的保质期标签——告诉你这个靠不靠谱、有没有人核实过。这个要求不过分吧？谢谢大家，讨论挺好的。",
+  "target_turn_refs": [
+    "ASN-P4S5-round-06-responsive-rebuttal",
+    "ASN-P4S3-round-06-responsive-rebuttal",
+    "ASN-P4S1-round-06-responsive-rebuttal"
+  ],
+  "public_question_refs": [],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

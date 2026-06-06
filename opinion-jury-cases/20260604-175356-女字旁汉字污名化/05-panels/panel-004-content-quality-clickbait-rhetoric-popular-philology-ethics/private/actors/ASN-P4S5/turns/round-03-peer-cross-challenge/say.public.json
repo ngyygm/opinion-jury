@@ -1,0 +1,15 @@
+{
+  "turn_id": "ASN-P4S5-round-03-peer-cross-challenge",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-5",
+  "round": 3,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "SEAT-1后生，你说的'标来源'听起来是不错，但我问你一个事：你之前说这是'成熟的内容运营模板'，又说'八九十分就不错了'——这说明你自己是知道这里面有不准确的地方的，对不对？那知道不准确为什么还要往上写呢？我们村里有句话叫'装瞎子'——明明看得到偏偏要装看不到。你嘴上说改进，但你是真想改还是被大家说了才改口？我活了六十八年，嘴上说得再好听的人，我要看他的手在干什么。SEAT-3说得对，你前后说法不一致，这本身就说明问题了。",
+  "target_turn_refs": [
+    "ASN-P4S1-round-03-peer-cross-challenge",
+    "ASN-P4S3-round-03-peer-cross-challenge"
+  ],
+  "public_question_refs": [],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

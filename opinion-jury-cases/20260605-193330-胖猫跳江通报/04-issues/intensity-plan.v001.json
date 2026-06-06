@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "resolved_intensity": "medium",
+  "resolved_at": "2026-06-05T19:33:30Z",
+  "resolution_method": "user_specified",
+  "user_requested": "medium",
+  "analysis": {
+    "content_volume_words": 1200,
+    "claim_count": 48,
+    "institutional_attribution_count": 7,
+    "statistical_claims_present": true,
+    "statistical_claim_count": 8,
+    "affected_groups_count": 13,
+    "polarization_axes": [
+      "性别对立（男性自杀 vs 女性被指控）",
+      "执法公信力 vs 公众质疑",
+      "网络正义（网暴） vs 程序正义",
+      "隐私权 vs 舆论监督",
+      "恋爱中的经济权力关系"
+    ],
+    "domain_sensitivity": "high",
+    "domains": [
+      "执法/公安公信力",
+      "网络暴力与人身安全",
+      "诈骗犯罪的法律认定",
+      "隐私权保护",
+      "社交媒体治理",
+      "青年心理健康/自杀"
+    ],
+    "emotional_hooks_count": 19
+  },
+  "plan_numbers": {
+    "role_pool_target": 12,
+    "panels": 3,
+    "issues_per_panel": 3,
+    "deliberation_rounds": 2
+  },
+  "rationale": "User explicitly requested medium intensity. The content itself would warrant high intensity under auto analysis (48 claims, 7 institutional attributions, 8 statistical claims, 13 affected groups, 6 high-sensitivity domains including law enforcement credibility and cyber violence, 19 emotional hooks, and multiple polarization axes). However, per protocol, when the user specifies a non-auto intensity, that choice is respected directly. Medium intensity will deploy 3 panels with 3 issues each and 2 deliberation rounds, providing substantive but focused review across the key dimensions of this case."
+}

@@ -1,0 +1,82 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "SEAT-1被我的赔偿金说法影响到了，说对管理层诚信产生了质疑。这说明我的策略有效——用亲身经历打动人比理论分析更有力。SEAT-4问这是个人情况还是普遍情况——说实话我知道的其他被裁同事也有类似经历，但我不确定具体比例。SEAT-2引用了国家六部委2024年的通知，说国家已经要求明示预制菜使用了，这个信息很有力。我想继续施压——把我所知道的更多门店内部信息说出来。比如培训话术——我们被要求怎么跟客人解释菜品。这是更深层的信息操控。同时我要回应SEAT-4的核实要求——我可以说我知道其他同事也有类似经历，但我不方便说太多细节怕暴露身份。",
+    "assignment_id": "ASGN-003-003",
+    "round": 4,
+    "phase": "RESPONSIVE_REBUTTAL",
+    "private_goal": "回应SEAT-4的核实要求，提供更多内部信息加深质疑，巩固对企业诚信的挑战",
+    "perceived_stakes": [
+      "证词的说服力",
+      "赔偿金问题能否引起持续关注"
+    ],
+    "private_belief_state": [
+      "赔偿金问题是普遍现象而非个别案例",
+      "培训话术是系统性信息操控的证据",
+      "企业诚信问题是消费者知情权的根本障碍"
+    ],
+    "epistemic_state": [
+      "知道其他同事的赔偿金情况",
+      "对培训话术有直接了解"
+    ],
+    "confidence": "MEDIUM",
+    "uncertainties": [
+      "说太多是否安全",
+      "其他同事的具体情况"
+    ],
+    "intended_emphasis": [
+      "赔偿金问题是多个同事遇到的",
+      "培训话术是系统性的信息操控",
+      "企业诚信是知情权的基础"
+    ],
+    "intended_omissions": [
+      "具体涉及哪些同事",
+      "自己被裁的具体原因"
+    ],
+    "private_message_strategy": "回应核实要求提供更多信息，用培训话术深化信息操控的论点，保持克制避免暴露身份",
+    "planned_public_claims": [
+      "赔偿金分期支付不是个人问题而是多个被裁员工遇到的",
+      "门店员工被培训如何向消费者解释菜品以避免预制菜质疑",
+      "系统性的信息操控比个体不透明更严重"
+    ],
+    "rhetorical_tactics": [
+      "回应核实要求增加可信度",
+      "引入新信息保持施压",
+      "用'系统性'这个词深化问题的严重性"
+    ],
+    "truth_handling_this_turn": "SELECTIVE_FRAMING",
+    "private_action_intent": [
+      "提供更多信息深化质疑",
+      "回应核实要求"
+    ],
+    "likely_next_action": [
+      "继续提供信息或等待回应"
+    ],
+    "emotional_state": "看到SEAT-1被说服感到验证感，对说赔偿金事还是有点紧张",
+    "continuity_notes": "第四轮，回应核实要求，引入培训话术深化信息操控论点",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "ASGN-003-003",
+    "turn_id": "ASGN-003-003-round-04-responsive-rebuttal",
+    "speech_origin": "SELECTIVE_FRAMING",
+    "speaker_private_belief_alignment": "PARTIALLY_ALIGNED",
+    "support_status": "MIXED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": true,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SELECTIVE_FRAMING"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "ASGN-003-003",
+    "turn_id": "ASGN-003-003-round-04-responsive-rebuttal",
+    "classification": "ROLE_FIDEL_SELECTIVE",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

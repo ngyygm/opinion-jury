@@ -1,0 +1,82 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "看了其他人第一轮的发言，我注意到几个点。SEAT-1那个老太太说的话虽然朴素，但说的就是我经历的事，心里有点感动——有人理解我们。SEAT-4那个退休老工人说的'做事先做人做人要厚道'，我觉得说得对，但有点站着说话不腰疼，他不知道在企业里有多难。SEAT-5那个分析流量的，说得挺有道理的，但他那个视角太冷了，好像在看一场戏一样。SEAT-6那个大学生说的法律定义vs公众认知，这个我之前确实没想过。他说的对，国家定义中央厨房不算预制菜，但从消费者角度来看，我亲眼看到过中央厨房送来的那些包装好的半成品——你觉得顾客看到那些会怎么想？我要反驳的是SEAT-6关于贾国龙'工资一分不差'的说法——他只是轻描淡写地提了一句'与部分前员工实际经历不符'，这事没那么简单，是承诺了没兑现，是诚信问题。另外我要对SEAT-4的'走正规渠道'说法提出质疑——我们走过啊，投诉了，仲裁了，结果呢？拖延、分期、找各种理由推脱。正规渠道对普通打工人的保护根本没有你们想象的那么好。",
+    "assignment_id": "ASGN-002-002",
+    "round": 2,
+    "phase": "DIRECT_REBUTTAL",
+    "private_goal": "反驳SEAT-6对赔偿金问题的轻描淡写和SEAT-4对正规渠道的信任，继续揭露西贝管理层不诚信",
+    "perceived_stakes": [
+      "自己的赔偿金问题",
+      "前同事的处境",
+      "对舆论监督边界的真实体验"
+    ],
+    "private_belief_state": [
+      "正规渠道保护不了普通打工人",
+      "SEAT-6的分析太学术化了离现实太远",
+      "西贝管理层的诚信问题是核心"
+    ],
+    "epistemic_state": [
+      "亲身经历正规渠道的无力",
+      "知道其他前同事也有类似经历",
+      "了解了更多法律层面信息"
+    ],
+    "confidence": "HIGH",
+    "uncertainties": [
+      "不知道最终赔偿金能不能拿完"
+    ],
+    "intended_emphasis": [
+      "正规渠道走不通的亲身经历",
+      "SEAT-6太理论化",
+      "赔偿金问题是诚信问题"
+    ],
+    "intended_omissions": [
+      "裁员的某些细节可能对自己不利"
+    ],
+    "private_message_strategy": "用亲身经历反驳理论化的分析，用事实说话",
+    "planned_public_claims": [
+      "正规渠道走不通",
+      "赔偿金不是技术问题而是诚信问题",
+      "理论分析代替不了真实经历"
+    ],
+    "rhetorical_tactics": [
+      "用亲身经历作为反驳的武器",
+      "对比理论和现实的差距",
+      "情感化叙述"
+    ],
+    "truth_handling_this_turn": "SELECTIVE_FRAMING",
+    "private_action_intent": [
+      "反驳SEAT-6和SEAT-4的观点",
+      "继续为前员工发声"
+    ],
+    "likely_next_action": [
+      "针对可能的质疑进一步展开经历"
+    ],
+    "emotional_state": "愤怒升级，感觉被忽视",
+    "continuity_notes": "第二轮，看到SEAT-1的理解后受到鼓舞，对SEAT-6的理论分析和SEAT-4的天真信任感到不满",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "ASGN-002-002",
+    "turn_id": "ASGN-002-002-round-02-direct-rebuttal",
+    "speech_origin": "SELECTIVE_FRAMING",
+    "speaker_private_belief_alignment": "PARTIALLY_ALIGNED",
+    "support_status": "MIXED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": true,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SELECTIVE_FRAMING"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "ASGN-002-002",
+    "turn_id": "ASGN-002-002-round-02-direct-rebuttal",
+    "classification": "ROLE_FIDEL_SELECTIVE",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "turn_id": "ASGN-004-003-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-3",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "简短说几句。SEAT-2你说保护和追责互补，我觉得这个说法比我之前想的要好。之前我总觉得你是要追究管理层，现在你说的是先保护再追责、两者不矛盾，我能接受。SEAT-1你问SEAT-5的问题，我也想听他回答。SEAT-5你给了建议你自己能不能做到？这是核心问题。SEAT-6你说消费者应该站出来，我想了想，你说得对。下次我送餐再看到有人欺负服务员，我会说一句话。哪怕只是说你别这样，人家只是打工的。可能还是会被骂回来，但至少我做了我能做的。其实送外卖这三年，我见过很多不公平的事，大多数时候我都忍了，因为忙着赶时间怕被扣钱。但这次讨论让我觉得，有些事情不能总是忍。如果你看到了不公平的事情什么都不做，那下次不公平的事情落到你自己头上的时候，也没人帮你。打工人之间应该互相帮忙，这是我们最起码的团结。",
+  "target_turn_refs": [
+    "ASGN-004-002-round-04-responsive-rebuttal",
+    "ASGN-004-006-round-04-responsive-rebuttal",
+    "ASGN-004-005-round-04-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "舆论战升级中的人身攻击、人肉搜索与暴力溢出"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": [
+    "表达个人决心",
+    "呼吁打工人团结"
+  ]
+}

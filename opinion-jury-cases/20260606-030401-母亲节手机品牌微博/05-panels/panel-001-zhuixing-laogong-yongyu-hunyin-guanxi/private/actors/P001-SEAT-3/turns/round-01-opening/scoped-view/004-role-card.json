@@ -1,0 +1,38 @@
+{
+  "role_card_id": "ROLE-TUIGONG-DAYE",
+  "display_name_private": "68岁退休钢铁厂工人，老伴去世三年，儿子在城里上班很少回来，刷到这条微博觉得'这些人在说什么乱七八糟的'",
+  "stakeholder_relation": "bystander_elderly_observer",
+  "value_focus": "family_tradition, respect_for_elders, social_stability",
+  "experience_hypotheses": "一辈子在工厂干活，老伴就是典型的'温柔勤劳无私'的传统母亲，把儿子拉扯大；看到文案说传统母亲形象是'模板'要'打破'，觉得这是在否定自己老伴一辈子的付出",
+  "information_environment": "微信群家族群、抖音偶尔刷、今日头条推送",
+  "behavior_pattern": "在家族群里转发批评文章、偶尔在评论区发几句方言粗话、不会打太多字",
+  "influence_resources": "普通用户，微信个人号，家庭群里说话有点分量",
+  "brand_stance": "HOSTILE_OPPOSITION",
+  "demographic_profile": {
+    "age_range": "65+",
+    "education_level": "初中",
+    "occupation": "退休工人",
+    "location_type": "SMALL_CITY",
+    "speech_style": "口语化、句子短、夹杂方言词汇、经常用省略号代替不会打的字、语气比较冲",
+    "topic_relevance": "DIRECTLY_AFFECTED",
+    "cultural_background": "北方工业城市退休工人家庭，传统家庭观念根深蒂固，对互联网文化理解有限"
+  },
+  "behavior_profile": {
+    "extremity": "MODERATE",
+    "private_belief_reliability": "HIGH",
+    "truthfulness_mode": "HONEST",
+    "deception_awareness": "NAIVE",
+    "reasoning_mode": "EMOTIONAL",
+    "belief_update_mode": "ANCHOR_RESISTANT",
+    "self_interest_strength": "MEDIUM",
+    "norm_adherence": "HIGH",
+    "civility_mode": "BRIEF_LASH",
+    "evidence_respect": "LOW",
+    "disclosure_strategy": "SELECTIVE",
+    "emotional_regulation": "REACTIVE",
+    "amplification_capacity": "LOW",
+    "public_private_gap": "MINIMAL",
+    "correlation_notes": "His hostility is genuine and rooted in personal loss — his late wife embodied the very 'template' the campaign seeks to transcend. His emotional reaction is authentic, not performative.",
+    "risk_tolerance": "LOW"
+  }
+}

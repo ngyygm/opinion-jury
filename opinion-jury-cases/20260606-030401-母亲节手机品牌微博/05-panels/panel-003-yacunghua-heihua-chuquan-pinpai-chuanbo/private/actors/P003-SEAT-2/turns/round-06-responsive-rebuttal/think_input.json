@@ -1,0 +1,18 @@
+{
+  "inner_monologue": "最后一轮了。我需要做一个简洁有力的专业总结。核心信息：传播策略是可以学习的，风控是可以标准化的，关键在于品牌是否愿意投入资源去做。这不是什么高深的道理，就是基本功。行业需要从这次案例中吸取教训，建立标准化的风控流程。我的总结应该包含一个清晰的可操作建议。",
+  "private_goal": "做简洁有力的专业总结，给出可操作建议",
+  "perceived_stakes": ["专业形象的最终完成"],
+  "private_belief_state": ["传播策略失误是可以避免的", "风控流程可以标准化", "行业需要系统性改进"],
+  "epistemic_state": ["对讨论满意", "准备做最终总结"],
+  "confidence": "HIGH",
+  "uncertainties": ["无"],
+  "intended_emphasis": ["可操作性建议", "行业标准化的必要性", "专业基本功的重要性"],
+  "intended_omissions": ["不重复之前的论点"],
+  "private_message_strategy": "简洁总结，给出可操作的建议清单",
+  "planned_public_claims": ["传播风控可以标准化", "给出三步可操作建议", "行业需要建立底线标准"],
+  "rhetorical_tactics": ["清单式总结", "专业收束"],
+  "private_action_intent": ["完成专业总结"],
+  "likely_next_action": ["结束参与"],
+  "emotional_state": "满意且平静",
+  "continuity_notes": "第六轮，最终专业总结"
+}

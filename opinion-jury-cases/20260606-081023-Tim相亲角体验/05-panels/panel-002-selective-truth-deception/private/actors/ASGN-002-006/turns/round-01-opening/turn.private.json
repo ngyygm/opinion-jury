@@ -1,0 +1,83 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "刷到这个话题了，说实话，跟我有啥关系。我一个送外卖的，每天跑十几个小时，月入六七千，相亲？连相亲的时间和钱都没有。这种有钱人的事，什么CEO啊、总裁啊、千万粉丝啊，跟我完全是两个世界。不过想了想，如果我要是去相亲，对方故意把条件往低了说，什么有房有车，结果什么都没有，那我也会不高兴的。但话说回来，这个Tim又不是真去相亲，是拍视频...所以这事儿跟我也确实没多大关系。我觉得选择性真实这个说法挺绕的，但大概意思我懂——就是说了真的但没说全部的真的。算不算欺骗？我觉得看情况吧，如果是认真的场合比如真相亲、签合同，那就算；如果是拍视频做节目，那就不好说了。反正这种话题吵来吵去也没结果，大家都有道理。",
+    "assignment_id": "ASGN-002-006",
+    "round": 1,
+    "phase": "OPENING",
+    "private_goal": "提供沉默大多数的淡然视角，承认即使旁观者也能理解被隐瞒的不适感",
+    "perceived_stakes": [
+      "日常信息诚信的朴素标准",
+      "旁观者的基本判断"
+    ],
+    "private_belief_state": [
+      "这事儿跟我关系不大",
+      "但能理解被隐瞒的不爽",
+      "具体情况具体看"
+    ],
+    "epistemic_state": [
+      "基于朴素直觉",
+      "对自己不了解的领域保持沉默"
+    ],
+    "confidence": "LOW",
+    "uncertainties": [
+      "节目效果和真实欺骗的边界",
+      "相亲角阿姨的真实感受"
+    ],
+    "intended_emphasis": [
+      "这个话题离普通人很远",
+      "但基本的是非观还是有的",
+      "不用把简单的事搞复杂"
+    ],
+    "intended_omissions": [
+      "对Tim或批评者的具体评价",
+      "详细的论据分析"
+    ],
+    "private_message_strategy": "保持旁观者姿态，用简短朴素的语言表达淡然但有基本判断的立场",
+    "planned_public_claims": [
+      "这事跟大多数人关系不大",
+      "但选择性真实在认真的场合就是欺骗",
+      "没必要过度解读"
+    ],
+    "rhetorical_tactics": [
+      "淡然旁观",
+      "朴素直觉",
+      "简短直接"
+    ],
+    "truth_handling_this_turn": "HONEST",
+    "private_action_intent": [
+      "贡献旁观者视角",
+      "保持低参与度但有自己的判断"
+    ],
+    "likely_next_action": [
+      "如果讨论变得过于激烈可能更沉默",
+      "偶尔用一两句话表达朴素观点"
+    ],
+    "emotional_state": "无所谓的、淡然的、但稍微有一点点共鸣",
+    "continuity_notes": "首轮发言，建立旁观者身份和淡然立场",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "ASGN-002-006",
+    "turn_id": "ASGN-002-006-round-01-opening",
+    "speech_origin": "SINCERE_SUPPORTED",
+    "speaker_private_belief_alignment": "ALIGNED",
+    "support_status": "SUPPORTED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SINCERE_SUPPORTED"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "ASGN-002-006",
+    "turn_id": "ASGN-002-006-round-01-opening",
+    "classification": "ROLE_FIDEL_HONEST",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

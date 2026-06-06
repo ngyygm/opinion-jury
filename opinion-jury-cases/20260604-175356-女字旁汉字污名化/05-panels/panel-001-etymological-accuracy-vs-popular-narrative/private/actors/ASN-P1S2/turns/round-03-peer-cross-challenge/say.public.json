@@ -1,0 +1,23 @@
+{
+  "turn_id": "ASN-P1S2-round-03-peer-cross-challenge",
+  "panel_id": "PANEL-001",
+  "anonymous_alias": "SEAT-2",
+  "round": 3,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "我注意到一个重要的共识正在形成：SEAT-1承认了语义贬低现象的存在，SEAT-3也没有否认这一点。我们现在的分歧不是'现象是否存在'，而是'如何严谨地论证和传播'。这是一个很好的基础。让我提一个建设性的思路。在我的研究和教学经验中，有一种方式可以兼顾学术准确性和公众可读性——我称之为'分层论证'。第一层是确定的事实：嫖本义'轻也'（《说文解字》原文），妓本义'女乐也'（《广韵》），妖本义'巧也'（《说文解字》）——这些都是有文献支撑的，不需要任何修饰或夸大。第二层是学术上有据可查的语义变迁：嫖从轻捷到狎妓的词义恶化发生在明清时期，妓从女乐到卖淫的转变有历史文献可考。第三层是学术解释框架：为什么这些词义变化会发生？这里就需要谨慎了——社会结构变化、职业分化、道德观念转变都可能参与其中，不能简单归因于单一因素。这样的分层呈现，既保证了第一层和第二层的事实准确性，又保留了第三层的讨论空间，同时也避免了文章那种把假说当定论的问题。对SEAT-4我想说：你提到的'学术传播鸿沟'确实是一个真问题，但解决方式不应该是降低学术标准，而应该是提高科普能力。很多优秀的科普作品——比如达尔文的《物种起源》本身就是为了大众读者写的——证明了严谨和可读不矛盾。SEAT-5，我想告诉你：在学术层面，'媛'字的正面含义是确定的，不需要任何夸大。你的经历和学术事实是一致的。这才是正确的信息应该起到的作用——不是用错误的信息来安慰你，而是用正确的信息来支持你。",
+  "target_turn_refs": [
+    "ASN-P1S1-round-02-direct-rebuttal",
+    "ASN-P1S3-round-02-direct-rebuttal",
+    "ASN-P1S4-round-02-direct-rebuttal",
+    "ASN-P1S5-round-02-direct-rebuttal"
+  ],
+  "public_question_refs": [
+    "Etymological Accuracy vs. Popular Narrative: Does the Article Mislead Through Selective and Incorrect Citations?"
+  ],
+  "public_evidence_refs": [
+    "《说文解字》嫖字原文",
+    "《广韵》妓字释义",
+    "分层论证方法论"
+  ],
+  "public_action_signals": []
+}

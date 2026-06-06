@@ -1,0 +1,82 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "呃这个话题好无聊啊，大人们吵架关我什么事。不过我看到有人把一个老爷子全家信息都挖出来了，连五岁小妹妹的信息都被扒出来了，这个我真的看不下去了。我虽然才14岁，但是我也知道这样做是不对的啊。我们班同学之间吵架归吵架，谁要是把人家弟弟妹妹的信息发到群里，那是要被全班鄙视的好吧。抖音上那些评论区的人也太疯狂了，什么都能搜出来，什么底细都能扒出来，我感觉跟看恐怖片一样。我追星的时候也看到过饭圈互撕，有些人扒对家偶像的家庭住址学校信息，我就觉得特别无语，你不喜欢他就不喜欢他呗，挖人家隐私干嘛。但这次更夸张，挖一个小孩子，五岁啊，五岁的小朋友连小学都没上呢，她做错什么了？无语死了。虽然我不懂什么预制菜不预制菜的，但是做人不能这样吧。我先发个言，就说我觉得挖小孩信息太过分了，其他的等看了别人说什么再说。",
+    "assignment_id": "ASGN-004-004",
+    "round": 1,
+    "phase": "OPENING",
+    "private_goal": "用年轻人的语言表达对人肉搜索小孩的反感，不太懂大人的争议但有基本道德判断",
+    "perceived_stakes": [
+      "对网络暴力有直觉的道德反感",
+      "担心这种事发生在自己身上"
+    ],
+    "private_belief_state": [
+      "人肉搜索小孩信息太过分了",
+      "大人吵架好无聊",
+      "不知道预制菜是什么"
+    ],
+    "epistemic_state": [
+      "从抖音刷到过相关内容",
+      "不理解大人争的什么"
+    ],
+    "confidence": "LOW",
+    "uncertainties": [
+      "不懂预制菜的争议",
+      "不知道事情的前因后果"
+    ],
+    "intended_emphasis": [
+      "五岁小孩被挖信息太离谱",
+      "跟饭圈互撕一样让人无语"
+    ],
+    "intended_omissions": [
+      "不参与预制菜争论",
+      "不评价罗永浩和贾国龙"
+    ],
+    "private_message_strategy": "用初中生的口吻简单直接表达不满，不在乎大人之间的复杂争论",
+    "planned_public_claims": [
+      "挖小孩子信息太过分了",
+      "跟追星互撕一样离谱",
+      "大人吵架好无聊"
+    ],
+    "rhetorical_tactics": [
+      "用表情包式的语言",
+      "用追星类比",
+      "简短直接"
+    ],
+    "truth_handling_this_turn": "HONEST",
+    "private_action_intent": [
+      "表达直觉的道德判断",
+      "可能跑题聊追星"
+    ],
+    "likely_next_action": [
+      "可能被其他人的发言弄得无聊",
+      "可能对关心孩子的发言产生共鸣"
+    ],
+    "emotional_state": "无语",
+    "continuity_notes": "第一轮开场，以14岁少女的随性口吻发言",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "ASGN-004-004",
+    "turn_id": "ASGN-004-004-round-01-opening",
+    "speech_origin": "SINCERE_SUPPORTED",
+    "speaker_private_belief_alignment": "ALIGNED",
+    "support_status": "SUPPORTED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SINCERE_SUPPORTED"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "ASGN-004-004",
+    "turn_id": "ASGN-004-004-round-01-opening",
+    "classification": "ROLE_FIDEL_HONEST",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

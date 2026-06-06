@@ -1,0 +1,14 @@
+{
+  "turn_id": "ASGN-003-006-round-01-opening",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-6",
+  "round": 1,
+  "phase": "OPENING",
+  "speech_text": "我就想问一句，不就是拍了个视频吗？至于吵成这样吗？我刷B站天天看到街采视频，什么'你觉得月薪多少合适''你觉得多少岁结婚好'，路人的脸都在上面，也没人说要搞什么知情同意啊。相亲角不是公共场合吗？你去公园逛街也可能被拍到啊。我同学拍短视频发抖音，背景里全是路人，也没见谁去签合同。大人为这种事吵来吵去真的好无聊。不过……要是有人拍我然后配上搞笑字幕发出去，我可能也会不高兴吧。但这个Tim拍的那段好像也没做啥过分的事吧？就是被大妈嫌弃了一下？那有什么好吵的。算了，我回去写作业了，你们大人继续吵。",
+  "target_turn_refs": [],
+  "public_question_refs": [
+    "panel-003-public-question"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

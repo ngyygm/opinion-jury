@@ -1,0 +1,21 @@
+{
+  "turn_id": "ASGN-003-002-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-2",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "退休大姐说我话说过了头，我接受这个批评。我不去猜Tim心里怎么想的，我就说他团队做了什么——编导准备了选择性真实的简历，制片人做了场地申请但没做被拍摄者告知，整个流程确保了拍摄顺利但没保障被拍摄者的知情权。这是策划方向的选择，不是灰区。回到三层方案。我想挑战一个假设——做运营的朋友接受了第一二层但拒绝第三层，理由是创作者不知道内容会不会火。前媒体编辑已经回应了这个点：告知的是粉丝量级不是播放量。我想加一个角度——如果你不接受第三层，那我问你：一个100粉丝的账号和一个2800万粉丝的账号去相亲角拍同样的内容，被拍摄者的处境一样吗？100粉丝的可能没几个人看到，被拍的人风险很小。2800万粉丝的，被拍的人可能一夜之间被几百万人评论。同样的拍摄行为，风险差了几十万倍，你告诉被拍摄者的标准却一样？这合理吗？退休大姐说得对，我不该去定性Tim是善意还是恶意。但我坚持：不管善意恶意，结果就是被拍摄者没有得到充分的知情。三层方案少了任何一层，知情同意就是有缺口的。",
+  "target_turn_refs": [
+    "ASGN-003-004-round-04-responsive-rebuttal",
+    "ASGN-003-001-round-05-peer-cross-challenge",
+    "ASGN-003-005-round-04-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "panel-003-public-question"
+  ],
+  "public_evidence_refs": [
+    "C008",
+    "C011"
+  ],
+  "public_action_signals": []
+}

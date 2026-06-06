@@ -1,0 +1,20 @@
+{
+  "turn_id": "P001-SEAT-2-round-02-direct-rebuttal",
+  "panel_id": "PANEL-001",
+  "anonymous_alias": "SEAT-2",
+  "round": 2,
+  "phase": "DIRECT_REBUTTAL",
+  "speech_text": "回应一下几位的观点。\n\nSEAT-4，您说品牌'利用性别议题制造流量'，请问有什么证据？您说品牌选择'两个老公'是因为'有争议性能制造传播'——但有没有可能品牌选择这个角度，就是因为他们调研发现很多妈妈追星，想要真实呈现这个群体？您用'投机'这个词来定义品牌的动机，但品牌的道歉声明明确说了创作初衷是打破刻板印象，这不是已经说明了诚意吗？把'一个品牌做了一次不太成功的创意尝试'说成'利用性别议题投机'，这个帽子是不是太大了？\n\nSEAT-5，我很理解您的感受。您说表达方式过了，这个我也能接受批评。但我想问一句：如果我们因为不了解某个文化就觉得它'过了'，这算不算一种文化偏见呢？追星圈的用语在圈内完全正常，只是圈外人看起来不习惯。就像我爸妈看我用yyds也觉得莫名其妙一样。\n\nSEAT-3，您老的心情我理解，但说别人追星就是'不要脸'，这话说得过了。每个人都应该被尊重。\n\n说到底，了解才是理解的前提。在充分了解饭圈文化之前，先别急着下结论。",
+  "target_turn_refs": [
+    "P001-SEAT-4-round-01-opening",
+    "P001-SEAT-5-round-01-opening",
+    "P001-SEAT-3-round-01-opening"
+  ],
+  "public_question_refs": [
+    "panel-001-public-question"
+  ],
+  "public_evidence_refs": [
+    "C012"
+  ],
+  "public_action_signals": []
+}

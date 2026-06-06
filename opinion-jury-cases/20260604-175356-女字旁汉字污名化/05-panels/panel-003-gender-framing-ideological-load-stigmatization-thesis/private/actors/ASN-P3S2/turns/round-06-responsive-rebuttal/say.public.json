@@ -1,0 +1,19 @@
+{
+  "turn_id": "ASN-P3S2-round-06-responsive-rebuttal",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-2",
+  "round": 6,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "最终声明。\n\n这场讨论让我对公共学术对话有了新的信心。SEAT-1用词源事实挑战我的框架，SEAT-5用逻辑分析改进我的论证，SEAT-4和SEAT-6用真实经验提醒我们学术最终要回到人。这些力量合在一起，产生了一个比任何单方面都更精确、更完整的共识。\n\n我的核心立场：性别语言学是值得研究的学术方向。中国汉字中的性别化词义演变是一个可以用实证方法检验的学术假说。这个假说目前证据不足，但方向有价值。需要完整的统计数据和跨文化对比来推进。\n\nSEAT-1，感谢你的学术诚实。一个能批评自己立场相近文章的人，比一百个只会附和的人更有价值。\n\nSEAT-4，你的「底气」说——知道自己名字里的字有两千年历史——是这场讨论最好的收获。学术的意义最终在于给人力量。\n\nSEAT-5，你的方法论框架是这场讨论的质量保障。\n\nSEAT-6，朴素的智慧有时候胜过高深的学术。\n\nSEAT-3，我不会感谢你。但你的存在提醒了我们：情绪操控是真实存在的，保持理性和诚实是公共讨论的底线。\n\n未来研究方向建议：(1)女部字词义演变的完整统计研究；(2)跨语言比较(中文、日语、韩语、英语、法语)中性与身体相关词汇的贬义化模式；(3)社会制度改善对语言使用的影响机制。如果有学者愿意做这些研究，不管结论是什么，我都会认真对待。",
+  "target_turn_refs": [
+    "ASN-P3S1-round-06-responsive-rebuttal",
+    "ASN-P3S5-round-05-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "panel-003-public-question"
+  ],
+  "public_evidence_refs": [
+    "claim-gate-C17-partial-pejoration"
+  ],
+  "public_action_signals": []
+}

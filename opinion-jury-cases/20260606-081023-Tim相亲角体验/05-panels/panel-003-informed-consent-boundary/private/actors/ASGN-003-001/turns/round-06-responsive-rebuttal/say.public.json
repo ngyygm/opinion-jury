@@ -1,0 +1,19 @@
+{
+  "turn_id": "ASGN-003-001-round-06-responsive-rebuttal",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-1",
+  "round": 6,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "最后一轮了，我说点掏心窝子的话。这个标题问的是——「告知在拍摄」等于「告知你将被娱乐化」吗？我六轮说下来，答案很清楚：不等于。你告诉我'在拍'，我以为是拍个正经东西。结果你是几千万粉丝的大V，你隐瞒了身份，你拍完被切片传播到全网。我同意的是'被拍一下'，不是'被当成素材让几百万人看'。这不是一件事，这是两件事。这三层方案——正常拍说一声、装了别人要说、粉丝多也要说——我觉得很好，我支持。但我想说最后一句话：这个讨论不能只是关于Tim的。像我这样的人，在菜市场、在公园、在镇上，天天都有人举着手机拍。我们不懂什么信息对称、什么分层标准，我们只知道人家客客气气地说'拍一下'，我们就说好。我们的'同意'太廉价了，不是因为我们不在乎，是因为我们不懂。所以这三层方案，不是什么高标准，是让我们这些不懂的人也能被保护的基本线。谢谢你们听我这个老太婆说了六轮。",
+  "target_turn_refs": [
+    "ASGN-003-003-round-05-peer-cross-challenge",
+    "ASGN-003-005-round-05-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "panel-003-public-question"
+  ],
+  "public_evidence_refs": [
+    "C006"
+  ],
+  "public_action_signals": []
+}

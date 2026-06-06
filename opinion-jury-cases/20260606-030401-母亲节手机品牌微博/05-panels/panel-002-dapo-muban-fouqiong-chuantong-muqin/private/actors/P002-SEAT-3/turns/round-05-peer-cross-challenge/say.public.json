@@ -1,0 +1,17 @@
+{
+  "turn_id": "P002-SEAT-3-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-3",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "SEAT-1你的挑战很尖锐，我得诚实回应。你说得对，品牌做母亲节营销的核心目的是商业转化，不是社会公益。但我想说商业营销和社会价值不完全对立——好的营销可以在实现商业目标的同时不伤害人。关键是品牌愿不愿意投入更多成本。比如真的让妈妈自己讲述故事而不是品牌来定义，这在技术上完全可行——拍纪录片式的真实采访，让妈妈用自己话说自己的生活。只是成本更高、品牌对内容的控制力更低。品牌愿不愿意放弃这种控制力才是真正的考验。但我也想挑战SEAT-6——你提出了'参与式传播'作为解决方案，但在商业营销中品牌真的愿意放弃内容控制权吗？如果品牌最终还是要在UGC里筛选、编辑、包装，那所谓的'让妈妈自己说话'是不是也只是另一种更隐蔽的品牌叙事？理论方案很完美，但现实中的品牌营销能走到哪一步？",
+  "target_turn_refs": [
+    "P002-SEAT-1-round-04-responsive-rebuttal",
+    "P002-SEAT-6-round-04-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "panel-002-public-question"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

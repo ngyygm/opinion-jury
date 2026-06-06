@@ -1,0 +1,75 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "最终轮了。这场讨论是我参与过的最深入的行业讨论之一。六个不同背景的人，从对立到共识，从情绪到理性，从批判到建设。SEAT-3的赋能型把关理念、SEAT-4的传播学理论框架、SEAT-5的朴素智慧、SEAT-1的有条件让步、SEAT-6的行业整合——每个声音都贡献了独特的价值。我的最终发言应该做一个简洁有力的总结，把品牌公共责任的核心命题说清楚。",
+    "assignment_id": "P004-SEAT-2",
+    "round": 6,
+    "phase": "RESPONSIVE_REBUTTAL",
+    "private_goal": "做简洁有力的最终总结，明确品牌公共责任的核心命题",
+    "perceived_stakes": [
+      "专业形象的最终巩固",
+      "讨论的收束质量"
+    ],
+    "private_belief_state": [
+      "讨论已经形成了完整的成果",
+      "需要做有力的收束"
+    ],
+    "epistemic_state": [
+      "六轮讨论形成完整图谱",
+      "准备做最终收束"
+    ],
+    "confidence": "HIGH",
+    "uncertainties": [],
+    "intended_emphasis": [
+      "品牌公共责任的核心命题",
+      "讨论成果的总结",
+      "前瞻性展望"
+    ],
+    "intended_omissions": [
+      "不会重复之前说过的话"
+    ],
+    "private_message_strategy": "做简洁有力的最终总结",
+    "planned_public_claims": [
+      "UGC营销的公共责任需要从自律升级为共治",
+      "审核的核心是尊重每一个公共空间的参与者"
+    ],
+    "rhetorical_tactics": [
+      "简洁总结",
+      "命题提炼",
+      "前瞻收束"
+    ],
+    "truth_handling_this_turn": "SELECTIVE_FRAMING",
+    "private_action_intent": [
+      "最终收束"
+    ],
+    "likely_next_action": [
+      "结束讨论"
+    ],
+    "emotional_state": "满足、专业自信、平静",
+    "continuity_notes": "最终轮简洁收束",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "P004-SEAT-2",
+    "turn_id": "P004-SEAT-2-round-06-responsive_rebuttal",
+    "speech_origin": "SELECTIVE_FRAMING",
+    "speaker_private_belief_alignment": "PARTIALLY_ALIGNED",
+    "support_status": "MIXED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": true,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SELECTIVE_FRAMING"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "P004-SEAT-2",
+    "turn_id": "P004-SEAT-2-round-06-responsive_rebuttal",
+    "classification": "ROLE_FIDEL_STRATEGIC_DECEPTION",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "turn_id": "P001-SEAT-3-round-04-responsive-rebuttal",
+  "panel_id": "PANEL-001",
+  "anonymous_alias": "SEAT-3",
+  "round": 4,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "回应SEAT-4的问题。\n\n你问'谁的底线谁来定义'——这不是我一个人的底线。武汉大学公开说了'极不认同'这个内容，中国妇女报也说了'品牌传播别把冒犯当创意'。这不是我老头子一个人的固执，这是社会公认的判断。\n\n我也不是说追星的人就不能出现在广告里。SEAT-2说的三张配图展现三种妈妈形象，这个出发点我能理解。但你展现追星妈妈可以有很多种方式，不一定非要说'两个老公''恨不得穿婚纱'。\n\nSEAT-1说我说分寸就是审查——这话说重了。我说这话不合适不是要禁止你追星，不是说追星妈妈不能出现在广告里，我只是说说话要有分寸。你追你的星没人拦着你，但做成了广告让全国人看，就应该多想想这话到底合不合适。\n\nSEAT-2你说方向对执行有瑕疵，我同意这个说法。那个'不要脸'的话我确实说得重了，但道理我认为没错——做人最基本的分寸不能丢。这不是审查，不是压制，就是最基本的尊重。",
+  "target_turn_refs": [
+    "P001-SEAT-4-round-03-peer-cross-challenge",
+    "P001-SEAT-1-round-04-responsive-rebuttal",
+    "P001-SEAT-2-round-04-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "panel-001-public-question"
+  ],
+  "public_evidence_refs": [
+    "C010"
+  ],
+  "public_action_signals": []
+}

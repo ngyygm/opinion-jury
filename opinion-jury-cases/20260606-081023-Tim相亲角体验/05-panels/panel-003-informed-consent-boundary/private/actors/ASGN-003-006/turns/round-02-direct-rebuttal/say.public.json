@@ -1,0 +1,16 @@
+{
+  "turn_id": "ASGN-003-006-round-02-direct-rebuttal",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-6",
+  "round": 2,
+  "phase": "DIRECT_REBUTTAL",
+  "speech_text": "你们吵了这么多我大概听懂了一点点。那个幼儿园老师说的我觉得比较好懂——就是被拍的人得真的明白怎么回事才行。我就想到我们学校发手机使用同意书，老师让你签字之前得先给你念一遍讲清楚吧？要是老师啥也不说就让你签，签了你都不知道签了啥，那这个同意有什么用？所以那个阿姨在相亲角，人家告诉她'在拍'了，但她不知道拍的是谁、拍了会怎样。这不就跟老师啥也不说让你签字一样吗？光说了'在拍'两个字，人家又不知道你是几千万粉丝的大V，这算什么知情？不过话说回来，这些大人真的好能吵，一个视频的事能吵出这么多道理来。我还是觉得拍个视频不至于上纲上线到这种程度吧？但你们要吵就继续吵吧，我先写完作业再说。",
+  "target_turn_refs": [
+    "ASGN-003-003-round-02-direct-rebuttal"
+  ],
+  "public_question_refs": [
+    "panel-003-public-question"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

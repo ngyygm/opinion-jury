@@ -1,0 +1,14 @@
+{
+  "turn_id": "ASN-P1S6-round-01-opening",
+  "panel_id": "PANEL-001",
+  "anonymous_alias": "SEAT-6",
+  "round": 1,
+  "phase": "OPENING",
+  "speech_text": "说实话，这种话题我平时刷到就直接划走了。什么女字旁不女字旁的，跟咱有什么关系？我一个绑钢筋的，每天想的是工钱能不能按时发，别出安全事故。你们说的那些什么《说文解字》啊，词源啊，古义今义啊，我一个字都看不太明白。我就觉得吧，一个字现在是什么意思就是什么意思，你说它几千年前是什么意思，那有什么用呢？能当饭吃？能多发工钱？那个说名字被人取笑的，我倒能理解一点。我工地上有个工友叫富贵，天天被人开玩笑说'富贵你咋还在这搬砖'。取笑名字这个事跟字旁没关系，什么名字都能被取笑。不过你们读书人要讨论就讨论吧，我就看看热闹。",
+  "target_turn_refs": [],
+  "public_question_refs": [
+    "Etymological Accuracy vs. Popular Narrative: Does the Article Mislead Through Selective and Incorrect Citations?"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

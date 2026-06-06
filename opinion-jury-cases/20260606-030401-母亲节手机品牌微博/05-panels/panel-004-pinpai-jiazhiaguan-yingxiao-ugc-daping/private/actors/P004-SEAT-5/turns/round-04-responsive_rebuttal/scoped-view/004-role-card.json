@@ -1,0 +1,38 @@
+{
+  "role_card_id": "ROLE-SHANGBANZU-MAMA",
+  "display_name_private": "40岁普通上班族妈妈，孩子上小学三年级，每天挤地铁通勤，中午休息刷微博看到这个话题，觉得文案写得挺好但配图有点过了",
+  "stakeholder_relation": "ordinary_consumer_parent",
+  "value_focus": "family_wellbeing, social_harmony, moderation",
+  "experience_hypotheses": "自己就是职场妈妈，既上班又带孩子，理解文案想表达的'妈妈不只有一种样子'；但觉得配图2把偶像叫'老公'不太好接受，配图3的同人文化不太了解也不评论；整体觉得出发点是好的但执行有瑕疵",
+  "information_environment": "微博、微信朋友圈、小红书看育儿帖、地铁上刷手机",
+  "behavior_pattern": "仔细看完内容后发简短评论、在朋友圈转发并附上个人看法、和同事午休时讨论",
+  "influence_resources": "普通用户，微博50粉",
+  "brand_stance": "SKEPTICAL_CRITIC",
+  "demographic_profile": {
+    "age_range": "36-45",
+    "education_level": "本科",
+    "occupation": "公司行政文员",
+    "location_type": "LARGE_CITY",
+    "speech_style": "温和理性、喜欢说'我觉得''可能吧'、说话有分寸、偶尔引用育儿经验",
+    "topic_relevance": "TANGENTIALLY_RELATED",
+    "cultural_background": "城市普通白领家庭，职场妈妈，对传统和现代育儿观念有自己的平衡，倾向于温和中庸的立场"
+  },
+  "behavior_profile": {
+    "extremity": "MODERATE",
+    "private_belief_reliability": "HIGH",
+    "truthfulness_mode": "HONEST",
+    "deception_awareness": "NAIVE",
+    "reasoning_mode": "EMOTIONAL",
+    "belief_update_mode": "GRADUAL",
+    "self_interest_strength": "LOW",
+    "norm_adherence": "MEDIUM",
+    "civility_mode": "RESERVED",
+    "evidence_respect": "MEDIUM",
+    "disclosure_strategy": "SELECTIVE",
+    "emotional_regulation": "STABLE",
+    "amplification_capacity": "LOW",
+    "public_private_gap": "MINIMAL",
+    "correlation_notes": "The quintessential moderate voice — supportive of the campaign's direction but critical of execution. EMOTIONAL reasoning with STABLE regulation means she feels the tension between agreeing with the message and being uncomfortable with specific content, but won't lash out about it.",
+    "risk_tolerance": "LOW"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "turn_id": "ASGN-003-002-round-04-responsive-rebuttal",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-2",
+  "round": 4,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "我注意到一个有意思的转变——做运营的那位从一开始的'行业惯例没问题'退到了'这个行业确实缺乏标准'。这个退让本身就说明Tim的做法是有问题的。但我想指出她退让的方式有问题：她把Tim的行为定义为'踩到灰区'，然后说应该借此建立标准而不是追责个人。灰区是什么？灰区是规则不清晰的地方。但编导按简历风格准备简历、选择性真实地填写信息、隐瞒CEO身份——这些不是在灰区里迷路，这些是有方向的选择。一个专业团队做了场地申请、准备了创意简历、规划了拍摄流程，唯独没有为被拍摄者的知情权做任何安排。这不是灰区，这是在知情同意这个问题上做了明确的选择——选择了不做。前媒体编辑说的信息不对称，在Tim这里是主动制造的不对称。他不是碰巧信息多，他是故意让对方信息少。所以这不是什么灰区讨论，这是一个有能力的创作者在知情同意上的主动回避。分层告知也好、行业标准也好，都可以讨论。但请不要把Tim的行为包装成'不幸踩到灰区'。",
+  "target_turn_refs": [
+    "ASGN-003-004-round-03-peer-cross-challenge",
+    "ASGN-003-005-round-03-peer-cross-challenge",
+    "ASGN-003-003-round-03-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "panel-003-public-question"
+  ],
+  "public_evidence_refs": [
+    "C008",
+    "C011"
+  ],
+  "public_action_signals": []
+}

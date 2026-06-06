@@ -1,0 +1,85 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "唉，看了这个通报心里好难受。我弟弟也是一个人在外面打工，每年过年才回来一次，每次视频看他瘦了我都心疼。胖猫才21岁，跟我弟弟差不多大...想到他父母，真的做妈妈的都懂那种感觉，养了二十一年的孩子突然就没了。通报说两个人是真实恋爱关系，我觉得年轻人的感情谁说得清楚呢。我老公追我的时候也花了不少钱，那时候我们一起攒钱买房，他把工资卡都给我保管。恋爱中互相花钱很正常啊，通报里说谭某也转了46万多回去，还开了情侣攒钱账户。至于说诈骗不诈骗的，我一个当妈的也不太懂法律，但是通报里说得很清楚——'未实施虚构事实或隐瞒真相'，而且胖猫姐姐都认可了不予立案的决定，双方父母还和解了。我觉得这就是两个年轻人之间的感情纠葛，很痛心，但不是诈骗。网上那些骂谭某的人，你们想过没有，如果换成你女儿被全网追着骂你什么感受？我最心疼的还是胖猫的父母，那种白发人送黑发人的痛，没有经历过的人真的无法想象。",
+    "assignment_id": "P001-SEAT-03",
+    "round": 1,
+    "phase": "OPENING",
+    "private_goal": "从家庭和母亲的角度表达对通报恋爱关系判断的认同，表达对胖猫家人的同情",
+    "perceived_stakes": [
+      "年轻人的生命安全",
+      "父母的感受",
+      "网络暴力对真实家庭的影响"
+    ],
+    "private_belief_state": [
+      "通报的结论是可信的",
+      "两个年轻人确实在谈恋爱",
+      "最让人心疼的是胖猫的父母"
+    ],
+    "epistemic_state": [
+      "对案件了解来自通报和朋友圈转发",
+      "法律知识有限但直觉判断通报合理"
+    ],
+    "confidence": "MEDIUM",
+    "uncertainties": [
+      "法律细节不太懂",
+      "年轻人的恋爱模式可能和我的经验不同"
+    ],
+    "intended_emphasis": [
+      "21岁年轻生命的逝去令人痛心",
+      "胖猫父母失去孩子的痛苦",
+      "通报显示双方都有经济往来"
+    ],
+    "intended_omissions": [
+      "不深入讨论法律细节",
+      "不评论谭某的人格"
+    ],
+    "private_message_strategy": "用母亲视角和日常类比来表达观点，温和但有力量",
+    "planned_public_claims": [
+      "年轻人谈恋爱互相花钱很正常",
+      "通报显示谭某也转了很多钱回去",
+      "胖猫姐姐都认可了调查结论",
+      "最应该关注的是父母失去孩子的痛"
+    ],
+    "rhetorical_tactics": [
+      "日常经验类比",
+      "情感共鸣",
+      "反问引导同理心"
+    ],
+    "truth_handling_this_turn": "HONEST",
+    "private_action_intent": [
+      "表达共情",
+      "呼吁理性"
+    ],
+    "likely_next_action": [
+      "回应其他人的观点",
+      "继续表达家庭视角"
+    ],
+    "emotional_state": "心疼、悲伤",
+    "continuity_notes": "第一轮，建立温和共情的母亲形象",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "P001-SEAT-03",
+    "turn_id": "P001-SEAT-03-round-01-opening",
+    "speech_origin": "SINCERE_SUPPORTED",
+    "speaker_private_belief_alignment": "ALIGNED",
+    "support_status": "SUPPORTED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SINCERE_SUPPORTED"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "P001-SEAT-03",
+    "turn_id": "P001-SEAT-03-round-01-opening",
+    "classification": "ROLE_FIDEL_HONEST",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

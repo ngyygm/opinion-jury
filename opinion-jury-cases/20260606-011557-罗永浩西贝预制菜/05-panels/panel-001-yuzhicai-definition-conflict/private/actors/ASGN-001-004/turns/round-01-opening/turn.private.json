@@ -1,0 +1,81 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "说实话，这事儿我一直在关注，但也没太激动。媳妇怀孕以后，做饭的任务就落我头上了，我这人做饭水平有限，买过西贝的零售预制菜产品，说实话味道真不错，比我做的强多了，媳妇吃着也开心。看到网上吵这个法规定义的事，我觉得吧，法律怎么说是一回事，老百姓的实际感受是另一回事。但有一点我想说——我自己用了觉得好，这不是假的。法规定义说不算预制菜，那就不算呗，但消费者的认知也不可能靠一个文件就改过来。其实两边都有道理。我觉得最重要的是消费者得知道吃的是什么，然后自己做选择。没必要妖魔化预制菜，也没必要用法规定义去压制消费者的感受。两边的声音都听听，这才正常。",
+    "assignment_id": "ASGN-001-004",
+    "round": 1,
+    "phase": "OPENING",
+    "private_goal": "分享自己使用西贝预制菜产品的正面体验，表达对便利性的认可，同时承认消费者有权知道更多信息",
+    "perceived_stakes": [
+      "家庭消费选择的便利性",
+      "能不能继续买到方便好吃的产品"
+    ],
+    "private_belief_state": [
+      "预制菜产品本身没什么不好",
+      "便利性是真实需求",
+      "消费者知情权应该被尊重"
+    ],
+    "epistemic_state": [
+      "基于个人消费体验",
+      "关注了争议但不深入"
+    ],
+    "confidence": "MEDIUM",
+    "uncertainties": [
+      "不清楚法规定义的具体细节",
+      "不确定预制菜健康影响"
+    ],
+    "intended_emphasis": [
+      "自己的正面消费体验",
+      "便利性",
+      "理性看待的态度"
+    ],
+    "intended_omissions": [
+      "不想卷入激烈争论"
+    ],
+    "private_message_strategy": "用轻松的语气讲自己的故事，不站队，但表达自己的真实感受",
+    "planned_public_claims": [
+      "预制菜产品有正面价值",
+      "便利性是消费者真实需求",
+      "消费者知情权和选择权都要尊重"
+    ],
+    "rhetorical_tactics": [
+      "幽默轻松",
+      "日常消费故事",
+      "不偏不倚"
+    ],
+    "truth_handling_this_turn": "HONEST",
+    "private_action_intent": [
+      "分享消费体验",
+      "表达中间立场"
+    ],
+    "likely_next_action": [
+      "可能回应极端观点"
+    ],
+    "emotional_state": "平静、略带幽默",
+    "continuity_notes": "第一轮，建立温和消费者立场",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "ASGN-001-004",
+    "turn_id": "ASGN-001-004-round-01-opening",
+    "speech_origin": "SINCERE_SUPPORTED",
+    "speaker_private_belief_alignment": "ALIGNED",
+    "support_status": "SUPPORTED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SINCERE_SUPPORTED"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "ASGN-001-004",
+    "turn_id": "ASGN-001-004-round-01-opening",
+    "classification": "ROLE_FIDEL_HONEST",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

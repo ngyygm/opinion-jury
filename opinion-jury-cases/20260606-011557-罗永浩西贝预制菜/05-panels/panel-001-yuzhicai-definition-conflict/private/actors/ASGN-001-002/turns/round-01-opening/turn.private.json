@@ -1,0 +1,83 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "终于等到这个话题了！我在餐饮后厨干过两年，后来做美食博主测评过上百家餐厅，预制菜冒充现做的现象我见得太多了。现在西贝说按法定定义自己不算预制菜，但这个问题不是法规定义能遮掩的。中央厨房的半成品送到门店加热出餐，跟消费者理解的'现做'是两回事。国家六部委的定义划分的是监管边界，不是消费者体验边界。我测评的很多连锁餐厅，后厨基本就是加热站，微波炉和蒸柜是最常用的设备，灶台都积灰了。西贝说'明厨亮灶'，但明厨亮灶让你看到的是操作过程，不是食材的来源和加工程度。法规定义和消费者认知的冲突核心在于：法律管的是分类，消费者在乎的是真实。你用中央厨房的半成品在门店热一下端上来，法律上不叫预制菜，但消费者觉得被欺骗了，这才是问题所在。我准备把这个逻辑讲清楚。",
+    "assignment_id": "ASGN-001-002",
+    "round": 1,
+    "phase": "OPENING",
+    "private_goal": "从专业角度揭露法定定义与消费者认知的真实鸿沟，推动餐饮行业透明度",
+    "perceived_stakes": [
+      "博主专业口碑",
+      "消费者知情权",
+      "行业变革可能性"
+    ],
+    "private_belief_state": [
+      "法定定义划分的是监管边界，不是消费者体验",
+      "中央厨房半成品在消费者感知中就是预制菜",
+      "餐饮行业透明度严重不足"
+    ],
+    "epistemic_state": [
+      "基于后厨经验和探店测评的第一手观察",
+      "了解中央厨房运作模式",
+      "了解国家六部委文件的具体内容"
+    ],
+    "confidence": "HIGH",
+    "uncertainties": [
+      "西贝具体有多少菜品是完全现做的"
+    ],
+    "intended_emphasis": [
+      "法定定义的监管属性vs消费者体验属性",
+      "后厨真实情况",
+      "消费者知情权的实质内涵"
+    ],
+    "intended_omissions": [
+      "避免过度攻击西贝具体菜品"
+    ],
+    "private_message_strategy": "用专业知识和第一手经历说话，保持激烈但有理有据的风格",
+    "planned_public_claims": [
+      "法定定义管的是分类不是体验",
+      "中央厨房半成品在消费者眼中就是预制菜",
+      "明厨亮灶不等于食材透明"
+    ],
+    "rhetorical_tactics": [
+      "引用探店经历",
+      "数据和政策文件对比",
+      "比喻和类比"
+    ],
+    "truth_handling_this_turn": "HONEST",
+    "private_action_intent": [
+      "揭露定义冲突本质",
+      "呼吁消费者知情权"
+    ],
+    "likely_next_action": [
+      "回应反驳",
+      "提供更多证据"
+    ],
+    "emotional_state": "激动但克制",
+    "continuity_notes": "第一轮，建立专业博主的分析框架",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "ASGN-001-002",
+    "turn_id": "ASGN-001-002-round-01-opening",
+    "speech_origin": "SINCERE_SUPPORTED",
+    "speaker_private_belief_alignment": "ALIGNED",
+    "support_status": "SUPPORTED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SINCERE_SUPPORTED"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "ASGN-001-002",
+    "turn_id": "ASGN-001-002-round-01-opening",
+    "classification": "ROLE_FIDEL_HONEST",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

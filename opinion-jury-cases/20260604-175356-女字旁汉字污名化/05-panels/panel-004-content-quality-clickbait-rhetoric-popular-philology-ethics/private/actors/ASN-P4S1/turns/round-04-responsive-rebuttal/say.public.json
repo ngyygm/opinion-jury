@@ -1,0 +1,16 @@
+{
+  "turn_id": "ASN-P4S1-round-04-responsive-rebuttal",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-1",
+  "round": 4,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "好吧，我不装了。大家说得对，我确实前后矛盾了——一开始替这种内容辩护，后来被批评了才改口。SEAT-5说得好，我之前轻描淡写确实不对。SEAT-6的超市类比让我想了想，确实，消费者不应该自己去判断内容对不对，这跟让顾客自己检测食品安全一样不合理。但我想说一点：这不是我一个做内容的人的问题，是整个行业的通病。大家都在用这套模板，不这么写就没有流量，没有流量就活不下去。这不是借口，是现实。SEAT-3说'不能一刀切'我觉得还是有道理的，关键是怎么找到平衡。我不是来给大家添堵的，SEAT-5教训我的那些话，我确实听进去了。",
+  "target_turn_refs": [
+    "ASN-P4S5-round-03-peer-cross-challenge",
+    "ASN-P4S6-round-03-peer-cross-challenge",
+    "ASN-P4S3-round-03-peer-cross-challenge"
+  ],
+  "public_question_refs": [],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

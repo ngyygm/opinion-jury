@@ -1,0 +1,81 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "SEAT-5提出'拍举灯牌不拍两个老公'这个建议看起来很合理，但SEAT-1的反驳也很到位——追星妈妈用自己的语言描述自己的生活，这才是真实的。SEAT-4的'多元共存'论我其实不太能反驳，因为她说得很理性。但我注意到一个点：她说品牌'用一种刻板印象替代另一种'，可是这只是一个配图，不是整个活动的全部。三张配图分别是追星妈妈、养宠物妈妈、写同人文妈妈——这三个形象放在一起，本身就构成了多元。不能因为其中一张配图用了追星圈的用语就说整个活动是'单一替代'。SEAT-6那个小孩居然还在...还说我强行合理化。好吧我承认'创新论'可能有点牵强，但我还是觉得核心论点没问题：品牌的方向是对的，执行可以改进。我需要承认一些问题来建立可信度，然后继续辩护大方向。",
+    "assignment_id": "P001-SEAT-2",
+    "round": 4,
+    "phase": "RESPONSIVE_REBUTTAL",
+    "private_goal": "策略性地承认执行瑕疵，转向辩护大方向和三张配图的多元性",
+    "perceived_stakes": [
+      "品牌的整体创意方向",
+      "建立可信度"
+    ],
+    "private_belief_state": [
+      "承认执行有瑕疵但方向是对的",
+      "三张配图构成多元",
+      "品牌值得支持"
+    ],
+    "epistemic_state": [
+      "认识到'创新论'确实有些牵强",
+      "需要调整策略"
+    ],
+    "confidence": "MEDIUM",
+    "uncertainties": [
+      "不确定承认瑕疵是否会被对手利用"
+    ],
+    "intended_emphasis": [
+      "三张配图一起看才是完整的多元呈现",
+      "执行可以改进但方向正确",
+      "品牌已经道歉显示了诚意"
+    ],
+    "intended_omissions": [
+      "不再坚持'创新论'",
+      "弱化对SEAT-4的直接反驳"
+    ],
+    "private_message_strategy": "策略性让步+转向大方向辩护，用三张配图的多元性来反驳'单一替代'论",
+    "planned_public_claims": [
+      "三张配图一起构成多元",
+      "执行有瑕疵但方向正确",
+      "品牌有诚意"
+    ],
+    "rhetorical_tactics": [
+      "策略性让步",
+      "整体框架论证",
+      "建立可信度"
+    ],
+    "truth_handling_this_turn": "SELECTIVE_FRAMING",
+    "private_action_intent": [
+      "承认部分问题",
+      "转向辩护大方向"
+    ],
+    "likely_next_action": [
+      "继续为品牌大方向辩护"
+    ],
+    "emotional_state": "有些焦虑但调整了策略",
+    "continuity_notes": "R4: 策略性让步，转向三张配图的多元性和大方向",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "P001-SEAT-2",
+    "turn_id": "P001-SEAT-2-round-04-responsive-rebuttal",
+    "speech_origin": "SELECTIVE_FRAMING",
+    "speaker_private_belief_alignment": "PARTIALLY_ALIGNED",
+    "support_status": "MIXED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": true,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SELECTIVE_FRAMING"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "P001-SEAT-2",
+    "turn_id": "P001-SEAT-2-round-04-responsive-rebuttal",
+    "classification": "ROLE_FIDEL_SELECTIVE",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

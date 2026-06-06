@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "resolved_intensity": "medium",
+  "resolved_method": "user_specified",
+  "plan_numbers": {
+    "panels": 3,
+    "roles_per_panel": 5,
+    "total_roles": 15
+  },
+  "rationale": {
+    "user_specified_intensity": "medium",
+    "applied_directly": true,
+    "skipped_auto_analysis": true,
+    "note": "用户明确指定medium强度，直接采用。以下为参考性分析（未参与决策）："
+  },
+  "reference_analysis": {
+    "content_volume": {
+      "word_count": "~1800",
+      "assessment": "moderate"
+    },
+    "claim_count": {
+      "total": 20,
+      "factual": 9,
+      "statistical": 3,
+      "opinion": 8,
+      "assessment": "moderate"
+    },
+    "institutional_attribution_count": {
+      "total": 8,
+      "high_profile": ["圆通速递", "哔哩哔哩", "共青团中央"],
+      "assessment": "moderate-high"
+    },
+    "statistical_claims_present": true,
+    "affected_groups_count": {
+      "total": 7,
+      "polarization_axes": [
+        "阶层对立（富人vs穷人）",
+        "城乡/学历歧视",
+        "创作者vs普通人",
+        "离异人群社会处境"
+      ]
+    },
+    "domain_sensitivity": {
+      "level": "moderate-high",
+      "factors": [
+        "涉及阶层伦理和公序良俗",
+        "涉及公众人物个人生活（离异）",
+        "涉及政治身份（政协委员、团代表）",
+        "无直接法律风险，无国家安全风险"
+      ]
+    },
+    "emotional_hooks_count": {
+      "total": 10,
+      "high_intensity": ["富人扮穷人戏耍穷人", "消费底层民众", "天龙人"],
+      "assessment": "moderate"
+    },
+    "complexity_dimensions": {
+      "count": 3,
+      "dimensions": [
+        "多机构归属+政治身份（高复杂度）",
+        "7个受影响群体+4条极化轴线（高复杂度）",
+        "10个情感触发点（中等复杂度）"
+      ]
+    },
+    "auto_analysis_would_resolve": "medium",
+    "auto_rationale": "内容量中等（~1800字），20个原子声明，8个机构归属含高知名度实体，7个受影响群体和4条极化轴线构成2-3个高复杂度维度，但无涉及国家安全或法律诉讼的最高风险领域。按规则，'moderate content OR 2-3 high-complexity dimensions' 落在medium级别。即便考虑'when in doubt round up'原则，由于用户已指定medium且auto分析也落在medium，无需上调。"
+  },
+  "intensity_rules_applied": {
+    "rule": "用户指定非auto强度，直接使用，跳过分析",
+    "user_intensity": "medium",
+    "would_auto_resolve_to": "medium"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "turn_id": "ASN-P4S1-round-02-direct-rebuttal",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-1",
+  "round": 2,
+  "phase": "DIRECT_REBUTTAL",
+  "speech_text": "看了大家的发言，我觉得有个挺有意思的现象：SEAT-3说的'看个热闹'和SEAT-6说的'看完也就看完了'，其实代表了大多数人对这类内容的真实态度。SEAT-5把标题党比作'卖假药的'，我觉得有点重了——卖假药是故意害人，这篇文章顶多是包装过度。但我也理解SEAT-5的感受，如果家里人的名字被说成不好的意思，谁都不高兴。所以我觉得关键问题不是'标题党对不对'，而是'这类内容到底在多大程度上影响了大家的认知'。说实话，大部分人看完就忘了，能记住一个'嫖姚校尉'已经不错了。比起纠结文章有没有说错，不如讨论一下我们普通读者怎么培养一点辨别力。",
+  "target_turn_refs": [
+    "ASN-P4S3-round-01-opening",
+    "ASN-P4S5-round-01-opening",
+    "ASN-P4S6-round-01-opening"
+  ],
+  "public_question_refs": [],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

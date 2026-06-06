@@ -1,0 +1,22 @@
+{
+  "turn_id": "P004-SEAT-1-round-06-responsive_rebuttal",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-1",
+  "round": 6,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "最后一轮了，我做个体面的收尾。\n\n六轮讨论下来，我承认学到了不少东西。虽然我的核心立场没变——这个品牌翻车是活该的，营销大于产品是根子上的问题——但我也承认，你们说的审核框架、品牌治理、透明化标准，这些东西如果真能落地，确实能减少以后的翻车。\n\nSEAT-3，我之前说话太冲了。你说'愿意换一种方式来表达追星热情'，我觉得这就是正确的方向。公共空间需要互相理解，你愿意多走一步去找更好的表达方式，这比一味要求别人理解你强多了。\n\nSEAT-5，你说'尊重别人就是尊重自己'，这话听着简单但真做到不容易。作为一个在职场混了十几年的人，我太知道了。\n\n我的最终立场：制度重要，态度更重要。审核框架再完美，如果品牌的态度不对——只是为了做样子、为了下次营销不翻车——那一切都是空的。但如果品牌真像SEAT-2说的那样，从'营销大于一切'转变为'用户和公共责任优先'，那我这个曾经的忠实用户，愿意再看一次。\n\n就这些。感谢各位听我阴阳怪气了六轮。",
+  "target_turn_refs": [
+    "P004-SEAT-3-round-05-peer_cross_challenge",
+    "P004-SEAT-5-round-05-peer_cross_challenge",
+    "P004-SEAT-2-round-05-peer_cross_challenge"
+  ],
+  "public_question_refs": [
+    "品牌价值观营销的公共责任：UGC+户外大屏放大的传播风险"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": [
+    "体面收尾",
+    "有条件开放",
+    "坚持态度优先"
+  ]
+}

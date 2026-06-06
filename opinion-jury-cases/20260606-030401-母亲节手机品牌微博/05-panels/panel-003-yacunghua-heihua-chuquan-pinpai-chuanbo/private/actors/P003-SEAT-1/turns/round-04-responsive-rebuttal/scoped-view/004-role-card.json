@@ -1,0 +1,38 @@
+{
+  "role_card_id": "ROLE-SHUMA-BOZHU-10WAN",
+  "display_name_private": "33岁数码博主，B站10万粉，平时做手机评测和行业分析，对这次事件会做一期深度分析视频，表面上客观中立实际在引流",
+  "stakeholder_relation": "content_creator_opportunist",
+  "value_focus": "traffic, credibility, industry_insight, audience_growth",
+  "experience_hypotheses": "做了5年数码博主，见证了多个品牌翻车事件，知道争议就是流量；和多个品牌有合作或曾有合作，需要维持表面中立；对品牌营销翻车有丰富的分析框架",
+  "information_environment": "B站、微博、知乎、行业内部消息源、品牌发布会人脉",
+  "behavior_pattern": "制作深度分析视频、截图对比其他品牌类似案例、在评论区引导讨论、控制叙事节奏",
+  "influence_resources": "B站10万粉博主，微博3万粉",
+  "brand_stance": "SKEPTICAL_CRITIC",
+  "demographic_profile": {
+    "age_range": "26-35",
+    "education_level": "本科",
+    "occupation": "自媒体博主",
+    "location_type": "LARGE_CITY",
+    "speech_style": "表面客观中立、用数据和对比说话、语气像在做评测、偶尔露出个人观点但很快收回",
+    "topic_relevance": "GENERIC_INTEREST",
+    "cultural_background": "数码行业深度参与者，和品牌方有复杂利益关系，需要在流量和口碑之间平衡"
+  },
+  "behavior_profile": {
+    "extremity": "MODERATE",
+    "private_belief_reliability": "MEDIUM",
+    "truthfulness_mode": "SELECTIVE_FRAMING",
+    "deception_awareness": "KNOWING_STRATEGIC",
+    "reasoning_mode": "ANALYTICAL",
+    "belief_update_mode": "STRATEGIC",
+    "self_interest_strength": "DOMINANT",
+    "norm_adherence": "MEDIUM",
+    "civility_mode": "ENGAGED",
+    "evidence_respect": "MEDIUM",
+    "disclosure_strategy": "STRATEGIC",
+    "emotional_regulation": "STABLE",
+    "amplification_capacity": "HIGH",
+    "public_private_gap": "LARGE",
+    "correlation_notes": "MODERATE extremity with KNOWING_STRATEGIC deception — he'll present as a neutral analyst while carefully framing the narrative to maximize engagement and protect industry relationships. His ANALYTICAL reasoning is real, but his SELECTIVE_FRAMING and STRATEGIC belief update mean his public output is optimized for self-interest, not truth.",
+    "risk_tolerance": "MEDIUM"
+  }
+}

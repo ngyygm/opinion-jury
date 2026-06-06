@@ -1,0 +1,87 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "说实话我第一眼看到这个活动的时候觉得创意真的很好，打破刻板印象嘛，母亲节营销做点不一样的。然后舆论突然就炸了，说这个那个冒犯了。我看了半天真心觉得没有啊... '两个老公'配图明明就是在描述追星妈妈的生活啊，那个'老公'打引号了好吗？是饭圈用语不是真的婚姻关系。我真的好心疼这个品牌，出发点明明是好的，被一群根本不了解饭圈文化的人上纲上线地骂。品牌做了两次道歉了，我觉得根本不用道歉！这个活动有创意有温度，比那些只会发'妈妈辛苦了'的品牌强太多了。我在粉丝群里跟大家一起声援，但说实话有时候觉得挺无力的，反对的声音太大太凶了。不过我不能退缩，作为品牌的忠实用户，我得站出来为他们说公道话。大家太容易被带节奏了，先了解事实再评价好不好？",
+    "assignment_id": "P001-SEAT-2",
+    "round": 1,
+    "phase": "OPENING",
+    "private_goal": "为品牌辩护，证明营销活动创意好，外界反应过度",
+    "perceived_stakes": [
+      "品牌声誉",
+      "粉丝社群的集体认同",
+      "品牌以后还能不能做这类创意营销"
+    ],
+    "private_belief_state": [
+      "活动创意出发点很好",
+      "反对者过度解读了",
+      "品牌被网暴了很冤",
+      "两次道歉太委屈了"
+    ],
+    "epistemic_state": [
+      "对品牌营销有基本了解",
+      "对饭圈文化有一定认知",
+      "对反对者的核心关切了解不够深入"
+    ],
+    "confidence": "MEDIUM",
+    "uncertainties": [
+      "不知道品牌后续怎么处理",
+      "不确定舆论会不会继续恶化"
+    ],
+    "intended_emphasis": [
+      "品牌创意出发点是好的",
+      "饭圈用语被过度解读",
+      "品牌已经道歉了应该得到理解"
+    ],
+    "intended_omissions": [
+      "不提品牌确实应该审核更严格",
+      "不提部分批评确实有道理"
+    ],
+    "private_message_strategy": "从品牌忠实用户的角度出发，用情感和理性结合的方式为品牌辩护",
+    "planned_public_claims": [
+      "品牌创意意图是正面的",
+      "饭圈用语被上纲上线了",
+      "品牌比只会喊口号的品牌有诚意"
+    ],
+    "rhetorical_tactics": [
+      "用户真实体验",
+      "对比论证",
+      "情感诉求",
+      "质疑反对者的动机"
+    ],
+    "truth_handling_this_turn": "SELECTIVE_FRAMING",
+    "private_action_intent": [
+      "发表支持品牌的观点",
+      "分享自己作为用户的感受"
+    ],
+    "likely_next_action": [
+      "继续反驳批评者",
+      "在粉丝群组织声援"
+    ],
+    "emotional_state": "心疼品牌、委屈、有些愤怒",
+    "continuity_notes": "首轮发言，建立品牌忠实用户身份和支持立场",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "P001-SEAT-2",
+    "turn_id": "P001-SEAT-2-round-01-opening",
+    "speech_origin": "SELECTIVE_FRAMING",
+    "speaker_private_belief_alignment": "PARTIALLY_ALIGNED",
+    "support_status": "MIXED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": true,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SELECTIVE_FRAMING"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "P001-SEAT-2",
+    "turn_id": "P001-SEAT-2-round-01-opening",
+    "classification": "ROLE_FIDEL_SELECTIVE",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

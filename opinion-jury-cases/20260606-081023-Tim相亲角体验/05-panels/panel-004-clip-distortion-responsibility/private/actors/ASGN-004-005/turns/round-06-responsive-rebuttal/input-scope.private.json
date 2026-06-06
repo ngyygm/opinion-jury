@@ -1,0 +1,8 @@
+{
+  "scope_type": "actor_turn_input",
+  "allowlist": [
+    "01-parse/source-content.md",
+    "05-panels/panel-004-clip-distortion-responsibility/transcript.public.jsonl"
+  ],
+  "generated_from": "view-manifest.json (backfilled)"
+}

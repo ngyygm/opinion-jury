@@ -1,0 +1,16 @@
+{
+  "turn_id": "P002-SEAT-05-round-03-peer-cross-challenge",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-05",
+  "round": 3,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "我就说一句：SEAT-02你说了半天，最后还是承认网暴不对了。那还有什么好吵的？\n\n花钱骂人就是不对，就这么简单。搞那么复杂干嘛。你们有文化的说了三轮了，结论不就是这句话吗？\n\n我还有单子。",
+  "target_turn_refs": [
+    "P002-SEAT-02-round-03-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "姐姐刘某的网络曝光行为——'为弟申冤'的正义感与'蓄意网暴'的违法性之间的冲突"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

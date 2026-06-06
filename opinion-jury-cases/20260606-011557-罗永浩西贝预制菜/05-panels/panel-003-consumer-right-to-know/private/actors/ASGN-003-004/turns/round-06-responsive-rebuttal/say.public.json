@@ -1,0 +1,16 @@
+{
+  "turn_id": "ASGN-003-004-round-06-responsive-rebuttal",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-4",
+  "round": 6,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "最后一轮，我就说两句话。\n\n第一句：这个讨论改变了我。我从一个觉得'包装信息够了'的佛系消费者，变成了一个'支持菜单标注方案'的理性消费者。改变我的不是谁的说服力，而是前员工的亲身经历、厨师的真实困境、博主的专业分析——是信息改变了我的判断。这恰恰证明了知情权的价值。\n\n第二句：方案已经有了，政策方向也定了，接下来就是落实。菜单上多写一行字，不难。我等着有一天在西贝的菜单上看到那一行标注。到那时候，我买黄米凉糕的时候，心里会更踏实。",
+  "target_turn_refs": [
+    "ASGN-003-002-round-06-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "消费者知情权与餐饮行业透明度底线"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

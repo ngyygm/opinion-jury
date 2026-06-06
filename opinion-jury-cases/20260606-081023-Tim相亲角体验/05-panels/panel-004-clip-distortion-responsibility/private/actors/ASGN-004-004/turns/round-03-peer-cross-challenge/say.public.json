@@ -1,0 +1,16 @@
+{
+  "turn_id": "ASGN-004-004-round-03-peer-cross-challenge",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-4",
+  "round": 3,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "SEAT-2你说影响多少人就担多大责任，没有上限？我听了觉得不太对劲。按你这个说法，那在网上说话的人越出名越倒霉呗？粉丝越多越不敢发东西？这不对吧。我们工地上也是一样，谁活干得好当了班长，责任是大了，但也不能说所有出了的问题都是班长的。下面的人干错了活，你怪班长没教好，那下面的人呢？他自己没有责任吗？我觉得这个讨论已经够清楚了：拍视频的人拍了完整的东西，该做的预防做了；有人把人家的东西乱剪了，歪曲了意思，那是剪的人的问题。道理就是这么简单。你们非要说创作者要担多少责任、预防义务有没有上限，我觉得想太多了。不管你怎么分析，乱剪别人视频的人就是不对，这是第一位的问题。其他的都是次要的。我该说的都说了，后面的轮次我可能就不多说了，干活去了。",
+  "target_turn_refs": [
+    "ASGN-004-002-round-03-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "panel-004-public-question"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

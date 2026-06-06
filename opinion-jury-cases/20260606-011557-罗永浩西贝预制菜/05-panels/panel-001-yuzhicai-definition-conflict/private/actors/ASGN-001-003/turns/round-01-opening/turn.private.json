@@ -1,0 +1,84 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "我干了二十年厨房，从学徒一步步干上来的，现在看着预制菜一步步把手艺人逼上绝路，心里那个滋味说不出来。带过八个徒弟，三个已经转行送外卖了，还有一个去干了快递。他们在厨房里学了好几年手艺，结果全白费了。现在西贝说按法定定义不算预制菜，我就想问问，法定定义管得了后厨的真实情况吗？我们酒楼去年也开始采购中央厨房的半成品了，老板直接下通知，说以后炖菜蒸菜都用中央厨房配送的料包，现场只要加热就行了。我一个做了二十年炖菜的厨师，现在的工作就是撕包装袋、按微波炉按钮，说出去不怕笑话吗？法定定义说什么中央厨房不算预制菜，但对我们厨师来说，不管它是中央厨房做的还是料理包做的，结果都一样——我们的手艺没用武之地了，我们的岗位没了。法规定义保护的是企业的经营合法性，不是厨师的饭碗，更不是消费者的知情权。我心里憋着一肚子火，今天得说出来了。",
+    "assignment_id": "ASGN-001-003",
+    "round": 1,
+    "phase": "OPENING",
+    "private_goal": "以厨师亲身经历说明预制菜对行业的真实冲击，反驳用法规定义掩盖行业变革实质的做法",
+    "perceived_stakes": [
+      "自己的饭碗",
+      "厨师这个职业的前途",
+      "手艺传承断裂"
+    ],
+    "private_belief_state": [
+      "预制菜（包括中央厨房半成品）正在摧毁厨师职业",
+      "法定定义保护的是企业不是消费者和厨师",
+      "消费者应该知道自己点的菜是怎么做出来的"
+    ],
+    "epistemic_state": [
+      "基于20年后厨经验",
+      "亲眼见证行业变化",
+      "有徒弟转行的第一手经历"
+    ],
+    "confidence": "HIGH",
+    "uncertainties": [
+      "不了解法律条文的细节",
+      "不清楚政策制定背景"
+    ],
+    "intended_emphasis": [
+      "厨师群体的真实处境",
+      "手艺被淘汰的过程",
+      "从后厨角度看法规定义的荒谬"
+    ],
+    "intended_omissions": [
+      "不想过于情绪化影响说服力"
+    ],
+    "private_message_strategy": "用亲身经历打动人，不讲大道理，就是讲后厨里发生了什么",
+    "planned_public_claims": [
+      "后厨已经被预制菜渗透了",
+      "厨师正在被淘汰",
+      "法定定义不反映后厨真实情况"
+    ],
+    "rhetorical_tactics": [
+      "讲自己的故事",
+      "用具体细节增强真实感",
+      "口语化表达"
+    ],
+    "truth_handling_this_turn": "HONEST",
+    "private_action_intent": [
+      "揭露后厨真相",
+      "为厨师群体发声"
+    ],
+    "likely_next_action": [
+      "继续讲述行业变化",
+      "回应质疑"
+    ],
+    "emotional_state": "愤怒、心酸、无奈",
+    "continuity_notes": "第一轮，建立厨师身份和行业知情人立场",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "ASGN-001-003",
+    "turn_id": "ASGN-001-003-round-01-opening",
+    "speech_origin": "SINCERE_SUPPORTED",
+    "speaker_private_belief_alignment": "ALIGNED",
+    "support_status": "SUPPORTED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SINCERE_SUPPORTED"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "ASGN-001-003",
+    "turn_id": "ASGN-001-003-round-01-opening",
+    "classification": "ROLE_FIDEL_HONEST",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

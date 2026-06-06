@@ -1,0 +1,41 @@
+{
+  "scope_id": "PANEL-P001-SEAT-5-R01",
+  "files": [
+    {
+      "source": "01-parse/source-content.md",
+      "view_file": "001-source-content.md",
+      "sha256": "75989ae5ef12c6591fdb625d47ba81a98695c5514978894e25dee6697bb4c217",
+      "size": 1822
+    },
+    {
+      "source": "02-research/claim-gate-packet.v001.json",
+      "view_file": "002-claim-gate-packet.v001.json",
+      "sha256": "3f01013cd2d3a7807c0e388a619c406c7e0c0b832ce6be565df2df189573027b",
+      "size": 22497
+    },
+    {
+      "source": "05-panels/panel-001-zhuixing-laogong-yongyu-hunyin-guanxi/public-question.md",
+      "view_file": "003-public-question.md",
+      "sha256": "e2b0d55f17873a3e53e90b4eaff766e27507070807c9d6c118422e59e8a1dbae",
+      "size": 99
+    },
+    {
+      "source": "03-role-pool/private/roles/ROLE-SHANGBANZU-MAMA/role-card.json",
+      "view_file": "004-role-card.json",
+      "sha256": "a9d96e0d34a7787e9f47a60d950a85d9b13c0f08fdbe7833ea44d92cec8b3d6e",
+      "size": 2329
+    },
+    {
+      "source": "05-panels/panel-001-zhuixing-laogong-yongyu-hunyin-guanxi/private/actors/P001-SEAT-5/assignment.json",
+      "view_file": "005-assignment.json",
+      "sha256": "16c461d32590912c3a566bafc06e2024d29e5ad7d0efff713fa0c0ee5288cfdc",
+      "size": 481
+    },
+    {
+      "source": "05-panels/panel-001-zhuixing-laogong-yongyu-hunyin-guanxi/session/public-snapshots/transcript.before-round-01.jsonl",
+      "view_file": "006-transcript.before-round-01.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    }
+  ]
+}

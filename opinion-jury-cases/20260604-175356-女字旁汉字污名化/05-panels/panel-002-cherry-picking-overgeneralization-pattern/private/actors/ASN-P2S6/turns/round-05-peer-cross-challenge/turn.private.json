@@ -1,0 +1,74 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "退休女工说的那个两个问题分开看，我觉得说得特别好。我一个老太婆说不出这么清楚的话，但是我心里想的也是这个意思。那个说话冲的又说我们和稀泥，我觉得他就是听不得别人说的话跟他不一样。好字比坏字多是事实，但有些坏字确实有问题也是事实，这有啥矛盾的呢？不矛盾嘛。我们老辈人说了，看问题要全面，不能只看一面也不能只看另一面。这个道理到哪里都管用。",
+    "assignment_id": "ASN-P2S6",
+    "round": 5,
+    "phase": "PEER_CROSS_CHALLENGE",
+    "private_goal": "支持退休大姐的区分，用老人智慧总结",
+    "perceived_stakes": [
+      "觉得讨论到了尾声",
+      "退休大姐说得好"
+    ],
+    "private_belief_state": [
+      "退休女工的区分很好",
+      "自己之前虽然不识字但想的差不多",
+      "那个说话冲的太偏激"
+    ],
+    "epistemic_state": [
+      "觉得问题被说清楚了"
+    ],
+    "confidence": "MEDIUM",
+    "uncertainties": [],
+    "intended_emphasis": [
+      "退休女工说得好",
+      "不矛盾",
+      "看问题要全面"
+    ],
+    "intended_omissions": [],
+    "private_message_strategy": "用老人智慧做总结支持",
+    "planned_public_claims": [
+      "退休女工说的比我说的清楚",
+      "两个事情不矛盾",
+      "看问题要全面"
+    ],
+    "rhetorical_tactics": [
+      "老人智慧",
+      "朴素总结",
+      "支持"
+    ],
+    "truth_handling_this_turn": "HONEST",
+    "private_action_intent": [
+      "做总结性发言"
+    ],
+    "likely_next_action": [
+      "满足于讨论结果"
+    ],
+    "emotional_state": "满足、对退休女工有好感、觉得讨论到头了",
+    "continuity_notes": "第五轮，总结性发言",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "ASN-P2S6",
+    "turn_id": "ASN-P2S6-round-05-peer-cross-challenge",
+    "speech_origin": "SINCERE_SUPPORTED",
+    "speaker_private_belief_alignment": "ALIGNED",
+    "support_status": "SUPPORTED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SINCERE_SUPPORTED"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "ASN-P2S6",
+    "turn_id": "ASN-P2S6-round-05-peer-cross-challenge",
+    "classification": "ROLE_FIDEL_HONEST",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

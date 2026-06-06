@@ -1,0 +1,21 @@
+{
+  "turn_id": "P001-SEAT-4-round-03-peer-cross-challenge",
+  "panel_id": "PANEL-001",
+  "anonymous_alias": "SEAT-4",
+  "round": 3,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "我需要回应几个关键论点。\n\n首先，SEAT-2的'创新必然伴随不适'论——这个逻辑有明显的偷换概念。创新可能引起不适，但这不等于所有引起不适的东西都是创新。大家的不适不是因为看到了'追星妈妈'这个形象本身，而是因为'两个老公''恨不得穿婚纱'这些具体表达。如果配图只是展现一个妈妈举着应援灯牌、在演唱会上开心的样子，不会引起这么大争议。问题的核心不是追星妈妈能不能出现在广告里，而是以什么方式呈现。\n\n其次，回应SEAT-1的双重标准论——你说得有一部分道理。传统母亲形象确实长期垄断公共空间，这本身是需要改变的现象。但改变的方式不应该是把传统形象否定掉再换上另一种单一形象。真正的多元是让所有母亲形象都能以尊重的方式共存，而不是搞替换游戏。\n\n第三，SEAT-3说'好的创意可以有但不能拿不要脸当创意'。我想请SEAT-3反思一下：您用'不要脸'来形容追星行为，这个判断的标准是什么？为什么女性表达对偶像的喜爱就是'不要脸'，而传统的温柔勤劳无私就是'好'？这种二元对立本身就是一种价值评判，而做出这个评判的框架里，女性的自主选择是不被认可的。这不是'底线'的问题，这是谁的底线、谁来定义底线的问题。",
+  "target_turn_refs": [
+    "P001-SEAT-2-round-03-peer-cross-challenge",
+    "P001-SEAT-1-round-03-peer-cross-challenge",
+    "P001-SEAT-3-round-03-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "panel-001-public-question"
+  ],
+  "public_evidence_refs": [
+    "C007",
+    "C009"
+  ],
+  "public_action_signals": []
+}

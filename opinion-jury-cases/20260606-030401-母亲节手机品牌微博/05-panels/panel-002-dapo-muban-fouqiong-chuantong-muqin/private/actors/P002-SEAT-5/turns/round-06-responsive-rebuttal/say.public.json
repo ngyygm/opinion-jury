@@ -1,0 +1,17 @@
+{
+  "turn_id": "P002-SEAT-5-round-06-responsive-rebuttal",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-5",
+  "round": 6,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "六轮讨论彻底改变了我的立场。从最初觉得品牌终于看到了我，到承认品牌利用了我，再到现在我真正理解了什么才是对妈妈的尊重。SEAT-4你老伴偷偷给你留一碗面的故事我会一直记得。SEAT-1你说普通妈妈不需要被打破也不需要被赋权只需要被当作人来看待，这句话说到我心里了——其实我也不需要被品牌'看见'。我需要的是社会的理解，是不要被说不像正经妈妈，是被当作一个完整的人来看待——不只是追星的那一面，还有我做饭、接送孩子、给孩子讲故事的那一面。品牌触碰到了我真实的痛点，但它没有资格代表这个痛点，更没有能力解决它。我的追星故事、我的挣扎、我的快乐——这些是我的人生，不属于任何品牌的广告。谢谢这次讨论，让我看清了很多事情，也谢谢每一位让我成长的人。",
+  "target_turn_refs": [
+    "P002-SEAT-4-round-05-peer-cross-challenge",
+    "P002-SEAT-1-round-05-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "panel-002-public-question"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

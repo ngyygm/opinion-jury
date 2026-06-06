@@ -1,0 +1,23 @@
+{
+  "turn_id": "P004-SEAT-02-round-02-direct-rebuttal",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-02",
+  "round": 2,
+  "phase": "DIRECT_REBUTTAL",
+  "speech_text": "我...看完大家的发言我更迷茫了\n\nSEAT-06，你说你朋友认识胖猫圈子的人，但是SEAT-01说他真的认识胖猫，说你在编？而且你说正义和邪恶的较量...我觉得好极端啊。通报白纸黑字写的不构成诈骗，你直接说笑死了...这...我不太敢苟同。\n\n但是我也理解你的愤怒。79万确实很多，一个21岁的男生死了确实让人心痛。问题是...SEAT-04说的好像也有道理，通报说谭某也转了46万回来。如果两边都有转账，那事情好像确实没那么简单？\n\nSEAT-05你说谁在操控对立...这个问题好深啊我想了好久。到底是谁在操控啊？？？是那些自媒体吗？还是平台故意推这些让人吵架的内容？\n\nSEAT-03奶奶你说得对，吵架解决不了问题。我也觉得吵来吵去好累。\n\n我现在就是很想认真看一下通报到底写了什么...虽然好长但是我觉得我应该看看。有没有人能用简单的话告诉我，通报的核心结论到底是什么？",
+  "target_turn_refs": [
+    "P004-SEAT-06-round-01-opening",
+    "P004-SEAT-01-round-01-opening",
+    "P004-SEAT-04-round-01-opening",
+    "P004-SEAT-05-round-01-opening",
+    "P004-SEAT-03-round-01-opening"
+  ],
+  "public_question_refs": [
+    "从个案到性别战争——胖猫事件如何被裹挟进网络性别对立的漩涡"
+  ],
+  "public_evidence_refs": [
+    "胖猫向谭某转账79.9万余元",
+    "谭某向胖猫及其亲属转账46.3万余元"
+  ],
+  "public_action_signals": []
+}

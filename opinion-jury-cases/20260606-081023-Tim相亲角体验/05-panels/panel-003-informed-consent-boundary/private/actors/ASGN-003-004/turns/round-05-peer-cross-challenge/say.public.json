@@ -1,0 +1,21 @@
+{
+  "turn_id": "ASGN-003-004-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-4",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "被幼儿园老师直接问了我对第三层的困难在哪里，我仔细想了想，说实话——确实没那么难。在拍摄现场说一句'我是一个有X万粉丝的自媒体账号'，也就十秒钟的事。我之前的保留，回过头看确实更多是在替创作者担心，而不是真的有什么不可克服的实操困难。所以我愿意接受三层方案作为面向未来的行业标准。但我有一个条件——这个标准应该是面向未来的，不应该被用来对Tim进行追溯追责。原因很简单：在Tim拍摄相亲角视频的时候，行业内没有这个三层标准。你不能用今天讨论出来的标准去衡量昨天的行为。这不公平。我也想回应前粉丝——你虽然不再说'有意识的侵犯'了，但你一直在暗示Tim团队是故意规避告知义务。你有没有想过一种可能：他们确实没意识到这是一个问题？做内容的人很多时候想的是创意和执行，不是每一步的伦理审查。这不是给他们开脱，这是行业现状。所以我说标准要建，但要面向未来。",
+  "target_turn_refs": [
+    "ASGN-003-003-round-05-peer-cross-challenge",
+    "ASGN-003-002-round-05-peer-cross-challenge",
+    "ASGN-003-005-round-04-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "panel-003-public-question"
+  ],
+  "public_evidence_refs": [
+    "C004",
+    "C008"
+  ],
+  "public_action_signals": []
+}

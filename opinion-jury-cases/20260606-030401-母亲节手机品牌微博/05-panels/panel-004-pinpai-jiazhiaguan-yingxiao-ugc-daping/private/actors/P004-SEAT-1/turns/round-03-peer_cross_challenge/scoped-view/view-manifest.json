@@ -1,0 +1,41 @@
+{
+  "scope_id": "PANEL-P004-SEAT-1-R03",
+  "files": [
+    {
+      "source": "01-parse/source-content.md",
+      "view_file": "001-source-content.md",
+      "sha256": "75989ae5ef12c6591fdb625d47ba81a98695c5514978894e25dee6697bb4c217",
+      "size": 1822
+    },
+    {
+      "source": "02-research/claim-gate-packet.v001.json",
+      "view_file": "002-claim-gate-packet.v001.json",
+      "sha256": "3f01013cd2d3a7807c0e388a619c406c7e0c0b832ce6be565df2df189573027b",
+      "size": 22497
+    },
+    {
+      "source": "05-panels/panel-004-pinpai-jiazhiaguan-yingxiao-ugc-daping/public-question.md",
+      "view_file": "003-public-question.md",
+      "sha256": "e6f6ab2fac2d158dd17159558d5eaa9e55b9ee817c3d53f39b3f9be1ce78efed",
+      "size": 98
+    },
+    {
+      "source": "03-role-pool/private/roles/ROLE-CUNVXING-PIANJIANG/role-card.json",
+      "view_file": "004-role-card.json",
+      "sha256": "1963efaf53ef64802724b476da4313c3c25f0832705337557dd49bca31829d28",
+      "size": 2373
+    },
+    {
+      "source": "05-panels/panel-004-pinpai-jiazhiaguan-yingxiao-ugc-daping/private/actors/P004-SEAT-1/assignment.json",
+      "view_file": "005-assignment.json",
+      "sha256": "ad60a00d1a137d7cf5a3c74fe5c4dace8de97b85feb224d59796bdc33821a87a",
+      "size": 477
+    },
+    {
+      "source": "05-panels/panel-004-pinpai-jiazhiaguan-yingxiao-ugc-daping/session/public-snapshots/transcript.before-round-03.jsonl",
+      "view_file": "006-transcript.before-round-03.jsonl",
+      "sha256": "3e1add2e3e3dbee51bcca7e04f7fcc2f18ddb77ab20c4bce30bc66c0c040bc4e",
+      "size": 28438
+    }
+  ]
+}

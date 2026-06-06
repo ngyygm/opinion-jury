@@ -1,0 +1,17 @@
+{
+  "turn_id": "P002-SEAT-5-round-04-responsive-rebuttal",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-5",
+  "round": 4,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "SEAT-4谢谢你接受我的道歉。SEAT-3说的'代言人悖论'让我继续往下想了——品牌想替我们追星妈妈说话，但它其实也在刻板化我们。品牌选的三个案例——追星、同人、宠物——全都是亚文化标签。我确实是追星妈妈，但我也是每天做饭接送孩子的妈妈啊，我也有操持家务的那一面。为什么品牌只看到我追星的那一面？把追星妈妈框定在'追星'这个标签里，跟把传统妈妈框定在'模板'里，其实是同一种刻板化。所以我现在觉得，问题比我想的更深——不是品牌选错了框架，而是品牌根本就不该替任何人下定义。真正好的母亲节营销应该让每个妈妈用自己的话讲自己的故事，而不是品牌来定义谁是'模板'谁是'多元'。SEAT-2说得对——来工地食堂拍拍。也可以来我家拍拍我给孩子做早餐同时又追星的样子。真正的多元是让每个人自己说话。",
+  "target_turn_refs": [
+    "P002-SEAT-4-round-03-peer-cross-challenge",
+    "P002-SEAT-3-round-03-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "panel-002-public-question"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

@@ -1,0 +1,17 @@
+{
+  "turn_id": "P002-SEAT-6-round-06-responsive-rebuttal",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-6",
+  "round": 6,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "学术视角的最终总结。品牌犯的核心错误可以概括为'反刻板印象的刻板印象'——试图打破一种刻板印象却在过程中制造了新的刻板印象。根本原因是'代表权困境'——品牌替妈妈群体定义身份叙事但不让这个群体参与定义过程，结果同时伤害了传统母亲和追星妈妈。短期解决方案是'不做伤害'原则——不用否定性框架、不替他人下定义、不消费真实情感。长期理想方向是参与式传播，但在商业营销中有根本限制。这次六轮讨论本身也验证了一个传播学观点：不同背景的人通过真诚对话可以达成共识。从第一轮的情感碰撞到第六轮的理性综合，这个演化过程本身就有学术价值。最后我必须诚实承认：理论分析再精妙，也比不上SEAT-4说的老伴偷偷留一碗面的故事。真实的人生永远比学术框架更有说服力。真正的赋权不是品牌替妈妈说话，而是社会愿意倾听每一个妈妈自己的故事。谢谢大家，这是一次非常有意义的讨论。",
+  "target_turn_refs": [
+    "P002-SEAT-4-round-05-peer-cross-challenge",
+    "P002-SEAT-3-round-05-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "panel-002-public-question"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

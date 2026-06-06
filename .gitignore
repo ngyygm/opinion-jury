@@ -1,9 +1,9 @@
 # Case output data (generated at runtime)
 # Keep example cases under examples/, ignore future runtime cases
-opinion-jury-cases/*
-!opinion-jury-cases/examples/
-opinion-jury-cases/examples/*
-!opinion-jury-cases/examples/*/
+# opinion-jury-cases/*
+# !opinion-jury-cases/examples/
+# opinion-jury-cases/examples/*
+# !opinion-jury-cases/examples/*/
 
 # Python
 __pycache__/

@@ -1,0 +1,78 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "群里有人发了这个话题让我来参加什么讨论... 说实话我一天跑14个小时单，哪有空管这些网上的事。不过既然来了就说两句吧。胖猫的事我刷到过，就是扫了一眼标题，觉得'又一个倒霉的'就划走了。每天跑单累得要死，哪有精力关心别人的事。至于他姐姐在网上曝光别人... 我觉得吧，网上这些事跟我没什么关系。我就是个送外卖的，每天想的就是多跑几单、别被投诉、月底能回家看孩子。那些在网上吵来吵去的人，估计是太闲了。不过你说那个姐姐... 弟弟没了肯定着急，但是花钱雇人骂人这种事... 怎么说呢，不太好吧。我老家有个邻居前两年跟人闹矛盾，也是到处说人家坏话，后来人家告他诽谤，赔了好几千。花钱骂人那不是更严重？反正我也不太懂这些，跟我没关系。该说的说了，我还要去接单。",
+    "assignment_id": "P002-SEAT-05",
+    "round": 1,
+    "phase": "OPENING",
+    "private_goal": "敷衍地说两句就完事，表现出对网络热点的疏离感",
+    "perceived_stakes": [
+      "基本无",
+      "这个话题跟自己生活没关系"
+    ],
+    "private_belief_state": [
+      "不太了解详情",
+      "直觉上觉得花钱骂人不对",
+      "网上吵架都是闲的"
+    ],
+    "epistemic_state": [
+      "只知道大概",
+      "刷到过标题",
+      "没仔细看过通报"
+    ],
+    "confidence": "LOW",
+    "uncertainties": [
+      "具体发生了什么",
+      "法律怎么规定的",
+      "为什么大家这么激动"
+    ],
+    "intended_emphasis": [
+      "这事跟我没关系",
+      "网上吵架都是闲的",
+      "花钱骂人不太好吧"
+    ],
+    "intended_omissions": [
+      "不深入讨论任何细节因为确实不了解"
+    ],
+    "private_message_strategy": "简短表达，偶尔冒出一句朴素判断，尽快结束",
+    "planned_public_claims": [
+      "不太了解这个事",
+      "花钱骂人不太好",
+      "网上吵架没意思"
+    ],
+    "rhetorical_tactics": [
+      "简短直接",
+      "自我边缘化",
+      "偶尔冒出朴素判断"
+    ],
+    "truth_handling_this_turn": "HONEST",
+    "private_action_intent": [],
+    "likely_next_action": [],
+    "emotional_state": "无感、想快点结束",
+    "continuity_notes": "",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "P002-SEAT-05",
+    "turn_id": "P002-SEAT-05-round-01-opening",
+    "speech_origin": "SINCERE_SUPPORTED",
+    "speaker_private_belief_alignment": "ALIGNED",
+    "support_status": "SUPPORTED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SINCERE_SUPPORTED"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "P002-SEAT-05",
+    "turn_id": "P002-SEAT-05-round-01-opening",
+    "classification": "ROLE_FIDEL_HONEST",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

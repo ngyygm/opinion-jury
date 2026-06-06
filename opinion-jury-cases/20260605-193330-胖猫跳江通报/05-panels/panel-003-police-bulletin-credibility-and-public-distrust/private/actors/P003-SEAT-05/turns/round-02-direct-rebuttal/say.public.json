@@ -1,0 +1,17 @@
+{
+  "turn_id": "P003-SEAT-05-round-02-direct-rebuttal",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-05",
+  "round": 2,
+  "phase": "DIRECT_REBUTTAL",
+  "speech_text": "你们还在吵这个啊...我看了一下，SEAT-01说话好凶嘛，SEAT-04说的那些我也看不太懂。就是嘛，你们吵来吵去有什么用嘛，官方发的东西应该是对的。不对的话他发来干啥子嘛。我还是那句话，年轻人跳江可惜了，其他的事情跟我没关系。我去搬砖了哦。",
+  "target_turn_refs": [
+    "P003-SEAT-01-round-01-opening",
+    "P003-SEAT-04-round-01-opening"
+  ],
+  "public_question_refs": [
+    "警情通报本身的公信力——官方叙事的可信度与公众质疑之间的裂隙"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

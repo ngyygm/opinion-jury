@@ -1,0 +1,21 @@
+{
+  "turn_id": "ASN-P1S2-round-04-responsive-rebuttal",
+  "panel_id": "PANEL-001",
+  "anonymous_alias": "SEAT-2",
+  "round": 4,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "我想从学术界的角度给这篇文章一个最终评价。在我们这个领域，有一种做法叫做advocacy research——先有一个想推动的社会立场，然后再去找支持这个立场的证据。这篇文章就是一个典型的案例。它的立场是'女字旁汉字被系统性污名化'，然后它只选择了支持这个立场的证据，而且对这些证据还进行了不准确的引用和过度的解读。在学术界，这种做法是有争议的。有些学者认为，如果目标是推动社会进步，可以适当放宽学术标准。但主流学术界的共识是——也是我个人的立场——不严谨的研究最终会伤害它想推动的事业。为什么？因为一旦你的证据被证明有误，你的立场也会连带受损。SEAT-5的处境就是最好的说明：如果她用一篇引用错误的文章来支持自己的经历，那些想否定她经历的人就会说'你看，你引用的那个文章都是错的，所以你的经历也不可信'。这就是劣质论证的反噬效应。所以我的最终立场是：语义贬低现象确实值得研究，女字旁汉字的词义变迁确实是一个有学术价值的话题，但正因为它重要，它才值得被正确地对待。准确性不是进步的敌人，准确性是进步最好的盟友。这篇文章最大的问题不是它的方向错了，而是它用错误的方式去追求一个可能正确的方向——这反而给反对者提供了最好的攻击弹药。我希望这次讨论能成为一个起点：不是让这个话题消失，而是让这个话题以正确的方式被讨论。SEAT-5值得一篇真正准确的文章来支持她的经历。学术界的责任就是提供这样的文章。",
+  "target_turn_refs": [
+    "ASN-P1S1-round-03-peer-cross-challenge",
+    "ASN-P1S5-round-03-peer-cross-challenge",
+    "ASN-P1S4-round-03-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "Etymological Accuracy vs. Popular Narrative: Does the Article Mislead Through Selective and Incorrect Citations?"
+  ],
+  "public_evidence_refs": [
+    "Advocacy research的学术批评传统",
+    "性别语言学主流方法论"
+  ],
+  "public_action_signals": []
+}

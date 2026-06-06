@@ -1,0 +1,21 @@
+{
+  "turn_id": "P001-SEAT-5-round-02-direct-rebuttal",
+  "panel_id": "PANEL-001",
+  "anonymous_alias": "SEAT-5",
+  "round": 2,
+  "phase": "DIRECT_REBUTTAL",
+  "speech_text": "看了大家的回应，我想提一个区分：私人空间和公共空间的界限。\n\nSEAT-1你在追星圈子里叫偶像老公，在粉丝群里分享追星快乐，这完全是你的自由，我百分之百支持。但问题是，品牌把这种圈内的表达方式做成了公共广告发出来——这就不一样了。私下跟朋友开玩笑和品牌做成广告让所有人看，这是两个层次的事。\n\n我其实挺认同SEAT-4说的一句话：'可以支持追星妈妈但不必为品牌背书。'品牌作为公共传播方，有更严格的表达责任。它需要考虑到不仅是追星群体，还有像我这样的普通妈妈、像SEAT-3那样的老年人、还有未成年的孩子都会看到这个广告。\n\nSEAT-2说我因为不了解才有偏见，也许有一点道理。但即使我完全了解了饭圈文化，我还是会认为：品牌在做公共传播的时候，不应该只考虑圈内人能不能get到，还要考虑圈外人看到会怎么理解。这不是偏见，这是对公共传播的基本要求。\n\n我觉得不需要在'支持追星'和'反对冒犯'之间选边。追星是个人自由，但品牌的公共表达需要更多考虑和分寸。",
+  "target_turn_refs": [
+    "P001-SEAT-1-round-01-opening",
+    "P001-SEAT-2-round-02-direct-rebuttal",
+    "P001-SEAT-4-round-02-direct-rebuttal"
+  ],
+  "public_question_refs": [
+    "panel-001-public-question"
+  ],
+  "public_evidence_refs": [
+    "C007",
+    "C005"
+  ],
+  "public_action_signals": []
+}

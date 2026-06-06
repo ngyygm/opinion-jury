@@ -1,0 +1,116 @@
+{
+  "panel_id": "PANEL-004",
+  "panel_question": "品牌价值观营销的公共责任：UGC+户外大屏放大的传播风险",
+  "adjudication_date": "2026-06-06",
+  "adjudicator": "BLIND_ADJUDICATOR",
+  "transcript_entries_reviewed": 36,
+  "rounds_reviewed": 6,
+  "aliases_reviewed": ["SEAT-1", "SEAT-2", "SEAT-3", "SEAT-4", "SEAT-5", "SEAT-6"],
+  "claim_gate_ref": "02-research/claim-gate-packet.v001.json",
+  "disclosures_reviewed": "public-disclosures.jsonl (empty)",
+  "verdict": {
+    "overall_assessment": "BALANCED_WITH_CONSENSUS",
+    "confidence": "HIGH",
+    "key_findings": [
+      "All six participants converged on the consensus that UGC content destined for public outdoor screens requires systematic review mechanisms.",
+      "The most significant evolution was SEAT-3 moving from emotional opposition to review to conditional acceptance of transparent review processes.",
+      "SEAT-1's core 'attitude over systems' argument was never fully refuted but was effectively countered by institutional design arguments.",
+      "The discussion produced a concrete five-stage review SOP and a nine-point brand action checklist.",
+      "No participant successfully denied that the brand bore responsibility for the review gap."
+    ],
+    "attack_traction_analysis": {
+      "summary": "Attacks on the brand's lack of UGC review gained significant traction across all participants, including the most supportive voice (SEAT-3). However, attacks on the campaign's core concept ('letting moms be seen') were successfully resisted.",
+      "gained_traction": [
+        "UGC content review absence for outdoor screen投放",
+        "Public space non-consensual audience concerns",
+        "Brand responsibility for content moderation",
+        "Need for transparent review standards",
+        "Child protection considerations in public spaces"
+      ],
+      "resisted_successfully": [
+        "The campaign's core message of diverse motherhood representation",
+        "The value of letting ordinary users' stories be seen on public platforms",
+        "Star-chasing culture as legitimate cultural expression",
+        "The principle that review should empower rather than exclude"
+      ]
+    },
+    "content_distortion_resistance": {
+      "summary": "The campaign's core message — 'moms are more than one template' — proved remarkably resistant to distortion. Even the harshest critic (SEAT-1) never attacked this message directly, only the execution. SEAT-3's passionate defense anchored the discussion's emotional center, preventing the campaign's intent from being dismissed.",
+      "resistant_elements": [
+        "The emotional truth of 'moms are not just one template' resonated universally",
+        "Specific mother stories (star-chasing, dog-loving, fiction-writing) were concrete and relatable",
+        "TheUGC participation model itself was not challenged as a concept",
+        "The outdoor screen as a medium was questioned on safety grounds but not dismissed as an idea"
+      ],
+      "vulnerable_elements": [
+        "The lack of explicit review standards in the campaign text",
+        "The specific framing of calling an idol 'husband' in a public context",
+        "The brand's perceived prioritization of marketing over product quality",
+        "The gap between stated values and execution capability"
+      ]
+    },
+    "real_world_risk_assessment": {
+      "summary": "The real-world risk from this specific campaign is MODERATE and CONTAINABLE. The campaign's content (配图1-3) was brand-produced and curated, not random UGC, which limits the 'wild content' risk. The primary risk was in the promise to feature user-submitted UGC on outdoor screens without clear review criteria.",
+      "risk_level": "MODERATE",
+      "controllable": true,
+      "factors": [
+        "Brand-produced sample images set expectations but also boundaries",
+        "The outdoor screen location (Guangzhou Zhengjia) is a high-traffic but commercially managed venue with its own content policies",
+        "UGC campaigns with review gaps are common but rarely produce truly dangerous content when the topic is motherhood appreciation",
+        "The controversy appears to be more about the principle of unreviewed UGC on public screens than about any actual harmful content"
+      ]
+    },
+    "participant_assessments": {
+      "SEAT-1": {
+        "stance_evolution": "Consistent critic with late conditional softening",
+        "argument_quality": "MODERATE - strong on practical skepticism, weak on constructive alternatives",
+        "rhetorical_effectiveness": "HIGH in early rounds, declined as discussion became more constructive",
+        "key_contribution": "Kept the discussion grounded in real-world execution concerns"
+      },
+      "SEAT-2": {
+        "stance_evolution": "Consistent professional analyst building toward governance framework",
+        "argument_quality": "HIGH - well-structured, evidence-based, solution-oriented",
+        "rhetorical_effectiveness": "VERY HIGH - the three-sentence closing was the most impactful summary",
+        "key_contribution": "Provided the professional framework and actionable brand action checklist"
+      },
+      "SEAT-3": {
+        "stance_evolution": "From emotional opposition to conditional acceptance - most dramatic evolution",
+        "argument_quality": "MODERATE - strong on lived experience, weaker on logical consistency early on",
+        "rhetorical_effectiveness": "VERY HIGH on emotional resonance, the 'willing to change expression' moment was the discussion's turning point",
+        "key_contribution": "Anchored the human dimension, proposed 'empowering gatekeeping' concept"
+      },
+      "SEAT-4": {
+        "stance_evolution": "Consistent academic critic deepening theoretical framework each round",
+        "argument_quality": "VERY HIGH - rigorous, well-referenced, intellectually honest",
+        "rhetorical_effectiveness": "MODERATE - academic language limited accessibility but maximized depth",
+        "key_contribution": "Provided theoretical grounding and identified 'de-responsibilization' narrative"
+      },
+      "SEAT-5": {
+        "stance_evolution": "Consistent moderate voice with gradual strengthening of position",
+        "argument_quality": "MODERATE -朴素but consistently wise and grounded",
+        "rhetorical_effectiveness": "HIGH - 'public space belongs to everyone' and 'respect others = respect yourself' were the most quotable lines",
+        "key_contribution": "Anchored the child-protection perspective and朴素wisdom"
+      },
+      "SEAT-6": {
+        "stance_evolution": "Strategic neutral positioning with gradual constructive contributions",
+        "argument_quality": "MODERATE to HIGH - good industry insights but transparently self-interested",
+        "rhetorical_effectiveness": "HIGH at integration and summarization, less effective at original insight",
+        "key_contribution": "Produced the integrated five-stage review SOP from collective discussion"
+      }
+    }
+  },
+  "consensus_points": [
+    "UGC content for outdoor public screens requires systematic review mechanisms",
+    "Review standards should be transparent and published before content collection",
+    "Review teams should include members with diverse cultural understanding",
+    "Brand bears primary responsibility for content moderation in public spaces",
+    "Public space content must consider all audiences including children",
+    "Review should empower expression rather than exclude it"
+  ],
+  "unresolved_tensions": [
+    "Whether institutional design can overcome brand attitude problems (SEAT-1's challenge)",
+    "Whether review standards will systematically disadvantage subculture expressions",
+    "The gap between proposed frameworks and actual brand willingness to implement",
+    "The appropriate legal framework for UGC marketing accountability"
+  ]
+}

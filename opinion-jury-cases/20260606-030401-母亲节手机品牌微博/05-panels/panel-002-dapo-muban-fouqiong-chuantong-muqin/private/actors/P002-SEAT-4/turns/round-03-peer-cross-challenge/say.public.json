@@ -1,0 +1,16 @@
+{
+  "turn_id": "P002-SEAT-4-round-03-peer-cross-challenge",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-4",
+  "round": 3,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "SEAT-5你说品牌方向没错只是表达方式有问题，那我直接问你——你的'多元'妈妈形象里，包不包括我老伴这样的？我老伴一辈子就会操持家务照顾家人。她不会追星不会写小说不会养宠物。按品牌说的，她就是'模板'。但在我眼里她是独一无二的。她有她的倔强——当年工厂裁员她一个人扛着不让我知道；她有她的可爱——每次我加班回来都偷偷给我留一碗面；她有她的骄傲——儿子考上大学那天她哭了半宿。你说要多元，我老伴这种只会操持家务的妈妈算不算多元？还是说在你的多元里，只会家务的妈妈就是'模板'，追星的才是'真实'的？我要的不是你承认品牌表达方式有问题，我要你承认——我老伴这样的妈妈，不是模板，是一个活生生的、独特的、了不起的人。品牌的错不是表达方式，是它根本就没把我们这样的妈妈当个体看。",
+  "target_turn_refs": [
+    "P002-SEAT-5-round-02-direct-rebuttal"
+  ],
+  "public_question_refs": [
+    "panel-002-public-question"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

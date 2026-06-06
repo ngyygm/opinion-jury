@@ -1,0 +1,21 @@
+{
+  "turn_id": "ASN-P1S3-round-02-direct-rebuttal",
+  "panel_id": "PANEL-001",
+  "anonymous_alias": "SEAT-3",
+  "round": 2,
+  "phase": "DIRECT_REBUTTAL",
+  "speech_text": "回应几个人的观点。SEAT-2提出了跨语言语义贬低的论据，mistress、hussy、madam这些英语例子，我查了一下，确实都是真实的语义贬低案例，这个我承认。而且这个跨语言的研究传统听起来也确实存在。但我要做一个关键区分：现象的存在不等于这篇文章的论证是对的。用程序员的类比：如果一段代码碰巧跑出了正确的结果，但代码本身全是bug——变量名写错了、逻辑分支是反的、还有几个未处理的异常——你会因为它结果碰巧对了就说这段代码没问题吗？不会。因为下次运行可能就崩了。这篇文章也一样。它碰巧指向了一个可能真实存在的现象，但它的论证过程——错误引用、选择性举证、因果跳跃——全是bug。我们批评的不是结论，是论证。如果SEAT-2能用她提到的那些跨语言学术文献来重新做一个严谨的论证，我完全愿意认真对待。但那将是一篇完全不同的文章。对SEAT-4我要直说：你的逻辑在任何一个需要事实准确性的领域都站不住。'引发了讨论就有价值'——那伪科学文章让公众讨论了科学，也有价值？谣言让公众讨论了真相，也有价值？价值不能建立在错误的基础上。至少不能心安理得地建立在错误上。至于SEAT-5，你的经历我能理解，被取笑名字确实不好受。但我想请你想想：如果一篇文章用虚假的数据来支持一个对你有利的结果，你愿意吗？如果有人用编造的证据来替你辩护，这种辩护最后反过来伤害你的信誉，你觉得值得吗？我支持你维护自己名字的尊严，但支持你的应该是真实的信息，不是虚假的词源。",
+  "target_turn_refs": [
+    "ASN-P1S2-round-01-opening",
+    "ASN-P1S4-round-01-opening",
+    "ASN-P1S5-round-01-opening"
+  ],
+  "public_question_refs": [
+    "Etymological Accuracy vs. Popular Narrative: Does the Article Mislead Through Selective and Incorrect Citations?"
+  ],
+  "public_evidence_refs": [
+    "英语语义贬低案例验证",
+    "代码类比方法论"
+  ],
+  "public_action_signals": []
+}

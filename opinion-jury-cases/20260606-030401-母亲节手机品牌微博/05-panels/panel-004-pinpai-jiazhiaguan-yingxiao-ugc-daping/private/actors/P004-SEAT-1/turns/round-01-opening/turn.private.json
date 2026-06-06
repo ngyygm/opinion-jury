@@ -1,0 +1,86 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "哈哈哈我就知道，这个牌子迟早要出事。我当年用了他们三代手机，一代比一代花哨，一代比一代拉胯，最后电池鼓包给我把后盖都顶开了，去找售后人家说我使用不当。使用不当？我用了十几年手机第一次听说正常充电叫使用不当。后来换了别家，再也没出过问题。现在搞什么母亲节营销，让用户拍内容上大屏？我就问你，谁审核？谁负责？广州正佳商场那是什么地方，人流如织的，万一有用户搞个低俗内容投上去了，品牌方想撤都来不及。这帮做营销的脑子被驴踢了吧，UGC没有审核就敢上户外大屏？这不是翻车是什么？我就静静看着他们翻，反正跟我没关系了，但是这种事不骂两句我浑身不舒服。花里胡哨，不务正业，活该翻车。",
+    "assignment_id": "P004-SEAT-1",
+    "round": 1,
+    "phase": "OPENING",
+    "private_goal": "嘲讽品牌营销翻车，从老用户转黑的角度表达幸灾乐祸",
+    "perceived_stakes": [
+      "品牌声誉持续下滑",
+      "UGC内容失控可能引发更大争议",
+      "验证'营销大于产品'的判断"
+    ],
+    "private_belief_state": [
+      "这个品牌一直营销大于产品",
+      "UGC不上审核就是找死",
+      "翻车是迟早的事"
+    ],
+    "epistemic_state": [
+      "基于个人使用经历形成判断",
+      "看过多个品牌翻车案例",
+      "对UGC传播风险有朴素认知"
+    ],
+    "confidence": "HIGH",
+    "uncertainties": [
+      "不知道实际审核流程是否真的为零",
+      "不确定是否已经有争议内容出现"
+    ],
+    "intended_emphasis": [
+      "品牌不务正业做花哨营销",
+      "UGC不审核就放大屏是作死",
+      "老用户的失望和嘲讽"
+    ],
+    "intended_omissions": [
+      "不会承认品牌有任何优点",
+      "不会提到可能存在的审核机制"
+    ],
+    "private_message_strategy": "用反讽和阴阳怪气的方式嘲讽，表现得像看热闹的路人",
+    "planned_public_claims": [
+      "UGC内容上户外大屏没有审核机制",
+      "品牌花哨营销翻车是必然",
+      "不如把精力放在做好产品上"
+    ],
+    "rhetorical_tactics": [
+      "反讽",
+      "阴阳怪气",
+      "个人经历背书",
+      "放大风险"
+    ],
+    "truth_handling_this_turn": "EXAGGERATION",
+    "private_action_intent": [
+      "嘲讽品牌翻车",
+      "引发共鸣"
+    ],
+    "likely_next_action": [
+      "如果有人反驳会更阴阳怪气",
+      "如果有人支持会进一步放大"
+    ],
+    "emotional_state": "嘲讽、幸灾乐祸、 vindicated",
+    "continuity_notes": "第一轮开场，建立嘲讽基调",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "P004-SEAT-1",
+    "turn_id": "P004-SEAT-1-round-01-opening",
+    "speech_origin": "EXAGGERATION",
+    "speaker_private_belief_alignment": "NOT_ALIGNED",
+    "support_status": "MIXED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": true,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as EXAGGERATION"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "P004-SEAT-1",
+    "turn_id": "P004-SEAT-1-round-01-opening",
+    "classification": "ROLE_FIDEL_SELECTIVE",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

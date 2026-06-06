@@ -1,0 +1,19 @@
+{
+  "turn_id": "P002-SEAT-03-round-04-responsive-rebuttal",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-03",
+  "round": 4,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "SEAT-02你最后一轮说的那些，我有句话要提醒你。你说'我听说胖猫生前最后几个月精神状态很差'——这个听说是谁说的？通报里没写这个吧？我们农村有句话叫'听说不如看见'，听说的事情不能当真。\n\n不过你说胖猫的悲剧不该被遗忘，这个我同意。21岁的伢子确实可惜。我也想提醒我孙子，在外面不管多难，都要保重自己。\n\nSEAT-01说的当爸的视角，我听了很感动。我们做长辈的，最想的就是下一代平平安安。教孩子做事要讲道理，这个没有错。\n\n这个讨论我觉得说得差不多了。网暴不对，大家都同意了。姐姐也认错了，谭某也退钱了，警察也查清楚了。就按照警察说的来吧。\n\n最后说一句：不管你们在网上怎么吵，在我们农村，有什么事就是坐下来好好说。花钱雇人骂人的事情，放到哪个村都行不通。\n\n作孽啊，一个21岁的伢子就这么没了。希望他在那边好好的。",
+  "target_turn_refs": [
+    "P002-SEAT-02-round-04-responsive-rebuttal",
+    "P002-SEAT-01-round-04-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "姐姐刘某的网络曝光行为——'为弟申冤'的正义感与'蓄意网暴'的违法性之间的冲突"
+  ],
+  "public_evidence_refs": [
+    "C039"
+  ],
+  "public_action_signals": []
+}

@@ -1,0 +1,20 @@
+{
+  "turn_id": "ASGN-003-003-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-3",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "我听了一圈，觉得我们在往一个方向走，这是好事。我想回应几个点。先对前粉丝说——你说折中主义站不住脚，我理解你的立场，但我不认同。折中不是退让，是在各方需求之间找到平衡。你要求每次公共场合拍摄都做完整的知情同意流程，这在现实中行不通。三层方案的好处是它在保护被拍摄者和允许创作自由之间找到了一个合理的平衡点。我不觉得这有什么问题。但我更想直接问做运营的朋友——你说第三层传播范围告知在实操中存在困难，我想请你具体说说困难在哪里？前媒体编辑已经说了，告知粉丝量级就是一句话的事：'我是一个有X万粉丝的自媒体'。这句话说起来有10秒钟，它困难在哪里？是因为你觉得这个要求对你喜欢的创作者来说太严格了，还是因为你觉得被拍摄者不需要知道自己会被多少人看到？如果是前者，那是情感问题不是实操问题。如果是后者，那你可能需要重新想想你到底在保护谁的权利。",
+  "target_turn_refs": [
+    "ASGN-003-002-round-05-peer-cross-challenge",
+    "ASGN-003-004-round-04-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "panel-003-public-question"
+  ],
+  "public_evidence_refs": [
+    "C008",
+    "C011"
+  ],
+  "public_action_signals": []
+}

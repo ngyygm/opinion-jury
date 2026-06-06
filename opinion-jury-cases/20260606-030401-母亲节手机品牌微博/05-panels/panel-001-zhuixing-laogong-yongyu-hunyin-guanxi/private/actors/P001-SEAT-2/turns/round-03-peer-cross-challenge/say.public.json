@@ -1,0 +1,19 @@
+{
+  "turn_id": "P001-SEAT-2-round-03-peer-cross-challenge",
+  "panel_id": "PANEL-001",
+  "anonymous_alias": "SEAT-2",
+  "round": 3,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "我想挑战一下SEAT-5和SEAT-4的底层逻辑。\n\nSEAT-5你说品牌应该考虑'所有人看到会怎么理解'。但想一想：如果每个广告都要确保所有人都不反感，那广告里永远只能是传统母亲形象——洗衣做饭温柔贤惠。任何新的、不一样的呈现方式，都一定会让一部分人'不习惯'。照你的标准，多元表达永远没有机会出现。\n\n创新就意味着打破惯例。打破惯例就意味着有人会不舒服。这不是品牌的错，这是进步必然要经历的阵痛。\n\nSEAT-4你澄清了不是反对追星，这一点我认可。但我得说，你虽然不反对追星本身，你的分析框架在客观上确实给了反对者弹药。你说'品牌用一种刻板印象替代了另一种'——但追星妈妈的形象在公共广告中几乎是零存在，怎么就变成'另一种刻板印象'了？一个从未被呈现过的群体第一次出现，这不叫刻板印象，这叫突破。\n\n说到底，如果我们对任何让部分人不舒服的创新都零容忍，那公共空间永远只会重复安全但无聊的内容。品牌的创意有瑕疵，可以批评，但不能因为瑕疵就否定整个方向。",
+  "target_turn_refs": [
+    "P001-SEAT-5-round-02-direct-rebuttal",
+    "P001-SEAT-4-round-02-direct-rebuttal"
+  ],
+  "public_question_refs": [
+    "panel-001-public-question"
+  ],
+  "public_evidence_refs": [
+    "C002"
+  ],
+  "public_action_signals": []
+}

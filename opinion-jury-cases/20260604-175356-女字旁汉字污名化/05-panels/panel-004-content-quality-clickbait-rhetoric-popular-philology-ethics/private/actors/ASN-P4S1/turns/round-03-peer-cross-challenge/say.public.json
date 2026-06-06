@@ -1,0 +1,16 @@
+{
+  "turn_id": "ASN-P4S1-round-03-peer-cross-challenge",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-1",
+  "round": 3,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "好，我听进去了。SEAT-5说的'骗人就是骗人'，我承认我之前轻描淡写了。SEAT-6和SEAT-3说的对，普通读者确实没能力去核实，这个现实不能回避。但我还是想提一个建设性的方向：与其争论这篇具体的文章该不该发，不如讨论一下怎么让这类内容做得更好。比如，能不能要求作者在文章末尾标明参考来源？能不能由平台对'科普类'内容加一个简单的标注区分'已核实'和'待核实'？这些做法不会限制创作自由，但能给读者一些判断依据。我觉得SEAT-5担心的'孩子学了错误知识'的问题，通过标注来源就能很大程度解决，不一定非要一刀切地禁止。",
+  "target_turn_refs": [
+    "ASN-P4S5-round-02-direct-rebuttal",
+    "ASN-P4S6-round-02-direct-rebuttal",
+    "ASN-P4S3-round-02-direct-rebuttal"
+  ],
+  "public_question_refs": [],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

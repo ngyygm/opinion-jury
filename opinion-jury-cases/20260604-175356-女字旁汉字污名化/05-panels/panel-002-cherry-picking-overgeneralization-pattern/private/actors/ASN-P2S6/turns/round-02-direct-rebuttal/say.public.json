@@ -1,0 +1,18 @@
+{
+  "turn_id": "ASN-P2S6-round-02-direct-rebuttal",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-6",
+  "round": 2,
+  "phase": "DIRECT_REBUTTAL",
+  "speech_text": "那个说话冲的后生仔，你说我被忽悠了？我虽然不识几个字但是我活了快七十年了，谁忽悠得了谁？好字安字就是好的意思，这个到天边也变不了。你说那些坏字也有，我承认，妒啊妨啊确实不是好字，但是你扳着手指头数数，好的字多还是坏的字多？娟、娥、婷、婉、媛、娇、妙、姝，这些不都是好的？坏人比好人少，坏字当然也比好字少，这不是很简单的道理嘛。那个骑手小伙子说的对，别什么都往对立上扯。我们村里的婆娘们虽然不识几个字，但是过日子过一辈子，什么道理不懂？那个退休女工说的我也信，以前确实男的女的不平等，我们村里也是这样。但是这跟那篇文章是不是瞎说是两码事。",
+  "target_turn_refs": [
+    "ASN-P2S1-round-01-opening",
+    "ASN-P2S2-round-01-opening",
+    "ASN-P2S3-round-01-opening"
+  ],
+  "public_question_refs": [
+    "cherry-picking-overgeneralization-pattern"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

@@ -1,0 +1,16 @@
+{
+  "turn_id": "ASN-P4S3-round-06-responsive-rebuttal",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-3",
+  "round": 6,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "最后说说我的想法吧。说实话一开始我觉得这有什么好争的，标题党嘛看个热闹。但听着听着，特别是SEAT-5说的那些话和SEAT-6的超市类比，我慢慢觉得这事跟我也有关系。我每天送外卖回家刷手机，那些内容到底靠不靠谱我确实分不清。如果连我都分不清，比我更忙的人、比我文化程度更低的人怎么办？SEAT-1最后认了，我觉得至少态度是好的。总结一下：不能无中生有是底线，事实就是事实不能装成观点，平台应该像超市管食品一样管内容。道理不难，难的是怎么落实。谢谢大家。",
+  "target_turn_refs": [
+    "ASN-P4S5-round-05-peer-cross-challenge",
+    "ASN-P4S6-round-05-peer-cross-challenge",
+    "ASN-P4S1-round-06-responsive-rebuttal"
+  ],
+  "public_question_refs": [],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

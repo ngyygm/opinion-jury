@@ -1,0 +1,21 @@
+{
+  "scope_type": "actor_turn_input",
+  "allowlist": [
+    "01-parse/source-content.md",
+    "05-panels/panel-002-influencer-power-vs-enterprise/transcript.public.jsonl"
+  ],
+  "includes": [
+    "source_content",
+    "prior_public_transcript"
+  ],
+  "excludes": [
+    "other_actor_cards",
+    "other_private_memos",
+    "filing_metadata",
+    "identity_maps",
+    "blind_verdict"
+  ],
+  "scope_id": "ASGN-002-002-round-05-peer-cross-challenge",
+  "assignment_id": "ASGN-002-002",
+  "round": "round-05-peer-cross-challenge"
+}

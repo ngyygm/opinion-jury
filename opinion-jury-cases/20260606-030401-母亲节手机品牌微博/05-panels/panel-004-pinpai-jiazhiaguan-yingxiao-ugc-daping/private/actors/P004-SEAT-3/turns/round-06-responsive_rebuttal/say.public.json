@@ -1,0 +1,23 @@
+{
+  "turn_id": "P004-SEAT-3-round-06-responsive_rebuttal",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-3",
+  "round": 6,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "最后一轮，我不想说什么大道理了。\n\n六轮讨论，从一开始觉得所有人都否定我，到现在我愿意参与审核标准的制定。这个转变连我自己都没想到。我想谢谢SEAT-5，是你说'换一种让更多人能理解的方式'让我想通了——不是放弃自己，是找到更好的沟通方式。谢谢SEAT-2，是你说的'审核是保护不是否定'让我开始重新想这件事。谢谢SEAT-4，你的那些理论虽然我一开始听不懂，但你说'把关人可以是帮助者'我听明白了。谢谢SEAT-1，你最后说的'愿意再看一次'让我觉得就算是最刺耳的批评里也有真诚。谢谢SEAT-6，你一直在帮大家整理和推进讨论。\n\n如果品牌真的能看到这场讨论，我想对品牌说：追星妈妈愿意参与你的活动，也愿意接受透明公开的审核。但请你把审核当成帮助我更好表达的工具，不是排除我的借口。如果你能做到这一点，追星妈妈会是你最忠实的用户。\n\n最后一句：妈妈从来不是只有一种模样——但每一种模样的妈妈，都值得被正确地看见。这场讨论本身，就是一次'被正确看见'的尝试。\n\n谢谢大家。",
+  "target_turn_refs": [
+    "P004-SEAT-5-round-05-peer_cross_challenge",
+    "P004-SEAT-2-round-05-peer_cross_challenge",
+    "P004-SEAT-4-round-05-peer_cross_challenge",
+    "P004-SEAT-1-round-05-peer_cross_challenge"
+  ],
+  "public_question_refs": [
+    "品牌价值观营销的公共责任：UGC+户外大屏放大的传播风险"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": [
+    "温暖收束",
+    "感谢讨论",
+    "追星妈妈被听见"
+  ]
+}

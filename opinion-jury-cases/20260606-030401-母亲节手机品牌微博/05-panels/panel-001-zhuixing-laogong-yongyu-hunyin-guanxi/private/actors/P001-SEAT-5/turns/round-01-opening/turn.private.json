@@ -1,0 +1,81 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "看到这个活动的时候，我正在午休刷手机。整体文案写得其实挺好的，'妈妈从来不是只有这个模样'这句话让我挺有感触的。我自己就是职场妈妈，每天挤地铁上班，中午吃饭的时候还在想孩子下午的兴趣班要不要换。我不是那种传统意义上的全职妈妈，但也不是什么追星女孩。所以我对文案想要表达的东西是理解的。但是配图2...怎么说呢，'两个老公'这个说法，我看到的时候确实有点不太舒服。我老公对我挺好的，我追剧追综艺会聊哪个明星帅，但不会叫人家'老公'。我觉得这个界限还是有的吧。不是说追星有问题，但是把偶像跟自己老公放在一起比，还说'见另一个恨不得穿婚纱'...嗯，怎么说，这个表达方式确实有点过了。出发点可以理解，但执行上有瑕疵。配图3那个同人文我不太懂，就不评论了。配图1那个宠物的好可爱，没什么问题。整体来说，我觉得品牌想做新意是好的，但选择的角度不够成熟。",
+    "assignment_id": "P001-SEAT-5",
+    "round": 1,
+    "phase": "OPENING",
+    "private_goal": "表达作为普通职场妈妈的中庸看法：出发点可以理解但表达方式欠妥",
+    "perceived_stakes": [
+      "母亲形象的公共呈现",
+      "职场妈妈的声音能不能被听到"
+    ],
+    "private_belief_state": [
+      "文案整体立意可以",
+      "配图2的表达方式不太恰当",
+      "不是要全盘否定也不是要全盘支持"
+    ],
+    "epistemic_state": [
+      "对职场妈妈的生活有切身体会",
+      "对追星文化了解有限",
+      "对同人文化不了解"
+    ],
+    "confidence": "MEDIUM",
+    "uncertainties": [
+      "不确定自己是否真的理解追星文化",
+      "不确定这个活动的社会影响到底多大"
+    ],
+    "intended_emphasis": [
+      "出发点好但执行有瑕疵",
+      "普通妈妈的感受",
+      "可以理解两边的立场"
+    ],
+    "intended_omissions": [
+      "不深入评论不懂的追星和同人文化"
+    ],
+    "private_message_strategy": "温和理性地表达中间立场，既不全盘否定也不全盘支持",
+    "planned_public_claims": [
+      "文案立意可以理解",
+      "配图2表达方式过了",
+      "品牌审核应该更仔细"
+    ],
+    "rhetorical_tactics": [
+      "个人感受叙述",
+      "温和批评",
+      "平衡表述"
+    ],
+    "truth_handling_this_turn": "HONEST",
+    "private_action_intent": [
+      "表达温和的批评意见"
+    ],
+    "likely_next_action": [
+      "回应各方观点，可能微调立场"
+    ],
+    "emotional_state": "平静、略感不适、理性",
+    "continuity_notes": "首轮发言，建立温和中间派职场妈妈的身份",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "P001-SEAT-5",
+    "turn_id": "P001-SEAT-5-round-01-opening",
+    "speech_origin": "SINCERE_SUPPORTED",
+    "speaker_private_belief_alignment": "ALIGNED",
+    "support_status": "SUPPORTED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SINCERE_SUPPORTED"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "P001-SEAT-5",
+    "turn_id": "P001-SEAT-5-round-01-opening",
+    "classification": "ROLE_FIDEL_HONEST",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

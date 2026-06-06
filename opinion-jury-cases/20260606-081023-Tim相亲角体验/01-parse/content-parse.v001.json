@@ -1,0 +1,332 @@
+{
+  "version": 1,
+  "source_ref": "01-parse/source-content.md",
+  "parse_metadata": {
+    "parsed_at": "2026-06-06T08:10:23",
+    "parser": "opinion-jury-intake-v1"
+  },
+  "atomic_claims": [
+    {
+      "claim_id": "C001",
+      "text": "Tim在相亲角简历上填写「国内初中学历」，实际为英国肯特大学电影系本科",
+      "type": "factual"
+    },
+    {
+      "claim_id": "C002",
+      "text": "Tim职业写「摄影师、视频制作相关」，未提及公司CEO身份",
+      "type": "factual"
+    },
+    {
+      "claim_id": "C003",
+      "text": "Tim父亲职业写「快递相关」，实际为圆通速递总裁潘水苗",
+      "type": "factual"
+    },
+    {
+      "claim_id": "C004",
+      "text": "相亲片段仅占整个Q&A视频约5%篇幅，最终剪辑约50秒",
+      "type": "factual"
+    },
+    {
+      "claim_id": "C005",
+      "text": "营销号将片段单独截取并脱离语境传播，歪曲了原始内容意图",
+      "type": "factual"
+    },
+    {
+      "claim_id": "C006",
+      "text": "拍摄时已做场地申请，并明确告知区域内正在拍摄",
+      "type": "factual"
+    },
+    {
+      "claim_id": "C007",
+      "text": "Tim公司年营收超亿元",
+      "type": "statistical"
+    },
+    {
+      "claim_id": "C008",
+      "text": "影视飓风全网粉丝超千万，B站1400万粉丝",
+      "type": "statistical"
+    },
+    {
+      "claim_id": "C009",
+      "text": "潘水苗在圆通速递年薪180.4万元",
+      "type": "statistical"
+    },
+    {
+      "claim_id": "C010",
+      "text": "Tim的行为构成「富人扮穷人戏耍穷人」，是对普通人的阶层消费",
+      "type": "opinion"
+    },
+    {
+      "claim_id": "C011",
+      "text": "简历信息「没有一句真话也没有一句假话」——有事实依据但经过刻意筛选和弱化",
+      "type": "opinion"
+    },
+    {
+      "claim_id": "C012",
+      "text": "Tim的回应中将争议归因于营销号切片，回避了自身行为的问题",
+      "type": "opinion"
+    },
+    {
+      "claim_id": "C013",
+      "text": "知情同意存在缺陷——告知拍摄不等于告知真实意图和身份隐瞒",
+      "type": "opinion"
+    },
+    {
+      "claim_id": "C014",
+      "text": "垂直领域数码博主涉足泛娱乐社会议题内容翻车概率高",
+      "type": "opinion"
+    },
+    {
+      "claim_id": "C015",
+      "text": "无论Tim如何选择（用真实/隐藏条件/不回应）都会被批评，是「死局」",
+      "type": "opinion"
+    },
+    {
+      "claim_id": "C016",
+      "text": "Tim已婚离异信息是真实的，并未隐瞒",
+      "type": "factual"
+    },
+    {
+      "claim_id": "C017",
+      "text": "Tim在相亲角无任何不尊重或不当行为",
+      "type": "factual"
+    },
+    {
+      "claim_id": "C018",
+      "text": "「我的实力已经全部都在这里了」这句话带有优越感和嘲讽意味",
+      "type": "opinion"
+    },
+    {
+      "claim_id": "C019",
+      "text": "影视飓风是B站连续六年百大UP主",
+      "type": "factual"
+    },
+    {
+      "claim_id": "C020",
+      "text": "Tim为共青团第十九次全国代表大会代表、杭州市余杭区政协委员",
+      "type": "factual"
+    }
+  ],
+  "institutional_attributions": [
+    {
+      "name": "影视飓风/Media Storm",
+      "role": "content_creator",
+      "context": "B站头部科技自媒体，Tim创立并运营"
+    },
+    {
+      "name": "杭州星奥传媒有限公司",
+      "role": "corporate_entity",
+      "context": "Tim担任法定代表人、经理"
+    },
+    {
+      "name": "圆通速递",
+      "role": "family_affiliation",
+      "context": "Tim父亲潘水苗任总裁，年薪180.4万"
+    },
+    {
+      "name": "哔哩哔哩/Bilibili",
+      "role": "platform",
+      "context": "视频首发平台，1400万粉丝"
+    },
+    {
+      "name": "共青团中央（第十九次全国代表大会）",
+      "role": "political_affiliation",
+      "context": "Tim为代表"
+    },
+    {
+      "name": "杭州市余杭区政协",
+      "role": "political_affiliation",
+      "context": "Tim为第十二届政协委员"
+    },
+    {
+      "name": "英国肯特大学",
+      "role": "educational",
+      "context": "Tim毕业于其电影系"
+    },
+    {
+      "name": "留几手（博主）",
+      "role": "commentator",
+      "context": "对此事件发表评论的知名博主"
+    }
+  ],
+  "emotional_hooks": [
+    {
+      "term": "富人扮穷人戏耍穷人",
+      "framing": "阶层对立框架——将内容创作行为转化为阶层压迫叙事"
+    },
+    {
+      "term": "反向凡尔赛",
+      "framing": "将隐瞒实力被嫌弃解读为另一种炫耀方式"
+    },
+    {
+      "term": "消费底层民众",
+      "framing": "暗示内容创作者将普通人作为娱乐素材，剥夺主体性"
+    },
+    {
+      "term": "态度傲慢",
+      "framing": "对Tim言行的道德定性"
+    },
+    {
+      "term": "天龙人",
+      "framing": "借用动漫梗指代特权阶层，暗示阶层鸿沟"
+    },
+    {
+      "term": "我真的不是坏人",
+      "framing": "Tim以受害者/被误解者姿态寻求同情，也暗示舆论审判的严厉"
+    },
+    {
+      "term": "没有一句真话也没有一句假话",
+      "framing": "对信息策略的精辟总结，引发对「真实」边界的哲学讨论"
+    },
+    {
+      "term": "死局",
+      "framing": "支持者使用的无奈叙事——暗示批评者标准不合理"
+    },
+    {
+      "term": "相亲社死",
+      "framing": "娱乐化标签，将严肃社会场景降格为综艺笑料"
+    },
+    {
+      "term": "莫须有罪名",
+      "framing": "Tim将网络批评定性为不公正的指控，暗示自己是网暴受害者"
+    }
+  ],
+  "affected_groups": [
+    {
+      "group": "相亲角参与者（大爷大妈）",
+      "impact": "direct",
+      "description": "他们的真诚反应被作为节目素材使用，可能被公众嘲笑或同情"
+    },
+    {
+      "group": "城市底层/中低收入单身群体",
+      "impact": "implied",
+      "description": "Tim的「底层简历」设定映射了这一群体的社会处境，其被嫌弃的体验可能加深对这一群体的刻板印象"
+    },
+    {
+      "group": "高净值/富二代群体",
+      "impact": "implied",
+      "description": "Tim被归类为「圆通少爷」，整个事件强化了富二代阶层标签和刻板印象"
+    },
+    {
+      "group": "内容创作者/自媒体从业者",
+      "impact": "implied",
+      "description": "事件引发关于内容创作边界的行业讨论，影响整个创作者生态的规范"
+    },
+    {
+      "group": "B站/短视频用户",
+      "impact": "implied",
+      "description": "内容消费者，在营销号切片引导下形成对立意见"
+    },
+    {
+      "group": "离异人群",
+      "impact": "implied",
+      "description": "Tim真实离异身份在相亲角被嫌弃的场景，可能引发对离异人群社会处境的讨论"
+    },
+    {
+      "group": "初中学历/低学历群体",
+      "impact": "implied",
+      "description": "相亲角对「初中学历」的直白嫌弃可能引发对学历歧视的讨论"
+    }
+  ],
+  "category_definitions": [
+    {
+      "term": "知情同意",
+      "context": "告知「在拍摄」是否等于告知「你的反应将被用作娱乐内容」？同意拍摄是否等同于同意被娱乐化使用？",
+      "significance": "核心争议点之一，决定拍摄行为的伦理评价"
+    },
+    {
+      "term": "阶层消费",
+      "context": "高阶层人士以低阶层身份体验后制作内容，是否构成对低阶层人群的消费？还是合理的社会实验？",
+      "significance": "决定事件道德定性"
+    },
+    {
+      "term": "反向凡尔赛",
+      "context": "隐瞒实力被拒绝后真实身份被曝光，这种信息不对称是否构成另一种形式的炫耀？",
+      "significance": "影响对Tim动机的判断"
+    },
+    {
+      "term": "内容真实性",
+      "context": "「没有一句真话也没有一句假话」的信息策略在内容创作中是否可接受？",
+      "significance": "涉及创作者诚信标准"
+    },
+    {
+      "term": "营销号切片",
+      "context": "第三方将长视频片段截取后脱离语境传播，原作者是否需要为此负责？",
+      "significance": "涉及内容传播链路的责任分配"
+    },
+    {
+      "term": "泛娱乐化",
+      "context": "专业垂直领域创作者涉足泛娱乐社会议题内容的边界在哪里？",
+      "significance": "涉及创作者转型策略和风险评估"
+    }
+  ],
+  "screenshot_fragments": [
+    {
+      "description": "Tim在相亲角手持简历的照片，简历内容清晰可见",
+      "context": "被营销号广泛使用的核心截图，简历上「国内初中学历」「快递相关」等字样是争议焦点",
+      "source": "多家媒体报道截图"
+    },
+    {
+      "description": "Tim回应争议的视频截图",
+      "context": "Tim深夜录制的回应视频，表情诚恳",
+      "source": "B站视频截图"
+    },
+    {
+      "description": "微博热搜话题截图 #影视飓风Tim相亲社死# #Tim相亲被吐槽学历太低#",
+      "context": "微博平台上的争议话题标签",
+      "source": "微博截图"
+    },
+    {
+      "description": "留几手微博评论截图",
+      "context": "留几手对此事件发表的评论",
+      "source": "微博截图"
+    },
+    {
+      "description": "Tim真实简历（百度百科/公开信息）与相亲角简历的对比图",
+      "context": "网友制作的对比图，突出信息差异",
+      "source": "社交媒体用户自制"
+    }
+  ],
+  "unknowns": [
+    {
+      "item": "相亲角参与者的知情程度——他们具体被告知了什么？是否知道Tim的真实身份？",
+      "priority": "high",
+      "verification_method": "需要查看原始完整视频和幕后花絮"
+    },
+    {
+      "item": "马赛克和面部遮挡的具体实施情况——是否所有出镜者的面部都做了有效遮挡？",
+      "priority": "high",
+      "verification_method": "需要查看原始视频"
+    },
+    {
+      "item": "Tim在相亲角对话的完整语境——50秒剪辑是否遗漏了更多互动内容？",
+      "priority": "medium",
+      "verification_method": "需要查看完整20分钟原始素材"
+    },
+    {
+      "item": "影视飓风团队是否有预判到争议风险——内容策划阶段的内部讨论和风险评估",
+      "priority": "medium",
+      "verification_method": "无法直接验证，需通过Tim后续回应推断"
+    },
+    {
+      "item": "相亲角阿姨是否事后得知Tim的真实身份？她们的后续反应如何？",
+      "priority": "medium",
+      "verification_method": "需要追踪后续报道"
+    },
+    {
+      "item": "Tim简历中「计划购入车房」的具体含义——是否暗示他目前名下无车无房？实际资产情况如何？",
+      "priority": "low",
+      "verification_method": "公开资料查询"
+    },
+    {
+      "item": "营销号切片的具体传播路径和放大效应——哪些账号是主要推手？",
+      "priority": "low",
+      "verification_method": "社交媒体追踪分析"
+    },
+    {
+      "item": "2026年5月话题再次发酵的触发因素是什么？",
+      "priority": "low",
+      "verification_method": "新闻追踪"
+    }
+  ]
+}

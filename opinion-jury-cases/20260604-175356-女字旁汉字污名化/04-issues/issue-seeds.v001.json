@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "case_id": "20260604-175356-女字旁汉字污名化",
+  "created_at": "2026-06-04T18:10:00Z",
+  "source_materials": [
+    "01-parse/content-parse.v001.json",
+    "02-research/claim-gate-packet.v001.json"
+  ],
+  "issues": [
+    {
+      "issue_id": "ISSUE-001",
+      "title": "Etymological Accuracy vs. Popular Narrative: Does the Article Mislead Through Selective and Incorrect Citations?",
+      "slug": "etymological-accuracy-vs-popular-narrative",
+      "description": "The article presents itself as an authoritative philological investigation into the original meanings of female-radical Chinese characters. However, the claim-gate verification found a concrete misattribution (C09: the Shuowen Jiezi does NOT say '妖，妍也' — it says '𡝩，巧也'), multiple embellishments of original definitions (C10 for 媚, C12 for 媛), an unverified causal claim about character differentiation (C06), and a misleading historical comparison (C05: comparing ancient entertainer recruitment to 'modern military arts troupes'). The core controversy is whether the article's popular-science framing systematically sacrifices philological precision for narrative appeal, and whether this constitutes harmless simplification or a misleading appropriation of scholarly authority to support a gender-studies argument."
+    },
+    {
+      "issue_id": "ISSUE-002",
+      "title": "Cherry-Picking and Overgeneralization: Do All Female-Radical Characters Share a Stigmatization Pattern?",
+      "slug": "cherry-picking-overgeneralization-pattern",
+      "description": "The article's central thesis is that female-radical characters were systematically 'stigmatized' (污名化) from positive origins. It selectively presents five characters (嫖、妓/娼、妖、媚、媛) that fit this narrative while ignoring the many female-radical characters that have carried negative connotations from their earliest attestation — such as 妒 (jealousy), 妨 (hindrance), 婪 (greed), 奸 (treason/deceit), and 嫌 (suspicion). The claim-gate classified C14 ('all these characters were originally full of praise') as OPINION_PRESENTED_AS_FACT. This issue examines whether the article constructs a false pattern through selective evidence, whether the concept of 'systematic stigmatization of the female radical' is philologically defensible, and what responsibility popular-science content has when generalizing across complex historical-linguistic evidence."
+    },
+    {
+      "issue_id": "ISSUE-003",
+      "title": "Gender Framing and Ideological Load: Is the 'Stigmatization' Thesis a Valid Linguistic Observation or a Gender-Grievance Narrative?",
+      "slug": "gender-framing-ideological-load-stigmatization-thesis",
+      "description": "The article frames semantic drift of these characters as a gendered phenomenon — implying that female-associated words were deliberately devalued because of patriarchal bias ('为何偏偏是这些原本赞美女性的字被污名化?'). This raises several contested questions: Is the pejoration of these specific characters best explained by gender-based stigmatization, or by broader linguistic processes (semantic specialization, euphemism treadmill, association of entertainment professions with sex work) that also affected non-female-radical characters? Does the article's use of emotionally loaded terms like '污名化' (stigmatization), '不堪词汇' (intolerable words), and '蒙上了一层贬义色彩' (contaminated with derogatory meaning) constitute evidence-based analysis or rhetorical manipulation? Where is the line between legitimate feminist critique of language and an ideologically motivated reading that projects modern gender politics backward onto historical linguistics?"
+    },
+    {
+      "issue_id": "ISSUE-004",
+      "title": "Content Quality and Public Responsibility: Clickbait Rhetoric, Emotional Manipulation, and the Ethics of Popular Philology",
+      "slug": "content-quality-clickbait-rhetoric-popular-philology-ethics",
+      "description": "The article uses a battery of emotional hooks identified in the parse stage: shock framing ('你敢信吗'), clickbait promises ('颠覆认知'), manufactured mystery ('不为人知的文化变迁'), victimization framing ('污名化'), and loss/nostalgia appeals ('美好的寓意荡然无存'). These rhetorical devices are layered over philological claims of varying accuracy to create a compelling but potentially unreliable popular-science narrative. This issue examines the ethics of packaging speculative or partially incorrect linguistic claims in emotionally manipulative framing for viral dissemination. Does the article's clickbait structure undermine its own stated educational purpose? What standards of accuracy should apply to popular content that presents itself as 'revealing hidden truths' about Chinese cultural heritage? Is the article ultimately serving public understanding or exploiting cultural anxiety for engagement?"
+    }
+  ]
+}

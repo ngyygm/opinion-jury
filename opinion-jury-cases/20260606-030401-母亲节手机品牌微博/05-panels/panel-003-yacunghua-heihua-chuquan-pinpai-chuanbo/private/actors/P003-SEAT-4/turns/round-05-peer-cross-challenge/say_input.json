@@ -1,0 +1,7 @@
+{
+  "speech_text": "SEAT-3说UGC活动就是让用户投稿讲自己妈妈的故事，这个形式其实挺好的。如果品牌只是说'来分享你妈妈的故事'，我可能真的会拍一张我妈种地的照片投稿。但你得让我看懂你写的活动介绍是什么意思，不然我连你要干嘛都不知道。\n\n形式没问题，是你写的介绍有问题。完了。",
+  "target_turn_refs": ["P003-SEAT-3-round-05-peer-cross-challenge"],
+  "public_question_refs": ["亚文化黑话出圈：品牌用'同人小甜文''好大儿'等饭圈术语面向公众的传播合理性"],
+  "public_evidence_refs": [],
+  "public_action_signals": ["DISENGAGEMENT_SIGNAL"]
+}

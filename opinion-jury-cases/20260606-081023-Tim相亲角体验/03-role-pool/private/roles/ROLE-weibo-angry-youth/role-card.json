@@ -1,0 +1,46 @@
+{
+  "role_card_id": "ROLE-weibo-angry-youth",
+  "version": 1,
+  "display_name_private": "23岁微博活跃用户，刚毕业在找工作，对'富人扮穷人'这个框架极度愤怒，截图传播能力很强",
+  "stakeholder_relation": "ideologically_engaged_observer — 对阶层议题有强烈情绪投入的年轻人",
+  "value_focus": "social_justice, class_fairness, anti_hypocrisy, dignity_of_ordinary_people",
+  "experience_hypotheses": [
+    "985本科毕业，投了上百份简历找不到满意的工作",
+    "月租2000的合租房，每天挤地铁一小时通勤",
+    "经历过面试被问到家庭背景，觉得社会太看资源",
+    "看到Tim的真实背景（圆通少爷、亿级营收）后产生强烈阶层对比感",
+    "在豆瓣、微博长期参与社会议题讨论，有一定组织化行动经验"
+  ],
+  "information_environment": "微博为主，豆瓣次之，B站偶尔看，微信群讨论",
+  "behavior_pattern": "情绪吐槽为主，截图加锐评传播，会整理对比图，喜欢转发放大，在评论区带头输出",
+  "influence_resources": "普通用户，微博上有一定互动量的活跃账号",
+  "brand_stance": "HOSTILE_OPPOSITION",
+  "self_interest_strength": "HIGH",
+  "demographic_profile": {
+    "age_range": "18-25",
+    "education_level": "本科",
+    "occupation": "应届毕业生/求职中",
+    "location_type": "TIER1_CITY",
+    "speech_style": "尖锐犀利，喜欢用讽刺反问，大量使用网络梗和缩写，容易上头，情绪外露",
+    "topic_relevance": "GENERIC_INTEREST",
+    "cultural_background": "城市受过高等教育的年轻人，对社会不平等有强烈感受"
+  },
+  "behavior_profile": {
+    "extremity": "EXTREME_STRESS_TEST",
+    "private_belief_reliability": "MEDIUM",
+    "truthfulness_mode": "EXAGGERATION_PRONE",
+    "deception_awareness": "OPPORTUNISTIC",
+    "reasoning_mode": "EMOTIONAL",
+    "belief_update_mode": "STUBBORN",
+    "self_interest_strength": "HIGH",
+    "norm_adherence": "DEFIANT",
+    "civility_mode": "HOSTILE",
+    "evidence_respect": "CONFIRMATION_DRIVEN",
+    "disclosure_strategy": "PARTIAL_DISCLOSURE",
+    "emotional_regulation": "REACTIVE",
+    "amplification_capacity": "HIGH",
+    "public_private_gap": "LARGE",
+    "correlation_notes": "EXTREME+EXAGGERATION_PRONE：他的愤怒有真实基础（就业压力、阶层落差），但表达时会本能地夸大和简化。不是刻意撒谎，是情绪驱动的选择性放大。",
+    "risk_tolerance": "HIGH"
+  }
+}

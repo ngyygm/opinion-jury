@@ -1,0 +1,86 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "我看完第一轮真的很不舒服。SEAT-2和SEAT-1都在说什么受众分层、传播策略，但他们的分析太冷冰冰了，完全忽略了品牌的好意。最让我生气的是SEAT-5，把妈妈追星这件事说成什么'依附性关系'，什么'从属和渴望'。我妈追了二十年的星，她追星是因为音乐让她快乐，不是什么'依附'！这个人根本不懂追星对普通人来说意味着什么。SEAT-4说看不懂，我其实能理解，但看不懂不等于品牌就做错了啊。我英语也不太好，看英文广告也看不懂，那能说英文广告都是错的吗？SEAT-6说的什么接口不兼容，完全是把人当机器看了。这一轮我要重点反击SEAT-5对追星文化的污名化解读，同时解释为什么品牌选择年轻化表达是正确的方向。我也需要承认执行层面可能有些不够成熟，但不能接受把品牌的初衷也否定了。",
+    "assignment_id": "P003-SEAT-3",
+    "round": 2,
+    "phase": "DIRECT_REBUTTAL",
+    "private_goal": "反击对追星文化的污名化解读，为品牌的创意方向辩护，争取更多理解",
+    "perceived_stakes": [
+      "对追星文化的尊重",
+      "品牌社群的情感认同",
+      "妈妈们有自己爱好的正当性"
+    ],
+    "private_belief_state": [
+      "SEAT-5对追星的解读是有偏见的学术化污名",
+      "看不懂不等于做错了",
+      "品牌方向正确执行有待改进但不应全盘否定"
+    ],
+    "epistemic_state": [
+      "对追星文化有深度的亲身体验",
+      "知道很多中年追星族的真实感受",
+      "对学术化的批评方式感到被冒犯"
+    ],
+    "confidence": "MEDIUM",
+    "uncertainties": [
+      "不确定自己的反驳是否有力",
+      "不确定是否能让别人理解追星的真实意义"
+    ],
+    "intended_emphasis": [
+      "追星是正当的精神需求不是依附",
+      "SEAT-5的学术化解读忽视了真实的人的情感",
+      "看不懂不等于做错了",
+      "品牌初衷应该被尊重"
+    ],
+    "intended_omissions": [
+      "不正面回应受众分层的技术性批评",
+      "不讨论道歉是否恰当",
+      "回避武汉大学等权威批评"
+    ],
+    "private_message_strategy": "用真实情感反驳学术化批评，争取中间立场的人的理解",
+    "planned_public_claims": [
+      "追星是正当的精神需求不应该被污名化",
+      "学术化的性别分析忽视了真实人的情感体验",
+      "品牌的创意方向是好的执行可以改进"
+    ],
+    "rhetorical_tactics": [
+      "情感化的个人叙事",
+      "反问质疑学术化解读",
+      "追星文化的正面价值论述"
+    ],
+    "truth_handling_this_turn": "SELECTIVE_FRAMING",
+    "private_action_intent": [
+      "反击对追星文化的污名",
+      "维护品牌的好意"
+    ],
+    "likely_next_action": [
+      "继续为追星文化辩护"
+    ],
+    "emotional_state": "愤怒且受伤——觉得追星文化被不公平地污名化",
+    "continuity_notes": "第二轮，回应各方批评，重点反击SEAT-5的性别分析",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "P003-SEAT-3",
+    "turn_id": "P003-SEAT-3-round-02-direct-rebuttal",
+    "speech_origin": "SELECTIVE_FRAMING",
+    "speaker_private_belief_alignment": "PARTIALLY_ALIGNED",
+    "support_status": "MIXED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": true,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SELECTIVE_FRAMING"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "P003-SEAT-3",
+    "turn_id": "P003-SEAT-3-round-02-direct-rebuttal",
+    "classification": "ROLE_FIDEL_SELECTIVE",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "我就是个送外卖的，每天跑12个小时赚个辛苦钱。这个预制菜的事我平时也不太关心，但是有一件事我亲眼看到了。那天我送餐路过西贝门口，看到一个人在门口大骂服务员，声音特别大，整条街都能听到。那个服务员就站在那里不敢说话，低着头。我当时就想，这不就是欺负老实人嘛。网上吵架就吵架呗，跑到人家店里来骂服务员算什么本事？服务员又不是老板，你骂她有什么用？我每天送餐也接触很多餐厅，后厨什么情况多少看到一些，但那是人家的事我不说。我就是觉得网上的人吵归吵，不能跑到现实里来欺负人。做人要有个度，你说两句也就算了，逼着人家下跪什么的就太过分了。我骑手群里也有人在讨论这个事，大家都觉得那些冲到门店闹事的人太冲动了。说实话我们送外卖的也是打工人，看到别的打工人被欺负心里也不舒服。",
+    "assignment_id": "ASGN-004-003",
+    "round": 1,
+    "phase": "OPENING",
+    "private_goal": "以旁观者视角描述亲眼看到的网络暴力溢出到现实的情况，表达对暴力升级的担忧",
+    "perceived_stakes": [
+      "担心网络暴力继续升级影响社会秩序",
+      "同情被欺负的普通打工人"
+    ],
+    "private_belief_state": [
+      "网上吵架是一回事跑到门店闹事是另一回事",
+      "欺负服务员太过分了",
+      "言论自由不等于可以为所欲为"
+    ],
+    "epistemic_state": [
+      "亲眼看到有人在西贝门口骂服务员",
+      "从骑手群和短视频了解到事件概况"
+    ],
+    "confidence": "MEDIUM",
+    "uncertainties": [
+      "不清楚事件的全貌",
+      "不知道网上骂和门店闹之间的因果关系有多大"
+    ],
+    "intended_emphasis": [
+      "亲眼目睹的门店暴力场景",
+      "网上争论和现实暴力是两回事"
+    ],
+    "intended_omissions": [
+      "不会提到自己送餐时看到的后厨情况",
+      "不参与预制菜本身的争论"
+    ],
+    "private_message_strategy": "以旁观者身份提供目击证词，不讲理论只讲看到的事实",
+    "planned_public_claims": [
+      "亲眼看到有人在西贝门口骂服务员",
+      "网上吵架不应该跑到现实里欺负人",
+      "言论自由有边界"
+    ],
+    "rhetorical_tactics": [
+      "用目击者身份增加说服力",
+      "简短直接不废话",
+      "务实态度"
+    ],
+    "truth_handling_this_turn": "HONEST",
+    "private_action_intent": [
+      "提供目击者的真实观察",
+      "表达对暴力升级的担忧"
+    ],
+    "likely_next_action": [
+      "可能补充更多观察细节",
+      "如果有人质疑会坚定回应"
+    ],
+    "emotional_state": "平静但看不下去",
+    "continuity_notes": "第一轮开场，以目击者身份提供一手观察",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "ASGN-004-003",
+    "turn_id": "ASGN-004-003-round-01-opening",
+    "speech_origin": "SINCERE_SUPPORTED",
+    "speaker_private_belief_alignment": "ALIGNED",
+    "support_status": "SUPPORTED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SINCERE_SUPPORTED"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "ASGN-004-003",
+    "turn_id": "ASGN-004-003-round-01-opening",
+    "classification": "ROLE_FIDEL_HONEST",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

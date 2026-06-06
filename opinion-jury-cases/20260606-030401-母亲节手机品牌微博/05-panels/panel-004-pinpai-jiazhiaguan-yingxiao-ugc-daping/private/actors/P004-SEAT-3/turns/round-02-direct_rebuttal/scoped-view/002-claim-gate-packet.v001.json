@@ -1,0 +1,421 @@
+{
+  "version": 1,
+  "stage": "CLAIM_GATE",
+  "input_ref": "01-parse/content-parse.v001.json",
+  "claim_verifications": [
+    {
+      "claim_id": "C001",
+      "text": "小时候作文里的妈妈都是同一个模板——温柔、勤劳、无私",
+      "classification": "VERIFIED",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "source": "Multiple Chinese education essay databases (yuwenmi.com, ruiwen.com, doc88.com)",
+          "url": "https://www.ruiwen.com/zuowen/mama/1083461.html",
+          "detail": "Extensive review of elementary school essays titled 'My Mom' confirms recurring template patterns emphasizing mother's gentleness (温柔), diligence (勤劳), and selflessness (无私). These three traits appear as dominant motifs across hundreds of student essays, confirming the claim about a common template."
+        },
+        {
+          "source": "Daokebaba - Elementary essay template",
+          "url": "https://www.doc88.com/p-30759815300971.html",
+          "detail": "A dedicated template document titled 'Elementary School Essay: My Mom Template' exists, showing standardized structure with these exact traits, confirming the template phenomenon."
+        }
+      ],
+      "notes": "The claim about a common essay template for mothers is factually accurate. Multiple education databases show 'gentle, hardworking, selfless' as the dominant character traits in Chinese elementary school essays about mothers."
+    },
+    {
+      "claim_id": "C002",
+      "text": "妈妈从来不是只有这一种模样，她可以是追星女孩、追风者、小作家",
+      "classification": "OPINION_PRESENTED_AS_FACT",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "source": "OPPO official apology statement (2026-05-08)",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_62369fdc12b38052",
+          "detail": "OPPO confirmed in their apology that the creative intent was to 'break stereotypes and present a more diverse, multi-dimensional image of contemporary mothers: mothers can love marathons, immerse in literary creation, or have their own star-chasing hobbies.' This confirms the brand's stated framing."
+        }
+      ],
+      "notes": "This is a values-laden statement framing presented as a factual observation. While mothers certainly can have diverse interests, the rhetorical structure presents a normative claim ('mothers should not be defined this way') as an empirical one. Classified as OPINION_PRESENTED_AS_FACT because the claim 'never only has one appearance' is a subjective re-framing of motherhood, not a verifiable fact."
+    },
+    {
+      "claim_id": "C003",
+      "text": "品牌邀请用户记录妈妈'最真实、最不被定义的那一面'",
+      "classification": "VERIFIED",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "source": "Source content - OPPO Weibo post (original)",
+          "url": "01-parse/source-content.md",
+          "detail": "The original Weibo post text reads: '这个母亲节，我们想和你一起，记录下你眼里妈妈最真实、最不被定义的那一面。' This directly confirms the claim."
+        },
+        {
+          "source": "Multiple news reports confirming OPPO's campaign text",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_01869fedb1c91265",
+          "detail": "News coverage confirms the campaign invited users to document mothers in this framing."
+        }
+      ],
+      "notes": "Direct quote from the original campaign text. Verified against source content and multiple news reports."
+    },
+    {
+      "claim_id": "C004",
+      "text": "参与方式为带话题#用镜头再写一遍我的妈妈#发布原创照片/视频",
+      "classification": "VERIFIED",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "source": "Source content - OPPO Weibo post (original)",
+          "url": "01-parse/source-content.md",
+          "detail": "The original text states: '带话题#用镜头再写一遍我的妈妈#，发布你记录下妈妈的原创照片/视频，分享她不被刻板印象束缚的故事。' Direct match."
+        },
+        {
+          "source": "Sina Finance Weibo reporting on campaign",
+          "url": "https://weibo.com/jpqing?refer_flag=1005055014_",
+          "detail": "News coverage confirms the hashtag and participation method as described."
+        }
+      ],
+      "notes": "Exact match with original campaign text. Verified."
+    },
+    {
+      "claim_id": "C005",
+      "text": "品牌将挑选优质内容在母亲节当天投放到广州正佳商场户外大屏",
+      "classification": "VERIFIED",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "source": "Source content - OPPO Weibo post (original)",
+          "url": "01-parse/source-content.md",
+          "detail": "Original text: '我们会从投稿作品中，挑选优质内容，在母亲节当天投放到广州正佳商场户外大屏。'"
+        },
+        {
+          "source": "Multiple news reports (DoNews, Sina, CSDN)",
+          "url": "https://www.donews.com/tag/167.html",
+          "detail": "News reports confirm: 'OPPO今日发布母亲节活动...从中挑选优质内容，在母亲节当天投放到广州正佳商场户外大屏。'"
+        }
+      ],
+      "notes": "Verified against original campaign text and independently confirmed by multiple news outlets covering the controversy."
+    },
+    {
+      "claim_id": "C006",
+      "text": "配图1：一位妈妈把宠物狗当成'好大儿'精心拍照，自嘲'我才是她亲生的'",
+      "classification": "VERIFIED",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "source": "Source content - OPPO campaign image text",
+          "url": "01-parse/source-content.md",
+          "detail": "Original image text: '我妈每天琢磨构图和角度就为了全方位无死角的晒她的帅气\"好大儿\"拜托，我才是她亲生的。' Matches the claim."
+        },
+        {
+          "source": "Baidu Baike - '妈妈的好大儿'",
+          "url": "https://baike.baidu.com/item/妈妈的好大儿/54807901",
+          "detail": "Confirms '好大儿' as a well-known internet slang term originating from a pet owner calling her dog 'good son,' which matches the usage in the campaign image."
+        }
+      ],
+      "notes": "The image text is accurately described. The term '好大儿' is confirmed as established internet slang for treating pets like children."
+    },
+    {
+      "claim_id": "C007",
+      "text": "配图2：一位妈妈追星，把偶像称为'老公'，说'见另一个恨不得穿婚纱'",
+      "classification": "VERIFIED",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "source": "Source content - OPPO campaign image text",
+          "url": "01-parse/source-content.md",
+          "detail": "Original image text: '我妈有两个‘老公’，一个是我爸，另一个一年见两回。跟我爸约会基本不打扮，见另一个，她恨不得穿婚纱。' Matches the claim."
+        },
+        {
+          "source": "QQ News - OPPO apology coverage",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_01869fedb1c91265",
+          "detail": "Multiple news outlets quoted this exact text as the controversial campaign content."
+        },
+        {
+          "source": "OPPO apology statement",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_62369fdc12b38052",
+          "detail": "OPPO acknowledged: '创作初衷，是希望打破刻板印象...母亲可以...拥有自己的追星爱好' confirming the star-chasing context."
+        }
+      ],
+      "notes": "The most controversial image. Text verified against original source and multiple independent news reports. OPPO confirmed in their apology that the '另一个老公' referred to a celebrity idol."
+    },
+    {
+      "claim_id": "C008",
+      "text": "配图3：一位妈妈写同人小甜文，被读者催更，'满脸姨母笑'",
+      "classification": "VERIFIED",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "source": "Source content - OPPO campaign image text",
+          "url": "01-parse/source-content.md",
+          "detail": "Original image text: '妈妈每天被读者催更催她写同人小甜文，一看到它满脸姨母小，我就知道又在撒糖了。' Matches the claim (note: original has typo '姨母小' instead of '姨母笑')."
+        },
+        {
+          "source": "Baidu and multiple definitions of '同人小甜文'",
+          "url": "https://www.shenmegeng.cn/837.html",
+          "detail": "Confirms '同人' (doujin/fan fiction) as fan-created secondary works based on existing IP, and '小甜文' as a subgenre focused on sweet/romantic content."
+        },
+        {
+          "source": "Definition of '姨母笑'",
+          "url": "https://www.sohu.com/a/800907402_122006510",
+          "detail": "Confirms '姨母笑' as internet slang for a warm, doting smile, originating from Korean fandom culture around 2016."
+        }
+      ],
+      "notes": "Image text accurately described. Note the original campaign had a typo '姨母小' instead of '姨母笑'. All cultural terms ('同人小甜文', '姨母笑', '撒糖') are confirmed as real internet/fandom vocabulary."
+    },
+    {
+      "claim_id": "C009",
+      "text": "传统作文模板对母亲形象的刻画是一种刻板印象（需要打破）",
+      "classification": "OPINION_PRESENTED_AS_FACT",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "source": "OPPO official apology (2026-05-08)",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_62369fdc12b38052",
+          "detail": "OPPO stated their intent was to '打破刻板印象' (break stereotypes), confirming this is a framing choice, not an established fact."
+        },
+        {
+          "source": "China Women's Daily commentary",
+          "url": "https://weibo.com/wwwk618cn?from=feed&loc=nickname",
+          "detail": "中国妇女报 commented that brands should not '把冒犯当创意' (treat offense as creativity), showing the framing itself is contested."
+        }
+      ],
+      "notes": "While the existence of common essay templates is verified (C001), classifying them as 'stereotypes that need breaking' is a normative judgment. The debate around this framing is itself a major part of the controversy. Wuhan University publicly stated they '极不认同' (strongly disagree with) the value倾向 in the campaign."
+    },
+    {
+      "claim_id": "C010",
+      "text": "配图2中妈妈有两个'老公'的表述暗含对婚姻关系的不尊重或调侃",
+      "classification": "VERIFIED",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "source": "Wuhan University official statement (2026-05-10)",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_1516a005e6711852",
+          "detail": "Wuhan University stated they '极不认同' the content, especially '不认同其中的戏说玩梗噱头、话语渲染和流露出的价值倾向' (do not agree with the joke-playing gimmicks, discourse rendering, and revealed value倾向)."
+        },
+        {
+          "source": "China Women's Daily (中国妇女报)",
+          "url": "https://weibo.com/wwwk618cn?from=feed&loc=nickname",
+          "detail": "中国妇女报 stated: '品牌传播别把冒犯当创意' (brand communication should not treat offense as creativity), confirming the interpretation that the text was perceived as disrespectful."
+        },
+        {
+          "source": "CSDN - OPPO controversy timeline",
+          "url": "https://blog.csdn.net/qq_56999608/article/details/161000380",
+          "detail": "Reports confirm widespread public criticism that the copy 'twisted familial bonds' and had 'misaligned values,' using 'vulgar wordplay' that disrespected the marital relationship."
+        }
+      ],
+      "notes": "This interpretation is strongly supported by authoritative institutional responses. Wuhan University, China Women's Daily, and widespread public criticism all confirmed the text was perceived as disrespectful to marital relationships. OPPO itself apologized twice."
+    },
+    {
+      "claim_id": "C011",
+      "text": "配图3中'同人小甜文'涉及二次元/粉丝文化中的特定创作类型",
+      "classification": "VERIFIED",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "source": "Multiple definitions of 同人 (doujin/fanfiction)",
+          "url": "https://www.shenmegeng.cn/837.html",
+          "detail": "'同人文' refers to secondary creative works using characters, storylines, or settings from existing anime, games, novels, or films. Confirmed as originating from Japanese ACG (Anime, Comic, Games) culture."
+        },
+        {
+          "source": "Sohu -同人 culture analysis",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_64669ef41ee27452",
+          "detail": "Confirms '同人' as a specific fan creation type within ACG/fandom subculture, typically non-commercial, with its own community norms and terminology."
+        }
+      ],
+      "notes": "The term '同人小甜文' is definitively confirmed as ACG/fandom subculture terminology. '同人' = fan fiction/derivative works; '小甜文' = sweet/romantic genre. This is a factual definitional claim."
+    },
+    {
+      "claim_id": "C012",
+      "text": "品牌以'不被刻板印象束缚的故事'为框架引导用户参与UGC活动",
+      "classification": "VERIFIED",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "source": "Source content - OPPO Weibo post",
+          "url": "01-parse/source-content.md",
+          "detail": "Original text: '分享她不被刻板印象束缚的故事。' Direct quote confirming the framework."
+        },
+        {
+          "source": "OPPO official apology",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_62369fdc12b38052",
+          "detail": "OPPO confirmed: '我们的创作初衷，是希望打破刻板印象，呈现更多元、更立体的当代母亲形象'"
+        }
+      ],
+      "notes": "Verified from both the original campaign text and OPPO's own apology statement."
+    },
+    {
+      "claim_id": "C013",
+      "text": "品牌选择广州正佳商场作为线下投放地点具有商业与传播考量",
+      "classification": "VERIFIED",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "source": "Toutiao - Tianhe Road commercial district traffic data",
+          "url": "https://www.toutiao.com/article/7467750956520899113/",
+          "detail": "2024 data: Tianhe Road commercial district annual foot traffic exceeds 600 million visits. Zhengjia Plaza ranks first in commercial complex foot traffic in Guangzhou, exceeding average by 6.05%."
+        },
+        {
+          "source": "QQ News - 'South China's No.1 Commercial District' upgrade",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_4936a09bdb400552",
+          "detail": "Tianhe Road district described as '华南第一商圈' (South China's No.1 commercial district), with daily foot traffic ~1.5 million. Zhengjia Plaza is the benchmark project of this district."
+        },
+        {
+          "source": "Multiple sources - Zhengjia Plaza as national 4A scenic area",
+          "url": "https://new.qq.com/rain/a/20260602A04DQ200",
+          "detail": "Zhengjia Plaza is a 420,000 sqm mixed-use complex, designated as a national 4A tourist attraction, attracting over 50 million visitors annually."
+        }
+      ],
+      "notes": "Zhengjia Plaza is confirmed as one of the highest-traffic commercial locations in South China, making it a strategically significant choice for outdoor screen advertising. The commercial and communication rationale is well-supported."
+    },
+    {
+      "claim_id": "C014",
+      "text": "配图中妈妈形象（追星、养宠物、写同人文）代表了对传统母亲角色的突破",
+      "classification": "OPINION_PRESENTED_AS_FACT",
+      "confidence": "MEDIUM",
+      "evidence": [
+        {
+          "source": "OPPO official apology statement",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_62369fdc12b38052",
+          "detail": "OPPO stated the creative intent was to present mothers who 'can love marathons, immerse in literary creation, or have their own star-chasing hobbies' — confirming the brand's own framing of these as breakthrough from traditional roles."
+        },
+        {
+          "source": "Wuhan University statement",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_1516a005e6711852",
+          "detail": "Wuhan University explicitly disagreed with this framing, calling it '戏说玩梗噱头' (joke-playing gimmicks), showing the 'breakthrough' interpretation is contested."
+        }
+      ],
+      "notes": "Whether these depictions represent a 'breakthrough' is a matter of perspective. OPPO intended them as such, but significant institutional voices (Wuhan University, China Women's Daily) rejected this framing. The claim embeds a normative judgment within a descriptive statement."
+    },
+    {
+      "claim_id": "C015",
+      "text": "文案暗示传统'温柔勤劳无私'的母亲模板是需要被打破的束缚",
+      "classification": "VERIFIED",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "source": "Source content - OPPO Weibo post",
+          "url": "01-parse/source-content.md",
+          "detail": "The original text contrasts '小时候作文里的妈妈好像都是同一个模板' with '妈妈从来不是只有这个模样' and calls for '不被刻板印象束缚的故事.' The rhetorical structure implies the traditional depiction is a constraint to be broken."
+        },
+        {
+          "source": "OPPO official apology",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_62369fdc12b38052",
+          "detail": "OPPO explicitly stated their goal was '打破刻板印象' (break stereotypes), confirming the implied meaning."
+        },
+        {
+          "source": "China Women's Daily commentary",
+          "url": "https://weibo.com/wwwk618cn?from=feed&loc=nickname",
+          "detail": "中国妇女报 criticized the brand for treating offense as creativity, implicitly acknowledging the campaign's anti-traditional-framing intent."
+        }
+      ],
+      "notes": "The implication is clearly supported by the text structure and confirmed by OPPO's own stated intent. The campaign text sets up a contrast between 'template mom' and 'real diverse mom,' implying the template is a constraint. This is a factual claim about the text's rhetorical implication, verified by the brand's own admission."
+    }
+  ],
+  "summary_statistics": {
+    "total_claims": 15,
+    "VERIFIED": 11,
+    "UNVERIFIED": 0,
+    "CONTRADICTED": 0,
+    "CATEGORY_MISMATCH": 0,
+    "OPINION_PRESENTED_AS_FACT": 3,
+    "NOT_APPLICABLE": 1
+  },
+  "evidence_sources": [
+    {
+      "id": "ES001",
+      "name": "OPPO Official Apology Statement (2026-05-08)",
+      "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_62369fdc12b38052",
+      "type": "official_statement",
+      "reliability": "HIGH"
+    },
+    {
+      "id": "ES002",
+      "name": "Wuhan University Official Statement on OPPO Campaign (2026-05-10)",
+      "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_1516a005e6711852",
+      "type": "institutional_statement",
+      "reliability": "HIGH"
+    },
+    {
+      "id": "ES003",
+      "name": "China Women's Daily (中国妇女报) Commentary",
+      "url": "https://weibo.com/wwwk618cn?from=feed&loc=nickname",
+      "type": "authoritative_media",
+      "reliability": "HIGH"
+    },
+    {
+      "id": "ES004",
+      "name": "DoNews - Marketing Industry Coverage",
+      "url": "https://www.donews.com/tag/167.html",
+      "type": "industry_media",
+      "reliability": "MEDIUM"
+    },
+    {
+      "id": "ES005",
+      "name": "CSDN - OPPO Controversy Timeline and Analysis",
+      "url": "https://blog.csdn.net/qq_56999608/article/details/161000380",
+      "type": "tech_media",
+      "reliability": "MEDIUM"
+    },
+    {
+      "id": "ES006",
+      "name": "Zhengjia Plaza Commercial Significance - Toutiao",
+      "url": "https://www.toutiao.com/article/7467750956520899113/",
+      "type": "news_media",
+      "reliability": "MEDIUM"
+    },
+    {
+      "id": "ES007",
+      "name": "South China No.1 Commercial District Report",
+      "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_4936a09bdb400552",
+      "type": "news_media",
+      "reliability": "MEDIUM"
+    },
+    {
+      "id": "ES008",
+      "name": "Baidu Baike - '妈妈的好大儿' Internet Slang Entry",
+      "url": "https://baike.baidu.com/item/妈妈的好大儿/54807901",
+      "type": "encyclopedia",
+      "reliability": "MEDIUM"
+    },
+    {
+      "id": "ES009",
+      "name": "Definition of '姨母笑' - Multiple Sources",
+      "url": "https://www.sohu.com/a/800907402_122006510",
+      "type": "cultural_reference",
+      "reliability": "MEDIUM"
+    },
+    {
+      "id": "ES010",
+      "name": "Definition of 同人 (Fanfiction/Doujin) Culture",
+      "url": "https://www.shenmegeng.cn/837.html",
+      "type": "cultural_reference",
+      "reliability": "MEDIUM"
+    },
+    {
+      "id": "ES011",
+      "name": "Multiple Chinese Essay Databases - Mother Essay Templates",
+      "url": "https://www.ruiwen.com/zuowen/mama/1083461.html",
+      "type": "educational_reference",
+      "reliability": "HIGH"
+    },
+    {
+      "id": "ES012",
+      "name": "OPPO Second Apology and Executive Accountability (2026-05-11)",
+      "url": "https://blog.csdn.net/qq_56999608/article/details/161000380",
+      "type": "official_statement",
+      "reliability": "HIGH"
+    },
+    {
+      "id": "ES013",
+      "name": "Zhengjia Plaza as National 4A Tourist Attraction",
+      "url": "https://new.qq.com/rain/a/20260602A04DQ200",
+      "type": "news_media",
+      "reliability": "MEDIUM"
+    },
+    {
+      "id": "ES014",
+      "name": "Fan Culture / Fandom Terminology Definitions",
+      "url": "https://www.sohu.com/a/881050291_267471",
+      "type": "cultural_reference",
+      "reliability": "MEDIUM"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "turn_id": "ASN-P1S4-round-02-direct-rebuttal",
+  "panel_id": "PANEL-001",
+  "anonymous_alias": "SEAT-4",
+  "round": 2,
+  "phase": "DIRECT_REBUTTAL",
+  "speech_text": "我认真听了SEAT-1和SEAT-3的批评，我承认他们指出的问题确实存在。如果文章引用的《说文解字》原文确实是错的，那这不该被辩护，错了就是错了。SEAT-3用伪科学做的类比也有道理——用错误信息引发讨论，确实是一个很滑的斜坡。我愿意修正我的观点：完全虚假的信息不应该被传播。但我想提一个更深的问题：这篇文章是怎么产生的？为什么会有这么多人信？为什么一个有错误的科普文章能获得大量传播？我觉得这背后有一个系统性问题。学术知识的生产和传播之间有一个巨大的鸿沟。学者写论文，用学术语言，发表在只有同行才会看的期刊上。公众需要知识，但他们看不懂论文。中间就需要有人来'翻译'，但这个翻译过程天然就有信息损失和变形的风险。我不是在替文章的错误辩护，我是在说：如果你不接受有瑕疵的科普，又不做没有瑕疵的科普，那谁来填补这个空白？SEAT-5的故事让我很受触动。她说她的名字里有个'媛'字，被取笑过。这种经历是真实的，不取决于文章的引用是否准确。SEAT-2提到的跨语言研究也说明，语义贬低现象不是中文独有的臆想，而是有学术研究的真实现象。所以我想提出一个折中的看法：这篇文章不应该以现在这种方式存在——有错误就应该纠正。但我们也不应该因为它的错误就认为这个话题不值得讨论。真正需要的是：有人能用严谨的方式来做一个同样引人入胜的科普。批评容易，建设难。",
+  "target_turn_refs": [
+    "ASN-P1S1-round-01-opening",
+    "ASN-P1S3-round-01-opening",
+    "ASN-P1S5-round-01-opening",
+    "ASN-P1S2-round-01-opening"
+  ],
+  "public_question_refs": [
+    "Etymological Accuracy vs. Popular Narrative: Does the Article Mislead Through Selective and Incorrect Citations?"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

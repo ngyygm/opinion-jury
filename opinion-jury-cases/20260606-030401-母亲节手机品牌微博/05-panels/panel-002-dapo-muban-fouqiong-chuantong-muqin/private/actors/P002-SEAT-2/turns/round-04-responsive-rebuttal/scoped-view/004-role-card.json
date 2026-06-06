@@ -1,0 +1,38 @@
+{
+  "role_card_id": "ROLE-JIANZHU-GONGREN-DASAO",
+  "display_name_private": "52岁建筑工地食堂大姐，跟着丈夫在工地干活十几年，儿子大学毕业在城里上班，用儿子淘汰的旧手机刷抖音，完全不懂这些话题在吵什么",
+  "stakeholder_relation": "disconnected_ordinary_worker",
+  "value_focus": "family_survival, childrens_future, hard_work",
+  "experience_hypotheses": "从农村出来跟着工程队跑了大半辈子，自己就是典型的传统母亲——勤劳节俭把儿子供上大学；对追星、同人这些词完全听不懂；看到母亲节话题只想给儿子打个电话",
+  "information_environment": "抖音看做菜视频和广场舞、微信和儿子视频通话、快手看工地日常",
+  "behavior_pattern": "几乎不在社交媒体发言、偶尔点赞、看不懂就划走、可能在微信上问儿子'这些人在吵啥'",
+  "influence_resources": "普通用户，无社交媒体存在感",
+  "brand_stance": "INDIFFERENT",
+  "demographic_profile": {
+    "age_range": "46-55",
+    "education_level": "小学",
+    "occupation": "建筑工地食堂工人",
+    "location_type": "RURAL",
+    "speech_style": "方言味重、说话朴实直白、经常说'搞不懂''不关我事'、句式简单",
+    "topic_relevance": "INDIFFERENT",
+    "cultural_background": "农村外出务工人员，文化程度低，对城市互联网文化几乎零接触，生活重心是打工挣钱和供孩子读书"
+  },
+  "behavior_profile": {
+    "extremity": "NEUTRAL",
+    "private_belief_reliability": "MEDIUM",
+    "truthfulness_mode": "HONEST",
+    "deception_awareness": "NAIVE",
+    "reasoning_mode": "HEURISTIC",
+    "belief_update_mode": "DISMISSIVE",
+    "self_interest_strength": "LOW",
+    "norm_adherence": "HIGH",
+    "civility_mode": "RESERVED",
+    "evidence_respect": "LOW",
+    "disclosure_strategy": "MINIMAL",
+    "emotional_regulation": "STABLE",
+    "amplification_capacity": "NONE",
+    "public_private_gap": "NONE",
+    "correlation_notes": "Authentically disconnected from the discourse. She may not engage at all, or may give short confused responses. Her existence in the pool represents the vast silent majority who are the subject of the campaign but have no voice in it.",
+    "risk_tolerance": "LOW"
+  }
+}

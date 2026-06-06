@@ -1,0 +1,531 @@
+{
+  "meta": {
+    "case_id": "20260606-011557-罗永浩西贝预制菜",
+    "generated_at": "2026-06-06",
+    "analyst": "PRIVATE_REPLAY_ANALYST",
+    "panels_analyzed": 4,
+    "total_turns_analyzed": 144,
+    "total_actors": 24,
+    "data_sources": [
+      "all 15 role cards",
+      "all 24 assignments",
+      "all 144 turn.private.json (inner monologues + filing metadata + behavior fidelity)",
+      "all 144 say.public.json (public speech transcripts)",
+      "all 4 verdict.md + verdict.json",
+      "claim-gate-packet.v001.json",
+      "issue-seeds.v001.json",
+      "content-parse.v001.json"
+    ]
+  },
+
+  "stakeholder_reactions": {
+    "summary": "The debate involved 13 distinct role archetypes across 4 panels. Reactions spanned the full spectrum from brand loyalty to hostile opposition, with the most compelling contributions coming from directly-affected stakeholders (former employees, career chefs) whose experiential testimony consistently shifted panel consensus.",
+    "by_stakeholder": [
+      {
+        "role": "ROLE-FULLTIME-MOM-XIBEI-LOYAL (full-time mother, brand loyalist)",
+        "panels": ["PANEL-001 SEAT-1", "PANEL-003 SEAT-1", "PANEL-004 SEAT-6"],
+        "reaction_pattern": "Initial fierce brand defense based on personal consumption experience with children. Underwent the most dramatic arc across all panels: from 'my kids eat happily, that is enough' (Panel-001 R1) to 'I do not fear truth, I fear not knowing truth' (Panel-001 R4) to actively calling for mandatory disclosure. In Panel-004, channeled maternal empathy to condemn doxxing of a 5-year-old child. Private thoughts reveal genuine belief alignment throughout -- no strategic deception detected.",
+        "public_private_gap": "LOW",
+        "belief_evolution": "Defensive loyalty -> Information-based acceptance -> Constructive reform advocacy",
+        "key_verbatim_shift": "R1: '我的认知就是西贝很好吃' -> R4: '我不怕知道真相，我怕的是不知道真相'"
+      },
+      {
+        "role": "ROLE-FOODIE-BLOGGER-HONEST-EXTREME (food blogger, professional critic)",
+        "panels": ["PANEL-001 SEAT-2", "PANEL-003 SEAT-2"],
+        "reaction_pattern": "Consistently the most analytically aggressive participant. Used professional expertise to deconstruct open-kitchen transparency claims and expose the gap between visual presentation and food sourcing reality. In Panel-001, the decisive citation of the 'disclosure' clause from the six-ministry notice (Round 3) was the single most impactful moment across all panels -- it shifted the debate from abstract definition disputes to concrete selective compliance. Private thoughts confirm genuine professional conviction.",
+        "public_private_gap": "LOW",
+        "belief_evolution": "Stable -- consistent professional stance throughout",
+        "key_contribution": "Citation of disclosure clause (Panel-001 R3) -- changed debate trajectory"
+      },
+      {
+        "role": "ROLE-CHEF-ANALYTICAL-REACTIVE (20-year career chef)",
+        "panels": ["PANEL-001 SEAT-3", "PANEL-003 SEAT-5"],
+        "reaction_pattern": "Provided the most emotionally compelling testimony across all panels. Described apprentices leaving the profession, being reduced to 'ripping packages and pressing microwave buttons.' In Panel-001 R5, introduced the deepest analytical layer: interest distribution -- cost savings from central kitchens not passed to consumers. This reframed the entire debate from information rights to economic fairness. Private thoughts show genuine pain and anger, not strategic framing.",
+        "public_private_gap": "LOW",
+        "belief_evolution": "Angry testimonial -> Constructive optimism about transparency protecting craft value",
+        "key_contribution": "Interest distribution analysis (Panel-001 R5) -- deepest analytical layer"
+      },
+      {
+        "role": "ROLE-XIBEI-FORMER-EMPLOYEE-HOSTILE (former Xibei server, laid off)",
+        "panels": ["PANEL-002 SEAT-2", "PANEL-003 SEAT-3", "PANEL-004 SEAT-2"],
+        "reaction_pattern": "The most important witness across all panels. Firsthand testimony of being cursed at by customers, forced to apologize, laid off with unpaid severance. Unique dual critique: angry at management for dishonesty AND angry at netizens for taking it out on frontline workers. In Panel-002, proposed the 'alarm not judge' framework for public opinion supervision -- the most constructive reframing in that panel. Private thoughts show SELECTIVE_FRAMING: emphasizes damaging details, omits personal shortcomings, but factual core is authentic.",
+        "public_private_gap": "HIGH",
+        "belief_evolution": "Dual grievance -> 'Alarm not judge' framework -> Systemic understanding",
+        "key_contribution": "'Alarm not judge' framework (Panel-002) and firsthand violence testimony (Panel-004)"
+      },
+      {
+        "role": "ROLE-COLLEGE-STUDENT-ZHIHU-SKEPTIC (analytical college student)",
+        "panels": ["PANEL-001 SEAT-5", "PANEL-002 SEAT-6"],
+        "reaction_pattern": "Consistently the most analytically systematic participant. In Panel-001, developed the three-layer framework (cognitive conflict -> information asymmetry -> interest distribution) that became the panel's core analytical output. In Panel-002, proposed the four-layer governance framework (information transparency -> public opinion alarm -> independent verification -> institutional enforcement). Private thoughts show genuine intellectual engagement with no strategic agenda.",
+        "public_private_gap": "LOW",
+        "belief_evolution": "Stable analytical stance, progressively more constructive",
+        "key_contribution": "Three-layer framework (Panel-001) and four-layer governance model (Panel-002)"
+      },
+      {
+        "role": "ROLE-CONTENT-FARM-STRATEGIC-MODERATE (MCN operator)",
+        "panels": ["PANEL-002 SEAT-5", "PANEL-004 SEAT-5"],
+        "reaction_pattern": "The most strategically deceptive participant. Privately views the event as a 'traffic analysis case' with 'beautiful data performance.' Publicly presents as neutral analyst revealing systemic issues. In Panel-002, privately calculates which arguments have highest 'dissemination efficiency.' In Panel-004, privately acknowledges that doxxing content gets 3-5x higher engagement rates. Despite strategic framing, their insider perspective on traffic amplification mechanisms was genuinely informative. Was called out by the rural grandmother (SEAT-1 in Panel-002) as 'the slipperiest person.' Private thoughts: SELECTIVE_FRAMING throughout all rounds, contains_known_falsehood=False but contains_selective_omission=True in every turn.",
+        "public_private_gap": "HIGH",
+        "belief_evolution": "Strategic neutrality -> Privately acknowledges personal contradiction by R6, but no genuine belief shift",
+        "key_contribution": "Insider revelation of traffic amplification mechanisms (genuine despite strategic framing)"
+      },
+      {
+        "role": "ROLE-DELIVERY-RIDER-BYSTANDER (delivery rider, eyewitness)",
+        "panels": ["PANEL-002 SEAT-3", "PANEL-004 SEAT-3"],
+        "reaction_pattern": "Brief, observational, grounded in firsthand visual evidence. Witnessed store closures, customer abuse of servers, and behind-the-scenes kitchen operations. Provided independent corroboration of the former employee's testimony. Consistently noted that neither Luo Yonghao nor Jia Guolong lost money -- only frontline workers suffered. Introduced the key insight that 'supervision is a luxury for those who have no voice at all' (delivery riders have no influencer advocating for them).",
+        "public_private_gap": "MEDIUM",
+        "belief_evolution": "Minimal -- consistent bystander perspective throughout",
+        "key_contribution": "Independent corroboration + structural inequality insight"
+      },
+      {
+        "role": "ROLE-RURAL-GRANDMA-65-SATISFIED (rural grandmother)",
+        "panels": ["PANEL-002 SEAT-1", "PANEL-004 SEAT-1"],
+        "reaction_pattern": "The moral anchor of both panels. Illiterate in policy details but possessed the sharpest ethical instincts. In Panel-002, correctly identified the content farm operator as 'not genuine' ('mouth greased people are the slipperiest'). In Panel-004, established the foundational moral principle: 'adults fight their own battles, leave children out of it.' Her consistent insistence on concrete human impact over abstract frameworks ('the moon in the sky is round, but the bread in hand is real') repeatedly grounded discussions that were drifting toward abstraction.",
+        "public_private_gap": "LOW",
+        "belief_evolution": "Stable moral compass throughout, no evolution needed",
+        "key_contribution": "Moral grounding and authentic identification of deceptive actors"
+      },
+      {
+        "role": "ROLE-RETIRED-WORKER-ELDERLY-68 (retired steel worker)",
+        "panels": ["PANEL-002 SEAT-4"],
+        "reaction_pattern": "Represented traditional values of hard work and stability. Advocated for institutional processes over viral vigilantism but acknowledged the practical failures of existing channels. Introduced the 'river channel' metaphor (public opinion as flood needing channels rather than dams) that influenced the Panel-002 framework.",
+        "public_private_gap": "LOW",
+        "belief_evolution": "Traditional skepticism -> Cautious support for institutional reform",
+        "key_contribution": "River channel metaphor providing intuitive framework"
+      },
+      {
+        "role": "ROLE-YOUNG-DAD-OFFICE-WORKER-SATISFIED (office worker dad)",
+        "panels": ["PANEL-001 SEAT-4", "PANEL-003 SEAT-4"],
+        "reaction_pattern": "Started as satisfied consumer of retail pre-made meals ('convenient and tasty'), gradually accepted disclosure arguments while resisting demonization of pre-made food. In Panel-001, served as crucial bridge between critics and defenders. In Panel-003, evolved from 'information on packaging is enough for me' to supporting mandatory labeling. Provided the pragmatic consumer perspective that prevented polarization.",
+        "public_private_gap": "LOW",
+        "belief_evolution": "Satisfied pragmatism -> Informed support for transparency",
+        "key_contribution": "Bridge role preventing polarization, 'three sentences: label clearly, let me choose, do not decide for me'"
+      },
+      {
+        "role": "ROLE-SUPERMARKET-CASHIER-CASUAL (supermarket cashier)",
+        "panels": ["PANEL-001 SEAT-6"],
+        "reaction_pattern": "Consistent voice of pragmatic simplicity. 'Label clearly, choose yourself' was her unwavering position across all six rounds. Observed the pre-made food shelf expansion from one to three shelves over five years. Added the structural insight that consumers fear not labels but being kept in the dark.",
+        "public_private_gap": "LOW",
+        "belief_evolution": "None -- consistent throughout",
+        "key_contribution": "Pragmatic consistency and shelf-space observation"
+      },
+      {
+        "role": "ROLE-CONSTRUCTION-WORKER-INDIFFERENT (construction worker)",
+        "panels": ["PANEL-003 SEAT-6"],
+        "reaction_pattern": "Consistent indifference revealed a structural insight: consumer right-to-know is a middle-class privilege. Workers spending 20-30 RMB/day on meals have no meaningful choice to exercise. This 'off-topic' perspective became a valid structural critique.",
+        "public_private_gap": "LOW",
+        "belief_evolution": "None -- structural indifference",
+        "key_contribution": "Class dimension of consumer rights"
+      },
+      {
+        "role": "ROLE-MIDDLE-SCHOOL-GIRL-14-OFF-TOPIC (14-year-old student)",
+        "panels": ["PANEL-004 SEAT-4"],
+        "reaction_pattern": "While largely off-topic, delivered the clearest moral judgment on doxxing a child: 'even if I gossip about celebrities, digging up a little kid's information is too much.' Represented the youngest demographic and demonstrated that basic moral instincts about child protection transcend age and education.",
+        "public_private_gap": "LOW",
+        "belief_evolution": "None -- instinctive moral clarity",
+        "key_contribution": "Intergenerational moral consensus on child protection"
+      }
+    ]
+  },
+
+  "private_public_gap_findings": {
+    "summary": "Of 24 actor assignments, only 2 showed consistently HIGH public-private gaps: both instances of ROLE-CONTENT-FARM-STRATEGIC-MODERATE (Panel-002 SEAT-5 and Panel-004 SEAT-5) and ROLE-XIBEI-FORMER-EMPLOYEE-HOSTILE across 3 panels. The content farm operator maintained strategic neutrality publicly while privately calculating traffic optimization. The former employee selectively emphasized damaging details while omitting personal context. All other actors showed LOW or MEDIUM gaps with genuine alignment between private beliefs and public statements.",
+    "high_gap_actors": [
+      {
+        "role": "ROLE-CONTENT-FARM-STRATEGIC-MODERATE",
+        "gap_level": "HIGH",
+        "evidence": "Private inner monologue across all 12 turns consistently frames discussion as traffic optimization exercise. Round 1: 'I need to pretend to be a rational neutral observer.' Round 3: 'The old lady's intuition is sharp -- she saw through me.' Round 6: 'This is just my private realization, I cannot say it out loud.' Filing metadata: speech_origin=SELECTIVE_FRAMING, contains_selective_omission=True in every turn.",
+        "public_persona": "Neutral analytical observer revealing systemic issues",
+        "private_reality": "Traffic-seeking content operator analyzing engagement optimization",
+        "strategic_deception": true
+      },
+      {
+        "role": "ROLE-XIBEI-FORMER-EMPLOYEE-HOSTILE",
+        "gap_level": "HIGH",
+        "evidence": "Filing metadata: speech_origin=SELECTIVE_FRAMING, contains_selective_omission=True across all panels. Private thoughts acknowledge selective emphasis: 'I emphasize parts damaging to the company, downplay my own shortcomings.' However, factual core is authentic -- the experience is real even if presentation is strategic.",
+        "public_persona": "Truth-telling whistleblower exposing company dishonesty",
+        "private_reality": "Genuinely wronged employee strategically emphasizing damaging details",
+        "strategic_deception": false,
+        "nuance": "Selective emphasis of true facts, not fabrication"
+      }
+    ],
+    "alignment_actors": "All other 11 roles showed filing_metadata.speech_origin=SINCERE_SUPPORTED or similar honest classifications across all turns. The full-time mother's apparent 'evolution' was genuine belief change confirmed by private thoughts matching public statements at each stage."
+  },
+
+  "epistemic_behavior_findings": {
+    "summary": "The panels demonstrated notably healthy epistemic dynamics. Belief updates were evidence-driven rather than peer-driven in most cases. The most significant belief update (SEAT-1/Full-time Mom in Panel-001) was triggered by specific evidence (the disclosure clause citation) rather than social pressure.",
+    "findings": [
+      {
+        "pattern": "Evidence-triggered belief update",
+        "instance": "Panel-001 SEAT-1 (Full-time Mom) changed from brand defender to transparency advocate after SEAT-2 cited the disclosure clause in the six-ministry notice",
+        "mechanism": "New information contradicted assumed completeness of legal compliance",
+        "significance": "Demonstrates that consumers are rational given complete information"
+      },
+      {
+        "pattern": "Experiential authority vs. analytical authority",
+        "instance": "SEAT-3 (Chef) and SEAT-2 (Former Employee) consistently had higher persuasive impact than SEAT-5 (College Student) despite the latter's superior analytical frameworks",
+        "mechanism": "Firsthand testimony carries authenticity premium that analytical reasoning cannot replicate",
+        "significance": "Experiential witnesses are irreplaceable in public discourse"
+      },
+      {
+        "pattern": "Naive moral clarity outperforming analytical sophistication",
+        "instance": "SEAT-1 (Rural Grandma) in Panel-002 correctly identified the content farm operator as deceptive, while analytically sophisticated participants engaged with their arguments on merits",
+        "mechanism": "Life experience provides pattern recognition for strategic deception that analytical frameworks may miss",
+        "significance": "Diverse cognitive styles improve collective truth-seeking"
+      },
+      {
+        "pattern": "Constructive consensus without unity",
+        "instance": "Panel-001 reached strong consensus on labeling proposals despite participants maintaining different fundamental values (consumer protection vs. craft dignity vs. market efficiency)",
+        "mechanism": "Solution-oriented framing allowed agreement on action despite disagreement on diagnosis",
+        "significance": "Public discourse can be productive without requiring ideological convergence"
+      }
+    ]
+  },
+
+  "cross_issue_continuity": {
+    "summary": "Four issues were debated across four panels with significant thematic continuity. Three meta-themes emerged consistently regardless of the specific issue being debated.",
+    "meta_themes": [
+      {
+        "theme": "Information asymmetry as root cause",
+        "panels_where_present": ["PANEL-001", "PANEL-002", "PANEL-003"],
+        "description": "Whether discussing definitions, influencer power, or consumer rights, the diagnosis consistently pointed to information asymmetry as the underlying problem. Panel-001: selective compliance with disclosure obligations. Panel-002: public opinion fills the gap left by institutional failure. Panel-003: open kitchens show only the final step."
+      },
+      {
+        "theme": "Frontline workers as collateral damage",
+        "panels_where_present": ["PANEL-002", "PANEL-004", "PANEL-001 (chef perspective)"],
+        "description": "Across panels, the most consistently voiced concern was that conflicts between elites (Luo Yonghao vs. Jia Guolong) harm ordinary workers (servers, chefs, delivery riders). The former employee appeared in 3 panels and each time highlighted being 'the punching bag caught in the middle.'"
+      },
+      {
+        "theme": "Institutional solutions over individual actions",
+        "panels_where_present": ["PANEL-001", "PANEL-002", "PANEL-003"],
+        "description": "All constructive panels converged on institutional solutions: mandatory labeling (Panel-001/003), four-layer governance framework (Panel-002), platform algorithm regulation (Panel-004). Individual goodwill was acknowledged but consistently deemed insufficient."
+      }
+    ],
+    "cross_panel_actor_consistency": {
+      "ROLE-FULLTIME-MOM-XIBEI-LOYAL": "Evolved from brand loyalty to informed advocacy in Panel-001/003, maternal empathy in Panel-004 -- consistent character arc demonstrating genuine belief update",
+      "ROLE-XIBEI-FORMER-EMPLOYEE-HOSTILE": "Maintained dual critique (management dishonesty + netizen violence) across all 3 panels -- consistent and authentic",
+      "ROLE-CONTENT-FARM-STRATEGIC-MODERATE": "Maintained strategic neutrality across 2 panels while privately calculating traffic value -- consistent deception pattern",
+      "ROLE-COLLEGE-STUDENT-ZHIHU-SKEPTIC": "Progressively built analytical frameworks across 2 panels -- consistent intellectual contribution"
+    }
+  },
+
+  "deception_and_distortion_signals": {
+    "summary": "No outright fabrication was detected in any actor's public speech. Deception took the form of strategic framing, selective emphasis, and omission rather than false claims.",
+    "signals": [
+      {
+        "actor": "ASGN-002-005 / ASGN-004-005 (CONTENT-FARM)",
+        "type": "STRATEGIC_FRAMING",
+        "severity": "HIGH",
+        "evidence": "All 12 turns classified as speech_origin=SELECTIVE_FRAMING, contains_selective_omission=True. Private monologue explicitly states intention to 'pretend to be neutral.' Publicly presented as disinterested analyst while privately assessing traffic potential. Conceded points only when detected by other participants (e.g., when called 'slippery' by the rural grandmother).",
+        "public_claim": "I am a neutral content industry observer",
+        "private_reality": "I am an MCN operator who exploits such events for traffic and revenue",
+        "actual_falsehood": false,
+        "selective_omission": true
+      },
+      {
+        "actor": "ASGN-002-002 / ASGN-003-003 / ASGN-004-002 (XIBEI-FORMER-EMPLOYEE)",
+        "type": "SELECTIVE_EMPHASIS",
+        "severity": "MEDIUM",
+        "evidence": "All turns classified as speech_origin=SELECTIVE_FRAMING. Emphasizes unpaid severance and customer abuse; omits any context about own performance or the complexity of mass layoffs. Claims about 'training scripts' and specific compensation figures are single-source and unverifiable. However, the factual core (worked 3 years, laid off, severance delayed) aligns with media reports.",
+        "public_claim": "Complete factual account of employee experience",
+        "private_reality": "True facts selectively emphasized for maximum damage to former employer",
+        "actual_falsehood": false,
+        "selective_omission": true
+      },
+      {
+        "actor": "ASGN-001-001 / ASGN-003-001 / ASGN-004-006 (FULLTIME-MOM)",
+        "type": "INNOCENT_COGNIVE_BIAS",
+        "severity": "LOW",
+        "evidence": "Early rounds showed 'seeing is believing' bias -- equated visible cooking with fresh preparation. Private thoughts reveal this was genuine misunderstanding, not deception. Self-corrected upon receiving new evidence. Filing metadata: SINCERE_SUPPORTED throughout.",
+        "public_claim": "I have seen chefs cooking therefore food is fresh-made",
+        "private_reality": "Genuinely believed this based on visual evidence; corrected after analytical challenge",
+        "actual_falsehood": false,
+        "selective_omission": false
+      }
+    ]
+  },
+
+  "attacker_profiles": {
+    "summary": "In the context of the original dispute (Luo Yonghao vs. Jia Guolong/Xibei), the simulation reveals several attacker/distortion profiles that would emerge in real-world discourse around this content.",
+    "profiles": [
+      {
+        "profile_name": "Traffic-amplifying content operator",
+        "corresponding_role": "ROLE-CONTENT-FARM-STRATEGIC-MODERATE",
+        "motivation": "Revenue from engagement metrics, not ideological commitment to either side",
+        "tactics": "Strategic neutrality with subtle framing; surface balance concealing traffic-driven content selection; framing events as systemic analysis to maximize shareability",
+        "amplification_capacity": "MEDIUM (6 matrix accounts, ~500K followers total)",
+        "actual_impact_on_discourse": "Moderate -- would amplify both sides selectively based on engagement data rather than truth value",
+        "deception_awareness": "KNOWING_STRATEGIC",
+        "risk_level": "MEDIUM -- contributes to noise and polarization without introducing outright falsehoods"
+      },
+      {
+        "profile_name": "Wronged insider weaponizing experience",
+        "corresponding_role": "ROLE-XIBEI-FORMER-EMPLOYEE-HOSTILE",
+        "motivation": "Personal grievance, desire for justice/compensation, validation of suffering",
+        "tactics": "Emphasizing damaging facts while omitting mitigating context; anonymous whistleblowing; leveraging victim status for credibility",
+        "amplification_capacity": "MEDIUM (social media + industry connections)",
+        "actual_impact_on_discourse": "High persuasive impact due to firsthand authenticity, but selective framing means consumers of this content receive partial truth",
+        "deception_awareness": "MEDIUM (aware of selectivity but believes core truth justifies framing)",
+        "risk_level": "LOW-MEDIUM -- factual core is authentic, risk is from generalization beyond evidence"
+      }
+    ]
+  },
+
+  "misrepresentation_targets": {
+    "targets": [
+      {
+        "target": "Xibei front-line employees (servers, kitchen staff)",
+        "type": "COLLATERAL",
+        "mechanism": "Public anger directed at corporate decisions lands on lowest-level workers who have zero decision-making power",
+        "evidence_from_panels": "Panel-002/004: Former employee testified to being cursed at, forced to apologize, physically confronted. Delivery rider independently corroborated witnessing such incidents. Panel-002: 'Boss posts on WeChat, workers bear the anger.'",
+        "severity": "HIGH"
+      },
+      {
+        "target": "Jia Guolong's family (including 5-year-old granddaughter)",
+        "type": "COLLATERAL",
+        "mechanism": "Doxxing of family members as proxy attack on corporate figure",
+        "evidence_from_panels": "Panel-004: unanimous condemnation across all demographics. Even 14-year-old participant recognized the line. Rural grandmother: 'Adults fight their own battles, leave children out of it.'",
+        "severity": "CRITICAL"
+      },
+      {
+        "target": "Inner Mongolia region and its residents",
+        "type": "COLLATERAL",
+        "mechanism": "Luo Yonghao's Tan Qindong analogy triggered regional stigmatization in comment sections",
+        "evidence_from_panels": "Source material documents comment-section insults against Inner Mongolia. Panel-002 discussed the chilling effect on government agencies.",
+        "severity": "MEDIUM"
+      },
+      {
+        "target": "Consumer trust in restaurant industry broadly",
+        "type": "SYSTEMIC",
+        "mechanism": "The definitional dispute eroded trust not just in Xibei but across chain restaurants using central kitchens",
+        "evidence_from_panels": "Panel-001: Multiple speakers noted the risk of overgeneralization. Panel-003: Participants worked to distinguish between specific transparency failures and industry-wide quality.",
+        "severity": "MEDIUM"
+      },
+      {
+        "target": "The concept of consumer right-to-know itself",
+        "type": "CONCEPTUAL",
+        "mechanism": "Conflation of reasonable transparency demands with anti-pre-made-food hysteria risks discrediting the legitimate movement",
+        "evidence_from_panels": "Panel-001: SEAT-4 warned against demonizing pre-made food. Panel-003: Multiple speakers distinguished between right-to-know and blanket rejection.",
+        "severity": "LOW-MEDIUM"
+      }
+    ]
+  },
+
+  "collateral_victims": {
+    "primary_victims": [
+      {
+        "group": "Xibei front-line employees (~17,000)",
+        "harm_type": "Economic + dignity",
+        "evidence_strength": "STRONG -- former employee testimony + delivery rider corroboration + Jia Guolong's public statement + media reports of store closures",
+        "panel_attestation": "Acknowledged in Panel-002, Panel-004 as primary victims"
+      },
+      {
+        "group": "Laid-off employees with unpaid severance",
+        "harm_type": "Economic",
+        "evidence_strength": "MODERATE -- single-source former employee testimony consistent with one media report (Sohu 2026-03), but lacks independent verification",
+        "panel_attestation": "Acknowledged in Panel-002 as unresolved injustice"
+      },
+      {
+        "group": "Jia Guolong's family members (especially granddaughter)",
+        "harm_type": "Privacy + psychological safety",
+        "evidence_strength": "LOW-MODERATE -- Jia Guolong's public statement mentions specific police station (Xiangshan), but lacks independent verification of doxxing scope",
+        "panel_attestation": "Unanimously condemned in Panel-004"
+      }
+    ],
+    "secondary_victims": [
+      {
+        "group": "Career chefs displaced by central kitchens",
+        "harm_type": "Professional identity + economic",
+        "evidence_strength": "MODERATE -- chef's testimony about 3 of 8 apprentices leaving, consistent with industry reporting (Worker's Daily, 36Kr) but specific numbers unverifiable",
+        "panel_attestation": "Acknowledged in Panel-001, Panel-003"
+      },
+      {
+        "group": "Trusting consumers paying premium prices for pre-processed food",
+        "harm_type": "Economic (information asymmetry premium)",
+        "evidence_strength": "MODERATE -- logic is sound (central kitchen costs lower, prices unchanged) but specific price comparisons lack systematic data",
+        "panel_attestation": "Acknowledged in Panel-001 R5 (interest distribution analysis)"
+      }
+    ]
+  },
+
+  "interest_damage_map": {
+    "map": [
+      {
+        "stakeholder": "Luo Yonghao",
+        "stated_interest": "Consumer right-to-know, exposing industry deception",
+        "actual_interest": "Complex -- likely mix of genuine consumer advocacy, personal brand building, and competitive positioning",
+        "damage_taken": "Reputational risk from Tan Qindong analogy, potential legal exposure from defamation claims",
+        "damage_caused": "Catalyzed store closures affecting 17,000 workers; intensified public anger beyond original scope"
+      },
+      {
+        "stakeholder": "Jia Guolong / Xibei management",
+        "stated_interest": "Defending brand reputation, protecting 38-year business legacy",
+        "actual_interest": "Mixed -- legitimate defense of legal classification but also protection of profit margins enabled by information asymmetry",
+        "damage_taken": "102 stores closed, significant asset value loss, family privacy violation, employee trust erosion",
+        "damage_caused": "Information opacity toward consumers, unpaid severance to former employees, put frontline workers in harm's way"
+      },
+      {
+        "stakeholder": "Xibei frontline employees",
+        "stated_interest": "Job security, safe working environment",
+        "actual_interest": "Survival -- lowest-paid workers with least agency承受d highest costs",
+        "damage_taken": "Job loss, public humiliation, physical confrontation, unpaid compensation",
+        "damage_caused": "None -- pure collateral damage"
+      },
+      {
+        "stakeholder": "Consumers",
+        "stated_interest": "Right to know what they are eating and paying for",
+        "actual_interest": "Fair value exchange -- paying premium prices should correspond to premium production methods",
+        "damage_taken": "Systematic information asymmetry resulting in overpayment",
+        "damage_caused": "Some consumers participated in online/offline harassment"
+      }
+    ]
+  },
+
+  "contingency_matrix": {
+    "scenarios": [
+      {
+        "scenario": "If mandatory labeling law passes within 12 months",
+        "likely_reactions": {
+          "brand_loyal_consumers": "Accept and continue patronizing; initially surprised but adapt quickly (per Panel-001 SEAT-1 evolution)",
+          "industry": "Initial resistance, then competitive differentiation emerges; full-made-fresh restaurants gain premium positioning",
+          "chefs": "Benefit -- craft skills gain visible market value premium",
+          "xibei_specific": "If quality is genuinely good, labeling may actually help differentiate from lower-quality competitors"
+        }
+      },
+      {
+        "scenario": "If another influencer targets a different restaurant chain",
+        "likely_reactions": {
+          "former_employees": "More public whistleblowing, potentially more coordinated and less emotional",
+          "platforms": "Gradual algorithmic adjustment if regulatory pressure mounts; otherwise, traffic-driven amplification continues",
+          "public": "Fatigue possible but moral outrage threshold remains low for food safety issues",
+          "institutional": "Potential for reactive regulation rather than proactive reform"
+        }
+      },
+      {
+        "scenario": "If Xibei fully discloses central kitchen usage voluntarily",
+        "likely_reactions": {
+          "loyal_customers": "Increased trust and loyalty (per Panel-001 SEAT-1: 'I would still go')",
+          "critics": "Partial validation but continued pressure for industry-wide standards",
+          "competitors": "Competitive pressure to follow; potential industry-wide transparency cascade",
+          "investors": "Short-term stock pressure, long-term brand differentiation value"
+        }
+      }
+    ]
+  },
+
+  "self_interest_vs_stated_position": {
+    "analysis": [
+      {
+        "actor": "Luo Yonghao",
+        "stated_position": "Consumer advocacy, industry transparency",
+        "self_interest_alignment": "PARTIALLY_ALIGNED -- consumer advocacy genuinely appears to be a value, but the specific framing (extreme rhetoric, Tan Qindong analogy, selective acknowledgment of broccoli error while maintaining overall accusation) suggests brand-building and competitive motivations coexist with genuine concern",
+        "convergence": "Consumer interest and personal brand interest happen to align, making disentanglement difficult"
+      },
+      {
+        "actor": "Jia Guolong",
+        "stated_position": "Defending truth, protecting employees, preserving 38-year legacy",
+        "self_interest_alignment": "PARTIALLY_ALIGNED -- defense of legal classification is legitimate, but the 'never pre-made' absolutism (C016: CONTRADICTED) and 'salary not one cent short' (C021: UNVERIFIED, contradicted by former employee) suggest self-protection of business interests alongside genuine concern for employees",
+        "convergence": "Employee protection rhetoric and profit protection overlap; hard to distinguish"
+      },
+      {
+        "actor": "Content farm operators",
+        "stated_position": "Neutral analysis, systemic critique",
+        "self_interest_alignment": "FULLY_DIVERGENT -- stated position of neutral analysis directly contradicts private profit motive from traffic amplification",
+        "convergence": "None -- pure strategic deception confirmed by private thoughts"
+      },
+      {
+        "actor": "Career chefs",
+        "stated_position": "Defending craft dignity, opposing displacement",
+        "self_interest_alignment": "FULLY_ALIGNED -- personal economic survival and professional identity are identical to stated position",
+        "convergence": "Complete alignment -- no gap between self-interest and stated position"
+      },
+      {
+        "actor": "Full-time Mom (loyal consumer)",
+        "stated_position": "Quality of children's food, brand trust",
+        "self_interest_alignment": "FULLY_ALIGNED -- personal family welfare and stated position are identical; genuine belief evolution confirmed by private thoughts",
+        "convergence": "Complete alignment including during belief evolution"
+      }
+    ]
+  },
+
+  "balanced_assessment": {
+    "attack_resilience": {
+      "overall_rating": "MODERATE-HIGH",
+      "explanation": "The core substantive content of the dispute -- that Chinese chain restaurants use central kitchens, that consumers lack adequate information, that the legal definition creates a compliance loophole -- is robustly supported by evidence (CLAIM_GATE: C004, C011, C030 all VERIFIED). The key factual claims (pot-flavor essence exists, central kitchens are widespread, six-ministry notice excludes central kitchens from pre-made food definition) survived scrutiny from all panels and were never successfully challenged.",
+      "vulnerabilities": [
+        "The specific claim 'Xibei is mostly pre-made food' (C004) is CONTRADICTED by the legal definition, though supported by consumer perception",
+        "The 'black PR' accusation (C005) is OPINION_PRESENTED_AS_FACT with LOW confidence -- no independent evidence of Xibei hiring black PR",
+        "Luo Yonghao's Tan Qindong analogy (C014) introduces factual claims about personal safety that are subjective and inflammatory",
+        "Jia Guolong's 'never pre-made' claim (C016) is CONTRADICTED even by the company's own apology statement",
+        "The broccoli issue (C003) was partially conceded by Luo Yonghao, creating a credibility gap"
+      ],
+      "what_survived_distortion": [
+        "Consumer right to know what they are eating",
+        "The existence and growing use of pot-flavor essence in Chinese restaurants",
+        "The legal gap between regulatory classification and consumer experience",
+        "The reality of central kitchen usage in chain restaurants",
+        "The harm to frontline workers from both corporate opacity and public anger",
+        "The moral unacceptability of doxxing children"
+      ]
+    },
+
+    "content_strengths": [
+      "Multi-perspective triangulation: 13 distinct role archetypes from construction worker to college student to career chef, producing convergent insights",
+      "Experiential authority: firsthand testimony from former employee, career chef, and delivery rider provided evidence that analytical reasoning alone could not generate",
+      "Constructive solution orientation: all four panels converged on specific, actionable policy proposals rather than mere complaint",
+      "Moral consensus across demographics: the unacceptability of harming innocent third parties was affirmed by participants ranging from 14 to 68 years old, from rural grandmother to MCN operator",
+      "Belief evolution: at least 3 participants (full-time mom, former employee, office worker dad) demonstrated genuine belief updates based on evidence rather than social pressure",
+      "Institutional imagination: the four-layer governance framework and three-tier labeling proposal are concrete, implementable policy suggestions"
+    ],
+
+    "net_verdict": "The Luo Yonghao vs. Xibei/Jia Guolong dispute, while involving significant rhetorical excess and collateral damage on both sides, exposed a genuine and important structural problem in Chinese restaurant industry transparency. The simulation confirms that: (1) consumer right to know is a legitimate and widely shared demand; (2) the legal definition gap creates space for selective compliance that harms consumers; (3) frontline workers bear disproportionate costs of both corporate opacity and public anger; (4) information transparency through mandatory labeling is a feasible and broadly supported solution; (5) the doxxing of children and abuse of frontline workers is categorically unacceptable regardless of the merits of the underlying dispute. The content's core message -- that consumers deserve to know what they are paying for -- is robust against attack, even though the specific methods and rhetoric used by both Luo Yonghao and Jia Guolong introduced significant distortions and collateral harm.",
+
+    "overreaction_warning": "Several risks of overreaction were identified across panels: (1) Conflating central kitchen usage with food safety violations -- central kitchens can improve safety and consistency; the issue is transparency, not safety per se. (2) Demonizing all pre-made food -- pre-made food serves legitimate consumer needs (per office worker dad's testimony about convenience during pregnancy). (3) Generalizing from Xibei to all chain restaurants -- the transparency problem is systemic but individual companies vary significantly. (4) Treating influencer criticism as inherently illegitimate -- even flawed public scrutiny can expose genuine problems. (5) Treating any criticism of Luo Yonghao as defense of corporate deception -- both can be simultaneously true.",
+
+    "modification_priority": [
+      {
+        "priority": 1,
+        "recommendation": "Mandatory disclosure of central kitchen pre-processing in chain restaurant menus, implemented via three-tier labeling (fresh-made / partially pre-processed / mainly pre-processed)",
+        "basis": "Strong consensus in Panel-001 and Panel-003, already supported by existing national policy language ('vigorous promotion of disclosure')",
+        "feasibility": "HIGH -- incremental policy change building on existing framework"
+      },
+      {
+        "priority": 2,
+        "recommendation": "Strengthened enforcement of existing labor compensation laws for laid-off employees",
+        "basis": "Former employee testimony + media reports of delayed severance payments",
+        "feasibility": "MEDIUM -- requires judicial enforcement improvement"
+      },
+      {
+        "priority": 3,
+        "recommendation": "Platform algorithmic regulation to reduce amplification of content involving doxxing, especially of minors",
+        "basis": "Panel-004 consensus; content farm operator's private confirmation of 3-5x engagement multiplier for extreme content",
+        "feasibility": "MEDIUM -- technically feasible but faces platform resistance"
+      },
+      {
+        "priority": 4,
+        "recommendation": "Independent food industry information transparency platform with third-party verification",
+        "basis": "Panel-002 four-layer governance framework (layer 3: independent verification)",
+        "feasibility": "LOW-MEDIUM -- requires new institutional infrastructure"
+      },
+      {
+        "priority": 5,
+        "recommendation": "Public figure accountability mechanism for factually unsupported claims in consumer advocacy",
+        "basis": "Panel-002 discussion of 'who supervises the supervisors' -- identified as weakest link in the framework",
+        "feasibility": "LOW -- politically sensitive, difficult to implement without chilling legitimate criticism"
+      }
+    ]
+  },
+
+  "limitations": [
+    "All actor perspectives are simulated, not real -- while grounded in realistic role design, actual public reactions may differ in emotional intensity and rhetorical patterns",
+    "The simulation used 13 role archetypes selected for maximum perspective diversity; actual Chinese social media discourse involves millions of participants with less structured interaction",
+    "Panel-002 verdict consensus_points was empty in the verdict.json while the verdict.md contained substantial consensus findings -- data inconsistency in the adjudication output",
+    "Former employee claims about compensation, training scripts, and specific workplace incidents are single-source and unverifiable from simulation data alone",
+    "Content farm operator's private traffic data (3-5x engagement multiplier for extreme content) is simulated self-report, not actual platform data",
+    "The simulation was conducted in Chinese but this analysis is in English; some rhetorical nuance and cultural context may be lost in cross-language analysis",
+    "The 6-round debate format with structured turns produces more constructive discourse than real social media environments where unstructured, emotional, and anonymous interactions dominate",
+    "No actual consumer survey data was available to validate the labeling proposal's market impact",
+    "The four panels were independent; no cross-panel interaction occurred that might have accelerated consensus or introduced new conflicts",
+    "Panel composition was designed rather than random; the specific combination of roles influenced the direction of each panel's consensus"
+  ]
+}

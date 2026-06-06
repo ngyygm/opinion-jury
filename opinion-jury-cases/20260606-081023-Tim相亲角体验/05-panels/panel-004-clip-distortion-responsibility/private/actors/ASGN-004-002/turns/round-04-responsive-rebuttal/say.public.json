@@ -1,0 +1,20 @@
+{
+  "turn_id": "ASGN-004-002-round-04-responsive-rebuttal",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-2",
+  "round": 4,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "SEAT-6的歧义风险论我方向上同意，但SEAT-1又往回缩了。你说原始视频提供了足够的语境？请问那些只看到切片版本的人，他们能看到你的语境吗？他们看到的就是一个亿万富翁跑到相亲角装穷人的片段。你的原始视频有语境，对那些只看了切片的人来说毫无意义。这才是关键。Tim作为千万粉丝的创作者，他发布内容的那一刻起，就应该知道大多数人不会去看完整版。互联网的传播规律就是这样，切片的传播量永远大于原视频。这不是什么新发现，这是常识。所以我强调的核心不是什么无限责任，而是事前预判责任。你发之前就要想清楚：这个内容被切片后可能变成什么样子？如果答案是可能产生严重误导，那你就不应该发，或者你必须加入足够的免责声明和语境信息，确保即使是切片版本也不会产生严重误读。Tim做了吗？他没有。他的相亲简历上没有标注这是节目效果，视频里没有加免责声明，什么预防都没做。事后来说原视频有语境，有什么用呢？传播出去了伤害已经造成了。",
+  "target_turn_refs": [
+    "ASGN-004-001-round-04-responsive-rebuttal",
+    "ASGN-004-006-round-03-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "panel-004-public-question"
+  ],
+  "public_evidence_refs": [
+    "C005",
+    "C011"
+  ],
+  "public_action_signals": []
+}

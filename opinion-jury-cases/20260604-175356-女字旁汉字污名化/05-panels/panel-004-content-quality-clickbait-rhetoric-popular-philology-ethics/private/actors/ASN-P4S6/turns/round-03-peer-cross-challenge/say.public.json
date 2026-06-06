@@ -1,0 +1,15 @@
+{
+  "turn_id": "ASN-P4S6-round-03-peer-cross-challenge",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-6",
+  "round": 3,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "SEAT-5说得在理。SEAT-1之前说这是成熟模板、八九十分就不错了，现在又说确实需要改进——这不是自己打自己脸吗？我是超市收银员，说个我工作里的事吧：我们超市卖食品，食品上必须标生产日期、保质期、配料表，还有市监局的抽检。为什么？因为不能指望顾客自己去检测食品安不安全。网上的内容不是一样的道理吗？你不能让每个读者都去查字典验证吧？平台应该像超市管理食品一样，对内容质量负点责任。SEAT-1说的标来源是个开始，但这远远不够，得有人真的去查。",
+  "target_turn_refs": [
+    "ASN-P4S5-round-03-peer-cross-challenge",
+    "ASN-P4S1-round-03-peer-cross-challenge"
+  ],
+  "public_question_refs": [],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

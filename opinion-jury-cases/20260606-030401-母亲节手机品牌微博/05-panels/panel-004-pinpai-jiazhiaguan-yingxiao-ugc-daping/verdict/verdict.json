@@ -1,0 +1,33 @@
+{
+  "panel_id": "PANEL-004",
+  "panel_question": "品牌价值观营销的公共责任：UGC+户外大屏放大的传播风险",
+  "verdict_date": "2026-06-06",
+  "verdict_summary": {
+    "overall_risk_level": "MODERATE",
+    "risk_controllable": true,
+    "consensus_reached": true,
+    "consensus_direction": "UGC+户外大屏需要系统性审核机制，审核应透明化、多元化，品牌应承担公共传播责任",
+    "key_verdict": "The campaign's core message of diverse motherhood is resilient to distortion. The execution risk (unreviewed UGC on outdoor screens) is real but manageable. The discussion produced actionable recommendations."
+  },
+  "evidence_alignment": {
+    "claim_gate_verified": [
+      "Campaign invited UGC with hashtag #用镜头再写一遍我的妈妈#",
+      "Campaign promised outdoor screen display at Guangzhou Zhengjia mall",
+      "Three sample images were brand-produced showing diverse mother types",
+      "Campaign framing was 'moms are more than one template'"
+    ],
+    "disputed_in_discussion": [
+      "Whether review mechanisms existed internally (unverifiable from public data)",
+      "Whether actual harmful UGC was submitted (no evidence of this)",
+      "The specific risk level of outdoor screen UGC (theoretical risk, no actual incident cited)"
+    ]
+  },
+  "recommendations": [
+    "Brand should publish explicit UGC review standards before future campaigns",
+    "Review teams should include diverse cultural backgrounds",
+    "Outdoor screen content should go through legal, brand, and risk assessment review",
+    "User representatives should participate in review standard formulation",
+    "Brand should conduct public retrospective on this campaign's review gaps",
+    "Industry should develop UGC marketing self-regulatory guidelines"
+  ]
+}

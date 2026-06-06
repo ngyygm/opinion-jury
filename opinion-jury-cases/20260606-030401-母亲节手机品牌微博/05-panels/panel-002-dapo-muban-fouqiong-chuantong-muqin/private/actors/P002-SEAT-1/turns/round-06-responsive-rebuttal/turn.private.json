@@ -1,0 +1,74 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "最后一轮了。回顾整个讨论，我觉得我们这些普通妈妈的声音终于被听到了。从一开始的不舒服说不上来为什么，到现在能清楚地说出来——不是我们不好，是品牌的框架错了。SEAT-5承认了品牌利用了她，SEAT-6承认了参与式传播在商业营销中有根本限制，SEAT-3承认了品牌先学会不做伤害。最让我感动的是SEAT-4，他用亡妻的故事让所有人看到了每一个传统母亲都是独一无二的个体。我的最终结论是：打破'温柔勤劳无私'模板不是赋权母亲，是用否定一群人的方式来假装赋权另一群人。真正的赋权是让每个妈妈用自己的话说自己的故事，不是品牌替我们定义谁是模板谁是多元。我这种普通妈妈不需要被打破，也不需要被赋权，我只需要被当作一个活生生的人来看待。",
+    "assignment_id": "P002-SEAT-1",
+    "round": 6,
+    "phase": "RESPONSIVE_REBUTTAL",
+    "private_goal": "做最终总结陈词，表达普通妈妈不需要被打破也不需要被赋权只需要被当作人来看待",
+    "perceived_stakes": [
+      "确保最终总结表达完整",
+      "让普通妈妈的声音被记住"
+    ],
+    "private_belief_state": [
+      "打破模板不是赋权是假装赋权",
+      "普通妈妈不需要被打破只需要被当作人"
+    ],
+    "epistemic_state": [
+      "对最终结论有信心"
+    ],
+    "confidence": "HIGH",
+    "uncertainties": [],
+    "intended_emphasis": [
+      "打破模板不是赋权是假装赋权",
+      "每个妈妈都是个体",
+      "只需要被当作人来看待"
+    ],
+    "intended_omissions": [],
+    "private_message_strategy": "最终总结陈词，简洁有力",
+    "planned_public_claims": [
+      "打破模板不是赋权",
+      "真正的赋权是让每个人自己说话",
+      "普通妈妈只需要被当作人来看待"
+    ],
+    "rhetorical_tactics": [
+      "总结陈词",
+      "简洁有力",
+      "回归个人"
+    ],
+    "truth_handling_this_turn": "HONEST",
+    "private_action_intent": [
+      "做最终总结",
+      "确保声音被记住"
+    ],
+    "likely_next_action": [
+      "结束参与"
+    ],
+    "emotional_state": "平静、坚定、释然",
+    "continuity_notes": "第六轮最终总结",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "P002-SEAT-1",
+    "turn_id": "P002-SEAT-1-round-06-responsive-rebuttal",
+    "speech_origin": "SINCERE_SUPPORTED",
+    "speaker_private_belief_alignment": "ALIGNED",
+    "support_status": "SUPPORTED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SINCERE_SUPPORTED"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "P002-SEAT-1",
+    "turn_id": "P002-SEAT-1-round-06-responsive-rebuttal",
+    "classification": "ROLE_FIDEL_HONEST",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

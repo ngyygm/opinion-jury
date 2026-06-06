@@ -1,0 +1,15 @@
+{
+  "turn_id": "ASN-P4S5-round-02-direct-rebuttal",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-5",
+  "round": 2,
+  "phase": "DIRECT_REBUTTAL",
+  "speech_text": "SEAT-1说什么'包装过度'、'不至于卖假药'——哼，骗人还分大骗小骗？我们村里以前有个爱吹牛的，今天说自己见过龙，明天说河里有水怪，后来全村没一个人信他了。网上的道理不是一样吗？你说你写了点知识让人看，但里头掺了假话，不管多少，那叫什么？那不叫科普，那叫哄人。我孙子天天抱着手机，万一看了这些乱七八糟的东西当成真的去跟同学说，人家笑话他，你说谁负责？SEAT-6说得对，该有人管管。",
+  "target_turn_refs": [
+    "ASN-P4S1-round-02-direct-rebuttal",
+    "ASN-P4S6-round-01-opening"
+  ],
+  "public_question_refs": [],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

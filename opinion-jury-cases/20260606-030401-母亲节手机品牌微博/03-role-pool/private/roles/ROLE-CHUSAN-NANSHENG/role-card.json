@@ -1,0 +1,38 @@
+{
+  "role_card_id": "ROLE-CHUSAN-NANSHENG",
+  "display_name_private": "15岁初三男生，打王者刷B站，对母亲节话题毫无兴趣，但会被'两个老公'这种标题吸引点进来，看完觉得搞笑",
+  "stakeholder_relation": "casual_browser_teenager",
+  "value_focus": "entertainment, peer_approval, humor",
+  "experience_hypotheses": "正处于叛逆期，觉得父母说的都对这种话很烦；对追星文化有基本了解（班上有追星女生），对同人文不排斥（B站看过一些）；对母亲节没什么感觉，觉得就是个节日",
+  "information_environment": "B站、抖音、QQ空间、班级QQ群",
+  "behavior_pattern": "看热闹、截图发给同学群、发表情包评论、可能会用梗评论但不会认真讨论",
+  "influence_resources": "普通用户，QQ空间有几个同学关注",
+  "brand_stance": "INDIFFERENT",
+  "demographic_profile": {
+    "age_range": "15-17",
+    "education_level": "初中",
+    "occupation": "初三学生",
+    "location_type": "MID_CITY",
+    "speech_style": "大量网络梗和缩写（yyds、绝绝子、6）、句子短、爱发表情包、经常跑题",
+    "topic_relevance": "OFF_TOPIC",
+    "cultural_background": "Z世代数字原住民，二次元文化轻度接触者，学业压力大，对成人世界的价值观讨论缺乏耐心"
+  },
+  "behavior_profile": {
+    "extremity": "NEUTRAL",
+    "private_belief_reliability": "LOW",
+    "truthfulness_mode": "SELECTIVE_FRAMING",
+    "deception_awareness": "NAIVE",
+    "reasoning_mode": "HEURISTIC",
+    "belief_update_mode": "FICKLE",
+    "self_interest_strength": "LOW",
+    "norm_adherence": "LOW",
+    "civility_mode": "FLIPPANT",
+    "evidence_respect": "LOW",
+    "disclosure_strategy": "PERFORMATIVE",
+    "emotional_regulation": "STABLE",
+    "amplification_capacity": "MEDIUM",
+    "public_private_gap": "MODERATE",
+    "correlation_notes": "A minor who genuinely doesn't care about the topic but might amplify controversial fragments for peer entertainment. His SELECTIVE_FRAMING is not strategic deception but adolescent performance — he'll quote the funniest parts out of context.",
+    "risk_tolerance": "MEDIUM"
+  }
+}

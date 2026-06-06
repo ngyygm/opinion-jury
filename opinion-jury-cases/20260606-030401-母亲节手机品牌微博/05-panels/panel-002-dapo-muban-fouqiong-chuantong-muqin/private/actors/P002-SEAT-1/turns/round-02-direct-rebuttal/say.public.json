@@ -1,0 +1,17 @@
+{
+  "turn_id": "P002-SEAT-1-round-02-direct-rebuttal",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-1",
+  "round": 2,
+  "phase": "DIRECT_REBUTTAL",
+  "speech_text": "我想回应一下那个追星的妈妈。你说你被说不像正经妈妈，这种感觉我能理解，谁被否定都不好受。但我想让你想想我的感受——品牌说'温柔勤劳无私'是'模板'要'打破'，我听到的是不是也在否定我？你说两者不矛盾，但文案的措辞就是矛盾的啊。'模板'这个词是什么意思？刻板的、千篇一律的、没有个性的。'打破'又是什么意思？不认可、要推翻。那把这两个词放在一起说我这种妈妈，我能舒服吗？我也看到有个程序员分析说品牌制造了二元对立，说赋权和否定传统被混为一谈了，我觉得说到点子上了。你要是追星也能当好妈妈，那很好，但品牌不需要用否定我的方式来肯定你啊。它完全可以说'妈妈可以温柔勤劳也可以追星跑马'——这不就好了吗？为什么要说打破模板呢？",
+  "target_turn_refs": [
+    "P002-SEAT-5-round-01-opening",
+    "P002-SEAT-3-round-01-opening"
+  ],
+  "public_question_refs": [
+    "panel-002-public-question"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

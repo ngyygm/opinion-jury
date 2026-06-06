@@ -1,0 +1,19 @@
+{
+  "turn_id": "P001-SEAT-1-round-04-responsive-rebuttal",
+  "panel_id": "PANEL-001",
+  "anonymous_alias": "SEAT-1",
+  "round": 4,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "SEAT-5你说'可以展现追星妈妈，拍她举着灯牌、拍她在演唱会上的笑容'——这些当然好。但品牌选择了'两个老公'这个表达，因为这就是追星妈妈的真实语言。我们在圈子里就是这么说、这么聊的。你让我'换一种方式'来表达自己，这跟审查有什么区别？\n\n真正的问题是：谁来决定什么是'恰当'的表达方式？SEAT-4说得对，'谁的底线、谁来定义底线'。但她自己在用学术框架评判追星表达的时候，其实也在做同样的事。你们都在告诉追星妈妈：你们可以用你们的方式生活，但必须用我们能接受的方式来呈现。\n\n这不叫多元。这叫'你可以存在，但必须以我认可的方式存在'。\n\n我追星15年，我知道我在说什么、在做什么。叫偶像老公是我主动选择的快乐方式，不是被谁'推入'的。如果品牌想真实地展现追星妈妈的生活，用追星妈妈自己的语言来呈现，我认为这正是最真实、最尊重的做法。\n\n我不是说品牌做得完美，但我不接受'换一种方式'这种审查逻辑。真正的多元是让每个群体用自己的方式说话，不是让所有人用同一种被审核过的语言。",
+  "target_turn_refs": [
+    "P001-SEAT-5-round-03-peer-cross-challenge",
+    "P001-SEAT-4-round-03-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "panel-001-public-question"
+  ],
+  "public_evidence_refs": [
+    "C007"
+  ],
+  "public_action_signals": []
+}

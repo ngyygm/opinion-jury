@@ -1,0 +1,18 @@
+{
+  "turn_id": "ASGN-004-005-round-02-direct-rebuttal",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-5",
+  "round": 2,
+  "phase": "DIRECT_REBUTTAL",
+  "speech_text": "我就说一句，大家讨论就好好讨论，不要上来就说人家在洗白。SEAT-2你说话太冲了，人家SEAT-1好好在讲道理分析问题，你说人家是在帮Tim洗白，这样不好。我们老百姓看问题就事论事。我还是坚持我的看法，断章取义这个事，问题出在乱剪的人身上。SEAT-3说的行业情况我听了很有感触，他们做视频的被搬运、被歪曲是家常便饭，这不是他们的错。那个小伙子Tim的回应我也看了，说得挺好的，承认了以后会注意，还说不希望被误解，希望大家都去看看原视频。这态度多好啊，一个人犯了错愿意改，你还非要把他骂到什么程度？年轻人嘛，谁不会犯错？我们超市里上班，偶尔也会搞错价格，道个歉改过来就好了。关键还是要管好那些乱剪视频乱传播的人，那才是根源。我儿子跟我说过，网上有很多专门靠断章取义赚流量的号，这些号才应该被处罚。不要什么锅都往创作者身上甩。",
+  "target_turn_refs": [
+    "ASGN-004-002-round-01-opening",
+    "ASGN-004-002-round-02-direct-rebuttal",
+    "ASGN-004-003-round-02-direct-rebuttal"
+  ],
+  "public_question_refs": [
+    "panel-004-public-question"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

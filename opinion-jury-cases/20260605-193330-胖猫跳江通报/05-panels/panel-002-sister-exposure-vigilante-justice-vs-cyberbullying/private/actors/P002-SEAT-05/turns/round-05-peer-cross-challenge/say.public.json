@@ -1,0 +1,16 @@
+{
+  "turn_id": "P002-SEAT-05-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-05",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "SEAT-01说的心理援助，我觉得有点道理。我们骑手群里有个人之前出车祸了，后来平台给了一个心理咨询的电话，他打了说确实有用。就是有人听你说说话，心里就好受一些。\n\n姐姐要是有人在她最难受的时候跟她聊聊，也许就不会花钱雇人骂人了吧。\n\n这个建议不错。\n\n还有单子。",
+  "target_turn_refs": [
+    "P002-SEAT-01-round-05-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "姐姐刘某的网络曝光行为——'为弟申冤'的正义感与'蓄意网暴'的违法性之间的冲突"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "warnings": [
+    "panel-004-pinpai-jiazhiaguan-yingxiao-ugc-daping: inner_monologue too short (83 chars) in 05-panels\\panel-004-pinpai-jiazhiaguan-yingxiao-ugc-daping\\private\\actors\\P004-SEAT-5\\turns\\round-06-responsive_rebuttal"
+  ],
+  "role_count": 14,
+  "appearance_count": 24,
+  "panel_count": 4,
+  "public_turn_count": 144
+}

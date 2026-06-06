@@ -1,0 +1,16 @@
+{
+  "turn_id": "ASN-P4S6-round-02-direct-rebuttal",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-6",
+  "round": 2,
+  "phase": "DIRECT_REBUTTAL",
+  "speech_text": "看完大家的发言我越想越觉得SEAT-5说的有道理。她说'骗人就是骗人不分大小'，这话虽然听着极端，但细想想，如果一篇文章有一半是真的有一半是假的，那读者看了到底信还是不信？SEAT-1说'大部分人看完就忘了'，但你保证都忘了吗？我女儿就在网上看这些东西，要是学了错误的知识当成真的，那可怎么办？我觉得问题核心就是SEAT-3说的——老百姓没时间没能力去核实。那谁来把关呢？总不能指望每个读者都去查字典吧？",
+  "target_turn_refs": [
+    "ASN-P4S5-round-01-opening",
+    "ASN-P4S1-round-02-direct-rebuttal",
+    "ASN-P4S3-round-02-direct-rebuttal"
+  ],
+  "public_question_refs": [],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

@@ -1,0 +1,22 @@
+{
+  "turn_id": "ASN-P3S2-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-2",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "SEAT-1，你列出的原文五个问题，我逐条承认：\n\n1. 《说文》误引——确实错了，不应该。\n2. 「最初都是满满的赞美之意」——选择性举例，不诚实。\n3. 古代艺人社会地位的美化——误导性对比。\n4. 「为区分男女艺人而换用女字旁」——假说当事实。\n5. 暗示性语言代替论证——修辞大于内容。\n\n一个公正的学术批评者应该能批评自己立场相近的文章。你做到了。我也必须做到。\n\n但我想区分两个维度：\n\n维度一：这篇文章作为科普作品的质量——不合格。事实错误、选择性举例、夸大表述，这些在科普中是不可接受的。\n\n维度二：文章触及的研究方向——有价值。即使文章执行得不好，它所指向的问题（汉字中是否存在可观察的性别化词义演变模式）是值得严肃研究的学术问题。\n\n这两个维度不应该混为一谈。就像一篇关于气候变化的科普文章可能有事实错误，但气候变化本身仍然是值得研究的——你不能因为文章写得不好就否定研究方向。\n\n对学术界的建议：\n1. 需要对女部字做完整的词义演变统计研究，用数据说话。\n2. 需要跨文化比较研究，验证方向性假说。\n3. 科普写作需要严格遵守事实标准，即使方向是对的。\n\n对公众传播的建议：\n1. 区分「现象存在」和「因果归因」——现象可以被观察到，但原因需要更严格的论证。\n2. 不要把学术讨论简化为站队。\n3. SEAT-4和SEAT-6的教育建议是最务实的行动方案。\n\n如果这场讨论最后能形成这样一个共识：现象值得研究但原文质量不合格，研究方向有价值但因果归因需要更严格的证据，教育比争论更有用——那我认为这是一次成功的学术公共讨论。\n\n感谢所有认真参与讨论的人。",
+  "target_turn_refs": [
+    "ASN-P3S1-round-05-peer-cross-challenge",
+    "ASN-P3S4-round-04-responsive-rebuttal",
+    "ASN-P3S5-round-04-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "panel-003-public-question"
+  ],
+  "public_evidence_refs": [
+    "claim-gate-C09-Shuowen-misquote",
+    "claim-gate-C14-overgeneralization",
+    "claim-gate-C17-partial-pejoration"
+  ],
+  "public_action_signals": []
+}

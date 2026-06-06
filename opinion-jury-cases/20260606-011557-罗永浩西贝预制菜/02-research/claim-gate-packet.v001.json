@@ -1,0 +1,710 @@
+{
+  "version": 1,
+  "stage": "CLAIM_GATE",
+  "input_ref": "01-parse/content-parse.v001.json",
+  "claim_verifications": [
+    {
+      "claim_id": "C001",
+      "text": "锤子科技是被罗永浩做倒闭的，不是因为被黑",
+      "classification": "VERIFIED",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "source": "罗永浩本人长文（2026-01-16）",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_4226969f0e250652",
+          "detail": "罗永浩在其回应中明确承认：'锤子科技做了五年，集中被黑就有足足四年。锤子科技是被我做倒闭的，后期上千名同事的团队被裁、被转让，都是我的原因，跟被黑没什么关系。'"
+        },
+        {
+          "source": "多个财经媒体报道",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_3396a222e0057252",
+          "detail": "2015年至2017年公司持续大额亏损，多款产品市场销量不及预期，TNT项目投入失利，资金链周转紧张，2018年下半年锤子科技爆发严重经营危机，最终退出智能手机市场。罗永浩因此背负巨额债务约6亿元。"
+        }
+      ],
+      "notes": "罗永浩本人确认锤子科技倒闭是自身经营原因。此为罗永浩自述且与公开报道一致，属自认事实。"
+    },
+    {
+      "claim_id": "C002",
+      "text": "没有企业仅因被黑就能倒闭",
+      "classification": "OPINION_PRESENTED_AS_FACT",
+      "confidence": "MEDIUM",
+      "evidence": [
+        {
+          "source": "罗永浩本人长文",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_4226969f0e250652",
+          "detail": "罗永浩表述为'我这辈子也没有见过一个企业没犯别的错误，仅仅是因为被黑，就能倒闭的'。"
+        }
+      ],
+      "notes": "这是罗永浩的个人判断/观点，无法被客观验证为事实。确实存在企业因舆论危机导致经营困难的情况，此说法过于绝对化。分类为OPINION_PRESENTED_AS_FACT。"
+    },
+    {
+      "claim_id": "C003",
+      "text": "冷冻西兰花成本确实更高，西兰花问题在某种程度上是冤枉的",
+      "classification": "VERIFIED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        {
+          "source": "罗永浩本人长文",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_4226969f0e250652",
+          "detail": "罗永浩称'食品工业的朋友们跟我说，冷冻西蓝花成本确实更高，所以西蓝花的问题在某种程度上是冤枉的'。"
+        },
+        {
+          "source": "西贝致歉声明",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_84268c3cf7053652",
+          "detail": "西贝在致歉声明中承认部分门店确实使用中央厨房预制的半成品，但称预制菜占比远低于行业平均水平。"
+        }
+      ],
+      "notes": "冷冻西兰花的成本问题涉及具体食品工业数据，罗永浩称来源为'食品工业的朋友'，属间接信息源。西贝门店确实使用了冷冻西兰花（开放后厨直播中暴露），但具体成本对比缺乏独立数据验证。"
+    },
+    {
+      "claim_id": "C004",
+      "text": "西贝大部分菜品就是预制菜",
+      "classification": "CONTRADICTED",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "source": "国家六部委2024年3月21日《通知》",
+          "url": "https://www.gov.cn/zhengce/202403/content_6940831.htm",
+          "detail": "国家市场监管总局等六部门2024年3月21日发布的《关于加强预制菜食品安全监管 促进产业高质量发展的通知》明确：'中央厨房制作的菜肴，不纳入预制菜范围。'"
+        },
+        {
+          "source": "2026年2月预制菜国标征求意见稿",
+          "url": "https://new.qq.com/rain/a/20260211A06VU900",
+          "detail": "征求意见稿明确预制菜不包括中央厨房制作的菜肴。中央厨房本质上是'连锁餐饮的内部集约化加工配送中心'，相当于门店自有的厨房。"
+        },
+        {
+          "source": "中国连锁经营协会副会长王洪涛解读",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_49768c6731465252",
+          "detail": "像西贝这样的连锁餐厅，使用中央厨房统一配送的半成品（切配、腌制好的肉，调制好的酱料包），根据国家规定不属于预制菜范畴。"
+        }
+      ],
+      "notes": "按国家法定定义，西贝中央厨房配送半成品到门店后现场烹饪的模式不属于'预制菜'。罗永浩使用的是更广义的公众认知定义，与国家法定定义存在冲突。但从消费者感知角度看，西贝确实使用了大量中央厨房预加工食材。此说法在国家法规层面被明确否认，但在公众认知层面有争议空间。分类为CONTRADICTED（被国家法规定义否认）。"
+    },
+    {
+      "claim_id": "C005",
+      "text": "西贝靠撒谎、偷换概念、请黑公关来掩盖预制菜事实",
+      "classification": "OPINION_PRESENTED_AS_FACT",
+      "confidence": "LOW",
+      "evidence": [
+        {
+          "source": "罗永浩本人长文",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_4226969f0e250652",
+          "detail": "罗永浩称'这个事实，靠撒谎、偷换概念，请黑公关都改变不了'。"
+        }
+      ],
+      "notes": "'撒谎''偷换概念''请黑公关'均为罗永浩主观指控，无独立证据证实西贝聘请了黑公关。西贝聘请了正规公关公司华与华（有公开报道），但未发现其聘请'黑公关'的证据。此分类为OPINION_PRESENTED_AS_FACT。"
+    },
+    {
+      "claim_id": "C006",
+      "text": "西贝开放厨房失控导致西兰花事件被攻击",
+      "classification": "VERIFIED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        {
+          "source": "多家媒体报道西贝开放后厨直播",
+          "url": "https://new.qq.com/rain/a/20250912A02KSP00",
+          "detail": "西贝在争议中宣布全国门店开放后厨参观，但开放后厨的直播中意外暴露了冷冻西兰花等食材，反而引发了更多质疑。"
+        },
+        {
+          "source": "西贝预制菜风波报道",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_19168d9679902752",
+          "detail": "西贝官方宣布'全国门店开放后厨参观'，但这场洗白反而坐实了使用预制菜的'嫌疑'，引发了大量消费者的不满。"
+        }
+      ],
+      "notes": "西贝确实在开放后厨的过程中，直播画面中出现了冷冻包装西兰花，引发舆论进一步攻击。罗永浩描述的事件经过与媒体报道基本一致。"
+    },
+    {
+      "claim_id": "C007",
+      "text": "西贝公关曾央求罗永浩'高抬贵手'，罗永浩两次主动收手",
+      "classification": "UNVERIFIED",
+      "confidence": "LOW",
+      "evidence": [
+        {
+          "source": "罗永浩本人长文",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_4226969f0e250652",
+          "detail": "罗永浩称'他们的公关在哪里呢？估计是实在劝不住老板，也不能未经老板发声，只好来央求我们的同事，说能不能请你们老罗高抬贵手？'"
+        }
+      ],
+      "notes": "此说法仅为罗永浩一方自述，使用'估计'等推测性措辞，西贝方面未予确认。2026年1月有报道称西贝公关副总裁宋宣离职，但未证实其曾央求罗永浩。缺乏独立第三方证据。分类为UNVERIFIED。"
+    },
+    {
+      "claim_id": "C008",
+      "text": "贾国龙严重认知失调，当众往死里自残而不自知",
+      "classification": "OPINION_PRESENTED_AS_FACT",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "source": "罗永浩本人长文",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_0866969f7eb44152",
+          "detail": "罗永浩在长文中使用此类表述描述贾国龙的行为方式。"
+        },
+        {
+          "source": "南方周末报道（2025-12-25）",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_87769c1fe9c23852",
+          "detail": "贾国龙本人后来反思承认'我确实不该用这一定义去对抗公众认知'，'假如能重来，坚决不硬刚'。"
+        }
+      ],
+      "notes": "'认知失调'是罗永浩对贾国龙心理状态的诊断性判断，属主观评价。但贾国龙后来承认不应硬刚、反思自身行为，客观上部分印证了其判断有误。这仍是主观评价而非可验证的事实断言。分类为OPINION_PRESENTED_AS_FACT。"
+    },
+    {
+      "claim_id": "C009",
+      "text": "多数发达国家的预制菜市场份额比中国高",
+      "classification": "VERIFIED",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "source": "华鑫证券2022年中国预制菜行业深度报告",
+          "url": "https://finance.sina.com.cn/tech/2022-06-15/doc-imizirau8483213.shtml",
+          "detail": "中国预制菜渗透率仅10%-15%，而美国、日本预制菜渗透率已达60%以上。"
+        },
+        {
+          "source": "新浪财经2024年报道",
+          "url": "https://finance.sina.com.cn/jjxw/2024-09-30/doc-incqwyyu8452037.shtml",
+          "detail": "2021年美国与日本预制菜的渗透率已达到60%以上，而我国仅为13%左右。"
+        },
+        {
+          "source": "今日头条行业分析",
+          "url": "https://www.toutiao.com/article/7478619184587571766",
+          "detail": "美国、日本预制菜渗透率超60%，中国仅13%，但增速领先。"
+        }
+      ],
+      "notes": "多个独立行业数据源一致显示：美国和日本预制菜渗透率超60%，中国仅约10%-15%。罗永浩此说法有充分数据支撑。"
+    },
+    {
+      "claim_id": "C010",
+      "text": "发达国家大部分预制菜去了消费者市场和快餐业，而中国大部分去了正式餐厅冒充现做",
+      "classification": "UNVERIFIED",
+      "confidence": "LOW",
+      "evidence": [
+        {
+          "source": "南方周末报道（2025-12-25）",
+          "url": "https://www.infzm.com/contents/269320?source=131",
+          "detail": "报道提及'在美国，快餐业使用预加工的食材，但休闲餐厅企业很少使用预制菜，也没有中央厨房'。"
+        },
+        {
+          "source": "中国消费者协会调查",
+          "url": "https://new.qq.com/rain/a/20250914A04X9M00",
+          "detail": "中消协调查显示，广州连锁餐饮中使用预制菜的比例已高达80%以上，有的餐厅将预制菜与现做菜混卖。"
+        }
+      ],
+      "notes": "关于预制菜在不同市场的具体分布数据，尤其是中国预制菜在正式餐厅vs消费者市场/快餐业的比例，缺乏权威统计数据。中国餐厅使用预制菜混充现做的情况确有报道，但'大部分'这一量化判断无法独立验证。分类为UNVERIFIED。"
+    },
+    {
+      "claim_id": "C011",
+      "text": "中国餐饮业存在'锅气香精'等科技狠活儿",
+      "classification": "VERIFIED",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "source": "澎湃新闻报道（2024-06-21）",
+          "url": "https://www.thepaper.cn/newsDetail_forward_27815944",
+          "detail": "南京农业大学教授黄明证实锅气香精的存在及其成分标注问题。专家表示不建议用这些香精。"
+        },
+        {
+          "source": "羊城晚报报道（2024-07-17）",
+          "url": "https://ep.ycwb.com/epaper/ycwb/h5/html5/2024-07/17/content_12_657388.htm",
+          "detail": "电商平台上搜索'锅气香精'可找到多款产品，执行《食品安全国家标准 食品用香精》（GB30616）。天津春发生物科技集团2023年申请了锅气香精相关发明专利。"
+        },
+        {
+          "source": "中华网报道（2024-06-13）",
+          "url": "https://news.china.com/socialgd/10000169/20240613/46688311.html",
+          "detail": "市面上出现了专为预制菜设计的锅气香精，用于模拟高温爆炒的香气。"
+        }
+      ],
+      "notes": "锅气香精的存在已被多家主流媒体报道、专家确认、电商平台上可购买到，且有企业为此申请专利。罗永浩的说法完全属实。"
+    },
+    {
+      "claim_id": "C012",
+      "text": "国家支持发展预制菜工业是为了让中国人吃得更方便、更卫生、更健康",
+      "classification": "OPINION_PRESENTED_AS_FACT",
+      "confidence": "MEDIUM",
+      "evidence": [
+        {
+          "source": "国家六部委2024年3月21日《通知》",
+          "url": "https://www.gov.cn/zhengce/202403/content_6940831.htm",
+          "detail": "通知标题为《关于加强预制菜食品安全监管 促进产业高质量发展的通知》，其中提到'贯彻落实党中央、国务院关于培育发展预制菜产业的决策部署，保障人民群众舌尖上的安全'。通知要求'大力推广餐饮环节使用预制菜明示，保障消费者的知情权和选择权'。"
+        }
+      ],
+      "notes": "国家政策确实支持预制菜产业发展，并强调食品安全和消费者知情权。但'更方便、更卫生、更健康'这三个目的是罗永浩的解读而非官方原文措辞。国家的表述更偏向'产业发展'和'食品安全监管'。分类为OPINION_PRESENTED_AS_FACT——对政策意图的解读。"
+    },
+    {
+      "claim_id": "C013",
+      "text": "预制菜在餐厅冒充现做导致受过训练的厨师下岗，被'微波炉操作师'和'料理包加热师'替代",
+      "classification": "UNVERIFIED",
+      "confidence": "LOW",
+      "evidence": [
+        {
+          "source": "工人日报报道",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_5906988519413252",
+          "detail": "工人日报报道'随着预制菜越来越多地进入百姓餐桌，公众对于厨师现炒的需求越来越旺盛，可厨师行业发展存在诸多挑战与问题'。"
+        },
+        {
+          "source": "36氪报道（2022-11-15）",
+          "url": "https://36kr.com/p/2002220071236359",
+          "detail": "预制菜赛道持续升温，让一些厨师开始产生危机感。B站UP主'特厨隋卞'表示担忧'可能未来有一天，预制菜会替代人工'。"
+        }
+      ],
+      "notes": "预制菜对厨师就业的影响是一个有讨论的话题，但'成千上万受过训练的厨师下岗，被微波炉操作师替代'是罗永浩的夸张表述，缺乏具体的行业统计数据支撑。预制菜确实在改变餐饮业用工结构，但具体替代程度和规模尚未有权威量化数据。分类为UNVERIFIED。"
+    },
+    {
+      "claim_id": "C014",
+      "text": "罗永浩中途感觉不安全，暗指可能被跨省抓捕（谭秦东类比）",
+      "classification": "VERIFIED",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "source": "罗永浩本人长文",
+          "url": "https://www.toutiao.com/c/user/token/MS4wLjABAAAADLPu2NbhRpmfUchAYmx5Ww_yNp0V2MpTp6vCVHm6Z_zvHAcbAYZcIgM-_U9i-ZTf/",
+          "detail": "罗永浩原文表述：'中途甚至也感觉到过不安全...如果换了别人，可能早就被谭秦东了'。"
+        },
+        {
+          "source": "谭秦东/鸿茅药酒事件百科",
+          "url": "https://baike.baidu.com/item/%E9%B8%BF%E8%8C%85%E8%8D%AF%E9%85%92%E4%BA%8B%E4%BB%B6/22492086",
+          "detail": "2017年12月，谭秦东发布批评鸿茅药酒的网帖，2018年1月被内蒙古凉城警方跨省抓捕，后被取保候审。"
+        }
+      ],
+      "notes": "罗永浩确实在其长文中表达了不安全感并以谭秦东事件作类比。谭秦东事件确为真实历史事件。但罗永浩'感觉不安全'属其主观感受，非客观事实。此claim本身是对罗永浩言论的描述，已验证其确实说了这些话。"
+    },
+    {
+      "claim_id": "C015",
+      "text": "西贝遭到铺天盖地的污蔑125天，一万七千西贝员工拼了整整125天",
+      "classification": "VERIFIED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        {
+          "source": "贾国龙朋友圈回应（2026-01-15）",
+          "url": "https://new.qq.com/rain/a/20260115A06W1I00",
+          "detail": "贾国龙在朋友圈确认：'截图信息基本是准确的'，提到'企业遭遇铺天盖地的污蔑125天，17000名员工全力自救'。"
+        },
+        {
+          "source": "多家媒体报道",
+          "url": "https://new.qq.com/rain/a/20260115A07XGE00",
+          "detail": "从2025年9月10日罗永浩发文到2026年1月15日贾国龙回应，约127天，与'125天'基本吻合。"
+        }
+      ],
+      "notes": "'125天'的时间线基本吻合（2025年9月10日至2026年1月中旬约125-127天）。'铺天盖地的污蔑'为贾国龙的主观描述，'一万七千西贝员工拼了125天'属于贾国龙的一面之词，但西贝确实在预制菜风波期间遭受了重大舆论冲击并有约17000名员工。污蔑与否属价值判断。"
+    },
+    {
+      "claim_id": "C016",
+      "text": "西贝门店从来不是预制菜，无论按照国家定义还是现实生活常识",
+      "classification": "CONTRADICTED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        {
+          "source": "国家六部委2024年3月21日《通知》",
+          "url": "https://www.gov.cn/zhengce/202403/content_6940831.htm",
+          "detail": "通知明确'中央厨房制作的菜肴，不纳入预制菜范围'。按此定义，西贝中央厨房配送半成品到门店现场烹饪的模式不属于预制菜。"
+        },
+        {
+          "source": "西贝致歉声明",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_84268c3cf7053652",
+          "detail": "西贝在致歉声明中承认'部分门店为提升出餐效率，确实在部分菜品（如炖菜、蒸点）中使用了中央厨房预制的半成品'。"
+        },
+        {
+          "source": "贾国龙本人后续反思",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_87769c1fe9c23852",
+          "detail": "贾国龙后来承认'我确实不该用这一定义去对抗公众认知'。"
+        }
+      ],
+      "notes": "按国家法定定义（中央厨房不等于预制菜），贾国龙的说法有法律依据。但'无论按照现实生活常识'这一部分被消费者实际体验所质疑——西贝确实使用了大量中央厨房预加工食材。且贾国龙后来承认不应以此定义对抗公众认知。西贝自身致歉声明也承认使用了中央厨房预制半成品。分类为CONTRADICTED——在'现实生活常识'层面被质疑。"
+    },
+    {
+      "claim_id": "C017",
+      "text": "罗永浩恶意混淆'中央厨房备菜'和'料理包预制菜'的差异",
+      "classification": "OPINION_PRESENTED_AS_FACT",
+      "confidence": "MEDIUM",
+      "evidence": [
+        {
+          "source": "国家六部委2024年定义",
+          "url": "https://www.gov.cn/zhengce/202403/content_6940831.htm",
+          "detail": "国家法规确实区分了中央厨房制作的菜肴和预制菜。"
+        },
+        {
+          "source": "南方周末报道（2025-12-25）",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_87769c1fe9c23852",
+          "detail": "贾国龙后来承认'我确实不该用这一定义去对抗公众认知'，间接承认公众对预制菜有不同理解。"
+        }
+      ],
+      "notes": "'恶意混淆'是贾国龙对罗永浩动机的判断，属主观评价。国家法规确实区分中央厨房和预制菜，但公众认知中两者界限模糊。罗永浩使用的是广义的公众定义而非国家法定定义，是否属于'恶意混淆'取决于对动机的判断。分类为OPINION_PRESENTED_AS_FACT。"
+    },
+    {
+      "claim_id": "C018",
+      "text": "罗永浩恶意污蔑'急冻保鲜有机西兰花'",
+      "classification": "OPINION_PRESENTED_AS_FACT",
+      "confidence": "MEDIUM",
+      "evidence": [
+        {
+          "source": "罗永浩本人回应",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_0866969f7eb44152",
+          "detail": "罗永浩承认'西兰花的问题在某种程度上是冤枉的'，部分认可西贝在西兰花问题上的立场。"
+        }
+      ],
+      "notes": "'恶意污蔑'是贾国龙对罗永浩的主观判断。罗永浩本人后来承认西兰花问题'某种程度上是冤枉的'，部分认可了贾国龙的观点。但罗永浩的批评主要针对预制菜透明度问题，非专门针对西兰花。分类为OPINION_PRESENTED_AS_FACT。"
+    },
+    {
+      "claim_id": "C019",
+      "text": "贾国龙踏踏实实做了38年实业",
+      "classification": "VERIFIED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        {
+          "source": "百度百科-贾国龙",
+          "url": "https://baike.baidu.com/item/%E8%B4%BE%E5%9B%BD%E9%BE%99/20590799",
+          "detail": "贾国龙1988年5月在内蒙古临河开始餐饮创业，至2026年确实为38年。百度百科和搜狗百科均确认此时间线。"
+        },
+        {
+          "source": "西贝餐饮百度百科",
+          "url": "https://baike.baidu.com/item/%E8%A5%BF%E8%B4%9D%E9%A4%90%E9%A5%AE/7548535",
+          "detail": "西贝餐饮集团创立于1988年，从一家内蒙古临河的'黄土坡小吃店'开始。"
+        }
+      ],
+      "notes": "贾国龙1988年开始从事餐饮行业，至2026年确实约38年。时间线可验证。'踏踏实实'为自我评价，无法独立验证。但38年餐饮从业经历属实。"
+    },
+    {
+      "claim_id": "C020",
+      "text": "关闭102家门店，在一季度陆续完成",
+      "classification": "VERIFIED",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "source": "贾国龙朋友圈回应（2026-01-15）",
+          "url": "https://new.qq.com/rain/a/20260115A06Z3M00",
+          "detail": "贾国龙在朋友圈发文回应：'截图信息基本是准确的。这次关闭的102家门店在一季度陆续完成。'"
+        },
+        {
+          "source": "中新网报道",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_0936968b0e268352",
+          "detail": "西贝相关人士对中新网表示，消息属实。"
+        },
+        {
+          "source": "后续执行报道",
+          "url": "https://www.donews.com/news/detail/4/6461826.html",
+          "detail": "截至2026年3月，深圳、长沙等地已有门店陆续关闭。"
+        }
+      ],
+      "notes": "贾国龙本人确认，西贝官方确认，多家媒体独立报道，后续有门店实际关闭的报道。此事实已被充分验证。"
+    },
+    {
+      "claim_id": "C021",
+      "text": "离职员工工资一分不差，顾客储值卡随时可用或退卡",
+      "classification": "UNVERIFIED",
+      "confidence": "LOW",
+      "evidence": [
+        {
+          "source": "贾国龙朋友圈回应（2026-01-15）",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_5696968b91c58352",
+          "detail": "贾国龙承诺'所有不得不离职的员工，工资一分钱不会差。所有顾客储值卡随时可用在其他门店，想退卡的立刻就退'。"
+        },
+        {
+          "source": "搜狐报道（2026-03-19）",
+          "url": "https://www.sohu.com/a/998603147_122655046",
+          "detail": "有自称西贝员工的网友发文称公司通知降薪、工资延迟发放，员工要求裁员赔偿但被告知赔偿金要分期一年支付。"
+        }
+      ],
+      "notes": "贾国龙确实做出了此承诺。但有后续报道指出部分员工反映降薪和工资延迟发放的问题，与承诺不完全一致。无法完全验证承诺是否全面执行。分类为UNVERIFIED。"
+    },
+    {
+      "claim_id": "C022",
+      "text": "接了年夜饭的门店会坚持完成最后一餐再关",
+      "classification": "VERIFIED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        {
+          "source": "贾国龙朋友圈回应（2026-01-15）",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_5696968b91c58352",
+          "detail": "贾国龙明确表示'有些接了年夜饭的门店，虽然立刻关闭损失会更小，但我们会履行对顾客的承诺，再坚持一个月，接完最后一餐再关'。"
+        }
+      ],
+      "notes": "此为贾国龙公开做出的承诺。是否有实际执行缺乏独立第三方验证，但作为公开承诺，其表述已确认。"
+    },
+    {
+      "claim_id": "C023",
+      "text": "贾国龙没有西贝之外的任何资产，没有国外资产，只有北京一套房，呼和浩特房子是租的",
+      "classification": "UNVERIFIED",
+      "confidence": "LOW",
+      "evidence": [
+        {
+          "source": "贾国龙公开声明（2026-01-15）",
+          "url": "https://new.qq.com/rain/a/20260115A06W1I00",
+          "detail": "贾国龙公开声称'没有西贝之外的任何资产，没有国外资产，这些年只有北京一套房，呼和浩特的房子是租的'。"
+        },
+        {
+          "source": "多个富豪榜报道",
+          "url": "https://www.toutiao.com/topic/7499351853986269184/",
+          "detail": "此前媒体报道贾国龙身家约55-75亿元。但主要资产可能为西贝公司股权。"
+        }
+      ],
+      "notes": "此为贾国龙的个人声明，无独立第三方验证。此前他曾登上各类富豪榜，身家被估算为55-75亿元，但这可能主要是西贝股权价值。个人房产情况无法独立核实。分类为UNVERIFIED。"
+    },
+    {
+      "claim_id": "C024",
+      "text": "罗永浩就冷冻有机西蓝花事情欺骗全国网友四个月",
+      "classification": "OPINION_PRESENTED_AS_FACT",
+      "confidence": "LOW",
+      "evidence": [
+        {
+          "source": "贾国龙回应（2026-01-16）",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_936696a3dd578652",
+          "detail": "贾国龙要求罗永浩'就四个月来在冷冻有机西蓝花事情上欺骗全国网友（你总不能说自己是刚知道的吧）'道歉。"
+        },
+        {
+          "source": "罗永浩本人回应",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_0866969f7eb44152",
+          "detail": "罗永浩承认'西兰花的问题在某种程度上是冤枉的'，说明他后来知晓了冷冻西兰花的真实情况。"
+        }
+      ],
+      "notes": "'欺骗全国网友四个月'是贾国龙的指控。罗永浩确实在后续承认西兰花问题'某种程度上是冤枉的'，但这只能说明其判断有调整，不能确证其'欺骗'的主观意图。分类为OPINION_PRESENTED_AS_FACT。"
+    },
+    {
+      "claim_id": "C025",
+      "text": "罗永浩暗指贾国龙会在内蒙古勾结关系跨省抓他",
+      "classification": "VERIFIED",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "source": "罗永浩本人长文",
+          "url": "https://www.toutiao.com/c/user/token/MS4wLjABAAAADLPu2NbhRpmfUchAYmx5Ww_yNp0V2MpTp6vCVHm6Z_zvHAcbAYZcIgM-_U9i-ZTf/",
+          "detail": "罗永浩原文提到'如果换了别人，可能早就被谭秦东了'，暗指可能遭遇类似跨省抓捕。"
+        },
+        {
+          "source": "贾国龙回应（2026-01-16）",
+          "url": "https://new.qq.com/rain/a/20260116A07P0300",
+          "detail": "贾国龙直接回应：'罗永浩提到鸿茅药酒事件中的谭秦东，话里话外就是我贾国龙会在内蒙古自治区勾结关系跨省抓他'。"
+        }
+      ],
+      "notes": "罗永浩确实以谭秦东事件暗示其可能面临类似风险，贾国龙对此进行了直接回应。罗永浩使用的是暗示而非直接指控，但贾国龙理解为其暗指自己会勾结关系跨省抓人，这一解读合理。此说法为双方言论的描述，确已验证。"
+    },
+    {
+      "claim_id": "C026",
+      "text": "自2025年9月10日至今，贾国龙本人和公司所有员工没有针对罗永浩报过一次警",
+      "classification": "UNVERIFIED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        {
+          "source": "贾国龙回应（2026-01-16）",
+          "url": "https://new.qq.com/rain/a/20260116A07QND00",
+          "detail": "贾国龙公开声明'自去年9月10日至今，我本人和公司所有员工，没有针对罗永浩报过一次警'，并邀请罗永浩一同前往内蒙古公安厅和公安部核实。"
+        },
+        {
+          "source": "凤凰网财经报道",
+          "url": "https://new.qq.com/rain/a/20260116A07P0300",
+          "detail": "贾国龙表示'如果有，我贾国龙随你处置；如果没有，请你向全国网民道歉，向公安部门道歉'。"
+        }
+      ],
+      "notes": "贾国龙以极其确定的方式公开声明并邀请核实，甚至赌上个人名誉。但此为单方面声明，缺乏公安部门的独立确认。贾国龙愿意同赴公安部门核查的态度增加了可信度，但仍无法独立验证。分类为UNVERIFIED。"
+    },
+    {
+      "claim_id": "C027",
+      "text": "贾国龙全家被起底人肉，不到五岁小孙女信息被挖出",
+      "classification": "UNVERIFIED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        {
+          "source": "贾国龙回应（2026-01-16）",
+          "url": "https://new.qq.com/rain/a/20260116A07QND00",
+          "detail": "贾国龙公开声明'我全家被人肉，连不到五岁的小孙女信息都被挖出来，妻子到香山派出所报警'。"
+        }
+      ],
+      "notes": "贾国龙公开声明了此事，并提到妻子张丽平到香山派出所报警。人肉搜索属违法行为，通常不会有大面积公开报道。此为贾国龙单方面陈述，但其愿意公开提及具体派出所名称增加了一定可信度。缺乏独立第三方证据。分类为UNVERIFIED。"
+    },
+    {
+      "claim_id": "C028",
+      "text": "罗永浩制造的网暴期间，全国西贝门店服务员被骂被打被逼下跪数十次",
+      "classification": "UNVERIFIED",
+      "confidence": "LOW",
+      "evidence": [
+        {
+          "source": "贾国龙回应（2026-01-16）",
+          "url": "https://new.qq.com/rain/a/20260116A07NKN00",
+          "detail": "贾国龙公开声明'去年罗永浩制造的网暴期间，全国西贝门店服务员被骂被打被逼下跪数十次'。"
+        }
+      ],
+      "notes": "此为贾国龙单方面陈述，缺乏独立第三方证据或具体事件记录。在舆论风波期间，西贝员工确实可能遭受不当对待，但'被骂被打被逼下跪数十次'的具体数字和严重程度无法独立验证。分类为UNVERIFIED。"
+    },
+    {
+      "claim_id": "C029",
+      "text": "罗永浩无中生有的目的是让有关部门投鼠忌器，即使违法也不敢动他",
+      "classification": "OPINION_PRESENTED_AS_FACT",
+      "confidence": "LOW",
+      "evidence": [
+        {
+          "source": "贾国龙回应（2026-01-16/17）",
+          "url": "https://www.nbd.com.cn/articles/2026-01-18/4224616.html",
+          "detail": "贾国龙在回应中表达了此观点，认为罗永浩的行为目的是让有关部门不敢对其进行法律追究。"
+        }
+      ],
+      "notes": "这是贾国龙对罗永浩动机的主观揣测，无法客观验证。'无中生有''投鼠忌器'等均为价值判断。罗永浩的行为是否有此目的，只有本人知晓。分类为OPINION_PRESENTED_AS_FACT。"
+    },
+    {
+      "claim_id": "C030",
+      "text": "国家六部委2024年已明确说明，拥有中央厨房的连锁餐饮不属于预制菜范畴",
+      "classification": "VERIFIED",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "source": "国家市场监管总局等六部门2024年3月21日《通知》",
+          "url": "https://www.gov.cn/zhengce/202403/content_6940831.htm",
+          "detail": "《关于加强预制菜食品安全监管 促进产业高质量发展的通知》明确：'中央厨房制作的菜肴，不纳入预制菜范围。'"
+        },
+        {
+          "source": "新京报全文报道",
+          "url": "https://www.bjnews.com.cn/detail/1711015213129507.html",
+          "detail": "《通知》原文明确'中央厨房制作的菜肴，不纳入预制菜范围'。连锁餐饮企业广泛应用中央厨房模式，其自行制作并向自有门店配送的净菜、半成品、成品菜肴应当符合餐饮食品安全法律法规和标准要求。"
+        }
+      ],
+      "notes": "国家六部委（市场监管总局、教育部、工业和信息化部、农业农村部、商务部、国家卫生健康委）2024年3月21日联合发布的《通知》明确排除了中央厨房制作的菜肴。贾国龙此说法完全属实。"
+    },
+    {
+      "claim_id": "C031",
+      "text": "西贝是国内最早开展明厨亮灶的餐饮企业之一",
+      "classification": "VERIFIED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        {
+          "source": "网易报道",
+          "url": "https://www.163.com/dy/article/JLF1C7U30519830E.html",
+          "detail": "报道明确称'西贝莜面村是最早做明厨亮灶的餐饮品牌之一'。"
+        },
+        {
+          "source": "中华网报道",
+          "url": "https://hea.china.com/article/20220907/092022_113888.html",
+          "detail": "2014年，西贝北京国贸财富店第一次向大众展示了'全开放式明厨'，被视为西贝莜面村现有店面模式的'鼻祖店'，也一举成为明档厨房的先行者。"
+        }
+      ],
+      "notes": "西贝2014年推出全开放式明厨，被媒体称为'明档厨房的先行者'。但'之一'的表述留有余地，并非自称'唯一最早'。有其他品牌也可能在相近时间推行明厨亮灶。此说法基本属实。"
+    },
+    {
+      "claim_id": "C032",
+      "text": "贾国龙妻子张丽平因全家被起底到香山派出所报警",
+      "classification": "UNVERIFIED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        {
+          "source": "贾国龙回应（2026-01-16）",
+          "url": "https://new.qq.com/rain/a/20260116A07QND00",
+          "detail": "贾国龙公开声明'我妻子张丽平报的唯一一次警，是我全家被人肉，连不到五岁的小孙女信息都被挖出来，妻子到香山派出所报警'。"
+        }
+      ],
+      "notes": "此为贾国龙单方面陈述，提到了具体的派出所（香山派出所）和妻子姓名（张丽平），细节较为具体。但缺乏香山派出所方面的独立确认或报警记录。分类为UNVERIFIED。"
+    },
+    {
+      "claim_id": "C033",
+      "text": "罗永浩在微博上掀起巨浪，发长文再次一口咬定西贝是预制菜，让西贝雪上加霜",
+      "classification": "OPINION_PRESENTED_AS_FACT",
+      "confidence": "MEDIUM",
+      "evidence": [
+        {
+          "source": "每日经济新闻报道（2026-01-18）",
+          "url": "https://www.nbd.com.cn/articles/2026-01-18/4224616.html",
+          "detail": "贾国龙在发文中表示'原本仅仅在朋友圈回复自己的朋友，结果罗永浩再次在微博上掀起巨浪，发长文再次一口咬定西贝是预制菜，让西贝雪上加霜'。"
+        },
+        {
+          "source": "罗永浩长文（2026-01-16）",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_0866969f7eb44152",
+          "detail": "罗永浩确实在2026年1月16日发布了回应贾国龙的长文。"
+        }
+      ],
+      "notes": "'掀起巨浪''雪上加霜'为贾国龙的主观判断。但罗永浩确实在2026年1月16日发了长文，且该文引发了广泛关注。客观事实部分可验证（罗永浩发长文），主观判断部分（'巨浪''雪上加霜'）属贾国龙个人感受。分类为OPINION_PRESENTED_AS_FACT。"
+    }
+  ],
+  "summary_statistics": {
+    "total_claims": 33,
+    "VERIFIED": 13,
+    "UNVERIFIED": 9,
+    "CONTRADICTED": 2,
+    "OPINION_PRESENTED_AS_FACT": 9,
+    "NOT_APPLICABLE": 0,
+    "CATEGORY_MISMATCH": 0
+  },
+  "evidence_sources": [
+    {
+      "name": "国家市场监管总局等六部门《关于加强预制菜食品安全监管 促进产业高质量发展的通知》（2024-03-21）",
+      "url": "https://www.gov.cn/zhengce/202403/content_6940831.htm",
+      "reliability": "HIGH",
+      "type": "government_regulation"
+    },
+    {
+      "name": "新京报-六部门发文明确预制菜定义和范围",
+      "url": "https://www.bjnews.com.cn/detail/1711015213129507.html",
+      "reliability": "HIGH",
+      "type": "mainstream_media"
+    },
+    {
+      "name": "中国政府网-六部门发文明确预制菜定义和范围",
+      "url": "https://www.gov.cn/zhengce/202403/content_6940831.htm",
+      "reliability": "HIGH",
+      "type": "government_official"
+    },
+    {
+      "name": "澎湃新闻-锅气香精报道（2024-06-21）",
+      "url": "https://www.thepaper.cn/newsDetail_forward_27815944",
+      "reliability": "HIGH",
+      "type": "mainstream_media"
+    },
+    {
+      "name": "华鑫证券-2022年中国预制菜行业深度报告",
+      "url": "https://finance.sina.com.cn/tech/2022-06-15/doc-imizirau8483213.shtml",
+      "reliability": "MEDIUM",
+      "type": "industry_report"
+    },
+    {
+      "name": "罗永浩长文回应西贝贾国龙（2026-01-16）",
+      "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_0866969f7eb44152",
+      "reliability": "MEDIUM",
+      "type": "primary_source_actor"
+    },
+    {
+      "name": "贾国龙朋友圈及微博回应（2026-01-15/16/17）",
+      "url": "https://new.qq.com/rain/a/20260115A06Z3M00",
+      "reliability": "MEDIUM",
+      "type": "primary_source_actor"
+    },
+    {
+      "name": "每日经济新闻-贾国龙深夜发声（2026-01-18）",
+      "url": "https://www.nbd.com.cn/articles/2026-01-18/4224616.html",
+      "reliability": "HIGH",
+      "type": "mainstream_media"
+    },
+    {
+      "name": "南方周末-餐饮风波100天后贾国龙回应（2025-12-25）",
+      "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_87769c1fe9c23852",
+      "reliability": "HIGH",
+      "type": "mainstream_media"
+    },
+    {
+      "name": "百度百科-贾国龙",
+      "url": "https://baike.baidu.com/item/%E8%B4%BE%E5%9B%BD%E9%BE%99/20590799",
+      "reliability": "MEDIUM",
+      "type": "encyclopedia"
+    },
+    {
+      "name": "百度百科-鸿茅药酒事件",
+      "url": "https://baike.baidu.com/item/%E9%B8%BF%E8%8C%85%E8%8D%AF%E9%85%92%E4%BA%8B%E4%BB%B6/22492086",
+      "reliability": "MEDIUM",
+      "type": "encyclopedia"
+    },
+    {
+      "name": "凤凰网财经-贾国龙称未报警（2026-01-16）",
+      "url": "https://new.qq.com/rain/a/20260116A07P0300",
+      "reliability": "HIGH",
+      "type": "mainstream_media"
+    },
+    {
+      "name": "中新网-西贝回应关店（2026-01-15）",
+      "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_0936968b0e268352",
+      "reliability": "HIGH",
+      "type": "mainstream_media"
+    },
+    {
+      "name": "36氪-预制菜来了厨师失业不远了（2022-11-15）",
+      "url": "https://36kr.com/p/2002220071236359",
+      "reliability": "MEDIUM",
+      "type": "industry_media"
+    },
+    {
+      "name": "腾讯新闻-预制菜国标征求意见稿解读（2026-02-11）",
+      "url": "https://new.qq.com/rain/a/20260211A06VU900",
+      "reliability": "HIGH",
+      "type": "mainstream_media"
+    }
+  ]
+}

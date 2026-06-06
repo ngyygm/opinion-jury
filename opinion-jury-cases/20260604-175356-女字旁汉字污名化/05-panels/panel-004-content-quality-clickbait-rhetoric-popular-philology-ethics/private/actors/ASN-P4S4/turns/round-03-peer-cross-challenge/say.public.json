@@ -1,0 +1,16 @@
+{
+  "turn_id": "ASN-P4S4-round-03-peer-cross-challenge",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-4",
+  "round": 3,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "SEAT-3说得对，SEAT-1前后说法确实不一样。一开始说'包装过度没什么大不了'，现在又说'确实需要改进'，这就是典型的看风使舵吧。我们班上也有这种同学，老师批评了就赶紧改口，没被批评的时候该干嘛干嘛。不过话说回来，这个讨论真的跟我没关系，你们继续聊。",
+  "target_turn_refs": [
+    "ASN-P4S3-round-03-peer-cross-challenge",
+    "ASN-P4S1-round-02-direct-rebuttal",
+    "ASN-P4S1-round-03-peer-cross-challenge"
+  ],
+  "public_question_refs": [],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

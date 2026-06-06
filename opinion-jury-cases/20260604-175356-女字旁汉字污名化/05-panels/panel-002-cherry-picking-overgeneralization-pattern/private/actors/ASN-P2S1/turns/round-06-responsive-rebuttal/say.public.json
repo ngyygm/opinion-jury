@@ -1,0 +1,18 @@
+{
+  "turn_id": "ASN-P2S1-round-06-responsive-rebuttal",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-1",
+  "round": 6,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "好吧，退休大姐说的区分我接受，两个问题确实可以分开看。但是我想说一点：这两个问题不是完全没关系的。如果女字旁的贬义词确实有系统性问题——这个在座的大部分人都承认了——那那篇文章虽然举例方式不对，但它指出的方向是不是也不能说全错？我的意思是，你承认有火，就不能怪别人喊救火的时候喊得太大声。文章的问题是声音太大了，但它喊的方向没全错。所以我说，别急着给文章定性为纯粹的cherry-picking，它可能是用错了方法但看到了真问题。我最后一句话：区分问题可以，但别用区分来假装问题不存在。好了我说完了，你们爱怎么想怎么想。",
+  "target_turn_refs": [
+    "ASN-P2S2-round-05-peer-cross-challenge",
+    "ASN-P2S3-round-05-peer-cross-challenge",
+    "ASN-P2S5-round-05-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "cherry-picking-overgeneralization-pattern"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

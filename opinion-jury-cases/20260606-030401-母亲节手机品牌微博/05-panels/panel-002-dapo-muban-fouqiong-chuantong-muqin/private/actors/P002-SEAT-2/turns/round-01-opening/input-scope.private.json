@@ -1,0 +1,11 @@
+{
+  "scope_id": "PANEL-P002-SEAT-2-R01",
+  "allowlist": [
+    "01-parse/source-content.md",
+    "02-research/claim-gate-packet.v001.json",
+    "05-panels/panel-002-dapo-muban-fouqiong-chuantong-muqin/public-question.md",
+    "03-role-pool/private/roles/ROLE-JIANZHU-GONGREN-DASAO/role-card.json",
+    "05-panels/panel-002-dapo-muban-fouqiong-chuantong-muqin/private/actors/P002-SEAT-2/assignment.json",
+    "05-panels/panel-002-dapo-muban-fouqiong-chuantong-muqin/session/public-snapshots/transcript.before-round-01.jsonl"
+  ]
+}

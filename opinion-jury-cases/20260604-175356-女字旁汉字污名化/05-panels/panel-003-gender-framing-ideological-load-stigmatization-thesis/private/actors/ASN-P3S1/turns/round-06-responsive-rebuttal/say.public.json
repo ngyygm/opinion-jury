@@ -1,0 +1,19 @@
+{
+  "turn_id": "ASN-P3S1-round-06-responsive-rebuttal",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-1",
+  "round": 6,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "最终声明。\n\n我的核心立场始终没有变：词义贬义化是跨语言、跨文化的普遍现象，但特定语义域(性与身体相关)中的女部字贬义化确实值得关注。原文有严重的事实错误和方法论问题，但讨论方向有价值。\n\n这场讨论教会了我一件事：学术严谨和人文关怀不矛盾。感谢SEAT-4让我意识到这一点。\n\nSEAT-2，你是我遇到过的最值得尊敬的学术对手。希望未来有更多这样的讨论。\n\nSEAT-5，你的逻辑框架让讨论保持了质量。方法论上的提醒很重要。\n\nSEAT-6，你说得好——有些道理不需要博士学历。我同意。\n\n最后：如果有人在学术上想继续推进这个问题，我建议的研究题目是「《说文解字》女部258字的词义演变分类统计及其与心部、人部、手部的对比研究」。用数据说话，比用情绪说话有力得多。",
+  "target_turn_refs": [
+    "ASN-P3S2-round-05-peer-cross-challenge",
+    "ASN-P3S5-round-05-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "panel-003-public-question"
+  ],
+  "public_evidence_refs": [
+    "claim-gate-C14-overgeneralization"
+  ],
+  "public_action_signals": []
+}

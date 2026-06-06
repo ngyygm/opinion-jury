@@ -1,0 +1,77 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "又回来了... 主要是发现讨论比我想的有意思。SEAT-2居然承认了自己之前说错了，还挺有勇气的。SEAT-5说的'最大公约数'这个词我觉得挺好的。SEAT-4虽然还是太学术了但她承认了自己的论点不够准确，这个也挺好的。SEAT-1还是那么激动... SEAT-3大爷也承认了'不要脸'说重了。感觉大家都在慢慢往中间靠。说实话，如果我是品牌方，我会觉得这个讨论挺有价值的——至少知道了问题出在哪。好吧我再认真说一次，这次可能真的是最后一次了。",
+    "assignment_id": "P001-SEAT-6",
+    "round": 4,
+    "phase": "RESPONSIVE_REBUTTAL",
+    "private_goal": "作为旁观者做一次认真总结",
+    "perceived_stakes": [
+      "没什么特别的stakes"
+    ],
+    "private_belief_state": [
+      "大家都在往中间靠",
+      "SEAT-5的'最大公约数'最靠谱",
+      "品牌学到了教训就行"
+    ],
+    "epistemic_state": [
+      "对各方立场有了全面了解",
+      "开始有自己的判断了"
+    ],
+    "confidence": "MEDIUM",
+    "uncertainties": [
+      "还是不敢说自己一定对"
+    ],
+    "intended_emphasis": [
+      "讨论有价值",
+      "大家在往中间靠",
+      "SEAT-5的总结最靠谱"
+    ],
+    "intended_omissions": [
+      "不想太认真"
+    ],
+    "private_message_strategy": "做一次比较认真的旁观者总结",
+    "planned_public_claims": [
+      "讨论有价值",
+      "大家都在调整立场",
+      "品牌应该学到教训"
+    ],
+    "rhetorical_tactics": [
+      "旁观者视角",
+      "认真总结"
+    ],
+    "truth_handling_this_turn": "SELECTIVE_FRAMING",
+    "private_action_intent": [
+      "做一次认真总结"
+    ],
+    "likely_next_action": [
+      "这次真的要走了"
+    ],
+    "emotional_state": "比之前认真一些、好奇",
+    "continuity_notes": "R4: 从旁观者角度做认真总结",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "P001-SEAT-6",
+    "turn_id": "P001-SEAT-6-round-04-responsive-rebuttal",
+    "speech_origin": "SELECTIVE_FRAMING",
+    "speaker_private_belief_alignment": "PARTIALLY_ALIGNED",
+    "support_status": "MIXED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": true,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SELECTIVE_FRAMING"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "P001-SEAT-6",
+    "turn_id": "P001-SEAT-6-round-04-responsive-rebuttal",
+    "classification": "ROLE_FIDEL_SELECTIVE",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

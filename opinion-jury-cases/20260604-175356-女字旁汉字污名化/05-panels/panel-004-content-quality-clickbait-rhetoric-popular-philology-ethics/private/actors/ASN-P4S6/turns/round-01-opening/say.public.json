@@ -1,0 +1,12 @@
+{
+  "turn_id": "ASN-P4S6-round-01-opening",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-6",
+  "round": 1,
+  "phase": "OPENING",
+  "speech_text": "我站了一天收银台回来刷手机，说实话这种'你敢信吗'的文章确实容易点进去看。看完当时觉得挺有意思，原来那些字以前是好话。但你要问我里面说的对不对，我一个收银员哪知道？网上东西一半真一半假吧，我一直都是这么觉得的。不过话说回来，我女儿上初中，她要是在网上看了什么错误的知识当成真的去写作文，那老师不得扣分？所以这种事说大不大说小不小，关键是到底谁来管管这些东西准不准。",
+  "target_turn_refs": [],
+  "public_question_refs": [],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

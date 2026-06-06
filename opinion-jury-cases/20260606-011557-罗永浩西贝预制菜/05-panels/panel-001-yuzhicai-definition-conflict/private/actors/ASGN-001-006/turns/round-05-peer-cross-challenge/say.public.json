@@ -1,0 +1,18 @@
+{
+  "turn_id": "ASGN-001-006-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-001",
+  "anonymous_alias": "SEAT-6",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "SEAT-3说的利益分配问题太准了。我在超市天天看价格标签——同样的东西换个包装就能多卖五块钱，为什么？因为消费者不知道里面是一样的东西。餐厅用中央厨房降了成本不降价，跟我超市里某些产品一个道理——赚的就是信息差的钱。\n\n消费者不傻但消费者也没那么理性。你给了信息他不一定每次都看，但不给信息他一定会生气。区别在于——看了是自己的选择，没得看是被剥夺了选择权。这就是知情权的核心。\n\nSEAT-5的试点方案我觉得靠谱。一步一步来，先试试，看看消费者反应，再慢慢推广。别一上来就全国推行，那是找骂。先在几个城市试点，发现问题解决问题，这才是做事的方法。\n\nSEAT-1你别太担心了。我在超市这么多年看到的规律是——消费者一开始可能对标签有反应，但很快就习惯了。有机蔬菜标签刚出来的时候也没人说好，现在不也挺正常的吗？给消费者一点时间，他们会适应的。\n\n反正我觉得这个讨论到这儿已经很清楚了：法规定义不动，消费者认知不改，中间用一个简单标签连起来，先试点再推广。就这么简单。",
+  "target_turn_refs": [
+    "ASGN-001-003-round-05-peer-cross-challenge",
+    "ASGN-001-005-round-05-peer-cross-challenge",
+    "ASGN-001-001-round-05-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "预制菜定义之争：法规标准与消费者认知的冲突"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

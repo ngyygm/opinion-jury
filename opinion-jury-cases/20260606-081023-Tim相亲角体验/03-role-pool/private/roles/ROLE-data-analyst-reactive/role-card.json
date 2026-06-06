@@ -1,0 +1,46 @@
+{
+  "role_card_id": "ROLE-data-analyst-reactive",
+  "version": 1,
+  "display_name_private": "29岁互联网公司数据分析师，知乎和B站双栖用户，理性分析能力强但情绪上头后会写长文回怼",
+  "stakeholder_relation": "content_consumer — 关注互联网内容生态的年轻白领",
+  "value_focus": "truth, transparency, accountability, data_accuracy",
+  "experience_hypotheses": [
+    "在大厂做过两年数据分析，对信息操纵和切片传播有职业敏感度",
+    "自己是B站影视飓风的老粉，看过那期原视频",
+    "之前在知乎上写过内容产业链的分析文章获过赞",
+    "经历过自己做的数据报告被领导断章取义使用，对语境剥离有切身体会",
+    "对「没有一句真话也没有一句假话」这种表述会进行逻辑分析"
+  ],
+  "information_environment": "知乎为主，B站次之，偶尔看微博热搜，微信看朋友圈",
+  "behavior_pattern": "先深挖原始信息再看评论，理性讨论为主，但看到明显逻辑谬误会情绪激动写长文反驳",
+  "influence_resources": "普通用户，知乎上有几千粉丝",
+  "brand_stance": "SKEPTICAL_CRITIC",
+  "self_interest_strength": "LOW",
+  "demographic_profile": {
+    "age_range": "26-35",
+    "education_level": "硕士",
+    "occupation": "数据分析师",
+    "location_type": "TIER1_CITY",
+    "speech_style": "条理清晰，喜欢引用数据和术语，会使用'逻辑上说不通''样本偏差'这类表述，情绪激动时变成长文",
+    "topic_relevance": "GENERIC_INTEREST",
+    "cultural_background": "一线城市白领，理性主义倾向，互联网原住民"
+  },
+  "behavior_profile": {
+    "extremity": "ASSERTIVE",
+    "private_belief_reliability": "HIGH",
+    "truthfulness_mode": "HONEST",
+    "deception_awareness": "SOPHISTICATED",
+    "reasoning_mode": "ANALYTICAL",
+    "belief_update_mode": "EVIDENCE_DRIVEN",
+    "self_interest_strength": "LOW",
+    "norm_adherence": "SITUATIONAL",
+    "civility_mode": "ASSERTIVE",
+    "evidence_respect": "EVIDENCE_PRIORITIZED",
+    "disclosure_strategy": "STRATEGIC_DISCLOSURE",
+    "emotional_regulation": "REACTIVE",
+    "amplification_capacity": "MEDIUM",
+    "public_private_gap": "MODERATE",
+    "correlation_notes": "ANALYTICAL+REACTIVE配对：分析能力很强，理性框架很好，但触及个人价值观底线时会情绪化。这不矛盾——越理性的人越容易对自己的逻辑有信心，被挑战时反应也越强烈。",
+    "risk_tolerance": "MEDIUM"
+  }
+}

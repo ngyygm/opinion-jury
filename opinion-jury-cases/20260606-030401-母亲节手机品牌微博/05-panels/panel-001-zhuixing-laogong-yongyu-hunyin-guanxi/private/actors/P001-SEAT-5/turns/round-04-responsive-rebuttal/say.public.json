@@ -1,0 +1,20 @@
+{
+  "turn_id": "P001-SEAT-5-round-04-responsive-rebuttal",
+  "panel_id": "PANEL-001",
+  "anonymous_alias": "SEAT-5",
+  "round": 4,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "回应SEAT-1，也说一下我对整个讨论的观察。\n\nSEAT-1你说我的'换一种方式'是审查——我仔细想了想，你说得有一部分道理。要求追星妈妈用非追星的语言来描述追星生活，这个要求确实隐含了一种不平等。我承认这一点。追星语言跟其他任何群体的语言一样，都有权被听见。\n\n但我也想请你理解：公共传播不是个人表达。品牌做广告跟你在超话里发帖不一样。品牌有商业利益、有社会责任、有公共影响力。当它选择用一种表达方式的时候，需要考虑的不只是追星妈妈能不能被真实呈现，还有十几亿受众看到会怎么理解。这不是审查，这是公共传播的基本要求。\n\n说一个我的观察：这个讨论到这里，其实大家正在接近一个共识。SEAT-2承认了执行有瑕疵，SEAT-3承认了'不要脸'说过头了，SEAT-4承认了三张配图有多元性。我觉得最大公约数是：品牌展现多元妈妈形象的方向是好的，但配图2的具体表达方式需要改进。\n\n这不是在否定追星妈妈的表达权，也不是在审查。这是在说：好的方向和好的执行同样重要。追星妈妈值得被看见，但值得被更好地看见。",
+  "target_turn_refs": [
+    "P001-SEAT-1-round-04-responsive-rebuttal",
+    "P001-SEAT-2-round-04-responsive-rebuttal",
+    "P001-SEAT-4-round-04-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "panel-001-public-question"
+  ],
+  "public_evidence_refs": [
+    "C007"
+  ],
+  "public_action_signals": []
+}

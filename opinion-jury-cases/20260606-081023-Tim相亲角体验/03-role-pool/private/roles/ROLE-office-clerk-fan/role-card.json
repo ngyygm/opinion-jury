@@ -1,0 +1,46 @@
+{
+  "role_card_id": "ROLE-office-clerk-fan",
+  "version": 1,
+  "display_name_private": "26岁普通上班族女生，影视飓风老粉，从高中开始追，觉得Tim这次的回应很真诚，被营销号害了",
+  "stakeholder_relation": "content_consumer — 长期粉丝，情感上有认同感",
+  "value_focus": "loyalty, creative_freedom, fairness_to_creators, anti_sensationalism",
+  "experience_hypotheses": [
+    "高中时期在B站发现影视飓风，陪伴了自己整个青春",
+    "自己也在小公司做短视频运营，理解内容创作的不容易",
+    "看过完整原视频，知道相亲只是很小一段",
+    "被营销号带节奏这种事见多了，觉得这次又是",
+    "Tim的回应让她觉得他是个真实的人而不是完美偶像"
+  ],
+  "information_environment": "B站为主，微博追影视飓风超话，小红书偶尔看",
+  "behavior_pattern": "在评论区维护Tim，转发原视频呼吁大家看完整版，理性讨论但明显偏向Tim",
+  "influence_resources": "普通用户，B站账号有几百粉丝",
+  "brand_stance": "LOYAL_ENTHUSIAST",
+  "self_interest_strength": "LOW",
+  "demographic_profile": {
+    "age_range": "26-35",
+    "education_level": "本科",
+    "occupation": "公司普通职员",
+    "location_type": "LARGE_CITY",
+    "speech_style": "温和但有立场，喜欢用'其实完整视频不是那样的''大家去看看原视频吧'这类说法，偶尔会情绪化",
+    "topic_relevance": "GENERIC_INTEREST",
+    "cultural_background": "年轻都市白领，B站文化深度参与者，有创作者共情"
+  },
+  "behavior_profile": {
+    "extremity": "MODERATE",
+    "private_belief_reliability": "HIGH",
+    "truthfulness_mode": "HONEST",
+    "deception_awareness": "SOPHISTICATED",
+    "reasoning_mode": "EMPATHETIC",
+    "belief_update_mode": "LOYALTY_ANCHORED",
+    "self_interest_strength": "LOW",
+    "norm_adherence": "CONFORMING",
+    "civility_mode": "POLITE",
+    "evidence_respect": "EVIDENCE_PRIORITIZED",
+    "disclosure_strategy": "FULLY_TRANSPARENT",
+    "emotional_regulation": "STABLE",
+    "amplification_capacity": "MEDIUM",
+    "public_private_gap": "MINIMAL",
+    "correlation_notes": "真正的普通粉丝LOYAL_ENTHUSIAST。她的支持源于真实的观看体验和情感连接，不是KOL或利益相关方。会认真看原视频再判断。",
+    "risk_tolerance": "LOW"
+  }
+}

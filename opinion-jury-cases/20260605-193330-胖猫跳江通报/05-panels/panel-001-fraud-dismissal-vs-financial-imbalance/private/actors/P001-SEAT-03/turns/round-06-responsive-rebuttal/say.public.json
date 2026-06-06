@@ -1,0 +1,14 @@
+{
+  "turn_id": "P001-SEAT-03-round-06-responsive-rebuttal",
+  "panel_id": "PANEL-001",
+  "anonymous_alias": "SEAT-03",
+  "round": 6,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "今晚就给弟弟打电话。就说一句：你还好吗？这是我们每个人都能做到的最简单也最重要的事情。愿逝者安息，愿生者善良。",
+  "target_turn_refs": [],
+  "public_question_refs": [
+    "警方'不构成诈骗'的定性是否合理——79.9万转账与'真实恋爱关系'之间的张力"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

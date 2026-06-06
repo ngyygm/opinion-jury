@@ -1,0 +1,25 @@
+{
+  "case_id": "20260604-175356-女字旁汉字污名化",
+  "resolved_intensity": "medium",
+  "source": "user-specified",
+  "plan_numbers": {
+    "research_roles": 6,
+    "issue_court_roles": 5,
+    "total_roles": 11,
+    "debate_rounds": 2,
+    "adjudication_panel": 3
+  },
+  "rationale": "The user explicitly requested medium intensity. Even under auto-analysis, this content would resolve to medium based on the following dimensions: (1) moderate content volume (~600 Chinese characters, ~20 atomic claims); (2) multiple institutional attributions involving historical figures and classical texts (Shuowen Jiezi, Shijing, Emperor Wu of Han, Huo Qubing); (3) no statistical claims; (4) affected groups include women as a demographic group and historical entertainer communities — moderate polarization potential; (5) domain sensitivity is moderate — the topic intersects gender studies, Chinese philology, and cultural history but is not a high-risk political or safety domain; (6) 10 emotional hooks identified, indicating deliberate rhetorical framing; (7) 8 unknowns requiring verification of classical Chinese textual claims. This yields 2-3 high-complexity dimensions (institutional attributions, affected groups with gender-polarization axis, multiple unknowns requiring domain expertise), which falls squarely in the medium band.",
+  "dimensions": {
+    "content_volume_words": 600,
+    "claim_count": 20,
+    "institutional_attribution_count": 4,
+    "statistical_claims": false,
+    "affected_groups_count": 4,
+    "polarization_axes": ["gender", "cultural-tradition-vs-modern-interpretation"],
+    "domain_sensitivity": "moderate",
+    "emotional_hooks_count": 10,
+    "unknowns_count": 8
+  },
+  "created_at": "2026-06-04T17:53:56.419138"
+}

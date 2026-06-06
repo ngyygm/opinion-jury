@@ -1,0 +1,14 @@
+{
+  "turn_id": "ASN-P2S6-round-01-opening",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-6",
+  "round": 1,
+  "phase": "OPENING",
+  "speech_text": "我说你们这些人在吵些啥子哦？我活了快七十年了，我们村里那些女人的名字，娟啊、娣啊、娥啊，哪个是骂人了？那都是好名字！我儿媳妇叫秀娟，多好听的名字，谁敢说是骂人的？还有那个好字，一个女一个子，那不是好吗？安字，屋里头有个女的，那不是安泰吗？这些不都是女字旁的好字？那些人说女字旁的字都被搞坏了，那不是胡说八道嘛。我看啊，是他们自己心里歪，看啥都觉得歪。我们老辈人虽然不识几个字，但是道理还是懂的，啥好的坏的我们分得清。那些写文章的人就是挑着几个不好的出来说事，好的字一个不提。净扯淡！",
+  "target_turn_refs": [],
+  "public_question_refs": [
+    "cherry-picking-overgeneralization-pattern"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

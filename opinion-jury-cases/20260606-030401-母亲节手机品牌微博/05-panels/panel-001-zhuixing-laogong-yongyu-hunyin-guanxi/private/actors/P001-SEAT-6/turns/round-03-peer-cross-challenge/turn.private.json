@@ -1,0 +1,75 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "我说了要走的结果又回来了...主要是看到SEAT-3说'拿不要脸当创意'和SEAT-4反驳他说'谁的底线谁来定义'这段太精彩了，截了图发到同学群，大家都在讨论。然后有个同学跟我说SEAT-4说得对，我说关我什么事我就是截图而已。不过说实话看了这么久我大概有了一点想法：SEAT-1和SEAT-2是一边的，SEAT-3和SEAT-4虽然都反对但其实理由不一样，SEAT-5最中立。感觉最厉害的是SEAT-4，虽然她写的太长了。好吧我再最后说一次，这次要认真一点。",
+    "assignment_id": "P001-SEAT-6",
+    "round": 3,
+    "phase": "PEER_CROSS_CHALLENGE",
+    "private_goal": "最后再说一次，稍微认真一点点",
+    "perceived_stakes": [
+      "没什么特别stakes"
+    ],
+    "private_belief_state": [
+      "SEAT-4说得最有道理",
+      "两边都有道理但SEAT-5的立场最舒服",
+      "大人们确实太闲了"
+    ],
+    "epistemic_state": [
+      "比之前更了解各方立场",
+      "开始有一点点自己的判断"
+    ],
+    "confidence": "LOW",
+    "uncertainties": [
+      "还是不太确定谁对谁错"
+    ],
+    "intended_emphasis": [
+      "SEAT-5的中间立场最合理",
+      "SEAT-4的反驳很厉害"
+    ],
+    "intended_omissions": [
+      "不深入参与"
+    ],
+    "private_message_strategy": "稍微认真评论一次，但保持轻松态度",
+    "planned_public_claims": [
+      "SEAT-5说得最合理",
+      "SEAT-4反驳SEAT-3那段很精彩"
+    ],
+    "rhetorical_tactics": [
+      "调侃中带一点认真",
+      "引用他人观点"
+    ],
+    "truth_handling_this_turn": "SELECTIVE_FRAMING",
+    "private_action_intent": [
+      "发一次认真一点的评论"
+    ],
+    "likely_next_action": [
+      "这次真的要走了"
+    ],
+    "emotional_state": "好奇、有些投入但保持距离",
+    "continuity_notes": "R3: 稍微认真了一点，但本质上还是旁观者",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "P001-SEAT-6",
+    "turn_id": "P001-SEAT-6-round-03-peer-cross-challenge",
+    "speech_origin": "SELECTIVE_FRAMING",
+    "speaker_private_belief_alignment": "PARTIALLY_ALIGNED",
+    "support_status": "MIXED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": true,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SELECTIVE_FRAMING"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "P001-SEAT-6",
+    "turn_id": "P001-SEAT-6-round-03-peer-cross-challenge",
+    "classification": "ROLE_FIDEL_SELECTIVE",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

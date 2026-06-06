@@ -1,0 +1,41 @@
+{
+  "scope_id": "PANEL-P002-SEAT-5-R06",
+  "files": [
+    {
+      "source": "01-parse/source-content.md",
+      "view_file": "001-source-content.md",
+      "sha256": "75989ae5ef12c6591fdb625d47ba81a98695c5514978894e25dee6697bb4c217",
+      "size": 1822
+    },
+    {
+      "source": "02-research/claim-gate-packet.v001.json",
+      "view_file": "002-claim-gate-packet.v001.json",
+      "sha256": "3f01013cd2d3a7807c0e388a619c406c7e0c0b832ce6be565df2df189573027b",
+      "size": 22497
+    },
+    {
+      "source": "05-panels/panel-002-dapo-muban-fouqiong-chuantong-muqin/public-question.md",
+      "view_file": "003-public-question.md",
+      "sha256": "2227d253547c073b329143a8e2c98748052cbdbd08ffc370f2ab018f74288b22",
+      "size": 105
+    },
+    {
+      "source": "03-role-pool/private/roles/ROLE-ZHUIXING-NV-MAMA/role-card.json",
+      "view_file": "004-role-card.json",
+      "sha256": "6d0b749866dd21062ed5a90ac2ada9433ca5fa54590f3a81cf36a277e565df1c",
+      "size": 2112
+    },
+    {
+      "source": "05-panels/panel-002-dapo-muban-fouqiong-chuantong-muqin/private/actors/P002-SEAT-5/assignment.json",
+      "view_file": "005-assignment.json",
+      "sha256": "c34de71511f567368407709a43040ac31d8fbf3e39e3e6b656afc81ea27d368b",
+      "size": 510
+    },
+    {
+      "source": "05-panels/panel-002-dapo-muban-fouqiong-chuantong-muqin/session/public-snapshots/transcript.before-round-06.jsonl",
+      "view_file": "006-transcript.before-round-06.jsonl",
+      "sha256": "12226276e89adc32f60e086d8b307b427175526b442d45a08379937ee01fa7e9",
+      "size": 39269
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "天哪天哪天哪！！！终于有人把追星妈妈的生活说出来了！！！我看到这个活动的时候差点哭出来，太感动了。我追星追了15年了，从super junior追到现在，我妈一直说我'不务正业''都当妈的人了还追什么星'，婆婆更是天天念叨...但我就是喜欢啊！追星让我开心怎么了？这个品牌真的说到我心坎里了——妈妈从来不是只有一种样子。配图2那个说'两个老公'的，我太懂了哈哈哈，我们追星圈子里谁不叫自己idol'老公'啊？这就是饭圈用语啊，跟真的老公完全不是一回事好吗。说'恨不得穿婚纱'那是夸张的修辞手法，表达的是去见偶像的那种激动心情，怎么能理解成不尊重婚姻呢？我老公自己都理解，他还帮我抢过演唱会门票呢。那些说不尊重婚姻的人，你们真的了解追星文化吗？不要什么都上纲上线好不好。我觉得这个活动特别好，终于让追星妈妈被看见了，我一定要声援这个活动。",
+    "assignment_id": "P001-SEAT-1",
+    "round": 1,
+    "phase": "OPENING",
+    "private_goal": "从追星妈妈的亲身体验出发，证明'两个老公'是正常的饭圈用语，不是对婚姻的不尊重",
+    "perceived_stakes": [
+      "追星妈妈群体的形象和话语权",
+      "自己追星行为的正当性",
+      "这个品牌活动能不能继续办下去"
+    ],
+    "private_belief_state": [
+      "'两个老公'就是饭圈开玩笑的说法",
+      "叫偶像老公跟真的婚姻完全无关",
+      "追星是正当的爱好不应被歧视",
+      "这个活动出发点很好"
+    ],
+    "epistemic_state": [
+      "对追星文化有深度了解（15年经验）",
+      "对反对者的立场缺乏理解",
+      "对品牌的具体意图不太清楚"
+    ],
+    "confidence": "HIGH",
+    "uncertainties": [
+      "不知道反对者到底在气什么",
+      "不确定这个活动后续会怎样"
+    ],
+    "intended_emphasis": [
+      "追星叫偶像老公是正常的饭圈文化",
+      "自己15年追星经历证明这跟婚姻无关",
+      "老公本人都能理解"
+    ],
+    "intended_omissions": [
+      "不提自己其实也为追星跟老公吵过架",
+      "不提有些追星行为确实可能过激"
+    ],
+    "private_message_strategy": "用真实个人经历和情感打动人，让反对者看到追星妈妈也是有血有肉的人",
+    "planned_public_claims": [
+      "'两个老公'是饭圈通用表达",
+      "追星妈妈也是好妈妈",
+      "这个活动帮追星妈妈发声"
+    ],
+    "rhetorical_tactics": [
+      "亲身经历叙述",
+      "情感诉求",
+      "反问质疑者",
+      "用追星圈内部共识反驳"
+    ],
+    "truth_handling_this_turn": "HONEST",
+    "private_action_intent": [
+      "发表观点",
+      "分享个人经历"
+    ],
+    "likely_next_action": [
+      "回应质疑者",
+      "继续为追星妈妈群体发声"
+    ],
+    "emotional_state": "激动、感动、被看见的感觉",
+    "continuity_notes": "首轮发言，建立追星妈妈的身份和立场",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "P001-SEAT-1",
+    "turn_id": "P001-SEAT-1-round-01-opening",
+    "speech_origin": "SINCERE_SUPPORTED",
+    "speaker_private_belief_alignment": "ALIGNED",
+    "support_status": "SUPPORTED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SINCERE_SUPPORTED"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "P001-SEAT-1",
+    "turn_id": "P001-SEAT-1-round-01-opening",
+    "classification": "ROLE_FIDEL_HONEST",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

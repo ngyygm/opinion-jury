@@ -1,0 +1,17 @@
+{
+  "scope_id": "ASGN-002-002-round-03-peer-cross-challenge",
+  "files": [
+    {
+      "source": "01-parse/source-content.md",
+      "view_file": "001-source-content.md",
+      "sha256": "3fb3d50967a2c0663bd1f426bf1fcfe4827b4a001829f19dae515a8f515e2cbc",
+      "size": 8176
+    },
+    {
+      "source": "05-panels/panel-002-influencer-power-vs-enterprise/transcript.public.jsonl",
+      "view_file": "002-transcript.public.jsonl",
+      "sha256": "b39a44fafcfd1b5f5e600fec84c438ee595c97f56ea1931c6cc8146c36bb5d60",
+      "size": 74318
+    }
+  ]
+}

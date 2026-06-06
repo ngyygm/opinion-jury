@@ -1,0 +1,18 @@
+{
+  "turn_id": "ASN-P1S6-round-04-responsive-rebuttal",
+  "panel_id": "PANEL-001",
+  "anonymous_alias": "SEAT-6",
+  "round": 4,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "听了这么多，我大概懂了一个道理。SEAT-1说查一个字只需要十分钟，这个说得对。就像工地上，干活之前检查一下，这不是什么过分的要求。你不检查就上梁，出了事谁负责？写东西也一样，写之前查一查，这个不难做到。SEAT-3说的问题大问题小要分清楚，我也同意。SEAT-5最后说希望有人写一篇对的文章，我觉得这个想法好。总之就是：说话要说真的，写东西要查清楚。这个道理不管在哪里都一样，不管你是读书人还是干活的。",
+  "target_turn_refs": [
+    "ASN-P1S1-round-03-peer-cross-challenge",
+    "ASN-P1S3-round-03-peer-cross-challenge",
+    "ASN-P1S5-round-03-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "Etymological Accuracy vs. Popular Narrative: Does the Article Mislead Through Selective and Incorrect Citations?"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

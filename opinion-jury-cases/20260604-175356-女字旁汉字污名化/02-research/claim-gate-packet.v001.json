@@ -1,0 +1,430 @@
+{
+  "version": 1,
+  "stage": "CLAIM_GATE",
+  "source_ref": "01-parse/content-parse.v001.json",
+  "timestamp": "2026-06-04T18:05:00Z",
+  "verification_notes": "All externally checkable factual and definitional claims were independently verified via authoritative Chinese philological and historical sources. Opinion claims are classified as NOT_APPLICABLE or OPINION_PRESENTED_AS_FACT where appropriate. No actor speech was admitted without independent verification.",
+  "claim_verifications": [
+    {
+      "claim_id": "C01",
+      "text": "\"嫖\"最初读一声（piāo），意为\"灵动洒脱、勇健轻捷\"",
+      "classification": "VERIFIED",
+      "evidence": [
+        {
+          "source": "《说文解字·女部》",
+          "detail": "嫖，轻也。从女，票声。",
+          "url": "https://zdic.net/hans/%E5%AB%96"
+        },
+        {
+          "source": "段玉裁《说文解字注》",
+          "detail": "汉霍去病票姚校尉，票姚读如飘摇，谓轻疾也。",
+          "url": "https://zdic.net/hans/%E5%AB%96"
+        },
+        {
+          "source": "百度百科 - 嫖",
+          "detail": "嫖（拼音：piāo、piáo）是汉语二级通用规范汉字。此字始见于小篆，形声，从女，票声，左右结构，其本义为轻捷、劲疾。",
+          "url": "https://baike.baidu.com/item/%E5%AB%96/8304262"
+        }
+      ],
+      "notes": "The core claim is verified: 嫖 originally meant 'light, swift, brisk' and was read piāo. The article's phrasing '灵动洒脱' is a slight embellishment of the more precise philological meaning '轻捷、劲疾' (brisk and vigorous), but not inaccurate."
+    },
+    {
+      "claim_id": "C02",
+      "text": "汉武帝时期名将霍去病曾被封为\"嫖姚校尉\"，取\"勇健轻捷\"之意",
+      "classification": "VERIFIED",
+      "evidence": [
+        {
+          "source": "《史记·卫将军骠骑列传》",
+          "detail": "剽姚校尉去病斩首虏二千二十八级",
+          "url": "https://zh.wikipedia.org/zh-cn/%E9%9C%8D%E5%8E%BB%E7%97%85"
+        },
+        {
+          "source": "《汉书·卫青霍去病传》",
+          "detail": "武帝以霍去病为嫖姚校尉，征匈奴，累有功，宠冠群臣。",
+          "url": "https://www.shidianguji.com/zh/mid-page/7426481583915319306"
+        },
+        {
+          "source": "百度百科 - 票姚校尉",
+          "detail": "票姚校尉是西汉汉武帝时期设立的军事官职，始置于元朔六年（公元前123年），首任者为霍去病。均取'劲疾'之意。",
+          "url": "https://baike.baidu.com/item/%E7%A5%A8%E5%A7%9A%E6%A0%A1%E5%B0%89/7207777"
+        }
+      ],
+      "notes": "Fully verified. Note that different historical texts use variant writings: 嫖姚/票姚/剽姚/票鹞, all with the same meaning of 'brisk and swift'. The title was specifically created for Huo Qubing in 123 BCE."
+    },
+    {
+      "claim_id": "C03",
+      "text": "汉文帝的女儿馆陶公主名叫\"刘嫖\"，名字里的\"嫖\"是美好寓意",
+      "classification": "VERIFIED",
+      "evidence": [
+        {
+          "source": "维基百科 - 刘嫖",
+          "detail": "馆陶公主刘嫖（早于前188年—前116年?），汉文帝和窦皇后之女，汉景帝的同胞姐姐。",
+          "url": "https://zh.wikipedia.org/zh-cn/%E5%88%98%E5%AB%96"
+        },
+        {
+          "source": "历史文献共识",
+          "detail": "嫖读一声piāo，在古语中意为'勇健轻捷'，是褒义词，作为名字具有美好寓意。",
+          "url": "https://zh.wikipedia.org/zh-cn/%E5%88%98%E5%AB%96"
+        }
+      ],
+      "notes": "The historical person Liu Piao is verified. That the character 嫖 in her name carried a positive meaning is consistent with Han dynasty naming conventions and the philological evidence for C01."
+    },
+    {
+      "claim_id": "C04",
+      "text": "\"妓、娼\"最初写作\"伎、倡\"，指唱歌跳舞的艺人",
+      "classification": "VERIFIED",
+      "evidence": [
+        {
+          "source": "《说文解字》",
+          "detail": "妓，妇人小物也。从女，支声。《广韵》：妓，女乐也。",
+          "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=9758&la=0"
+        },
+        {
+          "source": "教育部《异体字字典》+ 多源考证",
+          "detail": "伎本义为技艺、技巧，与技互通。倡本义为唱歌的人，是'唱'的行为人。妓自伎出，娼自倡出，最初均指才艺表演者。",
+          "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=9758&la=0"
+        },
+        {
+          "source": "维基百科 - 中国娼妓史",
+          "detail": "伎通妓，最早无男女之分，'倡伎'、'伎人'即指提供才艺表演的艺人。",
+          "url": "https://zh.wikipedia.org/zh-cn/%E4%B8%AD%E5%9C%8B%E5%A8%BC%E5%A6%93%E5%8F%B2"
+        }
+      ],
+      "notes": "The core etymological claim is verified: 妓/娼 are derived from 伎/倡, which originally referred to entertainers (singers, dancers, skilled performers) without sexual connotations."
+    },
+    {
+      "claim_id": "C05",
+      "text": "\"伎、倡\"是朝廷官方认可的职业，入职难度堪比现代文工团",
+      "classification": "PARTIALLY_VERIFIED",
+      "evidence": [
+        {
+          "source": "维基百科 - 中国娼妓史",
+          "detail": "中国历史中最早关于娼妓记载是春秋时代管仲建立的官妓制度，汉武帝时加以制度化。",
+          "url": "https://zh.wikipedia.org/zh-cn/%E4%B8%AD%E5%9C%8B%E5%A8%BC%E5%A6%93%E5%8F%B2"
+        },
+        {
+          "source": "人民日报 - 揭秘中国古代扫黄",
+          "detail": "唐政府确立了官妓制度，从法律上给性工作者一个地位。唐政府设立专门的管理机构'教坊'。",
+          "url": "http://paper.people.com.cn/rmwz/html/2014-08/01/content_1504132.htm"
+        },
+        {
+          "source": "维基百科 - 官妓",
+          "detail": "北魏时设立乐籍制度，歌妓与娼妓都被划分贱民，一般世代相袭，很难脱籍。",
+          "url": "https://zh.wikipedia.org/zh-cn/%E5%AE%98%E5%A6%93"
+        }
+      ],
+      "notes": "PARTIALLY VERIFIED: It is true that 伎/倡 were court-recognized professions with institutional structures (e.g., 教坊, 乐籍). However, the comparison '入职难度堪比现代文工团' is an exaggeration. Historical evidence shows that many entertainers were from enslaved or low-caste backgrounds (乐籍贱民), prisoners' families, or were sold into service. The selection process was not equivalent to modern merit-based audition systems. The comparison is misleadingly flattering."
+    },
+    {
+      "claim_id": "C06",
+      "text": "为区分男女艺人，才将\"伎、倡\"换成女字旁的\"妓、娼\"",
+      "classification": "UNVERIFIED",
+      "evidence": [
+        {
+          "source": "多源考证",
+          "detail": "妓自伎出，娼自倡出，这是汉字分化造字的现象。但具体的分化动机（是否专门为了区分男女艺人）缺乏明确的历史文献支持。",
+          "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=9758&la=0"
+        }
+      ],
+      "notes": "UNVERIFIED: While it is established that 妓/娼 are later differentiated forms of 伎/倡 with the female radical added, the specific claim that this was done 'to distinguish male and female entertainers' is a plausible but unproven hypothesis. Character differentiation in Chinese often occurred for multiple reasons (semantic specialization, phonetic divergence, etc.). No primary source was found that explicitly states this motivation. The claim presents a theory as fact."
+    },
+    {
+      "claim_id": "C07",
+      "text": "古代诗词中常出现的\"歌妓\"实则是对有才艺女性的称呼",
+      "classification": "VERIFIED",
+      "evidence": [
+        {
+          "source": "百度百科 - 歌妓",
+          "detail": "古代'妓'字原指技艺，属艺术从业者，与现代意义上的性工作者有本质区别。",
+          "url": "https://baike.baidu.com/item/%E6%AD%8C%E5%A6%93/8553708"
+        },
+        {
+          "source": "维基百科 - 歌女",
+          "detail": "歌妓对中国古代的古典音乐、舞蹈、歌词、绘画和戏曲都做出了很大贡献。一些歌妓本身就是诗人，唐诗和宋词也由歌妓演唱。",
+          "url": "https://zh.wikipedia.org/zh-cn/%E6%AD%8C%E5%A5%B3"
+        },
+        {
+          "source": "韩愈《顺宗实录》",
+          "detail": "出后宫并教坊女妓六百人——此处'妓'仍指歌舞艺人。",
+          "url": "https://zh.wikipedia.org/zh-cn/%E6%AD%8C%E5%A5%B3"
+        }
+      ],
+      "notes": "Verified. In Tang and earlier dynasty poetry, 歌妓 overwhelmingly referred to skilled female performers (singers, dancers, musicians), not prostitutes. The conflation with sex work is a later semantic shift."
+    },
+    {
+      "claim_id": "C08",
+      "text": "\"妖\"最初形容女子美好、容貌艳丽，并非指\"妖艳、妖精\"",
+      "classification": "VERIFIED",
+      "evidence": [
+        {
+          "source": "《说文解字·女部》",
+          "detail": "𡝩，巧也。一曰女子笑貌。",
+          "url": "https://ctext.org/shuo-wen-jie-zi/nv-bu/zh"
+        },
+        {
+          "source": "曹植《美女篇》",
+          "detail": "美女妖且闲，采桑歧路间。——此处'妖'取美好艳丽之义。",
+          "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=9741"
+        },
+        {
+          "source": "教育部《异体字字典》",
+          "detail": "妖，嫵媚、豔麗。三國魏．曹植〈美女篇〉：美女妖且閑。",
+          "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=9741"
+        },
+        {
+          "source": "汉语多功能字库（香港中文大学）",
+          "detail": "从女，芺声，本义为艳丽、妩媚。",
+          "url": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=%E5%A6%96"
+        }
+      ],
+      "notes": "Verified. The original meaning of 妖 was indeed 'beautiful, alluring, charming' (巧也/艳丽/妩媚). The pejorative senses (monster, demon, uncanny) are later developments."
+    },
+    {
+      "claim_id": "C09",
+      "text": "《说文解字》中解释\"妖，妍也\"，即美丽的意思",
+      "classification": "CONTRADICTED",
+      "evidence": [
+        {
+          "source": "《说文解字·女部》原文（ctext.org）",
+          "detail": "𡝩，巧也。一曰女子笑貌。《诗》曰：桃之𡝩𡝩。从女芺声。",
+          "url": "https://ctext.org/shuo-wen-jie-zi/nv-bu/zh"
+        },
+        {
+          "source": "教育部《异体字字典》",
+          "detail": "《说文解字·女部》篆作𡝩，云：巧也，一曰女子笑貌，詩曰：桃之𡝩。從女芺聲。於喬切。",
+          "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=-9741"
+        },
+        {
+          "source": "《说文解字·女部》关于妍的原文",
+          "detail": "妍，技也。一曰惠也。——'妍'是另一个独立的字头，并非对'妖'的释义。",
+          "url": "http://ccamc.org/cjkv.php?cjkv=%E5%A6%8D"
+        }
+      ],
+      "notes": "CONTRADICTED: The Shuowen Jiezi does NOT say '妖，妍也'. The actual text says '𡝩，巧也' (meaning: clever, skillful). The character 妍 is a completely separate entry in the Shuowen, defined as '妍，技也'. The article misquotes the Shuowen. While '巧' and '妍' are semantically related (both involve skill/beauty), the specific citation '妖，妍也' is incorrect. This is a factual error in attribution."
+    },
+    {
+      "claim_id": "C10",
+      "text": "\"媚\"的原意是\"婀娜多姿、惹人喜爱\"",
+      "classification": "PARTIALLY_VERIFIED",
+      "evidence": [
+        {
+          "source": "《说文解字·女部》",
+          "detail": "媚，说也。（'说'即'悦'，取悦之意）",
+          "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=10129"
+        },
+        {
+          "source": "百度百科 - 媚",
+          "detail": "媚本义为'爱；喜爱'，后引申为'美好、可爱'和'逢迎取悦'。",
+          "url": "https://baike.baidu.com/item/%E5%AA%9A/81536"
+        },
+        {
+          "source": "教育部《异体字字典》",
+          "detail": "1. 奉承、取悅。2. 愛。3. 嬌豔、美好、可愛。",
+          "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=10129"
+        }
+      ],
+      "notes": "PARTIALLY VERIFIED: The Shuowen defines 媚 as '说也' (to please/to delight), which is closer to 'to charm, to please' rather than specifically '婀娜多姿' (graceful figure). The article's definition '婀娜多姿、惹人喜爱' is a reasonable but slightly embellished interpretation. The core sense of 'pleasing/attractive' is correct, but '婀娜多姿' (graceful and lithe) is a narrower, more specific image than the textual evidence supports. The most precise original meaning is 'to love/cherish' or 'to please/delight'."
+    },
+    {
+      "claim_id": "C11",
+      "text": "《诗经》中\"媚兹一人\"表达对人的喜爱",
+      "classification": "VERIFIED",
+      "evidence": [
+        {
+          "source": "《诗经·大雅·下武》",
+          "detail": "媚兹一人，应侯顺德。",
+          "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=10129"
+        },
+        {
+          "source": "教育部《异体字字典》",
+          "detail": "愛。《詩經·大雅·下武》：媚茲一人，應侯順德。此处'媚'取'爱、喜爱'之义。",
+          "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=10129"
+        },
+        {
+          "source": "中国哲学书电子化计划",
+          "detail": "又爱也，亲顺也。",
+          "url": "https://ctext.org/dictionary.pl?if=gb&char=%E5%AA%9A&remap=gb"
+        }
+      ],
+      "notes": "Verified. The verse is correctly cited from 诗经·大雅·下武, and '媚' in this context indeed means 'to love, to cherish', referring to devotion to the king."
+    },
+    {
+      "claim_id": "C12",
+      "text": "\"媛\"最初指女子友善美好、才华出众",
+      "classification": "PARTIALLY_VERIFIED",
+      "evidence": [
+        {
+          "source": "《说文解字·女部》",
+          "detail": "媛，美女也。人所欲援也。从女从爰。",
+          "url": "https://baike.baidu.com/item/%E5%AA%9B/6293322"
+        },
+        {
+          "source": "《尔雅·释训》",
+          "detail": "美女为媛。",
+          "url": "https://baike.baidu.com/item/%E5%AA%9B/6293322"
+        },
+        {
+          "source": "《诗经·鄘风·君子偕老》",
+          "detail": "邦之媛兮。",
+          "url": "https://baike.baidu.com/item/%E5%AA%9B/6293322"
+        }
+      ],
+      "notes": "PARTIALLY VERIFIED: The Shuowen defines 媛 as '美女也' (beautiful woman), and the Erya confirms '美女为媛'. The article's claim of '友善美好' (friendly and beautiful) and '才华出众' (outstandingly talented) adds elements not in the original definition. The core meaning is simply 'beautiful woman'. '友善' (friendly) is not attested in classical definitions, and '才华出众' (talent) is a later cultural association rather than the original semantic content."
+    },
+    {
+      "claim_id": "C13",
+      "text": "\"名媛\"本是对有身份、有才华女性的尊称",
+      "classification": "VERIFIED",
+      "evidence": [
+        {
+          "source": "词源学共识",
+          "detail": "媛本义为美女，'名媛'即有名的美女/贵妇，后引申为对有身份、有才华女性的尊称。此用法在近现代中文中广泛使用。",
+          "url": "https://baike.baidu.com/item/%E5%AA%9B/6293322"
+        }
+      ],
+      "notes": "Verified. The term 名媛 traditionally refers to women of distinguished social standing, beauty, and/or talent. This usage is well-established in Chinese."
+    },
+    {
+      "claim_id": "C14",
+      "text": "这些女字旁汉字最初都是\"满满的赞美之意\"",
+      "classification": "OPINION_PRESENTED_AS_FACT",
+      "evidence": [],
+      "notes": "OPINION_PRESENTED_AS_FACT: This is a sweeping generalization. While the individual etymological analyses show positive original meanings for several of these characters, characterizing ALL female-radical characters as originally 'full of praise' is an overgeneralization. Many female-radical characters (e.g., 妒/jealousy, 妨/hindrance, 婪/greedy, 奸/treason) have had negative connotations from early in their attested history. The claim cherry-picks supportive examples."
+    },
+    {
+      "claim_id": "C15",
+      "text": "这些字含义的演变反映了不同时代的文化观念变化",
+      "classification": "NOT_APPLICABLE",
+      "evidence": [],
+      "notes": "NOT_APPLICABLE: This is a general interpretive statement about semantic drift reflecting cultural change. While broadly reasonable as a linguistic principle, it is not an independently verifiable factual claim. It is an interpretive framework, not a proposition subject to truth-value verification."
+    },
+    {
+      "claim_id": "C16",
+      "text": "为何偏偏是这些原本赞美女性的字被\"污名化\"——背后隐藏着更深层的社会文化心理",
+      "classification": "NOT_APPLICABLE",
+      "evidence": [],
+      "notes": "NOT_APPLICABLE: This is a rhetorical question / interpretive hypothesis, not a factual claim. The framing '背后隐藏着' (hidden behind) implies a concealed truth, which is a narrative device rather than a verifiable proposition."
+    },
+    {
+      "claim_id": "C17",
+      "text": "这些字千百年间\"从褒义沦为贬义\"是确定的历史事实",
+      "classification": "PARTIALLY_VERIFIED",
+      "evidence": [
+        {
+          "source": "综合考证",
+          "detail": "嫖：从'轻捷劲疾'（褒义）→ '狎妓'（贬义），转变发生在明清时期。妓：从'歌舞艺人'（中性/褒义）→ '卖淫女性'（贬义）。娼：从'女艺人' → '卖淫女性'。妖：从'美好艳丽' → '怪异不正'。",
+          "url": ""
+        }
+      ],
+      "notes": "PARTIALLY VERIFIED: The semantic degradation (pejoration) of these specific characters IS well-documented for 嫖, 妓, 娼, and to some extent 妖. However, the framing as '确定的历史事实' (established historical fact) for ALL the characters discussed oversimplifies complex philological histories. Some characters like 媚 and 媛 retain both positive and negative uses simultaneously in modern Chinese. The claim of uniform '从褒义沦为贬义' is too strong -- it is more accurate for some characters than others."
+    },
+    {
+      "claim_id": "C18",
+      "text": "\"嫖\"字如今成了低俗词汇",
+      "classification": "VERIFIED",
+      "evidence": [
+        {
+          "source": "百度百科 - 嫖",
+          "detail": "读作piáo时又同'闝'，俗指男子玩弄妓女。嫖娼在中国大陆为违法行为。",
+          "url": "https://baike.baidu.com/item/%E5%AB%96/8304262"
+        }
+      ],
+      "notes": "Verified. In modern Chinese, the dominant meaning of 嫖 (when read piáo) is 'to solicit prostitutes', which is widely regarded as vulgar/low-register language."
+    },
+    {
+      "claim_id": "C19",
+      "text": "\"妓、娼\"换用女字旁\"本质上并无贬义\"",
+      "classification": "PARTIALLY_VERIFIED",
+      "evidence": [
+        {
+          "source": "中国新闻网 - 评'给汉字挑毛病'",
+          "detail": "'妓'的本义是歌舞女艺人，后引申为卖淫的女子，但这个字本身没有贬低女性的意思。",
+          "url": "https://www.chinanews.com.cn/cul/news/2010/06-14/2344647.shtml"
+        }
+      ],
+      "notes": "PARTIALLY VERIFIED: It is true that the ORIGINAL meanings of 妓/娼 (as female entertainers) were not inherently derogatory -- they were descriptive terms for a profession. However, the claim '本质上并无贬义' (essentially no derogatory meaning) is debatable. The addition of the female radical to differentiate these from the gender-neutral 伎/倡 itself reflects a gendered categorization. Whether this constitutes '贬义' depends on interpretation. Some scholars argue the semantic degradation was already embedded in the gendered differentiation."
+    },
+    {
+      "claim_id": "C20",
+      "text": "\"媛\"被贴上了\"走捷径\"的标签，出现\"假名媛\"等说法",
+      "classification": "VERIFIED",
+      "evidence": [
+        {
+          "source": "2020年网络事件 - 上海名媛群",
+          "detail": "2020年10月，一篇《我潜伏上海'名媛'群》的文章火爆全网，揭开'假名媛'拼单现象。",
+          "url": "https://www.sohu.com/a/425024816_120488763"
+        },
+        {
+          "source": "百度百科 - 上海名媛",
+          "detail": "'上海名媛'被定义为网络流行语，形容虚荣心很强的一类人。",
+          "url": "https://baike.baidu.com/item/%E4%B8%8A%E6%B5%B7%E5%90%8D%E5%AA%9B/53972325"
+        },
+        {
+          "source": "澎湃新闻",
+          "detail": "2020年互联网引发最多舆论争议的事件之一就是全网群嘲的'拼多多名媛群'，触及了'厌女'情绪的核心。",
+          "url": "https://m.thepaper.cn/newsDetail_forward_9752291"
+        },
+        {
+          "source": "投资界",
+          "detail": "2020年10月12日文章火爆全网，揭开'假名媛'群体最真实的状况。",
+          "url": "https://news.pedaily.cn/202110/478862.shtml"
+        }
+      ],
+      "notes": "Verified. The 2020 '假名媛' incident is well-documented. The term '名媛' was indeed stigmatized in online discourse, with connotations of '走捷径' (taking shortcuts) and inauthentic social climbing."
+    }
+  ],
+  "summary": {
+    "total_claims": 20,
+    "verified": 10,
+    "partially_verified": 4,
+    "unverified": 1,
+    "contradicted": 1,
+    "opinion_presented_as_fact": 1,
+    "not_applicable": 3,
+    "category_mismatch": 0
+  },
+  "critical_findings": [
+    {
+      "finding": "C09 MISATTRIBUTION: The article quotes the Shuowen Jiezi as saying '妖，妍也'. This is INCORRECT. The actual Shuowen text says '𡝩，巧也' (clever/skillful). '妍也' is not found in the Shuowen entry for this character. This is a factual error in source attribution.",
+      "severity": "HIGH",
+      "claim_ids": ["C09"]
+    },
+    {
+      "finding": "C06 UNVERIFIED MOTIVATION: The claim that 伎/倡 were changed to 妓/娼 specifically 'to distinguish male and female entertainers' is a plausible but unproven hypothesis presented as established fact.",
+      "severity": "MEDIUM",
+      "claim_ids": ["C06"]
+    },
+    {
+      "finding": "C05 EXAGGERATED COMPARISON: The comparison of ancient entertainer recruitment to 'modern military arts troupes' (现代文工团) is misleadingly flattering. Historical entertainers were often from enslaved/criminal backgrounds.",
+      "severity": "MEDIUM",
+      "claim_ids": ["C05"]
+    },
+    {
+      "finding": "C14 OVERGENERALIZATION: The claim that female-radical characters were ALL originally 'full of praise' cherry-picks examples. Many female-radical characters (妒, 妨, 婪, 奸, etc.) have had negative connotations from early attestation.",
+      "severity": "MEDIUM",
+      "claim_ids": ["C14"]
+    },
+    {
+      "finding": "C12 and C10 SLIGHT EMBELLISHMENT: The original definitions of 媚 ('to please/delight') and 媛 ('beautiful woman') are slightly embellished in the article with additional positive attributes not attested in the earliest sources.",
+      "severity": "LOW",
+      "claim_ids": ["C10", "C12"]
+    }
+  ],
+  "sources_consulted": [
+    "《说文解字》（大徐本）via ctext.org",
+    "段玉裁《说文解字注》",
+    "教育部《异体字字典》（台湾学术网络十四版）",
+    "汉语多功能字库（香港中文大学）",
+    "百度百科（嫖、票姚校尉、歌妓、官妓、上海名媛）",
+    "维基百科（刘嫖、霍去病、中国娼妓史、官妓、歌女）",
+    "《史记·卫将军骠骑列传》",
+    "《汉书·卫青霍去病传》",
+    "《诗经·大雅·下武》",
+    "《尔雅·释训》",
+    "人民日报 - 揭秘中国古代扫黄",
+    "中国新闻网 - 评'给汉字挑毛病'",
+    "澎湃新闻 - 从'秋天的奶茶'到'拼单名媛'",
+    "搜狐 - 假名媛拼单上热搜",
+    "识典古籍 - 《说文》女部全文"
+  ]
+}

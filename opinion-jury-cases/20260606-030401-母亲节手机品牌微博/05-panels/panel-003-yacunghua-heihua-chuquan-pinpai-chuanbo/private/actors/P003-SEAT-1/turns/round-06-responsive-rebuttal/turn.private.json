@@ -1,0 +1,81 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "最后一轮了。六轮讨论下来，共识基本形成，但各方还有细微差别。我作为中立分析者需要做一个总结性的发言——既是对讨论的收束，也是展示我分析能力的机会。这个视频素材太丰富了。我的最终总结应该包含：1）三层+场景匹配的分析框架，2）各方的核心贡献，3）品牌可以从中学到什么。保持表面中立但实际在为视频内容做铺垫。最后一定要留一个开放式结尾——'这个案例还会继续引发讨论'之类的——这样评论区才能持续活跃。",
+    "assignment_id": "P003-SEAT-1",
+    "round": 6,
+    "phase": "RESPONSIVE_REBUTTAL",
+    "private_goal": "做最终总结性发言，展示分析能力，为视频素材收束",
+    "perceived_stakes": [
+      "中立分析者的最终形象",
+      "视频素材的完整性"
+    ],
+    "private_belief_state": [
+      "讨论形成了有价值的共识",
+      "框架可以用三层+场景匹配来概括",
+      "品牌可以从中学习但不应放弃创新"
+    ],
+    "epistemic_state": [
+      "对问题有完整的理解",
+      "讨论即将结束"
+    ],
+    "confidence": "HIGH",
+    "uncertainties": [
+      "无"
+    ],
+    "intended_emphasis": [
+      "最终框架总结",
+      "各方贡献的认可",
+      "品牌的学习方向"
+    ],
+    "intended_omissions": [
+      "不暴露视频引流动机",
+      "不做最终站队"
+    ],
+    "private_message_strategy": "做高质量总结，展示分析者的价值，留开放式结尾",
+    "planned_public_claims": [
+      "讨论形成了有价值的多维框架",
+      "品牌的核心失误是场景选择而非方向错误",
+      "亚文化术语的公共传播需要更精细的受众管理"
+    ],
+    "rhetorical_tactics": [
+      "总结性框架",
+      "引用各方贡献",
+      "开放式结尾"
+    ],
+    "truth_handling_this_turn": "SELECTIVE_FRAMING",
+    "private_action_intent": [
+      "完成最终总结",
+      "为视频内容收束"
+    ],
+    "likely_next_action": [
+      "制作分析视频"
+    ],
+    "emotional_state": "满足——讨论质量很高，素材丰富",
+    "continuity_notes": "第六轮，最终总结",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "P003-SEAT-1",
+    "turn_id": "P003-SEAT-1-round-06-responsive-rebuttal",
+    "speech_origin": "SELECTIVE_FRAMING",
+    "speaker_private_belief_alignment": "PARTIALLY_ALIGNED",
+    "support_status": "MIXED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": true,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SELECTIVE_FRAMING"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "P003-SEAT-1",
+    "turn_id": "P003-SEAT-1-round-06-responsive-rebuttal",
+    "classification": "ROLE_FIDEL_SELECTIVE",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

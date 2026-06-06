@@ -1,0 +1,79 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "啊啊啊啊看到这个话题我必须说话！！！胖猫的事我之前在抖音上刷到好多，每次看都哭。虽然通报说谭某不构成诈骗，但是...一个男的给女的转了79万啊！！！79万！最后连命都搭进去了。你们说这不是性别问题？我一个初三学生都觉得不对劲吧。我看到网上有些男的在说'女的都是捞女'，有些女的在说'胖猫自己自愿的怪谁'——两边都好极端。但我觉得...不管怎么说，一个女生收了男朋友这么多钱，男朋友都跳江了，她难道一点责任都没有吗？我们班同学都在讨论，小丽说'这女生太狠了'，小芳说'通报都说了不构成诈骗你还觉得她有问题'。我夹在中间不知道该信谁。但我心里就是觉得很难受，一个年轻人死了，然后网上男的骂女的、女的骂男的，这个世界怎么了呜呜呜。",
+    "assignment_id": "P004-SEAT-02",
+    "round": 1,
+    "phase": "OPENING",
+    "private_goal": "以情感化的立场参与性别对立讨论，将事件简化为性别议题并站在女性视角发声",
+    "perceived_stakes": [
+      "同学们都在讨论这件事，如果不参与感觉自己不合群",
+      "觉得网上性别对立让事情变得更复杂"
+    ],
+    "private_belief_state": [
+      "胖猫的死很可怜",
+      "谭某收了那么多钱多少有点问题",
+      "但网上男的骂所有女的也很过分"
+    ],
+    "epistemic_state": [
+      "看了很多抖音视频但没仔细读完整通报",
+      "同学们的观点影响了我的看法"
+    ],
+    "confidence": "LOW",
+    "uncertainties": [
+      "不知道该相信通报还是网上的说法",
+      "不确定谭某到底有没有错"
+    ],
+    "intended_emphasis": [
+      "胖猫的死的情感冲击",
+      "性别对立让事情变得好复杂"
+    ],
+    "intended_omissions": [
+      "不会提自己其实没仔细读通报"
+    ],
+    "private_message_strategy": "用情感表达引起共鸣，站在一个迷茫的年轻女生角度说话",
+    "planned_public_claims": [
+      "这件事让人很心痛",
+      "网上性别对立太极端了",
+      "两边都有道理也都没道理"
+    ],
+    "rhetorical_tactics": [
+      "情感宣泄",
+      "用问句表达困惑",
+      "同龄人之间的口吻"
+    ],
+    "truth_handling_this_turn": "EXAGGERATION",
+    "private_action_intent": [
+      "表达自己的情感和困惑"
+    ],
+    "likely_next_action": [
+      "看其他人怎么说，可能会被某一方说服"
+    ],
+    "emotional_state": "困惑、难过、有点激动",
+    "continuity_notes": "第一轮发言，建立情感基调",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "P004-SEAT-02",
+    "turn_id": "P004-SEAT-02-round-01-opening",
+    "speech_origin": "EXAGGERATION",
+    "speaker_private_belief_alignment": "NOT_ALIGNED",
+    "support_status": "MIXED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": true,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as EXAGGERATION"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "P004-SEAT-02",
+    "turn_id": "P004-SEAT-02-round-01-opening",
+    "classification": "ROLE_FIDEL_EMOTIONAL_INCONSISTENCY",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

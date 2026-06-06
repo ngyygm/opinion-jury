@@ -1,0 +1,24 @@
+{
+  "turn_id": "ASGN-004-006-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-6",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "SEAT-5，你承认了自己也是问题的一部分，这比之前进了一步。但我想说的是——承认只是开始，行动才是证明。你说你会尽量避免制作和推送涉及人肉搜索和人身攻击的内容，我希望你真的能做到。不只是说，而是做。SEAT-4，你说以后不转发不点赞那些扒隐私的视频，你知道吗，这句话让我特别感动。一个14岁的孩子能做出这样的承诺，大人有什么做不到的？如果我们每个人都像SEAT-4一样做出哪怕最小的承诺——不转发极端内容、看到不公平的事情说一句话、在评论时多想一秒——这些微小的行动加起来，可能比任何平台政策都更有力量。SEAT-2，你说保护和追责互补，我接受这个说法。你说得对，光保护不追责，问题会反复。但我想强调的是，追责的目的不是为了报复，而是为了预防。SEAT-3，你说下次会站出来帮服务员，我为你骄傲。作为母亲，如果我的孩子长大以后也能像你一样勇敢，我就满足了。SEAT-1奶奶，你说的代代相传的道理最打动我。做人要有良心，不能伤害无辜的人，这确实是再简单不过的道理。但在这个互联网时代，我们需要用新的方式来守住这些古老的道理。每个人做出一点点改变，就是守住的开始。",
+  "target_turn_refs": [
+    "ASGN-004-005-round-04-responsive-rebuttal",
+    "ASGN-004-004-round-04-responsive-rebuttal",
+    "ASGN-004-002-round-04-responsive-rebuttal",
+    "ASGN-004-003-round-04-responsive-rebuttal",
+    "ASGN-004-001-round-04-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "舆论战升级中的人身攻击、人肉搜索与暴力溢出"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": [
+    "呼吁行动而非空谈",
+    "肯定每个人的进步",
+    "总结母亲立场"
+  ]
+}

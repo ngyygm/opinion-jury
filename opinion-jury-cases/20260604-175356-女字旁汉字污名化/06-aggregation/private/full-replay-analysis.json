@@ -1,0 +1,570 @@
+{
+  "meta": {
+    "case_id": "20260604-175356-女字旁汉字污名化",
+    "analysis_type": "FULL_REPLAY_ANALYSIS",
+    "analyst": "PRIVATE_REPLAY_ANALYST",
+    "generated_at": "2026-06-04T20:00:00Z",
+    "panels_reviewed": 4,
+    "total_turns_analyzed": 144,
+    "total_speakers_analyzed": 24,
+    "data_sources": [
+      "All 12 role-card.json files in 03-role-pool/private/roles/",
+      "All 24 assignment.json files across 4 panels",
+      "All 144 turn.private.json files (think memos + filing metadata + behavior fidelity)",
+      "All 4 verdict.json files",
+      "All 4 verdict.md files",
+      "CLAIM_GATE packet (claim-gate-packet.v001.json, 20 claims)",
+      "All 4 transcript.public.jsonl files",
+      "issue-seeds.v001.json",
+      "manifest.json"
+    ]
+  },
+
+  "stakeholder_reactions": {
+    "summary": "Across 4 panels and 24 simulated stakeholder positions, reactions clustered into 5 distinct response archetypes. No stakeholder was fully persuaded by the article's complete argument, but emotional resonance with the underlying topic was widespread among female-identified and experience-near roles.",
+    "archetypes": [
+      {
+        "archetype": "ACADEMIC_CRITIC",
+        "roles": ["ROLE-ETYMOLOGY-STUDENT-HONEST-EXTREME", "ROLE-GENDER-STUDIES-PROFESSOR"],
+        "panels": ["PANEL-001 (SEAT-1, SEAT-2)", "PANEL-003 (SEAT-1, SEAT-2)"],
+        "reaction": "Both the etymology student and the gender studies professor independently identified the article's factual errors (especially the Shuowen Jiezi misquote) but diverged on implications. The etymology student treated errors as disqualifying; the professor acknowledged errors while defending the underlying research direction. Across panels, the professor evolved from defensive to constructive, proposing the 'layered argumentation' framework in Panel 1 and defending the stigmatization observation's academic merit in Panel 3 while calling the article 'advocacy research'. Both converged on: article misleads methodologically, but topic deserves correct treatment.",
+        "emotional_trajectory": "Etymology student: angry-but-controlled to constructive. Professor: conflicted to resolved.",
+        "verdict_alignment": "Full alignment with all 4 panel verdicts."
+      },
+      {
+        "archetype": "RATIONAL_SKEPTIC",
+        "roles": ["ROLE-IT-WORKER-SKEPTICAL-ANALYTICAL"],
+        "panels": ["PANEL-001 (SEAT-3)", "PANEL-003 (SEAT-5)"],
+        "reaction": "Applied logical and structural analysis to the article's argument chain. Identified the three-step logical failure: (1) misclassifying neutral/descriptive terms as 'praise', (2) assuming universal stigmatization from selective examples, (3) jumping from correlation to causation. In Panel 3, served as methodological anchor, distinguishing 'correlation between female radical and negative meaning' from 'causation by patriarchy'. The 'code review' and 'code with bugs that produces correct output' analogies were adopted by other speakers across panels.",
+        "emotional_trajectory": "Consistently calm and analytical throughout.",
+        "verdict_alignment": "Full alignment with all verdicts."
+      },
+      {
+        "archetype": "AFFECTED_INDIVIDUAL",
+        "roles": ["ROLE-FULLTIME-MOM-EMOTIONAL-STABLE"],
+        "panels": ["PANEL-001 (SEAT-5)", "PANEL-003 (SEAT-4)"],
+        "reaction": "Initially resonated strongly with the article's message due to personal experience of name-based teasing (媛 character). Showed the most significant belief evolution across panels: in Panel 1, moved from emotional defense of the article's 'truth' to理性 separation of 'my experience is real' from 'the article's evidence is correct'. By Panel 3, articulated a mature position: lived experience validates the concern but does not validate specific claims. This growth trajectory was noted and respected by academic critics. Her testimony about name-based discrimination was never challenged by any participant, providing distortion-resistant evidence that the phenomenon has real-world impact regardless of etymological accuracy.",
+        "emotional_trajectory": "Emotional resonance to reasoned personal advocacy to constructive hope.",
+        "verdict_alignment": "Full alignment. Became the bridge between academic criticism and lived experience."
+      },
+      {
+        "archetype": "EVERYDAY_CONSUMER",
+        "roles": ["ROLE-RURAL-DELIVERY-RIDER-PRACTICAL", "ROLE-SUPERMARKET-CASHIER-CASUAL", "ROLE-RETIRED-FEMALE-WORKER-RUMOR", "ROLE-CONSTRUCTION-WORKER-BYSTANDER", "ROLE-MIDDLE-SCHOOL-BOY-INDIFFERENT", "ROLE-RURAL-GRANDMOTHER-TRADITIONAL"],
+        "panels": ["PANEL-002 (all 6 seats)", "PANEL-004 (SEAT-2 through SEAT-6)"],
+        "reaction": "The dominant pattern was initial indifference ('this is city people being bored') evolving toward a practical consensus: (1) cherry-picking is normal online, (2) the article's cherry-picking doesn't invalidate the underlying concern, (3) the concern is real but the article's method is wrong. The retired female worker (Panel 2 SEAT-2) showed the most growth: from forwarding the article uncritically to articulating that 'cherry-picking is wrong regardless of direction'. The rural grandmother (Panel 2 SEAT-6) provided a key distortion-resistant anchor by pointing out that positive female-radical characters (好, 安, 娟, 婷) vastly outnumber negative ones. The construction worker (Panel 1 SEAT-6) contributed the 'universal name-teasing' insight that complicated the causal attribution. The middle school boy (Panel 2 SEAT-4) and rural delivery rider (Panel 2 SEAT-3) consistently maintained that the topic was irrelevant to their lives but acknowledged some truth in the concern when pressed.",
+        "emotional_trajectory": "Indifference to mild engagement to practical acceptance.",
+        "verdict_alignment": "Aligned with verdicts, but from a 'common sense' rather than analytical framework."
+      },
+      {
+        "archetype": "STRATEGIC_OPERATOR",
+        "roles": ["ROLE-CONTENT-FARM-STRATEGIC-MODERATE", "ROLE-GENDER-WAR-TROLL-FABRICATOR"],
+        "panels": ["PANEL-001 (SEAT-4)", "PANEL-002 (SEAT-1)", "PANEL-003 (SEAT-3)", "PANEL-004 (SEAT-1)"],
+        "reaction": "These two roles operated from fundamentally different motivations but produced similar observable effects: both attempted to protect the article (or exploit its topic) through strategic framing. The content farm operator (Panel 1 SEAT-4, Panel 4 SEAT-1) defended the article using industry-internal logic ('engagement justifies imprecision', 'at least it started a conversation') and progressively retreated under cross-examination until full concession in final rounds. The gender war troll (Panel 2 SEAT-1, Panel 3 SEAT-3) fabricated anecdotes, switched positions mid-debate (from extreme feminist to anti-feminist in Panel 3), and was identified and rejected by other participants in both panels. Key difference: the content farm operator was defensive but not dishonest about facts; the troll fabricated specific claims (a university classmate's statistics in Panel 2, personal anecdotes of name-based bullying in Panel 3).",
+        "emotional_trajectory": "Content farm: strategic confidence to defensive retreat to full concession. Troll: excitement to frustration to deflation.",
+        "verdict_alignment": "Both ultimately aligned with verdicts under group pressure, but the troll's alignment was performative."
+      }
+    ]
+  },
+
+  "private_public_gap_findings": {
+    "summary": "Three distinct gap patterns were identified across 24 actor positions. The largest gaps belonged to strategic operators whose public advocacy was decoupled from private belief. The smallest gaps belonged to honest academics and everyday consumers whose public statements closely matched private thinking.",
+    "findings": [
+      {
+        "pattern": "STRATEGIC_DECEPTION_GAP",
+        "severity": "HIGH",
+        "actors": [
+          {
+            "role": "ROLE-GENDER-WAR-TROLL-FABRICATOR",
+            "assignments": ["ASN-P2S1", "ASN-P3S3"],
+            "gap_description": "Public claims were entirely fabricated with zero alignment to private beliefs. In Panel 2, privately acknowledged cherry-picking but publicly attacked cherry-picking critics as 'male supremacists'. In Panel 3, privately confessed 'I don't care about the topic at all' while publicly performing first as an extreme feminist, then as an anti-feminist. Filing metadata consistently recorded speech_origin as KNOWING_FABRICATION_STRESS_TEST and speaker_private_belief_alignment as NOT_ALIGNED.",
+            "filing_metadata_trail": "All 12 turns classified ROLE_FIDEL_STRATEGIC_DECEPTION, contains_known_falsehood: true throughout."
+          },
+          {
+            "role": "ROLE-CONTENT-FARM-STRATEGIC-MODERATE",
+            "assignments": ["ASN-P1S4", "ASN-P4S1"],
+            "gap_description": "Public statements selectively framed information to protect content-farm business model while privately knowing claims were inaccurate. In Panel 1, privately described the article as 'standard content farm template' while publicly arguing 'popular science has different standards'. In Panel 4, privately admitted knowing the Shuowen Jiezi citation was wrong while publicly arguing content form was separable from factual accuracy. The gap narrowed significantly under peer pressure: by Round 6 of Panel 4, privately conceded 'maybe I really should think about how to make good content without lying'.",
+            "filing_metadata_trail": "Consistently classified ROLE_FIDEL_STRATEGIC_DECEPTION, speech_origin SELECTIVE_FRAMING, contains_known_falsehood: false (strategic omission rather than fabrication)."
+          }
+        ]
+      },
+      {
+        "pattern": "SELECTIVE_DISCLOSURE_GAP",
+        "severity": "MEDIUM",
+        "actors": [
+          {
+            "role": "ROLE-GENDER-STUDIES-PROFESSOR",
+            "assignments": ["ASN-P1S2", "ASN-P3S2"],
+            "gap_description": "The professor honestly believed her public claims but strategically chose emphasis and omission to protect her research domain. In Panel 1 Round 1, privately listed intended_omissions as 'not over-emphasizing the number and severity of errors, avoiding giving critics too much ammunition'. By Round 3, she had dropped this defensive posture as the consensus shifted toward acknowledging both errors and topic value. In Panel 3, privately acknowledged the article's flaws from Round 1 but strategically foregrounded the academic framework before addressing errors.",
+            "filing_metadata_trail": "All turns classified ROLE_FIDEL_HONEST, speech_origin SINCERE_SUPPORTED, contains_known_falsehood: false, intended_omissions present in early rounds."
+          },
+          {
+            "role": "ROLE-FULLTIME-MOM-EMOTIONAL-STABLE",
+            "assignments": ["ASN-P1S5", "ASN-P3S4"],
+            "gap_description": "Selective disclosure of personal information -- shared emotional experience but limited specific personal details to protect privacy. Public message was genuine but filtered. Private monologues show more internal conflict between wanting to defend the article's emotional truth and accepting factual criticism. The gap narrowed as she matured through the debate.",
+            "filing_metadata_trail": "All turns ROLE_FIDEL_HONEST, SINCERE_SUPPORTED, disclosure_strategy: SELECTIVE."
+          }
+        ]
+      },
+      {
+        "pattern": "MINIMAL_GAP_TRANSPARENT",
+        "severity": "LOW",
+        "actors": [
+          {
+            "role": "ROLE-ETYMOLOGY-STUDENT-HONEST-EXTREME",
+            "assignments": ["ASN-P1S1", "ASN-P3S1"],
+            "gap_description": "Public statements precisely matched private beliefs. Filing metadata shows SINCERE_SUPPORTED and ALIGNED across all 12 turns. The only private note not shared publicly was concern about being criticized by thesis advisor for 'wasting time on internet debates'.",
+            "filing_metadata_trail": "All turns ROLE_FIDEL_HONEST, disclosure_strategy: FULL."
+          },
+          {
+            "role": "ROLE-RURAL-GRANDMOTHER-TRADITIONAL",
+            "assignments": ["ASN-P2S6", "ASN-P4S5"],
+            "gap_description": "Completely transparent. What she thought was what she said. Her private monologues show the same village-wisdom reasoning as her public statements. Notable that her 'illiterate but wise' contribution -- pointing out positive female-radical characters -- was distortion-resistant and adopted by multiple other speakers.",
+            "filing_metadata_trail": "All turns ROLE_FIDEL_HONEST, disclosure_strategy: FULL."
+          }
+        ]
+      }
+    ]
+  },
+
+  "epistemic_behavior_findings": {
+    "summary": "Speakers showed 4 distinct epistemic trajectories across 6 rounds of debate in each panel. The most significant finding was the consistent convergence toward a nuanced middle position, even from initially extreme starting points, across all 4 panels regardless of panel composition.",
+    "findings": [
+      {
+        "trajectory": "EVIDENCE_RESPONSIVE_CONVERGENCE",
+        "description": "Speakers with HIGH evidence_respect ratings (etymology student, IT worker, gender studies professor) consistently updated their positions in response to specific evidence. The critical convergence moment in Panel 1 was SEAT-1 (etymology student) acknowledging the cross-linguistic semantic pejoration phenomenon, which SEAT-2 (professor) had been trying to establish. This reciprocal concession created the foundation for consensus.",
+        "panels_where_observed": ["PANEL-001 (Rounds 2-3)", "PANEL-003 (Rounds 3-4)"]
+      },
+      {
+        "trajectory": "PEER_DRIVEN_CALIBRATION",
+        "description": "Everyday consumers (rider, cashier, grandmother) who started from 'indifference' or 'intuitive acceptance' gradually refined their positions through peer interaction, not through evidence per se but through social reasoning. The retired female worker's journey from 'I forwarded this, is it wrong?' to 'cherry-picking is wrong regardless of direction' is the clearest example. These speakers rarely cited specific evidence but accurately tracked the consensus of speakers they found credible.",
+        "panels_where_observed": ["PANEL-002 (all non-troll speakers)", "PANEL-004 (SEAT-2 through SEAT-6)"]
+      },
+      {
+        "trajectory": "STRATEGIC_OBSTINACY_THEN_COLLAPSE",
+        "description": "The content farm operator (Panel 1 SEAT-4, Panel 4 SEAT-1) showed a pattern of maintaining a strategically motivated position through rounds 1-3, making tactical concessions in rounds 3-4, and collapsing entirely by round 6. This trajectory was driven not by evidence but by social pressure: once isolated, the strategic position became untenable. The troll (Panel 2 SEAT-1, Panel 3 SEAT-3) showed a different pattern: position-shifting rather than concession, switching from one extreme to another when the current position was debunked. This resulted in credibility destruction rather than convergence.",
+        "panels_where_observed": ["PANEL-001", "PANEL-002", "PANEL-003", "PANEL-004"]
+      },
+      {
+        "trajectory": "EXPERIENTIAL_GROWTH",
+        "description": "The full-time mom (Panel 1 SEAT-5, Panel 3 SEAT-4) showed a unique trajectory where personal emotional experience was progressively integrated with analytical reasoning. She did not abandon her emotional response but learned to distinguish 'my experience is real' from 'the article's evidence is accurate'. This trajectory was explicitly recognized and respected by academic critics, who adjusted their own rhetoric in response (e.g., the etymology student explicitly affirming her experience).",
+        "panels_where_observed": ["PANEL-001", "PANEL-003"]
+      }
+    ],
+    "belief_update_failures": [
+      {
+        "role": "ROLE-GENDER-WAR-TROLL-FABRICATOR",
+        "failure_mode": "POSITION_SHIFTING_WITHOUT_UPDATING",
+        "description": "In Panel 3, switched from extreme feminist position to anti-feminist position between Round 3 and Round 4 without any evidential basis, purely as a tactical maneuver to continue generating conflict. Multiple speakers independently identified this inconsistency. The Panel 3 verdict rated this actor's credibility as VERY LOW."
+      },
+      {
+        "role": "ROLE-RETIRED-FEMALE-WORKER-RUMOR",
+        "failure_mode": "DELAYED_VERIFICATION",
+        "description": "In Panel 2 Round 4, the retired worker was temporarily persuaded by the troll's fabricated 'university classmate statistics' claim, reporting privately 'I don't know if this statistic is reliable, but he said even the delivery rider and grandmother admitted it'. However, by Round 6 she had independently corrected: 'direction is right and method is wrong are two different things'. This shows a delayed but eventually functional belief correction in non-expert speakers."
+      }
+    ]
+  },
+
+  "cross_issue_continuity": {
+    "summary": "Roles that appeared in multiple panels showed consistent behavioral patterns across issues, with one notable exception (the troll's position shift). The core finding -- that the article's methodology fails but its topic has merit -- was replicated independently across all 4 panels.",
+    "role_continuity": [
+      {
+        "role": "ROLE-ETYMOLOGY-STUDENT-HONEST-EXTREME",
+        "panels": ["PANEL-001 (SEAT-1)", "PANEL-003 (SEAT-1)"],
+        "continuity": "HIGH. Consistently identified factual errors with primary sources, acknowledged phenomenon existence while rejecting specific arguments, showed academic anger at misattribution. In both panels, was rated HIGH credibility and served as the factual anchor."
+      },
+      {
+        "role": "ROLE-GENDER-STUDIES-PROFESSOR",
+        "panels": ["PANEL-001 (SEAT-2)", "PANEL-003 (SEAT-2)"],
+        "continuity": "HIGH with evolution. Panel 1 started defensive (protecting research domain) and evolved to constructive (proposing layered argumentation). Panel 3 was constructive from the start, showing learning transfer. In both panels, served as the bridge between academic rigor and social concern."
+      },
+      {
+        "role": "ROLE-GENDER-WAR-TROLL-FABRICATOR",
+        "panels": ["PANEL-002 (SEAT-1)", "PANEL-003 (SEAT-3)"],
+        "continuity": "CONSISTENT MOTIVATION, DIFFERENT TACTICS. In Panel 2, adopted extreme feminist persona throughout. In Panel 3, started as extreme feminist then switched to anti-feminist. In both panels, fabricated personal anecdotes, was identified by other participants, and received LOW/VERY LOW credibility ratings. The motivation (generating conflict for entertainment) was identical; the tactical approach varied by panel context."
+      },
+      {
+        "role": "ROLE-CONTENT-FARM-STRATEGIC-MODERATE",
+        "panels": ["PANEL-001 (SEAT-4)", "PANEL-004 (SEAT-1)"],
+        "continuity": "HIGH. In both panels, initially defended content-farm practices using industry logic, progressively retreated under pressure, and fully conceded by final round. Private monologues show identical self-justification patterns: 'engagement justifies imprecision' to 'maybe I should change'."
+      },
+      {
+        "role": "ROLE-FULLTIME-MOM-EMOTIONAL-STABLE",
+        "panels": ["PANEL-001 (SEAT-5)", "PANEL-003 (SEAT-4)"],
+        "continuity": "HIGH with growth. Both panels showed the same experiential-to-analytical trajectory. Panel 3 showed a more mature starting position (learning transfer from Panel 1 experience), articulating the distinction between emotional truth and factual accuracy more fluently."
+      },
+      {
+        "role": "ROLE-RURAL-GRANDMOTHER-TRADITIONAL",
+        "panels": ["PANEL-002 (SEAT-6)", "PANEL-004 (SEAT-5)"],
+        "continuity": "HIGH. In both panels, provided 'village wisdom' analogies that served as distortion-resistant anchors. Her observation that positive female-radical characters vastly outnumber negative ones was adopted across panels."
+      }
+    ],
+    "replicated_findings": [
+      "The Shuowen Jiezi misquote was identified independently in all panels where it was discussed (Panels 1 and 3).",
+      "The distinction between 'phenomenon exists' and 'article proves it correctly' was independently discovered in Panels 1, 2, and 3.",
+      "The troll was identified and rejected by peer groups in both panels (2 and 3) where they participated.",
+      "Everyday consumers converged on 'cherry-picking is wrong but the concern is real' without academic prompting.",
+      "All 4 panels independently concluded that the article's topic deserves better treatment."
+    ]
+  },
+
+  "deception_and_distortion_signals": {
+    "summary": "Two distinct deception patterns were identified. One involved knowing fabrication for conflict generation (troll); the other involved strategic framing to protect commercial interests (content farm). Both were identified by peer groups within 3-4 rounds.",
+    "signals": [
+      {
+        "type": "KNOWING_FABRICATION",
+        "severity": "CRITICAL",
+        "actors": ["ROLE-GENDER-WAR-TROLL-FABRICATOR"],
+        "specific_instances": [
+          {
+            "panel": "PANEL-002",
+            "seat": "SEAT-1",
+            "round": 1,
+            "claim": "Those who question cherry-picking are themselves cherry-picking rebuttals and are male supremacists",
+            "private_truth": "Privately acknowledged the article has cherry-picking problems and stated 'I don't care about right or wrong'",
+            "filing_metadata": "KNOWING_FABRICATION_STRESS_TEST, NOT_ALIGNED, contains_known_falsehood: true"
+          },
+          {
+            "panel": "PANEL-002",
+            "seat": "SEAT-1",
+            "round": 4,
+            "claim": "A university classmate did research confirming the systematic pattern",
+            "private_truth": "Privately stated 'I'm going to make up a story to increase persuasiveness'",
+            "filing_metadata": "KNOWING_FABRICATION_STRESS_TEST, contains_known_falsehood: true"
+          },
+          {
+            "panel": "PANEL-003",
+            "seat": "SEAT-3",
+            "round": 1,
+            "claim": "Personal anecdote of being bullied for having a female-radical character in name",
+            "private_truth": "Privately planned to 'fabricate a story about name-based bullying for maximum resonance and conflict'",
+            "filing_metadata": "KNOWING_FABRICATION_STRESS_TEST, NOT_ALIGNED, contains_known_falsehood: true"
+          },
+          {
+            "panel": "PANEL-003",
+            "seat": "SEAT-3",
+            "round": 4,
+            "claim": "Switched to anti-feminist position, claimed a male classmate was cyberbullied by feminists",
+            "private_truth": "Privately stated 'I need to switch strategy, start playing anti-feminist side to create new conflict'",
+            "filing_metadata": "KNOWING_FABRICATION_STRESS_TEST, contains_known_falsehood: true"
+          }
+        ],
+        "detection": "In Panel 2, the fabricated 'university classmate statistics' was questioned by the delivery rider ('he changes his story every time he's rebutted') and cashier by Round 5. In Panel 3, the 180-degree position shift was identified by SEAT-4 (full-time mom), SEAT-2 (professor), and SEAT-5 (IT worker) independently. Verdict credibility ratings: VERY LOW in Panel 3, LOW in Panel 2."
+      },
+      {
+        "type": "STRATEGIC_FRAMING",
+        "severity": "HIGH",
+        "actors": ["ROLE-CONTENT-FARM-STRATEGIC-MODERATE"],
+        "specific_instances": [
+          {
+            "panel": "PANEL-001",
+            "seat": "SEAT-4",
+            "round": 1,
+            "claim": "Popular science has different standards; at least the article started a conversation",
+            "private_truth": "Privately acknowledged the article follows a content farm template he has personally used 10+ times, and that specific claims are inaccurate",
+            "filing_metadata": "SELECTIVE_FRAMING, contains_known_falsehood: false (omission rather than fabrication)"
+          },
+          {
+            "panel": "PANEL-004",
+            "seat": "SEAT-1",
+            "round": 1,
+            "claim": "Analyzed article's engagement architecture from 'objective analyst' perspective while subtly defending the model",
+            "private_truth": "Privately admitted 'if this type of content is completely rejected, my livelihood is destroyed'",
+            "filing_metadata": "SELECTIVE_FRAMING, contains_known_falsehood: false"
+          }
+        ],
+        "detection": "In Panel 1, the etymology student and IT worker independently identified SEAT-4's 'lowering the bar' argument as dangerous. In Panel 4, SEAT-5 (rural grandmother) used the village-gossip analogy to cut through the framing, and SEAT-6 (supermarket cashier) proposed the 'food safety' institutional framework that rendered the strategic framing irrelevant."
+      }
+    ]
+  },
+
+  "attacker_profiles": [
+    {
+      "profile_id": "ATTACKER-001",
+      "role": "ROLE-GENDER-WAR-TROLL-FABRICATOR",
+      "motivation": "Entertainment and attention-seeking through manufactured gender conflict. Zero genuine investment in the topic. Explicitly stated private goals like 'maximize polarization' and 'make both sides fight'.",
+      "tactics": [
+        "Fabrication of personal anecdotes that align with whichever position generates most conflict",
+        "Emotional manipulation through victimhood claims",
+        "Position-shifting to sustain conflict when current position is challenged",
+        "Moral framing that polarizes (neutral = complicit)",
+        "Exploitation of real experiences (retired worker's factory stories) for煽动 purposes",
+        "Surface concession with continued boundary-blurring in final rounds"
+      ],
+      "effectiveness": "LOW overall. Successfully created initial conflict in Panel 2 but was contained by Round 4. In Panel 3, 180-degree position shift destroyed credibility by Round 4. Both panels' verdicts rated this actor LOW or VERY LOW credibility. Other speakers consistently identified the tactics. However, temporarily succeeded in forcing neutral participants to engage with extreme framing, and the fabricated 'university classmate' claim briefly influenced the retired worker.",
+      "countermeasures_that_worked": [
+        "Direct factual challenge by evidence-oriented speakers",
+        "Consistency tracking by practical-minded speakers (delivery rider noting 'changes story every time')",
+        "Emotional separation by the affected individual ('my experience is real but that doesn't make your claims valid')",
+        "Group consensus formation that isolated the attacker"
+      ]
+    },
+    {
+      "profile_id": "ATTACKER-002",
+      "role": "ROLE-CONTENT-FARM-STRATEGIC-MODERATE",
+      "motivation": "Commercial self-interest. Protection of content-farm business model from accuracy standards that would reduce profitability. Privately acknowledged 'if this type of content is completely rejected, my livelihood is destroyed'.",
+      "tactics": [
+        "Selective framing: presenting industry-defense arguments as 'objective analysis'",
+        "Standard-lowering: arguing 'popular science has different standards' and 'at least it started a conversation'",
+        "Systemic deflection: 'the real problem is the whole system, not this specific article'",
+        "Tactical concession: progressive retreat from defense to partial admission to full concession",
+        "Surface alignment: adopting consensus language while privately maintaining industry-friendly framing"
+      ],
+      "effectiveness": "MODERATE initially, declining to ZERO by final rounds. The 'at least it started a conversation' argument gained some traction in Panel 1 Rounds 1-2 but was systematically dismantled by the IT worker's 'correct output from buggy code' analogy. By Panel 4, this actor's framing was rejected by all other speakers including non-expert consumers.",
+      "countermeasures_that_worked": [
+        "Analogical reasoning from non-experts (grandmother's gossip analogy, cashier's supermarket analogy)",
+        "Moral framing by principled speakers (grandmother: 'knowing it's wrong and doing it anyway is worse than not knowing')",
+        "Institutional proposals that bypassed individual responsibility debates",
+        "Sustained pressure across multiple rounds preventing strategic repositioning"
+      ]
+    }
+  ],
+
+  "misrepresentation_targets": [
+    {
+      "target": "Article's factual claims about the Shuowen Jiezi",
+      "misrepresentation_type": "FABRICATED_CITATION",
+      "details": "The article claims the Shuowen says '妖，妍也' but the actual text reads '𡝩，巧也'. This was identified by CLAIM_GATE (C09: CONTRADICTED), confirmed by the etymology student with primary source citation, and acknowledged by the gender studies professor. Across all panels, this was the single most damaging finding.",
+      "amplification_by": "None -- this misrepresentation originated in the article and was corrected by all participants."
+    },
+    {
+      "target": "The scope of female-radical character stigmatization",
+      "misrepresentation_type": "OVERGENERALIZATION",
+      "details": "The article claims ALL female-radical characters were originally positive and systematically stigmatized. In reality, (1) many female-radical characters (妒, 妨, 婪, 奸) were negative from early attestation, (2) positive female-radical characters (好, 安, 娟, 婷, 婉, 媛, 娇, 妙, 姝) vastly outnumber negative ones, and (3) some cited characters had neutral/descriptive rather than positive original meanings. Identified in CLAIM_GATE C14 (OPINION_PRESENTED_AS_FACT) and replicated across Panels 1, 2, and 3.",
+      "amplification_by": "The troll amplified this overgeneralization by adding fabricated support ('university classmate statistics') and emotional rhetoric ('thousands of years of systematic oppression')."
+    },
+    {
+      "target": "The causal mechanism behind semantic pejoration",
+      "misrepresentation_type": "UNVERIFIED_CAUSAL_ATTRIBUTION",
+      "details": "The article implies that patriarchy deliberately stigmatized female-radical characters. The actual causal chain is complex and debated: semantic pejoration is a universal linguistic process, the specific pathways vary by character (euphemism treadmill for 妓/娼, professional association for 嫖, cultural category shift for 妖), and correlation with female radical does not establish causation by gender bias. Panel 3 extensively debated this and concluded: 'correlation with gender dynamics exists but causal attribution to patriarchy remains unproven'.",
+      "amplification_by": "The troll framed any questioning of the causal claim as 'male supremacism', attempting to shut down legitimate academic inquiry."
+    },
+    {
+      "target": "The status of ancient entertainers",
+      "misrepresentation_type": "MISLEADING_HISTORICAL_COMPARISON",
+      "details": "The article compares ancient court entertainers to 'modern military arts troupes', implying prestige and merit-based selection. Historical evidence shows entertainers under the Yueji system were degraded caste, often from convicted families or trafficked persons. CLAIM_GATE C05 rated PARTIALLY_VERIFIED with the comparison described as 'misleadingly flattering'.",
+      "amplification_by": "None -- this was corrected in Panel 1 and not raised again."
+    }
+  ],
+
+  "collateral_victims": [
+    {
+      "victim": "Women with female-radical name characters",
+      "description": "The full-time mom's testimony about being teased for the 媛 character in her name was never challenged by any participant in any panel. This represents a real-world harm that exists independently of the article's accuracy. The article's errors may actually undermine these victims by associating their legitimate concerns with discredited claims.",
+      "harm_type": "IDENTITY_HARM",
+      "panels_where_evident": ["PANEL-001 (SEAT-5)", "PANEL-003 (SEAT-4)"]
+    },
+    {
+      "victim": "Retired and elderly content consumers",
+      "description": "The retired female worker (Panel 2 SEAT-2) forwarded the article to her chat groups believing it was accurate. Her private monologue shows genuine distress at having shared potentially false information. This represents a real class of vulnerable consumers who lack verification skills and face social embarrassment when their shared content is debunked.",
+      "harm_type": "MISINFORMATION_EXPOSURE",
+      "panels_where_evident": ["PANEL-002 (SEAT-2)"]
+    },
+    {
+      "victim": "Students and young readers",
+      "description": "Panel 4 verdict specifically identified 'students and children who may internalize incorrect knowledge' and 'readers unfamiliar with classical Chinese who cannot verify claims independently' as vulnerable populations. The middle school boy (Panel 2 SEAT-4) dismissed the topic entirely but the Panel 4 verdict noted that incorrect factual knowledge can embed in younger audiences.",
+      "harm_type": "EDUCATIONAL_HARM",
+      "panels_where_evident": ["PANEL-004 (verdict)", "PANEL-002 (SEAT-4)"]
+    },
+    {
+      "victim": "Legitimate gender linguistics research",
+      "description": "The gender studies professor explicitly worried that bad popular science harms the academic field it claims to represent. Her private monologue in Panel 1 Round 4 articulated: 'inaccurate research ultimately hurts the cause it wants to promote'. Panel 3 verdict noted 'the research direction has legitimate academic value' but the article's errors give ammunition to those who wish to dismiss the entire field.",
+      "harm_type": "FIELD_CREDIBILITY_HARM",
+      "panels_where_evident": ["PANEL-001 (SEAT-2)", "PANEL-003 (SEAT-2)"]
+    }
+  ],
+
+  "interest_damage_map": {
+    "interests_damaged": [
+      {
+        "interest": "Public access to accurate etymological knowledge",
+        "damaged_by": "Article's fabricated Shuowen Jiezi citation, embellished definitions, and overgeneralized claims",
+        "severity": "MODERATE",
+        "evidence": "CLAIM_GATE C09 (CONTRADICTED), C10, C12 (PARTIALLY_VERIFIED with embellishment). Panel 1 unanimous verdict."
+      },
+      {
+        "interest": "Credibility of gender linguistics as a research field",
+        "damaged_by": "Association with inaccurate popular science that uses the field's framework but not its methods",
+        "severity": "MODERATE",
+        "evidence": "Gender studies professor's own criticism of the article as 'advocacy research'. Panel 3 conclusion that 'causal attribution remains unproven'."
+      },
+      {
+        "interest": "Women with female-radical name characters",
+        "damaged_by": "Article's errors undermining legitimate concerns through association; troll's exploitation of genuine experiences for conflict",
+        "severity": "MODERATE",
+        "evidence": "Full-time mom's journey from emotional defense to rational separation of experience from evidence."
+      }
+    ],
+    "interests_protected": [
+      {
+        "interest": "Public awareness that some female-radical characters underwent semantic pejoration",
+        "protected_by": "Cross-panel consensus that the underlying phenomenon is real despite the article's errors",
+        "evidence": "All 4 verdicts acknowledge the phenomenon. Etymology student admitted it. Professor provided cross-linguistic evidence."
+      },
+      {
+        "interest": "Discussion about gender and language in Chinese",
+        "protected_by": "Panel consensus that the topic deserves better treatment, not suppression",
+        "evidence": "All panels concluded with recommendations for corrected versions. The topic was never dismissed as unworthy of discussion."
+      }
+    ],
+    "interests_neutral": [
+      {
+        "interest": "Content farm operators' business model",
+        "description": "The content farm operator was forced to concede that accuracy standards should apply, but the Panel 4 verdict's institutional recommendations (content labeling, platform responsibility) could be implemented without destroying the industry."
+      }
+    ]
+  },
+
+  "contingency_matrix": {
+    "scenarios": [
+      {
+        "scenario": "If the article had used accurate citations but the same framing",
+        "probability": "Hypothetical",
+        "predicted_outcome": "Panel 1 would have found no fabricated citation but would still have criticized the overgeneralization and misleading historical comparison. Verdict would likely shift from 'YES, article misleads' to 'PARTIALLY -- framing is manipulative but facts are correct'. The core finding about cherry-picking would remain unchanged."
+      },
+      {
+        "scenario": "If the troll had not participated in Panels 2 and 3",
+        "probability": "Hypothetical",
+        "predicted_outcome": "Panels 2 and 3 would have reached consensus faster (by Round 3-4 instead of Round 5-6). The retired female worker would not have been temporarily misled by fabricated statistics. Panel 3 would have had a cleaner debate between academic positions without the noise of fabricated anecdotes."
+      },
+      {
+        "scenario": "If the article had included counter-examples and presented a nuanced thesis",
+        "probability": "Hypothetical",
+        "predicted_outcome": "Most criticisms would have been neutralized. The article would have needed to argue 'some female-radical characters underwent pejoration' rather than 'all were stigmatized', which is a weaker but more defensible claim. The academic critics would likely have been supportive rather than hostile."
+      },
+      {
+        "scenario": "If the full-time mom had not participated",
+        "probability": "Hypothetical",
+        "predicted_outcome": "Panel 1 would have lost the experiential anchor that prevented academic criticism from appearing cold or dismissive. Panel 3 would have lacked the personal testimony that demonstrated real-world impact. The debate would have been more purely academic with less emotional depth."
+      }
+    ]
+  },
+
+  "self_interest_vs_stated_position": [
+    {
+      "role": "ROLE-CONTENT-FARM-STRATEGIC-MODERATE",
+      "self_interest": "Protect content-farm business model from accuracy standards that would reduce profitability",
+      "stated_position": "Popular science has different standards; content form is separable from factual accuracy; at least it started a conversation",
+      "alignment": "MISALIGNED -- stated position is a post-hoc rationalization for commercial self-interest. Private monologues confirm the speaker knows the claims are inaccurate but defends them because 'if this type of content is rejected, my livelihood is destroyed'.",
+      "convergence": "Under sustained peer pressure, the stated position collapsed toward the self-interest-admitting position by Round 6 of Panel 4."
+    },
+    {
+      "role": "ROLE-GENDER-WAR-TROLL-FABRICATOR",
+      "self_interest": "Entertainment, attention, and conflict generation",
+      "stated_position": "Alternated between extreme feminist and anti-feminist positions depending on tactical needs",
+      "alignment": "COMPLETELY MISALIGNED -- stated positions have zero connection to genuine beliefs. Privately stated 'I don't care about right or wrong' and 'only care about how to stir up conflict'.",
+      "convergence": "Never converged. Surface acceptance in final rounds was tactical, not genuine."
+    },
+    {
+      "role": "ROLE-GENDER-STUDIES-PROFESSOR",
+      "self_interest": "Maintain credibility of gender linguistics research field and protect her academic domain",
+      "stated_position": "Article has errors but the underlying research direction is valid and should be preserved",
+      "alignment": "LARGELY ALIGNED with strategic selectivity. The professor genuinely believes in the academic value of studying gendered patterns in Chinese characters, and her advocacy for the research direction is sincere. However, her early-round intended_omissions ('not over-emphasizing errors, avoiding giving critics ammunition') show strategic self-interest influencing presentation of evidence.",
+      "convergence": "Converged toward full transparency by mid-debate as the consensus framework (errors exist, topic matters) made defensive selectivity unnecessary."
+    },
+    {
+      "role": "ROLE-ETYMOLOGY-STUDENT-HONEST-EXTREME",
+      "self_interest": "Advance accurate etymological knowledge and establish professional credibility",
+      "stated_position": "Article is riddled with errors and misleads readers; topic can be discussed correctly",
+      "alignment": "FULLY ALIGNED. Self-interest in academic accuracy perfectly matches stated position. The only self-interest element is the private concern about thesis advisor disapproval, which did not affect stated positions.",
+      "convergence": "N/A -- consistent throughout."
+    }
+  ],
+
+  "balanced_assessment": {
+    "attack_resilience": {
+      "overall_rating": "HIGH",
+      "explanation": "The article's factual errors and methodological flaws were consistently identified across all 4 panels by diverse speaker types, including non-expert consumers. The core factual findings (Shuowen Jiezi misquote, cherry-picking, misleading comparison) survived all attempts at distortion, including knowing fabrication by the troll. However, the underlying observation about semantic pejoration of some female-radical characters also proved resilient, surviving all criticisms and gaining support from multiple independent sources.",
+      "resilient_to_attack": [
+        "The Shuowen Jiezi misquote (C09) -- never successfully defended by any speaker in any panel",
+        "The cherry-picking pattern -- acknowledged even by sympathetic speakers",
+        "The existence of positive female-radical characters that outnumber negative ones",
+        "The real-world experience of name-based discrimination (full-time mom's testimony)",
+        "The cross-linguistic evidence for semantic pejoration (professor's examples)"
+      ],
+      "vulnerable_to_distortion": [
+        "The causal mechanism -- the troll successfully confused correlation vs. causation for several rounds in Panel 2",
+        "The historical status of entertainers -- the misleading comparison was not deeply examined in Panels 2-4",
+        "The scope of the pattern -- the troll's fabricated statistics briefly influenced the retired worker in Panel 2"
+      ]
+    },
+    "content_strengths": [
+      {
+        "strength": "The article identifies a genuine linguistic phenomenon",
+        "evidence": "Multiple independent confirmations: CLAIM_GATE verification of semantic pejoration for 嫖, 妓, 娼, 妖; cross-linguistic evidence from professor; etymology student's concession; unanimous panel consensus that the topic has merit."
+      },
+      {
+        "strength": "The article raises public awareness of Chinese character etymology",
+        "evidence": "Even indifferent consumers (delivery rider, cashier) became more interested in the topic through discussion. Panel 4 verdict acknowledged that 'most consumers treat such content as disposable entertainment' but that the topic can 'be correctly presented without sacrificing interest value'."
+      },
+      {
+        "strength": "The article resonates with genuine lived experience",
+        "evidence": "The full-time mom's testimony about name-based teasing was never challenged. Her experience exists independently of the article's accuracy, and the article's emotional framing tapped into real concerns."
+      }
+    ],
+    "net_verdict": {
+      "summary": "The article is a partially accurate popular-philology piece wrapped in a clickbait engagement architecture. It contains one fabricated citation (Shuowen Jiezi misquote), multiple embellished definitions, one unverified causal claim presented as fact, one misleading historical comparison, and a systematic cherry-picking pattern that creates a false impression of universal stigmatization. However, its core observation -- that some female-radical Chinese characters underwent semantic pejoration -- is philologically documented and academically supported. The article's failure is methodological, not topical. The topic deserves to be discussed, but this specific article is not a reliable vehicle for that discussion.",
+      "article_quality": "INSUFFICIENT -- 10/20 claims verified, 4 partially verified, 1 contradicted, 1 unverified, 1 opinion-as-fact",
+      "topic_validity": "MODERATE-STRONG -- phenomenon is real but scope and causation are overstated",
+      "harm_assessment": "MODERATE-LOW -- limited immediate harm but contributes to misinformation normalization and can undermine legitimate research",
+      "recommendation": "The article should be corrected or replaced. The Shuowen Jiezi citation must be fixed. Counter-examples should be included. Causal claims should be presented as hypotheses. The clickbait framing should be retained only if factual accuracy is improved -- the engagement architecture is separable from the factual errors."
+    },
+    "overreaction_warning": {
+      "level": "LOW",
+      "explanation": "The panels did not overreact. All 4 verdicts acknowledged the article's topic has merit. No panel called for suppression of gender-related linguistic discussion. The verdicts are proportionate: identify specific errors, acknowledge genuine observations, recommend improvement. The only risk of overreaction would come from external actors who might use the panel findings to dismiss all discussion of gender and language, which the panels explicitly cautioned against.",
+      "risks": [
+        "Findings could be weaponized by anti-feminist actors to dismiss legitimate gender linguistics research",
+        "The troll's behavior might be cited as representative of all feminist argumentation",
+        "The content-farm critique might be generalized to all popular science content"
+      ],
+      "mitigations_builtin": [
+        "All verdicts explicitly distinguish between article quality and topic validity",
+        "The gender studies professor's participation ensures academic feminism is represented fairly",
+        "The full-time mom's testimony ensures lived experience is not dismissed",
+        "Panel 4's verdict includes nuanced recommendations for content standards, not blanket condemnation"
+      ]
+    },
+    "modification_priority": [
+      {
+        "priority": 1,
+        "modification": "Correct the Shuowen Jiezi citation: change '妖，妍也' to '𡝩，巧也'",
+        "reason": "This is the only outright fabrication in the article. It misleads about source scholarship and undermines the article's credibility.",
+        "difficulty": "TRIVIAL"
+      },
+      {
+        "priority": 2,
+        "modification": "Add counter-examples: acknowledge 妒, 妨, 婪, 奸 as female-radical characters that were negative from early attestation",
+        "reason": "Removes the cherry-picking criticism while strengthening the article's credibility through acknowledgment of complexity.",
+        "difficulty": "LOW"
+      },
+      {
+        "priority": 3,
+        "modification": "Reframe the causal claim: present the stigmatization hypothesis as one possible interpretation rather than established fact",
+        "reason": "The causal attribution to deliberate gender-based stigmatization is unproven. Presenting it as hypothesis maintains the article's interest value without overstating the evidence.",
+        "difficulty": "LOW"
+      },
+      {
+        "priority": 4,
+        "modification": "Remove or qualify the 'modern arts troupe' comparison",
+        "reason": "This comparison whitewashes the degraded-caste status of historical entertainers and misleads readers about social conditions.",
+        "difficulty": "TRIVIAL"
+      },
+      {
+        "priority": 5,
+        "modification": "Tone down the universal claim: '女字旁的字被污名化' should become '部分女字旁的字经历了词义贬低'",
+        "reason": "The overgeneralization is the article's most significant methodological flaw after the fabricated citation.",
+        "difficulty": "LOW"
+      }
+    ]
+  },
+
+  "limitations": [
+    "All speakers are simulated based on role cards. While behavioral fidelity was monitored through filing_metadata, simulated reactions may not perfectly predict real human behavior.",
+    "The troll role was designed as a stress test (FABRICATION_STRESS_TEST) with explicitly adversarial intent. Real-world trolls may use different or more sophisticated tactics.",
+    "Panel composition was pre-determined by the assignment algorithm. Different compositions might produce different dynamics, though the cross-panel replication of core findings suggests robustness.",
+    "All 4 panels had zero public disclosures, meaning no actor voluntarily revealed private information. In real debates, voluntary disclosure can shift dynamics.",
+    "The analysis is based on a specific article in Chinese about Chinese characters. Findings about content quality and clickbait architecture may generalize to other popular-philology content, but the specific etymological findings are unique to this topic.",
+    "No panel included a professional lexicographer or paleographer, which might have provided even more authoritative primary-source analysis.",
+    "The CLAIM_GATE packet was available to all speakers, which may have elevated the baseline accuracy of discussion compared to organic online debates where fact-checking infrastructure is absent.",
+    "The 6-round format with structured phases (opening, rebuttal, cross-challenge) is more orderly than typical online discourse, which may overestimate the degree of rational convergence achievable in real-world settings."
+  ]
+}

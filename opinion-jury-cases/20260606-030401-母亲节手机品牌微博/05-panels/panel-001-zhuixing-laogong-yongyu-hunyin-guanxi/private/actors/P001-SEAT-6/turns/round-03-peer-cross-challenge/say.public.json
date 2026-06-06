@@ -1,0 +1,18 @@
+{
+  "turn_id": "P001-SEAT-6-round-03-peer-cross-challenge",
+  "panel_id": "PANEL-001",
+  "anonymous_alias": "SEAT-6",
+  "round": 3,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "好吧我说了要走但又回来了... 因为SEAT-4反驳SEAT-3那段'谁的底线谁来定义'真的太精彩了，我截图发同学群了大家都在讨论。\n\n认真说一句：我觉得SEAT-5说的最合理。追星妈妈可以出现在广告里啊，但方式可以换一换。SEAT-1你追星没错，SEAT-3你说别人不要脸也确实过了。但品牌把'两个老公'做成广告这个事...怎么说呢，我觉得SEAT-5说的对，私下的梗和公共广告确实不一样。就像我们班上有人在QQ空间写同人文没人管，但如果贴到学校公告栏上那肯定要被老师找谈话的对吧。\n\nSEAT-2说的'创新必然让人不舒服'我觉得有点强行合理化了。让人不舒服不一定是创新，也可能是真的不合适。\n\n好吧这次真的走了。总结一下我这个初中生的看法：大人们吵了这么久，最后还是SEAT-5最正常。品牌出发点ok但表达要更注意，这个结论有那么难吗？",
+  "target_turn_refs": [
+    "P001-SEAT-4-round-03-peer-cross-challenge",
+    "P001-SEAT-5-round-03-peer-cross-challenge",
+    "P001-SEAT-2-round-03-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "panel-001-public-question"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

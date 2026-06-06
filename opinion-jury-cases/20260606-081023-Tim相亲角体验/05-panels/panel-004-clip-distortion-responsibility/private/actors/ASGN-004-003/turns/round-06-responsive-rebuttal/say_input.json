@@ -1,0 +1,12 @@
+{
+  "turn_id": "ASGN-004-003-round-06-responsive-rebuttal",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-3",
+  "round": 6,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "最后一轮了，我从一个短视频运营从业者的角度做一个总结。这六轮讨论说出了我们行业很多想说但没机会说的话。切片传播确实是行业最大的痛点之一，我们每天都在跟这个问题打交道——内容被盗用、被歪曲、被断章取义，投诉无门，维权成本高。讨论最终形成的四维框架，我觉得对整个行业都有参考价值。尤其是嵌入不可剥离语境信息这个建议，实际上很多创作者已经在做类似的事情了，只是没有标准化。如果平台能够推出标准化的预防措施工具——比如一键添加节目性质标注——那对创作者来说是巨大的帮助。SEAT-2说的自我验证约束力不够，这个我也同意。所以行业标准加平台工具配合，才是最佳方案。不是要求创作者做不可能的事，而是给他们提供好用的工具和明确的标准。我相信如果这个框架能落地，不仅Tim这种头部创作者受益，我们这些中小创作者也会受益。说到底，保护创作者就是保护内容生态，保护内容生态就是保护所有观众。",
+  "target_turn_refs": ["ASGN-004-002-round-06-responsive-rebuttal", "ASGN-004-001-round-06-responsive-rebuttal"],
+  "public_question_refs": ["panel-004-public-question"],
+  "public_evidence_refs": ["C005"],
+  "public_action_signals": []
+}

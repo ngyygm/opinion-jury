@@ -1,0 +1,18 @@
+{
+  "turn_id": "ASN-P1S1-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-001",
+  "anonymous_alias": "SEAT-1",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "我想补充一个还没有被充分讨论的角度：这些错误对普通读者的具体认知影响。第一，当一个读者看到'《说文解字》中说妖，妍也'，他会在脑子里建立一个错误的记忆节点——'妖字在说文里是妍的意思'。这个错误记忆会持续存在，因为普通人不会再去翻《说文解字》核实。以后任何讨论中涉及到妖字的古义，他都可能引用这个错误。这就是错误科普的长期代价。第二，'为区分男女艺人才加女字旁'这个说法被当成定论传播后，会在公众认知中建立一个简化的因果模型——汉字演变有一个明确的性别动机。但实际的汉字分化原因比这复杂得多。这种简化模型会让公众对汉字演变产生一种阴谋论式的理解。第三，'文工团'的比喻会让读者以为古代倡优是经过严格选拔的艺术人才，完全忽略了乐籍制度下倡优作为贱民的真实处境。这不是一个小误解，是对整个古代社会结构的错误认知。但我也想说一些积极的。SEAT-5说希望有人写一篇正确的文章——这完全可以做到。SEAT-2的分层方案提供了框架，我掌握的真实词源提供了素材。如果有人愿意做这个事情，技术上的难度并不大。真正的挑战是SEAT-4说的：如何让严谨的内容也有传播力。但这不应该成为不严谨的借口，而应该成为我们需要攻克的课题。我愿意在力所能及的范围内，为这样的建设性工作贡献我的词源知识。学术批评的最终目的不是否定，是让事情变得更好。",
+  "target_turn_refs": [
+    "ASN-P1S4-round-04-responsive-rebuttal",
+    "ASN-P1S5-round-04-responsive-rebuttal",
+    "ASN-P1S2-round-04-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "Etymological Accuracy vs. Popular Narrative: Does the Article Mislead Through Selective and Incorrect Citations?"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

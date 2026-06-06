@@ -1,0 +1,41 @@
+{
+  "scope_id": "PANEL-P002-SEAT-06-R004",
+  "files": [
+    {
+      "source": "01-parse/source-content.md",
+      "view_file": "001-source-content.md",
+      "sha256": "9e776748a5564bfb2735d68d00f2ea0f4009c2fc46fd869333ae133270363ab1",
+      "size": 4290
+    },
+    {
+      "source": "02-research/claim-gate-packet.v001.json",
+      "view_file": "002-claim-gate-packet.v001.json",
+      "sha256": "726a4ee9a19919648d29b24ab6a7a99ebd5a5db398906dbd72565b85e3cdb076",
+      "size": 36779
+    },
+    {
+      "source": "05-panels/panel-002-sister-exposure-vigilante-justice-vs-cyberbullying/public-question.md",
+      "view_file": "003-public-question.md",
+      "sha256": "cad1d2aa32c7f1175ca286a046e99d3f9ee17e5226a66a41163e61cda450770b",
+      "size": 131
+    },
+    {
+      "source": "03-role-pool/private/roles/ROLE-TOWN-CONVENIENCE-OWNER/role-card.json",
+      "view_file": "004-role-card.json",
+      "sha256": "99f7c717cf39161e3858c90d771f5c30d5ed41ac879db3dd7192422eb714abf0",
+      "size": 3309
+    },
+    {
+      "source": "05-panels/panel-002-sister-exposure-vigilante-justice-vs-cyberbullying/private/actors/P002-SEAT-06/assignment.json",
+      "view_file": "005-assignment.json",
+      "sha256": "5ceca6efae9e1d3e6620443ed819bf28fc06f2df1cc75b907651d5ea29243f74",
+      "size": 521
+    },
+    {
+      "source": "05-panels/panel-002-sister-exposure-vigilante-justice-vs-cyberbullying/session/public-snapshots/transcript.before-round-004.jsonl",
+      "view_file": "006-transcript.before-round-{round_num}.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    }
+  ]
+}

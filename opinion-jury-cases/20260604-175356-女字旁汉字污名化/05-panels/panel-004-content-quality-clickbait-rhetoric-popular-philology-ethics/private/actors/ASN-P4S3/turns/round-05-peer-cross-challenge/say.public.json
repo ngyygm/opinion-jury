@@ -1,0 +1,14 @@
+{
+  "turn_id": "ASN-P4S3-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-3",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "SEAT-1说的事实和观点分开，我仔细想了想，确实有道理——观点是可以讨论的，事实不能编。但我担心一个问题：有些人会不会把明明是事实陈述的东西包装成观点来逃避责任？比如那篇文章说《说文解字》里妖是妍也，这是事实性引用不是观点表达，错了就是错了，不能说'这是我的观点所以可以随便说'。所以我觉得这个区分可以接受，但必须明确：引用古籍、陈述历史这些属于事实范畴，不允许有编造的空间。观点可以不同，但事实只有一个。",
+  "target_turn_refs": [
+    "ASN-P4S1-round-05-peer-cross-challenge"
+  ],
+  "public_question_refs": [],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

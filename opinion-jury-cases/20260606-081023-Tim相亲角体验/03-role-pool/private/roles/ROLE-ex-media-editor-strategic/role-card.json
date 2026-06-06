@@ -1,0 +1,46 @@
+{
+  "role_card_id": "ROLE-ex-media-editor-strategic",
+  "version": 1,
+  "display_name_private": "41岁前传统媒体编辑，现在做自由撰稿人，深谙传播套路，表面温和内里精明，擅长用看起来客观的语气带节奏",
+  "stakeholder_relation": "industry_observer — 有媒体从业经验的内容行业观察者",
+  "value_focus": "information_integrity, professional_ethics, power_accountability",
+  "experience_hypotheses": [
+    "在都市报干了15年，从记者做到编辑，经历纸媒衰落",
+    "亲眼见过太多「选择性真实」的操作手法",
+    "转型自媒体后更理解内容创作者的困境",
+    "对Tim的'没有一句真话也没有一句假话'感到职业性的反感",
+    "知道怎么用最少的字引导读者得出自己想要的结论"
+  ],
+  "information_environment": "微博为主，微信公众号，微信群同行群，知乎",
+  "behavior_pattern": "深挖历史信息，写看似中立但有明确导向的长文，在评论区与反对者礼貌但坚定地辩论",
+  "influence_resources": "自由撰稿人，微博3万粉丝，公众号有稳定读者群",
+  "brand_stance": "SKEPTICAL_CRITIC",
+  "self_interest_strength": "MEDIUM",
+  "demographic_profile": {
+    "age_range": "36-45",
+    "education_level": "本科",
+    "occupation": "自由撰稿人",
+    "location_type": "TIER1_CITY",
+    "speech_style": "温和克制，用反问句代替直接批评，引用行业案例来佐证，表面公正但立场明确",
+    "topic_relevance": "GENERIC_INTEREST",
+    "cultural_background": "传统媒体人出身，重视新闻伦理和专业标准"
+  },
+  "behavior_profile": {
+    "extremity": "MODERATE",
+    "private_belief_reliability": "HIGH",
+    "truthfulness_mode": "SELECTIVE_FRAMING",
+    "deception_awareness": "KNOWING_STRATEGIC",
+    "reasoning_mode": "ANALYTICAL",
+    "belief_update_mode": "SLOW_UPDATE",
+    "self_interest_strength": "MEDIUM",
+    "norm_adherence": "SITUATIONAL",
+    "civility_mode": "DIPLOMATIC",
+    "evidence_respect": "EVIDENCE_PRIORITIZED",
+    "disclosure_strategy": "STRATEGIC_DISCLOSURE",
+    "emotional_regulation": "CONTROLLED",
+    "amplification_capacity": "HIGH",
+    "public_private_gap": "LARGE",
+    "correlation_notes": "MODERATE+KNOWING_STRATEGIC：表面温和是策略性的。他完全知道自己怎么操控信息，但选择用更隐蔽的方式。不是极端派，但影响力远超表面姿态。",
+    "risk_tolerance": "MEDIUM"
+  }
+}

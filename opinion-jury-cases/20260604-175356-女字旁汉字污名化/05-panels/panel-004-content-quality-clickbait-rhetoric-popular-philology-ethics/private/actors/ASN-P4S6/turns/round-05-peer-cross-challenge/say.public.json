@@ -1,0 +1,16 @@
+{
+  "turn_id": "ASN-P4S6-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-6",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "SEAT-3说得太对了，引用古籍这种事就是事实不是观点，SEAT-1想用事实和观点分开来给自己留空间，但这个空间不应该留给事实性错误。SEAT-5的杀鸡比喻虽然简单但道理一点没错。说到底，我作为天天上网看东西的人，最想要的很简单：看一篇文章的时候能知道它说的是事实还是看法，事实的部分靠得住，看法的部分我知道是看法。就像买食品一样，配料表是真的，广告词我知道是广告词。这个要求过分吗？我觉得不过分。",
+  "target_turn_refs": [
+    "ASN-P4S3-round-05-peer-cross-challenge",
+    "ASN-P4S5-round-05-peer-cross-challenge",
+    "ASN-P4S1-round-05-peer-cross-challenge"
+  ],
+  "public_question_refs": [],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

@@ -1,0 +1,21 @@
+{
+  "turn_id": "P001-SEAT-2-round-06-responsive-rebuttal",
+  "panel_id": "PANEL-001",
+  "anonymous_alias": "SEAT-2",
+  "round": 6,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "最终总结。\n\n回顾六轮讨论，我的立场经历了一个诚实的调整：从最初的'创新必然伴随不适'到承认'让人不舒服不一定是创新'，再到提出'语境脱嵌'论。我感谢SEAT-6直接点出了我的问题，让我调整了论证。\n\n最终我的立场是：品牌展现多元妈妈形象的方向是好的，'两个老公'这个表达在追星语境下完全正常，问题在于品牌把圈内语言搬到面向全国的广告时缺少足够的语境铺垫。\n\nSEAT-4的分析让整个讨论上升到了一个更有价值的层次——亚文化与主流文化在公共空间中的碰撞是一个结构性问题，不是任何一方的错。SEAT-1对表达权的坚持让我深刻理解了追星妈妈的处境。SEAT-3的朴素立场提醒我：常识和基本分寸确实很重要。SEAT-5的中间立场可能是最务实的选择。SEAT-6的代际视角让我看到了这个问题的时间维度。\n\n建设性建议：品牌在使用亚文化元素做营销时，应该提供足够的语境让非圈内人也能理解，而不是简单地搬运圈内语言。这样既能保留亚文化的真实性，又能减少公共传播中的误解。\n\n六轮下来虽然没有人完全说服谁，但我觉得我们都在往理解对方的方向前进了一步。这就是讨论的价值。",
+  "target_turn_refs": [
+    "P001-SEAT-4-round-05-peer-cross-challenge",
+    "P001-SEAT-1-round-06-responsive-rebuttal",
+    "P001-SEAT-3-round-05-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "panel-001-public-question"
+  ],
+  "public_evidence_refs": [
+    "C005",
+    "C007"
+  ],
+  "public_action_signals": []
+}

@@ -1,0 +1,150 @@
+{
+  "panel_id": "PANEL-001",
+  "panel_question": "\"两个老公\"追星配图：饭圈用语还是对婚姻关系的轻佻冒犯",
+  "adjudication_date": "2026-06-06",
+  "adjudicator": "BLIND_ADJUDICATOR",
+  "transcript_summary": {
+    "total_turns": 36,
+    "total_rounds": 6,
+    "total_speakers": 6,
+    "phases": ["OPENING", "DIRECT_REBUTTAL", "PEER_CROSS_CHALLENGE", "RESPONSIVE_REBUTTAL", "PEER_CROSS_CHALLENGE", "RESPONSIVE_REBUTTAL"]
+  },
+  "position_analysis": {
+    "SEAT-1": {
+      "identified_stance": "STRONG_SUPPORTER",
+      "core_argument": "'两个老公'是正常饭圈用语，追星妈妈有权用自己的语言表达自己，不是对婚姻的不尊重",
+      "argument_evolution": "从情感驱动的自我辩护，发展为追问'瑕疵'本质的权利论述，最终接受'语境脱嵌'作为建设性方向但坚持表达权不可妥协",
+      "persuasiveness": "HIGH",
+      "evidence_quality": "LOW - 主要依赖个人经历和圈内共识，缺乏外部证据引用",
+      "rhetorical_strength": "个人经历的真实性提供了不可替代的情感说服力；'双重标准论'和'审查论'在逻辑上有力；但过于情绪化时削弱了说服力"
+    },
+    "SEAT-2": {
+      "identified_stance": "BRAND_DEFENDER",
+      "core_argument": "品牌创意方向好，'语境脱嵌'是核心问题，应通过提供语境而非改变表达来解决",
+      "argument_evolution": "从'创新论'（被有效反驳）到承认执行瑕疵，最终提出'语境脱嵌'这一最精准的分析框架",
+      "persuasiveness": "MEDIUM-HIGH",
+      "evidence_quality": "MEDIUM - 引用了多张配图的多元性（C006/C007/C008），但选择性回避了品牌的具体问题",
+      "rhetorical_strength": "'语境脱嵌'论的提出是整个讨论中最重要的概念贡献；策略性地承认不足建立了可信度"
+    },
+    "SEAT-3": {
+      "identified_stance": "TRADITIONAL_OPPOSITION",
+      "core_argument": "'两个老公'是对婚姻的不尊重，做人要有分寸，说话要看场合",
+      "argument_evolution": "从激烈道德谴责（'不要脸'）到软化表达（承认说过头了）但坚持核心立场，引用权威机构支持",
+      "persuasiveness": "MEDIUM",
+      "evidence_quality": "MEDIUM - 引用了武汉大学和中国妇女报的官方立场（C010），提供了社会共识的锚点",
+      "rhetorical_strength": "朴素的道理对普通受众有天然的共鸣力；但极端表述（'不要脸'）削弱了理性说服力；对互联网文化的无知限制了论证深度"
+    },
+    "SEAT-4": {
+      "identified_stance": "ANALYTICAL_CRITIC",
+      "core_argument": "品牌方向值得肯定但表达方式有结构性问题——亚文化与主流文化在公共空间碰撞时的结构性张力",
+      "argument_evolution": "从'投机论'和'单一替代论'到承认三张配图的多元性，最终提出'结构性张力'的高层次分析框架",
+      "persuasiveness": "HIGH",
+      "evidence_quality": "HIGH - 系统引用了CLAIM_GATE多个条目（C007/C009/C010/C014），分析严谨",
+      "rhetorical_strength": "分析能力突出，能够承认己方论点的不足并修正（修正了'单一替代论'）；但学术化表达对非专业受众不友好"
+    },
+    "SEAT-5": {
+      "identified_stance": "MODERATE_CENTER",
+      "core_argument": "方向对但执行需改进，私人空间和公共空间有界限，需要找到平衡点",
+      "argument_evolution": "从'私下vs公开'的简单区分到承认SEAT-1的质疑有理，最终接受'语境脱嵌'并提出'保留真实表达+提供语境'的平衡方案",
+      "persuasiveness": "HIGH",
+      "evidence_quality": "MEDIUM - 引用了C007和C005，论证中规中矩",
+      "rhetorical_strength": "温和理性形成了独特的说服力——不试图赢而是试图理解；'最大公约数'的定位获得了多方认可；最终的建设性方案最具可操作性"
+    },
+    "SEAT-6": {
+      "identified_stance": "CASUAL_OBSERVER",
+      "core_argument": "代际差异是真实的，不同代的人活在不同的世界里，没有绝对对错",
+      "argument_evolution": "从纯粹看热闹到逐渐认真参与，最终提供了独特的代际视角",
+      "persuasiveness": "LOW-MEDIUM",
+      "evidence_quality": "LOW - 未引用任何CLAIM_GATE证据",
+      "rhetorical_strength": "代际视角的引入为讨论提供了独特维度；'学校公告栏'类比简洁有力；但整体参与度低限制了说服力"
+    }
+  },
+  "debate_dynamics": {
+    "key_turning_points": [
+      {
+        "round": 2,
+        "event": "SEAT-5提出'私人空间vs公共空间'框架",
+        "impact": "将讨论从情感对立推向理性分析层次"
+      },
+      {
+        "round": 3,
+        "event": "SEAT-4反驳SEAT-3的'不要脸'论，提出'谁的底线谁来定义'",
+        "impact": "揭示了传统价值观中隐含的性别偏见，提升了讨论层次"
+      },
+      {
+        "round": 4,
+        "event": "SEAT-2承认'创新论'有缺陷，SEAT-4修正'单一替代论'",
+        "impact": "各方开始让步，讨论从对抗转向建设性分析"
+      },
+      {
+        "round": 5,
+        "event": "SEAT-2提出'语境脱嵌'论，SEAT-4提出'结构性张力'论",
+        "impact": "讨论产出了两个最有分析价值的概念框架"
+      },
+      {
+        "round": 5,
+        "event": "SEAT-6引入'代际差异'视角",
+        "impact": "为问题添加了时间维度，暗示张力可能随代际更替而消解"
+      }
+    ],
+    "alliance_patterns": "SEAT-1和SEAT-2形成了支持方联盟；SEAT-3和SEAT-4虽然都持批评立场但理由截然不同（传统道德vs学术分析）；SEAT-5作为中间派获得了多方认可；SEAT-6作为旁观者提供了独特视角",
+    "consensus_formation": "到第4-5轮，'方向对执行需改进'成为最大公约数；'语境脱嵌'被多方接受为问题核心；'提供语境'被接受为建设性方向"
+  },
+  "attacks_that_gained_traction": [
+    {
+      "attack": "SEAT-4反驳SEAT-2的'创新论'：让人不舒服不等于创新",
+      "traction": "HIGH - SEAT-2本人承认了论点有问题并调整了论证"
+    },
+    {
+      "attack": "SEAT-1追问'瑕疵到底是什么'——揭示了对追星语言的隐性否定",
+      "traction": "MEDIUM-HIGH - SEAT-5承认了'更好地看见'有模糊之处"
+    },
+    {
+      "attack": "SEAT-4指出SEAT-3'不要脸'论中的性别偏见",
+      "traction": "MEDIUM - SEAT-3软化了表述但未改变核心立场"
+    },
+    {
+      "attack": "SEAT-3反驳'语境脱嵌'论：什么语境能让'两个老公'被接受？",
+      "traction": "MEDIUM - 暴露了'语境脱嵌'论的实践局限性"
+    }
+  ],
+  "content_that_resists_distortion": [
+    "'两个老公'在追星文化中是正常用语——这一事实被多方接受，包括批评者",
+    "武汉大学和中国妇女报的批评立场——作为社会共识的锚点未被有效反驳",
+    "品牌两次道歉的事实——确认了品牌自身承认执行有问题",
+    "追星妈妈的自我表达权应被尊重——最终被所有参与者认可",
+    "公共传播需要考虑多元受众——最终被所有参与者认可"
+  ],
+  "real_world_risk_assessment": {
+    "risk_level": "MODERATE",
+    "risk_summary": "品牌活动的实际社会风险是可控的。品牌已两次道歉并采取了修正措施。讨论显示争议核心在于'语境脱嵌'而非追星行为本身，这意味着未来类似活动可以通过提供更好的语境信息来规避类似风险。武汉大学的公开声明和中国妇女报的批评代表了社会共识的锚点，但在年轻一代中对该类表达的接受度正在提高。",
+    "specific_risks": [
+      {
+        "risk": "传统价值观群体的持续反感",
+        "severity": "MEDIUM",
+        "mitigation": "品牌已道歉，短期内不会重复类似错误"
+      },
+      {
+        "risk": "追星群体对品牌的过度期待",
+        "severity": "LOW",
+        "mitigation": "追星妈妈群体本身规模有限且品牌已转向更安全的策略"
+      },
+      {
+        "risk": "代际文化冲突的持续",
+        "severity": "LOW-MEDIUM",
+        "mitigation": "这是结构性问题，会随时间自然缓解"
+      }
+    ]
+  },
+  "final_assessment": {
+    "question_answer": "两者兼有——'两个老公'既是饭圈用语，也在公共传播语境下对部分受众构成了对婚姻关系的轻佻冒犯。这不是非此即彼的问题，而是亚文化语言在公共空间中因语境缺失而产生了理解错位。讨论产出的最精准分析框架是'语境脱嵌'：表达本身在追星文化中正常且无冒犯意图，但被商业化挪用到面向全民的公共广告时，因缺少必要的语境铺垫，被非追星受众解读为对婚姻的轻佻表达。",
+    "strongest_arguments": [
+      "SEAT-2的'语境脱嵌'论——最精准地定位了问题",
+      "SEAT-4的'结构性张力'论——将讨论提升到理论高度",
+      "SEAT-1的'表达权悖论'——揭示了'多元'口号与实践之间的真实张力",
+      "SEAT-3引用权威机构的社会共识锚定",
+      "SEAT-6的代际差异视角——暗示问题可能随时间消解"
+    ],
+    "constructive_direction": "品牌在使用亚文化元素做公共传播时，应在保留表达真实性的同时提供足够的语境信息，让非圈内受众也能正确理解。这不是审查也不是妥协，而是让不同文化在公共空间中实现真正的互相理解。"
+  }
+}

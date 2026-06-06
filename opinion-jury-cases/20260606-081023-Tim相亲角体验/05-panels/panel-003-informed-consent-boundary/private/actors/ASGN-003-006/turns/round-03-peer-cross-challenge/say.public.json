@@ -1,0 +1,17 @@
+{
+  "turn_id": "ASGN-003-006-round-03-peer-cross-challenge",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-6",
+  "round": 3,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "那个前媒体编辑说的什么信息对称性，我翻译成我们的话就是：Tim开了全图视野，对面什么都看不见，然后跟对面说'来吧公平对决'。对面不知道你开挂了，就同意了。这个同意能算数吗？肯定不算啊。你要开挂你就先跟人家说'我开了全图'，人家同意了才算。说白了就是，你装成别人跟人互动，你就得先说清楚你是在装的，不然人家怎么知道呢？那个幼儿园老师说的我也觉得有道理——正常拍不用说什么，但是你装成别人就得说清楚。这跟我打游戏一个道理，你要开房间玩自定义，你得告诉队友规则是什么吧？不过我还是想说一句，你们大人为一个视频吵了这么多轮，真的好能吵。我打排位都没这么费劲。",
+  "target_turn_refs": [
+    "ASGN-003-005-round-03-peer-cross-challenge",
+    "ASGN-003-003-round-03-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "panel-003-public-question"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

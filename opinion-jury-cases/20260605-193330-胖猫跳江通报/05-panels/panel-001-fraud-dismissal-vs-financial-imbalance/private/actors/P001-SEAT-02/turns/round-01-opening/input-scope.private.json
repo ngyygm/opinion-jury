@@ -1,0 +1,11 @@
+{
+  "scope_id": "PANEL-P001-SEAT-02-R001",
+  "allowlist": [
+    "01-parse/source-content.md",
+    "02-research/claim-gate-packet.v001.json",
+    "05-panels/panel-001-fraud-dismissal-vs-financial-imbalance/public-question.md",
+    "03-role-pool/private/roles/ROLE-LAW-STUDENT-ANALYTICAL/role-card.json",
+    "05-panels/panel-001-fraud-dismissal-vs-financial-imbalance/private/actors/P001-SEAT-02/assignment.json",
+    "05-panels/panel-001-fraud-dismissal-vs-financial-imbalance/session/public-snapshots/transcript.before-round-001.jsonl"
+  ]
+}

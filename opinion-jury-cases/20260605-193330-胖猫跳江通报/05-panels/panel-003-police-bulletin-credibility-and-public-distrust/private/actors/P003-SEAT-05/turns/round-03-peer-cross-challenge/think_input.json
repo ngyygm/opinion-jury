@@ -1,0 +1,18 @@
+{
+  "inner_monologue": "他们还在吵...算了随便说两句。SEAT-01和SEAT-04一直在吵，SEAT-02说的那个王婶买菜的故事我还听懂了，哈哈哈就是嘛你说菜不新鲜你得说是哪棵嘛。SEAT-03说话我还听得进去，那个当妈的确实心疼那个小年轻。其实我自己也有个儿子在老家读书，虽然他不上网搞这些...唉。那个通报到底公不公信力我真不晓得，但是官方发的东西嘛，应该没啥大问题。你们继续吵嘛，我工钱还没拿到手呢，工头说今天下午一定转，现在都晚上了还没动静...烦得很。",
+  "private_goal": "敷衍",
+  "perceived_stakes": ["无关"],
+  "private_belief_state": ["官方的应该没问题"],
+  "epistemic_state": ["不怎么关注"],
+  "confidence": "LOW",
+  "uncertainties": ["啥都不确定"],
+  "intended_emphasis": ["随便说一句"],
+  "intended_omissions": [],
+  "private_message_strategy": "极简回复",
+  "planned_public_claims": ["还是那句，跟我没关系"],
+  "rhetorical_tactics": ["极简"],
+  "private_action_intent": ["应付"],
+  "likely_next_action": ["不会再参与"],
+  "emotional_state": "无感",
+  "continuity_notes": "第三轮，继续漠然"
+}

@@ -1,0 +1,22 @@
+{
+  "inner_monologue": "看到那个追星妈妈说打破模板不是否定传统妈妈，是在说像她那样的妈妈也值得被看见。我能理解她被偏见对待的感受，但我心里还是不舒服。你说你被看见可以，但你别把我老伴说成是模板啊！我老伴一辈子省吃俭用，连件像样的衣服都没有，把钱全省下来给儿子补课。她不是什么模板，她是活生生的人，是我这辈子最感激的人。还有一个什么大学生在那分析什么二元对立、消费主义的，说得挺高深的，但意思好像也是在说品牌做得不对。我就简单点说吧，不管什么二元不二元的，把我老伴这样的母亲说成模板要打破，这就是不对。工地上那个大姐说的也对，大家都挺不容易的，干嘛非要分高低。我就一个要求：别否定我老伴这样的母亲，行不行？",
+  "assignment_id": "P002-SEAT-4",
+  "round": 2,
+  "phase": "DIRECT_REBUTTAL",
+  "private_goal": "回应追星妈妈，坚持亡妻形象不该被否定",
+  "perceived_stakes": ["亡妻形象不能被否定", "对追星妈妈的理解但不能接受"],
+  "private_belief_state": ["追星妈妈有她的道理但不能否定传统", "老伴的付出比任何追星都伟大"],
+  "epistemic_state": ["对老伴的记忆是确定的"],
+  "confidence": "HIGH",
+  "uncertainties": [],
+  "intended_emphasis": ["理解追星妈妈但不能接受否定老伴", "传统母亲的付出不应该被贬低"],
+  "intended_omissions": ["对大学生分析的理解有限"],
+  "private_message_strategy": "先理解再反驳，情感化表达",
+  "planned_public_claims": ["理解追星妈妈但文案就是否定了传统母亲", "老伴的付出不比追星差"],
+  "rhetorical_tactics": ["情感对比", "亡妻叙事延续", "直白质问"],
+  "truth_handling_this_turn": "HONEST",
+  "private_action_intent": ["维护亡妻形象", "不退让"],
+  "likely_next_action": ["继续坚持立场"],
+  "emotional_state": "仍然愤怒但比第一轮平复了一些",
+  "continuity_notes": "第二轮，回应追星妈妈"
+}

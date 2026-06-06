@@ -1,0 +1,16 @@
+{
+  "turn_id": "P002-SEAT-05-round-02-direct-rebuttal",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-05",
+  "round": 2,
+  "phase": "DIRECT_REBUTTAL",
+  "speech_text": "我就说一句。\n\nSEAT-02你说的那些我也没仔细看，但是你一直在吵，是不是有点过了？\n\n我们骑手群里有个人被恶意差评了，气不过想找人给那个顾客刷差评报复，结果被平台发现，直接封号了。封号了以后没收入，房贷都还不上。这就是冲动行事的下场。\n\n花钱雇人骂人就是不对，不管是网上还是线下。这个道理很简单。搞那么复杂干嘛。\n\n好了我不说了，还有单子。",
+  "target_turn_refs": [
+    "P002-SEAT-02-round-01-opening"
+  ],
+  "public_question_refs": [
+    "姐姐刘某的网络曝光行为——'为弟申冤'的正义感与'蓄意网暴'的违法性之间的冲突"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

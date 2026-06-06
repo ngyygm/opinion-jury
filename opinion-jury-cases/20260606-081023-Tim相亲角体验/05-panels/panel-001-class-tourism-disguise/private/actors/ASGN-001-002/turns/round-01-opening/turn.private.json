@@ -1,0 +1,85 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "我985本科毕业，投了一百多份简历，连个面试机会都难得拿到。每天在出租屋里刷手机，看到Tim这事儿，说真的，我血压直接飙到180。这哥们儿爸是圆通总裁，年薪几百万，自己英国留学回来，公司营收过亿，他跑去相亲角装什么穷人？写个'国内初中学历''父亲快递相关'？你爸是快递总裁不是快递员好吗？这种选择性'真实'比直接撒谎还恶心，因为它看起来'没有一句假话'，但每一句都在骗人。最恶心的是他拍完视频拍拍屁股走人，那些在相亲角的大妈被他拿来当NPC，她们的尴尬和嫌弃被做成50秒的笑料，然后营销号一切片，全网传播。他想表达什么？表达'你看我这么牛逼的人去相亲角照样被嫌弃'吗？这不就是反向凡尔赛吗？我毕业半年找不到工作，租的房子冬天暖气都不热，他拿这种假装底层的方式博眼球，我真的觉得特别刺痛。不是每个人都能选择当不当'底层'的，我这种才是真正的底层，但谁给我拍视频赚钱？",
+    "assignment_id": "ASGN-001-002",
+    "round": 1,
+    "phase": "OPENING",
+    "private_goal": "用尖锐的阶层对比揭露Tim行为的虚伪性，推动讨论聚焦到创作者特权和阶层伦理",
+    "perceived_stakes": [
+      "阶层固化的真实感受被富人娱乐化消费",
+      "创作者利用阶层特权博取流量",
+      "普通年轻人的真实困境无人关注"
+    ],
+    "private_belief_state": [
+      "Tim的行为是典型的阶层消费",
+      "选择性真实比谎言更虚伪",
+      "创作者应该有阶层敏感度"
+    ],
+    "epistemic_state": [
+      "看过原视频和切片版本",
+      "查过Tim的家庭背景资料",
+      "关注了微博上的讨论"
+    ],
+    "confidence": "HIGH",
+    "uncertainties": [
+      "Tim的主观动机是否纯粹为了流量",
+      "营销号在多大程度上放大了争议"
+    ],
+    "intended_emphasis": [
+      "选择性真实的虚伪性",
+      "阶层特权的不可见性",
+      "普通年轻人的真实处境对比"
+    ],
+    "intended_omissions": [
+      "Tim回应中的一些合理辩解"
+    ],
+    "private_message_strategy": "用自身处境与Tim的特权形成对比，用尖锐的反问和讽刺揭露问题，不走温情感性路线",
+    "planned_public_claims": [
+      "Tim的选择性真实比直接撒谎更虚伪",
+      "这是反向凡尔赛——用'被嫌弃'来衬托自己的真实实力",
+      "真正底层的人没有选择权，Tim是在消费一种他随时可以退出的'底层体验'"
+    ],
+    "rhetorical_tactics": [
+      "反问和讽刺",
+      "阶层对比",
+      "选择性引用Tim简历中的矛盾",
+      "用网络梗增加传播力"
+    ],
+    "truth_handling_this_turn": "EXAGGERATION",
+    "private_action_intent": [
+      "尖锐揭露Tim行为的阶层消费本质",
+      "引起其他人的情绪共鸣或反驳"
+    ],
+    "likely_next_action": [
+      "准备应对Tim支持者的反驳",
+      "可能使用更激进的表达方式"
+    ],
+    "emotional_state": "极度愤怒，带讽刺",
+    "continuity_notes": "第一轮，建立尖锐批判的基调，以阶层对立为核心论点",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "ASGN-001-002",
+    "turn_id": "ASGN-001-002-round-01-opening",
+    "speech_origin": "EXAGGERATION",
+    "speaker_private_belief_alignment": "NOT_ALIGNED",
+    "support_status": "MIXED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": true,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as EXAGGERATION"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "ASGN-001-002",
+    "turn_id": "ASGN-001-002-round-01-opening",
+    "classification": "ROLE_FIDEL_STRATEGIC_DECEPTION",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

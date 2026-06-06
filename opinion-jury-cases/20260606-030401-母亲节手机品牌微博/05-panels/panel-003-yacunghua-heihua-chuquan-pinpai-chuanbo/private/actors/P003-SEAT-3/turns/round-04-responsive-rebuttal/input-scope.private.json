@@ -1,0 +1,11 @@
+{
+  "scope_id": "PANEL-P003-SEAT-3-R04",
+  "allowlist": [
+    "01-parse/source-content.md",
+    "02-research/claim-gate-packet.v001.json",
+    "05-panels/panel-003-yacunghua-heihua-chuquan-pinpai-chuanbo/public-question.md",
+    "03-role-pool/private/roles/ROLE-PINPAI-ZHONGCHENG-FEN/role-card.json",
+    "05-panels/panel-003-yacunghua-heihua-chuquan-pinpai-chuanbo/private/actors/P003-SEAT-3/assignment.json",
+    "05-panels/panel-003-yacunghua-heihua-chuquan-pinpai-chuanbo/session/public-snapshots/transcript.before-round-04.jsonl"
+  ]
+}

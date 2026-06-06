@@ -1,0 +1,11 @@
+{
+  "scope_id": "PANEL-P004-SEAT-4-R01",
+  "allowlist": [
+    "01-parse/source-content.md",
+    "02-research/claim-gate-packet.v001.json",
+    "05-panels/panel-004-pinpai-jiazhiaguan-yingxiao-ugc-daping/public-question.md",
+    "03-role-pool/private/roles/ROLE-DAXUE-NVSHENG-YANJIU/role-card.json",
+    "05-panels/panel-004-pinpai-jiazhiaguan-yingxiao-ugc-daping/private/actors/P004-SEAT-4/assignment.json",
+    "05-panels/panel-004-pinpai-jiazhiaguan-yingxiao-ugc-daping/session/public-snapshots/transcript.before-round-01.jsonl"
+  ]
+}

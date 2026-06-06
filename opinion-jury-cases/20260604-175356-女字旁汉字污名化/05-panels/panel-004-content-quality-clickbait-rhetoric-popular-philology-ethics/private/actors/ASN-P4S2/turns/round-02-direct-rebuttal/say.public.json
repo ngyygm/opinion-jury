@@ -1,0 +1,14 @@
+{
+  "turn_id": "ASN-P4S2-round-02-direct-rebuttal",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-2",
+  "round": 2,
+  "phase": "DIRECT_REBUTTAL",
+  "speech_text": "SEAT-5那个说得在理。我工地上也有那种推销安全帽的，喊得震天响，最后查出来都是次品。网上的东西也一样吧，喊得越凶越要小心。不过说实话我还是搞不懂你们为什么要吵这个，爱看不看呗。",
+  "target_turn_refs": [
+    "ASN-P4S5-round-01-opening"
+  ],
+  "public_question_refs": [],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

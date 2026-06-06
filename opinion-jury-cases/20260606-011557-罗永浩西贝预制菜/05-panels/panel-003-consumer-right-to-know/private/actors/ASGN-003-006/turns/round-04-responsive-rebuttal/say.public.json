@@ -1,0 +1,16 @@
+{
+  "turn_id": "ASGN-003-006-round-04-responsive-rebuttal",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-6",
+  "round": 4,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "SEAT-4提到我说的话了，说什么知情权有阶层属性。我之前没这么想过，但他说得对——我一天的饭钱二三十块，没资格挑三拣四。你们花一百多块吃饭的人讨论知不知情的，对我来说就跟听天书一样。\n\n不过听你们说了这么多轮，有一点我听明白了：不管你是厨师、服务员还是建筑工人，给老板干活的人在企业眼里都差不多——用得着的时候用，用不着了就扔。SEAT-3的赔偿金没拿完、SEAT-5的徒弟转行送外卖，跟我们工地上工钱拖欠是一个道理。\n\n你们继续聊，我看看。这些事我一个建筑工人改变不了什么，但你们能讨论、能推动变化，也挺好的。",
+  "target_turn_refs": [
+    "ASGN-003-004-round-04-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "消费者知情权与餐饮行业透明度底线"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

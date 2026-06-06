@@ -1,0 +1,22 @@
+{
+  "turn_id": "ASN-P1S2-round-02-direct-rebuttal",
+  "panel_id": "PANEL-001",
+  "anonymous_alias": "SEAT-2",
+  "round": 2,
+  "phase": "DIRECT_REBUTTAL",
+  "speech_text": "我想把讨论拉到一个更大的框架里。SEAT-1和SEAT-3对文章具体问题的分析，很多我同意，我不打算在词源细节上纠缠。但我想提出一个关键区分：文章的论证质量是一回事，语义贬低现象本身是否存在是另一回事。让我给大家一个跨语言的视角。在英语中，大量研究表明与女性相关的词汇经历了系统性的语义贬低。比如mistress本来是女主人，现在几乎只指情妇；hussy本来是家庭主妇，现在指轻浮女人；madam本来是对女性的尊称，现在被用来指妓院老板。法语里，阴性名词比阳性名词更容易发展出贬义含义。这不是我编的，Dale Spender的Man Made Language(1980)、Muriel Schulz的The Semantic Derogation of Woman(1975)、Penelope Eckert的语言与性别研究都是这个领域的经典文献。回到中文，嫖从轻捷到狎妓、妓从女乐到卖淫、妖从美好到怪异——这些具体的语义变迁即便不以文章那种不严谨的方式呈现，在学术上也是可以论证的。SEAT-1指出的引用错误我承认，SEAT-3的逻辑拆解我也能接受。但我想问两位一个问题：你们是否承认，在某些历史阶段，部分与女性关联的词汇确实经历了语义贬低？如果承认，那我们的分歧不在现象是否存在，而在如何严谨地论证它。这才是有建设性的讨论方向。我对SEAT-4的观点持保留意见——引发讨论就有价值不能成为降低学术标准的理由。但我们也不能否认，这篇文章确实让更多人开始关注一个在学术界已经有几十年研究历史的真实现象。关键是：如何在不牺牲准确性的前提下，让公众理解这些研究发现。",
+  "target_turn_refs": [
+    "ASN-P1S1-round-01-opening",
+    "ASN-P1S3-round-01-opening",
+    "ASN-P1S4-round-01-opening"
+  ],
+  "public_question_refs": [
+    "Etymological Accuracy vs. Popular Narrative: Does the Article Mislead Through Selective and Incorrect Citations?"
+  ],
+  "public_evidence_refs": [
+    "Dale Spender, Man Made Language (1980)",
+    "Muriel Schulz, The Semantic Derogation of Woman (1975)",
+    "跨语言语义贬低研究传统"
+  ],
+  "public_action_signals": []
+}

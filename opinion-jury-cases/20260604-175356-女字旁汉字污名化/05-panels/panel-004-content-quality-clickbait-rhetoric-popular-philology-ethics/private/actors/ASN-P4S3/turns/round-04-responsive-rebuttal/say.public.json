@@ -1,0 +1,14 @@
+{
+  "turn_id": "ASN-P4S3-round-04-responsive-rebuttal",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-3",
+  "round": 4,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "SEAT-1承认了前后矛盾，这比之前强辩好多了。不过他说什么行业通病，听着还是有点像在找借口。我想了想，其实大家争论了这么久，能不能找到一个底线？我觉得很简单：你可以把复杂的知识说得通俗点，可以简化，可以挑有趣的说——但是你不能无中生有。存在的你可以说，不确定的你可以说'据说'，但不存在的你不能编。这个底线不算过分吧？如果一个做内容的人连这个都做不到，那就不是什么行业通病的问题了，那就是人品问题。",
+  "target_turn_refs": [
+    "ASN-P4S1-round-04-responsive-rebuttal"
+  ],
+  "public_question_refs": [],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

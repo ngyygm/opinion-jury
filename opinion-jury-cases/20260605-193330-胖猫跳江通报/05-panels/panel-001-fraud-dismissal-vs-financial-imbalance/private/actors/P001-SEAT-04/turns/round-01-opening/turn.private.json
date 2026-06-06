@@ -1,0 +1,86 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "呜呜呜看到通报我真的哭了好几次。胖猫好可怜啊！79.9万怎么可能不是诈骗？？？我一个月零花钱才200块，79.9万对我来说根本无法想象。通报说'真实恋爱关系'，但是...但是真的恋爱会让人把钱都转光然后跳江吗？这说不通啊！我在抖音上看了好多视频，都说谭某是渣女。但是通报说'不构成诈骗'...可是我就是觉得不对劲。79.9万啊！！！317次转账！！！我姐姐（就是班上我最好的朋友）说这肯定是精神控制，Pua那种。我觉得她说得对。虽然我不太懂法律什么的，但是一个21岁的男生把所有钱都给了一个女生，然后自己跳江了，这怎么可能只是普通恋爱？不过...通报是警察叔叔发的，应该不会骗人吧？但是警察也可能搞错啊...我真的很矛盾。班上同学都在讨论这件事，大部分人都觉得谭某有问题。我也要发表一下自己的看法，虽然我可能说得不太好。不管怎样，我觉得79.9万这个数字太夸张了，不管法律怎么说，感情上我就是觉得不对。",
+    "assignment_id": "P001-SEAT-04",
+    "round": 1,
+    "phase": "OPENING",
+    "private_goal": "从直觉和情感角度质疑通报结论，觉得79.9万转账金额太大了不可能是正常恋爱",
+    "perceived_stakes": [
+      "跟同学有共同话题",
+      "表达自己的感受"
+    ],
+    "private_belief_state": [
+      "79.9万太多了不可能是正常恋爱",
+      "胖猫很可怜",
+      "对通报结论有怀疑但不确定",
+      "感情上觉得谭某有问题"
+    ],
+    "epistemic_state": [
+      "对案件了解主要来自抖音视频和同学讨论",
+      "法律知识几乎为零",
+      "容易被感性叙事影响"
+    ],
+    "confidence": "LOW",
+    "uncertainties": [
+      "不确定法律怎么定义诈骗",
+      "不确定通报是不是完全正确的",
+      "不知道全部事实"
+    ],
+    "intended_emphasis": [
+      "79.9万太夸张了",
+      "胖猫太可怜了",
+      "感觉不对劲"
+    ],
+    "intended_omissions": [
+      "不提自己其实不太懂法律",
+      "不提自己对很多细节其实不了解"
+    ],
+    "private_message_strategy": "用直感和情绪说话，用同龄人能理解的方式表达",
+    "planned_public_claims": [
+      "79.9万太夸张了不像正常恋爱",
+      "胖猫转了那么多钱最后跳江了怎么可能没关系",
+      "感觉谭某肯定有问题"
+    ],
+    "rhetorical_tactics": [
+      "夸张表达",
+      "反问",
+      "感性渲染"
+    ],
+    "truth_handling_this_turn": "SINCERE_BUT_MISTAKEN",
+    "private_action_intent": [
+      "表达质疑和不满",
+      "获得认同感"
+    ],
+    "likely_next_action": [
+      "回应别人的反驳",
+      "可能被说服也可能坚持"
+    ],
+    "emotional_state": "悲伤、困惑、有点愤怒",
+    "continuity_notes": "第一轮，建立情绪化质疑者的立场",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "P001-SEAT-04",
+    "turn_id": "P001-SEAT-04-round-01-opening",
+    "speech_origin": "SINCERE_MISTAKEN",
+    "speaker_private_belief_alignment": "ALIGNED",
+    "support_status": "UNVERIFIED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": true,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SINCERE_MISTAKEN"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "P001-SEAT-04",
+    "turn_id": "P001-SEAT-04-round-01-opening",
+    "classification": "ROLE_FIDEL_SINCERE_BUT_MISTAKEN",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

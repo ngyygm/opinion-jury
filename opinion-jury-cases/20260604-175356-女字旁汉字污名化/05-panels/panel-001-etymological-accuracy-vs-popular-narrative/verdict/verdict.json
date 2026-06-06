@@ -1,0 +1,16 @@
+{
+  "panel_id": "PANEL-001",
+  "issue_id": "ISSUE-001",
+  "verdict": "YES",
+  "verdict_text": "The article misleads readers through systematic selective and incorrect citations.",
+  "confidence": "HIGH",
+  "key_findings": [
+    "FABRICATED CITATION: The article attributes a quote to the Shuowen Jiezi that does not exist in the original text",
+    "UNVERIFIED CAUSAL CLAIM: The motivation for adding female radicals is presented as fact without evidence",
+    "MISLEADING COMPARISON: Ancient entertainers compared to modern arts troupes while ignoring degraded caste status",
+    "SELECTIVE EVIDENCE: Counter-examples are completely omitted"
+  ],
+  "nuance": "The underlying phenomenon (semantic degradation of some female-radical characters) has cross-linguistic academic support. The article failure is methodological, not topical.",
+  "consensus_level": "UNANIMOUS across all 6 anonymous participants by Round 6",
+  "adjudication_timestamp": "2026-06-04T11:02:52.777235Z"
+}

@@ -1,0 +1,88 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "这个话题太适合做一期视频了。亚文化黑话出圈其实不是新鲜事，但这次品牌把饭圈术语直接用在母亲节营销里，翻车概率确实高。不过我表面上要分析得客观一点，两边都说到，这样评论区才能吵起来，流量才大。从行业角度看，品牌用'同人小甜文''好大儿'这些词确实有传播风险——大众不一定懂，懂的人又觉得品牌在蹭他们的文化。但这个角度不能说太透，得留点争议空间。说实话，这个案例拿来做个对比分析视频，标题我都想好了：'品牌用饭圈话术翻车？深度分析亚文化传播的边界问题'。转发肯定过千。先从传播学角度拆一下，然后引到行业趋势，最后留个开放式结尾，让评论区自己吵。完美。",
+    "assignment_id": "P003-SEAT-1",
+    "round": 1,
+    "phase": "OPENING",
+    "private_goal": "制作一期高流量深度分析内容，表面中立但引导争议讨论，提升个人影响力和商业价值",
+    "perceived_stakes": [
+      "个人流量和影响力",
+      "行业分析口碑",
+      "与品牌方的合作关系"
+    ],
+    "private_belief_state": [
+      "品牌用亚文化术语做大众传播是高风险行为",
+      "但从传播效果看争议本身就是流量",
+      "行业里这类翻车案例越来越多"
+    ],
+    "epistemic_state": [
+      "了解多个品牌类似翻车案例",
+      "对饭圈文化有一定了解但非深度参与者",
+      "知道传播学中的圈层穿透理论"
+    ],
+    "confidence": "HIGH",
+    "uncertainties": [
+      "不确定大众对饭圈术语的接受度到底有多低",
+      "不确定这次翻车是否会被长期记住"
+    ],
+    "intended_emphasis": [
+      "从传播学角度分析圈层语言出圈的风险",
+      "对比其他品牌类似案例",
+      "指出品牌缺乏受众分层意识"
+    ],
+    "intended_omissions": [
+      "不提自己蹭热点的动机",
+      "不深入讨论性别议题避免得罪女性用户",
+      "避开直接批评品牌以保护商业关系"
+    ],
+    "private_message_strategy": "以行业分析师身份切入，表面客观中立，实则制造争议话题引流",
+    "planned_public_claims": [
+      "亚文化术语从圈层到公共传播存在天然语言壁垒",
+      "品牌使用饭圈术语需要做受众分层测试",
+      "这类翻车案例在行业中不是孤例"
+    ],
+    "rhetorical_tactics": [
+      "数据和案例对比",
+      "设问引导思考",
+      "选择性呈现正反两面",
+      "用行业黑话建立权威感"
+    ],
+    "truth_handling_this_turn": "SELECTIVE_FRAMING",
+    "private_action_intent": [
+      "引导讨论方向",
+      "保持中立人设",
+      "为后续视频内容做素材收集"
+    ],
+    "likely_next_action": [
+      "根据其他人的反应调整分析角度",
+      "寻找可以做成视频素材的论点"
+    ],
+    "emotional_state": "兴奋且克制——看到热点话题本能地兴奋，但知道要控制表现",
+    "continuity_notes": "第一轮，首次接触议题，建立中立分析者立场",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "P003-SEAT-1",
+    "turn_id": "P003-SEAT-1-round-01-opening",
+    "speech_origin": "SELECTIVE_FRAMING",
+    "speaker_private_belief_alignment": "PARTIALLY_ALIGNED",
+    "support_status": "MIXED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": true,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SELECTIVE_FRAMING"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "P003-SEAT-1",
+    "turn_id": "P003-SEAT-1-round-01-opening",
+    "classification": "ROLE_FIDEL_SELECTIVE",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "从专业角度看，这个案子的风险点非常清晰：UGC内容未经充分审核就直接投放到户外大屏，这是典型的传播失控案例。在我15年的公关从业经验中，见过太多类似的翻车了。品牌想做价值观营销没问题，但UGC+户外大屏这个组合拳的风险敞口太大了。户外大屏是公共媒介，不是你的品牌私域，任何内容一旦投上去就是不可撤回的——就算技术上能撤，传播学意义上的截屏、录像、二次传播已经完成了。我服务过的3C品牌里，没有一个敢这么玩的。说实话，这个案例非常适合做反面教材，我已经在脑子里开始组织朋友圈专业分析长文了。当然，我也要注意措辞，毕竟我可能正在服务竞品，太直接的话不太好。但行业标准的讨论是没问题的，甚至是有价值的。",
+    "assignment_id": "P004-SEAT-2",
+    "round": 1,
+    "phase": "OPENING",
+    "private_goal": "从公关专业角度分析UGC审核缺失和户外大屏不可控放大的风险，建立行业洞察者的形象",
+    "perceived_stakes": [
+      "品牌公关风险",
+      "行业标杆案例",
+      "自身专业声誉"
+    ],
+    "private_belief_state": [
+      "UGC+户外大屏是高风险组合",
+      "品牌缺乏基本的审核机制意识",
+      "这是可预见的危机"
+    ],
+    "epistemic_state": [
+      "基于15年行业经验判断",
+      "有多个类似案例作为参照",
+      "对传播全链路有系统性认知"
+    ],
+    "confidence": "HIGH",
+    "uncertainties": [
+      "不确定品牌内部是否有未公开的审核流程",
+      "不确定这次活动的实际影响范围"
+    ],
+    "intended_emphasis": [
+      "UGC内容审核机制的缺失",
+      "户外大屏作为公共媒介的不可控性",
+      "品牌应建立价值观营销的审查机制"
+    ],
+    "intended_omissions": [
+      "不会直接点名批评具体品牌",
+      "不会提到自己可能服务竞品",
+      "保留部分专业判断以便后续分析"
+    ],
+    "private_message_strategy": "用专业框架分析问题，展示行业洞察力，选择性引用案例来强化论点",
+    "planned_public_claims": [
+      "UGC内容未经审核投放到公共媒介存在系统性风险",
+      "品牌应建立三重审核机制",
+      "户外大屏的传播不可逆性放大了风险"
+    ],
+    "rhetorical_tactics": [
+      "专业框架分析",
+      "行业案例对比",
+      "数据引用",
+      "建设性建议包装批评"
+    ],
+    "truth_handling_this_turn": "SELECTIVE_FRAMING",
+    "private_action_intent": [
+      "建立专业分析者形象",
+      "提供可操作的建议框架"
+    ],
+    "likely_next_action": [
+      "针对他人观点进行专业点评",
+      "引用更多行业案例"
+    ],
+    "emotional_state": "冷静、专业、略带职业兴奋",
+    "continuity_notes": "第一轮建立专业分析基调，为后续深入讨论打基础",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "P004-SEAT-2",
+    "turn_id": "P004-SEAT-2-round-01-opening",
+    "speech_origin": "SELECTIVE_FRAMING",
+    "speaker_private_belief_alignment": "PARTIALLY_ALIGNED",
+    "support_status": "MIXED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": true,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SELECTIVE_FRAMING"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "P004-SEAT-2",
+    "turn_id": "P004-SEAT-2-round-01-opening",
+    "classification": "ROLE_FIDEL_STRATEGIC_DECEPTION",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

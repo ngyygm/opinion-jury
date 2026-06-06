@@ -1,0 +1,41 @@
+{
+  "scope_id": "PANEL-P001-SEAT-06-R001",
+  "files": [
+    {
+      "source": "01-parse/source-content.md",
+      "view_file": "001-source-content.md",
+      "sha256": "9e776748a5564bfb2735d68d00f2ea0f4009c2fc46fd869333ae133270363ab1",
+      "size": 4290
+    },
+    {
+      "source": "02-research/claim-gate-packet.v001.json",
+      "view_file": "002-claim-gate-packet.v001.json",
+      "sha256": "726a4ee9a19919648d29b24ab6a7a99ebd5a5db398906dbd72565b85e3cdb076",
+      "size": 36779
+    },
+    {
+      "source": "05-panels/panel-001-fraud-dismissal-vs-financial-imbalance/public-question.md",
+      "view_file": "003-public-question.md",
+      "sha256": "2a828a9d5146b757dbc962d30fc82e895dce961c3f433581c91c263c7dbf63f4",
+      "size": 123
+    },
+    {
+      "source": "03-role-pool/private/roles/ROLE-TOWN-SCHOOL-COUNSELOR/role-card.json",
+      "view_file": "004-role-card.json",
+      "sha256": "a59aab876d93ea7d13af9b84e0b0fd5ee34f4cf32381ae6924da9b9e0c886ec9",
+      "size": 3400
+    },
+    {
+      "source": "05-panels/panel-001-fraud-dismissal-vs-financial-imbalance/private/actors/P001-SEAT-06/assignment.json",
+      "view_file": "005-assignment.json",
+      "sha256": "f10ffd7d8e644b9ef2a0b031e4ad331ace9ffd4066e2966b3d5085daae41aaa0",
+      "size": 536
+    },
+    {
+      "source": "05-panels/panel-001-fraud-dismissal-vs-financial-imbalance/session/public-snapshots/transcript.before-round-001.jsonl",
+      "view_file": "006-transcript.before-round-{round_num}.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    }
+  ]
+}

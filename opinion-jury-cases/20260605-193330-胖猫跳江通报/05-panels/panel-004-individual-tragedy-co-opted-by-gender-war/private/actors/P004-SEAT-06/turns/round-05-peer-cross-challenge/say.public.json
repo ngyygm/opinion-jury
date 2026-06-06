@@ -1,0 +1,22 @@
+{
+  "turn_id": "P004-SEAT-06-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-06",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "行。SEAT-02你说的对。我确实每轮都在换角度。SEAT-04的总结也没错。\n\n但我坚持一件事：我提出的每一个问题都是真实的。\n\n79万是真实的。胖猫的死是真实的。通报和社会感受之间的落差是真实的。男性心理支持被忽视是真实的。我说这些的方式可能有问题——好吧，确实有问题。我的语气、我的挑衅、我选择性引用的部分，这些我承认做得不好。\n\n但SEAT-01你说我利用男性心理支持来制造性别对立——你有没有想过，正是这种说任何关于性别的真实问题都被指责为制造对立的氛围，才让这些问题长期得不到讨论？\n\nSEAT-03奶奶你问我想要什么。我想要的是：当一个男人说我很累我承受不住的时候，有人能认真听他说。不是为了把他变成性别战争的武器，而是真的听见他。\n\nSEAT-04你说得对，解决心理支持问题需要的是全社会的共识。但你说这个共识不包括性别视角——我不完全同意。了解男性在心理支持方面的特殊困难，不等于制造性别对立。这两件事之间有一条线，也许我之前越线了，但这条线是存在的。\n\nSEAT-05你说的媒体责任确实重要。290万粉丝证明了煽动有多大的市场。\n\n最后一句话：你们达成了共识，但共识不代表全部真相。有些问题会在共识之后继续存在。我们走着看。",
+  "target_turn_refs": [
+    "P004-SEAT-02-round-04-responsive-rebuttal",
+    "P004-SEAT-04-round-04-responsive-rebuttal",
+    "P004-SEAT-01-round-04-responsive-rebuttal",
+    "P004-SEAT-03-round-04-responsive-rebuttal",
+    "P004-SEAT-05-round-04-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "从个案到性别战争——胖猫事件如何被裹挟进网络性别对立的漩涡"
+  ],
+  "public_evidence_refs": [
+    "警方通报：刘某账号从263个粉丝涨至最高290余万个"
+  ],
+  "public_action_signals": []
+}

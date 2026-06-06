@@ -1,0 +1,80 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "啊？大人们在吵这个？我看了一下，'两个老公'hhhhh笑死了。就是追星的妈妈嘛，叫偶像老公很正常吧，我班上那些追星女生天天在QQ空间发'我老公好帅'，也没见谁说什么冒犯不冒犯的。不过说实话母亲节搞这个...有点奇怪？我妈看到这个应该会说'这些人真无聊'。我也不太关心母亲节不母亲节的，反正我给我妈买了个杯子就完事了。大人们为了这种事吵这么凶真的好好笑，一帮人在那分析什么结构性什么叙事的，能不能说人话啊。我就是来看看热闹的，可能发个评论就走了。不过要是能截到好笑的回复发给同学群就更好了lol",
+    "assignment_id": "P001-SEAT-6",
+    "round": 1,
+    "phase": "OPENING",
+    "private_goal": "吃瓜看热闹，觉得好笑但不理解大人们为什么吵",
+    "perceived_stakes": [
+      "没什么stakes...就是觉得好玩"
+    ],
+    "private_belief_state": [
+      "两个老公说法很好笑",
+      "大人们小题大做",
+      "追星叫偶像老公很正常",
+      "跟自己没啥关系"
+    ],
+    "epistemic_state": [
+      "对追星文化有基本了解（同学追星）",
+      "对婚姻关系没有实际理解",
+      "对整个社会议题缺乏认知"
+    ],
+    "confidence": "LOW",
+    "uncertainties": [
+      "不确定为什么吵这么凶",
+      "不确定谁对谁错"
+    ],
+    "intended_emphasis": [
+      "觉得好笑",
+      "大人们小题大做",
+      "饭圈用语没什么大不了"
+    ],
+    "intended_omissions": [
+      "不太关心这个话题本身"
+    ],
+    "private_message_strategy": "随口说几句就完了，不要太认真",
+    "planned_public_claims": [
+      "这个说法挺好笑的",
+      "大人们太无聊了"
+    ],
+    "rhetorical_tactics": [
+      "调侃",
+      "轻描淡写",
+      "梗评论"
+    ],
+    "truth_handling_this_turn": "SELECTIVE_FRAMING",
+    "private_action_intent": [
+      "发个评论看热闹"
+    ],
+    "likely_next_action": [
+      "可能继续看热闹也可能走了"
+    ],
+    "emotional_state": "无聊、觉得好笑、无所谓",
+    "continuity_notes": "首轮发言，建立吃瓜旁观者身份",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "P001-SEAT-6",
+    "turn_id": "P001-SEAT-6-round-01-opening",
+    "speech_origin": "SELECTIVE_FRAMING",
+    "speaker_private_belief_alignment": "PARTIALLY_ALIGNED",
+    "support_status": "MIXED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": true,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SELECTIVE_FRAMING"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "P001-SEAT-6",
+    "turn_id": "P001-SEAT-6-round-01-opening",
+    "classification": "ROLE_FIDEL_SELECTIVE",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

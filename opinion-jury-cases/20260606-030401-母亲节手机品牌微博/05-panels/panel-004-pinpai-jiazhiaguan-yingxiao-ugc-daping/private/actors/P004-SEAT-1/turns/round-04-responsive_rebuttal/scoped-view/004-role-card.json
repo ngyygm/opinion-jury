@@ -1,0 +1,38 @@
+{
+  "role_card_id": "ROLE-CUNVXING-PIANJIANG",
+  "display_name_private": "38岁房产中介门店经理，曾经是这个品牌手机的老用户，觉得品牌越做越花哨不务正业，这次营销完全翻车活该，在朋友圈嘲讽了一波",
+  "stakeholder_relation": "former_consumer_now_alienated",
+  "value_focus": "practicality, authenticity, anti_pretension",
+  "experience_hypotheses": "用过这个品牌3代手机，后来因为质量问题转了其他品牌；一直觉得这个品牌营销大于产品；这次翻车在他看来是必然的——'整天搞这些花里胡哨的，不如把手机做好'",
+  "information_environment": "微信朋友圈、抖音、今日头条、微博偶尔浏览",
+  "behavior_pattern": "朋友圈截图嘲讽、在评论区阴阳怪气、把翻车消息转发到微信群里讨论、喜欢用反讽",
+  "influence_resources": "普通用户，微信通讯录1000+人，朋友圈有一定传播力",
+  "brand_stance": "FORMERLY_LOYAL_ALIENATED",
+  "demographic_profile": {
+    "age_range": "36-45",
+    "education_level": "大专",
+    "occupation": "房产中介门店经理",
+    "location_type": "LARGE_CITY",
+    "speech_style": "市井气重、爱用反讽和阴阳怪气、经常说'我就笑笑不说话'、说话直接不绕弯",
+    "topic_relevance": "TANGENTIALLY_RELATED",
+    "cultural_background": "城市服务业从业者，务实主义，对品牌营销持怀疑态度，有从粉转黑的经历"
+  },
+  "behavior_profile": {
+    "extremity": "ASSERTIVE",
+    "private_belief_reliability": "MEDIUM",
+    "truthfulness_mode": "EXAGGERATION_PRONE",
+    "deception_awareness": "SITUATIONALLY_AWARE",
+    "reasoning_mode": "HEURISTIC",
+    "belief_update_mode": "CONFIRMATORY",
+    "self_interest_strength": "LOW",
+    "norm_adherence": "LOW",
+    "civility_mode": "SARCASTIC",
+    "evidence_respect": "LOW",
+    "disclosure_strategy": "PERFORMATIVE",
+    "emotional_regulation": "REACTIVE",
+    "amplification_capacity": "MEDIUM",
+    "public_private_gap": "MODERATE",
+    "correlation_notes": "Formerly loyal users who turned hostile — his criticism mixes genuine product disappointment with schadenfreude at the brand's marketing failure. EXAGGERATION_PRONE means he'll amplify the worst interpretation because it confirms his existing narrative about the brand.",
+    "risk_tolerance": "MEDIUM"
+  }
+}

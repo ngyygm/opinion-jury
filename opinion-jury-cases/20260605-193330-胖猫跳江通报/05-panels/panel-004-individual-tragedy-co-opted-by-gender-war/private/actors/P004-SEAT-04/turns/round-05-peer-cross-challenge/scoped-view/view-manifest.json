@@ -1,0 +1,41 @@
+{
+  "scope_id": "PANEL-P004-SEAT-04-R005",
+  "files": [
+    {
+      "source": "01-parse/source-content.md",
+      "view_file": "001-source-content.md",
+      "sha256": "9e776748a5564bfb2735d68d00f2ea0f4009c2fc46fd869333ae133270363ab1",
+      "size": 4290
+    },
+    {
+      "source": "02-research/claim-gate-packet.v001.json",
+      "view_file": "002-claim-gate-packet.v001.json",
+      "sha256": "726a4ee9a19919648d29b24ab6a7a99ebd5a5db398906dbd72565b85e3cdb076",
+      "size": 36779
+    },
+    {
+      "source": "05-panels/panel-004-individual-tragedy-co-opted-by-gender-war/public-question.md",
+      "view_file": "003-public-question.md",
+      "sha256": "69dbfabe29eaed046e167743f9526bd6f35a8e3179f9ccdc9640010bd313a21d",
+      "size": 111
+    },
+    {
+      "source": "03-role-pool/private/roles/ROLE-LAW-STUDENT-ANALYTICAL/role-card.json",
+      "view_file": "004-role-card.json",
+      "sha256": "23ecc6addbd89eaceed58f60d3bb2ba6c506dbc6033e8b76ffa0283976bb8f13",
+      "size": 3233
+    },
+    {
+      "source": "05-panels/panel-004-individual-tragedy-co-opted-by-gender-war/private/actors/P004-SEAT-04/assignment.json",
+      "view_file": "005-assignment.json",
+      "sha256": "d2e7691c8599ce79d609d8273692336d50753f204aa4659fe378c6ac5463c5bf",
+      "size": 510
+    },
+    {
+      "source": "05-panels/panel-004-individual-tragedy-co-opted-by-gender-war/session/public-snapshots/transcript.before-round-005.jsonl",
+      "view_file": "006-transcript.before-round-{round_num}.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    }
+  ]
+}

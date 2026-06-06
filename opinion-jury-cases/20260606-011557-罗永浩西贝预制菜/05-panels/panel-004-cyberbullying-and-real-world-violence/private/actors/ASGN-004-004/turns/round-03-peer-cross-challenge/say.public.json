@@ -1,0 +1,20 @@
+{
+  "turn_id": "ASGN-004-004-round-03-peer-cross-challenge",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-4",
+  "round": 3,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "等一下，我突然想到一个事。SEAT-5你说那些矩阵号的运营者很清楚情绪越极端数据越好，你说得好像你很了解这个行业一样。你不会自己就是做矩阵号的吧？我刷抖音的时候经常看到那种蹭热点赚钱的号，一个事件出来马上出好几个视频，标题都特别夸张，什么震惊了什么最新内幕，然后评论区一堆人吵。你说的矩阵号是不是就是这个？如果你自己就是做这个的，那你批评的是不是就是你自己啊？笑死，不会吧。SEAT-2你说赔偿金没给完，我觉得你还挺诚实的，至少承认了自己有私心。SEAT-1奶奶你的直觉好准啊，我也觉得SEAT-5说话太不像普通人了。SEAT-3你说得对，管理层不好不能成为欺负服务员的理由，就像我追星的时候不喜欢某个明星，我最多不看他的节目，我不会去骂他的粉丝啊，粉丝又没做错什么。所以总结就是——不管谁有理，不要欺负无辜的人，这个道理就这么简单，搞那么复杂干嘛。",
+  "target_turn_refs": [
+    "ASGN-004-005-round-02-direct-rebuttal",
+    "ASGN-004-002-round-02-direct-rebuttal",
+    "ASGN-004-001-round-02-direct-rebuttal"
+  ],
+  "public_question_refs": [
+    "舆论战升级中的人身攻击、人肉搜索与暴力溢出"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": [
+    "质疑SEAT-5可能是他批评的那种人"
+  ]
+}

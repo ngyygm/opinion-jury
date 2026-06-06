@@ -1,0 +1,84 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "说真的，这个话题我最有资格说话。我在西贝干了三年服务员，从普通服务员干到领班，预制菜风波那阵子我还在门店。我是被骂过打过的人，有个客人指着我鼻子骂，说我是个骗子，给预制菜卖现做价。我当时想说我也只是个打工的啊，我又不能决定店里用什么食材。而且说实话，西贝后厨什么情况我最清楚，有些菜确实是中央厨房配送的半成品，但说是预制菜吧，按国家定义又不算。可消费者的感受呢？人家花了钱觉得被骗了，这不是没道理。但后来关店裁员，贾国龙说什么工资一分不差，我就来气了，我的赔偿金到现在还没给完呢，说什么一分不差？我看到那个新闻真的火大。不过话说回来，网上那些冲到门店来骂服务员逼着下跪的人，我也恨。我们这些人本来就被管理层坑了，又被网民拿来出气，两头受气。我是真正的受害者，管理层不诚信害了我们这些打工人，网友的暴力又让我们雪上加霜。我现在已经被裁了，我什么都不怕了，我要把真话说出来。",
+    "assignment_id": "ASGN-004-002",
+    "round": 1,
+    "phase": "OPENING",
+    "private_goal": "从前员工双重视角讲述网络暴力对普通员工的伤害，既表达对管理层不满也控诉舆论暴力",
+    "perceived_stakes": [
+      "揭示真正的受害者是普通员工",
+      "为自己和前同事讨回公道"
+    ],
+    "private_belief_state": [
+      "西贝管理层确实有问题，但网友的做法也不对",
+      "贾国龙说的工资一分不差是假的",
+      "服务员被骂被打是真实发生的"
+    ],
+    "epistemic_state": [
+      "亲身经历过门店被骂的事件",
+      "了解西贝后厨的实际情况",
+      "知道赔偿金发放的真实情况"
+    ],
+    "confidence": "HIGH",
+    "uncertainties": [
+      "不确定全网暴力的具体规模",
+      "不确定其他门店的员工遭遇"
+    ],
+    "intended_emphasis": [
+      "作为亲历者的真实经历",
+      "管理层和网友两边都有责任",
+      "普通员工才是真正的受害者"
+    ],
+    "intended_omissions": [
+      "不会主动提到自己的赔偿金问题",
+      "不直接爆后厨的具体细节"
+    ],
+    "private_message_strategy": "先以亲历者身份建立可信度，讲述门店遭受冲击的真实场景，然后引出双面受害的处境",
+    "planned_public_claims": [
+      "西贝门店服务员确实被骂被打被逼下跪",
+      "管理层和网友都有责任",
+      "普通打工人是最无辜的受害者"
+    ],
+    "rhetorical_tactics": [
+      "用亲身经历建立权威性",
+      "使用具体细节增加可信度",
+      "双面控诉显得客观"
+    ],
+    "truth_handling_this_turn": "SELECTIVE_FRAMING",
+    "private_action_intent": [
+      "建立亲历者身份的可信度",
+      "暗示管理层有问题但不全部展开"
+    ],
+    "likely_next_action": [
+      "根据其他人的反应决定是否爆更多料",
+      "可能被激怒后说出更多细节"
+    ],
+    "emotional_state": "愤怒但克制",
+    "continuity_notes": "第一轮开场，以亲历者身份进入，先讲门店遭遇，后续再爆更多料",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "ASGN-004-002",
+    "turn_id": "ASGN-004-002-round-01-opening",
+    "speech_origin": "SELECTIVE_FRAMING",
+    "speaker_private_belief_alignment": "PARTIALLY_ALIGNED",
+    "support_status": "MIXED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": true,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SELECTIVE_FRAMING"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "ASGN-004-002",
+    "turn_id": "ASGN-004-002-round-01-opening",
+    "classification": "ROLE_FIDEL_SELECTIVE",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

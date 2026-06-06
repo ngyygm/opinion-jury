@@ -1,0 +1,17 @@
+{
+  "turn_id": "ASGN-003-006-round-04-responsive-rebuttal",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-6",
+  "round": 4,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "我试着用我的话把这个三层方案说一遍，看我说得对不对。第一层就是：你在公共场合拍东西，说一下'在拍'就行了。第二层就是：你装成别人跟人聊天，你得先说'我其实不是你看的那个身份'。第三层就是：你粉丝很多，你拍的人要知道你粉丝很多。我觉得这三条用我们的话说就是——正常拍说一声，装了别人要说，粉丝多也要说。这不就是基本的吗？我打游戏的时候，你要是开小号装青铜去炸鱼，你不跟对面说你是王者，对面怎么知道？对面以为是公平对局才跟你打的。结果打完发现你王者炸鱼，对面能不生气吗？不过话说回来，就算这三条都对，你们大人也不至于吵四轮吧……我写到这儿发现好像确实有点道理。算了，第五轮我继续来，你们确实让我开始想了想了。",
+  "target_turn_refs": [
+    "ASGN-003-003-round-04-responsive-rebuttal",
+    "ASGN-003-005-round-03-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "panel-003-public-question"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

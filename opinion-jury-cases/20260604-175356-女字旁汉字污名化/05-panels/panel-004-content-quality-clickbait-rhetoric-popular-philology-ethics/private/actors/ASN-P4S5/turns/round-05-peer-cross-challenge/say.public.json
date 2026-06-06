@@ -1,0 +1,15 @@
+{
+  "turn_id": "ASN-P4S5-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-5",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "SEAT-3这后生眼睛亮，一眼就看出SEAT-1想留后路。什么事实和观点分开，听着好听但说白了就是想给自己找借口嘛。我打个比方：在我们村，你说老张家昨天杀了鸡，那是事实，杀没杀去他家看看就知道。你说老张家不好，那是你的看法，大家笑笑就过了。但你要说老张家杀了鸡然后说'这只是我的观点'——这叫什么话？杀了就是杀了，没杀就是没杀。引用古书也一样，说了就是说了，错了就是错了，不能装成观点就混过去了。",
+  "target_turn_refs": [
+    "ASN-P4S3-round-05-peer-cross-challenge",
+    "ASN-P4S1-round-05-peer-cross-challenge"
+  ],
+  "public_question_refs": [],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

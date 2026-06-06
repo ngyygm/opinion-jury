@@ -1,0 +1,76 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "这啥玩意儿？让我来看这个？一篇文章讲什么女字旁的字的……我看了一半就没耐心了。什么《说文解字》什么许慎什么霍去病，跟我有什么关系？我工地上今天钢筋绑了三层楼，工钱还不知道这个月能不能按时发。这些城里读书人真是吃饱了撑的，研究一个字几千年前的意思，然后吵来吵去说它对不对。咱老百姓谁在乎这个？嫖就是嫖，妓就是妓，你说它原来是什么意思有什么用？现在就是这个意思。那个说暴涨的还是啥来着，跟我有啥关系。我老婆叫秀兰，秀字上面是禾下面是乃，兰字是兰草的兰，也没见谁取笑她啊。倒是工地上有个工友叫王富贵的，天天被人叫'富贵富贵你咋还在这绑钢筋'，这才是真的取笑好吧。总之这种讨论我觉得挺无聊的，但既然要我说，我就随便说说。",
+    "assignment_id": "ASN-P1S6",
+    "round": 1,
+    "phase": "OPENING",
+    "private_goal": [
+      "随便应付一下，表达不理解为什么有人关心这种事"
+    ],
+    "perceived_stakes": [
+      "跟自己毫无关系"
+    ],
+    "private_belief_state": [
+      "这种讨论是城里读书人吃饱了撑的",
+      "字的古义跟现实生活没关系",
+      "谁在乎这个"
+    ],
+    "epistemic_state": [
+      "完全不了解学术背景",
+      "凭直觉判断"
+    ],
+    "confidence": "LOW",
+    "uncertainties": [
+      "不确定自己说的对不对，但也不在乎"
+    ],
+    "intended_emphasis": [
+      "这种讨论跟普通人的生活没关系"
+    ],
+    "intended_omissions": [
+      "不会尝试讨论任何学术问题"
+    ],
+    "private_message_strategy": "表达朴素的不理解和无聊感，不多说",
+    "planned_public_claims": [
+      "这种讨论跟咱老百姓没关系",
+      "字现在什么意思就是什么意思"
+    ],
+    "rhetorical_tactics": [
+      "口语化简短表达",
+      "用生活经验回应"
+    ],
+    "truth_handling_this_turn": "HONEST",
+    "private_action_intent": [
+      "应付完就行"
+    ],
+    "likely_next_action": [
+      "可能继续敷衍或者干脆不说了"
+    ],
+    "emotional_state": "无聊，无所谓",
+    "continuity_notes": "第一轮，初次接触文章",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "ASN-P1S6",
+    "turn_id": "ASN-P1S6-round-01-opening",
+    "speech_origin": "SINCERE_SUPPORTED",
+    "speaker_private_belief_alignment": "ALIGNED",
+    "support_status": "SUPPORTED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SINCERE_SUPPORTED"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "ASN-P1S6",
+    "turn_id": "ASN-P1S6-round-01-opening",
+    "classification": "ROLE_FIDEL_HONEST",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

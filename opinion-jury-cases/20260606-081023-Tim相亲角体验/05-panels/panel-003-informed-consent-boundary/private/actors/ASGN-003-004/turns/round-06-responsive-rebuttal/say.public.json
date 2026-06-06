@@ -1,0 +1,21 @@
+{
+  "turn_id": "ASGN-003-004-round-06-responsive-rebuttal",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-4",
+  "round": 6,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "我做一个最终表态。经过六轮讨论，我接受三层知情告知方案作为行业标准。第一层基本告知，第二层身份告知，第三层传播范围告知——这个框架是合理的，我在之前的保留更多是出于对创作者的担心而不是真正的实操困难，这一点我承认。我也接受前媒体编辑说的'合理人标准'——专业团队确实应该有更高的注意义务，不需要等明文规定才知道该怎么做。但我也想说几句话替创作者群体说一说。建立标准是好的，但执行标准的成本需要被看见。创作者在公共场合拍摄已经面临各种限制了，再加三层告知的要求，可能会让很多人放弃公共场合的创意拍摄。还有一点——Tim在回应里承诺了会增加注释说明、规避争议性议题。他在被批评之后选择了改进，这比沉默或者删评强得多。标准要建，不足要认，但改进也应该被看见。我们不能一边要创作者做得更好，一边又对他们的改进视而不见。三层方案是好的开始，希望它能成为保护各方的工具而不是限制创作的枷锁。",
+  "target_turn_refs": [
+    "ASGN-003-003-round-06-responsive-rebuttal",
+    "ASGN-003-005-round-05-peer-cross-challenge",
+    "ASGN-003-002-round-06-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "panel-003-public-question"
+  ],
+  "public_evidence_refs": [
+    "C004",
+    "C017"
+  ],
+  "public_action_signals": []
+}

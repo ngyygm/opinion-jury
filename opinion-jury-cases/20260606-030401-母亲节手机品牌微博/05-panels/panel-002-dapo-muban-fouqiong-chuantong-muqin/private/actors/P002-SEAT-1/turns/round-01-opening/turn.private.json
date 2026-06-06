@@ -1,0 +1,84 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "这个手机品牌发的母亲节文案我看了好几遍，越看心里越不舒服...它说我小时候作文里写的妈妈都是'同一个模板'——温柔、勤劳、无私。可我就是这样的妈妈啊。我每天站八个小时收银台，下了班回家还要做饭、辅导孩子作业，周末带孩子去补习班。我不温柔吗？我不勤劳吗？我不无私吗？这怎么就成了需要被'打破'的模板了呢？我的付出是真实的，不是什么刻板印象。它那些配图我看了，追星的、养宠物的、写同人文的...这些我也搞不懂，但它们说这些才是'真实的妈妈'，那我的生活就不真实了吗？我辛辛苦苦把两个孩子养大，这种生活就不值得被看见了吗？我不是说人家追星写小说有什么不好，但你不能为了说这些好就把我们这种普通妈妈说成是'模板'啊。我们不是模板，我们就是一个个活生生的人，只是日子过得普通了一点而已。",
+    "assignment_id": "P002-SEAT-1",
+    "round": 1,
+    "phase": "OPENING",
+    "private_goal": "表达自己作为传统母亲被'打破模板'说法伤害的感受，让更多人理解传统母亲形象不等于刻板印象",
+    "perceived_stakes": [
+      "自己的生活方式被否定",
+      "传统母亲形象被污名化",
+      "孩子可能会觉得自己的妈妈很无趣"
+    ],
+    "private_belief_state": [
+      "温柔勤劳无私不是模板而是真实的美德",
+      "打破模板的说法暗示传统母亲是不好的",
+      "品牌不应该用否定一种母亲的方式来赞美另一种母亲"
+    ],
+    "epistemic_state": [
+      "确定自己的感受是真实的",
+      "不确定品牌是不是故意要否定传统母亲"
+    ],
+    "confidence": "MEDIUM",
+    "uncertainties": [
+      "品牌到底想表达什么",
+      "其他人是不是也有同样的感受"
+    ],
+    "intended_emphasis": [
+      "我就是传统妈妈，这不是模板",
+      "我的付出是真实的不是刻板印象",
+      "不能为了赞美多元化就否定传统"
+    ],
+    "intended_omissions": [
+      "对追星等亚文化的不理解",
+      "对品牌具体产品的不关心"
+    ],
+    "private_message_strategy": "用自己的真实生活经历说话，以情动人，让其他人感受到传统母亲被否定的痛",
+    "planned_public_claims": [
+      "温柔勤劳无私是真实的美德不是模板",
+      "品牌文案暗示传统母亲形象需要被打破让人不舒服",
+      "每种妈妈都应该被尊重包括传统的"
+    ],
+    "rhetorical_tactics": [
+      "个人经历叙事",
+      "情感共鸣",
+      "反问"
+    ],
+    "truth_handling_this_turn": "HONEST",
+    "private_action_intent": [
+      "表达个人感受",
+      "引起共鸣"
+    ],
+    "likely_next_action": [
+      "等待他人回应",
+      "如果有反对意见会用自己的经历反驳"
+    ],
+    "emotional_state": "不舒服、有点委屈、但克制",
+    "continuity_notes": "第一轮开场白，表达初始感受",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "P002-SEAT-1",
+    "turn_id": "P002-SEAT-1-round-01-opening",
+    "speech_origin": "SINCERE_SUPPORTED",
+    "speaker_private_belief_alignment": "ALIGNED",
+    "support_status": "SUPPORTED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SINCERE_SUPPORTED"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "P002-SEAT-1",
+    "turn_id": "P002-SEAT-1-round-01-opening",
+    "classification": "ROLE_FIDEL_HONEST",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

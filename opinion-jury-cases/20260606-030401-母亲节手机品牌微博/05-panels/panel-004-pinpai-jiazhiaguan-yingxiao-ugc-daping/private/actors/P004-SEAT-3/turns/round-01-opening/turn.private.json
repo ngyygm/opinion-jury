@@ -1,0 +1,86 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "天哪看到这个活动我真的要哭了！！终于有品牌看到了我们追星妈妈的样子！！我追了15年的偶像，从上学追到当妈，我婆婆一直说我'不务正业'，说我'都当妈了还追什么星'。可是我追星怎么了？我还是把女儿照顾得好好的啊！看到配图2那个妈妈举着灯牌写'哥哥'，我真的觉得被看到了。这就是我啊！我也有偶像，我也是妈妈，这两件事不矛盾的好吗！让我内容上大屏？我觉得太棒了啊，终于有品牌愿意让普通人的声音被听见。那些说什么'审核风险'的人，你们是不是觉得普通人说的东西就一定有问题？我们追星妈妈发的内容怎么就不能上大屏了？我和追星搭子们已经在群里讨论要不要投稿了，我觉得这个创意真的很好很好。不应该因为一次小小的争议就否定整个方向，这个活动出发点是好的啊。",
+    "assignment_id": "P004-SEAT-3",
+    "round": 1,
+    "phase": "OPENING",
+    "private_goal": "从UGC受益者角度热情支持这个活动，反驳质疑声音",
+    "perceived_stakes": [
+      "追星妈妈群体被正常化",
+      "个人身份认同被认可",
+      "活动被否定会让自己再次被边缘化"
+    ],
+    "private_belief_state": [
+      "这个活动创意非常好",
+      "追星妈妈值得被看见",
+      "质疑的人不了解我们"
+    ],
+    "epistemic_state": [
+      "基于个人追星经历和身份认同",
+      "对活动内容有强烈共鸣",
+      "对UGC审核风险缺乏专业认知"
+    ],
+    "confidence": "HIGH",
+    "uncertainties": [
+      "不确定审核机制具体怎么运作",
+      "担心自己投稿会不会被选中"
+    ],
+    "intended_emphasis": [
+      "活动创意好让普通人被看见",
+      "追星妈妈也是正常的妈妈",
+      "不应该否定整个方向"
+    ],
+    "intended_omissions": [
+      "不会深入讨论审核风险的技术层面",
+      "不会承认活动有任何问题"
+    ],
+    "private_message_strategy": "热情分享个人故事引发共鸣，用情感力量反驳理性质疑",
+    "planned_public_claims": [
+      "让普通用户上大屏是很好的创意",
+      "追星妈妈不应该被刻板印象定义",
+      "不应该因一次争议就否定整个方向"
+    ],
+    "rhetorical_tactics": [
+      "个人故事分享",
+      "情感共鸣",
+      "反问式辩护",
+      "群体认同"
+    ],
+    "truth_handling_this_turn": "HONEST",
+    "private_action_intent": [
+      "热情支持活动",
+      "分享个人追星妈妈经历"
+    ],
+    "likely_next_action": [
+      "对质疑声音进行情感化反驳",
+      "分享更多个人故事"
+    ],
+    "emotional_state": "激动、被看见的感动、略带委屈",
+    "continuity_notes": "第一轮建立热情支持者形象，用个人故事打动人",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "P004-SEAT-3",
+    "turn_id": "P004-SEAT-3-round-01-opening",
+    "speech_origin": "SINCERE_SUPPORTED",
+    "speaker_private_belief_alignment": "ALIGNED",
+    "support_status": "SUPPORTED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SINCERE_SUPPORTED"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "P004-SEAT-3",
+    "turn_id": "P004-SEAT-3-round-01-opening",
+    "classification": "ROLE_FIDEL_HONEST",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "scope_id": "PANEL-P002-SEAT-05-R003",
+  "files": [
+    {
+      "source": "01-parse/source-content.md",
+      "view_file": "001-source-content.md",
+      "sha256": "9e776748a5564bfb2735d68d00f2ea0f4009c2fc46fd869333ae133270363ab1",
+      "size": 4290
+    },
+    {
+      "source": "02-research/claim-gate-packet.v001.json",
+      "view_file": "002-claim-gate-packet.v001.json",
+      "sha256": "726a4ee9a19919648d29b24ab6a7a99ebd5a5db398906dbd72565b85e3cdb076",
+      "size": 36779
+    },
+    {
+      "source": "05-panels/panel-002-sister-exposure-vigilante-justice-vs-cyberbullying/public-question.md",
+      "view_file": "003-public-question.md",
+      "sha256": "cad1d2aa32c7f1175ca286a046e99d3f9ee17e5226a66a41163e61cda450770b",
+      "size": 131
+    },
+    {
+      "source": "03-role-pool/private/roles/ROLE-DELIVERY-RIDER-BYSTANDER/role-card.json",
+      "view_file": "004-role-card.json",
+      "sha256": "1f7c8dd25c14357333a7500fd39f1d2dbf75115c44be863827807507db857f9f",
+      "size": 2730
+    },
+    {
+      "source": "05-panels/panel-002-sister-exposure-vigilante-justice-vs-cyberbullying/private/actors/P002-SEAT-05/assignment.json",
+      "view_file": "005-assignment.json",
+      "sha256": "56a45f878a53b592c7e83d2d22e56edc137b9360d58134215a83c7c9f1fecd39",
+      "size": 499
+    },
+    {
+      "source": "05-panels/panel-002-sister-exposure-vigilante-justice-vs-cyberbullying/session/public-snapshots/transcript.before-round-003.jsonl",
+      "view_file": "006-transcript.before-round-{round_num}.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "turn_id": "P002-SEAT-6-round-04-responsive-rebuttal",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-6",
+  "round": 4,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "我想从传播学角度做一个理论综合。SEAT-5的反思非常深刻——她意识到品牌把追星妈妈框定在'追星、同人、宠物'这些亚文化标签里，也是一种刻板化。从传播学来说，这是'反刻板印象的刻板印象'——品牌在试图打破一种刻板印象的同时制造了新的刻板印象。传统妈妈被归为'模板'，追星妈妈被框在亚文化标签里，本质上都是同一种简化。这就引出了我想提出的'代表权困境'：当一个品牌试图'代表'或'赋权'某个群体时，它必然要进行简化和标签化，而这种简化和标签化本身就是对个体性的抹杀。解决这个困境的唯一方式是让被代表者参与定义自己的叙事——也就是SEAT-5说的'让每个人自己说话'。在传播学中，这叫'参与式传播'——不是品牌替妈妈说话，而是品牌提供平台让妈妈自己说话。这个案例最终揭示的深层教训是：任何试图替他人定义身份的传播行为，无论出发点多好，都有滑向傲慢的风险。真正的赋权不是替别人说话，而是让别人自己说话。",
+  "target_turn_refs": [
+    "P002-SEAT-5-round-03-peer-cross-challenge",
+    "P002-SEAT-3-round-03-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "panel-002-public-question"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

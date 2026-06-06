@@ -1,0 +1,18 @@
+{
+  "turn_id": "ASN-P1S4-round-04-responsive-rebuttal",
+  "panel_id": "PANEL-001",
+  "anonymous_alias": "SEAT-4",
+  "round": 4,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "我接受SEAT-1、SEAT-2和SEAT-3对文章的批评。SEAT-1说查证一个字只需要十分钟，SEAT-3用代码审查的方式列出了critical、major、minor issues，SEAT-2指出这是advocacy research的典型问题——这些分析我都没法反驳，因为它们是对的。我不打算再为文章的错误做任何辩护。但我最后想说一个我认为真实存在的问题：在这次讨论中，大家都在说'应该有人用正确的方式来写这个话题'，这我完全同意。但谁来写？写了之后谁来看？一个严谨但枯燥的科普文章，和一个有瑕疵但引人入胜的文章，哪个传播得更好？答案通常是后者。这不是因为读者不识货，而是因为人的注意力是有限的，信息的竞争是激烈的。SEAT-2提到的达尔文的《物种起源》是个好例子——但它之所以能写成那样，是因为达尔文花了几十年做这件事。现在的内容生态不给任何人几十年的时间。所以我的最终建议是：第一，这篇文章的准确性问题不可接受，必须纠正。第二，但我们不能止步于批评——需要有人真的去写一篇用分层方案组织的、既准确又有传播力的文章。第三，如果我们希望好内容也能有好的传播效果，可能需要从激励层面做一些改变——比如平台对查证过的内容给予更高的权重，或者学术界主动参与公共科普并给予相应的评价认可。批评是容易的，建设是难的。但我承认，建设必须从准确性开始。",
+  "target_turn_refs": [
+    "ASN-P1S1-round-03-peer-cross-challenge",
+    "ASN-P1S2-round-03-peer-cross-challenge",
+    "ASN-P1S3-round-03-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "Etymological Accuracy vs. Popular Narrative: Does the Article Mislead Through Selective and Incorrect Citations?"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

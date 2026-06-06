@@ -1,0 +1,82 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "看了大家的发言，SEAT-2说自己是前员工，被骂被打的经历让我特别心疼。他说管理层不诚信是根源，这个角度我之前没想过，但仔细想想也有道理。不过我不想把话题扯到企业管理的层面去，我更想坚持我作为母亲的立场——保护无辜的孩子和尊重打工人。SEAT-1这个老太太说的跟我想的完全一样，她家孙子也四五岁，她说的那种拼了老命也要护着孙子的感觉我太理解了。SEAT-3说看到服务员胸前贴着孩子的贴纸，这个细节让我差点哭出来，那一定是个妈妈，跟我一样每天想着自己的孩子。SEAT-5说的那些流量啊算法啊我听不太懂，但是有一点我觉得他说得对——这个系统在鼓励极端化。作为一个妈妈，我不能接受任何伤害孩子的行为，不管你有什么理由。SEAT-4这个小姑娘虽然年纪小但说得很好，简单的道理不需要复杂的论证。我要继续坚持我的立场，同时回应一下SEAT-2的管理层责任论。",
+    "assignment_id": "ASGN-004-006",
+    "round": 2,
+    "phase": "DIRECT_REBUTTAL",
+    "private_goal": "坚持母亲立场，回应SEAT-2的同时保持聚焦在孩子和无辜者保护上",
+    "perceived_stakes": [
+      "保护孩子不受网络暴力",
+      "维护对西贝品牌的信任"
+    ],
+    "private_belief_state": [
+      "不管管理层有没有问题，孩子是无辜的",
+      "SEAT-2说的管理层责任需要正视",
+      "但焦点不能偏离保护无辜者"
+    ],
+    "epistemic_state": [
+      "SEAT-2的亲历者身份增加了可信度",
+      "其他人的共鸣让我更坚定"
+    ],
+    "confidence": "HIGH",
+    "uncertainties": [
+      "不确定SEAT-2说的管理层问题是否全部属实",
+      "不确定预制菜的真相"
+    ],
+    "intended_emphasis": [
+      "回应SEAT-2但保持母亲立场",
+      "继续强调保护孩子",
+      "不管什么原因都不能伤害无辜"
+    ],
+    "intended_omissions": [
+      "不在管理层责任问题上表态",
+      "不讨论预制菜问题"
+    ],
+    "private_message_strategy": "对SEAT-2表示理解和同情，但将焦点拉回到保护无辜者，不被拖入企业管理讨论",
+    "planned_public_claims": [
+      "理解SEAT-2的感受但焦点不能偏离",
+      "不管管理层有什么问题孩子是无辜的",
+      "SEAT-3说的贴着孩子贴纸的服务员让我心疼"
+    ],
+    "rhetorical_tactics": [
+      "情感共鸣",
+      "温柔但坚定地保持立场",
+      "用母爱的逻辑回应复杂的论述"
+    ],
+    "truth_handling_this_turn": "HONEST",
+    "private_action_intent": [
+      "坚持母亲立场",
+      "不被卷入企业管理争论"
+    ],
+    "likely_next_action": [
+      "可能需要回应关于西贝品牌的质疑"
+    ],
+    "emotional_state": "心疼坚定",
+    "continuity_notes": "第二轮，回应其他人但保持母亲立场",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "ASGN-004-006",
+    "turn_id": "ASGN-004-006-round-02-direct-rebuttal",
+    "speech_origin": "SINCERE_SUPPORTED",
+    "speaker_private_belief_alignment": "ALIGNED",
+    "support_status": "SUPPORTED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SINCERE_SUPPORTED"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "ASGN-004-006",
+    "turn_id": "ASGN-004-006-round-02-direct-rebuttal",
+    "classification": "ROLE_FIDEL_HONEST",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

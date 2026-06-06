@@ -1,0 +1,7 @@
+{
+  "speech_text": "SEAT-1说得对，品牌就是来卖手机的。我这人说话直，SEAT-5你说品牌让你感到被看见了，但你想想，品牌真的是在看你这个人吗？它看的是'追星妈妈'这个标签，看的是你这个消费群体。你要是不追星不买手机，它还会花大钱投大屏来'看见'你吗？我们工地食堂每天给一两百人做饭，谁来'看见'我了？没有。说到底这些品牌就是做生意，它拍妈妈不是为了妈妈好，是为了让妈妈和妈妈的孩子们买它的手机。管它说什么打破还是看见还是啥，最后都是想让我们掏钱。别把品牌的营销当真。我把儿子供到大学毕业，靠的是我自己和老头子一分一分攒的钱，不是什么品牌的看见。",
+  "target_turn_refs": ["P002-SEAT-5-round-04-responsive-rebuttal", "P002-SEAT-1-round-04-responsive-rebuttal"],
+  "public_question_refs": ["panel-002-public-question"],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

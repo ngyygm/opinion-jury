@@ -1,0 +1,17 @@
+{
+  "turn_id": "ASN-P2S3-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-3",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "我觉得退休大姐刚才说了一个特别重要的事儿：其实是两个问题被搅在一起了。一个是文章是不是cherry-picking，一个是女字旁贬义词到底有没有系统性问题。这两个可以分开看嘛。文章是不是cherry-picking？是的，它只说了对自己有利的那几个例子，这确实是不全面的。女字旁贬义词有没有系统性问题？可能有一些，老太太和我之前都承认了，贬义词确实是女字旁的多。这有矛盾吗？没有啊。你说我们和稀泥，我觉得是你自己把两个问题搅在一起了，拿一个问题的答案去否定另一个问题。分开看就清楚了。我作为一个骑手可能说不出什么大道理，但是分清楚两个不同的问题这个我还是懂的。",
+  "target_turn_refs": [
+    "ASN-P2S1-round-04-responsive-rebuttal",
+    "ASN-P2S2-round-04-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "cherry-picking-overgeneralization-pattern"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

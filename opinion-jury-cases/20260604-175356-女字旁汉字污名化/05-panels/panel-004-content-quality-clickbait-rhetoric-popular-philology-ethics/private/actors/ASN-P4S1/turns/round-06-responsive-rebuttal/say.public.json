@@ -1,0 +1,16 @@
+{
+  "turn_id": "ASN-P4S1-round-06-responsive-rebuttal",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-1",
+  "round": 6,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "最后一轮了，我说两句心里话吧。这场讨论让我很难受，但确实学到了东西。SEAT-5从一开始说的'骗人就是骗人'，SEAT-6的超市类比，SEAT-3提的底线——这些都让我意识到我之前的想法有问题。不能无中生有，这个底线我完全接受。事实性的引用错了就是错了，不能装成观点来逃避。SEAT-5说得对，做事要凭良心，这个行业通病确实不是犯错的借口。感谢大家没有放弃说服我，虽然过程很不舒服，但结果是好的。我回去会认真想想怎么做既有趣又有良心的内容。",
+  "target_turn_refs": [
+    "ASN-P4S5-round-05-peer-cross-challenge",
+    "ASN-P4S3-round-05-peer-cross-challenge",
+    "ASN-P4S6-round-05-peer-cross-challenge"
+  ],
+  "public_question_refs": [],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

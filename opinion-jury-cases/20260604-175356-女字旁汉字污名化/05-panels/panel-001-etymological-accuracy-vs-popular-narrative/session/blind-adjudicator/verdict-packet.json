@@ -1,0 +1,94 @@
+{
+  "panel_id": "PANEL-001",
+  "issue_id": "ISSUE-001",
+  "title": "Etymological Accuracy vs. Popular Narrative: Does the Article Mislead Through Selective and Incorrect Citations?",
+  "adjudicator_type": "BLIND",
+  "adjudication_timestamp": "2026-06-04T11:03:21.852283+00:00",
+  "sources_consulted": [
+    "transcript.public.jsonl (36 entries, 6 rounds, 6 participants)",
+    "claim-gate-packet.v001.json (20 claims verified)",
+    "public-question.md",
+    "public-disclosures.jsonl (empty)"
+  ],
+  "sources_excluded": [
+    "Role cards (blind to actor identities)",
+    "think.private.json files (blind to private deliberations)",
+    "filing-metadata files (blind to classification)",
+    "assignment.json files (blind to court-specific goals)"
+  ],
+  "core_question": "Does the Article Mislead Through Selective and Incorrect Citations?",
+  "verdict": "YES - The article misleads readers through systematic factual errors, unverified causal claims, misleading historical comparisons, and selective evidence presentation.",
+  "confidence": "HIGH",
+  "summary_of_evidence": {
+    "factual_errors": {
+      "claim": "The article misquotes the Shuowen Jiezi on the character yao",
+      "evidence_from_debate": "SEAT-1 (Round 1) provided specific original text showing the Shuowen says something different from what the article claims. SEAT-2 independently confirmed this error. Corroborated by CLAIM_GATE finding C09 (CONTRADICTED).",
+      "severity": "HIGH",
+      "consensus_level": "UNANIMOUS"
+    },
+    "unverified_causal_claims": {
+      "claim": "The article presents the motivation for adding female radicals as established fact",
+      "evidence_from_debate": "SEAT-1 and SEAT-2 both confirmed this is a hypothesis without primary source support. Corroborated by CLAIM_GATE C06 (UNVERIFIED).",
+      "severity": "MEDIUM",
+      "consensus_level": "UNANIMOUS"
+    },
+    "misleading_historical_comparison": {
+      "claim": "Ancient entertainers compared to modern arts troupes",
+      "evidence_from_debate": "SEAT-1 cited the Yueji system where entertainers were degraded castes. SEAT-2 confirmed. Corroborated by CLAIM_GATE C05.",
+      "severity": "MEDIUM",
+      "consensus_level": "UNANIMOUS"
+    },
+    "selective_evidence": {
+      "claim": "Article cherry-picks only supportive examples",
+      "evidence_from_debate": "SEAT-1 listed counterexamples. SEAT-3 called this selective testing. Corroborated by CLAIM_GATE C14.",
+      "severity": "MEDIUM",
+      "consensus_level": "UNANIMOUS"
+    }
+  },
+  "debate_dynamics": {
+    "round_1_opening": "SEAT-1 and SEAT-3 provided detailed critiques. SEAT-2 acknowledged errors but defended the underlying phenomenon. SEAT-4 argued for tolerance. SEAT-5 shared personal experience. SEAT-6 was indifferent.",
+    "round_2_direct_rebuttal": "SEAT-1 and SEAT-3 formed an alliance. SEAT-2 pivoted to cross-linguistic evidence. SEAT-4 retreated. SEAT-5 clarified she was not defending errors.",
+    "round_3_peer_cross_challenge": "SEAT-2 proposed layered argumentation framework. SEAT-1 admitted the phenomenon exists. Consensus began forming.",
+    "rounds_4_6_convergence": "By Round 4, all participants agreed the article misleads. Discussion shifted to how to do better."
+  },
+  "participant_assessment": {
+    "SEAT-1": {
+      "credibility": "HIGH",
+      "role": "Subject matter expert with primary source citations",
+      "evolution": "Critic to constructive contributor"
+    },
+    "SEAT-2": {
+      "credibility": "HIGH",
+      "role": "Domain scholar balancing critique with academic context",
+      "evolution": "Defender to bridge-builder"
+    },
+    "SEAT-3": {
+      "credibility": "HIGH",
+      "role": "Logical analyst with systematic structural critique",
+      "evolution": "Consistent critic who added constructive offer"
+    },
+    "SEAT-4": {
+      "credibility": "MEDIUM",
+      "role": "Defensive intermediary",
+      "evolution": "Full concession by Round 4"
+    },
+    "SEAT-5": {
+      "credibility": "HIGH for experience",
+      "role": "Personally affected individual",
+      "evolution": "Emotional to analytically mature"
+    },
+    "SEAT-6": {
+      "credibility": "LOW on topic",
+      "role": "Indifferent bystander",
+      "evolution": "Minimal but occasionally insightful"
+    }
+  },
+  "attack_traction": "Overwhelming. By Round 4, zero participants defended the article. Even the most sympathetic participant conceded all criticisms.",
+  "content_resistance": "The underlying phenomenon (semantic degradation of some female-radical characters) proved resistant to criticism. All participants acknowledged its academic validity by Round 3.",
+  "real_world_risk": "MODERATE - limited immediate harm from the specific article, but systemic risk if engagement-optimized misinformation becomes normalized.",
+  "final_verdict": {
+    "answer": "YES",
+    "qualification": "The misleading is systematic across four dimensions: facts, causation, history, and evidence selection.",
+    "recommendation": "The article should be corrected or replaced using accurate citations, full evidence, and clear distinction between facts and hypotheses."
+  }
+}

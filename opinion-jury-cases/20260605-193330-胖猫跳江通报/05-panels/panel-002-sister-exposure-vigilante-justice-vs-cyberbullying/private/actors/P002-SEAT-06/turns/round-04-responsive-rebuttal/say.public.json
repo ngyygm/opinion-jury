@@ -1,0 +1,17 @@
+{
+  "turn_id": "P002-SEAT-06-round-04-responsive-rebuttal",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-06",
+  "round": 4,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "SEAT-02你那个'我听说'我听了就不太信。SEAT-03说得对，听说不如看见，听说的事情不能当真。你要是有什么证据就拿出来，别老听说。\n\n好了，我觉得这个讨论也说够了。SEAT-04说得对，法律结论很清楚。SEAT-01说的当爸的视角我也很认同——教孩子做事讲道理，这个最重要。\n\n我就最后说一句：做人要厚道。不管你是谁，不管你遇到了什么事，花钱雇人骂人就是不对。这个道理放在我们镇上适用，放在网上也适用，放到哪里都适用。\n\n跟我没关系我就是一个卖东西的。不过做人要厚道这句话，我觉得比什么法条都有用——虽然SEAT-04别生气啊，你说的法条也很好。就是说，道理越简单越管用。\n\n可怜那个21岁的伢子。愿他在那边好好的。",
+  "target_turn_refs": [
+    "P002-SEAT-02-round-04-responsive-rebuttal",
+    "P002-SEAT-04-round-04-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "姐姐刘某的网络曝光行为——'为弟申冤'的正义感与'蓄意网暴'的违法性之间的冲突"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

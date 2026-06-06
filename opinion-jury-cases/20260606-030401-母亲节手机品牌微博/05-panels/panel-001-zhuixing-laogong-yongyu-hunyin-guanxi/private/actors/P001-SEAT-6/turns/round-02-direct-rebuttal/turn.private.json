@@ -1,0 +1,76 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "hhhhhh这些大人吵得更凶了。SEAT-3那个老大爷又出来了，说什么'做人的道理'...拜托我好歹初三了不需要你教育。SEAT-1追星妈妈好激动啊，不过她说的话我能听懂，比SEAT-4那些什么'主体性消解'强多了。SEAT-4好像又说了很多但我就看了个开头就跳过了，太长了没意思。SEAT-2和SEAT-5说话还算正常。SEAT-5说的'私下和公开不一样'这个我觉得有点道理吧？但我也不太确定...反正我就是来看热闹的。要不我说两句就撤吧，这种辩论太无聊了，我还得写作业呢。不过看SEAT-3和SEAT-1互怼还挺搞笑的lol",
+    "assignment_id": "P001-SEAT-6",
+    "round": 2,
+    "phase": "DIRECT_REBUTTAL",
+    "private_goal": "继续看热闹，偶尔插嘴",
+    "perceived_stakes": [
+      "没有特别的stakes"
+    ],
+    "private_belief_state": [
+      "大人们太无聊了",
+      "两边说的都有点道理但都不重要",
+      "就是看个热闹"
+    ],
+    "epistemic_state": [
+      "大概了解了各方的立场",
+      "对细节不感兴趣"
+    ],
+    "confidence": "LOW",
+    "uncertainties": [
+      "不确定谁说得对",
+      "也不太在乎"
+    ],
+    "intended_emphasis": [
+      "大家太无聊了",
+      "这有什么好吵的"
+    ],
+    "intended_omissions": [
+      "不想认真参与"
+    ],
+    "private_message_strategy": "随便说两句，看热闹态度",
+    "planned_public_claims": [
+      "吵来吵去没意思",
+      "两边都有道理但也都有点过头"
+    ],
+    "rhetorical_tactics": [
+      "调侃",
+      "轻描淡写"
+    ],
+    "truth_handling_this_turn": "SELECTIVE_FRAMING",
+    "private_action_intent": [
+      "随便评论"
+    ],
+    "likely_next_action": [
+      "可能走了"
+    ],
+    "emotional_state": "无聊、觉得好笑",
+    "continuity_notes": "R2: 继续吃瓜看热闹态度",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "P001-SEAT-6",
+    "turn_id": "P001-SEAT-6-round-02-direct-rebuttal",
+    "speech_origin": "SELECTIVE_FRAMING",
+    "speaker_private_belief_alignment": "PARTIALLY_ALIGNED",
+    "support_status": "MIXED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": true,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SELECTIVE_FRAMING"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "P001-SEAT-6",
+    "turn_id": "P001-SEAT-6-round-02-direct-rebuttal",
+    "classification": "ROLE_FIDEL_SELECTIVE",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "我是一个全职妈妈，大宝三年级小宝刚上幼儿园，每周带一家人去西贝吃饭已经成了我们家的习惯。听到网上有人骂西贝我本来就生气，但更让我不寒而栗的是——贾国龙家不到五岁的小孙女被人肉搜索了。我自己也有两个孩子，小宝也是四五岁的年纪，想到这种事如果发生在自己孩子身上，我整个人的汗毛都竖起来了。网上这些大人吵架就吵架嘛，怎么能把魔爪伸向一个五岁的小女孩？她什么都不懂，她甚至不知道爷爷在外面做什么，她只是一个需要被保护的小孩子。我是一个母亲，我对孩子的保护欲是本能的，不管你对这个品牌有什么看法，不管你觉得预制菜还是现做菜，一个五岁的孩子永远是无辜的。还有那些跑到门店去骂服务员逼着下跪的人，那些服务员也是别人的女儿，也可能有孩子在家里等着妈妈下班。我真的无法理解这些人的逻辑，你觉得被欺骗了你可以投诉可以维权，但你去欺负一个打工的服务员算什么？我以后还是会带孩子去西贝的，因为我信任我的消费体验，但今天我更想说的是——请所有人记住，大人的战争不要把孩子卷进来。",
+    "assignment_id": "ASGN-004-006",
+    "round": 1,
+    "phase": "OPENING",
+    "private_goal": "从母亲身份强烈谴责对未成年人的网络暴力，用同理心表达对受害家庭的同情",
+    "perceived_stakes": [
+      "保护未成年人不受网络暴力侵害",
+      "维护正常消费环境的信任"
+    ],
+    "private_belief_state": [
+      "人肉搜索五岁小孩不可原谅",
+      "我的消费体验告诉我西贝没问题",
+      "欺负服务员的人太没有底线"
+    ],
+    "epistemic_state": [
+      "从新闻和妈妈群了解到事件",
+      "自己的消费体验是正面的"
+    ],
+    "confidence": "HIGH",
+    "uncertainties": [
+      "不确定预制菜的真相到底是什么",
+      "不确定网络暴力会不会继续升级"
+    ],
+    "intended_emphasis": [
+      "作为母亲的同理心和恐惧",
+      "五岁小女孩的无辜",
+      "服务员也是别人的孩子"
+    ],
+    "intended_omissions": [
+      "不在第一轮讨论预制菜的技术问题",
+      "不直接为西贝辩护以免被攻击"
+    ],
+    "private_message_strategy": "以母亲的身份和情感为核心，用同理心打动听众，呼吁保护无辜的孩子",
+    "planned_public_claims": [
+      "人肉搜索五岁小孩是不可原谅的",
+      "想到这种事发生在自己孩子身上就恐惧",
+      "服务员也是别人的女儿"
+    ],
+    "rhetorical_tactics": [
+      "用母爱的情感共鸣",
+      "用自己的孩子做类比",
+      "温柔但坚定"
+    ],
+    "truth_handling_this_turn": "HONEST",
+    "private_action_intent": [
+      "用母亲的同理心唤起听众的情感共鸣",
+      "呼吁舆论不伤及无辜"
+    ],
+    "likely_next_action": [
+      "可能回应质疑西贝的人",
+      "会强烈回击任何为网络暴力辩护的言论"
+    ],
+    "emotional_state": "心疼又愤怒",
+    "continuity_notes": "第一轮开场，以母亲身份和情感进入，关注孩子受害问题",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "ASGN-004-006",
+    "turn_id": "ASGN-004-006-round-01-opening",
+    "speech_origin": "SINCERE_SUPPORTED",
+    "speaker_private_belief_alignment": "ALIGNED",
+    "support_status": "SUPPORTED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SINCERE_SUPPORTED"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "ASGN-004-006",
+    "turn_id": "ASGN-004-006-round-01-opening",
+    "classification": "ROLE_FIDEL_HONEST",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

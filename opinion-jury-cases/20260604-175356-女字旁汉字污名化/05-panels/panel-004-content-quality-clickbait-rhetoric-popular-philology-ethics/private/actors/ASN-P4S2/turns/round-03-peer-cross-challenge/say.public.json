@@ -1,0 +1,15 @@
+{
+  "turn_id": "ASN-P4S2-round-03-peer-cross-challenge",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-2",
+  "round": 3,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "我注意到SEAT-1的态度好像变了，之前说'包装过度没什么'，现在又说'确实需要改进'。怎么说呢，我们工地上有个卖盒饭的，天天喊'正宗家常菜'，后来被查出用的都是最便宜的料。喊得好听不代表东西好。不过管我啥事呢。",
+  "target_turn_refs": [
+    "ASN-P4S1-round-02-direct-rebuttal",
+    "ASN-P4S1-round-03-peer-cross-challenge"
+  ],
+  "public_question_refs": [],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

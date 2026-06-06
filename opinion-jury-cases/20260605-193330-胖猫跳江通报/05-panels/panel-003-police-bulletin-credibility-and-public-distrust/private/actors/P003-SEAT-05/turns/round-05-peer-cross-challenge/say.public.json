@@ -1,0 +1,16 @@
+{
+  "turn_id": "P003-SEAT-05-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-05",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "SEAT-01说的代练那个...我听了一点点。凌晨两点还在干活，跟我有时候加班到半夜一样。年轻人不容易嘛。我在工地干了十八年，也见过年轻人出事的。去年有个小伙子从脚手架上...唉算了不说了。SEAT-03说的对，愿每个孩子都被温柔以待。我也想对我在老家读书的娃说一句：爸爸在外面干活，过年就回来看你。你们继续聊嘛。",
+  "target_turn_refs": [
+    "P003-SEAT-01-round-04-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "警情通报本身的公信力——官方叙事的可信度与公众质疑之间的裂隙"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

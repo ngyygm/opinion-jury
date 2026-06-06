@@ -1,0 +1,14 @@
+{
+  "turn_id": "ASN-P4S2-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-2",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "你们说的那些什么事实和观点分开，我这个干工地的听得云里雾里的。我就一句话：不管怎么分，别编瞎话就行。编了就是编了，别找那么多理由。这个讨论也差不多了吧，SEAT-5那个老太太和SEAT-6说的最实在。",
+  "target_turn_refs": [
+    "ASN-P4S1-round-05-peer-cross-challenge"
+  ],
+  "public_question_refs": [],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

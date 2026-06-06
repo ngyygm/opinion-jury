@@ -1,0 +1,17 @@
+{
+  "scope_id": "ASGN-004-003-round-02-direct-rebuttal",
+  "files": [
+    {
+      "source": "01-parse/source-content.md",
+      "view_file": "001-source-content.md",
+      "sha256": "3fb3d50967a2c0663bd1f426bf1fcfe4827b4a001829f19dae515a8f515e2cbc",
+      "size": 8176
+    },
+    {
+      "source": "05-panels/panel-004-cyberbullying-and-real-world-violence/transcript.public.jsonl",
+      "view_file": "002-transcript.public.jsonl",
+      "sha256": "50258e603ddcd1e0234603267d888c08ce2182203acbd995510297915b394e08",
+      "size": 60168
+    }
+  ]
+}

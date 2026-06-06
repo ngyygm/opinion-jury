@@ -1,0 +1,21 @@
+{
+  "turn_id": "ASGN-003-005-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-5",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "我觉得这个讨论已经产出了一个很有价值的成果——三层知情告知方案。做运营的朋友接受了它作为面向未来的标准，这是一个重要的让步。但我想回应她的'不追责'条件。不追责和承认错误不是一回事。你可以选择不惩罚Tim，但你不能说Tim在知情告知这件事上做得没有问题。做运营的朋友说当时行业没有这个标准所以不能追责——这个逻辑有一个漏洞。在法律和伦理领域有一个概念叫'合理人标准'：在特定情况下，一个理性的、有专业能力的人应该怎么做。你不需要等明文规定出台才知道什么是对的。Tim的团队有制片、编导、完整制作流程，这是一个专业团队。一个专业团队在面对被拍摄者时，应该具有高于普通人的注意义务。你不需要三层方案告诉你——隐瞒真实身份去跟陌生人互动并拍摄他们，这件事本身就值得打个问号。这不是事后诸葛亮，这是专业团队应该有的基本敏感度。所以我的总结是：三层方案作为标准可以面向未来，但Tim在知情告知上的不足不应该因为标准尚未明文存在就被一笔勾销。",
+  "target_turn_refs": [
+    "ASGN-003-004-round-05-peer-cross-challenge",
+    "ASGN-003-003-round-05-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "panel-003-public-question"
+  ],
+  "public_evidence_refs": [
+    "C008",
+    "C011",
+    "C013"
+  ],
+  "public_action_signals": []
+}

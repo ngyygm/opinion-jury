@@ -1,0 +1,19 @@
+{
+  "turn_id": "P001-SEAT-3-round-02-direct-rebuttal",
+  "panel_id": "PANEL-001",
+  "anonymous_alias": "SEAT-3",
+  "round": 2,
+  "phase": "DIRECT_REBUTTAL",
+  "speech_text": "SEAT-1你说我老伴那个年代'没得选只能围着家转'？你这话我听了真难受。\n\n我老伴不是没得选，她是心甘情愿地为这个家付出。她照顾老的照顾小的，把一辈子给了这个家，她从来没有觉得自己委屈。你们现在的人总觉得做家庭主妇就是被压迫了，殊不知那也是一种选择，一种了不起的付出。\n\n你说你老公支持你追星，那好，你老公能理解是你的事。但你们追星的人叫什么'老公'，发到公共平台上让大家看，这就不仅仅是你自己的事了。我老伴要是活着看到这种东西，她一定也会觉得不像话。\n\nSEAT-2说我不了解什么'饭圈文化'就不能评价。我就问一句：'两个老公'这四个字我认不认识？一个结了婚的女人说'另一个老公'，这话对不对？这个道理需要什么专业知识吗？做人最基本的就是知道什么话该说什么话不该说。\n\n我不是要说追星的人都是坏人，但做事情要有分寸，说话要知道轻重。这跟什么圈子没关系，这就是做人的道理。",
+  "target_turn_refs": [
+    "P001-SEAT-1-round-01-opening",
+    "P001-SEAT-2-round-02-direct-rebuttal"
+  ],
+  "public_question_refs": [
+    "panel-001-public-question"
+  ],
+  "public_evidence_refs": [
+    "C010"
+  ],
+  "public_action_signals": []
+}

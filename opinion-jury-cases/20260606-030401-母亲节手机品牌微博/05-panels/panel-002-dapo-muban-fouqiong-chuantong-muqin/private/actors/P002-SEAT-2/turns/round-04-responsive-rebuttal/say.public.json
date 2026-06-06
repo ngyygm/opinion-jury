@@ -1,0 +1,17 @@
+{
+  "turn_id": "P002-SEAT-2-round-04-responsive-rebuttal",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-2",
+  "round": 4,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "看了这么多轮，我现在明白了。品牌想表达妈妈可以不一样但说法搞错了，把传统妈妈说成模板要打破。SEAT-6说换成'看见更多面的妈妈'我觉得挺好，这样谁都不伤。SEAT-4说你老伴偷偷给你留一碗面、扛着裁员不让你知道，这些才是最真实的生活。品牌那些配图——追星、同人、宠物——跟我认识的姐妹们的生活差太远了，我们哪有时间搞那些，光活着就够忙了。我就说一句：妈妈就是妈妈，不用分什么传统不传统、模板不模板。大家把自己的日子过好、把孩子养好，这就够了。品牌要是真想拍妈妈的故事，来我们工地食堂拍拍，看我们怎么给一两百号人做大锅饭的，那才叫真实。",
+  "target_turn_refs": [
+    "P002-SEAT-6-round-03-peer-cross-challenge",
+    "P002-SEAT-4-round-03-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "panel-002-public-question"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

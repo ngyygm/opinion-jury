@@ -1,0 +1,83 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "哎呀，我听孙子说网上有个叫罗永浩的人，嘴巴厉害得很，把一个开了几十年的饭馆骂得关了一百多家店，好几万人没活干了。我这心里头就不是滋味。我活了六十多岁，种了一辈子地，村里谁家开个小卖部、小饭馆的，都是起早贪黑挣点辛苦钱，哪经得住人家网上说几句就给搞垮了？我孙子去年过年带我去县城吃过一次那个什么西贝，说实话我还觉得挺好吃的，莜面那个东西我以前没吃过，嚼着有劲儿。那个开饭馆的老板，说是做了三十多年了，跟我种地一样，一辈子就干一件事，多不容易。现在网上那些网红，说是几千万粉丝，说句话就能让一个企业倒下去，这跟以前村里搬弄是非的长舌妇有啥区别？就是嘴大了呗。我就是觉得，不管那饭馆做得对不对，你不能靠骂人就把人家搞死啊，那里面干活的都是跟我们一样的普通老百姓，上有老下有小的，一下子没工作了咋办？我这人不会说什么大道理，就觉得做人要厚道，做事要给人家留条活路。",
+    "assignment_id": "ASGN-002-001",
+    "round": 1,
+    "phase": "OPENING",
+    "private_goal": "从农村老人的角度，表达对网红舆论搞垮实体企业的不理解和对普通打工人的同情",
+    "perceived_stakes": [
+      "普通打工人的饭碗",
+      "开了一辈子企业的人的心血"
+    ],
+    "private_belief_state": [
+      "网红说话太厉害了能搞垮企业",
+      "不管怎样不该让几万人没工作",
+      "那个西贝我去吃过觉得还行"
+    ],
+    "epistemic_state": [
+      "信息来自孙子转述和抖音偶尔刷到",
+      "对事件细节不了解",
+      "凭直觉判断"
+    ],
+    "confidence": "LOW",
+    "uncertainties": [
+      "不知道预制菜到底是什么",
+      "不清楚罗永浩这个人到底是干啥的",
+      "不知道西贝到底做错了什么"
+    ],
+    "intended_emphasis": [
+      "几万人的饭碗比什么都重要",
+      "做了一辈子生意不容易",
+      "做人要厚道"
+    ],
+    "intended_omissions": [
+      "不懂预制菜的问题不讨论",
+      "不了解法律和法规层面的东西"
+    ],
+    "private_message_strategy": "用朴素的农村生活经验来表达看法，不讲大道理，就讲人情世故",
+    "planned_public_claims": [
+      "网上说几句话就能搞垮一个企业太吓人了",
+      "几万普通人的饭碗比吵架重要",
+      "做人做事要给人家留活路"
+    ],
+    "rhetorical_tactics": [
+      "用种地和村里开小饭馆的例子类比",
+      "用朴素的人情道理打动人",
+      "说自己不懂但凭直觉判断"
+    ],
+    "truth_handling_this_turn": "HONEST",
+    "private_action_intent": [
+      "表达自己的不解和担忧"
+    ],
+    "likely_next_action": [
+      "继续观察其他人的看法"
+    ],
+    "emotional_state": "平静中带着一丝担忧和困惑",
+    "continuity_notes": "第一轮，初始态度：对网红搞垮企业感到不解和同情普通打工人",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "ASGN-002-001",
+    "turn_id": "ASGN-002-001-round-01-opening",
+    "speech_origin": "SINCERE_SUPPORTED",
+    "speaker_private_belief_alignment": "ALIGNED",
+    "support_status": "SUPPORTED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SINCERE_SUPPORTED"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "ASGN-002-001",
+    "turn_id": "ASGN-002-001-round-01-opening",
+    "classification": "ROLE_FIDEL_HONEST",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "turn_id": "ASN-P2S5-round-01-opening",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-5",
+  "round": 1,
+  "phase": "OPENING",
+  "speech_text": "嗨，这种事儿我见多了。你在快手上刷视频，哪个不是只说对自己有利的？就跟我们超市搞促销一样，它肯定只告诉你鸡蛋打折了，不会告诉你食用油涨价了对吧。那个文章说女字旁的字以前都是好词，挑着说了又怎么样，网上不都这样嘛。但是呢，我觉得这也不代表它说的全是假的。你看嫖这个字吧，以前确实是好的意思吧，霍去病还叫嫖姚校尉呢，这个我以前看书的时候知道的。现在变成了那个意思，这不就是事实嘛。所以我的看法就是，文章可能说得不全，但也不至于全是编的。我们看东西自己心里有杆秤就行了，不至于因为这个吵来吵去的。有那功夫不如想想今晚给闺女做点啥好吃的。",
+  "target_turn_refs": [],
+  "public_question_refs": [
+    "cherry-picking-overgeneralization-pattern"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

@@ -1,0 +1,22 @@
+{
+  "turn_id": "P004-SEAT-4-round-06-responsive_rebuttal",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-4",
+  "round": 6,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "最后一轮，做一个简短的收束。\n\n传播学的终极关怀不是理论，是人。是每一个在公共空间里表达自己、被看见、被理解、被尊重的人。这次讨论让我看到了理论如何在实践中被激活：把关人理论变成了透明化审核的实践方案，媒介侵入性概念变成了保护儿童的朴素关怀，批判传播学变成了品牌治理的建设性框架。\n\nSEAT-3的'赋能型把关'是我在这场讨论中听到最有理论创新价值的观点。SEAT-5的'尊重别人就是尊重自己'是我听到最有智慧的总结。SEAT-1的'态度比制度更重要'提醒我：再完善的理论框架，如果缺乏真诚的执行意愿，也只是纸上谈兵。\n\n作为一个还在学习传播学的学生，这场讨论给了我一个信念：传播学的价值不在于构建多精巧的理论体系，而在于帮助每一个人的声音被正确地听见。\n\n六轮讨论结束了，但关于品牌公共责任的讨论不应该结束。希望这次讨论的成果能够真正推动行业的改变。\n\n感谢每一位参与者。这是我最好的课程作业素材，也是我最重要的一堂传播学实践课。",
+  "target_turn_refs": [
+    "P004-SEAT-3-round-05-peer_cross_challenge",
+    "P004-SEAT-5-round-05-peer_cross_challenge",
+    "P004-SEAT-1-round-05-peer_cross_challenge"
+  ],
+  "public_question_refs": [
+    "品牌价值观营销的公共责任：UGC+户外大屏放大的传播风险"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": [
+    "学术收束",
+    "人文回归",
+    "实践课总结"
+  ]
+}

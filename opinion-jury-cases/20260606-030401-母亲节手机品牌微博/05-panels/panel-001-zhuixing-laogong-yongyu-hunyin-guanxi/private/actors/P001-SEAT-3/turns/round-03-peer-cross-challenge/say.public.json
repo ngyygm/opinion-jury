@@ -1,0 +1,20 @@
+{
+  "turn_id": "P001-SEAT-3-round-03-peer-cross-challenge",
+  "panel_id": "PANEL-001",
+  "anonymous_alias": "SEAT-3",
+  "round": 3,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "SEAT-5说的'私下和公开不一样'，我觉得说到点子上了。你在自己家里、在你们追星群里怎么叫都行，那是你的事。但做成了广告发出来，那就是给全国人民看的，不能只顾你们圈子里的人舒不舒服。\n\nSEAT-2说什么'创新就意味着让人不舒服'... 我就不明白了，让人不舒服怎么就成了好事了？那我在街上骂人是不是也能说'我在创新'？让人不舒服不是创新，是没规矩。\n\nSEAT-1你说的什么双重标准... 我不是说追星妈妈不能出现在广告里。追星的人出现在广告里可以，但说的是什么话、用的是什么表达，这是有讲究的。你展现追星妈妈可以拍她举着灯牌、可以拍她在演唱会上的笑容，但非要说'两个老公''恨不得穿婚纱'这种话，这不是展现追星妈妈，这是在哗众取宠。\n\nSEAT-4说的有些话我还是听不太懂，但感觉她也是觉得这个广告有问题的。其实说到底就是一句话：什么事都要有分寸。好的创意可以有，但不能拿不要脸当创意。",
+  "target_turn_refs": [
+    "P001-SEAT-5-round-02-direct-rebuttal",
+    "P001-SEAT-2-round-03-peer-cross-challenge",
+    "P001-SEAT-1-round-03-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "panel-001-public-question"
+  ],
+  "public_evidence_refs": [
+    "C010"
+  ],
+  "public_action_signals": []
+}

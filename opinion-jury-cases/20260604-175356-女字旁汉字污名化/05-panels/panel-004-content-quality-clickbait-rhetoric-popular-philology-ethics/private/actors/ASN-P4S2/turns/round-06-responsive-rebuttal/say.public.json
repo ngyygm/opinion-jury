@@ -1,0 +1,15 @@
+{
+  "turn_id": "ASN-P4S2-round-06-responsive-rebuttal",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-2",
+  "round": 6,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "终于完了。说白了道理就一个：别骗人。不管你是干工地的还是写文章的，实实在在做事就行。SEAT-5一个不识字的老太太都明白的道理，读过书的人反而绕来绕去。SEAT-1最后认了挺好的，不过改不改就不知道了。反正跟我没关系，走了。",
+  "target_turn_refs": [
+    "ASN-P4S5-round-05-peer-cross-challenge",
+    "ASN-P4S1-round-06-responsive-rebuttal"
+  ],
+  "public_question_refs": [],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

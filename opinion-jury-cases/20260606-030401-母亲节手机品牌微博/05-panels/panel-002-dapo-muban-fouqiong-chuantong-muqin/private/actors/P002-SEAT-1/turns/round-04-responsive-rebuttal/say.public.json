@@ -1,0 +1,18 @@
+{
+  "turn_id": "P002-SEAT-1-round-04-responsive-rebuttal",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-1",
+  "round": 4,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "讨论到现在，我觉得我们其实找到了一些共识。SEAT-5承认了品牌框架选择有问题，SEAT-6给出了具体建议——把'打破刻板印象'换成'看见更多面的妈妈'，我觉得这说到了关键。大家都同意：妈妈可以有很多种样子，但不能用否定一种来肯定另一种。品牌不是需要'打破'什么，而是需要'看见更多'。我还想补充一点——这次事情让我意识到一个问题：品牌在讨论'妈妈是什么样的'，但它从来没有问过我们这些普通妈妈自己觉得是什么样的。它替我们定义了什么是'模板'，又替我们决定了什么需要被'打破'。但谁给了它这个权力？我这种每天站八小时收银台、回家做饭辅导作业的妈妈，从来没有被问过'你觉得你的生活是什么样的'。下次品牌想搞母亲节活动，能不能先听听我们的声音？别替我们下定义，先听我们说。这才是真正的尊重。",
+  "target_turn_refs": [
+    "P002-SEAT-5-round-03-peer-cross-challenge",
+    "P002-SEAT-6-round-03-peer-cross-challenge",
+    "P002-SEAT-3-round-03-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "panel-002-public-question"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

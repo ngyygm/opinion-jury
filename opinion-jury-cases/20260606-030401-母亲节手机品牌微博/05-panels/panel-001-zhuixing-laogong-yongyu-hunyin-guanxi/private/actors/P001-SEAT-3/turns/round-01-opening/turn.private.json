@@ -1,0 +1,83 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "什么乱七八糟的...两个老公？这帮人在说什么呢？我老伴走了三年了，她就是最传统的那种妈妈，一辈子围着家转，照顾我照顾儿子，任劳任怨。作文里写的温柔勤劳无私那就是我老伴的真实样子，怎么就叫'模板'了？怎么就需要'打破'了？我老伴那辈人付出的那些就因为不符合你们现在的潮流就不值钱了？那个配图2说什么两个老公，见另一个穿婚纱... 这说的叫人话吗？你的老公就是你的老公，什么另一个老公，一年见两回的那个叫老公？我活了六十多年没听过这种不要脸的话。追星追星，追成这样还有理了？把老公跟什么明星放一起比，还穿婚纱，这是对婚姻的尊重吗？我家那个年代谁敢说这种话...现在的年轻人真是越来越不像话了。我儿子在城里上班也不常回来，但我把他教出来的，他知道什么叫规矩、什么叫尊重。",
+    "assignment_id": "P001-SEAT-3",
+    "round": 1,
+    "phase": "OPENING",
+    "private_goal": "从传统家庭观念出发，批评'两个老公'说法是对婚姻关系的冒犯",
+    "perceived_stakes": [
+      "传统家庭价值观",
+      "已故老伴的形象和付出",
+      "社会风气"
+    ],
+    "private_belief_state": [
+      "'两个老公'是对婚姻的亵渎",
+      "传统母亲形象不该被否定",
+      "追星追到不尊重婚姻就是不对",
+      "现在的年轻人太没规矩了"
+    ],
+    "epistemic_state": [
+      "对传统家庭观念有深刻理解",
+      "对互联网文化基本不了解",
+      "对追星文化完全不理解"
+    ],
+    "confidence": "HIGH",
+    "uncertainties": [
+      "不太明白这些年轻人到底在想什么"
+    ],
+    "intended_emphasis": [
+      "两个老公说法伤人",
+      "传统母亲形象不应该被否定",
+      "老伴就是最好的妈妈"
+    ],
+    "intended_omissions": [
+      "不提自己对互联网文化的无知"
+    ],
+    "private_message_strategy": "用朴实的话语表达真实的愤怒和受伤感，不需要复杂的论证",
+    "planned_public_claims": [
+      "两个老公的说法不要脸",
+      "传统妈妈的好不该被否定",
+      "这种活动败坏社会风气"
+    ],
+    "rhetorical_tactics": [
+      "朴实情感表达",
+      "个人经历叙述",
+      "道德谴责"
+    ],
+    "truth_handling_this_turn": "HONEST",
+    "private_action_intent": [
+      "表达愤怒和不满",
+      "维护传统家庭观念"
+    ],
+    "likely_next_action": [
+      "继续批评"
+    ],
+    "emotional_state": "愤怒、心痛、被冒犯",
+    "continuity_notes": "首轮发言，建立传统家庭观念捍卫者的身份",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "P001-SEAT-3",
+    "turn_id": "P001-SEAT-3-round-01-opening",
+    "speech_origin": "SINCERE_SUPPORTED",
+    "speaker_private_belief_alignment": "ALIGNED",
+    "support_status": "SUPPORTED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SINCERE_SUPPORTED"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "P001-SEAT-3",
+    "turn_id": "P001-SEAT-3-round-01-opening",
+    "classification": "ROLE_FIDEL_HONEST",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

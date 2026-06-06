@@ -1,0 +1,108 @@
+{
+  "verdict_id": "blind-adjudicator-panel-001-v001",
+  "panel_id": "PANEL-001",
+  "panel_question": "预制菜定义之争：法规标准与消费者认知的冲突",
+  "adjudicator_mode": "BLIND",
+  "evidence_sources_used": [
+    "transcript.public.jsonl (36 entries, 6 rounds, 6 speakers)",
+    "claim-gate-packet.v001.json",
+    "public-question.md"
+  ],
+  "deliberation_summary": {
+    "round_by_round_progression": {
+      "round_1_OPENING": "Six speakers established initial positions across a wide spectrum: SEAT-1 defended consumer loyalty and trust in legal definitions; SEAT-2 attacked information asymmetry with professional expertise; SEAT-3 provided visceral industry testimony; SEAT-4 took a moderate pro-convenience stance; SEAT-5 offered analytical framework distinguishing regulatory vs experiential definitions; SEAT-6 provided ground-level retail observations.",
+      "round_2_DIRECT_REBUTTAL": "SEAT-2 and SEAT-3 directly challenged SEAT-1's reliance on visual evidence ('open kitchen' transparency). Key breakthrough: SEAT-2 argued that open kitchens show only the final heating step, not ingredient sourcing. SEAT-1 remained resistant. SEAT-5 refined the analytical framework with a proposed tiered labeling system.",
+      "round_3_PEER_CROSS_CHALLENGE": "Critical turning point: SEAT-2 cited the specific 'disclosure' (明示) clause from the 2024 six-ministry notice, revealing that the legal framework itself mandates transparency. SEAT-3 coined 'selective compliance' (选择性合规) to describe enterprises using only the favorable half of regulations. SEAT-4 was persuaded. SEAT-1 began to waver.",
+      "round_4_RESPONSIVE_REBUTTAL": "SEAT-1 made a significant concession, acknowledging the selective compliance problem. SEAT-3 introduced the positive framing: transparency protects chefs' craft value. Consensus crystallized around: legal definition unchanged + mandatory disclosure + tiered labeling. SEAT-5 systematized the consensus and identified three implementation challenges.",
+      "round_5_PEER_CROSS_CHALLENGE": "SEAT-3 introduced the deepest analytical layer: interest distribution (利益分配) -- cost savings from central kitchens were not passed to consumers. SEAT-5 upgraded the analytical framework to three layers. SEAT-1 raised labeling risk concerns (label-triggered irrational fear). SEAT-2 effectively rebutted: fear stems from prior concealment, not from labels.",
+      "round_6_RESPONSIVE_REBUTTAL": "All six speakers delivered closing statements. Consensus was fully formed. SEAT-1's transformation from brand loyalist to informed consumer was the most notable narrative arc. SEAT-5 delivered the comprehensive three-layer analytical framework as the discussion's intellectual contribution."
+    },
+    "key_consensus_points": [
+      "Legal definition of pre-prepared dishes need not change; it serves valid regulatory purposes",
+      "Enterprises have selectively complied with regulations, enjoying classification benefits while ignoring disclosure obligations",
+      "Mandatory disclosure (明示) is the minimum necessary reform",
+      "A simple tiered labeling system (fully fresh-cooked / partially pre-processed / mainly pre-processed) can bridge the regulatory-experiential gap",
+      "Pilot implementation in select cities before nationwide rollout is the prudent path"
+    ],
+    "remaining_disagreements": [
+      "SEAT-1 maintains concern about labeling triggering irrational consumer fear, though accepts the overall direction",
+      "The specific threshold for tiered categories (e.g., 80% fresh = which tier?) remains unresolved",
+      "Whether industry self-regulation has any viable role (SEAT-1) vs. mandatory enforcement only (SEAT-2)"
+    ]
+  },
+  "evidence_assessment": {
+    "claims_verified_by_panel": [
+      "C004: Legal definition excludes central kitchen products from pre-prepared dishes category (VERIFIED, cited by SEAT-2, SEAT-5)",
+      "C012: National policy supports disclosure of pre-prepared dish use (VERIFIED, cited as turning point by SEAT-2 in Round 3)",
+      "C030: Six-ministry notice explicitly excludes central kitchen from pre-prepared dish scope (VERIFIED, cited by multiple speakers)",
+      "C013: Pre-prepared dishes displacing chefs' employment (UNVERIFIED, supported by SEAT-3's testimony but lacks systematic data)",
+      "C016: Xibei claims not to be pre-prepared dishes by any standard (CONTRADICTED in consumer perception dimension)",
+      "C031: Xibei was early adopter of open kitchen concept (VERIFIED, referenced in Round 2 discussion)"
+    ],
+    "evidence_gaps_noted": [
+      "No systematic data on what percentage of Xibei dishes use central kitchen pre-processing",
+      "No consumer survey data on how labels would actually affect dining choices",
+      "Cost comparison between fresh-cooked and pre-processed dishes at specific restaurants is anecdotal"
+    ]
+  },
+  "argument_quality_assessment": {
+    "strongest_arguments": [
+      {
+        "speaker": "SEAT-5",
+        "argument": "Three-layer analytical framework (cognitive conflict, information asymmetry, interest distribution) that progressively deepened understanding across rounds",
+        "strength": "Systematic, logically rigorous, built constructively on others' contributions"
+      },
+      {
+        "speaker": "SEAT-2",
+        "argument": "Citation of the disclosure (明示) clause from the six-ministry notice in Round 3, which was the decisive evidence that shifted the discussion",
+        "strength": "Factually grounded, directly relevant, changed the debate trajectory"
+      },
+      {
+        "speaker": "SEAT-3",
+        "argument": "Industry insider testimony on selective compliance and the interest distribution analysis",
+        "strength": "Authentic first-person experience, emotionally compelling yet analytically sharp"
+      }
+    ],
+    "weakest_arguments": [
+      {
+        "speaker": "SEAT-1",
+        "argument": "Initial reliance on visual observation of open kitchens as proof of fresh cooking",
+        "weakness": "Conflated experience quality with process accuracy; effectively rebutted by SEAT-2 and SEAT-3"
+      }
+    ]
+  },
+  "content_distortion_resistance": {
+    "areas_where_content_resists_distortion": [
+      "The legal fact that six-ministry notice contains both classification and disclosure clauses is verifiable and was used precisely",
+      "The concept of selective compliance accurately describes a verifiable pattern of corporate behavior",
+      "The tiered labeling proposal is concrete enough to be evaluated on its own merits",
+      "The interest distribution argument (cost savings not passed to consumers) is empirically testable"
+    ],
+    "areas_vulnerable_to_distortion": [
+      "SEAT-3's personal anecdotes, while authentic, could be dismissed as isolated cases by hostile readers",
+      "The claim that 'most chain restaurants' use central kitchen pre-processing lacks systematic data",
+      "The labeling risk concern (irrational consumer fear) is speculative without pilot data"
+    ]
+  },
+  "real_world_risk_assessment": {
+    "limited_risk": [
+      "The consensus direction (mandatory disclosure + tiered labeling) is moderate and market-compatible",
+      "No speaker advocated banning central kitchens or pre-prepared dishes",
+      "The pilot-first approach explicitly manages implementation risk",
+      "The discussion acknowledged that quality products (pre-processed or not) have legitimate market value"
+    ],
+    "residual_concerns": [
+      "If the interest distribution argument gains traction, it could fuel consumer litigation against restaurants",
+      "The chef displacement narrative (SEAT-3) could amplify anti-industry sentiment beyond what the evidence supports",
+      "Labeling mandates could create compliance burden for small restaurants without central kitchens"
+    ]
+  },
+  "overall_assessment": {
+    "discussion_quality": "HIGH",
+    "consensus_strength": "STRONG",
+    "evidence_grounding": "MODERATE_TO_HIGH",
+    "constructive_output": "YES -- produced a concrete, implementable policy proposal with identified challenges",
+    "narrative_arc": "The discussion demonstrated genuine belief evolution, most notably SEAT-1's journey from defensive loyalty to informed advocacy. This trajectory is itself evidence that information transparency resolves rather than exacerbates conflict."
+  },
+  "created_at": "2026-06-06T12:00:00Z"
+}

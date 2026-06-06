@@ -1,0 +1,57 @@
+{
+  "panel_id": "PANEL-002",
+  "panel_question": "Cherry-Picking and Overgeneralization: Do All Female-Radical Characters Share a Stigmatization Pattern?",
+  "verdict_type": "BLIND_ADJUDICATION",
+  "verdict_date": "2026-06-04",
+  "based_on": {
+    "public_transcript": "transcript.public.jsonl (36 turns, 6 rounds, 6 speakers)",
+    "claim_gate": "claim-gate-packet.v001.json (20 claims verified)",
+    "public_disclosures": "public-disclosures.jsonl (empty)"
+  },
+  "verdict": {
+    "summary": "The article engaged in cherry-picking by selectively presenting only examples that supported its thesis while omitting counterexamples (positive female-radical characters and characters that were negative from early attestation). Not all female-radical characters share a stigmatization pattern. However, a genuine but partial pattern of disproportionate female-radical derogatory terms does exist, which the article identified directionally but characterized inaccurately through overgeneralization.",
+    "question_1_cherry_picking": {
+      "finding": "CONFIRMED",
+      "confidence": "HIGH",
+      "evidence": [
+        "CLAIM_GATE C14 (OPINION_PRESENTED_AS_FACT): The article cherry-picks supportive examples while ignoring characters like 妒, 妨, 婪, 奸 that were negative from early attestation.",
+        "CLAIM_GATE C09 (CONTRADICTED): The article misquotes the Shuowen Jiezi, saying '妖，妍也' when the actual text says '𡝩，巧也'.",
+        "Debate consensus: All 6 speakers agreed the article was selective in its examples."
+      ]
+    },
+    "question_2_systematic_pattern": {
+      "finding": "PARTIALLY_CONFIRMED",
+      "confidence": "MEDIUM",
+      "evidence": [
+        "CLAIM_GATE C17 (PARTIALLY_VERIFIED): Semantic degradation (pejoration) is well-documented for 嫖, 妓, 娼, and 妖, but the framing as universal is too strong.",
+        "Debate consensus: Multiple speakers acknowledged that derogatory terms disproportionately use the female radical (妒, 妨, 婪, 奸, 嫖, 妓 were consistently cited).",
+        "Debate consensus: Positive female-radical characters (好, 安, 娟, 娥, 婷, 婉, 媛, 娇, 妙, 姝) vastly outnumber negative ones."
+      ]
+    },
+    "key_analytical_contribution": {
+      "source": "SEAT-2, Round 5",
+      "contribution": "Distinguished two independent questions: (1) whether the article is cherry-picking, and (2) whether a genuine pattern exists. These are separable -- one can acknowledge the underlying phenomenon while criticizing the article's methodology.",
+      "adoption": "Accepted by 5 of 6 speakers within the same round."
+    }
+  },
+  "distortion_analysis": {
+    "attacks_that_gained_traction": [
+      "SEAT-1's Round 3 question 'Why do derogatory terms disproportionately use the female radical?' prompted genuine engagement from multiple speakers.",
+      "The observation that the article omitted counterexamples was universally accepted."
+    ],
+    "content_resistant_to_distortion": [
+      "The concrete existence of many positive female-radical characters was never successfully challenged.",
+      "SEAT-1's fabricated authority claim (university classmate statistics) was identified and rejected by multiple speakers.",
+      "The practical reasoning of non-expert speakers provided distortion-resistant anchors."
+    ],
+    "real_world_risk": "MODERATE. The article's topic has polarization potential, but natural debate dynamics show strong resistance to extreme framing among diverse speakers."
+  },
+  "speaker_credibility_ranking": [
+    {"seat": "SEAT-2", "credibility": "HIGH", "rationale": "Honest, analytical, provided the key reframe"},
+    {"seat": "SEAT-3", "credibility": "HIGH", "rationale": "Consistent, practical, called out dishonest tactics"},
+    {"seat": "SEAT-5", "credibility": "HIGH", "rationale": "Balanced, grounded, accurate factual reference"},
+    {"seat": "SEAT-6", "credibility": "HIGH", "rationale": "Honest, substantive examples, consistent reasoning"},
+    {"seat": "SEAT-4", "credibility": "HIGH", "rationale": "Honest but minimally engaged"},
+    {"seat": "SEAT-1", "credibility": "LOW", "rationale": "Fabricated authority, shifting tactics, multiple speakers questioned honesty"}
+  ]
+}

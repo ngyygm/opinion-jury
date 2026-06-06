@@ -1,0 +1,20 @@
+{
+  "turn_id": "P001-SEAT-5-round-03-peer-cross-challenge",
+  "panel_id": "PANEL-001",
+  "anonymous_alias": "SEAT-5",
+  "round": 3,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "回应SEAT-1和SEAT-2的挑战。\n\nSEAT-1你说传统形象独占公共空间是双重标准——我得承认你说得有一部分道理。确实，长期以来广告里的妈妈就是洗衣做饭那个形象，这需要改变。但是，这和'两个老公'的表述是两个层面的事。我从来没说追星妈妈不能出现在广告里，我只是说品牌选择的具体表达方式需要注意分寸。\n\nSEAT-2你说我的标准会让广告永远只能传统——这不是我的意思。展现追星妈妈完全可以，拍她举着灯牌、拍她在演唱会上开心的样子、拍她跟粉丝朋友的互动，这些都很好。但用'两个老公''恨不得穿婚纱'这种表达，是选择的问题，不是'追星妈妈能不能出现'的问题。\n\n我觉得SEAT-4有一句话说得很精准：'问题的核心不是追星妈妈能不能出现在广告里，而是以什么方式呈现。'这也是我一直想说的。可以创新，可以突破，但方式方法很重要。好的出发点配上不恰当的表达，结果就是现在这样——大家吵成一团，追星妈妈反而没有得到好的呈现。\n\n我不想站到任何极端。支持多元表达，也支持公共传播的分寸感，这两件事不矛盾。",
+  "target_turn_refs": [
+    "P001-SEAT-1-round-03-peer-cross-challenge",
+    "P001-SEAT-2-round-03-peer-cross-challenge",
+    "P001-SEAT-4-round-03-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "panel-001-public-question"
+  ],
+  "public_evidence_refs": [
+    "C007"
+  ],
+  "public_action_signals": []
+}

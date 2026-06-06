@@ -1,0 +1,22 @@
+{
+  "turn_id": "ASN-P3S6-round-03-peer-cross-challenge",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-6",
+  "round": 3,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "听了这么多轮，我这个老太婆想说几句心里话。\n\nSEAT-1和SEAT-2说的英语、日语也有类似的词变坏的事，我以前真不知道。听了之后觉得确实不是中国独有的问题。我小女儿学过法语，她说法语里也有类似的情况——具体的词我记不清了，但意思差不多。这说明什么呢？说明这不是哪个国家的问题，是全世界的问题。全世界都有这个问题，那它就不是偶然的。\n\nSEAT-5说可能是「社会制度的问题」，不是「语言的问题」。我琢磨了一下，觉得你们说的可能都对。就像我们厂里，不是「纺织」这个工种不好，是那个年代不重视女工。字也是一样——不是字本身不好，是有些人用这些字来贬低女性。\n\n但是吧，我又想到一件事。我以前有个工友，姓「姚」，有一次车间主任开玩笑说「你们家那个妖精的妖啊」，虽然是开玩笑，但那个工友当场脸就红了。你说这是语言的问题还是人的问题？我觉得是人的问题——有些人就是喜欢拿这些字来取笑女性。\n\nSEAT-4说的让我特别心疼。你说你每次自我介绍别人都微微一笑——我在厂里也有过类似的经历，不过不是因为名字，是因为我长得不好看，有些男工就在背后说三道四的。那种感觉，年轻的女孩子最懂了。\n\nSEAT-3，你说的事我不敢说信不信，但是我觉得你说话有时候太凶了，会把本来同情你的人推走。SEAT-1虽然说话硬邦邦的，但他说的那些词源知识确实让我学到了东西。\n\n我就觉得吧，不管最后学术上怎么定论，有一点是肯定的：不应该拿别人的名字来取笑，不应该拿跟女性有关的字来骂人。这个道理，不用读多少书都懂。",
+  "target_turn_refs": [
+    "ASN-P3S1-round-03-peer-cross-challenge",
+    "ASN-P3S2-round-03-peer-cross-challenge",
+    "ASN-P3S3-round-03-peer-cross-challenge",
+    "ASN-P3S4-round-03-peer-cross-challenge",
+    "ASN-P3S5-round-03-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "panel-003-public-question"
+  ],
+  "public_evidence_refs": [
+    "claim-gate-C08-yao-original-meaning"
+  ],
+  "public_action_signals": []
+}

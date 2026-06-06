@@ -1,0 +1,83 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "哎呀这个话题挺有意思的！我之前在群里好像转发过类似的文章，说什么「妖」原来不是坏字，是夸人漂亮的。当时我大女儿还说我「妈你别什么都转」，说网上好多是假的。但我觉得说得挺有道理的嘛，那些字原来确实不是骂人的啊。我在纺织厂干了三十多年，当年厂里女工被欺负的事我可是经历过的。不过这个汉字的事...说实话我也搞不太懂什么学术不学术的，但是觉得这话题挺适合发到群里跟老姐妹们聊的。我就说说我的想法吧，反正也不是什么专业意见。",
+    "assignment_id": "ASN-P3S6",
+    "round": 1,
+    "phase": "OPENING",
+    "private_goal": "分享自己的朴素感受，转发听来的说法",
+    "perceived_stakes": [
+      "和女儿们有共同话题聊",
+      "在群里不丢面子"
+    ],
+    "private_belief_state": [
+      "觉得这些字确实是从好的变成坏的",
+      "但不清楚具体是不是因为歧视女性",
+      "觉得网上说的有些有道理但也不全信"
+    ],
+    "epistemic_state": [
+      "对学术讨论了解有限",
+      "但生活经验丰富",
+      "容易接受听起来有道理的说法"
+    ],
+    "confidence": "LOW",
+    "uncertainties": [
+      "不太确定事实到底是怎样的",
+      "不知道该信谁说的"
+    ],
+    "intended_emphasis": [
+      "个人经历和感受",
+      "转发听来的说法",
+      "朴素的女性视角"
+    ],
+    "intended_omissions": [
+      "不提自己被女儿说过转发假消息",
+      "避免显得太无知"
+    ],
+    "private_message_strategy": "用口语化的方式分享感受和听来的说法，不做强论证",
+    "planned_public_claims": [
+      "听说这些字原来都是好的",
+      "觉得女性确实不太容易",
+      "但不确定是不是真的有系统性的问题"
+    ],
+    "rhetorical_tactics": [
+      "用生活化的语言拉近距离",
+      "提到自己的女儿增加真实感",
+      "表示困惑和开放态度"
+    ],
+    "truth_handling_this_turn": "RUMOR_RELAY",
+    "private_action_intent": [
+      "参与讨论表达朴素看法",
+      "寻找和自己感受一致的人"
+    ],
+    "likely_next_action": [
+      "根据别人的说法调整自己的认知"
+    ],
+    "emotional_state": "好奇且轻松——觉得这个话题挺有趣",
+    "continuity_notes": "第一轮，朴素视角",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "ASN-P3S6",
+    "turn_id": "ASN-P3S6-round-01-opening",
+    "speech_origin": "RUMOR_RELAY",
+    "speaker_private_belief_alignment": "NOT_ALIGNED",
+    "support_status": "UNVERIFIED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": true,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as RUMOR_RELAY"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "ASN-P3S6",
+    "turn_id": "ASN-P3S6-round-01-opening",
+    "classification": "ROLE_FIDEL_SINCERE_BUT_MISTAKEN",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

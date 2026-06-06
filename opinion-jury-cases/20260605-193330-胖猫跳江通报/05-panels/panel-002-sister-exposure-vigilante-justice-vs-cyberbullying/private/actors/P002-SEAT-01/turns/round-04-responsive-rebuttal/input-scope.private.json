@@ -1,0 +1,11 @@
+{
+  "scope_id": "PANEL-P002-SEAT-01-R004",
+  "allowlist": [
+    "01-parse/source-content.md",
+    "02-research/claim-gate-packet.v001.json",
+    "05-panels/panel-002-sister-exposure-vigilante-justice-vs-cyberbullying/public-question.md",
+    "03-role-pool/private/roles/ROLE-YOUNG-DAD-LOYAL-SUPPORTER/role-card.json",
+    "05-panels/panel-002-sister-exposure-vigilante-justice-vs-cyberbullying/private/actors/P002-SEAT-01/assignment.json",
+    "05-panels/panel-002-sister-exposure-vigilante-justice-vs-cyberbullying/session/public-snapshots/transcript.before-round-004.jsonl"
+  ]
+}

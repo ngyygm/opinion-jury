@@ -1,0 +1,24 @@
+{
+  "turn_id": "P004-SEAT-02-round-03-peer-cross-challenge",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-02",
+  "round": 3,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "我...我想说点自己的想法。\n\nSEAT-06，你说46万是死后退的。然后SEAT-01说46万里包括生前就转的29.7万给胖猫、3万给胖猫姐姐、13.6万给胖猫爸爸。这...好像跟你说的不一样？\n\n我不是学法律的，但我数了一下：29.7+3+13.6=46.3万，这跟通报说的46.3万对上了。也就是说大部分钱是胖猫还活着的时候就转的，对吗？你为什么只提死后退的那部分呢？\n\n我之前说我很迷茫，SEAT-04你回答了我的问题，谢谢你。你说通报核心结论是两人真实恋爱经济双向往来不构成诈骗。我现在回去认真读通报了。\n\nSEAT-05，SEAT-01说的好像有道理...你每次发言都是在提问，从来不给出你自己的结论。你到底觉得这件事是怎么回事？你能直接说吗？\n\n还有SEAT-06，你说SEAT-04是在用另一种方式消费胖猫的死。但是SEAT-04引用了具体的法条和证据，你引用的是朋友说的...我现在觉得，好像引用证据的人比引用朋友话的人更可信？\n\n我知道我还是个学生，很多事不懂。但是我正在学习怎么看事实。谢谢大家让我开始思考这些。\n\nSEAT-03奶奶，你说得对，我要给我妈打个电话了。",
+  "target_turn_refs": [
+    "P004-SEAT-06-round-02-direct-rebuttal",
+    "P004-SEAT-01-round-02-direct-rebuttal",
+    "P004-SEAT-04-round-02-direct-rebuttal",
+    "P004-SEAT-05-round-02-direct-rebuttal",
+    "P004-SEAT-03-round-02-direct-rebuttal"
+  ],
+  "public_question_refs": [
+    "从个案到性别战争——胖猫事件如何被裹挟进网络性别对立的漩涡"
+  ],
+  "public_evidence_refs": [
+    "警方通报：谭某向胖猫转账29.7万余元",
+    "警方通报：向刘某转账3万元",
+    "警方通报：向胖猫父亲转账13.6万余元"
+  ],
+  "public_action_signals": []
+}

@@ -1,0 +1,7 @@
+{
+  "speech_text": "SEAT-5，我接受你的道歉。你能说'我老伴不是一个模板是一个了不起的个体'，这就够了。SEAT-1说品牌从来没有问过我们这些普通妈妈的感受，SEAT-3说这是'代言人悖论'——品牌替我们说话但从来不让我们参与。这两句话说到我心里了。我老伴这辈子从来没有人问过她'你觉得你的生活怎么样'，她也从来不抱怨，就这么默默过了一辈子。品牌替我们定义了什么是'模板'，又替我们决定了什么需要被'打破'，但它从来没问过我老伴这样的妈妈：你幸福吗？你满意吗？你觉得你的日子有意义吗？我替她回答：她觉得有意义。她觉得值得。她不觉得自己是什么模板，她觉得自己是个好妈妈。讨论到最后，我就一个想法：别把我们归类。别管是'模板'还是'多元'，我们就是一个个活生生的人。我老伴是最独一无二的。",
+  "target_turn_refs": ["P002-SEAT-5-round-03-peer-cross-challenge", "P002-SEAT-1-round-03-peer-cross-challenge", "P002-SEAT-3-round-03-peer-cross-challenge"],
+  "public_question_refs": ["panel-002-public-question"],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

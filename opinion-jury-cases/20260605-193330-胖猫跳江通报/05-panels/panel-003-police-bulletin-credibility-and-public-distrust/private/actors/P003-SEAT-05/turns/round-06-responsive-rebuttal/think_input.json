@@ -1,0 +1,18 @@
+{
+  "inner_monologue": "最后了。SEAT-03说的对，告诉娃爸爸爱他。嗯。工钱到手了，明天给婆娘转回去。这个讨论结束了。官方的东西应该是对的。年轻人可惜了。我要去睡了，明天六点起来。",
+  "private_goal": "收尾",
+  "perceived_stakes": ["无关"],
+  "private_belief_state": ["官方的对的", "年轻人可惜"],
+  "epistemic_state": ["结束"],
+  "confidence": "LOW",
+  "uncertainties": [],
+  "intended_emphasis": ["结束了"],
+  "intended_omissions": [],
+  "private_message_strategy": "极简",
+  "planned_public_claims": ["完了"],
+  "rhetorical_tactics": ["极简"],
+  "private_action_intent": ["结束"],
+  "likely_next_action": ["去睡觉"],
+  "emotional_state": "平静",
+  "continuity_notes": "第六轮，最终收尾"
+}

@@ -1,0 +1,19 @@
+{
+  "turn_id": "P004-SEAT-03-round-04-responsive-rebuttal",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-03",
+  "round": 4,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "我这老婆子看了一圈，心里比前几轮踏实多了。\n\nSEAT-06，你承认自己说错了46万的事，这是好事。我们村里有句话：知错能改善莫大焉。人不怕说错话，怕的是死不认错。你现在认了，这就是进步。但是你说你在替死者说话...你这个说法我老婆子不太信。你前三轮说的话我记性不好但也不是全忘了，你是在吵架不是在说话。现在吵架没吵赢才说替死者说话，这不太好吧。\n\nSEAT-02这个孩子，我看着高兴。你在学着自己看事实了，知道谁在说真话谁在绕弯子了。比我那个孙女强，她到现在还整天刷抖音信那些乱七八糟的。你好好读书好好学，以后比我们有出息。\n\nSEAT-04，你一直在用事实说话，不急不躁，这个我佩服。在我们村里，这样的人大家最信得过。\n\nSEAT-01，你说话实在，像个当家人。\n\nSEAT-05，你说话还是太绕了。我这个老婆子就喜欢直来直去。你要是有话就说，别老在那绕弯子。\n\n我还是那句话：人活着才有希望。有什么事跟家里人说，别憋在心里。胖猫这孩子，要是有人能跟他说说话...\n\n算了，不说了，说多了又该掉眼泪了。",
+  "target_turn_refs": [
+    "P004-SEAT-06-round-03-peer-cross-challenge",
+    "P004-SEAT-02-round-03-peer-cross-challenge",
+    "P004-SEAT-04-round-03-peer-cross-challenge",
+    "P004-SEAT-01-round-03-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "从个案到性别战争——胖猫事件如何被裹挟进网络性别对立的漩涡"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

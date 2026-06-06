@@ -1,0 +1,17 @@
+{
+  "turn_id": "ASGN-003-006-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-6",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "你们讨论追责不追责这个问题，我想到我们游戏里的一个事。有一次游戏更新改了规则，某个英雄的技能变弱了，然后官方把之前用这个英雄上分的人全部封号了。你觉得这合理吗？肯定不合理啊，人家用的时候规则还没改呢，你凭什么封？所以做运营的说不能用新标准追责旧行为，这个我听懂了，有道理。但前媒体编辑说的也有道理——有些规则不用写出来你也知道。比如我们班抄作业的，老师说'你没看过学生守则不代表你可以抄'。所以我觉得两边的道理可以合在一起：Tim不用被惩罚，但他得承认做得不够好。就像游戏里你用了一个有争议的战术没被封号，但你也得承认那个战术确实有点不讲武德。不过说了这么多，我发现我居然在认真参与这个讨论了……这是不是说明我也被你们大人传染了？不行不行，我还有物理作业没写。",
+  "target_turn_refs": [
+    "ASGN-003-004-round-05-peer-cross-challenge",
+    "ASGN-003-005-round-05-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "panel-003-public-question"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

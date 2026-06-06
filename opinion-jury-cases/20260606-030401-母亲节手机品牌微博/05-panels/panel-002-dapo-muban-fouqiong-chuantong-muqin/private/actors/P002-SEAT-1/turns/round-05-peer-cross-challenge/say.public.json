@@ -1,0 +1,17 @@
+{
+  "turn_id": "P002-SEAT-1-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-1",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "我想做最后一个挑战。我们讨论了这么多，达成了共识——品牌不该用'打破模板'的框架，应该让妈妈自己说话。但我想问一个现实问题：就算品牌下次改了措辞，它真的能避免同样的问题吗？SEAT-6说品牌不应该替妈妈说话而应该让妈妈自己说话，理想很好。但品牌营销终究是品牌自己在策划执行。就算是UGC活动让用户投稿，选哪些内容投到大屏上还是品牌说了算。品牌不是慈善机构，它做母亲节营销是为了卖手机，不是为了真正关心我们这些妈妈。所以我直接问SEAT-3和SEAT-6：你们分析得再好，品牌真的会听吗？还是说我们在这里讨论了半天，品牌下次只是换个更隐蔽的方式来卖货？我知道讨论有价值——至少让我们说出了自己的感受。但我不想把品牌想得太好，它们是来挣钱的，不是来解放妈妈的。",
+  "target_turn_refs": [
+    "P002-SEAT-6-round-04-responsive-rebuttal",
+    "P002-SEAT-3-round-04-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "panel-002-public-question"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

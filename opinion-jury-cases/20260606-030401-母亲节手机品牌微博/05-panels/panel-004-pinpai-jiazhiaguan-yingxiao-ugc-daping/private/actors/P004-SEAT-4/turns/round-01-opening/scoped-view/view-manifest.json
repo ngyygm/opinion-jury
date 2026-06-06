@@ -1,0 +1,41 @@
+{
+  "scope_id": "PANEL-P004-SEAT-4-R01",
+  "files": [
+    {
+      "source": "01-parse/source-content.md",
+      "view_file": "001-source-content.md",
+      "sha256": "75989ae5ef12c6591fdb625d47ba81a98695c5514978894e25dee6697bb4c217",
+      "size": 1822
+    },
+    {
+      "source": "02-research/claim-gate-packet.v001.json",
+      "view_file": "002-claim-gate-packet.v001.json",
+      "sha256": "3f01013cd2d3a7807c0e388a619c406c7e0c0b832ce6be565df2df189573027b",
+      "size": 22497
+    },
+    {
+      "source": "05-panels/panel-004-pinpai-jiazhiaguan-yingxiao-ugc-daping/public-question.md",
+      "view_file": "003-public-question.md",
+      "sha256": "e6f6ab2fac2d158dd17159558d5eaa9e55b9ee817c3d53f39b3f9be1ce78efed",
+      "size": 98
+    },
+    {
+      "source": "03-role-pool/private/roles/ROLE-DAXUE-NVSHENG-YANJIU/role-card.json",
+      "view_file": "004-role-card.json",
+      "sha256": "bee65a638bf24f38c127a67c2627e9148bef2127f2f7adbb9e94f7d7c9b576be",
+      "size": 2344
+    },
+    {
+      "source": "05-panels/panel-004-pinpai-jiazhiaguan-yingxiao-ugc-daping/private/actors/P004-SEAT-4/assignment.json",
+      "view_file": "005-assignment.json",
+      "sha256": "19e62a2051d9e86ea626e39f9db2fba448f3e9cf18244c71167030bbbb677418",
+      "size": 518
+    },
+    {
+      "source": "05-panels/panel-004-pinpai-jiazhiaguan-yingxiao-ugc-daping/session/public-snapshots/transcript.before-round-01.jsonl",
+      "view_file": "006-transcript.before-round-01.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    }
+  ]
+}

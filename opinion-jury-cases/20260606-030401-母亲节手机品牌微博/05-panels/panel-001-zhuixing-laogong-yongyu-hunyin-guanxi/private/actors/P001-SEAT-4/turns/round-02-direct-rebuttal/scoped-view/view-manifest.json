@@ -1,0 +1,41 @@
+{
+  "scope_id": "PANEL-P001-SEAT-4-R02",
+  "files": [
+    {
+      "source": "01-parse/source-content.md",
+      "view_file": "001-source-content.md",
+      "sha256": "75989ae5ef12c6591fdb625d47ba81a98695c5514978894e25dee6697bb4c217",
+      "size": 1822
+    },
+    {
+      "source": "02-research/claim-gate-packet.v001.json",
+      "view_file": "002-claim-gate-packet.v001.json",
+      "sha256": "3f01013cd2d3a7807c0e388a619c406c7e0c0b832ce6be565df2df189573027b",
+      "size": 22497
+    },
+    {
+      "source": "05-panels/panel-001-zhuixing-laogong-yongyu-hunyin-guanxi/public-question.md",
+      "view_file": "003-public-question.md",
+      "sha256": "e2b0d55f17873a3e53e90b4eaff766e27507070807c9d6c118422e59e8a1dbae",
+      "size": 99
+    },
+    {
+      "source": "03-role-pool/private/roles/ROLE-NVQUAN-BOXUE-BOZHU/role-card.json",
+      "view_file": "004-role-card.json",
+      "sha256": "b0632f06e90281ce4b1dfcdb0865441a383aac667e700484678afac5755f7814",
+      "size": 2377
+    },
+    {
+      "source": "05-panels/panel-001-zhuixing-laogong-yongyu-hunyin-guanxi/private/actors/P001-SEAT-4/assignment.json",
+      "view_file": "005-assignment.json",
+      "sha256": "23e184493bd7501624bbab512952a17ee124be872a323d90790572c41b1202f5",
+      "size": 463
+    },
+    {
+      "source": "05-panels/panel-001-zhuixing-laogong-yongyu-hunyin-guanxi/session/public-snapshots/transcript.before-round-02.jsonl",
+      "view_file": "006-transcript.before-round-02.jsonl",
+      "sha256": "a2dde249c02f527506ba5d8c6a7343e7e26a8f0b29dcb30b696c7b17e81f2c11",
+      "size": 7992
+    }
+  ]
+}

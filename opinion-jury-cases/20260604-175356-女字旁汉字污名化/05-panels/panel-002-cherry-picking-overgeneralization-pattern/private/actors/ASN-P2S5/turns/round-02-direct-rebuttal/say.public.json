@@ -1,0 +1,19 @@
+{
+  "turn_id": "ASN-P2S5-round-02-direct-rebuttal",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-5",
+  "round": 2,
+  "phase": "DIRECT_REBUTTAL",
+  "speech_text": "我觉得大家其实说的都有那么点道理，就是那个说话冲的太极端了。说无所谓就是帮压迫者？我在超市干了十几年，啥客人没见过，你这种说话方式跟那些在店里无理取闹的客户有啥区别？就事论事不行吗。退休大姐说的纺织厂的事我信，那个骑手说的网上都挑着说我也同意。老太太说的好字安字我以前好像也知道。所以这事儿不就是：文章可能说得不全，但不代表全假；网上东西不能全信，但也不代表全是编的。干嘛非要争个你死我活呢？我说了我就是随便看看随便说说，真没那么复杂。",
+  "target_turn_refs": [
+    "ASN-P2S1-round-01-opening",
+    "ASN-P2S2-round-01-opening",
+    "ASN-P2S3-round-01-opening",
+    "ASN-P2S6-round-01-opening"
+  ],
+  "public_question_refs": [
+    "cherry-picking-overgeneralization-pattern"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

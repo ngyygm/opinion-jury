@@ -1,0 +1,20 @@
+{
+  "turn_id": "P001-SEAT-1-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-001",
+  "anonymous_alias": "SEAT-1",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "我想直接追问一个核心问题：当大家说'执行有瑕疵'的时候，到底在说什么？\n\n说白了，'瑕疵'就是'两个老公'和'恨不得穿婚纱'这两个具体表达。那我想问：这两个表达在追星圈里到底有什么问题？\n\n叫偶像'老公'——追星圈子里几千万粉丝日常使用的称呼。说见偶像'恨不得穿婚纱'——夸张修辞表达激动心情，跟真的想穿婚纱没有半毛钱关系。\n\n如果这些表达在追星文化里完全正常、被几百万人使用、是圈内日常语言，那它'有瑕疵'到底瑕疵在哪里？瑕疵在于圈外人听不懂？那是不是所有亚文化的表达方式都是'瑕疵'，都需要被翻译成主流语言才能出现在公共空间？\n\nSEAT-5你说'追星妈妈值得被更好地看见'。我谢谢你。但'更好地看见'是什么意思？是用你能接受的方式看见？还是用我们自己的方式被看见？\n\n我承认品牌可能在传播策略上有可以改进的地方。但我不能接受'两个老公'这个表达本身被默认为有瑕疵。这不是瑕疵，这是追星文化的真实声音。如果真实的表达就是'瑕疵'，那所谓的'多元'只是一个漂亮的口号。",
+  "target_turn_refs": [
+    "P001-SEAT-5-round-04-responsive-rebuttal",
+    "P001-SEAT-4-round-04-responsive-rebuttal",
+    "P001-SEAT-2-round-04-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "panel-001-public-question"
+  ],
+  "public_evidence_refs": [
+    "C007"
+  ],
+  "public_action_signals": []
+}

@@ -1,0 +1,16 @@
+{
+  "turn_id": "ASN-P2S2-round-01-opening",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-2",
+  "round": 1,
+  "phase": "OPENING",
+  "speech_text": "我之前在群里还转发了那篇文章呢！当时觉得哇原来这些字以前都是好词啊，涨知识了。现在有人说是只挑了有利的例子来讲，那我心里就有点慌了——那我转发的是不是不靠谱的？说实话我一个退休老工人也不懂什么语言学的，看文章就是觉得有意思就转了。但是话说回来，就算不是每个字都那样吧，我活了六十多年做女人的体会告诉我，这个社会上对女性的偏见确实是存在的呀。有些事情不用查字典也知道，你看我年轻时候在纺织厂，男工涨工资升组长都比我们女工快，这跟汉字好不好有什么关系，但是那个感觉是相通的。我就是想知道，那篇文章到底哪些是真的哪些是编的？有没有人能给讲讲清楚？",
+  "target_turn_refs": [],
+  "public_question_refs": [
+    "cherry-picking-overgeneralization-pattern"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": [
+    "SEEK_CLARIFICATION"
+  ]
+}

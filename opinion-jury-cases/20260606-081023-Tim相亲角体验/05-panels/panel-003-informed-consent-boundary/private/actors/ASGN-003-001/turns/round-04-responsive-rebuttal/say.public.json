@@ -1,0 +1,21 @@
+{
+  "turn_id": "ASGN-003-001-round-04-responsive-rebuttal",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-1",
+  "round": 4,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "我听了这么多轮，心里越来越清楚了。那个前媒体编辑说的'信息不对称'，我翻译成大白话就是——他知道你是谁，你不知道他是谁；他知道拍完会怎样，你不知道拍完会怎样；他什么都门儿清，你什么都蒙在鼓里。然后他说了句'我们在拍'，你就同意了。这叫什么同意？这叫被骗了还帮人数钱。我去年在菜市场那次就是这样，人家什么都知道，我什么都不知道，我还以为就是个正经采访。幼儿园老师说的那个分层告知我觉得特别好——正常拍没问题，你装成别人就得说清楚。这不是什么高深的道理，这是我们老百姓最朴素的公平感。做运营的那位说不要事后追责某个人，我同意不搞审判，但我不同意就这样算了。标准不标准先不说，Tim这件事上被拍的人就是没有得到真正的知情，这是事实。他可以不是坏人，但这件事做得不公平。",
+  "target_turn_refs": [
+    "ASGN-003-005-round-03-peer-cross-challenge",
+    "ASGN-003-003-round-03-peer-cross-challenge",
+    "ASGN-003-004-round-03-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "panel-003-public-question"
+  ],
+  "public_evidence_refs": [
+    "C006",
+    "C013"
+  ],
+  "public_action_signals": []
+}

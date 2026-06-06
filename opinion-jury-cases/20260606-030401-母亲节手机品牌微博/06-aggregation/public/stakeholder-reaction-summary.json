@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "case_id": "20260606-030401-母亲节手机品牌微博",
+    "generated_at": "2026-06-06T04:00:00Z",
+    "visibility": "PUBLIC",
+    "note": "This summary contains only information that was publicly disclosed during the debate. No private think memos, role identities, or assignment details are included."
+  },
+
+  "campaign_overview": {
+    "brand": "An unspecified smartphone brand (real-world reference: OPPO)",
+    "occasion": "Mother's Day 2026",
+    "platform": "Weibo (official brand account)",
+    "content": "A campaign inviting users to share diverse mother stories via hashtag #UseTheCameraToRewriteMyMom, with selected content to be displayed on a large outdoor screen at Guangzhou Zhengjia Plaza mall",
+    "sample_images": [
+      "Image 1: A mom who dotes on her pet dog, calling it her 'good big son'",
+      "Image 2: A star-chasing mom with a light board reading 'Gege' (brother), described as having 'two husbands' -- one real, one celebrity",
+      "Image 3: A mom who writes fan-fiction and is adored by her readers"
+    ],
+    "framing": "The campaign text contrasted 'the same template' of gentle, hardworking, selfless mothers with 'the real, undefined side' of mothers"
+  },
+
+  "reaction_summary_by_stakeholder_group": [
+    {
+      "group": "Star-chasing / non-traditional mothers",
+      "reaction": "EMOTIONALLY POSITIVE with QUALIFIED SUPPORT",
+      "summary": "Initially enthusiastic and emotionally moved. Felt the campaign validated their identity as mothers with interests beyond traditional domestic roles. Over the course of discussion, many came to question whether the brand was genuinely representing them or instrumentalizing their identity for commercial purposes.",
+      "key_quotes": [
+        "'Finally someone said the life of a star-chasing mom!'",
+        "'The brand used me, but my feelings are my own.'",
+        "'I need social understanding, not brand visibility.'"
+      ]
+    },
+    {
+      "group": "Traditional mothers and their families",
+      "reaction": "DEEPLY OFFENDED",
+      "summary": "The 'break the template' framing was perceived as directly negating the value of traditional mothers' life choices and sacrifices. This group represented the largest silent population affected by the campaign.",
+      "key_quotes": [
+        "'My wife's life was not a template.'",
+        "'I am gentle, hardworking, and selfless -- how did that become something to break?'",
+        "'You don't need to break us to empower others.'"
+      ]
+    },
+    {
+      "group": "Ordinary working mothers",
+      "reaction": "MODERATELY CRITICAL",
+      "summary": "Appreciated the campaign's intent to show diverse motherhood but found specific execution elements (especially the 'two husbands' language) inappropriate for public advertising. This group represented the moderate consensus position.",
+      "key_quotes": [
+        "'The direction is right, but the execution needs improvement.'",
+        "'Good intentions with inappropriate expression will just make everyone argue.'",
+        "'Public space content needs to consider all audiences, including children.'"
+      ]
+    },
+    {
+      "group": "Brand loyalists and fans",
+      "reaction": "DEFENSIVE with GRADUAL SOFTENING",
+      "summary": "Initially defended the campaign as innovative and criticized backlash as cultural ignorance. Over discussion rounds, most acknowledged execution errors while maintaining that the creative direction was worth attempting.",
+      "key_quotes": [
+        "'This is what innovation looks like -- some discomfort is inevitable.'",
+        "'The brand's direction was right, but it should have provided more context for the subculture language.'",
+        "'Don't punish innovation; teach better execution.'"
+      ]
+    },
+    {
+      "group": "Industry professionals (PR, marketing)",
+      "reaction": "PROFESSIONALLY CRITICAL",
+      "summary": "Systematically identified specific procedural failures: no audience readability testing, no contextual assessment, no content sensitivity review. Proposed constructive frameworks for preventing similar failures.",
+      "key_quotes": [
+        "'This is not a creative failure; it is a process failure.'",
+        "'5% of budget on prevention vs 300% on remediation -- the math speaks for itself.'",
+        "'Advertising that the audience cannot understand is failed advertising.'"
+      ]
+    },
+    {
+      "group": "Disconnected general public",
+      "reaction": "INCOMPREHENSION AND INDIFFERENCE",
+      "summary": "A significant portion of the target audience simply could not understand the campaign's language. This group's existence was the most powerful empirical evidence of the campaign's failure.",
+      "key_quotes": [
+        "'I didn't understand a single word.'",
+        "'A 29-year-old can't understand this, and my 55-year-old mom thinks the person is crazy.'",
+        "'Just send the food already.'"
+      ]
+    },
+    {
+      "group": "Institutional critics",
+      "reaction": "PUBLICLY CRITICAL",
+      "summary": "Wuhan University publicly stated 'strong disagreement' with the campaign's values. China Women's Daily criticized the brand for 'treating offense as creativity.' These institutional responses were cited extensively in all discussions and were treated as authoritative.",
+      "key_quotes": [
+        "Wuhan University: 'Strongly disagree with the content, especially the gimmickry, discourse rendering, and revealed value tendencies'",
+        "China Women's Daily: 'Brand communication should not treat offense as creativity'"
+      ]
+    }
+  ],
+
+  "cross_cutting_consensus": {
+    "summary": "Despite diverse starting positions, all four discussion panels converged on the same core findings.",
+    "consensus_points": [
+      {
+        "point": "The campaign's direction -- showing diverse mothers -- was worth attempting",
+        "support_level": "UNANIMOUS across all panels"
+      },
+      {
+        "point": "The 'break the template' framing was inherently binary and negated traditional mothers",
+        "support_level": "UNANIMOUS across all panels"
+      },
+      {
+        "point": "Subculture terminology requires contextual scaffolding when used in mass public advertising",
+        "support_level": "STRONG MAJORITY across all panels"
+      },
+      {
+        "point": "The 'two husbands' language was inappropriate for mass public advertising regardless of fan-culture context",
+        "support_level": "STRONG MAJORITY across all panels"
+      },
+      {
+        "point": "Brands should not presume to define what constitutes 'diversity' for groups they do not belong to",
+        "support_level": "UNANIMOUS across all panels"
+      },
+      {
+        "point": "UGC content on public outdoor screens requires review mechanisms with transparent standards",
+        "support_level": "UNANIMOUS in the panel that addressed this issue"
+      },
+      {
+        "point": "Basic audience readability testing (showing the copy to 5-10 diverse users) would have prevented the crisis",
+        "support_level": "UNANIMOUS across all panels"
+      }
+    ]
+  },
+
+  "constructive_recommendations": {
+    "for_the_brand": [
+      "Change the rhetorical framework from 'break the template' to 'see more facets of mom' (additive framing)",
+      "Replace specific controversial language ('two husbands,' 'wear a wedding dress') with non-controversial alternatives that still convey star-chasing enthusiasm",
+      "Include traditional mother examples alongside non-traditional ones in sample images",
+      "Establish transparent UGC review mechanisms before outdoor screen投放",
+      "Conduct audience readability testing with demographically diverse users before publishing"
+    ],
+    "for_the_industry": [
+      "Develop standardized UGC review procedures for public media placements",
+      "Establish industry self-regulatory guidelines for values-driven marketing campaigns",
+      "Create content sensitivity checklists covering cultural, generational, and gender dimensions",
+      "Build 'participatory governance' into campaign design -- involve representative users in content standard-setting"
+    ],
+    "for_the_public": [
+      "The campaign's failure should not be used as evidence against diverse mother representation",
+      "Subculture communities deserve public representation, but context matters for mass communication",
+      "Brands attempting values-driven marketing should be held to higher execution standards, not discouraged from trying"
+    ]
+  },
+
+  "risk_assessment": {
+    "overall_risk_level": "MODERATE",
+    "explanation": "The brand's actual reputational damage is significant but recoverable. The underlying product quality is unaffected. The creative direction has social value and should not be abandoned. The execution failures were specific and preventable. The primary risk is overreaction -- either the brand retreating to formulaic marketing or the industry avoiding values-driven content entirely.",
+    "residual_risks": [
+      "Continued erosion of trust among traditional-values consumers",
+      "Star-chasing communities feeling exploited rather than represented",
+      "Industry-wide chilling effect on innovative motherhood-related marketing",
+      "Reinforcement of prejudice against fan culture and subculture communities"
+    ]
+  }
+}

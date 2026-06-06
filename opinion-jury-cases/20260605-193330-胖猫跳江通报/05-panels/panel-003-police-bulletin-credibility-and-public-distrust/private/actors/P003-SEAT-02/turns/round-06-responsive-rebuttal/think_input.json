@@ -1,0 +1,18 @@
+{
+  "inner_monologue": "最后一轮了。我说不了什么大道理，就是觉得这个讨论让我搞明白了一件事——看通报要看数字，数字是真的那就是真的。SEAT-04最后也认了，大家都是好人。SEAT-05那个大哥说他想对老家的娃说句话，我也想对我儿子说——妈在家等你回来吃饭。",
+  "private_goal": "朴素收尾",
+  "perceived_stakes": ["结束讨论"],
+  "private_belief_state": ["通报可信", "讨论有意义"],
+  "epistemic_state": ["立场明确"],
+  "confidence": "HIGH",
+  "uncertainties": [],
+  "intended_emphasis": ["搞明白了", "回家吃饭"],
+  "intended_omissions": [],
+  "private_message_strategy": "朴素收尾",
+  "planned_public_claims": ["通报可信", "该回家了"],
+  "rhetorical_tactics": ["朴素"],
+  "private_action_intent": ["收尾"],
+  "likely_next_action": ["结束"],
+  "emotional_state": "释然",
+  "continuity_notes": "第六轮，朴素收尾"
+}

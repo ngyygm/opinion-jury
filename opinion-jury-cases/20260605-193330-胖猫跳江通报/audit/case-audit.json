@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "warnings": [
+    "panel-001-fraud-dismissal-vs-financial-imbalance: inner_monologue too short (44 chars) in 05-panels\\panel-001-fraud-dismissal-vs-financial-imbalance\\private\\actors\\P001-SEAT-01\\turns\\round-06-responsive-rebuttal",
+    "panel-001-fraud-dismissal-vs-financial-imbalance: inner_monologue too short (39 chars) in 05-panels\\panel-001-fraud-dismissal-vs-financial-imbalance\\private\\actors\\P001-SEAT-02\\turns\\round-06-responsive-rebuttal",
+    "panel-001-fraud-dismissal-vs-financial-imbalance: inner_monologue too short (41 chars) in 05-panels\\panel-001-fraud-dismissal-vs-financial-imbalance\\private\\actors\\P001-SEAT-03\\turns\\round-06-responsive-rebuttal",
+    "panel-001-fraud-dismissal-vs-financial-imbalance: inner_monologue too short (39 chars) in 05-panels\\panel-001-fraud-dismissal-vs-financial-imbalance\\private\\actors\\P001-SEAT-04\\turns\\round-06-responsive-rebuttal",
+    "panel-001-fraud-dismissal-vs-financial-imbalance: inner_monologue too short (38 chars) in 05-panels\\panel-001-fraud-dismissal-vs-financial-imbalance\\private\\actors\\P001-SEAT-05\\turns\\round-06-responsive-rebuttal",
+    "panel-001-fraud-dismissal-vs-financial-imbalance: inner_monologue too short (41 chars) in 05-panels\\panel-001-fraud-dismissal-vs-financial-imbalance\\private\\actors\\P001-SEAT-06\\turns\\round-06-responsive-rebuttal",
+    "panel-002-sister-exposure-vigilante-justice-vs-cyberbullying: inner_monologue too short (96 chars) in 05-panels\\panel-002-sister-exposure-vigilante-justice-vs-cyberbullying\\private\\actors\\P002-SEAT-03\\turns\\round-05-peer-cross-challenge",
+    "panel-002-sister-exposure-vigilante-justice-vs-cyberbullying: inner_monologue too short (80 chars) in 05-panels\\panel-002-sister-exposure-vigilante-justice-vs-cyberbullying\\private\\actors\\P002-SEAT-05\\turns\\round-05-peer-cross-challenge",
+    "panel-002-sister-exposure-vigilante-justice-vs-cyberbullying: inner_monologue too short (44 chars) in 05-panels\\panel-002-sister-exposure-vigilante-justice-vs-cyberbullying\\private\\actors\\P002-SEAT-05\\turns\\round-06-responsive-rebuttal",
+    "panel-003-police-bulletin-credibility-and-public-distrust: inner_monologue too short (79 chars) in 05-panels\\panel-003-police-bulletin-credibility-and-public-distrust\\private\\actors\\P003-SEAT-05\\turns\\round-06-responsive-rebuttal"
+  ],
+  "role_count": 12,
+  "appearance_count": 24,
+  "panel_count": 4,
+  "public_turn_count": 144
+}

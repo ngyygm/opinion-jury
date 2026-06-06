@@ -1,0 +1,16 @@
+{
+  "turn_id": "ASGN-003-006-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-6",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "你们讨论了五轮了，该说的都说了。我一个建筑工人确实不懂你们说的那些，但有一件事我听懂了——不管什么行业，老实人不能吃亏，消费者不能被骗，干活的人不能被欠钱。道理就这么简单。\n\n你们有文化的人能把道理说清楚、能推动变化，这挺好的。我就看看，学到了一些东西。",
+  "target_turn_refs": [
+    "ASGN-003-002-round-05-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "消费者知情权与餐饮行业透明度底线"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

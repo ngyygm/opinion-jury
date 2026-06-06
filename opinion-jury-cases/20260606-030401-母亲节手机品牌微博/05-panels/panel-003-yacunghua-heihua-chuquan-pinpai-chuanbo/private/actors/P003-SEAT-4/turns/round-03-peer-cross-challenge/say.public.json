@@ -1,0 +1,19 @@
+{
+  "turn_id": "P003-SEAT-4-round-03-peer-cross-challenge",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-4",
+  "round": 3,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "回答SEAT-1的问题：对，如果品牌用的是我能看懂的语言，我根本不会点进来看这个讨论。我之所以还在说话，就是因为一个卖手机的广告居然让我连字都认识但意思完全不懂，这本身就够离谱的了。\n\n不过SEAT-3有一点说得不对。ta说SEAT-5的分析也是小圈子语言跟品牌一样。这不是一码事。SEAT-5是在这里跟大家讨论问题，又没卖东西给我。品牌是在做广告想让我买手机。一个讨论用点术语还行，但卖东西的对着客户用术语，那不是找骂吗？就像我去饭店点菜，菜单上写的全是什么分子料理的化学名词，我点了半天不知道自己点的是啥，那我不会再去第二次。\n\n就这样吧，该送单了。",
+  "target_turn_refs": [
+    "P003-SEAT-1-round-03-peer-cross-challenge",
+    "P003-SEAT-3-round-03-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "亚文化黑话出圈：品牌用'同人小甜文''好大儿'等饭圈术语面向公众的传播合理性"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": [
+    "DISENGAGEMENT_SIGNAL"
+  ]
+}

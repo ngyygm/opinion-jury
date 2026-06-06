@@ -1,0 +1,22 @@
+{
+  "turn_id": "ASGN-003-005-round-06-responsive-rebuttal",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-5",
+  "round": 6,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "六轮讨论结束，我从专业角度做一个总结。这个讨论产出的核心成果是三层知情告知方案，它回应了自媒体时代一个被忽视太久的问题——当传播力从百万级（省级卫视）变成了千万级（头部自媒体），我们的知情同意标准反而比传统媒体时代更低了。这是一个结构性倒退。三层方案试图纠正这个倒退：第一层恢复基本告知的严肃性，第二层补上身份透明的缺口，第三层跟上传播力升级的现实。回应做运营的朋友的担忧——好的标准不会限制创作，只会让创作更可持续。传统媒体时代有出镜同意书制度，报纸杂志照样繁荣了几十年。知情同意不是创作的障碍，它是保护创作者和被拍摄者双方的护栏。没有护栏的高速路才更危险。最后回应法庭问题——「告知在拍摄」不等于「告知你将被娱乐化」。两者之间的差距就是知情同意的全部意义。被拍摄者有权知道拍摄者是谁、拍摄内容会怎样传播、自己的反应会被什么人看到。这不是苛求，这是基本的尊重。希望这个讨论不只是止步于此。",
+  "target_turn_refs": [
+    "ASGN-003-003-round-06-responsive-rebuttal",
+    "ASGN-003-004-round-06-responsive-rebuttal",
+    "ASGN-003-001-round-06-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "panel-003-public-question"
+  ],
+  "public_evidence_refs": [
+    "C008",
+    "C011",
+    "C013"
+  ],
+  "public_action_signals": []
+}

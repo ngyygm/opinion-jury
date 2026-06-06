@@ -1,0 +1,233 @@
+{
+  "version": 1,
+  "source_ref": "01-parse/source-content.md",
+  "atomic_claims": [
+    {
+      "claim_id": "C01",
+      "text": "\"嫖\"最初读一声（piāo），意为\"灵动洒脱、勇健轻捷\"",
+      "type": "definitional"
+    },
+    {
+      "claim_id": "C02",
+      "text": "汉武帝时期名将霍去病曾被封为\"嫖姚校尉\"，取\"勇健轻捷\"之意",
+      "type": "factual"
+    },
+    {
+      "claim_id": "C03",
+      "text": "汉文帝的女儿馆陶公主名叫\"刘嫖\"，名字里的\"嫖\"是美好寓意",
+      "type": "factual"
+    },
+    {
+      "claim_id": "C04",
+      "text": "\"妓、娼\"最初写作\"伎、倡\"，指唱歌跳舞的艺人",
+      "type": "definitional"
+    },
+    {
+      "claim_id": "C05",
+      "text": "\"伎、倡\"是朝廷官方认可的职业，入职难度堪比现代文工团",
+      "type": "factual"
+    },
+    {
+      "claim_id": "C06",
+      "text": "为区分男女艺人，才将\"伎、倡\"换成女字旁的\"妓、娼\"",
+      "type": "factual"
+    },
+    {
+      "claim_id": "C07",
+      "text": "古代诗词中常出现的\"歌妓\"实则是对有才艺女性的称呼",
+      "type": "factual"
+    },
+    {
+      "claim_id": "C08",
+      "text": "\"妖\"最初形容女子美好、容貌艳丽，并非指\"妖艳、妖精\"",
+      "type": "definitional"
+    },
+    {
+      "claim_id": "C09",
+      "text": "《说文解字》中解释\"妖，妍也\"，即美丽的意思",
+      "type": "attribution"
+    },
+    {
+      "claim_id": "C10",
+      "text": "\"媚\"的原意是\"婀娜多姿、惹人喜爱\"",
+      "type": "definitional"
+    },
+    {
+      "claim_id": "C11",
+      "text": "《诗经》中\"媚兹一人\"表达对人的喜爱",
+      "type": "attribution"
+    },
+    {
+      "claim_id": "C12",
+      "text": "\"媛\"最初指女子友善美好、才华出众",
+      "type": "definitional"
+    },
+    {
+      "claim_id": "C13",
+      "text": "\"名媛\"本是对有身份、有才华女性的尊称",
+      "type": "definitional"
+    },
+    {
+      "claim_id": "C14",
+      "text": "这些女字旁汉字最初都是\"满满的赞美之意\"",
+      "type": "opinion"
+    },
+    {
+      "claim_id": "C15",
+      "text": "这些字含义的演变反映了不同时代的文化观念变化",
+      "type": "opinion"
+    },
+    {
+      "claim_id": "C16",
+      "text": "为何偏偏是这些原本赞美女性的字被\"污名化\"——背后隐藏着更深层的社会文化心理",
+      "type": "opinion"
+    },
+    {
+      "claim_id": "C17",
+      "text": "这些字千百年间\"从褒义沦为贬义\"是确定的历史事实",
+      "type": "opinion"
+    },
+    {
+      "claim_id": "C18",
+      "text": "\"嫖\"字如今成了低俗词汇",
+      "type": "factual"
+    },
+    {
+      "claim_id": "C19",
+      "text": "\"妓、娼\"换用女字旁\"本质上并无贬义\"",
+      "type": "opinion"
+    },
+    {
+      "claim_id": "C20",
+      "text": "\"媛\"被贴上了\"走捷径\"的标签，出现\"假名媛\"等说法",
+      "type": "factual"
+    }
+  ],
+  "institutional_attributions": [
+    {
+      "name": "汉武帝 / 霍去病",
+      "context": "Historical figures cited to support the etymology of \"嫖\""
+    },
+    {
+      "name": "汉文帝 / 馆陶公主刘嫖",
+      "context": "Historical figures cited as evidence that \"嫖\" was a positive term"
+    },
+    {
+      "name": "《说文解字》",
+      "context": "Ancient dictionary cited as authority for the original meaning of \"妖\""
+    },
+    {
+      "name": "《诗经》",
+      "context": "Classic text cited as evidence for the positive meaning of \"媚\""
+    }
+  ],
+  "emotional_hooks": [
+    {
+      "term": "你敢信吗",
+      "type": "rhetorical challenge / shock framing"
+    },
+    {
+      "term": "满满的赞美之意",
+      "type": "emotional amplification"
+    },
+    {
+      "term": "颠覆认知",
+      "type": "clickbait-style promise"
+    },
+    {
+      "term": "不为人知的文化变迁",
+      "type": "mystery / hidden-truth framing"
+    },
+    {
+      "term": "污名化",
+      "type": "victimization framing with strong moral charge"
+    },
+    {
+      "term": "不堪词汇",
+      "type": "moral disgust framing"
+    },
+    {
+      "term": "谁能想到",
+      "type": "manufactured surprise"
+    },
+    {
+      "term": "恐怕会被嘲笑不已",
+      "type": "sympathy/shame appeal"
+    },
+    {
+      "term": "美好的寓意荡然无存",
+      "type": "loss/nostalgia framing"
+    },
+    {
+      "term": "蒙上了一层贬义色彩",
+      "type": "contamination metaphor"
+    }
+  ],
+  "affected_groups": [
+    {
+      "group": "女性 (Women)",
+      "basis": "The entire article is about female-radical characters and implicitly about women's social status as reflected in language"
+    },
+    {
+      "group": "中国传统文化研究者",
+      "basis": "The article makes etymological and historical claims that implicate the field of Chinese philology"
+    },
+    {
+      "group": "名为相关汉字的人 (People whose names contain these characters)",
+      "basis": "The article mentions that people with \"嫖\" in their name would be mocked"
+    },
+    {
+      "group": "古代艺伎/表演者群体",
+      "basis": "The article discusses the historical status of 妓/娼 as court-sanctioned entertainers"
+    }
+  ],
+  "category_definitions": [
+    {
+      "term": "女字旁",
+      "significance": "The female radical in Chinese characters; the article's central organizing concept"
+    },
+    {
+      "term": "污名化 (Stigmatization)",
+      "significance": "Core framing concept — the article claims these characters were deliberately or systematically devalued"
+    },
+    {
+      "term": "褒义/贬义",
+      "significance": "The evaluative polarity the article uses to trace semantic drift"
+    },
+    {
+      "term": "词义异化",
+      "significance": "The linguistic phenomenon the article claims is at work"
+    },
+    {
+      "term": "嫖 (piāo)",
+      "significance": "First case study; claimed to mean 'brisk and agile' originally"
+    },
+    {
+      "term": "妓 (jì) / 娼 (chāng)",
+      "significance": "Second case study; claimed to derive from 伎/倡 meaning 'entertainer'"
+    },
+    {
+      "term": "妖 (yāo)",
+      "significance": "Third case study; claimed to originally mean 'beautiful' per Shuowen Jiezi"
+    },
+    {
+      "term": "媚 (mèi)",
+      "significance": "Fourth case study; claimed to originally mean 'graceful and charming'"
+    },
+    {
+      "term": "媛 (yuàn)",
+      "significance": "Fifth case study; claimed to originally mean 'talented and beautiful woman'"
+    }
+  ],
+  "screenshot_fragments": [],
+  "unknowns": [
+    "Whether the Shuowen Jiezi actually glosses 妖 as 妍也, or if this is a misattribution",
+    "Whether the original meaning of 嫖 as 'brisk/agile' is well-attested in classical sources or is a folk etymology",
+    "Whether the semantic drift of these characters was specifically gender-motivated or part of broader linguistic processes",
+    "Whether the claim that 伎/倡 were changed to 妓/娼 specifically to distinguish male and female entertainers is historically accurate",
+    "Whether 馆陶公主's name 刘嫖 used 嫖 in the 'brisk' sense or another sense",
+    "The actual timeline of semantic change for each character",
+    "Whether the 'stigmatization' framing oversimplifies complex philological histories",
+    "Whether the article's implication of deliberate/systematic devaluation of female-radical characters is supported by evidence"
+  ]
+}

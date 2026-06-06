@@ -1,0 +1,16 @@
+{
+  "turn_id": "ASN-P1S6-round-02-direct-rebuttal",
+  "panel_id": "PANEL-001",
+  "anonymous_alias": "SEAT-6",
+  "round": 2,
+  "phase": "DIRECT_REBUTTAL",
+  "speech_text": "你们说的那些什么英语例子啊什么跨语言啊，我确实看不太懂。不过SEAT-5说的被取笑名字的事，我能理解一点。我工地上有个工友叫富贵，天天被说'富贵你咋还在这搬砖'。还有个叫有才的，被叫'有才你今天又没拿到工钱'。取笑名字这个事吧，好像什么名字都能被取笑，不一定是女字旁的问题。但我也说不清楚，反正被取笑肯定不舒服。你们读书人的事我搞不懂，就这样吧。",
+  "target_turn_refs": [
+    "ASN-P1S5-round-01-opening"
+  ],
+  "public_question_refs": [
+    "Etymological Accuracy vs. Popular Narrative: Does the Article Mislead Through Selective and Incorrect Citations?"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

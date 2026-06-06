@@ -1,0 +1,18 @@
+{
+  "turn_id": "P002-SEAT-1-round-06-responsive-rebuttal",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-1",
+  "round": 6,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "六轮讨论下来，我的最终结论很简单。打破'温柔勤劳无私'模板不是赋权母亲，是用否定一群人的方式来假装赋权另一群人。真正的赋权不是品牌替妈妈定义谁是模板谁是多元，而是让每个妈妈用自己的话说自己的故事。SEAT-5承认了品牌利用了她，SEAT-6承认了理论在现实中有限制，SEAT-4用亡妻的故事让我们看到每一个母亲都是独一无二的。我们不需要被'打破'，也不需要被'赋权'。我们只需要被当作一个个活生生的人来看待——不是模板，不是标签，不是营销素材，就是人。品牌想搞母亲节活动可以，但先学会一件事：别替我们下定义，先听我们说话。这就是一个普通收银员妈妈最终想说的。谢谢大家听我说了这么多。",
+  "target_turn_refs": [
+    "P002-SEAT-5-round-05-peer-cross-challenge",
+    "P002-SEAT-6-round-05-peer-cross-challenge",
+    "P002-SEAT-4-round-05-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "panel-002-public-question"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

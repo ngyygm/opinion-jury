@@ -1,0 +1,15 @@
+{
+  "turn_id": "ASN-P4S4-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-4",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "SEAT-3说的对，SEAT-1想用事实和观点分开来留后路，但引用古籍这种事是事实不是观点，错了就是错了，没得商量。行了行了，讨论差不多可以结束了吧。",
+  "target_turn_refs": [
+    "ASN-P4S3-round-05-peer-cross-challenge",
+    "ASN-P4S1-round-05-peer-cross-challenge"
+  ],
+  "public_question_refs": [],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

@@ -1,0 +1,12 @@
+{
+  "turn_id": "ASGN-004-002-round-03-peer-cross-challenge",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-2",
+  "round": 3,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "SEAT-1你这是在找台阶下呢吧？你一开始说创作者只有有限的预防义务，现在开始接受SEAT-6的三条建议了，这不就说明你原来的标准太低了吗？你那个预防义务有上限的说法更是站不住脚。你影响了多少人，就应该承担多大的责任，这个没有上限。Tim有1400万粉丝，发出去的内容可能被上亿人看到，他的责任就是上亿级别的。这不是什么无限责任论，这是基本的公平。你享受了千万级流量带来的收益，就要承担千万级流量带来的风险。至于你说的砌墙的比喻，我告诉你为什么不成立：砌墙的人砌的是自己的墙，但Tim发的内容影响的是公众。你自己砌的墙别人拆了，损失是你自己的。但Tim发的内容被扭曲后，受影响的是那些被他误导的普通人。这两件事性质完全不同。SEAT-6的方向我是支持的，但我觉得还不够。不是什么预防义务的上限问题，而是创作者从一开始就不应该发那种容易被歪曲的内容。你明知道互联网上切片是常态，还故意发这种有争议性的东西，然后说预防义务有上限，这不是耍赖吗？",
+  "target_turn_refs": ["ASGN-004-001-round-03-peer-cross-challenge", "ASGN-004-006-round-02-direct-rebuttal"],
+  "public_question_refs": ["panel-004-public-question"],
+  "public_evidence_refs": ["C008"],
+  "public_action_signals": []
+}

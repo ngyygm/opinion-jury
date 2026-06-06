@@ -1,0 +1,34 @@
+{
+  "panel_id": "PANEL-001",
+  "panel_question": "预制菜定义之争：法规标准与消费者认知的冲突",
+  "verdict_id": "panel-001-verdict-v001",
+  "verdict_date": "2026-06-06",
+  "adjudicator_mode": "BLIND",
+  "summary": {
+    "consensus_reached": true,
+    "consensus_direction": "法规定义无需修改，但企业必须完整执行法定义务（包括明示），通过分级标识和先试点再推广的路径实现信息透明",
+    "key_finding": "定义之争的核心不是法规定义本身的对错，而是企业选择性合规（只执行有利的分类条款，忽略明示义务条款），叠加信息不对称和利益分配不公，构成了消费者愤怒的三层结构",
+    "strongest_argument_source": "SEAT-2引用六部委通知中的明示条款是改变讨论走向的关键证据",
+    "most_compelling_testimony": "SEAT-3的行业内部人证词（选择性合规、利益分配）最具说服力",
+    "best_analytical_framework": "SEAT-5的三层次分析框架（认知冲突、信息不对称、利益分配）是讨论最重要的理论贡献"
+  },
+  "consensus_points": [
+    "法规定义本身中性，无需修改",
+    "企业选择性合规是核心问题",
+    "明示义务应从推广升级为强制",
+    "分级标识方案（全现做/部分预加工/主要预加工）可操作",
+    "先试点再推广是务实路径"
+  ],
+  "remaining_tensions": [
+    "标签化可能引发非理性恐惧（SEAT-1的顾虑）",
+    "分级标准的具体阈值未定",
+    "行业自律空间存疑"
+  ],
+  "evidence_references": ["C004", "C012", "C016", "C030", "C031", "C013"],
+  "risk_assessment": {
+    "real_world_risk_level": "MODERATE_LOW",
+    "rationale": "共识方向温和务实，未出现极端主张（如禁止中央厨房），提出的方案具有可操作性。主要风险在于利益分配论证可能引发消费者诉讼，以及小餐厅合规负担。"
+  },
+  "discussion_quality": "HIGH",
+  "transcript_size": 36
+}

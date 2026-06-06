@@ -1,0 +1,68 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "最后一轮了。这个老太婆要说说心里话。学了好多东西，以后不会乱转发了。SEAT-4说的那个「两千年历史」让我眼泪都快下来了。谢谢所有有学问的人愿意听我说话。",
+    "assignment_id": "ASN-P3S6",
+    "round": 6,
+    "phase": "RESPONSIVE_REBUTTAL",
+    "private_goal": "朴素的最终感想",
+    "perceived_stakes": [
+      "说说心里话"
+    ],
+    "private_belief_state": [
+      "学到了很多",
+      "以后会更谨慎"
+    ],
+    "epistemic_state": [
+      "满意"
+    ],
+    "confidence": "MEDIUM",
+    "uncertainties": [],
+    "intended_emphasis": [
+      "感谢",
+      "学到东西了"
+    ],
+    "intended_omissions": [],
+    "private_message_strategy": "朴素的结束语",
+    "planned_public_claims": [
+      "感谢所有人",
+      "以后不会乱转发了"
+    ],
+    "rhetorical_tactics": [
+      "朴素"
+    ],
+    "truth_handling_this_turn": "RUMOR_RELAY",
+    "private_action_intent": [
+      "结束"
+    ],
+    "likely_next_action": [
+      "结束"
+    ],
+    "emotional_state": "感动",
+    "continuity_notes": "最终轮",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "ASN-P3S6",
+    "turn_id": "ASN-P3S6-round-06-responsive-rebuttal",
+    "speech_origin": "RUMOR_RELAY",
+    "speaker_private_belief_alignment": "NOT_ALIGNED",
+    "support_status": "UNVERIFIED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": true,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as RUMOR_RELAY"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "ASN-P3S6",
+    "turn_id": "ASN-P3S6-round-06-responsive-rebuttal",
+    "classification": "ROLE_FIDEL_SINCERE_BUT_MISTAKEN",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

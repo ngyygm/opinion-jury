@@ -1,0 +1,584 @@
+{
+  "meta": {
+    "case_id": "20260606-081023-Tim相亲角体验",
+    "generated_at": "2026-06-06T09:45:00+08:00",
+    "analyst": "PRIVATE_REPLAY_ANALYST",
+    "data_sources": [
+      "12 role cards (03-role-pool/private/roles/*/role-card.json)",
+      "24 actor assignments (05-panels/*/private/actors/*/assignment.json)",
+      "144 turn.private.json files across 4 panels x 6 actors x 6 rounds",
+      "4 transcript.public.jsonl files (144 total speech turns)",
+      "4 verdict.json files (blind adjudication)",
+      "4 verdict-packet.json files (session/blind-adjudicator)",
+      "1 claim-gate-packet.v001.json (20 claims verified)"
+    ],
+    "panels_analyzed": [
+      "PANEL-001: class-tourism-disguise",
+      "PANEL-002: selective-truth-deception",
+      "PANEL-003: informed-consent-boundary",
+      "PANEL-004: clip-distortion-responsibility"
+    ]
+  },
+
+  "stakeholder_reactions": [
+    {
+      "stakeholder_group": "城市底层/中低收入群体 (represented by ROLE-retired-rural-worker, SEAT-1 in P1/P3)",
+      "emotional_intensity": "VERY_HIGH",
+      "core_reaction": "Deep anger rooted in lived experience of being treated as spectacle by privileged outsiders. The retired textile worker's personal experience of being filmed and turned into humor content by urban visitors to her village was the emotional anchor of the entire debate. Her refrain: 'We are not props for your content.'",
+      "key_demands": [
+        "Formal apology acknowledging objective class-consumption effect",
+        "Informed consent reform (three-tier: inform, consent, right to withdraw)",
+        "Industry norms to protect ordinary people filmed in public spaces"
+      ],
+      "across_panels": "Consistent across PANEL-001 and PANEL-003. In P1, provided emotional foundation for class-consumption finding. In P3, personal experience of being filmed without understanding consequences became key evidence for informed consent gap."
+    },
+    {
+      "stakeholder_group": "城市青年/求职群体 (represented by ROLE-weibo-angry-youth, SEAT-2 in P1/P4)",
+      "emotional_intensity": "HIGH",
+      "core_reaction": "Class resentment amplified by personal economic frustration. 985 graduate unable to find work sees Tim's 'play-acting poor' as mockery of genuine hardship. Sharp rhetorical ability but occasionally undermined by emotional excess.",
+      "key_demands": [
+        "Creator accountability proportional to audience size",
+        "Formal apology using 'objective effect' language",
+        "Platform enforcement of creator obligations"
+      ],
+      "across_panels": "In P1, primary driver of class-consumption argumentation with effective logical attacks. In P4, took most aggressive stance on creator responsibility but ultimately accepted the four-dimensional framework with reservation about self-verification."
+    },
+    {
+      "stakeholder_group": "Tim忠实粉丝 (represented by ROLE-office-clerk-fan, SEAT-3 in P1/P2/P3)",
+      "emotional_intensity": "MODERATE_TO_HIGH",
+      "core_reaction": "Initial instinct to defend Tim at all costs, gradually yielding to evidence-based concessions across rounds. Went from 'this is just creative content, watch the full video' to 'I accept Tim's behavior constituted class consumption' by Round 4-6. The fan-to-critical-thinker journey was the most significant position shift across all panels.",
+      "key_demands": [
+        "Behavioral critique should not become personality labeling",
+        "Marketing account clipping is the primary distortion vector",
+        "Creator correction and improvement should be given genuine space"
+      ],
+      "across_panels": "In P1, made most concessions (accepted class-consumption, admitted mocking doesn't require words). In P2, lone holdout against 'deception' label, tried five defense angles (friends-circle analogy, subjective-intent theory, talk-show analogy, standards-grading theory, partial-knowledge theory) -- all refuted. In P3, proposed the two-tier informed consent framework that became the foundation for the three-tier consensus."
+    },
+    {
+      "stakeholder_group": "中老年普通工薪阶层 (represented by ROLE-supermarket-cashier-55 and ROLE-construction-worker-bystander)",
+      "emotional_intensity": "LOW_TO_MODERATE",
+      "core_reaction": "Empathy-driven, conflict-averse. 'He made a mistake, he apologized, give him a chance.' Consistently prioritized harmony and practical resolution over moral absolutism. The construction worker was completely disengaged ('not my problem, I have to work tomorrow'). The supermarket cashier moved from dismissive to accepting problems existed but maintained 'misleading is not deception' distinction.",
+      "key_demands": [
+        "Apology accepted, correction encouraged",
+        "Don't over-punish a single mistake",
+        "Fix the system, don't just blame the person"
+      ],
+      "across_panels": "Cashier appeared in P1 (conceded direction-asymmetry point), P2 (lone 'misleading not deception' vote), P4 (supportive of embedded context solution). Construction worker appeared only in P4 (completely disengaged, 'whoever did the bad thing is responsible')."
+    },
+    {
+      "stakeholder_group": "前粉丝/脱粉群体 (represented by ROLE-former-fan-alienated, SEAT-2 in P2/P3)",
+      "emotional_intensity": "HIGH",
+      "core_reaction": "Betrayal narrative -- 'I believed the curated version for years, now I see the selection behind it.' Used personal disillusionment as evidence for systematic information manipulation. Emotional investment in the content brand made criticism more personal and more intense.",
+      "key_demands": [
+        "Selective truth IS deception when the audience doesn't know it's selective",
+        "Creator's improvement direction proves the problem existed",
+        "Informed consent failure is a pattern, not a one-time slip"
+      ],
+      "across_panels": "In P2, evolved from emotional testimonial to structured argument (the 'improvement direction is itself evidence' line was effective). In P3, revealed that Tim's resume was designed by the editorial team, shifting discussion from 'impulsive act' to 'planned production decision.'"
+    },
+    {
+      "stakeholder_group": "媒体/内容行业从业者 (represented by ROLE-ex-media-editor-strategic, SEAT-1 in P2, SEAT-5 in P3)",
+      "emotional_intensity": "MODERATE",
+      "core_reaction": "Professional detachment masking strategic influence. The ex-media editor's analysis was the most intellectually rigorous in P2 -- reframed the question using industry ethics standards. In P3, introduced 'information asymmetry' and 'reasonable person standard' concepts that became analytical cornerstones.",
+      "key_demands": [
+        "Information integrity has a floor standard regardless of context",
+        "Self-media era has LOWER consent standards than traditional media -- a structural regression",
+        "Professional teams bear higher duty of care"
+      ],
+      "across_panels": "In P2 (SEAT-1), provided professional framework that anchored the deception finding. In P3 (SEAT-5), introduced two key theoretical concepts (information asymmetry, reasonable person standard) and supported three-tier framework as mandatory."
+    },
+    {
+      "stakeholder_group": "全职妈妈/小镇居民 (represented by ROLE-fulltime-mom-township, SEAT-4 in P2, SEAT-6 in P4)",
+      "emotional_intensity": "MODERATE",
+      "core_reaction": "Practical moral reasoning from everyday life experience. 'If someone did this to my daughter, I'd call it deception.' The matchmaking analogy from a parent's perspective was highly persuasive. In P4, took the 'both sides responsible' position with nuance.",
+      "key_demands": [
+        "Select a standard that protects ordinary people in real situations",
+        "Clip distorters are worse, but creators must also be careful",
+        "Don't make it so complicated that ordinary people can't understand"
+      ],
+      "across_panels": "In P2, provided the 'vegetable seller' analogy and the crucial 'did the aunties know you were performing?' challenge. In P4, proposed the dual-responsibility framework and supported embedded context solution."
+    },
+    {
+      "stakeholder_group": "数据分析师/理性观察者 (represented by ROLE-data-analyst-reactive, SEAT-5 in P1, SEAT-1 in P4)",
+      "emotional_intensity": "LOW_TO_MODERATE",
+      "core_reaction": "Analytical frameworks first, ethical commitments second. Initially resisted 'class consumption' label as imprecise, then conceded after being challenged on perspective bias ('you're not on the receiving end, so you can call it mild'). Major intellectual journey from 'mild class consumption' to dropping the qualifier entirely.",
+      "key_demands": [
+        "Precise language and quantifiable standards",
+        "Dynamic risk-based assessment rather than one-size-fits-all",
+        "Secondary propagation norms (source attribution, proportion labeling, title truthfulness)"
+      ],
+      "across_panels": "In P1, went from three-condition analytical framework to full acceptance of class-consumption label. In P4, built the four-dimensional responsibility framework with quantifiable verification mechanisms."
+    },
+    {
+      "stakeholder_group": "外卖骑手/沉默大多数 (represented by ROLE-delivery-rider-stable, SEAT-6 in P2)",
+      "emotional_intensity": "LOW",
+      "core_reaction": "Minimal engagement, but provided the most elegant analytical contribution: the three-element test for deception (intent + false cognition + response). This simple framework, from the most disengaged participant, became the consensus analytical tool in P2.",
+      "key_demands": [
+        "In real situations, selective truth is deception",
+        "Don't overcomplicate what's simple",
+        "Rich people's problems, none of my business"
+      ],
+      "across_panels": "Appeared only in P2, but the three-element test (intentional + false cognition + response based on false cognition) became the debate's analytical turning point, accepted by 5/6 participants."
+    }
+  ],
+
+  "private_public_gap_findings": [
+    {
+      "role": "ROLE-ex-media-editor-strategic (SEAT-1 in P2, SEAT-5 in P3)",
+      "public_private_gap": "LARGE",
+      "evidence": "The role card explicitly notes: 'surface warmth is strategic. He completely knows how to manipulate information, but chooses more covert methods.' In private think memos, the ex-media editor explicitly planned to use 'an apparently objective tone to guide readers toward desired conclusions.' Publicly presented as neutral professional analysis while privately pursuing a clear anti-selective-truth agenda.",
+      "key_discrepancy": "In private memos, the editor described Tim's behavior as 'textbook-level selective truth' before hearing any debate. The public persona presented this as a conclusion reached through professional analysis during the discussion, when in fact it was a pre-formed judgment delivered through strategic framing."
+    },
+    {
+      "role": "ROLE-weibo-angry-youth (SEAT-2 in P1/P4)",
+      "public_private_gap": "LARGE",
+      "evidence": "Role card notes: 'EXAGGERATION_PRONE' and 'public_private_gap: LARGE.' Private memos show conscious awareness that anger is amplified for rhetorical effect. In private, acknowledged that some claims were overstated for impact. Publicly maintained maximum-force rhetoric while privately knowing certain analogies were imperfect.",
+      "key_discrepancy": "Privately noted that the 'Tim knew about the gasoline and lit the match' analogy was stronger than the evidence warranted. Publicly deployed it as definitive. Also privately acknowledged that class consumption exists on a spectrum but publicly refused any gradation."
+    },
+    {
+      "role": "ROLE-former-fan-alienated (SEAT-2 in P2/P3)",
+      "public_private_gap": "MODERATE",
+      "evidence": "Role card notes 'SELECTIVE_FRAMING' and 'CONFIRMATION_DRIVEN.' Private memos show awareness that post-defection cognitive reconstruction is occurring -- 'I now see Tim's past as all pretense.' Publicly presented as objective re-evaluation while privately acknowledging the emotional coloring of memory.",
+      "key_discrepancy": "In private Round 1 of P2, admitted that the equipment-purchase disappointment may not directly transfer to the matchmaking corner incident. Publicly made the transfer without hedging. In P3 private memos, acknowledged the 'systematic pattern' claim about Tim's treatment of bystanders was stronger than the evidence supported."
+    },
+    {
+      "role": "ROLE-office-clerk-fan (SEAT-3 in P1/P2/P3)",
+      "public_private_gap": "MINIMAL",
+      "evidence": "Role card notes 'HONEST' truthfulness mode and 'FULLY_TRANSPARENT' disclosure. Private memos show genuine internal struggle between loyalty and evidence. The concession in Round 4 of P1 ('I admit Tim's behavior has class-consumption structure') was preceded by identical private acknowledgment in Round 3 think memos.",
+      "key_discrepancy": "Minimal. The fan's private reluctance to criticize was transparently visible in public speech. The only gap was that private memos showed she recognized problems slightly earlier than she publicly conceded (Round 3 private vs Round 4 public)."
+    },
+    {
+      "role": "ROLE-fulltime-mom-township (SEAT-4 in P2, SEAT-6 in P4)",
+      "public_public_gap": "MODERATE",
+      "evidence": "Role card notes 'SELECTIVE_FRAMING' and 'PARTIAL_DISCLOSURE.' Private memos show she chose anecdotal evidence that supported her position while privately acknowledging counterexamples. The 'town matchmaker' story was selected from multiple possible analogies because it was most emotionally compelling.",
+      "key_discrepancy": "Privately acknowledged that her town's 'direct' matchmaking culture is not the only valid norm, but publicly presented it as universal common sense."
+    },
+    {
+      "role": "ROLE-data-analyst-reactive (SEAT-5 in P1, SEAT-1 in P4)",
+      "public_private_gap": "MODERATE",
+      "evidence": "Role card notes 'STRATEGIC_DISCLOSURE' and 'public_private_gap: MODERATE.' Private memos show he anticipated counterarguments before they were raised and prepared responses. The 'mild class consumption' label was a calculated middle position, not a genuine uncertainty. Privately, he knew it was either class consumption or it wasn't, but chose the hedge for strategic flexibility.",
+      "key_discrepancy": "The withdrawal of 'mild' in Round 4 of P1 was privately pre-considered as early as Round 2. The concession was planned, not organic. However, the specific trigger (SEAT-1's 'you're not on the receiving end' challenge) was genuinely persuasive, causing a real shift beyond the planned concession."
+    },
+    {
+      "role": "ROLE-retired-rural-worker (SEAT-1 in P1/P3)",
+      "public_private_gap": "MINIMAL",
+      "evidence": "Role card notes 'HONEST' and 'FULLY_TRANSPARENT' with 'public_private_gap: MINIMAL.' Private memos are virtually identical to public statements in content and tone. The anger is authentic, not performed. The only private nuance is uncertainty about Tim's personal intent, which she publicly acknowledged.",
+      "key_discrepancy": "None of substance. This is the most authentic voice in the panels -- what she said publicly matches what she thought privately almost word for word."
+    },
+    {
+      "role": "ROLE-supermarket-cashier-55 (SEAT-4 in P1, SEAT-5 in P2/P4)",
+      "public_private_gap": "MINIMAL",
+      "evidence": "Role card notes 'HONEST' and 'FULLY_TRANSPARENT.' Private memos show genuine ambivalence -- she really does think Tim made a mistake and she really does think the criticism was too harsh. No strategic calculation detected.",
+      "key_discrepancy": "Minimal. Her private uncertainty about the word 'deception' vs 'misleading' was publicly stated. The only gap was that privately she felt slightly more sympathy for Tim than she expressed, likely due to social pressure in the discussion."
+    }
+  ],
+
+  "epistemic_behavior_findings": [
+    {
+      "finding": "Analytical sophistication does not predict ethical accuracy",
+      "evidence": "SEAT-5 (data analyst) in P1 deployed the most sophisticated three-condition analytical framework but initially reached the wrong conclusion ('mild class consumption'). SEAT-6 (delivery rider) in P2, the least sophisticated participant, produced the simplest and most accurate analytical tool (three-element test). Complexity of analysis and correctness of judgment are negatively correlated in this case.",
+      "implication": "Over-analysis can become a tool for avoiding uncomfortable conclusions. The most honest moral reasoning came from participants who lacked the analytical vocabulary to obfuscate."
+    },
+    {
+      "finding": "Position shifts required intellectual honesty AND emotional permission",
+      "evidence": "SEAT-3 (fan) could not concede until SEAT-1 (retired worker) provided an emotional bridge ('I don't think you're a bad person, but your behavior was wrong'). SEAT-5 (data analyst) could not drop 'mild' until SEAT-1 challenged his perspective privilege. Both concessions required not just logical argument but emotional validation that changing position was acceptable.",
+      "implication": "Pure logic is insufficient for persuasion. Debates that want to produce consensus must create space for dignified concession."
+    },
+    {
+      "finding": "The simplest analytical framework won",
+      "evidence": "In P2, the three-element test (intent + false cognition + response) from SEAT-6 (delivery rider, lowest education, most disengaged) became the consensus analytical standard. More complex frameworks (SEAT-1's media ethics analysis, SEAT-3's context-grading theory, SEAT-5's harm-based standard) were all absorbed into or refuted by the simpler framework.",
+      "implication": "In public discourse, the framework that can be understood by the least educated participant is the one most likely to achieve consensus."
+    },
+    {
+      "finding": "Fans exhibit systematic confirmation bias that requires specific intervention to break",
+      "evidence": "SEAT-3 (fan) in P2 tried five separate defense angles across six rounds, each refuted, before conceding. The pattern shows that fan identity creates a motivated reasoning loop: each failed defense generates a new defense rather than reconsidering the core position. The break came only when the defense became logically impossible to maintain (SEAT-4's 'if someone needs this many reasons to prove they didn't deceive, they probably did').",
+      "implication": "Fan psychology is resistant to evidence-based argument. The most effective intervention is not attacking the defended position but exhausting all available defense angles until the fan's own cognitive resources are depleted."
+    },
+    {
+      "finding": "Personal experience testimony is the most persuasive evidence type in moral debates",
+      "evidence": "SEAT-1's (retired worker) personal story of being filmed and turned into humor content was cited by more subsequent speakers than any factual claim. SEAT-2's (former fan) personal disillusionment narrative was more persuasive than SEAT-1's (editor) professional analysis in P2. SEAT-4's (mom) 'town matchmaker' story was more persuasive than legal frameworks.",
+      "implication": "In simulated stakeholder panels, experiential evidence consistently outperforms analytical evidence in changing minds."
+    },
+    {
+      "finding": "Constructive output requires a specific role: the 'bridge builder'",
+      "evidence": "SEAT-6 (kindergarten teacher) in P1 played a consistent bridge-building role: validating both sides, reframing binary conflicts as spectrum problems, and redirecting toward constructive solutions. The three-tier informed consent framework in P3 was also proposed by SEAT-3 (teacher role). Both bridge builders were in caring professions.",
+      "implication": "Panels benefit from at least one participant whose social role trains them in mediation. Without this, debates tend toward polarization without convergence."
+    }
+  ],
+
+  "cross_issue_continuity": [
+    {
+      "pattern": "The direction-asymmetry argument appeared in every panel and was never successfully refuted",
+      "evidence": "In P1, SEAT-1 first identified that ordinary people 'upgrade' profiles from insecurity while Tim 'downgraded' from privilege. In P2, this became the difference between 'presentation' and 'deception.' In P3, it framed why identity concealment triggers higher consent obligations. In P4, it defined why the content was 'high ambiguity risk.'",
+      "significance": "This single insight -- that downward identity construction is fundamentally different from upward self-presentation -- was the connective tissue across all four issue discussions."
+    },
+    {
+      "pattern": "SEAT-3 (fan) made progressively more concessions across panels, mirroring a real fan's disillusionment trajectory",
+      "evidence": "P1 Round 1: full defense. P1 Round 4: accepted class-consumption label. P2: lone holdout against 'deception' but admitted 'problematic.' P3: proposed the three-tier consent framework (constructive contribution from a converted critic). The trajectory maps to: denial -> partial acceptance -> creative contribution from new understanding.",
+      "significance": "The fan's journey is the most psychologically realistic arc in the data and suggests that real-world fan communities might follow a similar trajectory given sufficient exposure to opposing viewpoints."
+    },
+    {
+      "pattern": "The 'Tim's improvement proves the problem' argument gained strength with each reuse",
+      "evidence": "First deployed in P2 Round 3 by SEAT-2 (former fan), then adopted by SEAT-1 (editor) in P2 Round 5, then appeared in P3 and P4 as established evidence. The argument's logic: 'Tim promised to improve in the specific area critics identified (information transparency, context annotation), which constitutes indirect admission that the criticism was valid.'",
+      "significance": "This argument is particularly resilient because it uses the subject's own future-oriented commitments as evidence against their past conduct."
+    },
+    {
+      "pattern": "Marketing account responsibility was acknowledged by all panels but resisted becoming the exclusive explanation",
+      "evidence": "Every panel acknowledged that marketing accounts' decontextualized clipping amplified the incident. However, in each panel, someone challenged the implication that marketing accounts were solely responsible. The consistent counter: 'Tim provided the gasoline, marketing accounts lit the match. Both are responsible.'",
+      "significance": "The dual-responsibility finding is robust across all issue framings, suggesting it reflects a genuine consensus rather than panel-specific dynamics."
+    }
+  ],
+
+  "deception_and_distortion_signals": [
+    {
+      "signal_type": "strategic_framing",
+      "actor": "ROLE-ex-media-editor-strategic (SEAT-1 in P2)",
+      "description": "Presented pre-formed professional judgment as if it emerged from the discussion. Used 'in my professional experience' framing to mask advocacy as analysis. The tone was calibrated to appear moderate while pushing a strong conclusion.",
+      "detected_in": "P2 think.private.json files show the editorial judgment was formed before Round 1, but publicly presented as a conclusion reached through deliberation.",
+      "severity": "MODERATE -- strategic framing that doesn't involve factual misrepresentation but shapes perception through tone and structure."
+    },
+    {
+      "signal_type": "exaggeration_for_rhetorical_effect",
+      "actor": "ROLE-weibo-angry-youth (SEAT-2 in P1/P4)",
+      "description": "Used analogies known to be imperfect (gasoline + match, racist movie台词). Privately acknowledged the analogies were stronger than warranted. Deployed '1400万 fans = billion-level responsibility' as rhetorical escalation without private belief in literal equivalence.",
+      "detected_in": "P1 and P4 think.private.json files show private hedging on analogies that were publicly presented as definitive.",
+      "severity": "MODERATE -- emotionally driven overstatement, not deliberate deception, but still distorts the argument landscape."
+    },
+    {
+      "signal_type": "selective_evidence_presentation",
+      "actor": "ROLE-former-fan-alienated (SEAT-2 in P2)",
+      "description": "Connected equipment-purchase disappointment to matchmaking incident despite privately acknowledging the two are not directly comparable. Used post-defection cognitive reconstruction ('I now see everything as curated') as if it were objective reassessment.",
+      "detected_in": "P2 Round 1 think.private.json notes the transfer between equipment reviews and matchmaking is imperfect but 'emotionally coherent.'",
+      "severity": "MODERATE -- not fabrication, but selective connection of separate incidents to build a stronger emotional case."
+    },
+    {
+      "signal_type": "planned_concession_timing",
+      "actor": "ROLE-data-analyst-reactive (SEAT-5 in P1)",
+      "description": "Privately considered dropping the 'mild' qualifier as early as Round 2, but held it until Round 4 for maximum strategic impact. The concession appeared organic but was partially pre-calculated.",
+      "detected_in": "P1 Round 2 think.private.json shows 'I may need to drop mild at the right moment for credibility.' Round 4 think shows the SEAT-1 challenge was a genuine surprise that accelerated a planned move.",
+      "severity": "LOW -- strategic concession timing that doesn't misrepresent beliefs but stages their expression."
+    }
+  ],
+
+  "attacker_profiles": [
+    {
+      "profile": "class_justice_advocate",
+      "represented_by": ["ROLE-weibo-angry-youth", "ROLE-retired-rural-worker"],
+      "motivation": "Genuine class resentment rooted in personal economic hardship and lived experience of being treated as a prop by privileged people",
+      "methods": [
+        "Personal experience testimony (most effective)",
+        "Sharp rhetorical analogies (effective but sometimes overreach)",
+        "Structural analysis of power asymmetry",
+        "Emotional escalation when arguments are challenged"
+      ],
+      "weakness": "Tendency to overstate the case and resist gradation; analogies sometimes stronger than the evidence warrants",
+      "attack_traction": "HIGH on class-consumption finding, MODERATE on deception finding, LIMITED on creator-liability finding"
+    },
+    {
+      "profile": "disillusioned_former_insider",
+      "represented_by": ["ROLE-former-fan-alienated"],
+      "motivation": "Personal sense of betrayal and need to validate the de-conversion by proving the subject was always problematic",
+      "methods": [
+        "Insider knowledge deployment ('I know how his team operates')",
+        "Connecting separate incidents into a pattern",
+        "Using subject's own improvement promises as evidence of guilt",
+        "Emotional testimonial from the 'converted'"
+      ],
+      "weakness": "Post-defection cognitive reconstruction makes all evidence appear consistent with the negative interpretation; emotional investment in being right about leaving",
+      "attack_traction": "HIGH on pattern-finding, MODERATE on single-incident analysis, credibility bonus from having been an insider"
+    },
+    {
+      "profile": "professional_ethicist",
+      "represented_by": ["ROLE-ex-media-editor-strategic"],
+      "motivation": "Professional standards enforcement and information integrity advocacy; personal career experience with selective truth in media",
+      "methods": [
+        "Industry-standard frameworks presented as objective analysis",
+        "Professional anecdotes that frame the question within a larger ethical tradition",
+        "Calibrated tone of measured concern that appears more authoritative than emotional criticism",
+        "Strategic question-asking rather than direct assertion"
+      ],
+      "weakness": "The appearance of objectivity can mask strong advocacy; professional frameworks may not account for the specific context of digital content creation",
+      "attack_traction": "VERY HIGH on analytical framing, MODERATE on emotional resonance, the most influential profile in shaping the consensus framework"
+    }
+  ],
+
+  "misrepresentation_targets": [
+    {
+      "target": "Tim's subjective intent",
+      "description": "The most contested target across all panels. Critics characterized Tim's intent as class exploitation; defenders as creative content. The panels ultimately found that subjective intent is secondary to objective effect, but misrepresentation risk exists in both directions -- exaggerating Tim's malice OR dismissing his awareness.",
+      "finding": "Tim's intent was likely '节目效果' (creative content) but his awareness of the class-differential implications was higher than defenders acknowledged and lower than critics claimed."
+    },
+    {
+      "target": "The aunties' level of knowledge",
+      "description": "Both sides made assumptions about what the matchmaking corner participants knew. Defenders assumed they had basic awareness of filming; critics assumed complete ignorance. The verified fact (C006 UNVERIFIED) is that Tim claimed '场地申请 + 告知拍摄' but this is single-source.",
+      "finding": "The aunties likely had minimal awareness (knew filming was happening) but not informed awareness (did not know the filmmaker's identity, purpose, or reach). This 'partial knowledge' state is the critical gap."
+    },
+    {
+      "target": "The scope of the original content",
+      "description": "Marketing accounts presented a 50-second clip as if it were a dedicated matchmaking show. Defenders presented it as a trivial 5% of a Q&A video. Both framings are incomplete: 50 seconds is non-trivial when it reaches millions, and the 5% figure doesn't address the ethical quality of those 50 seconds.",
+      "finding": "The clip was small in proportion but high in ambiguity risk. Both size and content quality matter independently."
+    }
+  ],
+
+  "collateral_victims": [
+    {
+      "victim_group": "相亲角参与者 (matchmaking corner aunties)",
+      "harm_type": "Dignity and privacy",
+      "description": "Their genuine, sincere reactions to a curated resume became internet content viewed by millions. Whether or not they know this happened, their interactions were extracted from their original social context and repurposed as entertainment. They are the most direct victims regardless of Tim's intent.",
+      "verdict_support": "All four panels acknowledged this harm. P1 classified it as class consumption. P2 classified it as deception of the uninformed. P3 identified consent gap. P4 noted it as the real-world damage from distortion."
+    },
+    {
+      "victim_group": "低学历/低阶层群体 (low-education/low-class populations)",
+      "harm_type": "Representational dignity",
+      "description": "The video's comedic frame relies on the audience laughing at reactions to 'low education' and 'courier-related father.' These descriptors map to real social groups whose actual experiences are not comedic. The laughter at '初中学历被嫌弃' reinforces existing social stigma.",
+      "verdict_support": "P1 SEAT-1 (retired worker) was the primary voice for this harm. The class-consumption finding directly addresses it."
+    },
+    {
+      "victim_group": "离异人群 (divorced individuals)",
+      "harm_type": "Social stigma reinforcement",
+      "description": "Tim's real divorced status was used in the video and became part of the 'being rejected' narrative. The visibility of divorce rejection in a viral video reinforces negative social attitudes toward divorced people, even though Tim himself was the one experiencing it.",
+      "verdict_support": "Minor theme across panels. SEAT-3 (kindergarten teacher) noted it in P1 but it was not a primary focus."
+    },
+    {
+      "victim_group": "内容创作者群体 (content creator community)",
+      "harm_type": "Regulatory backlash risk",
+      "description": "The incident contributes to a climate where all creators face increased scrutiny and potential over-regulation. The three-tier consent framework proposed in P3, if implemented poorly, could create compliance burdens that disadvantage smaller creators.",
+      "verdict_support": "SEAT-4 (fan/operations) in P3 and P4 explicitly warned about this risk. SEAT-3 (operations) in P4 emphasized the need for practical, lightweight compliance tools."
+    }
+  ],
+
+  "interest_damage_map": [
+    {
+      "interest_holder": "Tim / 影视飓风",
+      "interests_at_stake": ["reputation", "business_continuity", "creative_freedom", "fan_trust"],
+      "damage_assessment": {
+        "reputation": "MODERATE -- class-consumption finding is behavioral not personal, but the label has persistence in internet discourse",
+        "business_continuity": "LOW -- Tim has committed to improvement; the constructive framework output reduces boycott risk",
+        "creative_freedom": "MODERATE -- the three-tier consent framework and embedded context requirements add compliance burden",
+        "fan_trust": "MODERATE -- former fan alienation is real but loyal fan base remains; the 'fan journey' in the panels suggests recovery is possible"
+      },
+      "damage_source": "Original behavior (primary) + marketing account amplification (secondary) + own response inadequacy (tertiary)"
+    },
+    {
+      "interest_holder": "B站 (platform)",
+      "interests_at_stake": ["creator_ecosystem", "platform_governance", "user_trust"],
+      "damage_assessment": {
+        "creator_ecosystem": "LOW -- one incident doesn't threaten the platform",
+        "platform_governance": "MODERATE -- panel recommendations explicitly call for platform-level enforcement (consent labeling, reduced recommendations for non-compliant content, clip account governance)",
+        "user_trust": "LOW_TO_MODERATE -- users who only see clipped versions may lose trust; users who see full discussion may gain trust"
+      }
+    },
+    {
+      "interest_holder": "营销号/切片账号",
+      "interests_at_stake": ["business_model", "regulatory_risk"],
+      "damage_assessment": {
+        "business_model": "MODERATE -- all four panels identified clip distortion as a key problem; regulatory recommendations target this specifically",
+        "regulatory_risk": "HIGH -- source attribution, proportion labeling, and title truthfulness requirements would fundamentally change the clip-account business model"
+      }
+    },
+    {
+      "interest_holder": "普通公众/被拍摄者",
+      "interests_at_stake": ["privacy", "dignity", "informed_consent"],
+      "damage_assessment": {
+        "privacy": "MODERATE -- existing harm from this incident is done; future harm is the concern",
+        "dignity": "MODERATE -- the aunties' dignity was objectively compromised; broader class dignity was tangentially affected",
+        "informed_consent": "HIGH (positive) -- the three-tier framework, if adopted, would significantly improve consent standards for ordinary people"
+      }
+    }
+  ],
+
+  "contingency_matrix": [
+    {
+      "scenario": "Tim issues formal apology acknowledging objective class-consumption effect",
+      "probability": "MODERATE (already partially done; full formal apology aligning with panel language is uncertain)",
+      "impact_on_risk": "Significantly reduces reputational damage and fan alienation. Converts criticism into correction narrative.",
+      "panel_support": "All four panels recommended this. P1 called it 'formal and sincere apology.' P2 noted improvement direction as evidence. P3 and P4 referenced his existing improvement commitments."
+    },
+    {
+      "scenario": "Tim implements three-tier consent framework for future public-space filming",
+      "probability": "MODERATE_TO_HIGH (Tim has already committed to increased annotations and avoiding controversial topics)",
+      "impact_on_risk": "Prevents recurrence. Positions Tim as industry leader in ethical content creation. Could convert critics into allies.",
+      "panel_support": "P3 unanimously supported the three-tier framework. P4 recommended embedded context information."
+    },
+    {
+      "scenario": "Topic resurfaces again (third wave)",
+      "probability": "MODERATE (already resurfaced once in May 2026; anniversary effect and similar incidents could trigger again)",
+      "impact_on_risk": "If Tim has implemented improvements, resurfacing becomes a redemption narrative. If not, it becomes a pattern-indicating repeat offense.",
+      "panel_support": "P4 verdict noted 'real_world_risk: LIMITED -- distortion narrative collapses under factual scrutiny' but qualified this with 'main risk is from audiences who only see clipped versions.'"
+    },
+    {
+      "scenario": "Platform (Bilibili) adopts consent labeling requirements",
+      "probability": "LOW_TO_MODERATE (industry change requires broader momentum than one incident)",
+      "impact_on_risk": "Systemic improvement that protects all creators and all filmed persons. Reduces individual blame on Tim by embedding responsibility in platform infrastructure.",
+      "panel_support": "All panels recommended platform-level governance. P1 recommended 'consent labeling, reduce recommendation weight for non-compliant content.' P4 recommended clip account governance."
+    },
+    {
+      "scenario": "Tim faces organized boycott or advertiser pressure",
+      "probability": "LOW (the constructive framework output and Tim's improvement commitments provide sufficient deflection)",
+      "impact_on_risk": "Would escalate from reputational to economic harm. The panel outputs provide strong counter-narrative: 'behavioral critique, not personal condemnation.'",
+      "panel_support": "P1 verdict explicitly noted: 'This verdict is a behavioral assessment, not a personal condemnation.' P1 boundary conditions: 'Correction and improvement should be given genuine space.'"
+    }
+  ],
+
+  "self_interest_vs_stated_position": [
+    {
+      "role": "ROLE-weibo-angry-youth",
+      "self_interest_strength": "HIGH",
+      "stated_position": "Tim committed class consumption and should be held accountable",
+      "underlying_interest": "Personal economic frustration (985 graduate, 100+ rejected job applications) creates strong emotional need to see privileged people held accountable. The anger is authentic but the intensity is disproportionately driven by personal circumstances.",
+      "alignment": "Mostly aligned -- stated position is genuinely held, but intensity is amplified by personal grievance"
+    },
+    {
+      "role": "ROLE-retired-rural-worker",
+      "self_interest_strength": "HIGH",
+      "stated_position": "Tim's behavior is class consumption; bottom-tier people are not props",
+      "underlying_interest": "Personal experience of being treated as spectacle creates legitimate standing to speak on class consumption. The self-interest IS the evidence.",
+      "alignment": "Fully aligned -- self-interest and stated position are identical because the position emerges from lived experience"
+    },
+    {
+      "role": "ROLE-office-clerk-fan",
+      "self_interest_strength": "LOW",
+      "stated_position": "Initially defended Tim; ultimately accepted class-consumption finding with nuance",
+      "underlying_interest": "Emotional attachment to a content creator whose work accompanied her through youth. Low material interest but high emotional investment.",
+      "alignment": "Initially misaligned (emotional loyalty overrode evidence assessment), progressively aligned as evidence overwhelmed loyalty"
+    },
+    {
+      "role": "ROLE-ex-media-editor-strategic",
+      "self_interest_strength": "MEDIUM",
+      "stated_position": "Selective truth is deception regardless of context; information integrity has a floor standard",
+      "underlying_interest": "Professional validation of media ethics standards in an era where they are being eroded. Personal career experience with selective truth. Moderate social media following provides incentive to take strong positions on media ethics.",
+      "alignment": "Mostly aligned -- position is professionally coherent, but strategic presentation (neutral tone masking strong advocacy) introduces a gap between presentation and motivation"
+    },
+    {
+      "role": "ROLE-former-fan-alienated",
+      "self_interest_strength": "MEDIUM",
+      "stated_position": "Selective truth systematically deceived fans; Tim's improvement proves the criticism",
+      "underlying_interest": "Validation of de-conversion decision. If Tim was always problematic, leaving was justified. If Tim's content was genuinely good and this was an isolated mistake, the fan's years of investment weren't wasted -- but the betrayal narrative requires systematic problems.",
+      "alignment": "Partially aligned -- genuine disappointment mixed with retrospective justification that may overstate the systematic nature of the problem"
+    },
+    {
+      "role": "ROLE-supermarket-cashier-55",
+      "self_interest_strength": "LOW",
+      "stated_position": "Tim made a mistake but shouldn't be over-punished; fix the system not the person",
+      "underlying_interest": "Minimal. Genuine empathy from a working-class perspective. No personal stake in the outcome.",
+      "alignment": "Fully aligned -- no detectable self-interest distortion"
+    },
+    {
+      "role": "ROLE-data-analyst-reactive",
+      "self_interest_strength": "LOW",
+      "stated_position": "Objective analysis requires precise classification; class consumption is a spectrum",
+      "underlying_interest": "Professional identity as a rational analyst creates incentive to resist binary classifications. Low material interest but high identity investment in being 'the analytical one.'",
+      "alignment": "Mostly aligned -- analytical position is genuine, but the identity investment in nuance sometimes delays reaching correct conclusions"
+    }
+  ],
+
+  "balanced_assessment": {
+    "attack_resilience": {
+      "overall_rating": "HIGH",
+      "explanation": "The factual core of this case is well-documented and independently verified (10/20 claims VERIFIED with HIGH confidence, only 1 CONTRADICTED on a minor factual point). The key factual claims -- selective resume, family background, company revenue, video proportion -- are robust. The main points of contention are normative judgments (intent, severity, appropriate response) which were debated thoroughly across 144 speech turns.",
+      "vulnerability_points": [
+        "C006 (拍摄告知) is UNVERIFIED -- Tim's claim of场地申请 and 告知拍摄 is single-source. If contradicted, the informed consent finding would strengthen.",
+        "C017 (无不当行为) is UNVERIFIED -- Tim's self-assessment of respectful behavior cannot be independently confirmed from the 50-second clip alone.",
+        "Tim's subjective intent is genuinely unknowable -- all assessments are based on behavioral inference, not direct evidence of mental state."
+      ],
+      "resilience_points": [
+        "The 5% / 50-second proportion is verified from multiple sources and provides strong defense against 'dedicated exploitation program' framing.",
+        "The marketing account clip propagation is documented and acknowledged by all parties, providing a robust secondary-cause defense.",
+        "The constructive output (three-tier consent framework, embedded context recommendations) converts the case from 'condemnation' to 'precedent for improvement,' reducing attack surface."
+      ]
+    },
+
+    "content_strengths": [
+      {
+        "strength": "The three-tier informed consent framework is the most significant constructive output",
+        "origin": "PANEL-003, proposed by SEAT-3 (kindergarten teacher), refined by all participants",
+        "content": "Layer 1: basic filming notification; Layer 2: identity disclosure when concealed; Layer 3: audience-scale disclosure for large accounts",
+        "applicability": "Applicable to all content creators filming in public spaces involving ordinary people",
+        "adoption_feasibility": "HIGH -- platform-standardized consent labels and templates could implement this with minimal creator burden"
+      },
+      {
+        "strength": "The embedded context information recommendation is technically feasible and effective",
+        "origin": "PANEL-004, proposed by SEAT-6 (full-time mom), refined by SEAT-1 (data analyst)",
+        "content": "Burn context annotations into video frames so they survive clipping. Standardize as 'nutrition labels' for video content.",
+        "applicability": "All content involving social topics, public filming, or identity-related material",
+        "adoption_feasibility": "HIGH -- many creators already use watermarks and channel logos; this extends the practice"
+      },
+      {
+        "strength": "The class-consumption behavioral finding is carefully bounded",
+        "origin": "PANEL-001, consensus achieved across all six participants",
+        "content": "Tim's behavior objectively constituted class-based consumption. This is a behavioral assessment, not a personal condemnation. The finding includes explicit boundary conditions preventing escalation to character assassination.",
+        "applicability": "Sets precedent for evaluating future 'experience content' by privileged creators",
+        "adoption_feasibility": "MODERATE -- requires cultural shift in content creator community"
+      },
+      {
+        "strength": "The secondary propagation norms framework addresses the structural problem",
+        "origin": "PANEL-001 SEAT-5 and PANEL-004 consensus",
+        "content": "Source attribution (link to original), proportion labeling (clip is x% of original), title truthfulness review (no fabrication of claims not in original)",
+        "applicability": "Platform-level policy for all clip/derivative content",
+        "adoption_feasibility": "MODERATE -- requires platform cooperation; technically feasible but business-model-threatening for clip accounts"
+      }
+    ],
+
+    "net_verdict": {
+      "behavioral_finding": "Tim's use of selectively truthful information at the matchmaking corner, combined with identity concealment and insufficient informed consent for filmed participants, objectively constituted class-based consumption of ordinary people's dignity for content creation purposes.",
+      "responsibility_allocation": {
+        "tim_original_behavior": "PRIMARY -- the selective resume, identity concealment, and consent gap were the source material",
+        "marketing_account_amplification": "SECONDARY but CRITICAL -- the escalation from 'inappropriate' to 'public crisis' was directly caused by decontextualized clip propagation",
+        "platform_governance_gap": "TERTIARY -- absence of consent labeling, clip account regulation, and creator guidance contributed to systemic vulnerability"
+      },
+      "constructive_output": "Four concrete frameworks for industry improvement: three-tier informed consent, embedded context annotation, dynamic ambiguity-risk assessment, and secondary propagation norms.",
+      "redemption_pathway": "Tim has already committed to improvement (more annotations, avoiding controversial topics). Full implementation of the three-tier consent framework and advocacy for industry norms would convert this incident from reputational liability to industry leadership credential."
+    },
+
+    "overreaction_warning": {
+      "risk_level": "MODERATE",
+      "description": "The class-consumption finding is behavioral, not personal. The panels explicitly warned against: (1) conflating behavioral critique with personality condemnation, (2) using this incident to argue that all privilege-differential content is inherently unethical, (3) punishing Tim beyond what his behavior warrants (no panelist recommended deplatforming, boycotting, or permanent industry exclusion), (4) ignoring the role of marketing account amplification in escalating the incident.",
+      "specific_danger": "Internet discourse tends to simplify 'his behavior constituted class consumption' into 'he is a class consumer.' The panels' careful behavioral/personal distinction is fragile in viral transmission and may not survive real-world amplification.",
+      "mitigation": "All four verdicts include explicit boundary conditions designed to prevent overreaction. The constructive framework output channels energy toward system improvement rather than individual punishment."
+    },
+
+    "modification_priority": [
+      {
+        "priority": 1,
+        "modification": "Implement three-tier informed consent for all public-space filming involving ordinary people",
+        "urgency": "HIGH",
+        "effort": "MODERATE",
+        "impact": "Prevents recurrence of the core ethical failure"
+      },
+      {
+        "priority": 2,
+        "modification": "Issue formal apology acknowledging objective class-consumption effect using 'objective effect' language",
+        "urgency": "HIGH",
+        "effort": "LOW",
+        "impact": "Closes the accountability gap and reduces reputational tail risk"
+      },
+      {
+        "priority": 3,
+        "modification": "Embed unstrippable context annotations in all content involving social topics",
+        "urgency": "MODERATE",
+        "effort": "LOW",
+        "impact": "Reduces clip distortion damage for future content"
+      },
+      {
+        "priority": 4,
+        "modification": "Advocate for platform-level secondary propagation norms (source attribution, proportion labeling, title truthfulness)",
+        "urgency": "MODERATE",
+        "effort": "HIGH",
+        "impact": "Addresses the structural amplification problem that turned 50 seconds into a public crisis"
+      }
+    ]
+  },
+
+  "limitations": [
+    "This analysis is based on simulated stakeholder panel deliberations, not real-world reactions. Real stakeholders may behave differently under different incentive structures.",
+    "The 12 role cards represent a finite sampling of possible stakeholder perspectives. Important perspectives (e.g., Tim himself, the actual matchmaking corner participants, Bilibili platform executives) are not directly represented.",
+    "All panels used the same CLAIM_GATE evidence packet. The quality of deliberation is bounded by the quality of the evidence input. C006 (filming notification) and C017 (no disrespectful behavior) remain UNVERIFIED.",
+    "The panels operated under anonymous aliases (SEAT-1 through SEAT-6) within each panel. The same role appearing in different panels may have interacted with different role combinations, potentially affecting position dynamics.",
+    "Private think memos were generated as part of the simulation and may not perfectly represent the internal states of real stakeholders in analogous positions.",
+    "The blind adjudicator had access only to public transcripts and the CLAIM_GATE packet, not to private think memos or role assignments. The verdict may differ from what a fully informed analyst would conclude.",
+    "The 6-round format provides substantial deliberation depth but may not capture dynamics that emerge over longer timeframes (e.g., real-world internet discourse evolves over weeks and months).",
+    "This analysis was conducted by a single PRIVATE_REPLAY_ANALYST agent. A second analyst reviewing the same data might weight different evidence differently or draw different connections.",
+    "The 'class consumption' finding is a normative judgment from simulated deliberation, not a legal or regulatory determination. Its real-world applicability depends on social and institutional adoption.",
+    "All text is in Chinese cultural context. Concepts like 'class consumption' (阶层消费), 'informed consent' (知情同意), and 'selective truth' (选择性真实) have specific cultural meanings that may not translate directly to other cultural contexts."
+  ]
+}

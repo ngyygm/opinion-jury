@@ -1,0 +1,18 @@
+{
+  "turn_id": "P002-SEAT-6-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-6",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "SEAT-3的挑战问到了关键——参与式传播在商业营销中的可行性。我必须诚实回答：参与式传播在学术上是一个理想模型，但在商业营销中确实面临根本限制。品牌需要控制叙事来传递品牌信息，真正的参与式传播意味着放弃控制力，这和商业目标有冲突。但我觉得可以提出折中方案：品牌做'限制性参与'——给出开放的话题框架比如'说说你妈妈的故事'，但在内容选择上引入第三方编辑团队或社区投票机制，减少品牌自身的价值判断介入。另外SEAT-5的反思从传播学角度非常重要——她说的'品牌利用了我但我的感受不属于品牌'，其实就是'情感劳动被商业收编'问题。品牌利用真实的情感服务商业目的，但既不理解也不负责这些情感背后的人生。所以我最终要承认SEAT-1说的——商业营销和真实表达之间确实有根本矛盾。在短期之内，最务实的要求不是让品牌做到'赋权'，而是让品牌先学会'不做伤害'。先学会不用否定性框架，先学会不替别人下定义，再谈什么赋权多元。",
+  "target_turn_refs": [
+    "P002-SEAT-3-round-04-responsive-rebuttal",
+    "P002-SEAT-5-round-04-responsive-rebuttal",
+    "P002-SEAT-1-round-04-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "panel-002-public-question"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

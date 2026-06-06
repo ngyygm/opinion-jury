@@ -1,0 +1,12 @@
+{
+  "turn_id": "ASGN-004-004-round-02-direct-rebuttal",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-4",
+  "round": 2,
+  "phase": "DIRECT_REBUTTAL",
+  "speech_text": "听你们说了这么多，我大概有点明白了。但我觉得你们把事情想太复杂了。拍视频的人，他知道不知道自己拍的东西会被别人乱剪？如果他知道，那他还是发了，那确实有点不谨慎。如果他不知道，那被乱剪了也怪不了他，怪那个乱剪的人。就这么简单。我们工地上有个规矩，谁干的活出了问题就找谁。如果是我砌的墙倒了，那我的事。如果是我砌好了，别人来拆了，那拆的人的事。拍视频的把视频拍好了，别人来乱剪，那剪的人的事。这不是很简单的道理吗？你们说什么分层模型、什么舆情评估，我搞不懂。反正网上的事就是这样，谁也管不了谁。吵来吵去有什么用呢？明天太阳照常升起，我照常上班。",
+  "target_turn_refs": ["ASGN-004-001-round-02-direct-rebuttal", "ASGN-004-002-round-02-direct-rebuttal"],
+  "public_question_refs": ["panel-004-public-question"],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

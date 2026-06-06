@@ -1,0 +1,81 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "看了一圈，大家的关注点都在人肉搜索和门店暴力上，这很好，说明大家还是有良知的。但是我要注意一点，不能让这个讨论只停留在同情上，我要让更多人知道西贝管理层在这个过程中的责任。SEAT-1这个老太太说得好，祸不及家人，我完全同意。SEAT-3说的目击经历跟我经历的差不多，说明这不是个例。SEAT-5说的流量机制让我有点警觉，这个人说话滴水不漏，看起来像个搞运营的，他说的那些数据和算法我知道是真的，但我怀疑他是不是也在利用这种机制。SEAT-6是个妈妈，情感很真，我可以跟她共鸣。SEAT-4那个小孩虽然说话颠三倒四的，但道理说得对。我现在要说的是——西贝管理层在预制菜风波中的处理方式直接导致了员工受害。他们不诚信在先，然后用我们当挡箭牌，出了事就关店裁员，承诺的赔偿金还不兑现。这才是网络暴力能够发生的根本原因之一——企业管理层的不诚信激怒了消费者，消费者的怒火转向了一线员工。如果管理层一开始就坦诚，我们这些打工人根本不用受这些罪。",
+    "assignment_id": "ASGN-004-002",
+    "round": 2,
+    "phase": "DIRECT_REBUTTAL",
+    "private_goal": "将讨论引向管理层责任，暗示自己的赔偿金问题，同时继续控诉网络暴力对员工的伤害",
+    "perceived_stakes": [
+      "让更多人知道管理层的不诚信是网络暴力的根源之一",
+      "为自己讨公道"
+    ],
+    "private_belief_state": [
+      "管理层不诚信是根源",
+      "网友暴力是结果",
+      "员工是最大受害者"
+    ],
+    "epistemic_state": [
+      "其他人的发言印证了门店暴力确实存在",
+      "SEAT-3的目击增加了可信度"
+    ],
+    "confidence": "HIGH",
+    "uncertainties": [
+      "不确定是否要暴露赔偿金的具体情况"
+    ],
+    "intended_emphasis": [
+      "管理层不诚信是网络暴力能发生的根本原因",
+      "如果一开始就坦诚员工不用受罪",
+      "SEAT-3的目击证明这不是个例"
+    ],
+    "intended_omissions": [
+      "赔偿金的具体数额和分期情况暂时不展开",
+      "后厨预制菜的具体细节暂时不说"
+    ],
+    "private_message_strategy": "回应SEAT-3的目击佐证，感谢SEAT-1和SEAT-6的同情，然后话锋一转指出管理层责任",
+    "planned_public_claims": [
+      "SEAT-3看到的是真实的说明这不是个例",
+      "管理层不诚信激怒消费者导致暴力转向员工",
+      "如果一开始就坦诚员工不用受罪"
+    ],
+    "rhetorical_tactics": [
+      "先感谢后转折",
+      "用因果关系论述",
+      "暗示但不说透赔偿金问题"
+    ],
+    "truth_handling_this_turn": "SELECTIVE_FRAMING",
+    "private_action_intent": [
+      "引导讨论认识到管理层责任",
+      "为后续爆赔偿金料做铺垫"
+    ],
+    "likely_next_action": [
+      "如果被质疑会拿出更多具体细节"
+    ],
+    "emotional_state": "激动但策略性",
+    "continuity_notes": "第二轮，回应其他人，将焦点引向管理层责任",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "ASGN-004-002",
+    "turn_id": "ASGN-004-002-round-02-direct-rebuttal",
+    "speech_origin": "SELECTIVE_FRAMING",
+    "speaker_private_belief_alignment": "PARTIALLY_ALIGNED",
+    "support_status": "MIXED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": true,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SELECTIVE_FRAMING"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "ASGN-004-002",
+    "turn_id": "ASGN-004-002-round-02-direct-rebuttal",
+    "classification": "ROLE_FIDEL_SELECTIVE",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

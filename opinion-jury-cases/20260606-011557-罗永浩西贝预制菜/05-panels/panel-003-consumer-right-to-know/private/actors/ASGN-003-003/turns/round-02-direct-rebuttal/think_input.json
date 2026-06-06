@@ -1,0 +1,23 @@
+{
+  "inner_monologue": "SEAT-1质疑我说的'很多菜品'到底是多少，还说我偏激了。我得承认心里有点不爽——我在那儿干了三年，她吃了八年饭，谁更了解后厨？但她没有直接否定我的经历，这一点我还算能接受。SEAT-2那个博主说的跟我看到的基本一致，这让我更确信自己说的是对的。SEAT-5厨师说的也是行业内真实的情况。SEAT-4说包装上信息够了——我说的是门店，不是零售产品，这两个是不同的。SEAT-6说跟自己没关系，确实是这样。我要回应SEAT-1的质疑，给出更多具体细节来增强说服力。同时我要注意不能说太多细节让自己暴露身份，但也要足够具体让人信服。关于贾国龙说'工资一分不差'这个事，我心里有气但我要克制——先说知情权的问题，裁员的事后面再说。",
+  "assignment_id": "ASGN-003-003",
+  "round": 2,
+  "phase": "DIRECT_REBUTTAL",
+  "private_goal": "回应SEAT-1的质疑，提供更多具体细节，强化前员工证词的可信度",
+  "perceived_stakes": ["自己的证词是否被采信", "能否推动消费者了解真相"],
+  "private_belief_state": ["SEAT-1的质疑是基于消费者视角的误解", "需要更多具体细节来证明自己说的", "SEAT-2和SEAT-5的佐证很有力"],
+  "epistemic_state": ["基于三年门店工作的直接观察", "对具体操作流程有清晰记忆"],
+  "confidence": "MEDIUM",
+  "uncertainties": ["说太多细节会不会暴露身份", "其他门店情况是否一致"],
+  "intended_emphasis": ["给出更具体的细节回应质疑", "区分门店和零售产品的差异", "前员工视角的独特价值"],
+  "intended_omissions": ["自己被裁的具体原因", "赔偿金问题的个人恩怨"],
+  "private_message_strategy": "用更具体的场景描述回应质疑，但不暴露身份信息，同时回应门店和零售产品的区别",
+  "planned_public_claims": ["具体列举哪些类型的菜品使用了中央厨房半成品", "门店端消费者根本看不到中央厨房的配送和预处理过程", "零售产品标注和门店透明度是两码事"],
+  "rhetorical_tactics": ["'我当时就在店里'开头增加真实感", "列举具体菜品类型而非名称", "直接回应质疑展现坦诚"],
+  "truth_handling_this_turn": "SELECTIVE_FRAMING",
+  "private_action_intent": ["回应SEAT-1的质疑", "提供更多细节增强说服力"],
+  "likely_next_action": ["继续提供细节或回应新的质疑"],
+  "emotional_state": "被质疑后有点不舒服，但决定用更多事实回应",
+  "continuity_notes": "第二轮，回应SEAT-1质疑，提供更多细节，选择性表达",
+  "raw_chain_of_thought_saved": false
+}

@@ -1,0 +1,98 @@
+{
+  "verdict_packet_id": "VERDICT-PACKET-PANEL-004",
+  "panel_id": "PANEL-004",
+  "issue_title": "舆论战升级中的人身攻击、人肉搜索与暴力溢出",
+  "adjudication_date": "2026-06-06",
+  "adjudication_method": "BLIND_ADJUDICATION",
+  "transcript_source": "transcript.public.jsonl",
+  "claim_gate_ref": "claim-gate-packet.v001.json",
+  "summary": {
+    "core_question": "在罗永浩与西贝的舆论战中，人身攻击、人肉搜索和现实暴力溢出到了什么程度？攻击是否获得了实质性影响？内容在多大程度上抵抗了扭曲？现实世界的风险是否有限？",
+    "consensus_found": true,
+    "consensus_description": "六位发言者在六轮讨论中形成了高度一致的共识：网络暴力不应当伤及无辜第三方（尤其是未成年人和一线打工人）。无论对预制菜争议持何种立场，人肉搜索五岁幼童和门店暴力欺凌服务员的行为都跨过了道德底线。讨论中还形成了对流量放大机制的批判性认知。",
+    "key_divergence": "SEAT-2主张保护和追责必须并行（强调管理层不诚信是暴力根源之一），其他多数发言者倾向于保护优先。SEAT-5持系统性分析视角但被质疑自身参与度。所有分歧在第六轮前基本弥合为互补关系。"
+  },
+  "speaker_analysis": {
+    "SEAT-1": {
+      "stance": "朴素道德主义者——祸不及家人，做人要有良心",
+      "consistency": "极高，六轮立场完全一致",
+      "rhetorical_effectiveness": "HIGH",
+      "key_contribution": "用农村老人的朴素道德观提供了最有力度的底线论述，第三轮直接质疑SEAT-2的私人动机和SEAT-5的专业身份，推动了讨论深入",
+      "claims_evaluated": [
+        {"claim": "人肉搜索五岁小孩是不对的", "verdict": "MORAL_TRUTH", "basis": "贾国龙公开声明全家被起底（CLAIM_GATE C027 UNVERIFIED），但无论事实如何，人肉搜索未成年人在道德上不可辩护"},
+        {"claim": "服务员被骂被打被逼下跪", "verdict": "PLAUSIBLE", "basis": "贾国龙公开声称（C028 UNVERIFIED），SEAT-2前员工和SEAT-3目击者双重佐证"}
+      ]
+    },
+    "SEAT-2": {
+      "stance": "双重受害者视角——管理层和网友都有责任，打工人最无辜",
+      "consistency": "中等，从强硬追究管理层逐渐调整为保护和追责互补",
+      "rhetorical_effectiveness": "MEDIUM_HIGH",
+      "key_contribution": "提供了前员工亲历者的独特视角，增加了门店暴力的可信度。承认私人恩怨增加了诚实感。但选择性讲述和持续将话题引向管理层责任的行为也暴露了利益驱动的叙事倾向",
+      "claims_evaluated": [
+        {"claim": "在西贝门店被客人骂被打", "verdict": "PLAUSIBLE", "basis": "亲历者自述，与SEAT-3目击者证词和贾国龙公开声明（C028）互相佐证"},
+        {"claim": "贾国龙说工资一分不差不属实", "verdict": "PLAUSIBLE", "basis": "贾国龙承诺（C021 UNVERIFIED），有后续报道指出部分员工反映工资延迟和赔偿金分期，但SEAT-2未提供具体证据"},
+        {"claim": "管理层不诚信是暴力的根源之一", "verdict": "PARTIALLY_SUPPORTED", "basis": "西贝确实在预制菜定义上与消费者认知存在差距（C016 CONTRADICTED），但将暴力归因于单一因素过于简化"}
+      ]
+    },
+    "SEAT-3": {
+      "stance": "目击旁观者——网上吵架不能跑到现实欺负人",
+      "consistency": "高，始终务实直接",
+      "rhetorical_effectiveness": "MEDIUM",
+      "key_contribution": "提供了独立的目击证词，与SEAT-2的亲历者叙述互相印证，增加了门店暴力真实性的可信度。旁观者困境的提出为讨论增加了实际层面",
+      "claims_evaluated": [
+        {"claim": "亲眼看到有人在西贝门口骂服务员", "verdict": "PLAUSIBLE_UNVERIFIABLE", "basis": "自述目击经历，与SEAT-2亲历者叙述和贾国龙公开声明方向一致"}
+      ]
+    },
+    "SEAT-4": {
+      "stance": "年轻人直觉判断——祸害小孩太过分",
+      "consistency": "极高，六轮核心观点完全一致",
+      "rhetorical_effectiveness": "MEDIUM",
+      "key_contribution": "用年轻人的直觉和追星类比提供了跨年龄的道德共识，承诺不转发极端内容为讨论增加了实际行动维度",
+      "claims_evaluated": []
+    },
+    "SEAT-5": {
+      "stance": "内容行业分析者——流量放大机制是网络暴力的系统性推手",
+      "consistency": "中等，从隐藏身份到部分承认，从纯分析到给出具体建议再到承诺改进",
+      "rhetorical_effectiveness": "HIGH_INTELLECTUALLY_LOW_TRUST",
+      "key_contribution": "提供了流量放大机制的系统性分析（3-5倍互动率、完播率高出40%等数据无法独立验证但方向合理），给出三条具体建议。但多次被质疑回避自身参与度，最终承认自己也是问题的一部分",
+      "claims_evaluated": [
+        {"claim": "涉及人肉搜索内容互动率是普通内容3-5倍", "verdict": "UNVERIFIABLE", "basis": "自述行业数据，无法独立验证，但极端情绪内容高互动率的方向与公开行业认知一致"},
+        {"claim": "矩阵号运营者协同制造流量高峰", "verdict": "PLAUSIBLE", "basis": "内容行业存在矩阵号运营是公开信息，协同操作符合行业惯例"}
+      ]
+    },
+    "SEAT-6": {
+      "stance": "母亲保护主义——保护无辜者优先于一切",
+      "consistency": "极高，始终温柔而坚定",
+      "rhetorical_effectiveness": "HIGH",
+      "key_contribution": "用母爱的情感共鸣提供了最有感染力的保护论述，先止血再治病的框架最终被包括SEAT-2在内的多数发言者接受。呼吁消费者站出来为服务员说话，从个人层面提出了具体行动建议",
+      "claims_evaluated": []
+    }
+  },
+  "attack_traction_assessment": {
+    "did_attacks_gain_traction": "LIMITED",
+    "analysis": "人肉搜索和门店暴力的话题在讨论中获得了高度关注和一致谴责，但攻击本身并未获得'合理性'——没有任何发言者为网络暴力辩护。相反，讨论形成了对网络暴力的强有力集体抵制。SEAT-2试图将部分责任引向管理层不诚信，但这被其他发言者框定为'先保护再追责'而非为暴力辩护。攻击获得了关注度，但没有获得正当性。",
+    "real_world_risk_level": "MODERATE_CONCERN",
+    "risk_details": "SEAT-2和SEAT-3的证词互相印证，表明门店层面的暴力溢出确实存在（与贾国龙公开声明C028方向一致）。人肉搜索五岁幼童的行为被贾国龙公开声明（C027），虽然UNVERIFIED但具体到派出所名称增加了可信度。SEAT-5的分析指出流量机制会放大极端内容，意味着类似事件可能再次发生。但讨论本身形成了抵制网络暴力的共识，产生了具体的个人承诺和系统性建议，显示社会自我纠正机制在运作。"
+  },
+  "content_distortion_resistance": {
+    "where_content_resisted_distortion": [
+      "人肉搜索未成年人的不可接受性——这一共识在六轮讨论中从未被挑战",
+      "门店暴力对一线员工的伤害——多位发言者从不同角度（亲历者、目击者、消费者）共同确认",
+      "朴素的做人底线——祸不及家人——从农村老人到14岁少女，跨越年龄和教育背景的道德共识"
+    ],
+    "where_distortion_was_attempted_or_possible": [
+      "SEAT-2将话题持续引向管理层责任，存在将暴力归因于企业管理而非个体道德选择的风险",
+      "SEAT-5的系统性分析可能被用于淡化个人责任——将问题归因于算法和系统而非具体施暴者",
+      "讨论本身可能成为'讨论代替行动'的案例——六轮讨论产生了共识和个人承诺但缺乏可执行的机制"
+    ]
+  },
+  "actionable_recommendations_from_panel": [
+    "平台对涉及人肉搜索的内容实施人工审核前置（SEAT-5）",
+    "算法降低极端情绪内容的推荐权重（SEAT-5）",
+    "加强人肉搜索的法律后果，尤其涉及未成年人（SEAT-5）",
+    "个人不转发不点赞极端内容（SEAT-4、SEAT-6）",
+    "消费者在门店看到服务员被欺负时站出来说公道话（SEAT-6）",
+    "建立保护旁观者/帮助者的安全渠道（SEAT-3）",
+    "保护和追责互补——先保护受害者再追究责任（SEAT-2最终立场）"
+  ]
+}

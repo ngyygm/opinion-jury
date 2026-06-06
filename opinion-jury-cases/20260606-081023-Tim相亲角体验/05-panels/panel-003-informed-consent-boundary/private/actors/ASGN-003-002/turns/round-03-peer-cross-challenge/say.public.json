@@ -1,0 +1,20 @@
+{
+  "turn_id": "ASGN-003-002-round-03-peer-cross-challenge",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-2",
+  "round": 3,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "我想挑战一个说法——传播量级不可预估。Tim不是什么新手博主，他是连续七年百大UP主，全网粉丝超过2800万。他做的每一个视频都会有几百万人看，这是确定性，不是可能性。而且有件事大家可能忽略了：Tim的相亲简历不是随便写的，是编导按简历风格准备的。这意味着什么？意味着隐瞒身份不是无心之失，而是团队的策划决策。一个有制片、编导、完整制作流程的专业团队，你跟我说他们没想过这段素材会怎么传播？Tim把争议归因于营销号切片，但切片传播对头部创作者来说是完全可以预见的风险。你自己就是被切片过无数次的博主，你不知道切片会放大传播？你知道你的内容会被切片，你知道切片后传播量会更大，你还说传播量不可预估？团队精心设计了选择性真实的简历，做了场地申请，告知了拍摄——这些都是在确保拍摄顺利进行的层面做的，没有一条是在保障被拍摄者知情权的层面做的。知情同意，在他们看来可能只是拍摄流程的一部分，不是被拍摄者的权利。",
+  "target_turn_refs": [
+    "ASGN-003-004-round-02-direct-rebuttal",
+    "ASGN-003-005-round-02-direct-rebuttal"
+  ],
+  "public_question_refs": [
+    "panel-003-public-question"
+  ],
+  "public_evidence_refs": [
+    "C008",
+    "C011"
+  ],
+  "public_action_signals": []
+}

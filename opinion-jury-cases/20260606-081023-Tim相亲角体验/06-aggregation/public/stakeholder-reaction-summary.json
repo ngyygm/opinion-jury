@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "case_id": "20260606-081023-Tim相亲角体验",
+    "generated_at": "2026-06-06T09:45:00+08:00",
+    "visibility": "PUBLIC",
+    "panels_analyzed": 4,
+    "total_participants": 24,
+    "total_speech_turns": 144,
+    "note": "This is a public-facing summary derived from the private full-replay-analysis. Role identities and private deliberation details are not disclosed."
+  },
+
+  "summary": {
+    "case_description": "In November 2025, 影视飓风 (Media Storm) founder Tim visited a Hangzhou matchmaking corner with a selectively truthful resume as part of a 1400万-follower Q&A video (~50 seconds of content). Marketing accounts clipped the segment out of context, sparking controversy about 'rich people pretending to be poor to mock ordinary people.'",
+    "panels_conducted": [
+      "Is this creative content or class consumption?",
+      "Does selective truth constitute deception?",
+      "Does 'notifying filming' equal 'notifying you'll be entertained'?",
+      "Should creators be responsible for clip distortion?"
+    ]
+  },
+
+  "key_findings": [
+    {
+      "finding_id": "KF-001",
+      "finding": "Tim's use of selective information at the matchmaking corner objectively constituted class-based consumption",
+      "consensus_strength": "NEAR_UNANIMOUS (all 6 participants in Panel 1 converged by Round 6)",
+      "nuance": "This is a behavioral assessment, not a personal condemnation. Criticizing an action is not the same as condemning a person.",
+      "constructive_direction": "Formal apology acknowledging objective effect + improved production processes"
+    },
+    {
+      "finding_id": "KF-002",
+      "finding": "Selective truth constitutes deception when the audience is uninformed",
+      "consensus_strength": "MAJORITY (5/6 in Panel 2; 4 'deception', 1 'serious misleading')",
+      "nuance": "The three-element test emerged as the consensus standard: (1) intentional information curation + (2) audience forms false cognition + (3) audience responds based on false cognition. When all three are met, the label matters less than the finding.",
+      "constructive_direction": "Information integrity has a floor standard regardless of context (creative, journalistic, or personal)"
+    },
+    {
+      "finding_id": "KF-003",
+      "finding": "'Notifying filming' does NOT equal 'notifying you will be entertainment content'",
+      "consensus_strength": "UNANIMOUS (6/6 in Panel 3)",
+      "nuance": "The discussion produced a three-tier informed consent framework: (1) basic filming notification, (2) identity disclosure when concealed, (3) audience-scale disclosure for large accounts.",
+      "constructive_direction": "Three-tier informed consent as industry standard; platform-standardized consent tools to reduce compliance burden"
+    },
+    {
+      "finding_id": "KF-004",
+      "finding": "Clip distorters bear primary responsibility; creators bear quantifiable prevention obligations; platforms bear governance responsibility",
+      "consensus_strength": "STRONG (5/6 agreement on each component in Panel 4)",
+      "nuance": "Prevention obligations should be (a) quantifiable and verifiable (e.g., embedded context annotations), (b) dynamically assessed based on content ambiguity risk, and (c) proportionate -- not infinite liability.",
+      "constructive_direction": "Four-dimensional responsibility framework: clipper accountability + creator prevention + platform governance + three-layer verification"
+    }
+  ],
+
+  "stakeholder_reaction_spectrum": [
+    {
+      "stance": "STRONG CRITICISM",
+      "reaction": "This is class consumption -- privileged people using ordinary people's dignity as content material. The harm to those filmed is real regardless of intent.",
+      "representative_quote_paraphrased": "When you're on the receiving end, there is no such thing as 'mild' class consumption. Being treated as a prop hurts the same regardless of the creator's motivation.",
+      "emotional_tone": "Anger rooted in lived experience"
+    },
+    {
+      "stance": "MODERATE CRITICISM",
+      "reaction": "The behavior had class-consumption structure and the creator should apologize and improve. But this should drive industry reform, not personal destruction.",
+      "representative_quote_paraphrased": "We don't need to destroy anyone. We need to build systems that prevent this from happening again -- for the creator's sake as much as for the people being filmed.",
+      "emotional_tone": "Analytical concern seeking constructive resolution"
+    },
+    {
+      "stance": "NUANCED",
+      "reaction": "Both the original behavior and the clip amplification are problems. One doesn't excuse the other. We can hold multiple parties accountable simultaneously.",
+      "representative_quote_paraphrased": "Tim provided the gasoline; marketing accounts lit the match. Both are responsible, but the primary damage came from the fire, not the fuel.",
+      "emotional_tone": "Balanced assessment seeking proportional accountability"
+    },
+    {
+      "stance": "SYMPATHETIC",
+      "reaction": "A mistake was made, the creator acknowledged it and promised to improve. That should be enough -- everyone deserves room to correct.",
+      "representative_quote_paraphrased": "In my experience, when someone apologizes and commits to doing better, the right response is to give them the chance to prove it.",
+      "emotional_tone": "Empathetic forgiveness prioritizing social harmony"
+    },
+    {
+      "stance": "DEFENSIVE",
+      "reaction": "The original content was a small part of a larger creative work. The real problem is the marketing accounts that distorted it beyond recognition.",
+      "representative_quote_paraphrased": "I watched the full video -- the matchmaking segment was 50 seconds of a 20-minute Q&A. The problem isn't what Tim did; it's what clip accounts did with it.",
+      "emotional_tone": "Loyal defense emphasizing context and proportion"
+    },
+    {
+      "stance": "INDIFFERENT",
+      "reaction": "This doesn't affect my life. Online controversies are for people with too much free time.",
+      "representative_quote_paraphrased": "I saw it, didn't interest me, scrolled past. Tomorrow I still have to go to work.",
+      "emotional_tone": "Disengaged pragmatism"
+    }
+  ],
+
+  "constructive_outputs": [
+    {
+      "output": "Three-Tier Informed Consent Framework",
+      "description": "Layer 1: Basic filming notification (for all filming). Layer 2: Identity disclosure when concealed (for identity-involving filming). Layer 3: Audience-scale disclosure for large accounts (for high-reach filming).",
+      "origin_panel": "Panel 3",
+      "adoption_readiness": "Can be implemented immediately through platform-standardized consent labels and templates"
+    },
+    {
+      "output": "Embedded Context Annotation Standard",
+      "description": "Burn unstrippable context information (program type, segment nature, audience scale) into video content so that context survives clipping.",
+      "origin_panel": "Panel 4",
+      "adoption_readiness": "Technically simple; extends existing watermark/logo practices"
+    },
+    {
+      "output": "Secondary Propagation Norms",
+      "description": "Three rules for clip/derivative content: (1) source attribution linking to original, (2) proportion labeling indicating clip percentage, (3) title truthfulness review prohibiting fabricated claims not in original.",
+      "origin_panel": "Panel 1 (SEAT-5) and Panel 4",
+      "adoption_readiness": "Requires platform policy change; technically feasible"
+    },
+    {
+      "output": "Dynamic Ambiguity-Risk Assessment",
+      "description": "Creator prevention obligations should be proportional to content's ambiguity risk -- how easily the content can be misinterpreted when removed from context. Higher ambiguity requires stronger embedded context.",
+      "origin_panel": "Panel 4 (SEAT-6)",
+      "adoption_readiness": "Can be operationalized through platform content categorization tools"
+    }
+  ],
+
+  "recommended_actions": [
+    {
+      "for": "Content creators",
+      "actions": [
+        "Implement three-tier informed consent for public-space filming involving ordinary people",
+        "Embed unstrippable context annotations in all content touching social topics",
+        "Conduct basic ambiguity-risk assessment before publishing high-risk content",
+        "When mistakes are made, apologize formally using 'objective effect' language"
+      ]
+    },
+    {
+      "for": "Platforms",
+      "actions": [
+        "Provide standardized informed consent templates and labeling tools",
+        "Enforce source attribution and proportion labeling for clip/derivative content",
+        "Establish title truthfulness review for clip accounts",
+        "Create creator guidance for public-space filming involving ordinary people"
+      ]
+    },
+    {
+      "for": "Audiences",
+      "actions": [
+        "Seek original sources before forming opinions on clipped content",
+        "Distinguish behavioral critique from personal condemnation",
+        "Support constructive reform over punitive reaction"
+      ]
+    }
+  ],
+
+  "boundary_conditions": [
+    "These findings are behavioral assessments, not personal condemnations",
+    "Public discourse should distinguish between criticizing an action and labeling a person",
+    "Correction and improvement should be given genuine space -- behavioral critique and personal growth are not contradictory",
+    "Marketing accounts' clip distortion was a critical amplifier that escalated the incident; this structural problem requires systemic solutions, not just individual accountability"
+  ]
+}

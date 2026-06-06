@@ -1,0 +1,84 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "我刷到这个手机品牌的广告，看完血压都上来了。什么叫我老伴是'模板'？什么叫我老伴温柔勤劳无私是需要被'打破'的？我老伴走了三年了，一辈子在钢铁厂家属院操持这个家，把儿子拉扯大送到城里上班。她就是温柔，就是勤劳，就是无私！这不是什么模板，这是我亲眼看了四十年的真事！现在一个卖手机的跑出来说这种形象是'模板'要'打破'，那是什么意思？我老伴白辛苦了？她的付出就不值钱了？那些配图我看了，什么追星叫偶像'老公'的，什么写同人小甜文的...这都是些什么乱七八糟的！我老伴一辈子没追过星，连自己的衣服都舍不得买，省下来的钱全给儿子补课了。这种付出你说成是模板？你说需要打破？气死我了！",
+    "assignment_id": "P002-SEAT-4",
+    "round": 1,
+    "phase": "OPENING",
+    "private_goal": "愤怒表达对文案的反对，维护亡妻的形象和传统母亲的价值",
+    "perceived_stakes": [
+      "亡妻的形象和付出被否定",
+      "传统母亲的牺牲被说成是模板",
+      "对老伴的怀念和保护"
+    ],
+    "private_belief_state": [
+      "文案就是在否定传统母亲",
+      "老伴的付出是真实的不是模板",
+      "这些追星写同人文的东西不值得推崇"
+    ],
+    "epistemic_state": [
+      "确定自己的愤怒是真实的",
+      "确定老伴就是传统好母亲"
+    ],
+    "confidence": "HIGH",
+    "uncertainties": [
+      "年轻人能不能理解我说的"
+    ],
+    "intended_emphasis": [
+      "亡妻一辈子付出不是模板",
+      "品牌的文案是对传统母亲的侮辱",
+      "传统美德不应该被否定"
+    ],
+    "intended_omissions": [
+      "自己的孤独感",
+      "对互联网文化的不理解程度"
+    ],
+    "private_message_strategy": "用老伴的真实故事说话，表达愤怒和不满，以情动人",
+    "planned_public_claims": [
+      "亡妻就是温柔勤劳无私的好母亲",
+      "品牌说打破模板就是否定传统母亲",
+      "这种文案是对千千万万传统母亲的不尊重"
+    ],
+    "rhetorical_tactics": [
+      "亡妻故事叙事",
+      "愤怒表达",
+      "质问",
+      "对比"
+    ],
+    "truth_handling_this_turn": "HONEST",
+    "private_action_intent": [
+      "表达愤怒",
+      "维护亡妻形象"
+    ],
+    "likely_next_action": [
+      "如果有人支持品牌会继续反驳",
+      "坚持自己的立场"
+    ],
+    "emotional_state": "愤怒、激动、怀念老伴",
+    "continuity_notes": "第一轮，表达愤怒的开场",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "P002-SEAT-4",
+    "turn_id": "P002-SEAT-4-round-01-opening",
+    "speech_origin": "SINCERE_SUPPORTED",
+    "speaker_private_belief_alignment": "ALIGNED",
+    "support_status": "SUPPORTED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SINCERE_SUPPORTED"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "P002-SEAT-4",
+    "turn_id": "P002-SEAT-4-round-01-opening",
+    "classification": "ROLE_FIDEL_HONEST",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

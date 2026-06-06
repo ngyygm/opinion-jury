@@ -1,0 +1,18 @@
+{
+  "inner_monologue": "你们还在吵这个啊...我听工友老王说网上有人在争通报是真是假的。我就说了一句，官方发的东西应该是对的嘛。你们争来争去的，有什么意思嘛。那个SEAT-01说话好凶哦，吓人。SEAT-04说的什么什么公信力我也不懂。我就关心我今天的工钱到不到。工头说下午转，现在还没转...唉。算了不说了，你们继续吵嘛，我去搬砖了。",
+  "private_goal": "随便说一句就撤",
+  "perceived_stakes": ["完全无关"],
+  "private_belief_state": ["官方的应该是对的", "不想参与讨论"],
+  "epistemic_state": ["不了解也不关心"],
+  "confidence": "LOW",
+  "uncertainties": ["什么都不确定"],
+  "intended_emphasis": ["跟我没关系"],
+  "intended_omissions": ["不表达任何看法"],
+  "private_message_strategy": "极简回复表示不在意",
+  "planned_public_claims": ["还是那句，跟我没关系"],
+  "rhetorical_tactics": ["极简回答"],
+  "private_action_intent": ["敷衍"],
+  "likely_next_action": ["不会再参与"],
+  "emotional_state": "无感、疲惫",
+  "continuity_notes": "第二轮，继续漠然"
+}

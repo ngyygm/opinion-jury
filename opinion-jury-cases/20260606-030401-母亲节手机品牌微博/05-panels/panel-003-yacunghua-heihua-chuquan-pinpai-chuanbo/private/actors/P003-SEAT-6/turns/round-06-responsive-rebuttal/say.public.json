@@ -1,0 +1,20 @@
+{
+  "turn_id": "P003-SEAT-6-round-06-responsive-rebuttal",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-6",
+  "round": 6,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "最终总结，用最简洁的方式。\n\n这场讨论的产出是一个可复用的分析工具：\n\n四维风险评估框架——信息编码兼容性、语境适配度、内容价值敏感性、传播场景匹配度。任何一个维度出了问题都可能导致翻车，四个维度同时出问题则必然翻车。\n\n三步风控流程——发布前做受众可读性测试、评估文案与传播场景的匹配度、做内容价值敏感度审查。每步半小时，总共一个半小时。这次翻车用一个半小时就可以避免。\n\n一个原则——别替你的目标用户说话，让他们自己说。品牌的角色是搭建平台和提供工具，不是预判用户应该说什么、怎么说。\n\nSEAT-4说得好：看不懂的广告就是失败的广告。所有的框架、理论、分析，最后都指向这句话。\n\n品牌犯了错，错误可以避免，方向不必放弃，方法必须改进。这就是我的最终判断。完了。",
+  "target_turn_refs": [
+    "P003-SEAT-4-round-06-responsive-rebuttal",
+    "P003-SEAT-2-round-06-responsive-rebuttal",
+    "P003-SEAT-5-round-06-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "亚文化黑话出圈：品牌用'同人小甜文''好大儿'等饭圈术语面向公众的传播合理性"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": [
+    "CLOSING_STATEMENT"
+  ]
+}

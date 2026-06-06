@@ -1,0 +1,48 @@
+{
+  "panel_id": "PANEL-001",
+  "panel_question": "富人伪装底层去相亲角，是创意内容还是阶层消费？",
+  "verdict_type": "BLIND_ADJUDICATION",
+  "adjudication_timestamp": "2026-06-06T09:30:00+08:00",
+  "rounds_completed": 6,
+  "speeches_evaluated": 36,
+
+  "verdict": {
+    "behavioral_classification": "CLASS_CONSUMPTION",
+    "classification_confidence": "HIGH",
+    "classification_consensus": "NEAR_UNANIMOUS",
+    "classification_note": "All six panelists ultimately agreed that Tim's behavior objectively constituted class-based consumption. The classification is behavioral, not personal.",
+
+    "key_findings": [
+      "Tim's use of selective information (domestic middle school education, courier-related father, photographer occupation) while concealing his actual elite status constituted deliberate downward identity construction",
+      "The directional asymmetry between ordinary people upwardly packaging their profiles (insecurity) and Tim downwardly disguising his (manufacturing contrast) is a meaningful ethical distinction",
+      "The informed consent provided to matchmaking participants was inadequate — 'notifying filming' is not equivalent to 'notifying purpose and exposure scope'",
+      "Marketing accounts' decontextualized clip propagation was the key amplifier that escalated the incident from 'inappropriate' to 'public crisis'",
+      "Both Tim's original behavior and marketing accounts' amplification bear responsibility — they should not be treated as either/or"
+    ],
+
+    "remedial_recommendations": [
+      "Tim should issue a more formal and sincere apology acknowledging the objective class-consumption effect of his actions",
+      "Tim should reform his production process to include informed consent for public-space filming involving ordinary people",
+      "Tim should leverage his industry influence to advocate for creator conduct norms"
+    ],
+
+    "institutional_recommendations": [
+      "Establish three-tier informed consent norms for public-space filming: inform, consent, right to withdraw",
+      "Platform-level enforcement: require informed consent labeling, reduce recommendation weight for non-compliant content",
+      "Secondary propagation rules: mandatory source attribution, proportion labeling, title truthfulness review",
+      "Creator responsibility awareness: industry self-regulation using this incident as a case study"
+    ],
+
+    "boundary_conditions": [
+      "This verdict is a behavioral assessment, not a personal condemnation",
+      "Public discourse should distinguish between criticizing an action and labeling a person",
+      "Correction and improvement should be given genuine space — behavioral critique and personal growth are not contradictory"
+    ]
+  },
+
+  "risk_assessment": {
+    "overall_risk_level": "LOW_TO_MODERATE",
+    "distortion_resistance": "HIGH",
+    "explanation": "The verified facts in this case are robust and well-documented. The key factual claims (selective resume information, family background, company revenue, video context) are all independently verified. The main points of contention are normative judgments (intent, severity, appropriate response), which were debated thoroughly. The panel's conclusions are balanced and constructive rather than punitive."
+  }
+}

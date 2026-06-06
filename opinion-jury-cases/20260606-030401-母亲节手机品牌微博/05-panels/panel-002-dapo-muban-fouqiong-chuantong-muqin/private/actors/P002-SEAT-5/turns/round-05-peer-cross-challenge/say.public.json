@@ -1,0 +1,17 @@
+{
+  "turn_id": "P002-SEAT-5-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-5",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "SEAT-2和SEAT-4你们说得让我很难受但也很清醒。SEAT-4你说得对，被当成消费标签和被当成一个人不一样。品牌选追星妈妈这个形象来拍，确实是因为能吸引年轻用户买手机，不是真的关心我追星追了多少年。我承认我被品牌利用了——它看到了我身上能帮它卖手机的那一面，不是完整的我。但我也要说一件事：虽然品牌的动机是卖手机，但我看到配图2那个妈妈拿着灯牌的时候，我的眼泪是真的，我的感动是真的，我被偏见对待了十五年的委屈被触动也是真的。这些感受不属于品牌，它们属于我。品牌可以利用我，但它不能定义我的感受。我的追星故事、我作为一个妈妈同时保有自己爱好的挣扎——这些是我的人生，不是品牌的广告素材。也许最诚实的说法是：品牌用商业的方式碰触了一个真实的情感痛点，但它没有资格代表这个痛点，也没有能力真正解决它。那个痛点需要的是社会的理解，不是手机的广告。",
+  "target_turn_refs": [
+    "P002-SEAT-4-round-04-responsive-rebuttal",
+    "P002-SEAT-2-round-04-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "panel-002-public-question"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

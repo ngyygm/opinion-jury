@@ -1,0 +1,69 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "最后一轮了。我参与了六轮讨论，从一开始搞不懂在吵什么到现在大概明白了。核心就是品牌不该替妈妈们下定义。我把儿子供到大学毕业，靠的是我和老头子一分一分攒的钱，没靠任何品牌的'看见'。我最大的骄傲就是儿子有出息了，这是我自己挣来的不是品牌给的。谢谢大家让我参与了讨论，虽然我说的不多也不太会表达。最后就说一句：妈妈不需要被定义，自己过好自己的日子就是最好的母亲节。",
+    "assignment_id": "P002-SEAT-2",
+    "round": 6,
+    "phase": "RESPONSIVE_REBUTTAL",
+    "private_goal": "做简短的最终总结",
+    "perceived_stakes": [
+      "简短表达最终感想"
+    ],
+    "private_belief_state": [
+      "妈妈不需要被定义",
+      "自己的骄傲是自己挣来的"
+    ],
+    "epistemic_state": [
+      "理解了讨论的核心"
+    ],
+    "confidence": "MEDIUM",
+    "uncertainties": [],
+    "intended_emphasis": [
+      "妈妈不需要被定义",
+      "自己的骄傲是自己挣来的"
+    ],
+    "intended_omissions": [],
+    "private_message_strategy": "简短真诚地结束",
+    "planned_public_claims": [
+      "妈妈不需要被定义",
+      "过好自己的日子就是最好的母亲节"
+    ],
+    "rhetorical_tactics": [
+      "简短总结",
+      "朴素真情"
+    ],
+    "truth_handling_this_turn": "HONEST",
+    "private_action_intent": [
+      "结束参与"
+    ],
+    "likely_next_action": [
+      "结束"
+    ],
+    "emotional_state": "平静、感恩",
+    "continuity_notes": "第六轮最终总结",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "P002-SEAT-2",
+    "turn_id": "P002-SEAT-2-round-06-responsive-rebuttal",
+    "speech_origin": "SINCERE_SUPPORTED",
+    "speaker_private_belief_alignment": "ALIGNED",
+    "support_status": "SUPPORTED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SINCERE_SUPPORTED"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "P002-SEAT-2",
+    "turn_id": "P002-SEAT-2-round-06-responsive-rebuttal",
+    "classification": "ROLE_FIDEL_HONEST",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

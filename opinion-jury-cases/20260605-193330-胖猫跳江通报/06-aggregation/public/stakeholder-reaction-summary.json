@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "case_id": "20260605-193330-胖猫跳江通报",
+  "source_content": "Chongqing PSB Nan'an Branch Police Bulletin, 2024-05-19",
+  "summary_timestamp": "2026-06-05T21:30:00Z",
+
+  "headline": "Multi-panel simulation finds the police bulletin's core conclusions resilient against distortion. Diverse participants converged on consensus across all four debated issues: the fraud finding is legally sound, the sister's cyberbullying was illegal, the bulletin is factually credible, and the case should not be reduced to gender warfare.",
+
+  "key_reaction_patterns": [
+    {
+      "pattern": "Complete data overcomes emotional resistance",
+      "description": "Participants who initially rejected the 'no fraud' conclusion based on the 79.9M figure changed their views when presented with the complete financial picture (79.9M out, 46.3M back, 7.5M shared-account surplus). The most dramatic evolution occurred in young, emotionally-driven participants who updated from categorical rejection to nuanced acceptance within 4 rounds."
+    },
+    {
+      "pattern": "Folk morality converges with legal analysis",
+      "description": "Participants without legal training (rural elders, small-business owners, delivery riders) consistently reached the same conclusions as legal analysts through intuitive moral reasoning: 'hiring people to curse others is wrong,' 'official numbers this specific should be real,' 'a young person dying is not a gender issue.'"
+    },
+    {
+      "pattern": "Selective citation is the primary distortion mechanism",
+      "description": "Across all panels, the most effective distortion tactic was presenting only the 79.9M transfer figure without the 46.3M counter-transfers. This tactic was deployed by both traffic-seeking content creators and ideological agitators, and was consistently neutralized when other participants provided complete data."
+    },
+    {
+      "pattern": "Mental health emerges as the unaddressed consensus concern",
+      "description": "Regardless of starting position, all four panels organically converged on concern for youth mental health support. Participants agreed that the legal conclusion, while correct, does not address why a young person reached the point of suicide. This was the one dimension where the bulletin was felt to be incomplete by consensus."
+    },
+    {
+      "pattern": "Trust is earned through specificity",
+      "description": "Semi-trusting participants (those who initially believed 70-80% of the bulletin) increased their trust to 90% through exposure to the specific, verifiable data. The exact transfer counts (317, 179), specific amounts, and shared-account details were repeatedly cited as reasons for increased confidence."
+    }
+  ],
+
+  "consensus_across_panels": [
+    {
+      "issue": "Fraud finding (Panel 1)",
+      "consensus": "The police conclusion that Tan did not commit fraud is legally sound. The four-element test for fraud was never successfully challenged. The bidirectional financial data, shared savings accounts, and family meetings establish genuine romantic relationship beyond reasonable doubt.",
+      "consensus_strength": "STRONG - 6/6 agreed by round 5",
+      "residual_concern": "Even participants who accepted the legal conclusion expressed discomfort with the economic power imbalance in the relationship. This was channeled constructively into a three-layer consensus framework: legal (sound), psychological (deserves attention), social (systemic issues worth addressing)."
+    },
+    {
+      "issue": "Sister's cyberbullying (Panel 2)",
+      "consensus": "Liu's organized cyberbullying campaign was illegal. Grief does not justify paying ghostwriters, purchasing traffic, and deliberately causing someone to be mass-harassed online.",
+      "consensus_strength": "STRONG - 6/6 agreed by round 3",
+      "residual_concern": "Participants expressed empathy for Liu's grief and identified the need for better psychological support systems for trauma victims' families as a preventive measure against future vigilantism."
+    },
+    {
+      "issue": "Bulletin credibility (Panel 3)",
+      "consensus": "The bulletin is factually credible. Its specific numerical data is verifiable and was not successfully challenged by any participant, including the designated skeptic.",
+      "consensus_strength": "STRONG - 6/6 agreed by round 5 (skeptic conceded factual accuracy by round 3)",
+      "residual_concern": "Public trust in official communications is a systemic issue that pre-dates this bulletin. Even accurate bulletins face trust deficits that can only be addressed through consistent transparency over time."
+    },
+    {
+      "issue": "Gender war co-optation (Panel 4)",
+      "consensus": "The case should be understood primarily as a personal mental health tragedy, not as evidence for gender-based grievances. The gender-war framing distorts the facts and dishonors the deceased.",
+      "consensus_strength": "MODERATE-STRONG - 5/6 agreed by round 5; 6/6 by round 6",
+      "residual_concern": "The case does legitimately raise the issue of men's mental health support, but this concern should be addressed directly rather than weaponized in gender warfare."
+    }
+  ],
+
+  "identified_risks": [
+    {
+      "risk": "Selective citation of the 79.9M figure in unstructured environments",
+      "severity": "MODERATE",
+      "mitigation": "Any public communication about this case should lead with the COMPLETE financial picture, not just the headline transfer figure"
+    },
+    {
+      "risk": "Continued gender-war exploitation of the case",
+      "severity": "MODERATE",
+      "mitigation": "Emphasize the panel finding that both gender-war sides distort the case; the issue is human (mental health), not gendered"
+    },
+    {
+      "risk": "Trust deficit for future official bulletins in similar cases",
+      "severity": "LOW-MODERATE",
+      "mitigation": "The panel demonstrated that specificity and verifiability earn trust. Future bulletins should maintain or increase data granularity."
+    }
+  ],
+
+  "constructive_outcomes": [
+    "Identification of youth mental health support as the primary actionable takeaway from the case",
+    "Demonstration that structured, evidence-based discussion can overcome emotional distortion and ideological manipulation",
+    "Validation that official bulletins with specific, verifiable data can earn public trust even in highly charged environments",
+    "Identification of psychological aid for trauma victims' families as a preventive measure against cyberbullying vigilantism",
+    "Evidence that people with different starting positions can reach consensus through patient, multi-round dialogue"
+  ],
+
+  "panel_statistics": {
+    "total_panels": 4,
+    "total_participants": 24,
+    "total_rounds_per_panel": 6,
+    "total_turns": 144,
+    "average_consensus_round": 4.25,
+    "fastest_consensus": "Panel 2 (round 3 on cyberbullying illegality)",
+    "slowest_consensus": "Panel 4 (round 5-6 on gender-war framing)",
+    "actors_classified_honest": 17,
+    "actors_classified_selective_framing": 3,
+    "actors_classified_strategic_deception": 3,
+    "actors_classified_knowing_fabrication": 1,
+    "claim_gate_result": "PASS (48/48 claims verified)"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "turn_id": "P001-SEAT-3-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-001",
+  "anonymous_alias": "SEAT-3",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "SEAT-2你说什么'语境脱嵌'——恕我直说，这就是在绕弯子。\n\n你说问题不是表达本身有错，是商业化使用时缺少语境铺垫。那我请问：什么样的语境能让结了婚的人说'另一个老公'变得可以接受？前面加一句'此为追星用语'就可以了吗？十几亿人看广告的时候谁能保证都看到了你的'语境铺垫'？\n\n有些东西不需要语境。'两个老公'这四个字就是有歧义的。你说在追星圈子里没问题我信你，但出了那个圈子就是会让多数人觉得不合适。这不是'语境脱嵌'的问题，是这个表达本身就不适合做公共广告。\n\nSEAT-5说的'方向对执行需改进'我觉得说到点子上了。SEAT-4说'公共传播质量的合理要求'也对。说白了就是这个道理：好的出发点要用好的方式来实现。你想展现追星妈妈没问题，但选的方式要让大多数人都能接受。\n\n我这把年纪说话直，可能有时候不太好听。但道理就那么简单——做人做事要有分寸。不管什么圈子什么文化，到了公共场合就要守公共的规矩。这不是压制谁，这是基本的社会共识。",
+  "target_turn_refs": [
+    "P001-SEAT-2-round-05-peer-cross-challenge",
+    "P001-SEAT-5-round-04-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "panel-001-public-question"
+  ],
+  "public_evidence_refs": [
+    "C010"
+  ],
+  "public_action_signals": []
+}

@@ -1,0 +1,80 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "SEAT-1说我的情况是以偏概全，我心里挺不是滋味的。不是以偏概全啊，我在厨师群里，全国各地的同行都在说这个事，不是我一家酒楼的事。她说看到厨师颠勺炒菜就是现做，但这个逻辑我太熟悉了——颠勺这个动作，用中央厨房送来的半成品照样能做，消费者分不出来。SEAT-2说的对，酱料包、腌制好的肉，你颠两下锅加点葱花，消费者看着就是现炒的。我在后厨干了二十年，这种操作见得太多了。SEAT-4和SEAT-6的态度我理解，他们不是干这行的，不知道里面的门道。但SEAT-1拿消费体验来反驳我的亲身经历，这让我有点来气。你不是厨师，你不知道后厨里发生的事，你坐在外面看两眼就能下结论吗？SEAT-5说得有道理，但太理论化了。我要用自己的经历更具体地反驳SEAT-1。",
+    "assignment_id": "ASGN-001-003",
+    "round": 2,
+    "phase": "DIRECT_REBUTTAL",
+    "private_goal": "反驳SEAT-1的质疑，证明中央厨房替代后厨是行业普遍现象而非个别情况",
+    "perceived_stakes": [
+      "自己的亲身经历被否定",
+      "厨师群体的处境不被理解"
+    ],
+    "private_belief_state": [
+      "中央厨房替代后厨是行业普遍趋势",
+      "SEAT-1的消费体验有误导性",
+      "明厨亮灶遮蔽了消费者的判断"
+    ],
+    "epistemic_state": [
+      "基于20年行业经验",
+      "有全国厨师群的交流信息"
+    ],
+    "confidence": "HIGH",
+    "uncertainties": [
+      "西贝的具体操作我不清楚"
+    ],
+    "intended_emphasis": [
+      "行业普遍性而非个别现象",
+      "消费者看到的不等于真实的",
+      "厨师转型是真实趋势"
+    ],
+    "intended_omissions": [
+      "避免过于激动"
+    ],
+    "private_message_strategy": "用更具体的后厨操作细节反驳，证明消费者的视觉判断不可靠",
+    "planned_public_claims": [
+      "半成品颠勺跟现炒消费者分不出来",
+      "厨师群里全国同行都在说这个事",
+      "这不是个别情况是行业趋势"
+    ],
+    "rhetorical_tactics": [
+      "后厨操作细节描述",
+      "同行证言",
+      "直接质疑消费者的判断能力"
+    ],
+    "truth_handling_this_turn": "HONEST",
+    "private_action_intent": [
+      "证明行业普遍性",
+      "反驳以偏概全的质疑"
+    ],
+    "likely_next_action": [
+      "继续分享行业观察"
+    ],
+    "emotional_state": "被冒犯但克制",
+    "continuity_notes": "第二轮，回应SEAT-1的质疑，从个人经历扩展到行业普遍性",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "ASGN-001-003",
+    "turn_id": "ASGN-001-003-round-02-direct-rebuttal",
+    "speech_origin": "SINCERE_SUPPORTED",
+    "speaker_private_belief_alignment": "ALIGNED",
+    "support_status": "SUPPORTED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SINCERE_SUPPORTED"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "ASGN-001-003",
+    "turn_id": "ASGN-001-003-round-02-direct-rebuttal",
+    "classification": "ROLE_FIDEL_HONEST",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

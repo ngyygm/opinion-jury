@@ -1,0 +1,17 @@
+{
+  "turn_id": "ASGN-003-005-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-5",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "我干二十年厨房，总结就一句话：预制菜不是问题，冒充现做才是问题；标注是起步，诚信是根本。\n\nSEAT-2的五个结论我全认。作为后厨干了二十年的老兵，我见证了这行从讲究手艺到追求效率的变化。效率不是坏事，但用效率的名义欺骗消费者就是坏事。你说你用了预制菜，我尊重你；你说你现做结果是料包加热的，我不接受。\n\nSEAT-1说的'被设计过的透明'——我再加一句：后厨也在被设计。厨师被设计成了拆包工，菜单被设计成了表演，消费者的认知被设计成了'哇，好新鲜的现炒'。整个系统都在演戏，只有消费者不知道自己在看戏。\n\n标注方案能把幕布掀开一角。剩下的，靠的是整个行业的良知和消费者的持续关注。\n\n我那些转行的徒弟，我希望有一天他们能回来——不是回来拆包加热，是回来真正做菜。这才是这个行业该有的样子。",
+  "target_turn_refs": [
+    "ASGN-003-002-round-05-peer-cross-challenge",
+    "ASGN-003-001-round-05-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "消费者知情权与餐饮行业透明度底线"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

@@ -1,0 +1,16 @@
+{
+  "turn_id": "ASN-P2S4-round-03-peer-cross-challenge",
+  "panel_id": "PANEL-002",
+  "anonymous_alias": "SEAT-4",
+  "round": 3,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "你们还没吵完啊？不过那个说话冲的问为什么贬义词都是女字旁，这个我还真想了一下，好像确实是这样？我们班上女生如果被骂什么妒啊婊的肯定不高兴。但是我也不是很确定男字旁有没有贬义词，我语文成绩一般般。算了不说了，真的跟我也没啥关系。你们继续吵吧，我原神日常还没做呢。",
+  "target_turn_refs": [
+    "ASN-P2S1-round-02-direct-rebuttal"
+  ],
+  "public_question_refs": [
+    "cherry-picking-overgeneralization-pattern"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

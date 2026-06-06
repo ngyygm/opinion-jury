@@ -1,0 +1,17 @@
+{
+  "turn_id": "ASGN-004-004-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-4",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "你们说的那些框架啊、标注啊、制度啊，我确实听不太懂。但我就想问一个问题：不管你加多少标注、做多少预防，如果有人就是故意要乱剪你的视频，你能拦得住吗？我们工地上做安全防护做得再好，有人就是要违规操作，出了事你怪防护做得不够？还是怪那个违规的人？所以我一直觉得，道理就是那么简单：乱剪视频的人是根源。管好了他们，问题就解决了一大半。拍视频的人做一些预防措施，加标注什么的，我觉得也行，好事嘛。但不能因为这些预防措施可能被绕过，就说拍视频的人要承担更多责任。这不公平。最后一轮了，我还是这句话：谁干坏事谁负责，别把锅往没干坏事的人身上甩。",
+  "target_turn_refs": [
+    "ASGN-004-002-round-05-peer-cross-challenge",
+    "ASGN-004-001-round-05-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "panel-004-public-question"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

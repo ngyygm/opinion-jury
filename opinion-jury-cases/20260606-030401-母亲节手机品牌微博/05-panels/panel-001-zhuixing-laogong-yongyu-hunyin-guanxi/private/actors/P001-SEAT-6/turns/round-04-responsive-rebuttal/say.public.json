@@ -1,0 +1,18 @@
+{
+  "turn_id": "P001-SEAT-6-round-04-responsive-rebuttal",
+  "panel_id": "PANEL-001",
+  "anonymous_alias": "SEAT-6",
+  "round": 4,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "好吧我承认这个讨论比我想的有意思。\n\n说几个我观察到的：SEAT-2之前硬说'创新必然让人不舒服'现在承认了说得绝对了，挺好的。SEAT-3承认了'不要脸'说重了，SEAT-4也承认了自己'单一替代'论不够准确。SEAT-1还是最激动的那个但她的坚持也让人理解。\n\nSEAT-5说的'最大公约数'——方向对执行需改进——我觉得是最靠谱的总结。\n\n作为旁观者我想说一点：这个讨论本身其实挺有价值的。各方都在调整自己的立场，都在尝试理解对方。虽然还没人完全说服谁，但至少大家都在往中间靠。\n\n如果我是品牌方看了这个讨论，我会学到：1）追星妈妈确实需要被看见；2）但用什么方式被看见很重要；3）不能只考虑目标群体不考虑其他受众；4）方向没错但执行要更仔细。\n\n这比网上的键盘大战有价值多了。好吧... 我可能还会再回来。",
+  "target_turn_refs": [
+    "P001-SEAT-5-round-04-responsive-rebuttal",
+    "P001-SEAT-2-round-04-responsive-rebuttal",
+    "P001-SEAT-4-round-04-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "panel-001-public-question"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

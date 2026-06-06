@@ -1,0 +1,22 @@
+{
+  "turn_id": "P004-SEAT-02-round-04-responsive-rebuttal",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-02",
+  "round": 4,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "我想说说我这几轮讨论的变化。\n\n第一轮的时候我说我很迷茫，不知道该信谁。现在第四轮了，我可以说了：我有了自己的判断。\n\nSEAT-06，你说你现在是在替死者说话。可是你第一轮说你朋友认识胖猫（被SEAT-01否认了），你第一轮只提79万不提46万（被SEAT-04拆解了），你说46万是死后退的（SEAT-04证明了大部分是生前转的），你说通报不可信（但你给不出具体哪里不对）。现在你承认对46万的引用有偏差了，但马上又换了个说法说你在替死者说话。\n\n你每次被拆穿就换一个角度。这不是替死者说话，这是在找借口。\n\nSEAT-04，谢谢你。你让我看到了什么是用事实说话。你每次都用通报里的具体数据来论证，不像SEAT-06那样只凭感觉和朋友说。我现在知道了：看一个人说的话可不可信，要看他引用的证据能不能被验证。\n\nSEAT-05，你说的话我越来越听不进去了。SEAT-01说得对，你三轮都在绕弯子。现在你承认通报合理了但又在说更深的问题。也许你说的有道理，但你能不能用简单的话说？\n\nSEAT-01，你像我一个大哥哥。你说的年轻人心理健康的问题让我想了很久。\n\n我觉得，这场讨论教会了我一件事：不要被情绪带走，去看事实。虽然我还是个学生，但我可以做到这一点。",
+  "target_turn_refs": [
+    "P004-SEAT-06-round-03-peer-cross-challenge",
+    "P004-SEAT-04-round-03-peer-cross-challenge",
+    "P004-SEAT-05-round-03-peer-cross-challenge",
+    "P004-SEAT-01-round-03-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "从个案到性别战争——胖猫事件如何被裹挟进网络性别对立的漩涡"
+  ],
+  "public_evidence_refs": [
+    "警方通报：谭某向胖猫及其亲属转账46.3万余元",
+    "警方通报：调查结论为不构成诈骗犯罪"
+  ],
+  "public_action_signals": []
+}

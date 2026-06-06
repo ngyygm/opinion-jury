@@ -1,0 +1,67 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "看了... SEAT-02终于说了网暴不对，但还在那里吵。SEAT-04说的我大概看懂了，就是说他转移话题。我觉得SEAT-04说得对。花钱骂人就是不对，吵那么多干嘛。胖猫为什么跳江我也不太清楚，但这个跟我没关系。我该说的都说了，再来一轮就说最后一句吧。",
+    "assignment_id": "P002-SEAT-05",
+    "round": 3,
+    "phase": "PEER_CROSS_CHALLENGE",
+    "private_goal": "简短表态，不再深入",
+    "perceived_stakes": [
+      "真的没关系"
+    ],
+    "private_belief_state": [
+      "SEAT-02说太多",
+      "花钱骂人不对这个结论很简单"
+    ],
+    "epistemic_state": [
+      "大概看了"
+    ],
+    "confidence": "LOW",
+    "uncertainties": [],
+    "intended_emphasis": [
+      "说那么多干嘛",
+      "结论很简单"
+    ],
+    "intended_omissions": [
+      "不参与具体辩论"
+    ],
+    "private_message_strategy": "用最朴素的方式总结",
+    "planned_public_claims": [
+      "SEAT-02说太多了",
+      "结论就是花钱骂人不对"
+    ],
+    "rhetorical_tactics": [
+      "简短总结",
+      "朴素判断"
+    ],
+    "truth_handling_this_turn": "HONEST",
+    "private_action_intent": [],
+    "likely_next_action": [],
+    "emotional_state": "有点烦了",
+    "continuity_notes": "",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "P002-SEAT-05",
+    "turn_id": "P002-SEAT-05-round-03-peer-cross-challenge",
+    "speech_origin": "SINCERE_SUPPORTED",
+    "speaker_private_belief_alignment": "ALIGNED",
+    "support_status": "SUPPORTED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SINCERE_SUPPORTED"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "P002-SEAT-05",
+    "turn_id": "P002-SEAT-05-round-03-peer-cross-challenge",
+    "classification": "ROLE_FIDEL_HONEST",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

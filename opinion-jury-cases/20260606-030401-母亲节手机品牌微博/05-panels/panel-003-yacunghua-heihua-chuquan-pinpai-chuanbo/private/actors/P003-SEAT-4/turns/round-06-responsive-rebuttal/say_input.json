@@ -1,0 +1,7 @@
+{
+  "speech_text": "六轮讨论，我就一句话没变过：看不懂的广告就是失败的广告。\n\nSEAT-2说的对，找五个人看看能不能看懂，半小时的事。我送外卖都知道要把餐送到客户手里，你做广告连话都说不明白？\n\n就这样吧。该送单了。",
+  "target_turn_refs": ["P003-SEAT-2-round-06-responsive-rebuttal"],
+  "public_question_refs": ["亚文化黑话出圈：品牌用'同人小甜文''好大儿'等饭圈术语面向公众的传播合理性"],
+  "public_evidence_refs": [],
+  "public_action_signals": ["CLOSING_STATEMENT"]
+}

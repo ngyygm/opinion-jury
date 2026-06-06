@@ -1,0 +1,12 @@
+{
+  "turn_id": "ASGN-004-004-round-04-responsive-rebuttal",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-4",
+  "round": 4,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "我听了好几轮了，说来说去还是在吵一样的事情。我就再说一遍我自己的想法吧。你们说的那些什么歧义风险、事前预判，我一个干工地的听不太懂。但我知道一个道理：谁干的坏事谁负责。把别人视频乱剪的那个人，是他把意思搞歪了，不是拍视频的人搞歪的。这就跟工地上一样，我砌好了墙，有人来给我砸了，那是砸墙的人的问题。SEAT-2你说拍视频的人应该预判到会被乱剪？那我每天上班是不是也应该预判到路上可能堵车、工地上可能出事故？我预判了我还干不干活了？该干的活还得干，出了问题找出问题的人。拍视频的那个小伙子，后面也说了以后会注意、会加注释。人家认了错了、说了要改了，你还想怎样呢？非要他不拍视频了才行？我觉得吧，网上这些事情，最该管的是那些乱剪视频的人，别总盯着拍视频的人不放。",
+  "target_turn_refs": ["ASGN-004-002-round-04-responsive-rebuttal", "ASGN-004-003-round-04-responsive-rebuttal"],
+  "public_question_refs": ["panel-004-public-question"],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

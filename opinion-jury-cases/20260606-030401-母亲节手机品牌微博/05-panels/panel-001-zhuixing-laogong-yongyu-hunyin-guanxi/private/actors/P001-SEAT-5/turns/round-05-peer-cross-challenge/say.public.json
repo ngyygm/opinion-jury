@@ -1,0 +1,20 @@
+{
+  "turn_id": "P001-SEAT-5-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-001",
+  "anonymous_alias": "SEAT-5",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "SEAT-1，你的追问让我不得不更诚实地面对这个问题。\n\n你说得对，'更好地看见'这个表述确实有模糊之处。如果'更好地'意味着用非追星的语言来呈现追星妈妈的生活，那确实是在用我的标准来定义'好'。这一点我承认。\n\n但我也想坦诚地说：SEAT-2提出的'语境脱嵌'论帮我理清了很多。问题可能确实不在于表达本身，而在于商业化的使用方式。'两个老公'在追星圈子里完全正常，但被品牌原封不动搬到面向全国的广告里时，缺少了让非追星人理解的语境。这不是追星语言有'瑕疵'，是传播方式需要更精心。\n\nSEAT-4说的'亚文化与主流文化的结构性张力'我觉得很准确。这不是任何一个主体的错——不是追星妈妈的错，不是品牌的错，也不是批评者的错。这是一个文化碰撞的必然产物。\n\n我最终的立场是：追星妈妈的自我表达权应该被尊重，品牌展现多元妈妈形象的方向值得肯定，但公共传播的有效性也需要被考虑。这三个需求不是互斥的，而是需要找到平衡点。SEAT-2说的'提供足够语境'可能就是那个平衡点的方向。\n\n这个问题比我最初想的复杂得多。感谢大家的讨论让我看到了更多面。",
+  "target_turn_refs": [
+    "P001-SEAT-1-round-05-peer-cross-challenge",
+    "P001-SEAT-2-round-05-peer-cross-challenge",
+    "P001-SEAT-4-round-05-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "panel-001-public-question"
+  ],
+  "public_evidence_refs": [
+    "C007"
+  ],
+  "public_action_signals": []
+}

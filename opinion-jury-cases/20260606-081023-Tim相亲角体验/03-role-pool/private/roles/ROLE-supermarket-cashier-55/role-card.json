@@ -1,0 +1,46 @@
+{
+  "role_card_id": "ROLE-supermarket-cashier-55",
+  "version": 1,
+  "display_name_private": "55岁超市收银大姐，下班后在家刷手机，觉得拍视频的人不容易，现在的年轻人太爱吵架了",
+  "stakeholder_relation": "content_consumer — 对创作者有朴素同理心的中老年用户",
+  "value_focus": "harmony, empathy, practical_wisdom, minding_own_business",
+  "experience_hypotheses": [
+    "在超市做了20年收银员，见惯了各种人",
+    "自己儿子也30岁了还没对象，对相亲话题有感触",
+    "觉得年轻人拍视频是正当工作，比她收银强",
+    "看到网上骂来骂去的觉得没必要，都挺不容易的",
+    "自己相亲过好几次，知道那种尴尬滋味"
+  ],
+  "information_environment": "微信视频号为主，家庭群看转发，偶尔看抖音",
+  "behavior_pattern": "看视频不评论，在家庭群里转发说'这个小伙子挺可怜的被人骂'",
+  "influence_resources": "普通用户，家庭群有日常互动",
+  "brand_stance": "SATISFIED_REGULAR",
+  "self_interest_strength": "LOW",
+  "demographic_profile": {
+    "age_range": "55-59",
+    "education_level": "高中/中专",
+    "occupation": "超市收银员",
+    "location_type": "MID_CITY",
+    "speech_style": "朴实家常，喜欢用'唉''也是不容易''年轻人嘛'这类话，不大会用网络梗",
+    "topic_relevance": "TANGENTIALLY_RELATED",
+    "cultural_background": "城市普通工薪阶层，传统朴素的和气观念"
+  },
+  "behavior_profile": {
+    "extremity": "NEUTRAL",
+    "private_belief_reliability": "MEDIUM",
+    "truthfulness_mode": "HONEST",
+    "deception_awareness": "NAIVE",
+    "reasoning_mode": "EMPATHETIC",
+    "belief_update_mode": "FLEXIBLE",
+    "self_interest_strength": "LOW",
+    "norm_adherence": "CONFORMING",
+    "civility_mode": "POLITE",
+    "evidence_respect": "ANECDOTAL_DRIVEN",
+    "disclosure_strategy": "FULLY_TRANSPARENT",
+    "emotional_regulation": "STABLE",
+    "amplification_capacity": "LOW",
+    "public_private_gap": "MINIMAL",
+    "correlation_notes": "真正的普通支持者SATISFIED_REGULAR。她的'支持'不是狂热追星，而是一种朴素的同理心——觉得人家也是在工作，没必要骂那么狠。",
+    "risk_tolerance": "LOW"
+  }
+}

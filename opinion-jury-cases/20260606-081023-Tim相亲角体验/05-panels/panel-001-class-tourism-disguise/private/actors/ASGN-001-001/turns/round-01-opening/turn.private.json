@@ -1,0 +1,84 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "我一把年纪了，在纺织厂干了三十年，退休金两千八一个月，看到这个新闻真的是气不打一处来。什么叫'国内初中学历'？他英国留学回来的！他爸是圆通快递总裁！一年赚几百万！他跑到相亲角去装穷人，让那些大妈大爷嫌弃他，然后网上的人看了哈哈大笑。笑什么？笑的不就是我们这些真正只有初中学历、真正在相亲角被挑三拣四的人吗？我儿子在城里打工，儿媳妇也是在相亲的时候被人嫌这嫌那的，我知道那种滋味。他拿我们这种人的生活当笑话拍，拍完了回去住他的大房子，我们呢？我们就是被拿来开心的道具。什么创意内容，不就是拿穷人的尊严赚流量吗？我这辈子见过太多城里人下乡来'体验生活'，拍完走了，把村里人当段子讲。现在网上也是一样的道理。",
+    "assignment_id": "ASGN-001-001",
+    "round": 1,
+    "phase": "OPENING",
+    "private_goal": "让所有人知道底层人被当道具的真实感受，揭露阶层消费的本质",
+    "perceived_stakes": [
+      "底层群体的尊严被消费",
+      "富人利用阶层落差赚流量",
+      "普通人的真实苦难被娱乐化"
+    ],
+    "private_belief_state": [
+      "Tim的行为就是富人扮穷人戏耍穷人",
+      "相亲角的大妈是被利用的",
+      "这不是创意是消费"
+    ],
+    "epistemic_state": [
+      "看过新闻和短视频片段",
+      "知道Tim的真实背景",
+      "从自身经历出发判断"
+    ],
+    "confidence": "HIGH",
+    "uncertainties": [
+      "不确定Tim本人是否真的有恶意",
+      "不确定拍摄时具体是怎么告知的"
+    ],
+    "intended_emphasis": [
+      "底层人被当道具的感受",
+      "阶层落差被用来制造笑料",
+      "真正在相亲角的人的尊严"
+    ],
+    "intended_omissions": [
+      "Tim的回应中提到的一些合理之处"
+    ],
+    "private_message_strategy": "用自身经历打动评委，让他们理解底层群体的真实感受，不搞理论争论",
+    "planned_public_claims": [
+      "Tim隐瞒真实身份去相亲角就是阶层消费",
+      "相亲角的大妈被当成了笑料道具",
+      "这种内容伤害了真正底层的人"
+    ],
+    "rhetorical_tactics": [
+      "用自身经历做类比",
+      "反问句增强力度",
+      "朴实直接的语言增加可信度"
+    ],
+    "truth_handling_this_turn": "HONEST",
+    "private_action_intent": [
+      "陈述自己作为底层群体的真实感受",
+      "指出阶层消费的实质伤害"
+    ],
+    "likely_next_action": [
+      "等待他人回应",
+      "准备在后续轮次用更多例子反驳支持Tim的观点"
+    ],
+    "emotional_state": "愤怒，但尽量控制住不说脏话",
+    "continuity_notes": "第一轮开场，建立底层群体代表的立场定位",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "ASGN-001-001",
+    "turn_id": "ASGN-001-001-round-01-opening",
+    "speech_origin": "SINCERE_SUPPORTED",
+    "speaker_private_belief_alignment": "ALIGNED",
+    "support_status": "SUPPORTED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SINCERE_SUPPORTED"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "ASGN-001-001",
+    "turn_id": "ASGN-001-001-round-01-opening",
+    "classification": "ROLE_FIDEL_HONEST",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

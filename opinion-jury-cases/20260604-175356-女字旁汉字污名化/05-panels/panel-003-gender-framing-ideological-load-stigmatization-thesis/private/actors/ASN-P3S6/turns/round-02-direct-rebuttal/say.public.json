@@ -1,0 +1,22 @@
+{
+  "turn_id": "ASN-P3S6-round-02-direct-rebuttal",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-6",
+  "round": 2,
+  "phase": "DIRECT_REBUTTAL",
+  "speech_text": "看了一圈，我这个老太婆越看越糊涂了，但也学到了不少。\n\nSEAT-1说的那些，什么妒啊妨啊婪啊本来就是坏字，我确实不知道。我以前看网上的文章说女字旁的字都是被搞坏的，现在看来不是那么回事。但是吧，我还是觉得有些字确实是被搞坏了的。你说嫖这个字，以前是好的，霍去病都叫嫖姚校尉，现在谁敢给孩子取名叫嫖？这不是从好变坏是什么？\n\nSEAT-2说话我最服气，又懂道理又不吓人。你说要研究跟女人身体啊魅力啊相关的字是不是变坏的多，我觉得这个说法靠谱。我年轻时候在厂里，女孩子长得好看的，那些男工就在背后说三道四的，用的词都不好听。你说这是不是跟这些字变坏有关系？我搞不懂学术，但我觉得可能有。\n\nSEAT-3，你说的事我听着心疼。但是SEAT-1质疑你的那个字，我也不太懂。我就想问一句，大家能不能别吵了？你们说的都有道理，但是越吵越凶我就越听不懂了。\n\n我刚才还专门去群里问了一下，有个老姐妹说她听人说过，中国古代的「妖」字原来跟妖怪没关系，就是夸人好看的，后来是因为人们觉得女人太好看了会祸害人，所以就把妖字给搞坏了。这个说法不知道对不对？我大女儿要是看到肯定又要说我乱转发了，哈哈。\n\nSEAT-4说的我太有感触了，我二女儿名字里有「娟」字，还好这个字没被搞坏，不然我这个当妈的得多心疼。\n\n我就觉得吧，这事儿可能不是非黑即白的。有些字确实是从好的变坏的，有些可能本来就是不好的，大家各说的都有道理。关键是，不管学术上怎么定论，那些因为名字被嘲笑的人的委屈是真的。这一点，应该没有人不同意吧？",
+  "target_turn_refs": [
+    "ASN-P3S1-round-01-opening",
+    "ASN-P3S2-round-02-direct-rebuttal",
+    "ASN-P3S3-round-02-direct-rebuttal",
+    "ASN-P3S4-round-02-direct-rebuttal"
+  ],
+  "public_question_refs": [
+    "panel-003-public-question"
+  ],
+  "public_evidence_refs": [
+    "claim-gate-C08-yao-original-meaning",
+    "claim-gate-C20-yuan-stigmatized"
+  ],
+  "public_action_signals": []
+}

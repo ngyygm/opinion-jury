@@ -1,0 +1,20 @@
+{
+  "turn_id": "ASGN-004-004-round-04-responsive-rebuttal",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-4",
+  "round": 4,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "emmm我觉得你们大人把这个事情说得太复杂了。SEAT-1奶奶总结得就很好嘛，核心就一句话——不能伤害无辜的人。这有什么好争的？SEAT-2你退了一步我觉得挺好的，先保护再追责嘛，这个顺序没毛病。SEAT-3你说的那个旁观者的问题我觉得挺有道理的，我想到了一个类比——就是学校里如果有人被欺负，旁边看到的同学也不敢帮，因为怕自己也被打。老师总说要团结要勇敢，但如果你帮了之后自己也被针对了呢？所以SEAT-3你说的需要一个安全的渠道来帮助别人，这个我觉得是对的。SEAT-5呢，我还是觉得你说得太多了但实际的东西太少了。你说系统系统系统，那你说说看，具体要怎么改这个系统呢？你作为内容行业的人应该最清楚了吧？如果你真的想解决问题，就别光分析，给点具体建议呗。总之就是——不伤害无辜的人，给想帮忙的人一个安全的方式，这个道理连我们班同学都懂，你们大人吵了四轮还没吵明白吗？无语。",
+  "target_turn_refs": [
+    "ASGN-004-001-round-03-peer-cross-challenge",
+    "ASGN-004-003-round-03-peer-cross-challenge",
+    "ASGN-004-005-round-03-peer-cross-challenge"
+  ],
+  "public_question_refs": [
+    "舆论战升级中的人身攻击、人肉搜索与暴力溢出"
+  ],
+  "public_evidence_refs": [],
+  "public_action_signals": [
+    "催促SEAT-5给出具体建议"
+  ]
+}

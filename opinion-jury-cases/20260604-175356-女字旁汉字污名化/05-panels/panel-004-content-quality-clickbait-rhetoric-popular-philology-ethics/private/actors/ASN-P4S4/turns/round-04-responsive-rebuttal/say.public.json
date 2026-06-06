@@ -1,0 +1,15 @@
+{
+  "turn_id": "ASN-P4S4-round-04-responsive-rebuttal",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-4",
+  "round": 4,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "SEAT-3说的不能无中生有这个底线我觉得挺对的，不过分吧？SEAT-1说什么行业通病，这不就是甩锅吗？你自己做不到怪行业？反正这个话题真的很无聊，你们继续，我看看就行。",
+  "target_turn_refs": [
+    "ASN-P4S3-round-04-responsive-rebuttal",
+    "ASN-P4S1-round-04-responsive-rebuttal"
+  ],
+  "public_question_refs": [],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

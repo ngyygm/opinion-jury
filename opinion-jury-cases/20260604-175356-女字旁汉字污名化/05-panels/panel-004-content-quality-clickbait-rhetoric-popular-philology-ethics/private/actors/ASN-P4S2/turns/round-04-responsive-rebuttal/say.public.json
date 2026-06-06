@@ -1,0 +1,14 @@
+{
+  "turn_id": "ASN-P4S2-round-04-responsive-rebuttal",
+  "panel_id": "PANEL-004",
+  "anonymous_alias": "SEAT-2",
+  "round": 4,
+  "phase": "RESPONSIVE_REBUTTAL",
+  "speech_text": "SEAT-1说什么行业通病，听着就像在甩锅。不过这让我想起我们工地上的事：假安全帽年年有，不闹出事没人管，闹出事了就来一波检查，检查完该怎样还怎样。网上的内容不也是这样？不出大事没人管。反正跟我没关系，你们继续聊。",
+  "target_turn_refs": [
+    "ASN-P4S1-round-04-responsive-rebuttal"
+  ],
+  "public_question_refs": [],
+  "public_evidence_refs": [],
+  "public_action_signals": []
+}

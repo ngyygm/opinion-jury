@@ -1,0 +1,17 @@
+{
+  "scope_id": "ASGN-001-001-round-03-peer-cross-challenge",
+  "files": [
+    {
+      "source": "01-parse/source-content.md",
+      "view_file": "001-source-content.md",
+      "sha256": "3fb3d50967a2c0663bd1f426bf1fcfe4827b4a001829f19dae515a8f515e2cbc",
+      "size": 8176
+    },
+    {
+      "source": "05-panels/panel-001-yuzhicai-definition-conflict/transcript.public.jsonl",
+      "view_file": "002-transcript.public.jsonl",
+      "sha256": "84382387a3bd7388cf70ebe37c918f9ede58e27145168aeb97d44dec0cdb62d9",
+      "size": 70540
+    }
+  ]
+}

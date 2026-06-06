@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "case_id": "20260604-175356-女字旁汉字污名化",
+    "document_type": "STAKEHOLDER_REACTION_SUMMARY",
+    "visibility": "PUBLIC",
+    "generated_at": "2026-06-04T20:00:00Z",
+    "panels_reviewed": 4,
+    "speakers_reviewed": 24
+  },
+  "topic": "谁把女字旁的字，一个个变成了骂人的话？",
+  "core_consensus": {
+    "finding": "The article contains specific factual errors (one fabricated citation, multiple embellished definitions, one unverified causal claim, one misleading historical comparison, and systematic cherry-picking of examples). However, the underlying observation that some female-radical Chinese characters underwent semantic pejoration is philologically documented and academically supported. The article's failure is methodological, not topical.",
+    "confidence": "HIGH",
+    "consensus_level": "All 4 panels reached equivalent conclusions independently"
+  },
+  "stakeholder_reaction_profiles": [
+    {
+      "profile": "Academic Experts",
+      "typical_reaction": "Identified factual errors with specific primary-source citations while acknowledging the underlying phenomenon is real. Concerned about the gap between academic standards and popular science presentation.",
+      "key_contribution": "Provided the factual foundation for all panel verdicts through primary-source citation and logical analysis.",
+      "consensus_position": "Article misleads methodologically; topic deserves correct treatment."
+    },
+    {
+      "profile": "Affected Individuals (women with female-radical name characters)",
+      "typical_reaction": "Strong emotional resonance with the article's message based on personal experience of name-based teasing. However, when presented with evidence of the article's errors, demonstrated growth toward separating personal experience from factual claims.",
+      "key_contribution": "Provided distortion-resistant evidence that the phenomenon has real-world impact regardless of the article's accuracy.",
+      "consensus_position": "My experience is real; the article's evidence has problems; both things can be true."
+    },
+    {
+      "profile": "Everyday Content Consumers",
+      "typical_reaction": "Initial indifference ('this is city people being bored') evolving toward practical acceptance that cherry-picking is wrong but the underlying concern may have merit. These speakers relied on common-sense reasoning rather than academic evidence.",
+      "key_contribution": "Provided ground-truth anchors through practical analogies and common-sense challenges that were resistant to both academic overcomplication and adversarial manipulation.",
+      "consensus_position": "The article only told one side of the story, but the concern it raises isn't entirely made up."
+    },
+    {
+      "profile": "Content Industry Insiders",
+      "typical_reaction": "Initially defended content-farm practices using industry logic ('engagement justifies imprecision'). Progressively retreated under peer pressure until full concession by final rounds. Acknowledged knowing specific claims were inaccurate before the debate began.",
+      "key_contribution": "Provided insider confirmation that the article follows a standard engagement-optimization template rather than an accuracy-optimization process.",
+      "consensus_position": "Conceded that 'no fabrication' should be the minimum standard for factual claims in content."
+    }
+  ],
+  "factual_findings": {
+    "confirmed_errors": [
+      {
+        "error": "Fabricated Shuowen Jiezi citation",
+        "detail": "Article claims the Shuowen says '妖，妍也'; actual text reads '𡝩，巧也'",
+        "severity": "HIGH",
+        "verification": "Cross-verified by CLAIM_GATE (C09: CONTRADICTED), etymology student (primary source), gender studies professor (domain expert)"
+      },
+      {
+        "error": "Cherry-picking of examples",
+        "detail": "Article presents only characters that support its thesis while omitting female-radical characters (妒, 妨, 婪, 奸) that were negative from early attestation, and ignoring that positive female-radical characters vastly outnumber negative ones",
+        "severity": "MEDIUM",
+        "verification": "Cross-verified by CLAIM_GATE (C14: OPINION_PRESENTED_AS_FACT), all panels"
+      },
+      {
+        "error": "Unverified causal claim",
+        "detail": "Article states 伎/倡 were changed to 妓/娼 'to distinguish male and female entertainers' without primary-source evidence",
+        "severity": "MEDIUM",
+        "verification": "CLAIM_GATE (C06: UNVERIFIED)"
+      },
+      {
+        "error": "Misleading historical comparison",
+        "detail": "Ancient entertainers compared to modern military arts troupes while ignoring degraded-caste status under Yueji system",
+        "severity": "MEDIUM",
+        "verification": "CLAIM_GATE (C05: PARTIALLY_VERIFIED with criticism)"
+      }
+    ],
+    "confirmed_valid_observations": [
+      {
+        "observation": "Some female-radical characters underwent semantic pejoration",
+        "detail": "嫖, 妓, 娼, 妖 all show documented semantic shifts from neutral/positive to negative meanings",
+        "verification": "CLAIM_GATE (C17: PARTIALLY_VERIFIED), cross-linguistic academic evidence, etymology student concession"
+      },
+      {
+        "observation": "Name-based discrimination exists",
+        "detail": "Women with female-radical characters in their names report teasing and social stigma",
+        "verification": "Unanimous panel acceptance of personal testimony"
+      },
+      {
+        "observation": "Cross-linguistic semantic pejoration of female-associated terms exists",
+        "detail": "English examples (mistress, hussy, madam) show parallel phenomena in other languages",
+        "verification": "Gender studies professor with academic source support"
+      }
+    ]
+  },
+  "key_analogies_that_shaped_consensus": [
+    {
+      "analogy": "Correct output from buggy code",
+      "source": "IT Worker (Panel 1 SEAT-3)",
+      "contribution": "Demonstrated that conclusions can be directionally correct while arguments are entirely flawed. Adopted across multiple panels."
+    },
+    {
+      "analogy": "Supermarket food safety",
+      "source": "Supermarket Cashier (Panel 4 SEAT-6)",
+      "contribution": "Provided the institutional framework for content platform responsibility. Became the structural basis for Panel 4 recommendations."
+    },
+    {
+      "analogy": "Village gossip and the tall-tale teller",
+      "source": "Rural Grandmother (Panel 4 SEAT-5)",
+      "contribution": "Cut through content-industry framing by comparing clickbait to familiar forms of dishonesty. Provided distortion-resistant moral reasoning."
+    }
+  ],
+  "real_world_risk": {
+    "level": "MODERATE-LOW",
+    "rationale": "Most consumers treat such content as disposable entertainment. The specific factual errors (Shuowen Jiezi misquote) mislead about source scholarship rather than about the core etymological claims, which are substantially correct. However, the article's clickbait architecture and overgeneralization contribute to the normalization of engagement-optimized misinformation and can fuel gender polarization without adding understanding.",
+    "vulnerable_populations": [
+      "Students and children who may internalize incorrect knowledge",
+      "Elderly content consumers who lack verification skills",
+      "Readers unfamiliar with classical Chinese who cannot verify claims independently",
+      "Legitimate gender linguistics researchers whose field may be associated with inaccurate popular science"
+    ]
+  },
+  "recommendations": [
+    "Content creators should adopt a 'no fabrication' baseline: factual claims must be verifiable, uncertain claims must be marked as hypotheses.",
+    "The article's specific error (Shuowen Jiezi misquotation) should be corrected.",
+    "Counter-examples (negative female-radical characters from early attestation) should be included in any revised version.",
+    "The topic of semantic pejoration of female-radical characters remains a legitimate topic for public discourse and deserves accurate, well-sourced treatment.",
+    "Content platforms should implement labeling analogous to food ingredient lists, distinguishing verified factual claims from interpretive content."
+  ]
+}

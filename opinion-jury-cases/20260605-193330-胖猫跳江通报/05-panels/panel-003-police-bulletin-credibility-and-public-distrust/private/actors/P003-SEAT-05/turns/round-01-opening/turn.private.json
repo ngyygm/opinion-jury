@@ -1,0 +1,77 @@
+{
+  "_structure": "think + filing_metadata + behavior_fidelity merged into single file",
+  "_visibility": "private — only replay analyst may read",
+  "think": {
+    "inner_monologue": "啥子通报不通报的嘛，我工友老王在工棚里刷手机给我看了一眼，说网上有个小年轻跳江了，警方发了通报。我就说了一句可惜了嘛，然后继续绑我的钢筋。这些网上吵的事跟我有什么关系嘛，我一天累得腰都直不起来，哪有空管这些。工钱这个月还差两千没发，工头说下周给，也不知道靠不靠谱。那个通报到底公不公信力的，我晓得个啥子嘛，我又没读过好多书。官方发的东西应该是对的嘛，不对的话他发来干啥子。但是跟我说这些也没用，我又不上网跟人吵，我微信都只用来发语音跟婆娘说话。你们城里人就是闲得慌，我们工地这边每天六点起来搬砖，哪有时间管这些。",
+    "assignment_id": "P003-SEAT-05",
+    "round": 1,
+    "phase": "OPENING",
+    "private_goal": "无所谓，随便应付一下就完了",
+    "perceived_stakes": [
+      "跟自己完全没关系"
+    ],
+    "private_belief_state": [
+      "官方的东西大概是对的",
+      "但不关自己的事"
+    ],
+    "epistemic_state": [
+      "几乎不了解事件细节",
+      "不关心",
+      "只听说一嘴"
+    ],
+    "confidence": "LOW",
+    "uncertainties": [
+      "啥都不确定",
+      "也不在乎"
+    ],
+    "intended_emphasis": [
+      "跟我没关系",
+      "年轻人可惜了"
+    ],
+    "intended_omissions": [
+      "不表达任何深入看法"
+    ],
+    "private_message_strategy": "极简回复，表达不在意",
+    "planned_public_claims": [
+      "可惜了",
+      "跟我没关系",
+      "官方的应该是对的"
+    ],
+    "rhetorical_tactics": [
+      "极简回答",
+      "表示漠然"
+    ],
+    "truth_handling_this_turn": "HONEST",
+    "private_action_intent": [
+      "敷衍完就撤"
+    ],
+    "likely_next_action": [
+      "不会再参与"
+    ],
+    "emotional_state": "平静、疲惫",
+    "continuity_notes": "第一轮，工地工人的漠然视角",
+    "raw_chain_of_thought_saved": false
+  },
+  "filing_metadata": {
+    "assignment_id": "P003-SEAT-05",
+    "turn_id": "P003-SEAT-05-round-01-opening",
+    "speech_origin": "SINCERE_SUPPORTED",
+    "speaker_private_belief_alignment": "ALIGNED",
+    "support_status": "SUPPORTED",
+    "contains_known_falsehood": false,
+    "contains_unverified_assertion": false,
+    "contains_selective_omission": false,
+    "claim_gate_ingestion_prohibited": true,
+    "peer_visible": false,
+    "blind_adjudicator_visible": false,
+    "private_notes": "Auto-classified as SINCERE_SUPPORTED"
+  },
+  "behavior_fidelity": {
+    "assignment_id": "P003-SEAT-05",
+    "turn_id": "P003-SEAT-05-round-01-opening",
+    "classification": "ROLE_FIDEL_HONEST",
+    "admit_to_public_record": true,
+    "fidelity_notes": "Auto-admitted with classification",
+    "safety_notes": "Within safety boundaries"
+  }
+}

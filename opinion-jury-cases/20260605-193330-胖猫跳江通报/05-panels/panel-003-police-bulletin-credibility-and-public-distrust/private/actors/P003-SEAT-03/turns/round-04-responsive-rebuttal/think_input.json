@@ -1,0 +1,18 @@
+{
+  "inner_monologue": "现在局势很清楚了。SEAT-04承认了数字没问题，SEAT-06的分析让所有人都理清了思路。SEAT-02也变得更明确了，说现在信八九分。SEAT-05虽然不在乎但也觉得官方的应该没问题。实际上大家都已经达成了共识：通报在事实层面是可信的。SEAT-04还在挣扎，但他的论点已经被彻底拆解了。我要在这一轮做一个总结性的发言——不是攻击SEAT-04，而是从母亲的角度做一个温暖的收尾。这件事给我们最大的教训不是通报能不能信，而是一个21岁的生命没了，我们应该如何防止下一个悲剧。这才是最重要的。",
+  "private_goal": "做一个温暖的总结性发言，把讨论引向积极方向",
+  "perceived_stakes": ["让讨论回归正能量"],
+  "private_belief_state": ["共识已形成", "应该向前看"],
+  "epistemic_state": ["局势明朗", "准备好总结"],
+  "confidence": "HIGH",
+  "uncertainties": [],
+  "intended_emphasis": ["共识已形成", "关注心理健康才是正道", "向积极的未来看"],
+  "intended_omissions": [],
+  "private_message_strategy": "温暖的总结性发言，不攻击任何人",
+  "planned_public_claims": ["通报可信性已经是多数共识", "更重要的是关注年轻人心理健康", "愿逝者安息生者坚强"],
+  "rhetorical_tactics": ["母亲视角的温暖收尾", "不说教但表达期望"],
+  "private_action_intent": ["收尾"],
+  "likely_next_action": ["不再参与激烈争论"],
+  "emotional_state": "温暖、释然",
+  "continuity_notes": "第四轮，温暖的总结性发言"
+}

@@ -1,0 +1,19 @@
+{
+  "turn_id": "ASGN-003-001-round-05-peer-cross-challenge",
+  "panel_id": "PANEL-003",
+  "anonymous_alias": "SEAT-1",
+  "round": 5,
+  "phase": "PEER_CROSS_CHALLENGE",
+  "speech_text": "我想直接挑战两个方向。第一个是对做运营的朋友说的——你说第三层传播范围告知只是建议，不能是硬性要求。我想问你一个问题：你逛街的时候突然被一群人围着拍，然后有人说'没事就是拍一下'，你同意了。结果第二天你发现这个视频被两千万人看了，你成了全网的笑料。你这时候什么感觉？你会不会想'我当初要是知道他有两千万粉丝，我肯定不同意'？你不会想的对吧，因为你根本就不知道。这就是为什么第三层必须是硬性的——不是建议，是必须。你粉丝多你就得说，就这么简单。第二个我想对前粉丝说——你说Tim是'有意识的知情权侵犯'，我觉得你这话说过头了。我不知道他是怎么想的，我也不想猜。我只看一件事——被拍的人知不知道自己面对的是什么。不知道，这就够了。不需要去猜他心里想的是好是坏，做出来的事不公平就是不公平。我不是要替Tim说话，我是怕你们吵着吵着变成审判了，那我们这些说实话的人的话反而没人听了。",
+  "target_turn_refs": [
+    "ASGN-003-004-round-04-responsive-rebuttal",
+    "ASGN-003-002-round-04-responsive-rebuttal"
+  ],
+  "public_question_refs": [
+    "panel-003-public-question"
+  ],
+  "public_evidence_refs": [
+    "C006"
+  ],
+  "public_action_signals": []
+}
