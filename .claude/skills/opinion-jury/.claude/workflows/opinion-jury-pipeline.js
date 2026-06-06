@@ -191,7 +191,7 @@ Check files IN ORDER and return the FIRST INCOMPLETE stage number as "resume_fro
 - Stage 6: ANY panel under 05-panels/ is missing assignment-commit.json → return resume_from: 6
 - Stage 7: ANY panel under 05-panels/ is missing verdict/verdict.json → return resume_from: 7
 - Stage 8: 06-aggregation/private/full-replay-analysis.json is missing → return resume_from: 8
-- Stage 9: 07-report/final-report.json is missing OR 最终报告.md is missing → return resume_from: 9
+- Stage 9: 07-report/final-report.json is missing OR 最终报告-商务.md is missing → return resume_from: 9
 - All stages complete → return resume_from: 10
 
 Also read and return these for context restoration:
@@ -1361,10 +1361,11 @@ Write ONLY ${caseDir}/07-report/final-report.md. No other files.`,
   { label: 'concat-report', phase: 'Report' },
 )
 
-// Step 2: AI agent reads raw data deeply → writes executive summary + structured JSON
+// Step 2: AI agent reads raw data deeply → writes executive summary (商务+锐评) + structured JSON
 
-await agent(
-  `Write the executive summary and structured JSON verdict for this case.
+const summaryResults = await parallel([
+  () => agent(
+    `Write the executive summary (商务版) and structured JSON verdict for this case.
 
 CASE DIR: ${caseDir}
 
@@ -1378,7 +1379,7 @@ Also read these raw data files for the executive summary:
 
 Write TWO files:
 
-## File 1: ${caseDir}/最终报告.md (at CASE ROOT — the user-facing deliverable)
+## File 1: ${caseDir}/最终报告-商务.md (at CASE ROOT — the user-facing deliverable)
 
 This is the EXECUTIVE SUMMARY — NOT a full concatenation. Structure it as follows.
 
@@ -1544,8 +1545,78 @@ Structured JSON with ALL of the following fields:
 - section_refs: array of { section_id, title, filename }
 
 IMPORTANT: Read the actual section files and raw data — do not fabricate content. Write BOTH files.`,
-  { label: 'executive-summary', phase: 'Report' },
-)
+    { label: 'executive-summary-regular', phase: 'Report' },
+  ),
+  () => agent(
+    `You are the 锐评版报告 writer. 你写的不是报告，是手术刀。你的任务是把所有虚伪的皮扒掉，露出最丑陋的真相。
+
+CASE DIR: ${caseDir}
+
+Read these source files:
+- ALL 7 section files:
+${sections.map(s => `- ${caseDir}/${s.filename}`).join('\n')}
+- ${caseDir}/06-aggregation/private/full-replay-analysis.json
+- ${caseDir}/06-aggregation/public/stakeholder-reaction-summary.json
+- **DEEP DIVE into think.private.json**: Read at least 10 think.private.json files from ${caseDir}/05-panels/*/private/actors/*/turns/*/think.private.json. Focus on the MOST revealing ones: find actors whose private_goal contradicts their public speech, whose inner_monologue reveals calculation rather than conviction, whose intended_omissions expose strategic dishonesty.
+- **DEEP DIVE into filing-metadata.private.json**: Find turns where speech_origin is SELECTIVE_FRAMING, EXAGGERATION, or RUMOR_RELAY — these are the "装" moments.
+- **DEEP DIVE into INDIFFERENT actors**: Read think.private.json from actors with topic_relevance INDIFFERENT or OFF_TOPIC, or brand_stance INDIFFERENT. Their private thoughts are the silent majority's real verdict.
+
+Write ONE file: ${caseDir}/最终报告-锐评.md
+
+## 锐评铁律（必须严格遵守）
+
+1. **不许客气** — 有问题就狠狠说。不用"可能""也许""一定程度上""值得关注"。不好就是不好，虚伪就是虚伪，装就是装。
+2. **一针见血** — 每句话都必须有杀伤力。没有铺垫，没有过渡语，没有"值得注意的是"。直接捅到最痛的地方。
+3. **挖内心小九九** — 这是锐评版的核心价值。从 think.private.json 里挖出每个人最阴暗的内心想法，展示给读者看。他们到底图什么？嘴上说的和心里想的差距有多大？小算盘打得有多精？用他们自己的内心独白来证明。
+4. **短而致命** — 全文不超过 1200 字。每句话都是锐评。删掉一切不痛不痒的话。
+5. **先捅刀子再解释** — 结论永远在最前面。不是分析过程→结论，而是结论→为什么。
+6. **大白话** — 用菜市场能听懂的话。不用"维度""结构性""范式""话语权""叙事框架"这类学术黑话。
+7. **短句** — 每句话不超过 30 个字。超了就拆。
+8. **也不全是骂** — 如果内容确实有做得好的地方，也直接说"这个做得好"。锐评不是只会骂，是敢说真话。内容经得起考验就夸，经不起就骂。
+
+## 锐评结构
+
+# 🔪 舆论锐评：[case topic from source-content.md]
+
+### ⚡ 一句话判定
+用最狠的一句话给这个内容定性。不超过30个字。
+
+### 🔍 作者心里在打什么算盘
+不分析"表面意图"——直接挖到最底层。作者到底图什么？从模拟数据中找到最能暴露真实目的的证据。引用 think.private.json 中最有杀伤力的 inner_monologue，展示别人怎么看穿他的。
+格式：先下结论（一句话），然后给证据（直接引用原始数据）。
+
+### 💀 最狠的三个发现
+只写三个。每个都要让人倒吸一口凉气。不是"存在风险"——而是具体的、有画面感的、让人不舒服的真相。必须引用原始数据（inner_monologue, private_goal, perceived_stakes）。
+
+格式：
+**发现一：[一句话标题]**
+[2-3句锐评，引用原始数据]
+
+### 🗣️ 沉默的大多数其实这么想
+从 INDIFFERENT 和沉默的参与者那里挖。他们内心怎么想的但没说出来？这些人的真实想法比任何公开评论都可怕——因为他们代表了不会发声但会做判断的大多数。直接引用他们的 inner_monologue。让读者看看"沉默"背后是什么。
+
+### 🔪 谁在装？装什么？
+点名道姓地揭穿。用 display_name_private 的特征描述这个人（不说角色卡编号）。展示他的"表演"：
+- 公开说了什么（引用 say.public.json 的 speech_text）
+- 内心想了什么（引用 think.private.json 的 inner_monologue）
+- 真实目的是什么（引用 private_goal）
+- 刻意隐瞒了什么（引用 intended_omissions）
+挑最典型的 2-3 个人。让人看看"真诚表演"背后的真实算计。
+
+### ✅ 要改就改这几个
+不超过 3 条。每条一句话说清楚改什么。不改的后果说清楚。
+
+---
+## 字数控制：全文不超过 1200 字。
+## EVIDENCE REQUIREMENT (MANDATORY)
+每一个判断都必须引用具体的原始数据。引用 inner_monologue, private_goal, perceived_stakes, intended_omissions。没有数据支撑的锐评不许写。
+
+IMPORTANT: Read the actual files. Do NOT fabricate quotes. Write the file using the Write tool.`,
+    { label: 'executive-summary-sharp', phase: 'Report' },
+  ),
+])
+
+log(`Summary written: ${summaryResults.filter(Boolean).length}/2 versions`)
 
 // ── Audit ────────────────────────────────────────────────────────────────────
 
@@ -1576,8 +1647,9 @@ Check in ${caseDir}:
    - 07-report/07-综合客观评估.md
 2. Each section file must be non-empty (>100 chars)
 3. 07-report/final-report.md must exist and contain all 7 section headers
-4. 最终报告.md must exist at case root and must contain "审他视角" and "自审视角" and "总判定"
-5. 07-report/final-report.json must exist and be valid JSON with these fields:
+4. 最终报告-商务.md must exist at case root and must contain "审他视角" and "自审视角" and "总判定"
+5. 最终报告-锐评.md must exist at case root and must contain "一句话判定" and "内心" and "谁在装"
+6. 07-report/final-report.json must exist and be valid JSON with these fields:
    - decision (must be one of: SAFE_TO_PUBLISH, HUMAN_REVIEW_REQUIRED, DO_NOT_PUBLISH)
    - content_verdict (must be one of: CONTENT_ITSELF_PROBLEMATIC, CONTENT_OK_BUT_EXPLOITABLE, CONTENT_GENERALLY_OK, CONTENT_WELL_DESIGNED)
    - review_other_perspective (must be object with keys: stance_verdict, intent_inference, framing_strategy, information_selection, between_the_lines)
@@ -1588,8 +1660,8 @@ Check in ${caseDir}:
    - silent_majority (must be non-empty string)
    - content_resilience (must be present; accept empty string "" or null for weak content)
    - section_refs (must be array with 7 entries)
-6. audit/case-audit.json must exist and have status "PASS"
-7. If audit status is "FAIL", list the errors.
+7. audit/case-audit.json must exist and have status "PASS"
+8. If audit status is "FAIL", list the errors.
 
 Do NOT create any files.`,
   { label: 'gate-report', phase: 'Gate: Report', schema: GATE_SCHEMA },
