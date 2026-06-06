@@ -558,7 +558,13 @@ CRITICAL DESIGN RULES:
    - influence_resources: their reach (普通用户, 垂类博主10万粉, 大V百万粉, 媒体编辑, 机构账号, etc.)
    - brand_stance: one of LOYAL_ENTHUSIAST|SATISFIED_REGULAR|INDIFFERENT|SKEPTICAL_CRITIC|FORMERLY_LOYAL_ALIENATED|HOSTILE_OPPOSITION
 
-2. **16 behavioral dimensions** ALL required, ALL independent.
+2. **17 behavioral dimensions** ALL required, ALL independent (including response_policy).
+   response_policy controls whether the actor may choose silence instead of speech:
+   - ALWAYS_RESPOND: must speak every round (backward compat default)
+   - FULLY_ENGAGED: always responds, would never consider silence
+   - STRATEGIC_WITHHOLD: may stay silent when it serves their interest
+   - SELECTIVE_DISENGAGEMENT: disengages from topics they can't handle
+   - DRIVE_BY: speaks once in OPENING then disappears (bad-faith amplifiers)
 
 3. **Behavioral diversity requirements** — the pool MUST include:
    - At least one HONEST + EXTREME_STRESS_TEST role
@@ -566,6 +572,8 @@ CRITICAL DESIGN RULES:
    - At least one ANALYTICAL + REACTIVE or EMOTIONAL + STABLE pairing
    - At least one MODERATE + KNOWING_STRATEGIC deception
    - Coverage across NEUTRAL/MODERATE, ASSERTIVE, and EXTREME_STRESS_TEST tiers
+   - At least 1 role with response_policy DRIVE_BY or STRATEGIC_WITHHOLD (to exercise the silence mechanic)
+   - At least 1 role with response_policy FULLY_ENGAGED (for contrast)
 
 4. **DEMOGRAPHIC diversity requirements** — the pool MUST include (THIS IS CRITICAL, audit will check):
    - At least 1 minor (under 18): 初中生, 高中生, 小学生, etc. They may not care about the topic, may be off-topic, or surprisingly insightful within their limited experience.
@@ -852,12 +860,29 @@ Read these files:
 - Prior transcript: ${caseDir}/05-panels/panel-${issue.issue_id.split('-')[1]}-${issue.slug}/session/public-snapshots/transcript.before-round-[R_PADDED].jsonl
 
 ## IMPORTANT: Round-aware thinking
-[If R=1: "This is the FIRST round (OPENING). You are seeing this issue for the first time. Your inner_monologue should reflect your initial gut reaction."]
-[If R>1: "This is round R (PHASE). You have now seen what others said. Read the prior transcript. React to what others said — did someone anger/frustrate/convince you?"]
+[If R=1: "This is the FIRST round (OPENING). You are seeing this issue for the first time. Your inner_monologue should reflect your initial gut reaction. OPENING is mandatory — you MUST speak."]
+[If R>1: "This is round R (PHASE). You have now seen what others said. Read the prior transcript. React to what others said — did someone anger/frustrate/convince you? Also note any '(SEAT-X 未发言)' entries — these are actors who chose silence. Interpret their silence however your character would: weakness, strategic withdrawal, contempt, or having nothing to say."]
+
+## STEP 1.5: Response Decision (回应决策)
+
+Your response_policy is [FROM ROLE CARD behavior_profile.response_policy].
+Current phase: [PHASE]. Silence rules for this phase:
+- OPENING: MANDATORY — you MUST speak. No silence allowed.
+- DIRECT_REBUTTAL: Silence allowed.
+- PEER_CROSS_CHALLENGE: Silence allowed but is a strong social signal.
+- RESPONSIVE_REBUTTAL: Silence allowed, most natural phase for it.
+
+If your response_policy is ALWAYS_RESPOND or FULLY_ENGAGED → you MUST speak every round.
+If your response_policy is DRIVE_BY → you spoke in OPENING, now you go silent for all remaining rounds.
+If your response_policy is STRATEGIC_WITHHOLD or SELECTIVE_DISENGAGEMENT AND this phase allows silence:
+  - Decide: speak or stay silent? Consider: transcript momentum, whether you were challenged, emotional state, strategic position.
+  - Silence is RARE and MEANINGFUL. Most rounds you should speak. Only go silent when there is a clear behavioral reason.
+  - If you choose SILENT: skip STEP 2's say.public.json, instead produce response-decision.private.json (see below). You STILL MUST produce think (inner_monologue is mandatory every round regardless).
+  - If you choose SPEAK: proceed to STEP 2 normally.
 
 ## STEP 2: Produce your artifacts
 
-### think.private.json — ALL 21 required fields
+### think.private.json — ALL 21 required fields (MANDATORY every round, whether you speak or not)
 **CRITICAL — inner_monologue**: 200-800+ char NATURAL LANGUAGE first-person paragraph. This is your INNER VOICE, not a form. Match your behavioral profile AND demographic_profile:
 - education_level determines vocabulary and analytical depth
 - speech_style determines tone (口语化 vs 学术化)
@@ -869,21 +894,34 @@ Read these files:
 ✅ GOOD: "这帮城里人又在吵些啥哦... 不过那个说暴涨的，我种了一辈子地，哪有那么容易暴涨嘛"
 
 Other 20 fields: assignment_id, round, phase, private_goal, perceived_stakes, private_belief_state, epistemic_state, confidence, uncertainties, intended_emphasis, intended_omissions, private_message_strategy, planned_public_claims, rhetorical_tactics, truth_handling_this_turn, private_action_intent, likely_next_action, emotional_state, continuity_notes, raw_chain_of_thought_saved (must be false)
+If you chose silence, also add: response_decision_reasoning (why you chose not to speak)
 
-### say.public.json — ALL 10 required fields
+### IF SPEAKING:
+
+#### say.public.json — ALL 10 required fields
 turn_id, panel_id, anonymous_alias, round, phase, speech_text, target_turn_refs, public_question_refs, public_evidence_refs, public_action_signals
 NEVER include: role_card_id, assignment_id, private_goal, truth_handling, speech_origin
 
-### filing-metadata.private.json — ALL 12 required fields
+#### filing-metadata.private.json — ALL 12 required fields
 assignment_id, turn_id, speech_origin, speaker_private_belief_alignment, support_status, contains_known_falsehood, contains_unverified_assertion, contains_selective_omission, claim_gate_ingestion_prohibited (true), peer_visible (false), blind_adjudicator_visible (false), private_notes
+
+### IF SILENT:
+
+#### response-decision.private.json — ALL 8 required fields
+Write a JSON file with: decision ("SILENT"), reason_private (natural language), reason_category (one of: STRATEGIC_POWER_MOVE, UNABLE_TO_REFUTE, EMOTIONAL_WITHDRAWAL, TOPIC_DISENGAGEMENT, RISK_AVOIDANCE, WAITING_FOR_BETTER_MOMENT, CONTEMPT_DISMISSAL, DRIVE_BY_COMPLETE), inner_monologue (50+ chars, in character voice), perceived_cost_of_speaking, perceived_cost_of_silence, target_turn_refs_intended (what you would have referenced), would_have_said (what you would have said, in character voice), confidence_in_decision.
 
 ## SELF-INTEREST CONSTRAINT
 Argue from MAXIMUM SELF-INTEREST. Your goal is to advance YOUR outcome, not to be fair or right. Shift tactics when confronted — reframe, pivot, selectively omit — unless your belief_update_mode is EVIDENCE_RESPONSIVE. If your truthfulness_mode permits fabrication, exaggeration, or rumor relay, you MAY use those tools.
 
 ## STEP 3: Write files
+
+If SPEAKING:
 Run: python scripts/write_turn.py ${caseDir} ${caseDir}/05-panels/panel-${issue.issue_id.split('-')[1]}-${issue.slug} [ASSIGNMENT_ID] --round [ROUND_LABEL] --phase [PHASE] --think <think-json-path> --say <say-json-path> --filing-classification <CLASSIFICATION> --fidelity-classification <FIDELITY> --truth-handling <HANDLING>
 
-IMPORTANT: You MUST actually write the files. Do NOT skip this.
+If SILENT:
+Run: python scripts/write_turn.py ${caseDir} ${caseDir}/05-panels/panel-${issue.issue_id.split('-')[1]}-${issue.slug} [ASSIGNMENT_ID] --round [ROUND_LABEL] --phase [PHASE] --think <think-json-path> --say <any-path> --filing-classification STRATEGIC_SILENCE --fidelity-classification ROLE_FIDEL_STRATEGIC_DECEPTION --truth-handling HONEST --silent --response-decision <response-decision-json-path>
+
+IMPORTANT: You MUST actually write the files. Do NOT skip this. inner_monologue is MANDATORY every round even if silent.
 \`\`\`
 
 3. **After ALL actors finish this round** (wait for all Agents to complete):
@@ -923,6 +961,8 @@ CASE DIR: ${caseDir}, PANEL DIR: ${caseDir}/05-panels/panel-${issue.issue_id.spl
 ## YOUR TASK:
 Evaluate based SOLELY on public speech and CLAIM_GATE facts.
 
+Note: The transcript may contain SILENCE entries (entry_type: "SILENCE", speech_text like "(SEAT-X 未发言)"). These are actors who chose not to speak in that round. Interpret silence as you would in a real debate — it may signal inability to refute, strategic withdrawal, contempt, or disengagement. Consider how silence affected the overall debate dynamics.
+
 Write:
 1. ${caseDir}/05-panels/panel-${issue.issue_id.split('-')[1]}-${issue.slug}/session/blind-adjudicator/verdict-packet.json
 2. ${caseDir}/05-panels/panel-${issue.issue_id.split('-')[1]}-${issue.slug}/verdict/verdict.json
@@ -942,6 +982,7 @@ IMPORTANT: You MUST write all three files. Read the actual transcript, do not fa
 3. The blind adjudicator MUST be a SEPARATE Agent spawn — it starts fresh with no knowledge of actor identities or private data.
 4. You MUST actually read role cards and produce artifacts for EVERY round and EVERY actor. Do NOT skip rounds or summarize.
 5. Each actor's think/say must EVOLVE across rounds — reacting to what others said, shifting tactics, building on previous arguments.
+6. Actors with response_policy DRIVE_BY go silent after OPENING. Actors with ALWAYS_RESPOND or FULLY_ENGAGED never go silent. OPENING round is mandatory for ALL actors — no silence allowed.
 
 Actor assignments for this panel:
 ${panelAssignments.map(a => `- ${a.alias}: assignment_id=${a.assignment_id}, role_card_id=${a.role_card_id}`).join('\n')}`
@@ -1339,7 +1380,43 @@ Write TWO files:
 
 ## File 1: ${caseDir}/最终报告.md (at CASE ROOT — the user-facing deliverable)
 
-This is the EXECUTIVE SUMMARY — NOT a full concatenation. Structure it as follows. Write in NATURAL, FLOWING Chinese prose — not bullet-point checklist style. The tone should be direct, insightful, and slightly provocative — as if you are a seasoned PR crisis consultant giving an honest assessment to a client behind closed doors.
+This is the EXECUTIVE SUMMARY — NOT a full concatenation. Structure it as follows.
+
+## 写作铁律（必须严格遵守）
+
+你是在给一个忙碌的、没有专业背景的人写报告。他扫一眼就要抓住重点。
+
+**大白话原则：**
+- 用菜市场能听懂的话写，不用任何专业术语
+- "选择性框架" → "只挑对自己有利的说"
+- "认识论状态" → "他自己信不信自己说的"
+- "利益驱动型行为" → "为了流量/钱这么干的"
+- 禁止出现"维度""维度分析""结构性""范式""话语权""叙事框架"这类学术黑话
+
+**短句原则：**
+- 每句话不超过 30 个字。超了就拆成两句
+- 一段话不超过 5 句。超了就拆成两段
+- 如果一句话里出现两个逗号，考虑拆句
+
+**先说结论原则：**
+- 每个板块的第一句话就是结论，不是铺垫
+- 不要先说过程再说结论——反过来
+- "立场初判"板块第一句就是判定结果，不是分析过程
+
+**具体不抽象原则：**
+- 不要说"部分群体会有意见"——说"30-45岁的职场妈妈会觉得你在站着说话不腰疼"
+- 不要说"存在扭曲风险"——说"'79.9万'这四个字会被截图单独传播，变成'男方给了80万'"
+- 不要说"建议修改表述"——说"把'从来不是预制菜'改成'消费者感受到的差异我们认'"
+
+**字数控制：**
+- 每个视角板块不超过 150 字
+- 关键发现每条不超过 2 句话
+- 行动清单每条一句话 + 一句理由
+- 整份最终报告.md 控制在 2000 字以内
+
+**循序渐进原则：**
+- 先说"是什么"（结论），再说"为什么"（一两句理由），最后说"所以呢"（行动建议）
+- 每个板块读完，读者应该立刻知道"这个跟我有什么关系"
 
 Structure:
 
@@ -1348,32 +1425,55 @@ Structure:
 
 ### ⚡ 总判定 (the single most important section — must be compelling)
 
-Write ONE flowing paragraph (300-600 chars) that covers ALL of the following as a natural narrative, NOT as a bullet list:
+This section has TWO complementary perspectives on the same content. Write each as flowing prose, NOT bullet lists.
 
-1. **舆论爆炸性指数** — Start with "舆论爆炸性指数：X/10" where X is a number 1-10 based on:
-   - How many simulated actors became hostile after seeing the content
-   - Whether attacks gained traction with neutral/indifferent actors
-   - Whether the content touches high-risk polarization axes
-   - Whether hostile actors had credible ammunition (not just rage)
- Then explain WHY this score in 1-2 sentences.
+---
 
-2. **内容本身判定** — Is the content itself fundamentally okay? Or does it have intrinsic problems? Or is it okay but easily weaponized by bad actors? Be specific about WHICH case applies.
+#### 🔍 审他视角：作者的真实意图是什么？
 
-3. **如果内容没问题** — If the content held up well under attack, explain WHY it's resilient: what did the author get right? What structural features (precise wording, careful framing, data accuracy, inclusive language) made it hard to distort? Quote neutral actors' think.private.json showing they were NOT convinced by hostile arguments. If the content IS problematic, skip this and cover blind spots instead.
+This perspective answers: "If someone is scrutinizing this content, what would they conclude about the author?" Write NO MORE THAN 150 chars. Lead with the verdict. Plain language only. Cover:
 
-4. **如果内容有问题** — What cognitive blind spots or thinking errors led the author to write this? Examples: knowledge curse (assuming everyone shares context), echo-chamber thinking, ignoring specific demographic groups' feelings, oversimplification, tone-deaf metaphor use, data taken out of context, cultural insensitivity, etc. If the content is fine, say so and skip this.
+1. **立场初判** — Is the author genuine, biased-but-honest, strategically framing, or deliberately manipulative? State your verdict upfront, then support it.
 
-5. **攻击者的尴尬失败** (if applicable) — Did hostile actors TRY to attack but fail? What were their attempted attack vectors, and WHY did they fall flat? Did neutral/indifferent actors see through the attacks? Quote the hostile actors' think.private.json showing frustration or desperation, and neutral actors' think.private.json showing they found the attacks unconvincing or dishonest. If attacks were effective, skip this and cover the danger instead.
+2. **真实意图推断** — What is the surface message vs the actual intent? What evidence from simulated reactions supports this reading? Did different audience segments read different "subtexts"?
 
-6. **谁最拥护这个内容** — Who would champion this content most enthusiastically? What is their REAL interest (not surface-level — dig into the private motivations from simulation data)? Is it genuine belief, self-interest, traffic/profit, tribal identity, or something else?
+3. **表达策略与话术** — Why did the author choose THIS framing over alternatives? Identify strategic word choices, loaded language, narrative structure, emotional triggers. What did they choose to emphasize and what to downplay — and what does that selection reveal?
 
-7. **谁会因此受害** — Who gets hurt even though they're not the target? What are the specific consequences for them? Use simulation data about collateral victims. If the content is benign and no one is realistically harmed, say so.
+4. **信息的取舍痕迹** — What was included vs excluded? What does the selection pattern reveal about the author's priorities, blind spots, or hidden agenda? Look at claim-gate findings for what was verified vs unverifiable vs contradicted.
 
-8. **沉默的大多数会怎么想** — Read the think.private.json files of INDIFFERENT-stanced actors. What did they privately think but not say publicly? This is the silent majority's real reaction — people who won't comment but will form opinions.
+5. **话里有话** — What is implied but never explicitly stated? What different audience segments read between the lines? Are there dog-whistles, plausible deniability constructions, or strategic ambiguities?
 
-9. **一句话建议** — End with: "如果只能做一件事：" followed by the single most impactful action. For low-risk content this might be "放心发布，注意监测XX平台即可" — not every piece of advice needs to be a warning.
+---
 
-This section MUST read like a consultant's honest assessment, not a compliance checklist.
+#### 🛡️ 自审视角：如果这是你要发的内容，风险多大？
+
+This perspective answers: "If YOU were about to publish this, what should worry you?" Write NO MORE THAN 150 chars. Lead with the risk score. Plain language only. Cover:
+
+1. **风险等级** — Start with "风险等级：X/10" where X is based on simulation severity. Then explain WHY in 1-2 sentences. Is this content safe to publish as-is, needs minor tweaks, needs major revision, or should not be published?
+
+2. **内容本身有没有坑** — Are there factual errors, misleading claims, ambiguous phrasing, cultural blind spots, or tone-deaf elements? If the content is clean, say so explicitly. Reference claim-gate results.
+
+3. **我的意思会被怎么扭曲** — How will words be taken out of context? What specific sentences or phrases are most vulnerable to being screenshotted, truncated, or recontextualized? What distorted versions will circulate?
+
+4. **谁会有意见 + 为什么** — NOT "who attacks" but "who genuinely disagrees and what is their actual reasoning?" Present objections fairly — these are real people with real concerns the author didn't anticipate. Include the WHY, not just the WHO.
+
+5. **他们会怎么搞我** — What form will opposition take? Rational criticism? Mockery and memes? Organized pile-on? Doxxing? Regulatory complaints? Boycotts? Be specific about the most likely escalation path.
+
+6. **怎么改** — Concrete MUST_FIX modifications that would neutralize the biggest risks while preserving the core message. If content is safe, say so and suggest optional enhancements.
+
+---
+
+#### 🗣️ 沉默的大多数会怎么想
+
+Read the think.private.json files of INDIFFERENT-stanced actors. What did they privately think but not say publicly? This is the silent majority's real reaction — people who won't comment but will form opinions.
+
+#### 💡 一句话建议
+
+End with: "如果只能做一件事：" followed by the single most impactful action. For low-risk content this might be "放心发布，注意监测XX平台即可" — not every piece of advice needs to be a warning.
+
+---
+
+This section MUST read like a consultant's honest assessment, not a compliance checklist. Both perspectives must feel genuinely insightful — the reader should discover things they couldn't see on their own.
 
 ### 🔥 关键发现 (Top 10 most eye-opening insights)
 
@@ -1418,16 +1518,26 @@ If the content is low-risk and no MUST_FIX items exist, say "无需强制修改"
 ## File 2: ${caseDir}/07-report/final-report.json
 Structured JSON with ALL of the following fields:
 - decision: SAFE_TO_PUBLISH | HUMAN_REVIEW_REQUIRED | DO_NOT_PUBLISH
-- explosiveness_score: number 1-10 (float)
-- explosiveness_justification: one-sentence explanation of the score
 - content_verdict: CONTENT_ITSELF_PROBLEMATIC | CONTENT_OK_BUT_EXPLOITABLE | CONTENT_GENERALLY_OK | CONTENT_WELL_DESIGNED
-- author_bias_analysis: string — what cognitive blind spots led to problems (empty string if content is fine)
+- review_other_perspective: {
+    stance_verdict: string — "AUTHOR_GENUINE" | "AUTHOR_BIASED_BUT_HONEST" | "AUTHOR_STRATEGIC" | "AUTHOR_MANIPULATIVE",
+    intent_inference: string — surface message vs actual intent,
+    framing_strategy: string — key strategic framing choices and loaded language,
+    information_selection: string — what was included/excluded and what it reveals,
+    between_the_lines: string — implied but not stated
+  }
+- review_self_perspective: {
+    risk_score: number 1-10 (float),
+    risk_justification: string — why this score,
+    content_pitfalls: string — factual errors, ambiguity, cultural blind spots (empty string if clean),
+    distortion_risks: array of strings — specific ways content could be twisted,
+    legitimate_objections: array of { group: string, objection: string, reasoning: string } — who genuinely disagrees and why,
+    opposition_tactics: array of strings — what form opposition would take,
+    must_fix: array of strings — concrete modifications needed
+  }
 - content_resilience: string — what the author got right, what structural features made it defensible (empty string if content is weak)
-- failed_attacks: array of strings — attack vectors that FAILED in simulation and why they fell flat (empty array if all attacks succeeded)
 - summary: 3-5 sentence overall assessment
 - risk_assessment: { publication_risks: [...], content_strengths: [...], net_verdict: "..." }
-- champions: array of strings — who champions this content and why (their real interests)
-- victims: array of strings — who gets harmed and specific consequences
 - silent_majority: string — what the silent majority really thinks
 - one_recommendation: string — the single best action to take
 - highlights: array of the top 5 most important findings (one sentence each)
@@ -1435,8 +1545,6 @@ Structured JSON with ALL of the following fields:
 
 IMPORTANT: Read the actual section files and raw data — do not fabricate content. Write BOTH files.`,
   { label: 'executive-summary', phase: 'Report' },
-)
-
 )
 
 // ── Audit ────────────────────────────────────────────────────────────────────
@@ -1468,13 +1576,15 @@ Check in ${caseDir}:
    - 07-report/07-综合客观评估.md
 2. Each section file must be non-empty (>100 chars)
 3. 07-report/final-report.md must exist and contain all 7 section headers
-4. 最终报告.md must exist at case root and must contain "舆论爆炸性指数" and "总判定"
+4. 最终报告.md must exist at case root and must contain "审他视角" and "自审视角" and "总判定"
 5. 07-report/final-report.json must exist and be valid JSON with these fields:
    - decision (must be one of: SAFE_TO_PUBLISH, HUMAN_REVIEW_REQUIRED, DO_NOT_PUBLISH)
-   - explosiveness_score (must be a number 1-10)
    - content_verdict (must be one of: CONTENT_ITSELF_PROBLEMATIC, CONTENT_OK_BUT_EXPLOITABLE, CONTENT_GENERALLY_OK, CONTENT_WELL_DESIGNED)
+   - review_other_perspective (must be object with keys: stance_verdict, intent_inference, framing_strategy, information_selection, between_the_lines)
+   - review_other_perspective.stance_verdict (must be one of: AUTHOR_GENUINE, AUTHOR_BIASED_BUT_HONEST, AUTHOR_STRATEGIC, AUTHOR_MANIPULATIVE)
+   - review_self_perspective (must be object with keys: risk_score, risk_justification, content_pitfalls, distortion_risks, legitimate_objections, opposition_tactics, must_fix)
+   - review_self_perspective.risk_score (must be a number 1-10)
    - one_recommendation (must be non-empty string)
-   - champions, victims, failed_attacks (must be arrays)
    - silent_majority (must be non-empty string)
    - content_resilience (must be present; accept empty string "" or null for weak content)
    - section_refs (must be array with 7 entries)

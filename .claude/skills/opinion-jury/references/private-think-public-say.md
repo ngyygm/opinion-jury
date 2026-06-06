@@ -103,3 +103,36 @@ All fields are validated by `audit_case.py`. Use `scripts/write_turn.py` to writ
 | Behavior fidelity guard | own only | candidate filing only | own only |
 | Final private replay analyst | yes, all actors | yes, all actors | yes, all actors |
 | Public report | no | summarized only | summarized only |
+
+## Silence Mode
+
+When an actor chooses not to speak in a round, the artifact structure changes but does NOT shrink:
+
+### Speaking Turn (unchanged)
+- turn.private.json (think + filing + fidelity) — all 21 think fields mandatory
+- say.public.json — speech with entry_type: "SPEECH"
+
+### Silent Turn
+- turn.private.json (think + filing + fidelity) — **all 21 think fields STILL mandatory**
+  - think gains an optional field: response_decision_reasoning
+  - filing_metadata.speech_origin = "STRATEGIC_SILENCE"
+- response-decision.private.json (NEW) — 8 required fields explaining WHY silent and WHAT they would have said
+- say.public.json — silence marker with entry_type: "SILENCE", speech_text: "(SEAT-X 未发言)"
+
+### Key Principle: Think Every Round
+
+inner_monologue is MANDATORY every round, whether the actor speaks or not. A silent actor still thinks — they just don't speak. The inner_monologue for a silent turn should reflect:
+- Why they're staying silent
+- What they think about what others said
+- What they would have said if they chose to speak
+- Their emotional state about the decision
+
+### Visibility Rules for Silent Turns
+
+| Artifact | Actor Self | Other Actors | Blind Adjudicator | Replay Analyst |
+|---|---|---|---|---|
+| turn.private.json (think) | Yes | No | No | Yes |
+| response-decision.private.json | Yes | No | No | Yes |
+| say.public.json (silence marker) | Yes | Yes (via transcript) | Yes | Yes |
+
+The silence marker in the transcript is public — other actors see "(SEAT-X 未发言)" and may interpret it as they wish. But the REASON for silence (response-decision.private.json) is private — only the replay analyst can see it.

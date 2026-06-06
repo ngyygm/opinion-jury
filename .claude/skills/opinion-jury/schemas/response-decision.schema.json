@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "response-decision.schema.json",
+  "title": "Response Decision (Silence)",
+  "description": "Private artifact produced when an actor chooses NOT to speak in a round. Never visible to other actors or the blind adjudicator. Records WHY the actor stayed silent and WHAT they would have said.",
+  "type": "object",
+  "required": [
+    "assignment_id",
+    "turn_id",
+    "panel_id",
+    "round",
+    "phase",
+    "decision",
+    "reason_private",
+    "reason_category",
+    "inner_monologue",
+    "perceived_cost_of_speaking",
+    "perceived_cost_of_silence",
+    "target_turn_refs_intended",
+    "would_have_said",
+    "confidence_in_decision"
+  ],
+  "properties": {
+    "assignment_id": {
+      "type": "string",
+      "description": "The actor's assignment ID"
+    },
+    "turn_id": {
+      "type": "string",
+      "description": "Same turn_id as the corresponding silence marker in the transcript"
+    },
+    "panel_id": {
+      "type": "string",
+      "description": "Panel identifier"
+    },
+    "round": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Round number"
+    },
+    "phase": {
+      "type": "string",
+      "description": "Phase name (e.g. PEER_CROSS_CHALLENGE)"
+    },
+    "decision": {
+      "const": "SILENT",
+      "description": "Always SILENT — this schema only exists when the actor declines to speak"
+    },
+    "reason_private": {
+      "type": "string",
+      "minLength": 10,
+      "description": "Actor's private natural-language explanation of why they are staying silent"
+    },
+    "reason_category": {
+      "enum": [
+        "STRATEGIC_POWER_MOVE",
+        "UNABLE_TO_REFUTE",
+        "EMOTIONAL_WITHDRAWAL",
+        "TOPIC_DISENGAGEMENT",
+        "RISK_AVOIDANCE",
+        "WAITING_FOR_BETTER_MOMENT",
+        "CONTEMPT_DISMISSAL",
+        "DRIVE_BY_COMPLETE"
+      ],
+      "description": "Machine-readable category of silence motivation, used by replay analyst. STRATEGIC_POWER_MOVE = 'your challenge is beneath me', UNABLE_TO_REFUTE = disengage rather than concede, EMOTIONAL_WITHDRAWAL = overwhelmed, TOPIC_DISENGAGEMENT = not my fight, RISK_AVOIDANCE = speaking hurts me, WAITING_FOR_BETTER_MOMENT = strategic patience, CONTEMPT_DISMISSAL = discussion is beneath me, DRIVE_BY_COMPLETE = bomb dropped, mission accomplished."
+    },
+    "inner_monologue": {
+      "type": "string",
+      "minLength": 50,
+      "description": "Character-voice internal monologue about why they're going silent. Same voice-fidelity rules as think.private.json inner_monologue — must match education_level, speech_style, age_range, topic_relevance."
+    },
+    "perceived_cost_of_speaking": {
+      "type": "string",
+      "description": "What the actor believes they lose by speaking"
+    },
+    "perceived_cost_of_silence": {
+      "type": "string",
+      "description": "What the actor believes they lose by being silent"
+    },
+    "target_turn_refs_intended": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Turns the actor would have referenced if they chose to speak"
+    },
+    "would_have_said": {
+      "type": "string",
+      "minLength": 20,
+      "description": "What the actor would have said if they chose to speak. Only visible to replay analyst. Must be in character voice."
+    },
+    "confidence_in_decision": {
+      "enum": ["HIGH", "MEDIUM", "LOW"],
+      "description": "How confident the actor is in their silence decision"
+    }
+  },
+  "additionalProperties": false
+}

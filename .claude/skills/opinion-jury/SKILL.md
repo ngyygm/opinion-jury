@@ -7,13 +7,21 @@ description: Use when reviewing public-facing content before publication — tit
 
 ## Overview
 
-Simulate how heterogeneous actors may react to, argue about, distort, defend, or amplify public-facing content. Produces a traceable case archive with actionable risk assessment. Do **not** assume every actor is rational, honest, fair, calm, consistent, or persuadable.
+Simulate how heterogeneous actors may react to, argue about, distort, defend, or amplify public-facing content. Produces a traceable case archive with **dual-perspective** risk assessment:
+
+- **🔍 审他视角** — If someone scrutinizes this content, what would they conclude about the author's intent, framing strategy, and hidden bias?
+- **🛡️ 自审视角** — If you were about to publish this, what should worry you? How will your words be twisted, who will object, and how do you fix it?
+
+Both perspectives are generated from the same simulation data, giving the reader a complete picture.
+
+Do **not** assume every actor is rational, honest, fair, calm, consistent, or persuadable.
 
 ## When to Use
 
 - Reviewing content before publication to assess 舆论 risk
+- Reviewing someone else's content to understand their true intent and framing strategy
 - Content touches sensitive topics (gender, ethnicity, law enforcement, policy)
-- Need to identify who might attack, who might be harmed, and how to reduce risk
+- Need to identify risks, legitimate objections, and how content could be distorted
 - Want to understand blind spots the author may not see
 
 ## When NOT to Use
@@ -62,7 +70,7 @@ When the user says "继续" or "resume", invoke the workflow with `args.case_dir
 3. **Defensive simulation, not verified fact.** Simulated actors may fabricate, relay rumors, or argue in bad faith — this exposes real-world risks, not validated claims.
 4. **No stereotyping.** Role attributes are factorized. Extremity ≠ dishonesty; calmness ≠ fairness; emotionality ≠ irrationality.
 5. **Safety boundaries.** Never generate harassment, doxxing, threats, or operational manipulation instructions.
-6. **Actionable output.** Every report identifies attackers, victims, misrepresentation risks, and concrete steps to reduce risk.
+6. **Actionable output.** 审他视角揭示作者意图、话术策略和信息取舍；自审视角评估风险等级、扭曲风险、合理反对意见和修改建议。
 
 ## Intensity levels
 

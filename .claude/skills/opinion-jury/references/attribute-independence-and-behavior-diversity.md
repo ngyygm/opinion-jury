@@ -21,7 +21,8 @@ Generate and audit these dimensions independently:
 - disclosure strategy;
 - emotional regulation;
 - amplification capacity;
-- public/private gap.
+- public/private gap;
+- response_policy — Whether and when an actor may choose silence over speech. INDEPENDENT from extremity, truthfulness, emotional regulation, etc. A DRIVE_BY actor is not necessarily dishonest; a FULLY_ENGAGED actor is not necessarily truthful.
 
 Examples that must remain possible:
 
@@ -45,7 +46,9 @@ A committed real-run role pool must include counterexamples unless an explicit w
 - an honest extreme actor;
 - a moderate actor whose public expression is not fully honest;
 - a reasoning/emotion counterexample such as analytical + reactive;
-- a moderate actor capable of knowing strategic deception.
+- a moderate actor capable of knowing strategic deception;
+- at least 1 role with response_policy DRIVE_BY or STRATEGIC_WITHHOLD (to exercise the silence mechanic and model real-world drive-by attackers);
+- at least 1 role with response_policy FULLY_ENGAGED (for contrast — someone who would never consider silence).
 
 These are not prevalence claims. They are anti-bias guardrails.
 

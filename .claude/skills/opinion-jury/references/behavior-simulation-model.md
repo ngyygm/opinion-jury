@@ -156,3 +156,41 @@ A 15-year-old with `reasoning_mode: "ANALYTICAL"` and `education_level: "初中"
 A 65-year-old retired worker with `education_level: "小学"` and `truthfulness_mode: "HONEST"` is not stupid — they have decades of life experience. Their honesty is grounded in practical wisdom, not abstract principles. Their `inner_monologue` should reflect someone who has seen things, not someone who has studied things.
 
 The key principle: **every behavioral dimension is real and powerful, but it operates WITHIN the character's demographic reality.**
+
+## Silence as Behavioral Signal
+
+Silence is not an absence of data — it is a first-class behavioral choice with its own private reasoning, public signal, and behavioral interpretation.
+
+### When Actors Stay Silent
+
+Every actor decides per-turn whether to SPEAK or STAY SILENT, governed by their `response_policy` dimension (the 17th behavioral dimension in behavior_profile). The decision is NOT deterministic — the actor LLM judges context, transcript momentum, emotional state, and strategic position.
+
+### Silence Reason Categories
+
+| reason_category | Real-world archetype | Typical behavioral profile |
+|---|---|---|
+| STRATEGIC_POWER_MOVE | "Your challenge is beneath me" | amplification_capacity: INSTITUTIONAL, civility_mode: BLUNT |
+| UNABLE_TO_REFUTE | Disengage rather than concede | belief_update_mode: RESISTANT or IDENTITY_PROTECTIVE |
+| EMOTIONAL_WITHDRAWAL | Overwhelmed, retreats | emotional_regulation: REACTIVE or VOLATILE_STRESS_TEST |
+| TOPIC_DISENGAGEMENT | "Not my fight" | topic_relevance: INDIFFERENT or OFF_TOPIC |
+| RISK_AVOIDANCE | "Speaking hurts me" | risk_tolerance: RISK_AVERSE, self_interest_strength: HIGH |
+| WAITING_FOR_BETTER_MOMENT | Strategic patience | reasoning_mode: ANALYTICAL or OPPORTUNISTIC |
+| CONTEMPT_DISMISSAL | "This discussion is beneath me" | amplification_capacity: HIGH, norm_adherence: LOW |
+| DRIVE_BY_COMPLETE | "Bomb dropped, mission accomplished" | truthfulness_mode: EXAGGERATION or RUMOR_RELAY |
+
+### Silence is Interpretable
+
+Other actors see silence markers (e.g., "(SEAT-X 未发言)") in the transcript and form their own interpretations. A retired textile worker might interpret silence as "they know they're wrong"; a media editor might see it as "strategic withdrawal — they're regrouping"; a 14-year-old might think "boring, nobody's even talking."
+
+The interpretation is role-dependent: the same silence event produces different reactions from different observers.
+
+### Key Design Principle: Think Every Round
+
+Silent actors MUST still produce inner_monologue every round. The think artifact (21 required fields) is mandatory regardless of speak/silent decision. Silence only changes what goes into the public transcript — it does not reduce the private behavioral data.
+
+### Interaction with Other Dimensions
+
+- response_policy is INDEPENDENT from other dimensions unless explicitly correlated via correlation_notes.
+- A STRATEGIC_WITHHOLD actor may have any combination of extremity, truthfulness_mode, or emotional_regulation.
+- A DRIVE_BY actor is not necessarily dishonest — they may sincerely believe their opening statement and simply disengage.
+- An ALWAYS_RESPOND actor is not necessarily engaged — they may give short, dismissive, or off-topic responses while technically "speaking."

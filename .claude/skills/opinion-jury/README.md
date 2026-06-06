@@ -11,3 +11,12 @@ The design deliberately separates:
 - what the final private replay analyst may inspect after adjudication.
 
 It does not assume that extreme actors are dishonest or that neutral actors are truthful. Identity, extremity, belief reliability, intentional deception, rationality, civility, emotionality, and influence are modeled separately.
+
+## Dual-Perspective Report
+
+The final report provides two complementary perspectives on the same content:
+
+- **🔍 Review-Other (审他)**: "What is the author's true intent?" — Analyzes author stance, framing strategy, information selection, and subtext.
+- **🛡️ Review-Self (自审)**: "What happens if I publish this?" — Assesses risk level, distortion risks, legitimate objections, and concrete fixes.
+
+Both perspectives are generated from the same simulation data, giving the reader a complete picture whether they are reviewing their own content before publication or scrutinizing someone else's.

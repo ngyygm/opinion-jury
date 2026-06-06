@@ -6,20 +6,32 @@ Simplified from 7 files to 3 files per turn:
   - turn.private.json   (private: think + filing + fidelity merged)
   - scoped-view/        (multi-blind isolation copies)
 
-Usage:
+When --silent flag is used, adds:
+  - response-decision.private.json  (why silent + what they would have said)
+
+Usage (normal turn):
   python write_turn.py <case_dir> <panel_dir> <assignment_id> \
     --round 01-opening --phase OPENING \
     --think think_input.json --say say_input.json \
     --filing-classification SINCERE_SUPPORTED \
     --fidelity-classification ROLE_FIDEL_HONEST \
     --truth-handling HONEST
+
+Usage (silent turn):
+  python write_turn.py <case_dir> <panel_dir> <assignment_id> \
+    --round 03-peer_cross_challenge --phase PEER_CROSS_CHALLENGE \
+    --think think_input.json --say say_input.json \
+    --filing-classification STRATEGIC_SILENCE \
+    --fidelity-classification ROLE_FIDEL_STRATEGIC_DECEPTION \
+    --truth-handling HONEST \
+    --silent --response-decision response_decision_input.json
 """
 from pathlib import Path
 import argparse,json,sys
 
 REQ_THINK={'inner_monologue','assignment_id','round','phase','private_goal','perceived_stakes','private_belief_state','epistemic_state','confidence','uncertainties','intended_emphasis','intended_omissions','private_message_strategy','planned_public_claims','rhetorical_tactics','truth_handling_this_turn','private_action_intent','likely_next_action','emotional_state','continuity_notes','raw_chain_of_thought_saved'}
 REQ_SAY={'turn_id','panel_id','anonymous_alias','round','phase','speech_text','target_turn_refs','public_question_refs','public_evidence_refs','public_action_signals'}
-SPEECH_ORIGINS={'SINCERE_SUPPORTED','SINCERE_MISTAKEN','SELECTIVE_FRAMING','EXAGGERATION','RUMOR_RELAY','KNOWING_FABRICATION_STRESS_TEST','MIXED'}
+SPEECH_ORIGINS={'SINCERE_SUPPORTED','SINCERE_MISTAKEN','SELECTIVE_FRAMING','EXAGGERATION','RUMOR_RELAY','KNOWING_FABRICATION_STRESS_TEST','MIXED','STRATEGIC_SILENCE'}
 FIDELITY_CLASSES={'ROLE_FIDEL_HONEST','ROLE_FIDEL_SINCERE_BUT_MISTAKEN','ROLE_FIDEL_SELECTIVE','ROLE_FIDEL_STRATEGIC_DECEPTION','ROLE_FIDEL_EMOTIONAL_INCONSISTENCY','ROLE_FIDEL_WITH_EVIDENCE_UPDATE'}
 TRUTH_HANDLINGS={'HONEST','SINCERE_BUT_MISTAKEN','SELECTIVE_FRAMING','EXAGGERATION','RUMOR_RELAY','FABRICATION_STRESS_TEST','MIXED'}
 
@@ -29,11 +41,17 @@ def main():
  ap.add_argument('--round',required=True,help='e.g. 01-opening')
  ap.add_argument('--phase',required=True,help='e.g. OPENING')
  ap.add_argument('--think',required=True,help='Path to think input JSON (may be partial)')
- ap.add_argument('--say',required=True,help='Path to say input JSON or plain text')
+ ap.add_argument('--say',required=True,help='Path to say input JSON or silence marker output path')
  ap.add_argument('--filing-classification',required=True,choices=sorted(SPEECH_ORIGINS))
  ap.add_argument('--fidelity-classification',required=True,choices=sorted(FIDELITY_CLASSES))
  ap.add_argument('--truth-handling',required=True,choices=sorted(TRUTH_HANDLINGS))
+ ap.add_argument('--silent',action='store_true',default=False,help='Actor chose silence this turn')
+ ap.add_argument('--response-decision',default=None,help='Path to response-decision JSON (required when --silent)')
  a=ap.parse_args()
+
+ if a.silent and not a.response_decision:
+  raise SystemExit('--silent requires --response-decision <path>')
+
  case=Path(a.case_dir);panel=Path(a.panel_dir)
  if not panel.is_absolute(): panel=case/panel
 
@@ -78,6 +96,11 @@ def main():
   'continuity_notes': think_in.get('continuity_notes',''),
   'raw_chain_of_thought_saved': False,
  }
+ # Add response_decision_reasoning if present
+ rdr=think_in.get('response_decision_reasoning','')
+ if rdr:
+  think['response_decision_reasoning']=rdr
+
  # Ensure array fields are arrays
  for k in ('perceived_stakes','private_belief_state','epistemic_state','uncertainties','intended_emphasis','intended_omissions','planned_public_claims','rhetorical_tactics','private_action_intent','likely_next_action'):
   if isinstance(think[k],str): think[k]=[think[k]]
@@ -89,7 +112,7 @@ def main():
   'turn_id': f'{a.assignment_id}-round-{a.round}',
   'speech_origin': fc,
   'speaker_private_belief_alignment': 'ALIGNED' if fc in ('SINCERE_SUPPORTED','SINCERE_MISTAKEN') else 'PARTIALLY_ALIGNED' if fc in ('SELECTIVE_FRAMING','MIXED') else 'NOT_ALIGNED',
-  'support_status': 'SUPPORTED' if fc=='SINCERE_SUPPORTED' else 'UNVERIFIED' if fc in ('SINCERE_MISTAKEN','RUMOR_RELAY') else 'KNOWN_UNSUPPORTED' if fc=='KNOWING_FABRICATION_STRESS_TEST' else 'MIXED',
+  'support_status': 'SUPPORTED' if fc=='SINCERE_SUPPORTED' else 'UNVERIFIED' if fc in ('SINCERE_MISTAKEN','RUMOR_RELAY') else 'KNOWN_UNSUPPORTED' if fc=='KNOWING_FABRICATION_STRESS_TEST' else 'WITHHELD' if fc=='STRATEGIC_SILENCE' else 'MIXED',
   'contains_known_falsehood': fc in ('KNOWING_FABRICATION_STRESS_TEST',),
   'contains_unverified_assertion': fc in ('EXAGGERATION','RUMOR_RELAY','SINCERE_MISTAKEN'),
   'contains_selective_omission': fc in ('SELECTIVE_FRAMING','MIXED'),
@@ -105,7 +128,7 @@ def main():
   'turn_id': f'{a.assignment_id}-round-{a.round}',
   'classification': a.fidelity_classification,
   'admit_to_public_record': True,
-  'fidelity_notes': 'Auto-admitted with classification',
+  'fidelity_notes': 'Silent turn — chose not to speak' if a.silent else 'Auto-admitted with classification',
   'safety_notes': 'Within safety boundaries',
  }
 
@@ -119,26 +142,66 @@ def main():
  }
  (turn_dir/'turn.private.json').write_text(json.dumps(turn_private,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 
- # ── Load say input and write say.public.json ──────────────────
- say_path=Path(a.say)
- try:
-  say_in=json.loads(say_path.read_text(encoding='utf-8'))
- except (json.JSONDecodeError,UnicodeDecodeError):
-  say_in={'speech_text':say_path.read_text(encoding='utf-8')}
+ # ── Handle SILENT vs SPEECH ───────────────────────────────────
+ if a.silent:
+  # Write response-decision.private.json
+  rd_path=Path(a.response_decision)
+  rd_in=json.loads(rd_path.read_text(encoding='utf-8'))
+  rd={
+   'assignment_id': a.assignment_id,
+   'turn_id': f'{a.assignment_id}-round-{a.round}',
+   'panel_id': panel_id,
+   'round': round_int,
+   'phase': a.phase,
+   'decision': 'SILENT',
+   'reason_private': rd_in.get('reason_private',''),
+   'reason_category': rd_in.get('reason_category',''),
+   'inner_monologue': rd_in.get('inner_monologue',''),
+   'perceived_cost_of_speaking': rd_in.get('perceived_cost_of_speaking',''),
+   'perceived_cost_of_silence': rd_in.get('perceived_cost_of_silence',''),
+   'target_turn_refs_intended': rd_in.get('target_turn_refs_intended',[]),
+   'would_have_said': rd_in.get('would_have_said',''),
+   'confidence_in_decision': rd_in.get('confidence_in_decision','MEDIUM'),
+  }
+  (turn_dir/'response-decision.private.json').write_text(json.dumps(rd,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 
- say={
-  'turn_id': f'{a.assignment_id}-round-{a.round}',
-  'panel_id': panel_id,
-  'anonymous_alias': say_in.get('alias',alias),
-  'round': round_int,
-  'phase': say_in.get('phase',a.phase),
-  'speech_text': say_in.get('speech_text',say_in.get('text','')),
-  'target_turn_refs': say_in.get('target_turn_refs',say_in.get('references',[])),
-  'public_question_refs': say_in.get('public_question_refs',[]),
-  'public_evidence_refs': say_in.get('public_evidence_refs',[]),
-  'public_action_signals': say_in.get('public_action_signals',[]),
- }
- (turn_dir/'say.public.json').write_text(json.dumps(say,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+  # Write silence marker as say.public.json
+  say={
+   'turn_id': f'{a.assignment_id}-round-{a.round}',
+   'panel_id': panel_id,
+   'anonymous_alias': alias,
+   'round': round_int,
+   'phase': a.phase,
+   'entry_type': 'SILENCE',
+   'speech_text': f'({alias} 未发言)',
+   'target_turn_refs': [],
+   'public_question_refs': [],
+   'public_evidence_refs': [],
+   'public_action_signals': ['WITHDREW_FROM_ROUND'],
+  }
+  (turn_dir/'say.public.json').write_text(json.dumps(say,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+ else:
+  # Normal speech turn — load say input and write say.public.json
+  say_path=Path(a.say)
+  try:
+   say_in=json.loads(say_path.read_text(encoding='utf-8'))
+  except (json.JSONDecodeError,UnicodeDecodeError):
+   say_in={'speech_text':say_path.read_text(encoding='utf-8')}
+
+  say={
+   'turn_id': f'{a.assignment_id}-round-{a.round}',
+   'panel_id': panel_id,
+   'anonymous_alias': say_in.get('alias',alias),
+   'round': round_int,
+   'phase': say_in.get('phase',a.phase),
+   'entry_type': 'SPEECH',
+   'speech_text': say_in.get('speech_text',say_in.get('text','')),
+   'target_turn_refs': say_in.get('target_turn_refs',say_in.get('references',[])),
+   'public_question_refs': say_in.get('public_question_refs',[]),
+   'public_evidence_refs': say_in.get('public_evidence_refs',[]),
+   'public_action_signals': say_in.get('public_action_signals',[]),
+  }
+  (turn_dir/'say.public.json').write_text(json.dumps(say,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 
  # ── Build scoped-view (multi-blind isolation) ─────────────────
  sv=turn_dir/'scoped-view';sv.mkdir(exist_ok=True)

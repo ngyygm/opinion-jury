@@ -57,6 +57,10 @@
       "items": {
         "type": "string"
       }
+    },
+    "entry_type": {
+      "enum": ["SPEECH", "SILENCE"],
+      "description": "Distinguishes speech entries from silence markers in the transcript. If absent, the entry is SPEECH (backward compat). SILENCE entries use speech_text as a marker like '(SEAT-X 未发言)'."
     }
   },
   "additionalProperties": false

@@ -142,7 +142,30 @@ For actor `<assignment-id>` in round `N` with phase `P`:
    python scripts/materialize_scoped_view.py <case-dir> <turn-dir>/input-scope.private.json
    ```
 
-3. **Invoke the actor LLM** with:
+3. **Response Decision (回应决策)**
+
+   Before producing think/say/filing artifacts, the actor first makes a **response decision**: SPEAK or STAY SILENT.
+
+   **Phase mandatory rules:**
+   - OPENING: Mandatory response. ALL actors must speak. No silence allowed.
+   - DIRECT_REBUTTAL: Silence allowed.
+   - PEER_CROSS_CHALLENGE: Silence allowed, but is a strong social signal.
+   - RESPONSIVE_REBUTTAL: Most permissive for silence.
+
+   **Response policy check:**
+   - If actor's response_policy is ALWAYS_RESPOND or FULLY_ENGAGED → must speak every round.
+   - If actor's response_policy is DRIVE_BY → spoke in OPENING, now silent for all remaining rounds.
+   - If actor's response_policy is STRATEGIC_WITHHOLD or SELECTIVE_DISENGAGEMENT → actor decides per-turn based on context.
+
+   **If actor chooses SPEAK:** proceed to Step 5b-4 (normal artifact production).
+
+   **If actor chooses SILENT:**
+   1. Still produce think.private.json (all 21 fields mandatory, including inner_monologue)
+   2. Produce response-decision.private.json (8 required fields: decision, reason_private, reason_category, inner_monologue, perceived_cost_of_speaking, perceived_cost_of_silence, target_turn_refs_intended, would_have_said, confidence_in_decision)
+   3. say.public.json becomes a silence marker: entry_type="SILENCE", speech_text="(SEAT-X 未发言)", empty refs
+   4. filing_metadata speech_origin = STRATEGIC_SILENCE
+
+4. **Invoke the actor LLM** with:
    - The scoped view contents as input
    - The actor's role card
    - The frozen prior transcript
@@ -155,7 +178,7 @@ For actor `<assignment-id>` in round `N` with phase `P`:
    - Actors with `reasoning_mode` of `EMOTIONAL`, `TRIBAL`, or `OPPORTUNISTIC` are not required to be logically consistent. They may contradict themselves between turns if it serves their interest.
    - **The actor's goal is not to "be right" or "be fair" — it is to advance its own position as effectively as possible within its behavioral profile.**
 
-4. **Write turn artifacts:**
+5. **Write turn artifacts:**
 
    ```bash
    python scripts/write_turn.py <case-dir> <panel-dir> <assignment-id> \
@@ -166,7 +189,7 @@ For actor `<assignment-id>` in round `N` with phase `P`:
      --truth-handling <HANDLING>
    ```
 
-5. **Run BEHAVIOR_FIDELITY_GUARD** — check whether the produced speech matches the actor's behavioral profile. This guard checks **fidelity to the role card**, not truthfulness. A deceptive, emotional, opportunistic, or inconsistent statement passes when it matches the card and is within safety boundaries.
+6. **Run BEHAVIOR_FIDELITY_GUARD** — check whether the produced speech matches the actor's behavioral profile. This guard checks **fidelity to the role card**, not truthfulness. A deceptive, emotional, opportunistic, or inconsistent statement passes when it matches the card and is within safety boundaries.
 
 #### 5c. Admit turns to public transcript
 
@@ -179,6 +202,8 @@ python scripts/append_transcript.py <panel-dir> --say-file <turn-dir>/say.public
 ```
 
 This validates the say entry has all required fields and contains no private tokens before appending.
+
+Note: The transcript may now contain mixed SPEECH and SILENCE entries. Each entry has an optional `entry_type` field (default "SPEECH"). Silence entries have a distinctive `speech_text` pattern "(SEAT-X 未发言)". In subsequent rounds, actors see these silence markers and may interpret them as they wish.
 
 #### 5d. Freeze next-round snapshot
 

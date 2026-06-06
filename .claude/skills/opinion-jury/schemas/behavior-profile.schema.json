@@ -18,6 +18,7 @@
     "emotional_regulation",
     "amplification_capacity",
     "public_private_gap",
+    "response_policy",
     "correlation_notes"
   ],
   "properties": {
@@ -145,6 +146,16 @@
         "EXTREME_SEEKING"
       ],
       "description": "Appetite for taking public risks. A risk-averse self-interested actor may privately oppose but publicly stay silent; a risk-seeking self-interested actor may publicly confront regardless of consequences."
+    },
+    "response_policy": {
+      "enum": [
+        "ALWAYS_RESPOND",
+        "FULLY_ENGAGED",
+        "STRATEGIC_WITHHOLD",
+        "SELECTIVE_DISENGAGEMENT",
+        "DRIVE_BY"
+      ],
+      "description": "Controls whether and when an actor may choose silence over speech. ALWAYS_RESPOND = must speak every round (backward compat default). FULLY_ENGAGED = always responds, would never consider silence. STRATEGIC_WITHHOLD = may stay silent when it serves their interest. SELECTIVE_DISENGAGEMENT = disengages from topics they can't handle. DRIVE_BY = speaks once in OPENING then disappears."
     },
     "correlation_notes": {
       "type": "array",
